@@ -26,11 +26,12 @@
         ], throwOnError: false});"></script>
 </head>
 <body>
+
+<a class="download-badge" href="attrforge.docx" title="Download a Microsoft Word version of this paper with native editable equations">Download .docx</a>
+
 <main>
 
 <header class="paper-title">
-  <a class="download-badge" href="attrforge.docx" title="Download a Microsoft Word version of this paper with native editable equations">Download .docx</a>
-
   <h1>Adversarial Prompt Debugging for LLM Synthetic Data Generation</h1>
   <div class="authors">
     <strong>Alexander Apartsin</strong><sup>1</sup> &emsp;
@@ -360,7 +361,7 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 <!-- ============================================================ -->
 <h2 id="sec-results"><span class="section-num">7</span>Results</h2>
 
-<h3><span class="subsection-num">7.1</span>Headline finding: adding 4 GAN adversaries to a 3-critic loop drops downstream F1 by 0.18</h3>
+<h3><span class="subsection-num">7.1</span>Headline finding under a TF-IDF reader: a 0.18 cost (directional, underpowered)</h3>
 
 <div class="table-wrap">
 <table>
@@ -388,7 +389,7 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 </div>
 
 <p>
-  Three observations from Table 2. <strong>(i)</strong> The classical three-critic loop (<code>full_classic</code>) achieves the best downstream macro F1 ($0.58 \pm 0.05$); adding the four GAN-style adversaries (<code>full_attrforge</code>) drops macro F1 to $0.40 \pm 0.06$, a $0.18$ gap that is more than three times the cross-seed standard deviation. <strong>(ii)</strong> The realism discriminator moves <em>away</em> from the chance-level target through iteration: <code>full_classic</code> reaches $0.92 \pm 0.14$ accuracy and <code>full_attrforge</code> reaches $0.83 \pm 0.17$ (chance is $0.50$). Iteration is making the samples more detectable as synthetic, not less. <strong>(iii)</strong> Attribute fidelity is shockingly low at $0.06 \pm 0.06$ and $0.10 \pm 0.10$ for the two conditions where the verifier runs: the LLM verifier judges that fewer than 1 in 10 samples actually match the requested attribute vector.
+  Three observations from Table 2. <strong>(i)</strong> Under TF-IDF $+$ logistic regression, the three-critic loop (<code>full_classic</code>) achieves macro F1 $0.58 \pm 0.05$; adding the four GAN-style adversaries (<code>full_attrforge</code>) drops it to $0.40 \pm 0.06$. The mean paired difference is $-0.187$ with 95% bootstrap CI $[-0.267, -0.067]$. The gap is in the same direction across all three seeds (per-seed diffs $-0.23$, $-0.27$, $-0.07$); the conventional paired-t $p=0.09$ and Wilcoxon $p=0.25$ fall short of $0.05$ at $N=3$, so the finding is directional rather than significant under standard tests. <strong>(ii)</strong> The loop-internal realism discriminator moves <em>away</em> from the chance-level target through iteration: <code>full_classic</code> reaches $0.92 \pm 0.14$ accuracy and <code>full_attrforge</code> reaches $0.83 \pm 0.17$ (chance is $0.50$). Iteration is making the samples more detectable as synthetic, not less. <strong>(iii)</strong> Attribute fidelity is low: $0.06 \pm 0.06$ and $0.10 \pm 0.10$ for the two conditions where the verifier runs. The LLM verifier judges that fewer than 1 in 10 samples match the requested attribute vector.
 </p>
 
 <p>
@@ -400,7 +401,7 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
   <figcaption>Figure 2: Downstream classifier accuracy and macro F1 with TF-IDF + logistic regression, mean &plusmn; std across 3 random seeds. <code>full_classic</code> achieves the best F1 (0.58 &plusmn; 0.05); <code>full_attrforge</code> drops to 0.40 &plusmn; 0.06. The 0.18 gap on TF-IDF is the headline of the first half of our story.</figcaption>
 </figure>
 
-<h3><span class="subsection-num">7.2</span>The tradeoff is classifier-dependent (and reverses with sentence-transformer features)</h3>
+<h3><span class="subsection-num">7.2</span>The cost vanishes under a sentence-transformer reader (not a reversal)</h3>
 
 <p>
   A weak downstream classifier (TF-IDF + logistic regression) is the simplest train-on-synthetic / test-on-real protocol, but it gives every downstream signal a strong keyword-consistency prior. To check whether the headline tradeoff is a property of the synthetic data or a brittleness of the TF-IDF reading of it, we ran the same train-on-synth / test-on-real protocol with three downstream classifiers: TF-IDF word unigrams + bigrams, TF-IDF character $n$-grams of size 3 to 5, and sentence-transformer (MiniLM) embeddings of the full sample. All three feed into a logistic-regression head with the same hyperparameters.
@@ -408,7 +409,7 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 
 <figure>
   <img src="figures/main_run_002_multi_classifier.png" alt="Multi-classifier downstream F1 across all conditions" />
-  <figcaption>Figure 3: Downstream macro F1 across three classifier choices on the same synthetic-data batches (live <code>gpt-4o-mini</code>, mean &plusmn; std across 3 random seeds). The ranking of <code>full_classic</code> vs <code>full_attrforge</code> reverses between TF-IDF (where the 3-critic loop wins) and sentence-transformer embeddings (where the 7-critic loop wins). The intermediate-capacity character $n$-gram classifier sits roughly between the two.</figcaption>
+  <figcaption>Figure 3: Downstream macro F1 across three classifier choices on the same synthetic-data batches (live <code>gpt-4o-mini</code>, mean &plusmn; std across 3 random seeds). Under TF-IDF word features the 3-critic loop is reliably ahead of the 7-critic loop across all 3 seeds; under sentence-transformer embeddings the same comparison is statistically indistinguishable from zero (paired-t $p=0.66$, CI $[-0.07, +0.18]$). Means alone show a small positive sign for the 7-critic loop under embeddings, but with $N=3$ seeds we cannot reject the null of no difference. The character $n$-gram classifier sits between the two.</figcaption>
 </figure>
 
 <div class="table-wrap">
@@ -457,11 +458,11 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 
 <figure>
   <img src="figures/main_run_002_iteration_curves.png" alt="Macro F1 over iterations" />
-  <figcaption>Figure 4: Per-iteration downstream macro F1 across 3 seeds (each point trains the classifier on that iteration's batch only). All conditions show a transient iter-1 dip, which we attribute to the simulator's <em>generator</em> responding to early prompt-updater instructions in ways that initially hurt label discriminability before consolidating. By iteration 2 the iterated conditions converge to similar F1.</figcaption>
+  <figcaption>Figure 4: Per-iteration downstream macro F1 with TF-IDF features (each point trains the classifier on that single iteration's batch of 16 samples; mean &plusmn; std across 3 seeds). The trajectories are non-monotonic. <code>self_critique</code> has the deepest iter-1 dip ($0.35 \to 0.19 \to 0.34$). At iteration 2, <code>full_attrforge</code> has the highest mean F1 of any iterated condition ($0.44 \pm 0.11$), above <code>full_classic</code> ($0.30 \pm 0.08$); this reverses the cumulative-pool ranking from Table 2 ($0.40$ vs $0.58$).</figcaption>
 </figure>
 
 <p>
-  The plot makes two patterns honest. First, the iter-1 dip is not specific to AttrForge; it is a shared simulator behavior. Second, at iteration 2 <code>full_attrforge</code> sits slightly below <code>full_classic</code> in the per-iteration metric ($0.69$ vs $0.79$ on the same seed mean); this gap closes when the classifier is trained on the cumulative pool (Table 2). We do not claim <code>full_attrforge</code> dominates <code>full_classic</code> on downstream F1 in this setting; we claim it dominates on the realism axis (Section 7.2) and on every post-hoc adversary metric (Section 8).
+  The per-iteration vs cumulative inversion is worth noting. At iteration 2 alone (the final iteration), <code>full_attrforge</code> has the highest mean per-iteration F1; the cumulative classifier (trained on all 48 samples pooled across iterations 0, 1, 2) reverses this. The mechanism is straightforward: the prompt-updater's instruction set accumulates across iterations, so iteration 0 of <code>full_attrforge</code> uses the same starter prompt as everyone else, while iteration 2 carries 11.7 banned-phrasing constraints plus pack-pattern instructions. The cumulative classifier averages over heterogeneous training distributions; the per-iteration classifier sees one homogeneous distribution. Neither view is wrong; together they show that the 7-critic loop's effect is back-loaded, not uniform across iterations.
 </p>
 
 <h3><span class="subsection-num">7.4</span>Per-class F1</h3>
@@ -580,7 +581,7 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 <h2 id="sec-limitations"><span class="section-num">10</span>Limitations</h2>
 
 <ul>
-  <li><strong>Live-LLM results pending.</strong> Our headline numbers come from a deterministic prompt-sensitive simulator. The same code runs against OpenAI or Anthropic backends; our live-LLM attempt was halted by an <code>insufficient_quota</code> error on the first call of every condition, before any iteration completed. The harness will execute the same protocol against any account with available budget.</li>
+  <li><strong>Small evaluation budget.</strong> Our headline numbers come from a live <code>gpt-4o-mini</code> run with 3 random seeds, 7 conditions, 3 iterations of 16 samples each (21 condition-runs), and a 10-item held-out real test set. Cross-seed standard deviation is large for several conditions (e.g., $\pm 0.19$ macro F1 for <code>few_shot</code> under TF-IDF), the conventional paired-t and Wilcoxon tests are underpowered, and the bootstrap CIs are correspondingly wide. The directional findings (TF-IDF gap, realism discriminator drift) are consistent across seeds; the per-classifier ordering claims (Section 7.2) are not statistically significant at $\alpha=0.05$. A multi-task and multi-domain follow-up with 5 or more seeds and a larger held-out test would tighten every interval; the harness is built for that re-run.</li>
   <li><strong>Single domain, single test split.</strong> One task (customer-support intent), 40 real examples, 10 held-out test. Mode-Seeking and AUROC findings (Section 8) are bounded by the simulator's template inventory; a real LLM is expected to widen the operating range.</li>
   <li><strong>10-item test set saturates the downstream metric.</strong> Differences below $0.1$ F1 are below the noise floor. A 100+ example test set is required for the downstream metric to provide additional differentiation; we report 3-seed std-dev rather than treating point estimates as reliable.</li>
   <li><strong>Pack discriminator with $n_{\text{comparisons}} = 16$ in the audit (vs $4$ in the loop) quantizes pack accuracy to $17$ values.</strong> Larger $n_{\text{comparisons}}$ would tighten error bars on the audit at proportional API cost.</li>
@@ -594,7 +595,7 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 <h2 id="sec-conclusion"><span class="section-num">11</span>Conclusion</h2>
 
 <p>
-  We presented AttrForge, a multi-objective prompt-debugging framework that treats synthetic data generation as iterative critic-guided prompt optimization. We then transferred four mode-collapse defenses from the GAN literature into the prompt-debugging setting: Pack Discriminator, Mode-Seeking, Mode Hunter with persistent memory, and Coverage Hole Finder via density-ratio estimation. Through multi-seed simulator-validated experiments and a post-hoc audit that runs every adversary on every condition's final batch, we showed that the full AttrForge stack drives the realism discriminator below all other iterated conditions and reaches the structural Pack Discriminator target exactly, while exposing two negative findings (mode-seeking saturation, AUROC at 1.0) that motivate live-LLM experiments.
+  We presented a multi-objective prompt-debugging framework that treats LLM synthetic data generation as iterative critic-guided prompt optimization, and transferred four mode-collapse defenses from the GAN literature into the prompt-debugging setting (Pack Discriminator, Mode-Seeking, Mode Hunter with persistent memory, Coverage Hole Finder via density-ratio estimation). Across 3 random seeds on a customer-support intent task with live <code>gpt-4o-mini</code>, the seven-critic loop scores 0.18 macro F1 below a three-critic baseline under a TF-IDF $+$ logistic-regression downstream classifier (directional across all 3 seeds, 95% bootstrap CI excludes zero, paired-t $p=0.09$ at $N=3$); the same comparison under sentence-transformer features is statistically indistinguishable from zero. We argue this is the right scientific answer to the natural "does adding more LLM critics produce better synthetic data" question on this scale of experiment: under one downstream reader there is a directional cost, under another the cost is not detectable. We additionally contribute a post-hoc adversary audit protocol with a real-vs-real null reference, and two honest negative findings (the loop-internal realism discriminator drifts away from chance through iteration; the Coverage Hole AUROC remains at $1.00$ throughout). All code, configurations, per-iteration manifests, audit artifacts, and per-seed downstream results are released.
 </p>
 
 <p>
@@ -646,12 +647,11 @@ python scripts/aggregate_multiseed.py --base main_run_002</code></pre>
 <!-- ============================================================ -->
 <h2 id="bibtex"><span class="section-num">A</span>BibTeX</h2>
 
-<pre><code>@misc{apartsin2026attrforge,
-  title  = {More Critics, Worse Data? {GAN}-Style Adversaries Expose a
-            Diversity-Discriminability Tradeoff in {LLM} Synthetic Data Generation},
+<pre><code>@misc{apartsin2026adversarial,
+  title  = {Adversarial Prompt Debugging for {LLM} Synthetic Data Generation},
   author = {Apartsin, Alexander and Aperstein, Yehudit},
   year   = {2026},
-  note   = {Research preview, \url{https://apartsinprojects.github.io/PromptForge/}}
+  note   = {\url{https://apartsinprojects.github.io/PromptForge/}}
 }
 </code></pre>
 

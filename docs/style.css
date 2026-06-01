@@ -113,13 +113,14 @@ header.paper-title .meta {
 /* ---------- Download badge: small, paper-style link ---------- */
 
 .download-badge {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
   font-family: var(--font-body);
   font-size: 10pt;
   font-weight: 600;
-  padding: 0.35rem 0.75rem;
+  padding: 0.4rem 0.85rem;
   border: 1px solid var(--accent);
   color: var(--accent) !important;
   background: var(--bg);
@@ -128,21 +129,29 @@ header.paper-title .meta {
   letter-spacing: 0.01em;
   white-space: nowrap;
   line-height: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .download-badge:hover {
   background: var(--accent);
   color: var(--bg) !important;
   text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .download-badge {
-    position: static;
-    display: inline-block;
-    margin: 0 auto 0.8rem;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 9pt;
+    padding: 0.3rem 0.6rem;
   }
 }
+
+@media print {
+  .download-badge { display: none; }
+}
+
 
 /* ---------- Abstract ---------- */
 
@@ -397,5 +406,5 @@ footer.paper-footer {
   pre, table, figure { page-break-inside: avoid; }
   h2 { page-break-after: avoid; }
   nav.toc { page-break-after: always; }
-  header.paper-title .download-badge { display: none; }
+  .download-badge { display: none; }
 }
