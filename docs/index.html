@@ -397,20 +397,15 @@ python scripts/aggregate_multiseed.py</code></pre>
   The adversaries are active throughout: the Mode Hunter accumulates a persistent library of $11.67 \pm 0.58$ banned phrasings across 3 iterations for <code>full_attrforge</code>, and we verify deterministically that each banned phrasing is suppressed in subsequent generation. The framework's design intent is observable in the output: the samples are simultaneously more surface-diverse, less attribute-faithful by LLM-verifier judgment, more LLM-detectable by a per-sample realism discriminator, and harder for a TF-IDF classifier to discriminate by intent.
 </p>
 
-<figure>
-  <img src="figures/main_run_002_main_metrics.png" alt="Downstream classifier accuracy and macro F1 with TF-IDF features" />
-  <figcaption>Figure 2: Downstream classifier accuracy and macro F1 with TF-IDF + logistic regression, mean &plusmn; std across 3 random seeds. <code>full_classic</code> achieves the best F1 (0.58 &plusmn; 0.05); <code>full_attrforge</code> drops to 0.40 &plusmn; 0.06. The 0.18 gap on TF-IDF is the headline of the first half of our story.</figcaption>
-</figure>
-
-<h3><span class="subsection-num">7.2</span>Multi-classifier evaluation: the gap closes under a sentence-transformer reader</h3>
+<h3><span class="subsection-num">7.2</span>Multi-classifier evaluation: the picture depends on the reader</h3>
 
 <p>
-  A weak downstream classifier (TF-IDF + logistic regression) is the simplest train-on-synthetic / test-on-real protocol, but it gives every downstream signal a strong keyword-consistency prior. To check whether the headline tradeoff is a property of the synthetic data or a brittleness of the TF-IDF reading of it, we ran the same train-on-synth / test-on-real protocol with three downstream classifiers: TF-IDF word unigrams + bigrams, TF-IDF character $n$-grams of size 3 to 5, and sentence-transformer (MiniLM) embeddings of the full sample. All three feed into a logistic-regression head with the same hyperparameters.
+  A single weak downstream classifier (TF-IDF + logistic regression) is the simplest train-on-synthetic / test-on-real protocol, but it gives every downstream signal a strong keyword-consistency prior. To check whether the TF-IDF gap reported in Section 7.1 is a property of the synthetic data or a property of the TF-IDF reading of it, we run the same protocol with three downstream classifiers: TF-IDF word unigrams + bigrams, TF-IDF character $n$-grams of size 3 to 5, and sentence-transformer (MiniLM) embeddings of the full sample. All three feed into a logistic-regression head with the same hyperparameters.
 </p>
 
 <figure>
   <img src="figures/main_run_002_multi_classifier.png" alt="Multi-classifier downstream F1 across all conditions" />
-  <figcaption>Figure 3: Downstream macro F1 across three classifier choices on the same synthetic-data batches (live <code>gpt-4o-mini</code>, mean &plusmn; std across 3 random seeds). Under TF-IDF word features the 3-critic loop is consistently ahead of the 7-critic loop across all 3 seeds. Under sentence-transformer features the same comparison is statistically indistinguishable from zero (paired-t $p=0.66$, 95% bootstrap CI $[-0.07, +0.18]$ on the paired diff). The character $n$-gram classifier sits between the two.</figcaption>
+  <figcaption>Figure 2: Downstream macro F1 on the held-out real test set across three classifier choices and the same synthetic-data batches (mean &plusmn; std across 3 random seeds). The TF-IDF gap reported in Section 7.1 is visible in the leftmost bars of each group, but it does not survive a classifier swap: under sentence-transformer features the comparison between <code>full_classic</code> and <code>full_attrforge</code> is statistically indistinguishable (paired-t $p=0.66$, 95% bootstrap CI $[-0.07, +0.18]$ on the paired diff). The character $n$-gram classifier sits between the two extremes.</figcaption>
 </figure>
 
 <div class="table-wrap">
@@ -451,14 +446,14 @@ python scripts/aggregate_multiseed.py</code></pre>
 
 <figure>
   <img src="figures/main_run_002_realism_curve.png" alt="Realism discriminator accuracy per condition" />
-  <figcaption>Figure 4: Loop-internal realism discriminator accuracy on the mixed real/synth batch, mean &plusmn; std across 3 seeds. Chance level ($0.50$) is the target. Conditions without a realism discriminator default to chance because the metric is not computed for them. Among conditions where the discriminator runs, <code>full_attrforge</code> ($0.83 \pm 0.17$) is the closest to chance, beating <code>full_classic</code> ($0.92 \pm 0.14$) by $0.09$. Both are far from the chance target: the loop makes samples <em>more</em> detectable, not less, but the GAN-style adversaries soften the trend.</figcaption>
+  <figcaption>Figure 3: Loop-internal realism discriminator accuracy on the mixed real/synth batch, mean &plusmn; std across 3 seeds. Chance level ($0.50$) is the target. Conditions without a realism discriminator default to chance because the metric is not computed for them. Among conditions where the discriminator runs, <code>full_attrforge</code> ($0.83 \pm 0.17$) is the closest to chance, beating <code>full_classic</code> ($0.92 \pm 0.14$) by $0.09$. Both are far from the chance target: the loop makes samples <em>more</em> detectable, not less, but the GAN-style adversaries soften the trend.</figcaption>
 </figure>
 
 <h3><span class="subsection-num">7.4</span>Per-iteration trajectory</h3>
 
 <figure>
   <img src="figures/main_run_002_iteration_curves.png" alt="Macro F1 over iterations" />
-  <figcaption>Figure 5: Per-iteration downstream macro F1 with TF-IDF features (each point trains the classifier on that single iteration's batch of 16 samples; mean &plusmn; std across 3 seeds). The trajectories are non-monotonic. <code>self_critique</code> has the deepest iter-1 dip ($0.35 \to 0.19 \to 0.34$). At iteration 2, <code>full_attrforge</code> has the highest mean F1 of any iterated condition ($0.44 \pm 0.11$), above <code>full_classic</code> ($0.30 \pm 0.08$); this reverses the cumulative-pool ranking from Table 3 ($0.40$ vs $0.58$).</figcaption>
+  <figcaption>Figure 4: Per-iteration downstream macro F1 with TF-IDF features (each point trains the classifier on that single iteration's batch of 16 samples; mean &plusmn; std across 3 seeds). The trajectories are non-monotonic. <code>self_critique</code> has the deepest iter-1 dip ($0.35 \to 0.19 \to 0.34$). At iteration 2, <code>full_attrforge</code> has the highest mean F1 of any iterated condition ($0.44 \pm 0.11$), above <code>full_classic</code> ($0.30 \pm 0.08$); this reverses the cumulative-pool ranking from Table 3 ($0.40$ vs $0.58$).</figcaption>
 </figure>
 
 <p>
@@ -469,7 +464,7 @@ python scripts/aggregate_multiseed.py</code></pre>
 
 <figure>
   <img src="figures/main_run_002_per_class_f1.png" alt="Per-class F1 per condition" />
-  <figcaption>Figure 6: Per-class F1 on the held-out real test set, mean &plusmn; std across 3 seeds (TF-IDF features). All conditions achieve relatively high F1 on classes with strong keyword signatures; <code>general_question</code> is the hardest class universally.</figcaption>
+  <figcaption>Figure 5: Per-class F1 on the held-out real test set, mean &plusmn; std across 3 seeds (TF-IDF features). All conditions achieve relatively high F1 on classes with strong keyword signatures; <code>general_question</code> is the hardest class universally.</figcaption>
 </figure>
 
 <!-- ============================================================ -->
@@ -481,7 +476,7 @@ python scripts/aggregate_multiseed.py</code></pre>
 
 <figure>
   <img src="figures/audit_protocol.png" alt="Schematic of the post-hoc adversary audit protocol. Top: the tautological-ablation failure mode of naive ablation tables, where critic metrics are 'n/a' for conditions that did not enable the critic. Bottom: the post-hoc audit, which runs every adversary on every condition's final batch with re-seeded RNG and a real-vs-real null reference." />
-  <figcaption>Figure 7: The post-hoc audit protocol. Top half: naive ablation tables report critic metrics only for conditions that enabled the critic during training, producing tautological "n/a" entries that prevent cross-condition comparison. Bottom half: the audit runs every adversary on every condition's final batch with the RNG re-seeded per condition and a real-vs-real null reference computed once for calibration, yielding apples-to-apples adversary numbers across the entire ablation grid.</figcaption>
+  <figcaption>Figure 6: The post-hoc audit protocol. Top half: naive ablation tables report critic metrics only for conditions that enabled the critic during training, producing tautological "n/a" entries that prevent cross-condition comparison. Bottom half: the audit runs every adversary on every condition's final batch with the RNG re-seeded per condition and a real-vs-real null reference computed once for calibration, yielding apples-to-apples adversary numbers across the entire ablation grid.</figcaption>
 </figure>
 
 <p>
@@ -489,7 +484,7 @@ python scripts/aggregate_multiseed.py</code></pre>
 
 <figure>
   <img src="figures/main_run_002_audit_differential.png" alt="Post-hoc adversary audit" />
-  <figcaption>Figure 8: Post-hoc audit results. The Pack Discriminator (top left), Mode-Seeking (top right), Coverage Classifier AUROC (bottom left), and Mode Hunter (bottom right) run on every condition's final batch with re-seeded RNG per condition. Mean &plusmn; std over 3 random seeds. The dashed horizontal line in the Pack panel is the null reference: Pack accuracy when both packs are drawn from the real set ($\mathrm{PackAcc}_{\text{null}} = 0.54$ in this domain). Chance is $0.50$.</figcaption>
+  <figcaption>Figure 7: Post-hoc audit results. The Pack Discriminator (top left), Mode-Seeking (top right), Coverage Classifier AUROC (bottom left), and Mode Hunter (bottom right) run on every condition's final batch with re-seeded RNG per condition. Mean &plusmn; std over 3 random seeds. The dashed horizontal line in the Pack panel is the null reference: Pack accuracy when both packs are drawn from the real set ($\mathrm{PackAcc}_{\text{null}} = 0.54$ in this domain). Chance is $0.50$.</figcaption>
 </figure>
 
 <div class="table-wrap">
