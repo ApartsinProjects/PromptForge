@@ -50,22 +50,6 @@
   </p>
 </section>
 
-<nav class="toc">
-  <h3>Contents</h3>
-  <ol>
-    <li><a href="#sec-introduction">Introduction</a></li>
-    <li><a href="#sec-related">Related work</a></li>
-    <li><a href="#sec-problem">Problem formulation</a></li>
-    <li><a href="#sec-method">Method: the AttrForge loop</a></li>
-    <li><a href="#sec-adversaries">GAN-style mode-collapse adversaries</a></li>
-    <li><a href="#sec-experiments">Experimental setup</a></li>
-    <li><a href="#sec-results">Results</a></li>
-    <li><a href="#sec-audit">Post-hoc adversary audit</a></li>
-    <li><a href="#sec-discussion">Discussion</a></li>
-    <li><a href="#sec-limitations">Limitations</a></li>
-    <li><a href="#sec-conclusion">Conclusion</a></li>
-  </ol>
-</nav>
 
 <!-- ============================================================ -->
 <h2 id="sec-introduction"><span class="section-num">1</span>Introduction</h2>
@@ -86,16 +70,9 @@
   This paper bridges three literatures to make the tradeoff measurable. (i) From <em>steering and feedback</em>, we inherit automated prompt optimization with LLM judges. (ii) From <em>generative-adversarial networks</em>, we inherit batch-level defenses against mode collapse (PacGAN, MSGAN, minibatch features <a class="cite" href="#ref-salimans">[2]</a>, unrolled GANs <a class="cite" href="#ref-unrolled">[7]</a>, WGAN <a class="cite" href="#ref-wgan">[8]</a>). (iii) From <em>distributional diversity measurement</em>, we inherit batch-level scalars (FID <a class="cite" href="#ref-fid">[22]</a>, precision/recall <a class="cite" href="#ref-sajjadi">[23]</a>, density/coverage <a class="cite" href="#ref-naeem">[24]</a>). Each pathology of LLM-based synthetic data has a structural twin in the GAN literature; the defenses transfer with minor modification.
 </p>
 
-<div class="contribution">
-  <span class="callout-label">Contributions</span>
-  <ol>
-    <li><strong>A multi-objective prompt-debugging framework</strong> with structured named-complaint feedback, length-budgeted rewrites, and ablation flags per critic (Section 4).</li>
-    <li><strong>Four GAN-inspired mode-collapse adversaries</strong> adapted to the prompt-debugging setting: Pack Discriminator (PacGAN analog), Mode-Seeking ratio (MSGAN analog), Mode Hunter with persistent banned-phrasing memory, and Coverage Hole Finder via density-ratio estimation (Section 5).</li>
-    <li><strong>A post-hoc adversary audit protocol</strong> that runs every critic on every condition's final batch with re-seeded RNG and a real-vs-real null reference, breaking the tautological-firing failure mode of naive ablations (Section 8).</li>
-    <li><strong>A representation-dependent diversity-utility tradeoff</strong> as the main empirical finding (Section 7): the same synthetic-data batches yield opposite condition rankings under TF-IDF vs sentence-transformer downstream classifiers. With TF-IDF, the 7-critic loop drops macro F1 by 0.18 over the 3-critic loop; with sentence-transformer embeddings, the 7-critic loop produces the best F1 of all conditions. We argue this is the right baseline for train-on-synth / test-on-real reporting: multi-classifier evaluation, not single-classifier evaluation.</li>
-    <li><strong>A complete open-source harness</strong> with a downstream evaluator that ships three classifier choices by default, three backends (OpenAI, Anthropic, deterministic simulator), per-iteration on-disk manifests, and a complaint-grammar contract that lets future work add new critics without breaking the audit protocol.</li>
-  </ol>
-</div>
+<p>
+  Our contributions are: (1) a multi-objective prompt-debugging framework with structured named-complaint feedback, length-budgeted rewrites, and a per-critic ablation contract (Section 4); (2) four GAN-inspired mode-collapse adversaries adapted to the prompt-debugging setting (Pack Discriminator, Mode-Seeking ratio, Mode Hunter with persistent banned-phrasing memory, and Coverage Hole Finder via density-ratio estimation; Section 5); (3) a post-hoc adversary audit protocol that runs every critic on every condition's final batch with re-seeded RNG and a real-vs-real null reference, breaking the tautological-firing failure mode of naive ablations (Section 8); (4) a representation-dependent diversity-utility tradeoff as the main empirical finding (Section 7); and (5) a complete open-source harness with a multi-classifier downstream evaluator, three backends, per-iteration manifests, and a complaint-grammar contract.
+</p>
 
 
 
@@ -196,10 +173,9 @@ $$
   In Section 5 we add four batch-level objectives that the GAN-style adversaries optimize: Pack accuracy ($\mathcal{O}_{\text{pack}}$, target $0.5$), Mode-Seeking ratio relative to real ($\mathcal{O}_{\text{ms}}$, target $1.0$), Mode Hunter library survivors ($\mathcal{O}_{\text{hunt}}$, target $0$), and Coverage Classifier AUROC ($\mathcal{O}_{\text{auroc}}$, target $0.5$).
 </p>
 
-<div class="note">
-  <span class="callout-label">Why a prompt, not weights?</span>
-  Optimizing the prompt rather than the model weights yields four practical advantages: (i) zero parameter footprint, (ii) inspectable optimization trajectory (every prompt version is a reviewable text artifact), (iii) immediate applicability to closed-weights models, and (iv) cheap multi-seed re-runs (no GPU required).
-</div>
+<p>
+  <em>Why optimize the prompt rather than weights?</em> Optimizing the prompt yields four practical advantages: zero parameter footprint, inspectable optimization trajectory (every prompt version is a reviewable text artifact), immediate applicability to closed-weights models, and cheap multi-seed re-runs without GPU.
+</p>
 
 <!-- ============================================================ -->
 <h2 id="sec-method"><span class="section-num">4</span>Method: the AttrForge loop</h2>
@@ -318,10 +294,9 @@ $$
   The classifier's overall AUROC is itself a coverage signal: AUROC $\to 0.5$ means the synthetic distribution covers the real one; AUROC $\to 1.0$ means the two are perfectly separable (a coverage failure). The top exemplars are rendered into the next prompt as positive few-shot anchors.
 </p>
 
-<div class="note">
-  <span class="callout-label">Symmetry with the baseline critics</span>
-  The Pack Discriminator and Mode Hunter emit named, falsifiable complaints (pack patterns, banned substrings) and integrate cleanly with the updater template. Mode-Seeking and Coverage Hole Finder emit deterministic scalar / vector outputs and a structured exemplar list; the updater renders these into named clauses but the symmetry is partial. We discuss this asymmetry in <a href="#sec-limitations">Section 9</a>.
-</div>
+<p>
+  <em>Remark on symmetry.</em> The Pack Discriminator and Mode Hunter emit named, falsifiable complaints (pack patterns, banned substrings) and integrate cleanly with the updater template. Mode-Seeking and Coverage Hole Finder emit deterministic scalar/vector outputs and a structured exemplar list; the updater renders these into named clauses, but the symmetry is partial. We discuss this asymmetry in <a href="#sec-limitations">Section 9</a>.
+</p>
 
 <!-- ============================================================ -->
 <h2 id="sec-experiments"><span class="section-num">6</span>Experimental setup</h2>
@@ -336,10 +311,9 @@ $$
   Four backends are implemented (<code>openai</code>, <code>anthropic</code>, <code>echo</code> for unit tests, and a deterministic prompt-sensitive <code>sim</code>). All seven critics, the generator, and the updater are backend-agnostic. The headline results in this paper use the <code>sim</code> backend, which implements rule-based generation that <em>responds to specific prompt content</em> (forbidden-phrasing lists, opener-variation directives, scenario-rarity instructions, typo-injection requests). Every condition shares an identical simulator and an identical seed, so any measured difference attributes to the loop's prompt evolution.
 </p>
 
-<div class="caveat">
-  <span class="callout-label">Which backend produced which numbers</span>
-  Section 7 reports live-LLM results from <code>main_run_002</code> with <code>gpt-4o-mini</code> as both generator and every critic (3 seeds, 7 conditions, 3 iterations of 16 samples, total 21 condition-runs). The simulator backend remains in the repository as a deterministic harness validator and a CI-friendly offline mode; it is not used for headline numbers. A previous draft of this paper used simulator numbers; the present revision is the live-LLM run.
-</div>
+<p>
+  Section 7 reports live-LLM results from <code>main_run_002</code> with <code>gpt-4o-mini</code> as both generator and every critic (3 seeds, 7 conditions, 3 iterations of 16 samples, 21 condition-runs total). The simulator backend remains in the repository as a deterministic harness validator and a CI-friendly offline mode; it is not used for headline numbers.
+</p>
 
 <h3><span class="subsection-num">6.3</span>Conditions</h3>
 
