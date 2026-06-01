@@ -1,0 +1,127 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 4
+    },
+    {
+      "pattern": "use of personal anecdotes or additional context",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific error messages",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for information or updates",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and technical jargon",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with emotional appeals",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'i feel like' and 'this is unacceptable'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "patterns of escalating frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or concern",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about the status of orders or accounts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language indicating urgency or distress",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'what should i do?' or 'can someone clarify what's going on?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of personal anecdotes or unrelated details (e.g., 'had a sushi for lunch today')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration that are elaborated upon",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct requests or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms or specific product references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional language or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise problem statement followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical terms or app names",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of timeframes or specific dates",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with a sense of urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'feels like i’m being ignored')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific time frames mentioned (e.g., '3-5 days')",
+      "n_pairs_observed": 1
+    }
+  ]
+}

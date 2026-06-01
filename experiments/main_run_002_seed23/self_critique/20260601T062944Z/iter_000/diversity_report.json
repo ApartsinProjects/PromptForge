@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates good coverage of intents, difficulties, and ambiguities, but lacks diversity in styles, particularly formal and verbose. There are also several near-duplicate phrasings and some missing edge cases.",
+  "missing_modes": [
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "emotional"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more verbose and formal styles to enhance diversity.",
+    "Introduce prompts that specifically request edge cases or rare scenarios.",
+    "Review and reduce redundancy in phrasing to minimize near-duplicates."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

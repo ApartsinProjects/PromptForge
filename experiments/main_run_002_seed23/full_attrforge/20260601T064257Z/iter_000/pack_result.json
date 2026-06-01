@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific features or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with a sense of urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific issues mentioned without much elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of first-person perspective",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of abbreviations and casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent capitalization and punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and slang (e.g., 'sumthin', 'like', 'i swear')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of starting with 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual tone with exclamations and filler phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am currently unable to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don’t understand how you can say",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i seem to be experiencing issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "so, i thought the app was",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expression of concern or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone with informal elements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of account-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of polite phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, factual statements",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a good variety of intents and difficulties, but there are missing attribute values and some overrepresented styles. Additionally, there are near-duplicate phrasings that could be diversified.",
+  "missing_modes": [
+    "account_issue (formal)",
+    "complaint (formal)",
+    "general_question (verbose)",
+    "technical_problem (formal)",
+    "technical_problem (concise)"
+  ],
+  "overrepresented_modes": [
+    "informal style",
+    "complaint intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more formal and verbose styles to balance the informal and emotional tones.",
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Ensure that all intents are represented across all styles and difficulties to avoid overrepresentation."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

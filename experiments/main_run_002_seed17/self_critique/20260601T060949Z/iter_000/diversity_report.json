@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema with no missing modes. However, there are instances of near-duplicate phrasings and some overrepresented styles, particularly in the 'refund_request' intent.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "formal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing for common intents to reduce near-duplicate instances.",
+    "Introduce more edge cases or rare scenarios to enhance the variety of responses.",
+    "Consider balancing the representation of styles to avoid overrepresentation of certain styles like 'fragmented' and 'formal'."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

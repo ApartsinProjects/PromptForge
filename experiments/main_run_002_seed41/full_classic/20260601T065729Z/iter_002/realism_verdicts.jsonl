@@ -1,0 +1,24 @@
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Casual language and emotional expression suggest a genuine frustration."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Direct inquiry about a specific feature indicates a real user concern."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Specific technical issue with a browser shows real-world context."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.8,"reason":"Overly detailed and structured; lacks the spontaneity of real user complaints."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Concise and straightforward complaint about a common issue."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.75,"reason":"Generic request lacking specific details or emotional context."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct and clear request for a refund, typical of real customer interactions."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"Casual language but structured in a way that feels scripted."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Specific issue with billing shows a real user concern."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.75,"reason":"Generic question about features lacks personal touch."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Technical inquiry about API shows a real user need."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.8,"reason":"Overly dramatic and structured complaint, feels artificial."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.75,"reason":"Structured request for information lacks the urgency of real complaints."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and informal request for a refund, typical of real users."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Specific issue with billing indicates a real user experience."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Frustration over shipping delay is a common real-world issue."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.7,"reason":"Emotional but lacks specific details that would indicate a real user."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.75,"reason":"Generic login issue lacks personal context."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.75,"reason":"Similar to target_00035, lacks depth and personal touch."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint about a damaged item shows real user experience."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Casual language but feels overly structured and lacks urgency."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a CSV import indicates a real user problem."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.7,"reason":"Casual complaint but lacks the depth of a real user experience."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct and clear expression of dissatisfaction with a product."}

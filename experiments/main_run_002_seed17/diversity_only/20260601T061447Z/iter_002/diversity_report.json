@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and scenario types, but there are some missing styles and noise types. Additionally, there are instances of near-duplicate phrasings and overrepresented emotional styles.",
+  "missing_modes": [
+    "formal",
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse styles by explicitly requesting examples in formal and verbose styles.",
+    "Introduce more noise types such as typos and irrelevant details to enhance variability.",
+    "Reduce the frequency of emotional and concise styles to balance the representation of different styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

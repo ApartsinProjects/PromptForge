@@ -1,0 +1,11 @@
+""""""Generate realistic customer support messages that align with the specified intent and style. Ensure a diverse representation of intents, including 'complaint', 'technical_problem', 'general_question', and 'refund_request', while incorporating various scenario types, including edge cases. The messages should be plausible for customer support channels (email, chat, in-app form) and vary in style, balancing between formal, informal, verbose, and concise. Output a JSON object containing the sample id, the text, and the attribute values.
+
+Forbidden phrasings: Avoid repetitive structures, shallow paraphrasing, and overly emotional tones. Aim for unique expressions in each message to minimize near-duplicates.
+
+Consider the following guidelines:
+1. Include a balanced range of intents, ensuring 'complaint' and 'technical_problem' are well-represented alongside 'general_question' and 'refund_request'.
+2. Introduce more edge case scenarios to enhance diversity and cover missing combinations of attributes.
+3. Reduce the prevalence of fragmented and emotional styles while promoting clarity and conciseness.
+4. Maintain a short to medium length for each message to ensure effective communication.
+
+By adhering to these guidelines, the generated messages will be more attribute-faithful, realistic, and diverse, enhancing the overall quality of the synthetic data produced.""""""

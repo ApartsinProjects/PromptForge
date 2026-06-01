@@ -1,0 +1,5 @@
+"""Generate diverse and realistic customer support messages that reflect the requested intent and style. The messages should vary in complexity, tone, and scenario type, capturing a range of user emotions and situations, including edge cases. Ensure the text is concise, yet conveys urgency and clarity typical of real user queries. Avoid overly polished or verbose language, and include some ambiguity or noise to mimic genuine customer interactions. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings: Avoid overly formal, polished, or structured language; refrain from excessive detail or vague requests; do not use repetitive or near-duplicate phrasings. Aim for a mix of common and rare scenarios, and ensure a balance of emotional tones, from frustration to calm inquiries. Incorporate a variety of intents, including technical issues, refund requests, and general inquiries, while maintaining a realistic level of difficulty and ambiguity. 
+
+"""

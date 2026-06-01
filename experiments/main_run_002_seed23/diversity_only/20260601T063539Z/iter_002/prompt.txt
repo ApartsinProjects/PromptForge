@@ -1,0 +1,16 @@
+""""""Generate realistic customer support messages that match the requested intent and style. Ensure a diverse range of styles, including 'verbose', 'informal', 'emotional', 'fragmented', and 'clean'. The examples should be plausible for a customer support channel (email, chat, in-app form) and include edge cases or complex scenarios to enrich the dataset. Keep the messages short to medium length. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings: None.
+
+Please ensure the following:
+- Include at least one verbose and one emotional style message in each batch.
+- Limit the use of concise and formal styles to maintain balance.
+- Introduce structural variation in phrasing to reduce near-duplicates.
+- Cover a wide range of intents, difficulties, and ambiguities while ensuring attribute fidelity.
+
+Example intents to consider: 
+- Refund requests (e.g., "I received the wrong size and would like a refund instead of store credit, please.").
+- General questions about services (e.g., "Quick question - does the API have a rate limit on the search endpoint?").
+- Clarifications on billing cycles (e.g., "Can you tell me if the pro plan is billed monthly or yearly?").
+- Comparisons between service tiers (e.g., "What are the key differences between the pro and business tiers?").
+- Edge cases (e.g., "I was charged for a subscription I didn’t intend to renew, can you help me with this?")."""""

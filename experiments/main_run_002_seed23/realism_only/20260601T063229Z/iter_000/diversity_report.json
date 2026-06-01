@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents and difficulties, but there are notable gaps in the style attribute and some near-duplicate phrasings. The emotional and fragmented styles are underrepresented, while informal style is overrepresented.",
+  "missing_modes": [
+    "verbose",
+    "formal"
+  ],
+  "overrepresented_modes": [
+    "informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse styles, particularly verbose and formal, to enhance the richness of the samples.",
+    "Introduce more edge cases and rare scenarios to ensure a broader coverage of potential user interactions."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

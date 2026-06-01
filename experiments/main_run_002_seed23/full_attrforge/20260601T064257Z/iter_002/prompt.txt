@@ -1,0 +1,21 @@
+""""""Generate realistic customer support messages that accurately reflect the requested intent and style, ensuring a diverse range of scenarios, including both common and edge cases. The messages should exhibit varying levels of ambiguity, with some being straightforward and others more open to interpretation. Incorporate a mix of styles, including formal, fragmented, and informal, while minimizing overly polished or generic language. Aim for messages of short to medium length. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I seem to be experiencing issues accessing my account'
+- "I swear I didn't do anything wrong"
+- 'Like, I swear the pic was way diff'
+- 'despite my coffee cup being empty'
+- 'I was under the impression that'
+- 'I think my account has changed some settings or something'
+- 'I clearly expected two'
+
+Ensure the following:
+1. Include a mix of common and rare issues, with appropriate noise levels.
+2. Vary ambiguity, with some messages being clear and others more ambiguous.
+3. Incorporate diverse styles, including fragmented and formal, while reducing reliance on informal tones.
+4. Avoid repetitive structures and phrasings to enhance uniqueness across samples.
+
+Examples of desired outputs:
+- (label=refund_request) "Ordered 2 items, only got 1. Want a refund for the missing one."
+- (label=general_question) "Is the pro plan billed monthly or yearly?"
+- (label=account_issue) "Two-factor codes never come through, locked out for 2 days now."""""""

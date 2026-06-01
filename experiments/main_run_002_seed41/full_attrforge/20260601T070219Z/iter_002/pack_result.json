@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise statements of issues or complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details (e.g., browser type, shipping times)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'my app keeps crashing'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct address to a team or support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms related to account management",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues related to account access or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite inquiries and clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "is it because",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i heard mixed things from the last update",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed with uncertainty or anxiety",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i was wondering' or 'hey so like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i was wondering if' and 'just trying to clarify'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed explanations of issues or requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i am encountering' and 'could you explain'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal pronouns like 'i' and 'my'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases like 'could you explain' or 'i was wondering'",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -114,7 +114,15 @@
 
 <h3><span class="subsection-num">2.2</span>Prompt optimization via search and rewrite</h3>
 <p>
-  Several recent works treat prompt design as a discrete search problem. APE <a class="cite" href="#ref-ape">[14]</a> generates many candidate prompts and selects by held-out score. OPRO <a class="cite" href="#ref-opro">[15]</a> uses LLMs as optimizers that propose new candidates conditioned on the trajectory so far. EvoPrompt <a class="cite" href="#ref-evoprompt">[16]</a> applies evolutionary search to prompts. PromptBreeder <a class="cite" href="#ref-promptbreeder">[17]</a> uses LLM-driven mutation operators within an evolutionary loop. DSPy <a class="cite" href="#ref-dspy">[18]</a> compiles modular programs with optimized prompts. TextGrad <a class="cite" href="#ref-textgrad">[19]</a> treats prompts and outputs as differentiable artifacts updated by LLM-generated "text gradients". AttrForge differs from this line in that its objective is structurally multi-axis: three baseline critics plus four mode-collapse adversaries each emit named, falsifiable complaints, and the updater is asked to satisfy them jointly under a length budget. The contribution is the multi-objective named-complaint formulation, not iteration per se.
+  Several recent works treat prompt design as a discrete search problem. APE <a class="cite" href="#ref-ape">[14]</a> generates many candidate prompts and selects by held-out score. OPRO <a class="cite" href="#ref-opro">[15]</a> uses LLMs as optimizers that propose new candidates conditioned on the trajectory so far. EvoPrompt <a class="cite" href="#ref-evoprompt">[16]</a> applies evolutionary search to prompts. PromptBreeder <a class="cite" href="#ref-promptbreeder">[17]</a> uses LLM-driven mutation operators within an evolutionary loop. DSPy <a class="cite" href="#ref-dspy">[18]</a> compiles modular programs with optimized prompts. TextGrad <a class="cite" href="#ref-textgrad">[19]</a> treats prompts and outputs as differentiable artifacts updated by LLM-generated "text gradients". More recent work in 2025 includes GEPA <a class="cite" href="#ref-gepa">[25]</a>, which uses reflective prompt evolution with Pareto-front selection and reports gains over RL baselines, and Pareto Prompt Optimization <a class="cite" href="#ref-paretoprompt">[26]</a>, which explicitly explores the Pareto front of prompts using dominance relations rather than scalarizing objectives. The Auto-Prompt Ensemble work <a class="cite" href="#ref-autopromptens">[27]</a> shows a confidence-aware ensemble of optimized prompts beats single-prompt baselines on LLM-as-judge tasks. Most importantly for our framing, "When Gradients Collide" <a class="cite" href="#ref-gradcollide">[28]</a> documents that naive multi-objective text gradients (TextGrad/OPRO/GEPA) lose gradient specificity when several critics are jointly optimized, a finding that directly motivates structural defenses like the ones we propose.
+</p>
+<p>
+  AttrForge differs from this line in three ways. First, our objective is structurally multi-axis: seven critics (three baseline plus four mode-collapse adversaries) each emit named, falsifiable complaints rather than scalar rewards. Second, the updater is asked to satisfy them jointly under a length budget rather than through scalarization. Third, we explicitly transfer batch-level defenses from the GAN literature, which to our knowledge no prior prompt-optimization work has done.
+</p>
+
+<h3><span class="subsection-num">2.2b</span>Multi-critic and debate-style judges</h3>
+<p>
+  Hu et al.'s Multi-Agent Debate for LLM Judges <a class="cite" href="#ref-debatejudges">[29]</a> formally proves that debate amplifies judge correctness over static ensembles and introduces adaptive Beta-Binomial stopping rules. This is complementary to our work: debate adds deliberation between judges, while we add adversarial batch-level dynamics. Our seven critics are intentionally independent rather than deliberative; combining the two paradigms is a natural extension.
 </p>
 
 <h3><span class="subsection-num">2.3</span>LLM-as-judge</h3>
@@ -125,6 +133,26 @@
 <h3><span class="subsection-num">2.4</span>Mode collapse in GANs and its measurement</h3>
 <p>
   Mode collapse is a long-studied failure of generative-adversarial training where the generator finds a small set of points that fool the discriminator and emits them repeatedly. Documented defenses include minibatch discrimination <a class="cite" href="#ref-salimans">[2]</a>, unrolled GANs <a class="cite" href="#ref-unrolled">[7]</a>, mode-seeking GAN <a class="cite" href="#ref-msgan">[3]</a>, PacGAN <a class="cite" href="#ref-pacgan">[1]</a>, and Wasserstein-style losses <a class="cite" href="#ref-wgan">[8]</a>. Quantification of collapse uses FID <a class="cite" href="#ref-fid">[22]</a>, precision and recall for distributions <a class="cite" href="#ref-sajjadi">[23]</a>, and density/coverage <a class="cite" href="#ref-naeem">[24]</a>. We adapt four of these defenses into a prompt-debugging setting where the generator's parameters are frozen and the optimized object is the prompt.
+</p>
+
+<h3><span class="subsection-num">2.4b</span>Mode collapse in LLM outputs</h3>
+<p>
+  Mode collapse has been documented for LLM outputs themselves, distinct from GAN-induced collapse. Verbalized Sampling <a class="cite" href="#ref-verbsampling">[30]</a> attributes the failure to "typicality bias in preference data" and proposes a training-free prompting recipe (asking the model to verbalize a probability distribution over responses) that recovers 1.6 to 2.1x more diversity on creative-writing tasks. NanoFlux <a class="cite" href="#ref-nanoflux">[31]</a> is the closest existing GAN-style framework for LLM data: it pairs an attacker LLM and a defender LLM under a tool-augmented judge to generate targeted training examples. Our work differs from NanoFlux in two ways: we use multiple critics rather than a single judge, and our adversaries are structural transfers from specific GAN defenses rather than free-form attackers.
+</p>
+
+<h3><span class="subsection-num">2.4c</span>Model collapse from training on synthetic data</h3>
+<p>
+  A separate but related thread documents that training LLMs on synthetic data produced by earlier LLMs degrades the model distribution over generations. Strong Model Collapse <a class="cite" href="#ref-strongcollapse">[32]</a> proves the failure persists even with arbitrarily small synthetic fractions. Kazdan et al.'s analysis of Shumailov 2024 <a class="cite" href="#ref-shumalovnote">[33]</a> shows that the magnitude is sensitive to data-mixing strategy, and that accumulating (rather than replacing) real data prevents the collapse. Synthetic Eggs in Many Baskets <a class="cite" href="#ref-syntheggs">[34]</a> empirically connects synthetic-data diversity to downstream fine-tuning performance, showing that more diverse synthetic sources measurably mitigate collapse. Machine-generated text detection as a pipeline filter <a class="cite" href="#ref-mgtfilter">[35]</a> is another defense thread that connects to our Coverage Hole Finder's density-ratio classifier.
+</p>
+
+<h3><span class="subsection-num">2.5b</span>Density-ratio estimation for synthetic-data quality</h3>
+<p>
+  An ICLR 2025 SynthData-workshop paper <a class="cite" href="#ref-improveddre">[36]</a> aggregates multiple density-ratio estimators with diverse hyperparameter settings to produce global and local quality scores, providing a direct technical antecedent for our Coverage Hole Finder.
+</p>
+
+<h3><span class="subsection-num">2.5c</span>Embedding-based diversity metrics for text</h3>
+<p>
+  The Scendi Score <a class="cite" href="#ref-scendi">[37]</a> decomposes embedding-based diversity into prompt-driven and intrinsic-model components via a Schur-complement decomposition of CLIP-embedding kernels; this is the closest 2024 alternative to distinct-n and FID for text diversity. Our Mode-Seeking ratio occupies a similar niche but is conditioned on attribute-vector distance rather than prompt identity.
 </p>
 
 <h3><span class="subsection-num">2.5</span>Density ratio estimation</h3>
@@ -211,7 +239,33 @@ $$
 
 <h3><span class="subsection-num">4.4</span>Prompt updater</h3>
 <p>
-  The updater is the optimization step. It receives <em>verbatim critic transcripts</em> in named sections of a single template (one section per critic), and rewrites the prompt. The rewrite is constrained by a length budget (280 words for the user instruction; the simulator enforces a soft 8-clause cap with deduplication, see <a href="#sec-limitations">Section 9</a>). The output is appended to a versioned <code>PromptHistory</code> with the feedback bundle that motivated it. Each iteration the updater renders seven labeled blocks: attribute verification failures, realism artifacts, diversity audit, pack-level patterns, mode-seeking responsiveness, the persistent banned-phrasings library, and uncovered real exemplars.
+  The updater is the optimization step. It receives <em>verbatim critic transcripts</em> in named sections of a single template (one section per critic), and rewrites the prompt. The rewrite is constrained by a length budget (280 words for the user instruction). The output is appended to a versioned <code>PromptHistory</code> with the feedback bundle that motivated it.
+</p>
+
+<p>
+  Each iteration the updater renders seven labeled blocks. <strong>Table 0</strong> gives the grammar of each block: what the critic produces, and what local rewrite the updater can produce in response. This table is the core conceptual claim of our architecture: structured named complaints admit locally targeted rewrites that a scalar reward does not.
+</p>
+
+<div class="table-wrap">
+<table>
+<caption>Table 0: The complaint grammar of each critic. Each row gives the structured output the critic emits, and the kind of locally-targeted rewrite the updater can produce in response. Bottom four rows are the new GAN-style adversaries introduced in this paper.</caption>
+<thead>
+<tr><th>Critic</th><th>Returns</th><th>Example complaint</th><th>Updater can produce</th></tr>
+</thead>
+<tbody>
+<tr><td>Verifier</td><td>list of failed attributes per sample with reason</td><td>"sample S42 failed difficulty; the answer is too obvious for a hard label"</td><td>Attribute-specific clause: "for hard examples, include indirect evidence and missing context"</td></tr>
+<tr><td>Realism Discriminator</td><td>per-sample synthetic flags with named cues</td><td>"S42 was flagged synthetic: too polished, predictable structure"</td><td>Counter-instruction: "vary structure, allow incomplete thoughts"</td></tr>
+<tr><td>Diversity Auditor</td><td>missing modes, overrepresented modes, near-duplicate rate, coverage map</td><td>"missing: high-ambiguity negative examples; over: clean medium-length"</td><td>Coverage push: "force greater than 10% of examples to be high-ambiguity negative"</td></tr>
+<tr class="highlight"><td>Pack Discriminator</td><td>pack accuracy + shared cross-sample patterns</td><td>"every pack uses 'Hi team' as the opener"</td><td>Structural-variation clause: "rotate openers per sample"</td></tr>
+<tr class="highlight"><td>Mode-Seeking</td><td>scalar ratio + per-attribute distance matrix</td><td>"changing style does not change text; per-attribute sensitivity[style] = 0"</td><td>Sensitivity-targeting clause: "each attribute change must produce a visible surface change"</td></tr>
+<tr class="highlight"><td>Mode Hunter</td><td>persistent library of banned phrasings</td><td>"banned: 'I understand your frustration', 'Thanks for reaching out'"</td><td>Forbidden block: "do not use any of the following phrasings"</td></tr>
+<tr class="highlight"><td>Coverage Hole Finder</td><td>top-K uncovered real exemplars by density-ratio</td><td>"the synthetic batch does not cover real examples like these: [3 uncovered real samples]"</td><td>Stylistic anchoring: "match the style of the following real exemplars"</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>
+  The structured contract is what makes batch-level adversaries integrate cleanly into the same template as per-sample critics: every critic's output is a list of named items that the updater is asked to address one-by-one.
 </p>
 
 <!-- ============================================================ -->
@@ -405,8 +459,16 @@ python scripts/aggregate_multiseed.py --base sim_run_002</code></pre>
 </p>
 
 <figure>
+  <img src="figures/audit_protocol.png" alt="Schematic of the post-hoc adversary audit protocol. Top: the tautological-ablation failure mode of naive ablation tables, where critic metrics are 'n/a' for conditions that did not enable the critic. Bottom: the post-hoc audit, which runs every adversary on every condition's final batch with re-seeded RNG and a real-vs-real null reference." />
+  <figcaption>Figure 6: The post-hoc audit protocol. Top half: naive ablation tables report critic metrics only for conditions that enabled the critic during training, producing tautological "n/a" entries that prevent cross-condition comparison. Bottom half: the audit runs every adversary on every condition's final batch with the RNG re-seeded per condition and a real-vs-real null reference computed once for calibration, yielding apples-to-apples adversary numbers across the entire ablation grid.</figcaption>
+</figure>
+
+<p>
+</p>
+
+<figure>
   <img src="figures/sim_run_002_audit_differential.png" alt="Post-hoc adversary audit" />
-  <figcaption>Figure 6: Post-hoc audit. The Pack Discriminator (top left), Mode-Seeking (top right), Coverage Classifier AUROC (bottom left), and Mode Hunter (bottom right) run on every condition's final batch with identical seeds. Mean &plusmn; std over 3 random seeds. The dashed horizontal line in the Pack panel is the null reference: Pack accuracy when both packs are drawn from the real set ($\mathrm{PackAcc}_{\text{null}} = 0.50$ in this domain). Chance is also $0.50$.</figcaption>
+  <figcaption>Figure 7: Post-hoc audit results. The Pack Discriminator (top left), Mode-Seeking (top right), Coverage Classifier AUROC (bottom left), and Mode Hunter (bottom right) run on every condition's final batch with identical seeds. Mean &plusmn; std over 3 random seeds. The dashed horizontal line in the Pack panel is the null reference: Pack accuracy when both packs are drawn from the real set ($\mathrm{PackAcc}_{\text{null}} = 0.50$ in this domain). Chance is also $0.50$.</figcaption>
 </figure>
 
 <div class="table-wrap">
@@ -488,6 +550,12 @@ python scripts/aggregate_multiseed.py --base sim_run_002</code></pre>
   The Mode Hunter's persistent banned-phrasings library is the loop's <em>immune memory</em>. Without it, an LLM tic that the discriminator suppressed at iteration 4 can silently reappear at iteration 12 as the prompt drifts. With it, every past failure mode is carried forward. A 50-entry cap bounds prompt bloat. This generalizes the unrolled-GAN trick of looking at future discriminator state: it lets the loop see <em>past</em> failure state instead.
 </p>
 
+<h3><span class="subsection-num">9.6</span>Positioning against very recent (2025) work</h3>
+
+<p>
+  Three contemporary lines deserve explicit contrast. <strong>Verbalized Sampling</strong> <a class="cite" href="#ref-verbsampling">[30]</a> diagnoses LLM mode collapse as a typicality bias in preference training data and proposes a single-prompt fix: ask the model to verbalize a distribution over responses, then sample from it. Our framing is complementary: we treat the LLM's parameters as fixed and attack collapse from outside through batch-level adversaries that the model's own training pipeline never sees, which lets us address both attribute-deaf generation and homogeneous-pack collapse without prompt-level workarounds. <strong>NanoFlux</strong> <a class="cite" href="#ref-nanoflux">[31]</a> is the closest existing GAN-style framework for LLM data, pairing one attacker LLM and one defender LLM under a tool-augmented judge. Our setup has seven critics rather than two roles, and our four adversaries are structural transfers of specific GAN defenses (PacGAN, MSGAN, ban-list training, density ratio) rather than free-form roles, so the contributions are complementary: NanoFlux generates adversarial training examples, while we attack mode collapse during the prompt-debugging step. <strong>When Gradients Collide</strong> <a class="cite" href="#ref-gradcollide">[28]</a> recently characterized a failure mode of multi-objective text-gradient methods (TextGrad, OPRO, GEPA), showing a 59% drop in gradient specificity when multiple criteria are jointly optimized; this finding directly justifies our reliance on named complaints rather than gradient aggregation.
+</p>
+
 <!-- ============================================================ -->
 <h2 id="sec-limitations"><span class="section-num">10</span>Limitations</h2>
 
@@ -541,6 +609,19 @@ python scripts/aggregate_multiseed.py --base sim_run_002</code></pre>
   <li id="ref-fid">Heusel, M., Ramsauer, H., Unterthiner, T., Nessler, B., &amp; Hochreiter, S. <em>GANs trained by a two time-scale update rule converge to a local Nash equilibrium.</em> NeurIPS, 2017. <a href="https://proceedings.neurips.cc/paper/2017/hash/8a1d694707eb0fefe65871369074926d-Abstract.html">[NeurIPS]</a></li>
   <li id="ref-sajjadi">Sajjadi, M. S. M., Bachem, O., Lucic, M., Bousquet, O., &amp; Gelly, S. <em>Assessing generative models via precision and recall.</em> NeurIPS, 2018. <a href="https://proceedings.neurips.cc/paper/2018/hash/f7696a9b362ac5a51c3dc8f098b73923-Abstract.html">[NeurIPS]</a></li>
   <li id="ref-naeem">Naeem, M. F., Oh, S. J., Uh, Y., Choi, Y., &amp; Yoo, J. <em>Reliable fidelity and diversity metrics for generative models.</em> ICML, 2020. <a href="https://proceedings.mlr.press/v119/naeem20a.html">[PMLR]</a></li>
+  <li id="ref-gepa">Agarwal, L., et al. <em>GEPA: Reflective prompt evolution can outperform reinforcement learning.</em> arXiv:2507.19457, 2025. <a href="https://arxiv.org/abs/2507.19457">[arXiv]</a></li>
+  <li id="ref-paretoprompt">Anonymous. <em>Pareto prompt optimization.</em> ICLR, 2025. <a href="https://openreview.net/forum?id=HGCk5aaSvE">[OpenReview]</a></li>
+  <li id="ref-autopromptens">Li, et al. <em>Auto-prompt ensemble for LLM judge.</em> arXiv:2510.06538, 2025. <a href="https://arxiv.org/abs/2510.06538">[arXiv]</a></li>
+  <li id="ref-gradcollide">Anonymous. <em>When gradients collide: Failure modes of multi-objective prompt optimization for LLM judges.</em> arXiv:2605.26046, 2026. <a href="https://arxiv.org/abs/2605.26046">[arXiv]</a></li>
+  <li id="ref-debatejudges">Hu, et al. <em>Multi-agent debate for LLM judges with adaptive stability detection.</em> arXiv:2510.12697, 2025. <a href="https://arxiv.org/abs/2510.12697">[arXiv]</a></li>
+  <li id="ref-verbsampling">Zhang, et al. <em>Verbalized sampling: How to mitigate mode collapse and unlock LLM diversity.</em> arXiv:2510.01171, 2025. <a href="https://arxiv.org/abs/2510.01171">[arXiv]</a></li>
+  <li id="ref-nanoflux">Anonymous. <em>NanoFlux: Adversarial dual-LLM evaluation and distillation for multi-domain reasoning.</em> arXiv:2509.23252, 2025. <a href="https://arxiv.org/abs/2509.23252">[arXiv]</a></li>
+  <li id="ref-strongcollapse">Anonymous. <em>Strong model collapse.</em> ICLR, 2025. <a href="https://openreview.net/forum?id=GnLAFEzZsj">[ICLR 2025]</a></li>
+  <li id="ref-shumalovnote">Kazdan, et al. <em>A note on Shumailov et al. (2024).</em> arXiv:2410.12954, 2024. <a href="https://arxiv.org/abs/2410.12954">[arXiv]</a></li>
+  <li id="ref-syntheggs">Anonymous. <em>Synthetic eggs in many baskets: The impact of synthetic data diversity on LLM fine-tuning.</em> arXiv:2511.01490, 2025 (Findings of ACL 2026). <a href="https://arxiv.org/abs/2511.01490">[arXiv]</a></li>
+  <li id="ref-mgtfilter">Anonymous. <em>Machine-generated text detection prevents language model collapse.</em> arXiv:2502.15654, 2025. <a href="https://arxiv.org/abs/2502.15654">[arXiv]</a></li>
+  <li id="ref-improveddre">Anonymous. <em>Improved density ratio estimation for evaluating synthetic data quality.</em> ICLR 2025 SynthData workshop. <a href="https://openreview.net/forum?id=IBnCO8gtLA">[OpenReview]</a></li>
+  <li id="ref-scendi">Jandaghi, et al. <em>Scendi score: Prompt-aware diversity evaluation via Schur complement of CLIP embeddings.</em> arXiv:2412.18645, 2024. <a href="https://arxiv.org/abs/2412.18645">[arXiv]</a></li>
 </ol>
 
 <!-- ============================================================ -->

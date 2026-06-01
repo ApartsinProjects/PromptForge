@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.86875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "requests for refunds or resolutions",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and informal abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed at the beginning of some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in describing issues (e.g., 'i tried... but...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or products",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about issues faced",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and casual language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or issues with a product/service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or unhappiness",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or context (e.g., new phone)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about products or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific time frames (e.g., '24h', '4 days')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'want' to express desires or requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'whts', 'tht', 'pls')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of dissatisfaction or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrasing (e.g., 'any perks or just bugs?', 'help pls!')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was disappointed because",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i want my money back",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't access my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was trying to connect to your service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing a problem followed by a request for help",
+      "n_pairs_observed": 1
+    }
+  ]
+}

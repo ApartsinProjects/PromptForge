@@ -1,0 +1,92 @@
+{
+  "run_id": "main_run_002_seed17",
+  "null_pack_accuracy_real_vs_real": 0.5,
+  "real_mode_seeking_ratio": 0.9842385717359434,
+  "real_text_distance_mean": 0.9816895314039147,
+  "conditions": [
+    {
+      "condition": "diversity_only",
+      "n_samples": 48,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.23413921784381267,
+      "mode_seeking_relative_to_real": 0.23788868325984358,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    },
+    {
+      "condition": "few_shot",
+      "n_samples": 16,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.2445905414280989,
+      "mode_seeking_relative_to_real": 0.24850737255369312,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    },
+    {
+      "condition": "full_attrforge",
+      "n_samples": 48,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.23514562937435368,
+      "mode_seeking_relative_to_real": 0.2389112112926212,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    },
+    {
+      "condition": "full_classic",
+      "n_samples": 48,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.23436030245667802,
+      "mode_seeking_relative_to_real": 0.23811330828391208,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    },
+    {
+      "condition": "naive",
+      "n_samples": 16,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.243740618401153,
+      "mode_seeking_relative_to_real": 0.24764383900466053,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    },
+    {
+      "condition": "realism_only",
+      "n_samples": 48,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.23509061079648363,
+      "mode_seeking_relative_to_real": 0.23885531165664878,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    },
+    {
+      "condition": "self_critique",
+      "n_samples": 48,
+      "pack_accuracy": 0.5,
+      "pack_accuracy_above_null": 0.0,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.23487458660912827,
+      "mode_seeking_relative_to_real": 0.23863582809487946,
+      "n_banned_phrasings_found": 0,
+      "coverage_auroc": 1.0,
+      "n_coverage_holes": 5
+    }
+  ]
+}

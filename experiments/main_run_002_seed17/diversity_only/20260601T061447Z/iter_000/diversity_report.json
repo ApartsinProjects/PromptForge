@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity could be improved by including more edge cases and varying phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "refund_request",
+    "technical_problem"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more edge cases and rare scenarios to enhance diversity.",
+    "Introduce variations in phrasing to reduce near-duplicate instances.",
+    "Ensure that all combinations of attributes are represented, especially for less common intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

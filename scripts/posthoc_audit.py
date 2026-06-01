@@ -102,11 +102,23 @@ def run_audit(
     # across conditions, because its RNG state would evolve with each call,
     # making pack accuracies for later conditions a function of processing
     # order rather than data. We re-instantiate per condition below.
+    #
+    # The model is backend-dependent: openai → gpt-4o-mini, anthropic →
+    # claude-haiku-4-5, sim → sim-audit. Using "openai-audit" as the model
+    # would silently fail every API call (OpenAI returns 404), making every
+    # pack accuracy default to 0.5 by error-path.
+    audit_model = {
+        "openai": "gpt-4o-mini",
+        "anthropic": "claude-haiku-4-5",
+        "sim": "sim-audit",
+        "echo": "echo-audit",
+    }.get(backend, "gpt-4o-mini")
+
     pack_cfg = PackDiscriminatorConfig(pack_size=4, n_comparisons=16, seed=99)
-    pack_client = build_client(LLMConfig(backend=backend, model=f"{backend}-audit"))
+    pack_client = build_client(LLMConfig(backend=backend, model=audit_model))
 
     mode_seeking = ModeSeeking(ModeSeekingConfig(use_embeddings=False))
-    hunter_client = build_client(LLMConfig(backend=backend, model=f"{backend}-audit"))
+    hunter_client = build_client(LLMConfig(backend=backend, model=audit_model))
     coverage_hole = CoverageHoleFinder(CoverageHoleConfig(top_k=5))
 
     # Compute the null reference once. real-vs-real-split pack accuracy.

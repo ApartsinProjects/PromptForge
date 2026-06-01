@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "concise issue description followed by specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of technical problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for information or updates",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of transitional phrases like 'although' and 'it seems'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing problems (e.g., 'at the 10 min mark')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the software keeps freezing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i try to upload files",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am unable to access my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the app crashes when i try to upload",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about issues (e.g., shipping times, account problems)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual greeting (e.g., 'hey', 'do u guys')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'u', 'wrng')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific mention of issues or problems (e.g., 'application does not launch', 'received the wrng item')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of curiosity or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greeting or opener (e.g., 'hey', 'hey')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or verification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and abbreviations (e.g., 'u', 'wrng')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration regarding orders",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating the issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'like' and 'totally'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone with specific technical details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'every time i' and 'i have encountered'",
+      "n_pairs_observed": 1
+    }
+  ]
+}

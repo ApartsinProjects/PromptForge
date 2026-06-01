@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "frequent expressions of frustration or confusion",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of personal anecdotes or experiences",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "excessive use of filler phrases like 'i was just wondering' or 'honestly, i don't even know'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with casual language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements about issues without much elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical terms or jargon (e.g., '502', 'verification codes')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i changed my...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for specific actions (e.g., 'want a refund', 'not a reship')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration about service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of unresolved issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language (e.g., 'frustrated', 'disaster', 'unacceptable')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variability in capitalization and punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "seeking clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was trying to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how does it even work?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you clarify if there are any",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'so, like,'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated questioning for clarity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'so, like,'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that reflect uncertainty about account status or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for clarification",
+      "n_pairs_observed": 1
+    }
+  ]
+}

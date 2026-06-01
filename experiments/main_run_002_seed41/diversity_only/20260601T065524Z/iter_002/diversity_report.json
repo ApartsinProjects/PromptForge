@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high coverage of attributes, but there are missing intent values and some near-duplicate phrasings. Additionally, certain styles and scenarios are overrepresented.",
+  "missing_modes": [
+    "refund_request"
+  ],
+  "overrepresented_modes": [
+    "fragmented",
+    "emotional",
+    "common"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Incorporate more diverse intent values, particularly 'refund_request'.",
+    "Encourage the generation of more edge cases and rare scenarios.",
+    "Reduce the frequency of fragmented and emotional styles to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

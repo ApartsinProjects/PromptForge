@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good variety of intents and difficulties, but there are notable gaps in the style and noise attributes. Additionally, there is a high occurrence of contradictions in the noise category.",
+  "missing_modes": [
+    "formal",
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "contradiction"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more formal and verbose styles to enhance diversity.",
+    "Reduce the frequency of contradictory noise in the samples.",
+    "Ensure a balanced representation of all noise types, especially focusing on clean and missing details."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

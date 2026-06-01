@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents and styles, but there are some missing attribute combinations and overrepresented modes. Additionally, there are near-duplicate phrasings that could be improved for better diversity.",
+  "missing_modes": [
+    "intent: technical_problem",
+    "scenario_type: common"
+  ],
+  "overrepresented_modes": [
+    "intent: complaint",
+    "style: fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with the technical_problem intent to ensure full coverage.",
+    "Diversify the complaint intent by introducing more unique scenarios and styles.",
+    "Reduce the use of fragmented style to promote a wider range of expression."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

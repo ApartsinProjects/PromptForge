@@ -1,0 +1,26 @@
+{
+  "summary": "The batch demonstrates a good variety of intents and attributes, but there are some missing modes and potential near-duplicates that could affect diversity. The 'complaint' intent is overrepresented in edge cases.",
+  "missing_modes": [
+    "refund_request with style 'fragmented'",
+    "technical_problem with any style",
+    "general_question with style 'fragmented'",
+    "general_question with scenario_type 'rare'",
+    "complaint with style 'informal'"
+  ],
+  "overrepresented_modes": [
+    "complaint in edge_case"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more diverse scenarios for the 'technical_problem' intent.",
+    "Ensure that all styles are represented across all intents, especially for the 'refund_request' and 'complaint' intents."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

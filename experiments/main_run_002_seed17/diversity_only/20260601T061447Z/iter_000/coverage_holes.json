@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6544905475157449
+    },
+    {
+      "text": "When I click checkout nothing happens, just a spinner forever. I'm on Safari 17.",
+      "label": "technical_problem",
+      "p_real": 0.644021057982899
+    },
+    {
+      "text": "what's the difference between the pro and business tier exactly",
+      "label": "general_question",
+      "p_real": 0.6426074823153657
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6424244916006192
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

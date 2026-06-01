@@ -1,0 +1,24 @@
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Casual language and a specific issue indicate a real user experience."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.8,"reason":"Overly polished and dramatic language, predictable structure."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct and concise, typical of a user inquiry."}
+{"sample_id":"R028","prediction":"real","confidence":0.9,"reason":"Straightforward question with no embellishments."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Professional tone and specific context suggest a real inquiry."}
+{"sample_id":"R000","prediction":"real","confidence":0.95,"reason":"Specific order number and clear request indicate a genuine user issue."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Common issue with a straightforward description."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Casual language and a specific complaint suggest a real user."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Technical issue described in a realistic manner."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"Professional inquiry about API functionality."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.75,"reason":"Casual language but lacks specific details that would indicate a real user."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.7,"reason":"Exaggerated emotional response and generic phrasing."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Direct question about a common service feature."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.75,"reason":"Overly dramatic and structured complaint."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Specific technical issue described in a straightforward manner."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint with urgency, typical of real user feedback."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific request related to account security."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint structure and emotional tone."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"Long-term customer complaint, realistic phrasing."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Frustrated tone typical of a real user experience."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Specific technical issue with clear context."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical inquiry with specific details."}
+{"sample_id":"R017","prediction":"real","confidence":0.9,"reason":"Common issue with a clear explanation."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"Generic request lacking specific details."}

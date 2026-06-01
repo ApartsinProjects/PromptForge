@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema with no missing modes. However, there are some near-duplicate phrasings and a few shallow paraphrases that could be improved for greater diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "fragmented",
+    "complaint"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more variation in phrasing and structure for emotional and fragmented styles to reduce redundancy.",
+    "Introduce more edge cases and rare scenarios to enhance diversity in the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

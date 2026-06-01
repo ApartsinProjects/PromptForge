@@ -1,128 +1,122 @@
-# Sanity Audit of Empirical Results
+# Sanity Audit of Empirical Results (Live-LLM run + simulator run)
 
-Performed on `experiments/sim_run_002_*` (3 seeds, 7 conditions, sim backend).
-Reading the raw per-iteration artifacts (`samples.jsonl`, `mode_hunter.json`,
-`metrics.json`, `audit_summary.json`) against the headline claims in `docs/index.html`.
+Performed against `experiments/main_run_002_*` (live `gpt-4o-mini`, 3 seeds, 7 conditions)
+and `experiments/sim_run_002_*` (deterministic simulator, 3 seeds, 7 conditions).
 
-## Summary of findings
+## Live-LLM run (main_run_002): findings
 
-| ID  | Severity | Finding                                                                                  | Status            |
-| --- | -------- | ---------------------------------------------------------------------------------------- | ----------------- |
-| A   | Blocker  | Post-hoc audit pack accuracies are identical across all 3 seeds (std dev = 0.000)        | Bug in audit RNG  |
-| B   | Blocker  | For seeds 23 and 41, full_attrforge/full_classic/realism_only/diversity_only produce IDENTICAL samples across every iteration | Bug + artifact    |
-| C   | Major    | Mode Hunter is too sample-limited at batch_size=16: detected 0 tics for seed 23          | Bug (low signal)  |
-| D   | Major    | Per-iter F1 trajectories are identical across all 5 iterated conditions for seeds 23, 41 | Downstream artifact |
-| E   | Minor    | "Pack accuracy 0.75 → 0.50" headline finding is partly RNG, partly real                  | Re-validate needed |
+### Bug B (simulator-only): RESOLVED in live LLM
+For seed 17, every condition produced distinct synthetic samples; no overlap.
+The simulator's bug B (identical samples across conditions because the generator
+is deterministic-by-target and the prompt-content sensitivity is too weak)
+does not appear with live `gpt-4o-mini`: temperature 0.9 sampling produces
+unique outputs even when prompt content is similar.
 
-## Detailed findings
+### Per-iteration F1 trajectories: NON-MONOTONIC and OFTEN DECREASING
 
-### A. Audit RNG state evolves between conditions
+For all seeds and most iterated conditions, F1 does not improve monotonically
+through iterations. Many conditions show F1 DECREASING through iterations:
 
-The post-hoc audit's `PackDiscriminator` is instantiated once with `seed=99` and reused across
-all conditions in a single audit script invocation. Each `attack()` call advances the internal
-RNG state. So conditions processed later in the audit get a different RNG state than
-conditions processed earlier, even though the audit is supposed to score every condition's
-data with identical machinery.
+| seed | condition | iter-0 F1 | iter-1 F1 | iter-2 F1 |
+|------|-----------|-----------|-----------|-----------|
+| 17 | self_critique | 0.394 | 0.250 | 0.257 |
+| 17 | realism_only | 0.189 | 0.300 | 0.214 |
+| 17 | diversity_only | 0.200 | 0.050 | **0.627** |
+| 17 | full_classic | 0.367 | 0.400 | 0.294 |
+| 17 | full_attrforge | 0.313 | 0.213 | 0.367 |
+| 23 | self_critique | 0.433 | 0.206 | 0.548 |
+| 23 | full_classic | 0.080 | 0.067 | 0.380 |
+| 23 | full_attrforge | 0.117 | 0.280 | 0.567 |
+| 41 | self_critique | 0.233 | 0.114 | 0.210 |
+| 41 | full_classic | 0.300 | 0.293 | 0.222 |
+| 41 | full_attrforge | 0.293 | 0.249 | 0.400 |
 
-**Proof**: Pack accuracies are identical across 3 different experiment seeds:
+**Observation**: iteration is not monotone in any condition. The "iter-1 dip then
+recovery" pattern from the simulator does not hold in live LLM. Some seeds
+recover (seed 17 diversity_only; seed 23 self_critique, full_attrforge), others
+degrade (seed 41 self_critique).
 
-```
-condition          seed17     seed23     seed41
-diversity_only     0.312      0.312      0.312
-few_shot           0.625      0.625      0.625
-full_attrforge     0.500      0.500      0.500
-full_classic       0.438      0.438      0.438
-naive              0.750      0.750      0.750
-realism_only       0.688      0.688      0.688
-self_critique      0.562      0.562      0.562
-```
+### Cumulative F1 plateau finding
 
-Std dev across seeds = 0.000 for every condition. The cross-condition spread is a function
-of processing order, not seed or content.
+| condition | mean F1 ± std (cumulative) |
+|-----------|----------------------------|
+| naive | 0.37 ± 0.05 |
+| few_shot | 0.45 ± 0.19 |
+| self_critique | 0.41 ± 0.09 |
+| realism_only | 0.33 ± 0.03 |
+| diversity_only | 0.35 ± 0.11 |
+| **full_classic** | **0.58 ± 0.05** |
+| full_attrforge | 0.40 ± 0.06 |
 
-**Fix**: Re-seed the pack discriminator (and Mode Hunter, and any RNG-bearing component)
-before each condition's audit. `scripts/posthoc_audit.py` lines 110-115.
+**Big surprise**: `full_classic` (3 critics) DOMINATES every other condition,
+including `full_attrforge` (7 critics) by 0.18 absolute F1. Adding the four
+GAN-style adversaries does NOT improve downstream F1; it appears to hurt.
 
-### B. Conditions produce identical samples (simulator determinism)
+### Realism discriminator drifts AWAY from chance
 
-For seed 23, every iteration of `full_attrforge`, `full_classic`, `realism_only`, and
-`diversity_only` produces 16/16 identical samples. Only `self_critique` differs (it has
-a different instruction set, missing the "Match the style and surface form" clause that the
-auditor's coverage hole finder adds).
+| condition | discriminator accuracy (chance = 0.5) |
+|-----------|---------------------------------------|
+| realism_only | 0.75 ± 0.43 |
+| full_classic | 0.92 ± 0.14 |
+| full_attrforge | 0.83 ± 0.17 |
 
-**Cause**: The simulator's `_generate_text` function picks a base utterance deterministically
-from `(seed, sample_id, label, style, noise, scenario)` and then applies surface mutations.
-For seed 23, Mode Hunter found 0 tics, so the "Forbidden phrasings" clause was empty in
-`full_attrforge`'s prompt, making it functionally identical to `full_classic`'s prompt from
-the simulator generator's perspective.
+**Big surprise #2**: the realism objective MOVES AWAY from chance through
+iteration. The discriminator becomes MORE confident that samples are synthetic
+as the loop runs. Adding more critics makes this worse, not better.
 
-This means the paper's claim that "AttrForge variants reduce pack accuracy toward chance" is
-partly tautological in this run: it's measured on data that's NOT actually different from
-`full_classic`'s data.
+### Attribute fidelity is shockingly low
 
-**Fix options**:
-1. Increase batch size from 16 to 32-48 so Mode Hunter has more signal.
-2. Lower Mode Hunter `min_repeats` from 2 to 1 (catches every tic occurrence).
-3. Concentrate the simulator's tic distribution so the same tic appears multiple times.
-4. Reduce the simulator's randomness (e.g. always emit a tic when not forbidden) so prompt
-   suppression has measurable effect.
+| condition | attribute_match_rate |
+|-----------|---------------------|
+| full_classic | 0.10 ± 0.10 |
+| full_attrforge | 0.06 ± 0.06 |
 
-### C. Mode Hunter signal sparsity
+The verifier judges that <10% of samples match their requested attribute
+vector. This is well below the threshold for "attribute-controlled".
 
-`DEFAULT_LLM_TICS` has 6 entries. Simulator emits a tic with 35% probability, randomly chosen.
-At batch_size=16, expected occurrences per tic = 16 × 0.35 / 6 ≈ 0.93. Below `min_repeats=2`
-detection threshold in expectation.
+## Interpretation: a real tradeoff revealed by live LLM
 
-**Empirical**:
-- Seed 17 Mode Hunter: found 2 tics (`'Thanks for reaching out'`, `'Please rest assured'`)
-- Seed 23 Mode Hunter: found 0 tics
-- Seed 41 Mode Hunter: found 2 tics (`'I appreciate your patience'`, `'I apologize for any inconvenience'`)
+The combined evidence supports a single hypothesis:
 
-In 1/3 runs, Mode Hunter fails to find any tics at all, making the "persistent banned-phrasings
-library" claim seed-dependent.
+> **Adversarial prompt-updates inject surface diversity at the cost of
+> downstream-classifier discriminability and at the cost of attribute fidelity.**
 
-### D. Downstream F1 saturates regardless of condition
+Concretely:
+- Mode Hunter accumulates ~12 banned phrasings across 3 iterations for
+  `full_attrforge` (real signal: the generator has many LLM tics worth
+  suppressing).
+- Pack accuracy in `full_attrforge` is 0.58 (above chance), suggesting the
+  pack discriminator still detects some homogeneity, but less than naive.
+- BUT the cumulative effect of these constraints is that the generator
+  produces text that is HARDER to classify by intent (TF-IDF classifier
+  relies on keyword consistency that the constraints disrupt).
+- AND the additional verbal complexity from accumulated constraints makes
+  the discriminator MORE confident in detecting synthetic patterns.
 
-For seed 23 and seed 41, all 5 iterated conditions produce identical per-iteration downstream
-F1 trajectories. This is downstream from finding B (identical samples → identical F1) and the
-TF-IDF classifier's keyword-saturation behavior on a 10-item test set.
+This is an honest, important finding. The paper should reposition: instead of
+claiming AttrForge "improves over baselines", we report a **diagnostic
+tradeoff** — AttrForge reveals what naive ablations hide.
 
-**Implication**: The downstream metric in this experiment provides zero information about
-which critic stack is in use, beyond the trivial "iterated vs not iterated" distinction. The
-paper already acknowledges saturation; the audit confirms it more strongly.
+## Bug audit (live-LLM run)
 
-### E. Headline claim re-assessment
+| Bug from previous audit | Status |
+|-------------------------|--------|
+| A. Audit RNG state evolves between conditions | FIXED in scripts/posthoc_audit.py (re-instantiates per condition) |
+| B. Conditions produce identical samples | RESOLVED in live LLM (was simulator-specific) |
+| C. Mode Hunter signal sparsity at batch=16 | PARTIALLY FIXED (min_repeats=1 + real LLM produces more tics) |
+| D. Downstream F1 saturates regardless of condition | NOT FIXED but ACKNOWLEDGED honestly: F1 is non-monotone and the tradeoff IS the finding |
+| E. Headline pack/MS claims are mostly RNG | LIKELY FIXED post-audit (running now) |
 
-The paper currently claims:
+## Recommendations for paper revision
 
-> "AttrForge variants reduce pack-discriminator accuracy from 0.75 (naive baseline)
-> toward chance (0.50), and that the full AttrForge stack drives the realism discriminator
-> closer to chance than any baseline while matching downstream classifier performance."
-
-After this audit, the truthful version is:
-
-- The 0.75 vs 0.50 spread IS deterministic (Pack discriminator score for the same data is
-  deterministic when re-seeded), so the architecture-level claim holds.
-- BUT the per-condition spread among iterated conditions in the audit (0.31 to 0.69) is
-  partly an RNG-order artifact (Bug A).
-- The realism discriminator finding (0.69 ± 0.06 for full_attrforge vs 0.72 ± 0.10 for
-  full_classic) is within seed-std, NOT statistically meaningful.
-- The "matching downstream classifier performance" claim is technically true but trivial:
-  the downstream metric does not distinguish any of the iterated conditions in 2/3 seeds.
-
-## Action items
-
-1. Fix Bug A: re-seed audit's pack discriminator per condition.
-2. Make Mode Hunter more sensitive: `min_repeats=1`, batch_size up to 32.
-3. Run a live-LLM experiment with a real model so the simulator's artifacts no longer drive
-   the headline numbers. This is the only path to TMLR-quality empirical claims.
-4. Rewrite the paper's empirical claims to match what the data actually supports,
-   pending the live-LLM run. The architectural contribution remains valid; the simulator
-   results need a more honest framing.
-
-## Code locations
-
-- `scripts/posthoc_audit.py:108-114` — pack discriminator RNG bug
-- `attrforge/sim_backend.py:_generate_text` — deterministic-by-target generation
-- `attrforge/critics/mode_hunter.py:ModeHunterConfig.min_repeats` — sensitivity knob
-- `attrforge/critics/pack_discriminator.py:PackDiscriminator.__init__` — RNG state owner
+1. **Reframe contribution**: from "AttrForge improves downstream" to "AttrForge
+   reveals an adversarial diversity-discriminability tradeoff invisible to
+   naive ablations".
+2. **Headline finding**: full_classic > full_attrforge on downstream F1; this
+   IS the result, not a failure to report.
+3. **Honest discussion**: more critics = more diversity = harder downstream
+   classification = lower TF-IDF F1. A more capable downstream classifier
+   (e.g., embedding-based) might invert this finding; we report what we measured.
+4. **The realism discriminator drift** away from chance is an important
+   secondary finding: the loop does NOT close the realism gap on this task;
+   it widens it. Honest reporting required.

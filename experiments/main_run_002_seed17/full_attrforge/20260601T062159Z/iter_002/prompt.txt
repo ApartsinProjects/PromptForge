@@ -1,0 +1,15 @@
+""""""Generate a diverse and realistic set of customer support messages that align with the specified intent and style. Each message should reflect a plausible user experience, incorporating varying levels of difficulty, ambiguity, and noise. Include a mix of scenarios such as account issues, technical problems, refund requests, and general inquiries, ensuring to cover both common and rare edge cases. The messages should balance formal and informal styles, capturing a range of emotional states and urgency levels. Aim for concise yet detailed expressions that convey genuine user concerns, avoiding overly polished language and repetitive structures. 
+
+Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'hey, i changed my emil and cant log in. help!'
+- 'whts the deal with tht new update? any perks or just bugs?'
+- 'I genuinely just want my money back an'
+- 'I hope you can help me'
+- 'so, like, i was just wondering'
+- 'could really use some clarity here...'
+- 'I feel completely ignored and it’s unacceptable.'
+- "I think it's been hacked..."
+
+Encourage a variety of phrasing to minimize near-duplicates and enhance overall diversity. Each message should reflect realistic user interactions, incorporating specific details and avoiding overly complex sentence structures. Aim for a mix of fragmented, concise, and verbose expressions to enrich the dataset and ensure comprehensive coverage of intents and styles.""""""

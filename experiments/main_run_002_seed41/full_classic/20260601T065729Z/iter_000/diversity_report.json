@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a strong representation of various attributes, but there are missing intent values and some overrepresentation of certain styles. Additionally, there are near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "technical_problem",
+    "complaint"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Ensure to include all intent values, particularly 'technical_problem' and 'complaint', in future samples.",
+    "Diversify the style attribute by reducing the frequency of 'informal' and 'verbose' styles.",
+    "Encourage the generation of more unique phrasings to reduce near-duplicates."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

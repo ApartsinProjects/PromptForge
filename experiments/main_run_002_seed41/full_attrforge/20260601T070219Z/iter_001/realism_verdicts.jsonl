@@ -1,0 +1,24 @@
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Casual language and a specific complaint about being locked out for two days suggest a real user experience."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"The informal tone and specific issue with paid features indicate a genuine user frustration."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.7,"reason":"Overly casual and vague phrasing ('I dunno', 'just curious') feels scripted and lacks real-world urgency."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"The emotional tone and specific complaint about waiting for weeks suggest a real user experience."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Specific details about app crashing and lack of error messages indicate a genuine user issue."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"The informal language and specific complaint about shipping delays suggest a real user experience."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.8,"reason":"The frustration expressed and specific complaint about receiving the wrong order indicate a real user experience."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.9,"reason":"Detailed description of the issue and attempts to fix it suggest a genuine user experience."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.85,"reason":"The emotional tone and specific mention of past issues indicate a real user experience."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"The question is too generic and lacks personal context, suggesting it may be generated."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.65,"reason":"The language is overly formal and lacks specific details, making it feel less authentic."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"The casual language and specific complaint about app crashing suggest a real user experience."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear description indicates a real user experience."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.9,"reason":"The emotional tone and specific complaint about crashing while uploading photos suggest a real user experience."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.7,"reason":"The question is generic and lacks urgency, making it feel less authentic."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.6,"reason":"The phrasing is overly formal and lacks personal context, suggesting it may be generated."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Specific technical issue with logs attached indicates a real user experience."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with email verification codes suggests a real user experience."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Specific request regarding MFA indicates a real user experience."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.65,"reason":"The phrasing is too casual and lacks detail, making it feel less authentic."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.85,"reason":"Specific complaint about login issues suggests a real user experience."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong emotional tone and specific complaint about service indicate a real user experience."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Specific complaint about missing items and request for a refund suggests a real user experience."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Specific complaint about damaged items and urgency for a refund indicates a real user experience."}

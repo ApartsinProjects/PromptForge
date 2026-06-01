@@ -1,0 +1,26 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attributes, but there are some missing combinations and potential near-duplicates. The diversity in scenarios is commendable, yet certain styles and noise types could be better represented.",
+  "missing_modes": [
+    "No samples represent the 'verbose' style in the 'refund_request' intent.",
+    "No samples represent the 'formal' style in the 'general_question' intent.",
+    "No samples represent the 'easy' difficulty in the 'complaint' intent."
+  ],
+  "overrepresented_modes": [
+    "The 'fragmented' style is used frequently in complaints and technical problems.",
+    "The 'hard' difficulty level is overrepresented across multiple intents."
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples that combine less common styles with various intents.",
+    "Include more edge cases and rare scenarios to enhance diversity.",
+    "Ensure a balanced representation of difficulty levels across all intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

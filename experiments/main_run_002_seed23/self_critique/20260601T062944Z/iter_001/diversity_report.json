@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and ambiguities, but there are missing styles and some near-duplicate phrasings. The informal and verbose styles are underrepresented, and there are several instances of similar phrasing.",
+  "missing_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "overrepresented_modes": [
+    "concise",
+    "informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse styles, particularly emotional and fragmented.",
+    "Implement checks to reduce near-duplicate phrasings by varying sentence structures and vocabulary."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

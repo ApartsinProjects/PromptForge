@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a complete coverage of all attribute values, but there are some near-duplicate phrasings and a few missing combinations of attributes. The diversity is generally good, but some scenarios could benefit from more edge cases.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more varied emotional expressions to reduce overrepresentation.",
+    "Include more edge case scenarios to enhance diversity.",
+    "Introduce additional combinations of attributes, especially with 'general_question' and 'refund_request' intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

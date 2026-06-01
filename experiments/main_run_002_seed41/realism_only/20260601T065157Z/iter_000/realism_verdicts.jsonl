@@ -1,0 +1,24 @@
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Casual language and urgency suggest a real user experience."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Direct question about future options indicates a genuine inquiry."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Personal account issue with emotional weight suggests authenticity."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.7,"reason":"Overly polished and structured; lacks real-world noise."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.75,"reason":"Formal tone and excessive detail make it feel scripted."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.8,"reason":"Polished language and structured request seem artificial."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.8,"reason":"Predictable structure and overly formal language suggest generation."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.85,"reason":"Casual tone and specific issue indicate a real user."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Direct inquiry about service status suggests authenticity."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Concise and urgent request indicates a real user experience."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Technical issue described in a straightforward manner suggests authenticity."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.9,"reason":"Frustration expressed in a relatable way indicates a real user."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Simple question about discounts feels genuine."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue described in a casual tone suggests authenticity."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Straightforward question about billing indicates a real inquiry."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Describes a common technical issue in a casual manner."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.75,"reason":"Informal language and vague description suggest generation."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific request related to account security indicates authenticity."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint lacks specific details, feels scripted."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.75,"reason":"Overly emotional and structured complaint suggests generation."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and casual request for a refund indicates a real user."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.85,"reason":"Specific issue with a purchase suggests authenticity."}
+{"sample_id":"target_00010","prediction":"real","confidence":0.9,"reason":"Emotional response to account lock indicates a real user."}
+{"sample_id":"R019","prediction":"real","confidence":0.85,"reason":"Direct complaint about product performance suggests authenticity."}

@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "exclamatory sentences expressing urgency or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or unrelated details (e.g., mentioning a cat)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language (e.g., 'freaking out', 'extremely disappointed')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for resolution or help phrased in a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "combination of multiple issues in a single message",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy and complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language with multiple qualifiers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "multiple issues presented in a single message",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i think' or 'it seems like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive detail in descriptions of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific problems with products or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and lack of capitalization",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., starting with a complaint followed by a request)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone and punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about orders or subscriptions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating the issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    }
+  ]
+}

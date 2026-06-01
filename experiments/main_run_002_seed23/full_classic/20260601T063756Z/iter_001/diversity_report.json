@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but lacks some styles and has a high near-duplicate rate. The samples also show a strong representation of common and edge cases, but rare scenarios are underrepresented.",
+  "missing_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "overrepresented_modes": [
+    "concise",
+    "formal"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more emotional and fragmented styles to enhance diversity.",
+    "Reduce the frequency of concise and formal styles to balance representation.",
+    "Incorporate more rare scenarios to ensure a wider range of contexts."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

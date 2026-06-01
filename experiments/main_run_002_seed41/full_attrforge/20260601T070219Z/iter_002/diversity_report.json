@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a strong coverage of attributes, with only one intent type missing. There are some near-duplicate phrasings and a few overrepresented styles, particularly emotional and verbose.",
+  "missing_modes": [
+    "refund_request"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples specifically for the 'refund_request' intent to ensure full coverage.",
+    "Diversify the emotional and verbose styles to reduce redundancy in phrasing.",
+    "Introduce more edge cases and rare scenarios to enhance the diversity of the dataset."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

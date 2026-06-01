@@ -1,0 +1,42 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I seem to be experiencing issues accessing my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing about account access issues does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I swear I didn't do anything wrong",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration and innocence is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Like, I swear the pic was way diff",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual language and structure of this complaint about a product mismatch is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I seem to be experiencing issues accessing my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing about account access issues does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I swear I didn't do anything wrong",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration and innocence is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Like, I swear the pic was way diff",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual language and structure of this complaint about a product mismatch is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

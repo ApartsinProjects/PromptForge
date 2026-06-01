@@ -1,0 +1,96 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I find myself rather puzzled",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicates confusion and is not present in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "Could you kindly provide me with insight",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal request for information is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I was so excited for my purchase",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of excitement followed by disappointment is not found in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "Just pondering since my WiFi’s acting up",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual phrasing about WiFi issues does not appear in real samples.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I seem to be experiencing issues accessing my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing about account access issues does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I swear I didn't do anything wrong",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration and innocence is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Like, I swear the pic was way diff",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual language and structure of this complaint about a product mismatch is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "despite my coffee cup being empty",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase adds an unusual personal touch that is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I was under the impression that",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing is not commonly used in real customer inquiries.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I think my account has changed some settings or something",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This vague expression of confusion is not present in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I clearly expected two",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing regarding expectations is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I find myself rather puzzled",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicates confusion and is not present in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "Could you kindly provide me with insight",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal request for information is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I was so excited for my purchase",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of excitement followed by disappointment is not found in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "Just pondering since my WiFi’s acting up",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual phrasing about WiFi issues does not appear in real samples.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

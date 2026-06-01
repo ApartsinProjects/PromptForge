@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents and styles, but there are some missing attribute values and combinations, particularly in the noise category. Additionally, there are near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "noise: clean",
+    "scenario_type: common"
+  ],
+  "overrepresented_modes": [
+    "intent: complaint",
+    "style: fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with 'clean' noise to ensure a wider range of quality.",
+    "Introduce more diverse scenarios, especially common ones, to balance the representation of edge cases and rare scenarios.",
+    "Vary the phrasing and structure of complaints to reduce near-duplicate instances."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

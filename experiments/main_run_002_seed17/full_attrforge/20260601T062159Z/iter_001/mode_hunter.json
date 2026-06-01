@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "so, like, i was just wondering",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal phrasing is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "could really use some clarity here...",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The ellipsis at the end adds a casual tone not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel completely ignored and it’s unacceptable.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is not present in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I think it's been hacked...",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual mention of hacking is a unique concern in the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "hey, i changed my emil and cant log in. help!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The use of informal language and a misspelling of 'email' is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "whts the deal with tht new update? any perks or just bugs?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The use of text-speak and informal phrasing is not found in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I genuinely just want my money back an",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The incomplete sentence structure and informal tone are distinctive to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I hope you can help me",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing appears in the synthetic batch but is absent in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "so, like, i was just wondering",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal phrasing is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "could really use some clarity here...",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The ellipsis at the end adds a casual tone not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel completely ignored and it’s unacceptable.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is not present in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I think it's been hacked...",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual mention of hacking is a unique concern in the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

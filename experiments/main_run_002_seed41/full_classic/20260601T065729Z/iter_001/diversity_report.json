@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of attribute values, but there are some near-duplicate phrasings and a lack of diversity in certain scenarios. The overall diversity is good, but edge cases could be better represented.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasing to reduce near-duplicates.",
+    "Include more edge case scenarios to enhance diversity.",
+    "Vary the emotional tone in complaints to avoid overrepresentation of emotional and fragmented styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,17 @@
+"""Generate realistic customer support messages that match the requested intent and style, ensuring a variety of scenarios and levels of ambiguity. The messages should reflect a range of user experiences, including edge cases and rare issues. Aim for a mix of styles, including formal, verbose, and informal, while avoiding overly structured or generic language. Keep the length short to medium. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I seem to be experiencing issues accessing my account'
+- "I swear I didn't do anything wrong"
+- 'Like, I swear the pic was way diff'
+
+Ensure the following:
+1. Scenario types should include both common and rare issues, with appropriate noise levels.
+2. Ambiguity should vary, with some messages being clear and others leaving room for interpretation.
+3. Incorporate diverse styles, including formal and verbose, while reducing reliance on informal and emotional tones.
+4. Avoid repetitive structures and phrasings to enhance uniqueness across samples.
+
+Examples of desired outputs:
+- (label=refund_request) "I ordered two items but only received one. Can I get a refund for the missing item?"
+- (label=general_question) "Could you clarify if the API has a rate limit on the search endpoint?"
+- (label=technical_problem) "The app crashes on Android 14 whenever I try to access the camera tab. I've already tried reinstalling it.""""

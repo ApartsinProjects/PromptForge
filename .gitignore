@@ -44,3 +44,5 @@ experiments/_smoke_*/
 
 # Logs
 *.log
+.claude/
+paper/_paper_*

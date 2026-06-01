@@ -1,0 +1,28 @@
+"""Generate realistic customer support messages that align with the specified intent and style. Ensure the examples are plausible for various customer support channels (email, chat, in-app form) and cover a wide range of scenarios, including edge cases and less common intents. Vary the phrasing to minimize near-duplicates and ensure all combinations of attributes are represented. The output should be a JSON object containing the sample id, the text, and the attribute values.
+
+Forbidden phrasings: None
+
+Please include a mix of intents such as refund requests, technical problems, and general inquiries, while also incorporating unique scenarios like account verification issues, feature requests, and billing questions. Aim for a balance in representation to avoid over-representation of any single intent. Keep the messages concise, ranging from short to medium length, and ensure they reflect natural language usage.
+
+Example intents to cover:
+- general_question
+- refund_request
+- technical_problem
+- account_issue
+- feature_request
+- billing_inquiry
+
+Output format:
+{
+  "sample_id": "unique_identifier",
+  "text": "customer support message text here",
+  "attributes": {
+    "intent": "specific_intent",
+    "style": "communication_style",
+    "scenario_type": "type_of_interaction",
+    "difficulty": "ease_of_resolution",
+    "ambiguity": "clarity_level",
+    "noise": "external_factors"
+  }
+}
+"""

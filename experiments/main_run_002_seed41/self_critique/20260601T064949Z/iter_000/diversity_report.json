@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of attributes, but there are some missing combinations and potential near-duplicates. The intent 'complaint' is underrepresented, and there are instances of shallow paraphrasing.",
+  "missing_modes": [
+    "intent: technical_problem",
+    "scenario_type: rare"
+  ],
+  "overrepresented_modes": [
+    "style: verbose",
+    "style: informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with the 'technical_problem' intent to ensure full coverage.",
+    "Diversify the 'scenario_type' to include more rare cases.",
+    "Reduce the frequency of verbose and informal styles to balance the representation of styles."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

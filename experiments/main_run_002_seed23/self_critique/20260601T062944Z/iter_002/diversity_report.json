@@ -1,0 +1,28 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, and styles, but there are missing attribute values for noise and some scenario types. Additionally, there are near-duplicates and shallow paraphrases present.",
+  "missing_modes": [
+    "account_issue with high ambiguity",
+    "refund_request with easy difficulty",
+    "complaint with easy difficulty",
+    "general_question with medium difficulty",
+    "general_question with easy difficulty"
+  ],
+  "overrepresented_modes": [
+    "complaint (5 instances)",
+    "refund_request (5 instances)"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse scenarios, especially for edge cases and rare situations.",
+    "Introduce more variations in noise attributes to capture a wider range of issues.",
+    "Ensure that all combinations of attributes are represented, particularly for missing difficulty levels."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}
