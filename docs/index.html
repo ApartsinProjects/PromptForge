@@ -508,7 +508,7 @@ python scripts/aggregate_multiseed.py</code></pre>
 </div>
 
 <p>
-  The three classifiers produce different rankings. Under TF-IDF word features the 7-critic loop is consistently below the 3-critic loop. Under sentence-transformer features the two loops are statistically indistinguishable (paired-t $p=0.66$, Wilcoxon $p=0.75$, 95% bootstrap CI on the mean diff $[-0.073, +0.180]$, including zero). The character $n$-gram classifier sits between the two: <code>full_classic</code> scores higher by mean ($0.52$ vs $0.46$), and the gap is smaller than on word features. The classifier-dependence is the substantive contribution: at the noise floor of a 10-item test set, single-classifier ablation tables produce ordering judgments that do not survive a classifier swap. The cost of the GAN adversaries to a low-capacity downstream classifier is absorbed when the reader has access to dense embeddings.
+  The three classifiers produce different rankings. Under TF-IDF word features the 7-critic loop is consistently below the 3-critic loop. Under sentence-transformer features the two loops are statistically indistinguishable (paired-t $p=0.82$, Wilcoxon $p=0.88$, 95% bootstrap CI on the mean diff $[-0.113, +0.093]$, including zero). The character $n$-gram classifier sits between the two: <code>full_classic</code> scores higher by mean ($0.52$ vs $0.49$), and the gap is smaller than on word features. The classifier-dependence is the substantive contribution: at the noise floor of a 10-item test set, single-classifier ablation tables produce ordering judgments that do not survive a classifier swap. The cost of the GAN adversaries to a low-capacity downstream classifier is absorbed when the reader has access to dense embeddings.
 </p>
 
 <p>
