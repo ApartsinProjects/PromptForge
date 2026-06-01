@@ -116,8 +116,23 @@ header.paper-title .subtitle {
 }
 
 header.paper-title .authors {
-  font-size: 0.98rem;
+  font-size: 1.0rem;
+  color: var(--fg);
+  margin-bottom: 0.3rem;
+}
+
+header.paper-title .authors sup,
+header.paper-title .affiliations sup {
+  font-size: 0.7em;
+  color: var(--muted);
+  font-weight: normal;
+}
+
+header.paper-title .affiliations {
+  font-size: 0.88rem;
   color: var(--fg-soft);
+  font-style: italic;
+  margin-bottom: 0.4rem;
 }
 
 header.paper-title .meta {
