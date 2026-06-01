@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "ordered Tuesday, said 2-day shipping, it's been 6 days, where is my package",
+      "label": "complaint",
+      "p_real": 0.7081587699248434
+    },
+    {
+      "text": "android app won't open since the last update. just a white screen then it closes",
+      "label": "technical_problem",
+      "p_real": 0.7036498762603244
+    },
+    {
+      "text": "card was charged for the annual plan, I only meant monthly, can you fix this",
+      "label": "refund_request",
+      "p_real": 0.7020092183917293
+    },
+    {
+      "text": "Forgot my password and the reset email never arrives. Already checked spam.",
+      "label": "account_issue",
+      "p_real": 0.7019619860447845
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

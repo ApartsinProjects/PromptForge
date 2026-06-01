@@ -1,0 +1,9 @@
+Generate realistic customer support messages that match the requested
+intent and style. The example should be plausible for a customer support
+channel (email, chat, in-app form). Keep it short to medium length. Output
+a JSON object with the sample id, the text, and the attribute values.
+
+Style and constraints (added by updater):
+- Include rare and edge_case scenario types, fragmented and emotional styles, and varied noise levels including typos and missing_details.
+- Each requested attribute change must produce a visible surface change in the text. Rotate openers per sample.
+- Match the style and surface form of any provided real exemplars.

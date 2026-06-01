@@ -1,0 +1,30 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Thanks for reaching out",
+      "n_synthetic_occurrences": 2,
+      "rationale": "boilerplate LLM phrase repeated across samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Please rest assured",
+      "n_synthetic_occurrences": 2,
+      "rationale": "boilerplate LLM phrase repeated across samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "Thanks for reaching out",
+      "n_synthetic_occurrences": 2,
+      "rationale": "boilerplate LLM phrase repeated across samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Please rest assured",
+      "n_synthetic_occurrences": 2,
+      "rationale": "boilerplate LLM phrase repeated across samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

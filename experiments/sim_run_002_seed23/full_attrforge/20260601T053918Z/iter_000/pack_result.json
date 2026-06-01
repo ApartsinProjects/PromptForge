@@ -1,0 +1,11 @@
+{
+  "pack_accuracy": 0.25,
+  "confidence_mean": 0.6,
+  "n_comparisons": 4,
+  "shared_patterns": [
+    {
+      "pattern": "uniform formal opener across pack",
+      "n_pairs_observed": 3
+    }
+  ]
+}

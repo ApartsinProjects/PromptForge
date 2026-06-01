@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "ordered Tuesday, said 2-day shipping, it's been 6 days, where is my package",
+      "label": "complaint",
+      "p_real": 0.7155191083413643
+    },
+    {
+      "text": "got the wrong size, want my money back not a store credit thanks",
+      "label": "refund_request",
+      "p_real": 0.7137478577601741
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.7118507390008583
+    },
+    {
+      "text": "Hi, I was charged twice for my subscription this month, can you refund the duplicate? Order #99431.",
+      "label": "refund_request",
+      "p_real": 0.710770790498695
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

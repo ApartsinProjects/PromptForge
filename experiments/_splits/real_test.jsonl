@@ -1,0 +1,10 @@
+{"text":"pls refund my last order, never got it and tracking still says label printed.","label":"refund_request","metadata":{"source":"chat"}}
+{"text":"transaction failed but money was deducted. screenshot attached.","label":"refund_request","metadata":{"source":"form"}}
+{"text":"sync isn't working between desktop and mobile, the new items aren't showing up","label":"technical_problem","metadata":{"source":"chat"}}
+{"text":"the export to PDF button is greyed out for me, other team members can use it fine","label":"technical_problem","metadata":{"source":"chat"}}
+{"text":"can't log in. says wrong password but I just reset it 5 min ago","label":"account_issue","metadata":{"source":"chat"}}
+{"text":"deleted my account by mistake yesterday is there any way to undo that","label":"account_issue","metadata":{"source":"email"}}
+{"text":"honestly your new pricing is a joke. why would anyone pay this","label":"complaint","metadata":{"source":"chat"}}
+{"text":"still no answer on ticket #4421 from last monday. anyone there??","label":"complaint","metadata":{"source":"chat"}}
+{"text":"Do you guys ship to Norway? Trying to figure out if it's worth signing up.","label":"general_question","metadata":{"source":"email"}}
+{"text":"hey, can two people share one account or do we need separate seats","label":"general_question","metadata":{"source":"chat"}}

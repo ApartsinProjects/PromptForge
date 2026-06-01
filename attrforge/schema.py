@@ -169,6 +169,15 @@ class IterationFeedback(BaseModel):
     realism_artifacts: list[RealismVerdict] = Field(default_factory=list)
     diversity: DiversityReport = Field(default_factory=DiversityReport)
     metrics: dict[str, float] = Field(default_factory=dict)
+    # GAN-style diversity-adversary feedback. Optional so existing baselines
+    # that disable an adversary still type-check.
+    pack_artifacts: list[str] = Field(default_factory=list)
+    pack_accuracy: float | None = None
+    mode_seeking_ratio: float | None = None
+    attribute_sensitivity: dict[str, float] = Field(default_factory=dict)
+    banned_phrasings: list[str] = Field(default_factory=list)
+    coverage_hole_exemplars: list[str] = Field(default_factory=list)
+    coverage_classifier_auroc: float | None = None
 
 
 def load_jsonl(path: str | Path) -> list[dict[str, Any]]:

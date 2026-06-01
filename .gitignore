@@ -28,9 +28,11 @@ env/
 .env.local
 .env.*.local
 
-# Run artefacts
+# Run artefacts (development scratch; experiment results under experiments/ are tracked)
 runs/*/
 !runs/.gitkeep
+experiments/_run.log
+experiments/_smoke_*/
 
 # Cached embeddings and models
 .cache/

@@ -1,0 +1,17 @@
+{
+  "new_findings": [],
+  "banned_library": [
+    {
+      "pattern": "I appreciate your patience",
+      "n_synthetic_occurrences": 2,
+      "rationale": "boilerplate LLM phrase repeated across samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I apologize for any inconvenience",
+      "n_synthetic_occurrences": 2,
+      "rationale": "boilerplate LLM phrase repeated across samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

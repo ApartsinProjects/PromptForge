@@ -1,0 +1,153 @@
+"""Baseline configurations for the AttrForge ablation study.
+
+Each baseline is a stock ``AttrForgeConfig`` with a different combination
+of ``enable_*`` flags. Same harness, same dataset, same seed, same
+metrics: only the critic stack changes.
+
+This is exactly the protocol the project description's Section 10 calls
+for, made executable.
+"""
+from __future__ import annotations
+
+from copy import deepcopy
+from dataclasses import replace
+
+from attrforge.loop import AttrForgeConfig
+
+
+def naive(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """One static prompt, one round of generation, no critics, no updater."""
+    out = deepcopy(cfg)
+    out.label = "naive"
+    out.iterations = 1
+    out.enable_verifier = False
+    out.enable_discriminator = False
+    out.enable_auditor = False
+    out.enable_pack = False
+    out.enable_mode_seeking = False
+    out.enable_mode_hunter = False
+    out.enable_coverage_hole = False
+    out.enable_updater = False
+    return out
+
+
+def few_shot(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """Naive + a larger few-shot pool, still no critics or updater."""
+    out = naive(cfg)
+    out.label = "few_shot"
+    out.generator.num_few_shot = max(out.generator.num_few_shot, 8)
+    return out
+
+
+def self_critique(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """No external critics, but the updater runs each round with empty critic feedback.
+
+    This is the "generator critiques and improves its own prompt" baseline:
+    no attribute, realism, or diversity audit; only the updater's own
+    rewrite signal. Simulates the common "ask the LLM to make the prompt
+    better" approach.
+    """
+    out = deepcopy(cfg)
+    out.label = "self_critique"
+    out.enable_verifier = False
+    out.enable_discriminator = False
+    out.enable_auditor = True  # deterministic auditor only (cheap, no LLM call)
+    out.enable_pack = False
+    out.enable_mode_seeking = False
+    out.enable_mode_hunter = False
+    out.enable_coverage_hole = False
+    out.enable_updater = True
+    return out
+
+
+def realism_only(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """Realism discriminator + updater. No attribute or diversity feedback."""
+    out = deepcopy(cfg)
+    out.label = "realism_only"
+    out.enable_verifier = False
+    out.enable_discriminator = True
+    out.enable_auditor = True  # deterministic only (no LLM call)
+    out.enable_pack = False
+    out.enable_mode_seeking = False
+    out.enable_mode_hunter = False
+    out.enable_coverage_hole = False
+    out.enable_updater = True
+    return out
+
+
+def diversity_only(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """Auditor + (optionally) GAN-style diversity adversaries, no verifier or realism critic."""
+    out = deepcopy(cfg)
+    out.label = "diversity_only"
+    out.enable_verifier = False
+    out.enable_discriminator = False
+    out.enable_auditor = True
+    out.enable_pack = False
+    out.enable_mode_seeking = True
+    out.enable_mode_hunter = False
+    out.enable_coverage_hole = True
+    out.enable_updater = True
+    return out
+
+
+def attribute_only(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """Verifier + updater. Tests attribute fidelity in isolation."""
+    out = deepcopy(cfg)
+    out.label = "attribute_only"
+    out.enable_verifier = True
+    out.enable_discriminator = False
+    out.enable_auditor = True  # deterministic
+    out.enable_pack = False
+    out.enable_mode_seeking = False
+    out.enable_mode_hunter = False
+    out.enable_coverage_hole = False
+    out.enable_updater = True
+    return out
+
+
+def full_classic(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """The 3-critic version (verifier + discriminator + auditor), no GAN extras."""
+    out = deepcopy(cfg)
+    out.label = "full_classic"
+    out.enable_verifier = True
+    out.enable_discriminator = True
+    out.enable_auditor = True
+    out.enable_pack = False
+    out.enable_mode_seeking = False
+    out.enable_mode_hunter = False
+    out.enable_coverage_hole = False
+    out.enable_updater = True
+    return out
+
+
+def full_attrforge(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """All 7 critics + updater. The full proposed system."""
+    out = deepcopy(cfg)
+    out.label = "full_attrforge"
+    out.enable_verifier = True
+    out.enable_discriminator = True
+    out.enable_auditor = True
+    out.enable_pack = True
+    out.enable_mode_seeking = True
+    out.enable_mode_hunter = True
+    out.enable_coverage_hole = True
+    out.enable_updater = True
+    return out
+
+
+BASELINES = {
+    "naive": naive,
+    "few_shot": few_shot,
+    "self_critique": self_critique,
+    "attribute_only": attribute_only,
+    "realism_only": realism_only,
+    "diversity_only": diversity_only,
+    "full_classic": full_classic,
+    "full_attrforge": full_attrforge,
+}
+
+
+def build(name: str, cfg: AttrForgeConfig) -> AttrForgeConfig:
+    if name not in BASELINES:
+        raise ValueError(f"unknown baseline: {name!r}; choices: {sorted(BASELINES)}")
+    return BASELINES[name](cfg)

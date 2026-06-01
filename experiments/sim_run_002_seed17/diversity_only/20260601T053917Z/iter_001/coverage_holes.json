@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "got the wrong size, want my money back not a store credit thanks",
+      "label": "refund_request",
+      "p_real": 0.717914035703078
+    },
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.7138284591235124
+    },
+    {
+      "text": "Hi, I was charged twice for my subscription this month, can you refund the duplicate? Order #99431.",
+      "label": "refund_request",
+      "p_real": 0.7124520368268233
+    },
+    {
+      "text": "card was charged for the annual plan, I only meant monthly, can you fix this",
+      "label": "refund_request",
+      "p_real": 0.7100008083866994
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

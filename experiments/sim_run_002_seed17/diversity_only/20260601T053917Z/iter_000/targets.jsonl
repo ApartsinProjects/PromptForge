@@ -1,0 +1,16 @@
+{"sample_id": "target_00001", "difficulty": "medium", "noise": "typos", "intent": "account_issue", "ambiguity": "medium", "style": "fragmented", "scenario_type": "common"}
+{"sample_id": "target_00002", "style": "formal", "noise": "irrelevant_details", "intent": "general_question", "difficulty": "hard", "ambiguity": "medium", "scenario_type": "common"}
+{"sample_id": "target_00003", "style": "emotional", "scenario_type": "edge_case", "intent": "technical_problem", "difficulty": "medium", "ambiguity": "high", "noise": "irrelevant_details"}
+{"sample_id": "target_00004", "intent": "refund_request", "noise": "contradiction", "difficulty": "hard", "ambiguity": "medium", "style": "verbose", "scenario_type": "edge_case"}
+{"sample_id": "target_00005", "noise": "clean", "scenario_type": "common", "intent": "technical_problem", "difficulty": "easy", "ambiguity": "low", "style": "verbose"}
+{"sample_id": "target_00006", "difficulty": "medium", "noise": "contradiction", "intent": "technical_problem", "ambiguity": "medium", "style": "concise", "scenario_type": "common"}
+{"sample_id": "target_00007", "style": "formal", "scenario_type": "edge_case", "intent": "refund_request", "difficulty": "medium", "ambiguity": "medium", "noise": "clean"}
+{"sample_id": "target_00008", "difficulty": "easy", "noise": "missing_details", "intent": "complaint", "ambiguity": "medium", "style": "concise", "scenario_type": "common"}
+{"sample_id": "target_00009", "style": "fragmented", "scenario_type": "common", "intent": "account_issue", "difficulty": "easy", "ambiguity": "medium", "noise": "missing_details"}
+{"sample_id": "target_00010", "difficulty": "hard", "scenario_type": "common", "intent": "refund_request", "ambiguity": "medium", "style": "informal", "noise": "clean"}
+{"sample_id": "target_00011", "difficulty": "easy", "scenario_type": "common", "intent": "account_issue", "ambiguity": "low", "style": "fragmented", "noise": "typos"}
+{"sample_id": "target_00012", "ambiguity": "high", "scenario_type": "rare", "intent": "general_question", "difficulty": "hard", "style": "concise", "noise": "typos"}
+{"sample_id": "target_00013", "intent": "refund_request", "noise": "contradiction", "difficulty": "medium", "ambiguity": "medium", "style": "fragmented", "scenario_type": "common"}
+{"sample_id": "target_00014", "intent": "refund_request", "scenario_type": "common", "difficulty": "hard", "ambiguity": "high", "style": "fragmented", "noise": "missing_details"}
+{"sample_id": "target_00015", "intent": "refund_request", "difficulty": "hard", "ambiguity": "medium", "style": "formal", "noise": "irrelevant_details", "scenario_type": "edge_case"}
+{"sample_id": "target_00016", "intent": "technical_problem", "noise": "contradiction", "difficulty": "hard", "ambiguity": "low", "style": "verbose", "scenario_type": "common"}

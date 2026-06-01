@@ -48,7 +48,7 @@ class LLMClient(Protocol):
 class LLMConfig:
     """Backend selector plus model and sampling defaults."""
 
-    backend: Literal["openai", "anthropic", "echo"] = "openai"
+    backend: Literal["openai", "anthropic", "echo", "sim"] = "openai"
     model: str = "gpt-4o-mini"
     api_key_env: str = "OPENAI_API_KEY"
     base_url: str | None = None
@@ -205,6 +205,10 @@ def build_client(cfg: LLMConfig) -> LLMClient:
         return AnthropicClient(cfg)
     if backend == "echo":
         return EchoClient(cfg)
+    if backend == "sim":
+        from attrforge.sim_backend import build_sim_client
+
+        return build_sim_client(cfg)
     raise LLMError(f"Unknown backend: {cfg.backend!r}")
 
 

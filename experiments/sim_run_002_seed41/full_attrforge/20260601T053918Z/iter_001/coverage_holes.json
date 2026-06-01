@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.7198931229110039
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.7087040416531768
+    },
+    {
+      "text": "Hi, I was charged twice for my subscription this month, can you refund the duplicate? Order #99431.",
+      "label": "refund_request",
+      "p_real": 0.7052863664325761
+    },
+    {
+      "text": "the item arrived damaged. need a refund or replacement asap. photos attached.",
+      "label": "refund_request",
+      "p_real": 0.7043541726803729
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

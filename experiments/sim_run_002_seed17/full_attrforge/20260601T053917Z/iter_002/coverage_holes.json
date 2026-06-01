@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.7221671154990424
+    },
+    {
+      "text": "ordered Tuesday, said 2-day shipping, it's been 6 days, where is my package",
+      "label": "complaint",
+      "p_real": 0.7167029661905169
+    },
+    {
+      "text": "the item arrived damaged. need a refund or replacement asap. photos attached.",
+      "label": "refund_request",
+      "p_real": 0.7133952317881713
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.7121577964542858
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

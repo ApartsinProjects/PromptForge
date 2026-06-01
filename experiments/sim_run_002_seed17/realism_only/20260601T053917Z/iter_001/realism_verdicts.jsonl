@@ -1,0 +1,24 @@
+{"sample_id":"target_00026","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.85,"reason":"contains a known LLM tic phrase."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.85,"reason":"contains a known LLM tic phrase."}
+{"sample_id":"R012","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R018","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R010","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R028","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R014","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R026","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R005","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R029","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R009","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R024","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R004","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R020","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R021","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R017","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R019","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R006","prediction":"real","confidence":0.55,"reason":"natural length and tone."}

@@ -1,0 +1,39 @@
+# AttrForge configuration using the simulated backend.
+#
+# All seven critics share the same SimClient (different ``extra.role`` hints).
+# Suitable for offline harness validation; no API costs.
+schema_path: examples/customer_support/schema.yaml
+real_examples_path: examples/customer_support/real_examples.jsonl
+
+domain: customer_support
+task_description: |
+  Classify a customer support message into one of five intents. Messages may
+  be informal, fragmented, ambiguous, or contain typos and irrelevant details.
+
+iterations: 3
+samples_per_iteration: 12
+seed: 17
+run_dir: runs
+
+initial_prompt: |
+  Generate realistic customer support messages that match the requested
+  intent and style. The example should be plausible for a customer support
+  channel (email, chat, in-app form). Keep it short to medium length. Output
+  a JSON object with the sample id, the text, and the attribute values.
+
+generator_llm:     { backend: sim, model: sim-gen,        max_tokens: 600 }
+verifier_llm:      { backend: sim, model: sim-verifier,   max_tokens: 300 }
+discriminator_llm: { backend: sim, model: sim-disc,       max_tokens: 800 }
+auditor_llm:       { backend: sim, model: sim-aud,        max_tokens: 600 }
+updater_llm:       { backend: sim, model: sim-upd,        max_tokens: 600 }
+pack_llm:          { backend: sim, model: sim-pack,       max_tokens: 400 }
+hunter_llm:        { backend: sim, model: sim-hunt,       max_tokens: 400 }
+
+planner: { strategy: coverage_gap, batch_size: 12 }
+generator: { num_few_shot: 3, temperature: 0.9, max_tokens: 600 }
+discriminator: { max_samples: 24 }
+auditor: { use_embeddings: false }
+pack_discriminator: { pack_size: 4, n_comparisons: 4 }
+mode_hunter: { max_findings_per_iter: 4, min_repeats: 2 }
+mode_seeking: { use_embeddings: false }
+coverage_hole: { top_k: 4 }

@@ -140,11 +140,30 @@ Realism artifacts the discriminator flagged (sample_id, reason):
 Diversity audit:
 {diversity_block}
 
+Pack-level patterns the pack discriminator detected across batches of samples
+(these are visible only when looking at multiple samples together):
+{pack_block}
+
+Mode-seeking responsiveness: ratio of text distance to attribute distance.
+{mode_seeking_block}
+
+Persistent banned phrasings library (NEVER reuse these in any future prompt):
+{banned_block}
+
+Real exemplars the synthetic distribution is failing to cover (use as
+stylistic anchors for the next batch):
+{coverage_hole_block}
+
 Constraints:
 - Keep the task definition and output format.
 - Reduce the named realism artifacts.
 - Cover the missing modes and reduce the overrepresented ones.
-- Do not exceed 250 words.
+- Address the pack-level patterns by introducing structural variation.
+- If mode-seeking ratio is low (< 0.5), explicitly amplify the surface
+  effect of attribute changes.
+- Do not reuse any banned phrasing. Add a "Forbidden phrasings" block to
+  the generator prompt if helpful.
+- Do not exceed 280 words.
 
 Output only the revised generator prompt.
 """

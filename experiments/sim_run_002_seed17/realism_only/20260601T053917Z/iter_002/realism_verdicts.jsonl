@@ -1,0 +1,24 @@
+{"sample_id":"R015","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R022","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R028","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R026","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R000","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R014","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R018","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R007","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R024","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.85,"reason":"contains a known LLM tic phrase."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R027","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R011","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R002","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R013","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R023","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R020","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R010","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R009","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"R017","prediction":"real","confidence":0.55,"reason":"natural length and tone."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.85,"reason":"contains a known LLM tic phrase."}
