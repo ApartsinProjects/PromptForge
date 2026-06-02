@@ -104,3 +104,49 @@ def test_k_real_per_value_caps_the_pool():
     # Bullet lines count - should be exactly 3.
     n_bullets = sum(1 for line in block.splitlines() if line.strip().startswith("- "))
     assert n_bullets == 3
+
+
+def test_class_primary_attribute_match_passes_when_only_auxiliary_attributes_fail():
+    """v2.9.5: when label_attribute (class) is not in failed_attributes,
+    attribute_match=True even if auxiliary attributes failed. Prevents
+    the TREC failure mode where un-anchored auxiliary attributes (style,
+    difficulty, scenario_type) caused attr_pass=0/16 across all iters."""
+    from attrforge.schema import SyntheticSample
+    v = AttributeVerifier(client=None, schema=_schema())
+    sample = SyntheticSample(
+        sample_id="t1",
+        text="A masterpiece of cinema.",
+        requested_attributes={"intent": "positive", "style": "formal"},
+    )
+    # LLM says intent passes but style failed; old behaviour would mark False,
+    # new behaviour marks True because class (intent) didn't fail.
+    obj = {
+        "sample_id": "t1",
+        "attribute_match": False,  # LLM said overall False
+        "failed_attributes": ["style"],  # but only style failed
+        "reason": "intent matches positive; style is informal not formal",
+    }
+    verdict = v._coerce(obj, sample)
+    assert verdict.attribute_match is True
+    assert verdict.failed_attributes == ["style"]
+
+
+def test_class_primary_attribute_match_fails_when_class_fails():
+    """v2.9.5: class-attribute failure still causes attribute_match=False
+    even when LLM said overall True."""
+    from attrforge.schema import SyntheticSample
+    v = AttributeVerifier(client=None, schema=_schema())
+    sample = SyntheticSample(
+        sample_id="t2",
+        text="A terrible film.",
+        requested_attributes={"intent": "positive", "style": "formal"},
+    )
+    obj = {
+        "sample_id": "t2",
+        "attribute_match": True,  # LLM said overall True (wrong)
+        "failed_attributes": ["intent"],  # but intent failed
+        "reason": "text is negative not positive",
+    }
+    verdict = v._coerce(obj, sample)
+    assert verdict.attribute_match is False
+    assert "intent" in verdict.failed_attributes

@@ -181,9 +181,36 @@ class AttributeVerifier:
         return "\n\n".join(chunks)
 
     def _coerce(self, obj: dict, sample: SyntheticSample) -> AttributeVerdict:
+        """Coerce LLM verifier response into AttributeVerdict.
+
+        Class-primary rule (v2.9.5): a sample passes verification iff the
+        SCHEMA's label_attribute (typically 'intent', the class) is NOT in
+        failed_attributes. Mismatches on auxiliary schema attributes
+        (style, difficulty, scenario_type, noise, ambiguity, etc.) that
+        do not affect the downstream classifier are still surfaced in
+        failed_attributes for updater feedback, but do not by themselves
+        cause attribute_match=False.
+
+        Rationale: schemas often include un-anchored auxiliary attributes
+        (no real-seed labels available) that the LLM verifier interprets
+        over-strictly. On TREC, the un-anchored auxiliary attributes
+        caused attr_pass=0/16 across all iterations, starving the
+        updater of meaningful per-iter feedback. The downstream
+        classifier only uses text->label, so class-attribute fidelity
+        IS the operationally relevant pass criterion.
+        """
+        failed = [str(a) for a in obj.get("failed_attributes", [])]
+        class_attr = self.schema.label_attribute
+        class_match = class_attr not in failed
+        # Backward-compat: if the LLM said attribute_match=True explicitly
+        # AND the class attribute isn't in the failed list, honour the True.
+        # If the LLM said False but the failure was only on auxiliary
+        # attributes, override to True (class-primary semantics).
+        llm_match = bool(obj.get("attribute_match", False))
+        attribute_match = class_match if class_attr else llm_match
         return AttributeVerdict(
             sample_id=str(obj.get("sample_id") or sample.sample_id),
-            attribute_match=bool(obj.get("attribute_match", False)),
-            failed_attributes=[str(a) for a in obj.get("failed_attributes", [])],
+            attribute_match=attribute_match,
+            failed_attributes=failed,
             reason=str(obj.get("reason", "")),
         )
