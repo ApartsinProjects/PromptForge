@@ -1,0 +1,88 @@
+# AttrForge run configuration: customer support intent classification
+schema_path: examples/banking77/schema.yaml
+real_examples_path: experiments/_splits/banking77_real_train.jsonl
+
+domain: banking77_card_payment
+task_description: |
+  Classify a banking customer support message into one of ten card/payment intents.
+  The classes share heavy vocabulary overlap (card, payment, transaction, declined,
+  blocked); requires fine semantic distinctions rather than keyword matching.
+
+iterations: 3
+samples_per_iteration: 16
+seed: 17
+run_dir: runs
+
+initial_prompt: |
+  Generate realistic banking customer-support messages that match the requested intent
+  and style. The example should be plausible for a customer support channel
+  (email, chat, in-app form). Keep it short to medium length. Output a JSON
+  object with the sample id, the text, and the attribute values.
+
+# Backends. Set ``backend: echo`` to dry-run with no API key.
+generator_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.9
+  max_tokens: 800
+
+verifier_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 400
+
+discriminator_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 1200
+
+auditor_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.2
+  max_tokens: 800
+
+updater_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.3
+  max_tokens: 600
+
+planner:
+  strategy: coverage_gap
+  batch_size: 20
+
+generator:
+  num_few_shot: 3
+  temperature: 0.9
+  max_tokens: 800
+
+discriminator:
+  max_samples: 24
+
+auditor:
+  near_duplicate_threshold: 0.92
+  use_embeddings: false
+
+# GAN-style adversary configs. min_repeats=1 makes Mode Hunter sensitive at
+# batch_size=16; lower batch sizes would need higher min_repeats.
+pack_discriminator:
+  pack_size: 4
+  n_comparisons: 8
+
+mode_hunter:
+  max_findings_per_iter: 4
+  min_repeats: 1
+
+mode_seeking:
+  use_embeddings: false
+
+coverage_hole:
+  top_k: 4
