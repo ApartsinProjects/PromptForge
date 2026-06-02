@@ -44,3 +44,62 @@ def test_library_property_starts_empty():
     """A fresh ModeHunter has no remembered findings."""
     hunter = ModeHunter(client=None, config=ModeHunterConfig())
     assert hunter.library == []
+
+
+def test_is_domain_canonical_vetoes_overlapping_content_words():
+    """A pattern whose content words have >=50% overlap with the real
+    seed is judged domain-canonical and should NOT be banned, even when
+    the exact phrasing is absent from the seed (which is the dominant
+    case at small N).
+    """
+    real = [
+        "the visuals are stunning; the performances are uneven, and the score lingers",
+        "an arthritic attempt at directing; pacing collapses in the third act",
+        "long after the credits roll you will remember the lead performance",
+        "cinematography that breathes; a quietly devastating piece of cinema",
+    ]
+    # All content words present (or 4-char-prefix match) in real -> VETO ban.
+    assert ModeHunter._is_domain_canonical("the visuals are", real)
+    assert ModeHunter._is_domain_canonical("the performances are", real)
+    assert ModeHunter._is_domain_canonical("long after the credits roll", real)
+
+
+def test_is_domain_canonical_allows_genuine_artifacts():
+    """A pattern whose content words have no real-seed overlap is allowed
+    to be banned -- this is a genuine synthesis artifact."""
+    real = [
+        "the visuals are stunning; the performances are uneven",
+        "an arthritic attempt at directing; pacing collapses in the third act",
+    ]
+    # Nonsense / foreign vocabulary not in real seed -> allow ban.
+    assert not ModeHunter._is_domain_canonical("xyzzy plover", real)
+    # Customer-support style phrases on a film-criticism real seed -> allow ban.
+    assert not ModeHunter._is_domain_canonical("I understand your frustration", real)
+
+
+def test_is_domain_canonical_handles_morphological_variation():
+    """Stem-style matching via 4-char prefix catches the dominant
+    morphological cases: ``visuals`` matches ``visual``, ``credits``
+    matches ``credit``, ``performances`` matches ``performance``.
+
+    A known limitation: short-stem variants whose morpheme splits before
+    the 4th character (e.g., ``pace`` -> ``pacing`` differ at char 4)
+    are not detected by 4-char prefix matching. This is accepted as a
+    conservative-side false negative; the Updater's positive
+    coverage-hole guidance compensates."""
+    real = [
+        "a visual feast that lingers",
+        "a credit roll over a black screen",
+        "the performance carries the film",
+    ]
+    assert ModeHunter._is_domain_canonical("stunning visuals", real)  # visuals~visual
+    assert ModeHunter._is_domain_canonical("the credits roll", real)  # credits~credit
+    assert ModeHunter._is_domain_canonical("the performances are", real)  # performances~performance
+
+
+def test_veto_can_be_disabled_via_config():
+    """When ``veto_domain_canonical=False`` the soft veto is bypassed
+    and the original strict ``n_real_obs > 0`` check is the only filter."""
+    cfg = ModeHunterConfig(veto_domain_canonical=False)
+    hunter = ModeHunter(client=None, config=cfg)
+    assert hunter.config.veto_domain_canonical is False

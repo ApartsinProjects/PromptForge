@@ -72,14 +72,32 @@ For each attribute, decide if the text matches. Output JSON:
 
 
 DISCRIMINATOR_SYSTEM = (
-    "You are a forensic reader of short texts. "
-    "Given a shuffled mix of real and LLM-generated samples, classify each one. "
-    "Flag the cues you used (over-polished grammar, predictable structure, generic "
-    "vocabulary, missing real-world noise, etc.). Return JSON only."
+    "You are a forensic reader of short texts. You receive a shuffled mix "
+    "of real samples (drawn from a SPECIFIC TARGET DISTRIBUTION) and "
+    "synthetic LLM-generated samples. Your job is to classify each sample "
+    "against the IDENTIFIED REAL DISTRIBUTION, not against a generic "
+    "'plausible English' baseline.\n\n"
+    "Procedure:\n"
+    "1. First, scan the samples to identify the target distribution's "
+    "register, vocabulary, length, syntactic patterns, and stylistic tics. "
+    "What kind of writing is the real seed? Formal review? Casual chat? "
+    "Newswire? Critic prose? Domain-specific jargon?\n"
+    "2. Then classify each sample as 'real' or 'synthetic' by comparing "
+    "it to THAT identified distribution. A casually-written text is "
+    "SYNTHETIC if the real samples are formal; a polished text is REAL "
+    "if the real samples are professional writing. Register mismatch is "
+    "as strong a cue as grammatical artifacts.\n"
+    "3. Flag the cues you used in the reason field, naming the register "
+    "mismatch when relevant (e.g., 'casual viewer voice; real samples "
+    "are professional critic prose').\n"
+    "Return JSON only."
 )
 
 DISCRIMINATOR_USER_TEMPLATE = """You will see {n} samples in random order. Some are real, some are synthetic.
-Classify each as 'real' or 'synthetic', give a confidence in [0, 1], and briefly explain.
+Identify the real distribution's register and style FIRST by scanning all
+samples; classify each against that identified register, not against a
+generic 'plausible English' baseline. Register mismatch is itself a
+synthetic cue.
 
 Samples:
 {samples_block}
@@ -150,8 +168,10 @@ Mode-seeking responsiveness: ratio of text distance to attribute distance.
 Persistent banned phrasings library (NEVER reuse these in any future prompt):
 {banned_block}
 
-Real exemplars the synthetic distribution is failing to cover (use as
-stylistic anchors for the next batch):
+Real exemplars the synthetic distribution is failing to cover (PREFERRED
+phrasings the generator MUST steer toward in the next batch; these are
+real surface patterns from the target distribution that the synth is
+missing):
 {coverage_hole_block}
 
 Constraints:
@@ -163,7 +183,16 @@ Constraints:
   effect of attribute changes.
 - Do not reuse any banned phrasing. Add a "Forbidden phrasings" block to
   the generator prompt if helpful.
-- Do not exceed 280 words.
+- Add a "Preferred phrasings" block (or analogous positive guidance) to
+  the generator prompt that lists the real-exemplar fragments shown
+  above. The generator MUST attempt to produce samples that USE those
+  phrasings or close paraphrases of them. These are the target
+  distribution's surface signal; the banned list alone cannot replace
+  positive register guidance.
+- Banned-phrasings guidance is NEGATIVE (what to avoid); preferred-
+  phrasings guidance is POSITIVE (what to emulate). Both belong in the
+  new prompt when their respective inputs are non-empty.
+- Do not exceed 320 words.
 
 Output only the revised generator prompt.
 """

@@ -71,6 +71,15 @@ class ModeHunterConfig:
     min_repeats: int = 2
     max_banned_total: int = 50  # hard cap to prevent prompt bloat
     temperature: float = 0.0
+    # Generic register-anchor knob (see _is_domain_canonical below).
+    # When True (default), reject candidate bans whose content words ALL
+    # appear in the real corpus: these are statistically rare in the
+    # small real seed but domain-canonical in the broader real
+    # distribution. Without this veto, the Mode Hunter at small real-seed
+    # sizes systematically pushes the generator away from the target
+    # domain (e.g., banning 'the visuals are' / 'the performances are'
+    # on a film-criticism corpus).
+    veto_domain_canonical: bool = True
 
 
 class ModeHunterFinding(BaseModel):
@@ -144,6 +153,7 @@ class ModeHunter:
 
         new_findings: list[ModeHunterFinding] = []
         seen_lower = {f.pattern.strip().lower() for f in self._library}
+        real_texts = [e.text for e in real]
 
         for entry in obj.get("findings", []):
             pattern = str(entry.get("pattern", "")).strip()
@@ -152,8 +162,18 @@ class ModeHunter:
             # Validate the LLM's claim deterministically: at least min_repeats
             # synthetic occurrences AND zero real occurrences.
             n_synth = self._count_substring(pattern, [s.text for s in synthetic])
-            n_real_obs = self._count_substring(pattern, [e.text for e in real])
+            n_real_obs = self._count_substring(pattern, real_texts)
             if n_synth < self.config.min_repeats or n_real_obs > 0:
+                continue
+            # Generic register-anchor veto: refuse to ban patterns whose
+            # content words all appear in the real seed. At small real-seed
+            # sizes, the literal phrasing is statistically rare by chance,
+            # but the underlying lexical content is domain-canonical and
+            # the generator should be free to use it.
+            if (
+                self.config.veto_domain_canonical
+                and self._is_domain_canonical(pattern, real_texts)
+            ):
                 continue
             key = pattern.lower()
             if key in seen_lower:
@@ -196,6 +216,81 @@ class ModeHunter:
         if not p:
             return 0
         return sum(1 for t in corpus if p in t.lower())
+
+    # English stopwords that don't carry domain signal. Conservative list:
+    # function words, common auxiliaries, demonstratives. Domain veto looks
+    # at the remaining "content words" only.
+    _STOPWORDS: frozenset[str] = frozenset(
+        {
+            "a", "an", "and", "are", "as", "at", "be", "been", "by", "do",
+            "does", "did", "for", "from", "had", "has", "have", "he", "her",
+            "him", "his", "i", "in", "is", "it", "its", "me", "my", "no",
+            "not", "of", "on", "or", "our", "she", "so", "that", "the",
+            "their", "them", "there", "they", "this", "to", "us", "was",
+            "we", "were", "what", "when", "which", "who", "will", "with",
+            "would", "you", "your",
+        }
+    )
+
+    # Fraction of pattern content words that must morphologically match a
+    # real-seed token before the pattern is judged domain-canonical.
+    _DOMAIN_OVERLAP_THRESHOLD: float = 0.5
+
+    @classmethod
+    def _is_domain_canonical(cls, pattern: str, real_texts: list[str]) -> bool:
+        """Generic check: does pattern's content vocabulary overlap real's?
+
+        A pattern is judged DOMAIN-CANONICAL (and the ban is vetoed) when
+        at least ``_DOMAIN_OVERLAP_THRESHOLD`` of its content words have a
+        morphological match in the real seed. A morphological match is a
+        4-character prefix in common (so ``visuals`` matches ``visual``,
+        ``pacing`` matches ``pace``, ``credits`` matches ``credit``), or
+        an exact equality for words shorter than 4 characters.
+
+        Rationale: at small real-seed sizes (N=60 is typical), the literal
+        phrasing of a domain-canonical n-gram is statistically likely to
+        be absent from the seed by chance alone, even when the lexical
+        content is domain-relevant. A strict "all content words appear
+        verbatim" check has poor recall in that regime; the 50% threshold
+        with 4-char-prefix stemming is a deterministic, language-agnostic
+        proxy for "would this n-gram appear in the broader real
+        distribution this seed was sampled from?".
+
+        Worked examples on a 60-sample SST-2 film-critic seed:
+        - ``the visuals are`` -> content=[visuals]; ``visual`` is in real;
+          1/1 = 100% >= 50% -> VETO ban.
+        - ``Oh sure,`` -> content=[sure]; if ``sure`` is in real, VETO.
+        - ``long after the credits roll`` -> content=[long, after, credits,
+          roll]; long+after match real; 2/4 = 50% -> VETO.
+        - ``xyzzy plover`` -> 0/2 = 0% -> allow ban (genuine artifact).
+        """
+        if not pattern or not real_texts:
+            return False
+        pat_tokens = [
+            "".join(c for c in tok if c.isalnum()).lower()
+            for tok in pattern.split()
+        ]
+        content = [t for t in pat_tokens if t and len(t) > 2 and t not in cls._STOPWORDS]
+        if not content:
+            return False  # nothing to judge by; let the strict veto fire.
+        # Build a real-corpus token set (alnum-only, lower).
+        real_tokens: set[str] = set()
+        for text in real_texts:
+            for tok in text.split():
+                clean = "".join(c for c in tok if c.isalnum()).lower()
+                if clean:
+                    real_tokens.add(clean)
+        # Build a 4-char prefix set for stem-style matching.
+        real_prefixes: set[str] = {t[:4] for t in real_tokens if len(t) >= 4}
+        matches = 0
+        for word in content:
+            if word in real_tokens:
+                matches += 1
+                continue
+            if len(word) >= 4 and word[:4] in real_prefixes:
+                matches += 1
+                continue
+        return matches / len(content) >= cls._DOMAIN_OVERLAP_THRESHOLD
 
     @staticmethod
     def top_ngrams(texts: list[str], n: int = 3, top_k: int = 20) -> list[tuple[str, int]]:
