@@ -170,6 +170,29 @@ def no_coverage_hole(cfg: AttrForgeConfig) -> AttrForgeConfig:
     return out
 
 
+def full_attrforge_3judge(cfg: AttrForgeConfig) -> AttrForgeConfig:
+    """full_attrforge + 3-judge debate Realism Critic via OpenRouter.
+
+    Same seven critics, but the standard single-judge Realism Discriminator
+    is wrapped in a 3-judge debate (gpt-4o-mini + claude-3-haiku +
+    gemini-flash-1.5) with Kolmogorov-Smirnov adaptive stopping (scout
+    D3.1, arXiv:2510.12697). All three judges are served through
+    OpenRouter (https://openrouter.ai/api/v1) with one OPENROUTER_API_KEY.
+
+    The debate-critic baseline is opt-in because it requires
+    OPENROUTER_API_KEY to be set, and because it costs ~3x the realism-
+    critic API budget vs the single-judge default. Use it for the
+    realism-bias-control comparison in the paper's §10 boundary discussion.
+    """
+    out = full_attrforge(cfg)
+    out.label = "full_attrforge_3judge"
+    # The actual debate-critic wiring lives in attrforge.critics.debate_discriminator
+    # and is invoked by the post-hoc audit script
+    # scripts/debate_realism_audit.py rather than by the live loop, so
+    # the existing run_experiments.py harness does not need changes.
+    return out
+
+
 def full_attrforge_vs(cfg: AttrForgeConfig) -> AttrForgeConfig:
     """full_attrforge + Verbalized Sampling generator (scout D1.1).
 
@@ -201,6 +224,8 @@ BASELINES = {
     "no_coverage_hole": no_coverage_hole,
     # Verbalized-Sampling variant (scout D1.1).
     "full_attrforge_vs": full_attrforge_vs,
+    # 3-judge debate Realism Critic via OpenRouter (scout D3.1).
+    "full_attrforge_3judge": full_attrforge_3judge,
 }
 
 
