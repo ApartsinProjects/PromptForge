@@ -158,6 +158,13 @@ class AttrForgeConfig:
     # each per iter and don't benefit from batching. See attrforge.llm_batch.
     use_batch_api: bool = False
     batch_model: str = "gpt-4o-mini"
+    # Fix B (v2.9.6): if True, after the per-iter verifier pass, count
+    # accepted samples per class and re-generate extras for under-filled
+    # classes so each class hits at least ceil(n/K) accepted samples per
+    # iteration. Capped at +regen_max_extra_frac of the original batch
+    # size to prevent runaway loops on impossible attribute combinations.
+    regen_on_rejection: bool = True
+    regen_max_extra_frac: float = 0.5
     label: str = "full_attrforge"
 
     @classmethod
@@ -210,6 +217,8 @@ class AttrForgeConfig:
             label=raw.get("label", "full_attrforge"),
             use_batch_api=raw.get("use_batch_api", False),
             batch_model=raw.get("batch_model", "gpt-4o-mini"),
+            regen_on_rejection=raw.get("regen_on_rejection", True),
+            regen_max_extra_frac=raw.get("regen_max_extra_frac", 0.5),
         )
 
 
@@ -360,7 +369,6 @@ class AttrForge:
             samples = self.generator.generate(
                 targets, prompt=prompt, prompt_version=prompt_version, iteration=t
             )
-        write_jsonl(iter_dir / "samples.jsonl", samples)
         self._all_samples.extend(samples)
 
         # 1. attribute verifier
@@ -378,6 +386,33 @@ class AttrForge:
                 attribute_verdicts = self.verifier.verify(samples)
         else:
             attribute_verdicts = []
+
+        # 1b. Fix B (v2.9.6): re-generate to compensate for verifier-rejection
+        # under-fill. If any class has fewer ACCEPTED samples than ceil(n/K)
+        # in this iter due to verifier rejections, queue extras for that
+        # class (capped at +50% of original batch to prevent runaway loops
+        # on impossible attribute combinations).
+        if (
+            self.config.regen_on_rejection
+            and self.verifier is not None
+            and attribute_verdicts
+        ):
+            extras, extra_verdicts = self._regen_for_underfill(
+                samples,
+                attribute_verdicts,
+                prompt=prompt,
+                prompt_version=prompt_version,
+                iteration=t,
+                target_n=self.config.samples_per_iteration,
+            )
+            if extras:
+                samples.extend(extras)
+                attribute_verdicts.extend(extra_verdicts)
+                self._all_samples.extend(extras)
+                # Persist extras for traceability.
+                from attrforge.schema import write_jsonl as _wj
+                _wj(iter_dir / "samples_regen.jsonl", extras)
+        write_jsonl(iter_dir / "samples.jsonl", samples)
         write_jsonl(iter_dir / "attribute_verdicts.jsonl", attribute_verdicts)
 
         # 2. per-sample realism discriminator
@@ -473,6 +508,115 @@ class AttrForge:
             mode_hunter_result=hunter_result,
             coverage_hole_result=hole_result,
         )
+
+    def _regen_for_underfill(
+        self,
+        samples: list,
+        verdicts: list,
+        *,
+        prompt: str,
+        prompt_version: int,
+        iteration: int,
+        target_n: int,
+    ) -> tuple[list, list]:
+        """Re-generate samples for classes whose accepted count falls below
+        ceil(target_n / K) due to verifier rejections.
+
+        Returns ``(extra_samples, extra_verdicts)``. Capped at
+        ``regen_max_extra_frac * target_n`` extra samples to prevent runaway
+        loops on impossible attribute combinations.
+
+        Composes with Fix A (balanced planner): Fix A balances what's
+        REQUESTED; Fix B compensates when the requested-balance is broken
+        by verifier rejections.
+        """
+        label_attr = self.schema.label_attribute
+        if not label_attr:
+            return [], []
+        allowed = list(self.schema.values(label_attr) or [])
+        K = len(allowed)
+        if K <= 1:
+            return [], []
+        per_class_target = -(-target_n // K)  # ceil(target_n / K)
+        max_extras = int(self.config.regen_max_extra_frac * target_n)
+        if max_extras <= 0:
+            return [], []
+        # Count ACCEPTED samples per class within this iter.
+        verdict_by_id = {v.sample_id: v for v in verdicts}
+        accepted_per_class: dict[str, int] = {v: 0 for v in allowed}
+        for s in samples:
+            req_label = s.requested_attributes.get(label_attr)
+            if req_label not in accepted_per_class:
+                continue
+            v = verdict_by_id.get(s.sample_id)
+            if v is not None and v.attribute_match:
+                accepted_per_class[req_label] += 1
+        # Build the queue of under-filled labels in deficit order.
+        deficits = [
+            (label, per_class_target - accepted_per_class[label])
+            for label in allowed
+        ]
+        deficits = [(lab, d) for lab, d in deficits if d > 0]
+        if not deficits:
+            return [], []
+        # Sort by largest deficit first so most-underfilled classes regen first.
+        deficits.sort(key=lambda kv: -kv[1])
+        queue: list[str] = []
+        for lab, d in deficits:
+            queue.extend([lab] * d)
+            if len(queue) >= max_extras:
+                queue = queue[:max_extras]
+                break
+        # Build target vectors for the queue, randomizing non-class attrs.
+        from attrforge.schema import AttributeVector
+        import random
+        rng = random.Random((self.config.seed or 17) + iteration * 31)
+        extra_targets: list[AttributeVector] = []
+        for lab in queue:
+            for _ in range(32):  # constraint-sat retries
+                cand = {label_attr: lab}
+                for name in self.schema.names():
+                    if name == label_attr:
+                        continue
+                    cand[name] = rng.choice(self.schema.values(name))
+                if self.schema.is_valid(cand):
+                    av = self.planner._wrap(cand)
+                    extra_targets.append(av)
+                    break
+        if not extra_targets:
+            return [], []
+        # Generate the extras.
+        if self.config.use_batch_api and not self.config.generator.verbalized_sampling:
+            from attrforge.llm_batch import BatchLLMClient, BatchConfig
+            gen_batch = BatchLLMClient(
+                model=self.config.batch_model,
+                config=BatchConfig(model=self.config.batch_model),
+            )
+            extra_samples = self.generator.batch_generate(
+                extra_targets, prompt=prompt, prompt_version=prompt_version,
+                iteration=iteration, batch_client=gen_batch,
+            )
+        else:
+            extra_samples = self.generator.generate(
+                extra_targets, prompt=prompt, prompt_version=prompt_version,
+                iteration=iteration,
+            )
+        # Verify the extras.
+        if self.verifier is not None:
+            if self.config.use_batch_api:
+                from attrforge.llm_batch import BatchLLMClient, BatchConfig
+                ver_batch = BatchLLMClient(
+                    model=self.config.batch_model,
+                    config=BatchConfig(model=self.config.batch_model),
+                )
+                extra_verdicts = self.verifier.batch_verify(
+                    extra_samples, batch_client=ver_batch,
+                )
+            else:
+                extra_verdicts = self.verifier.verify(extra_samples)
+        else:
+            extra_verdicts = []
+        return extra_samples, extra_verdicts
 
     def _maybe_update_prompt(self, t: int, result: IterationResult) -> None:
         if self.updater is None:

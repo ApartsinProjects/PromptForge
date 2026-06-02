@@ -17,6 +17,11 @@ def test_offline_loop_smoke(tmp_path):
     cfg.run_dir = str(tmp_path)
     cfg.iterations = 2
     cfg.samples_per_iteration = 4
+    # Disable Fix B regen-on-rejection for this smoke so the assertion
+    # 'each iter has exactly samples_per_iteration' holds. The regen path
+    # has its own dedicated tests; this one only checks the basic loop
+    # writes the expected files.
+    cfg.regen_on_rejection = False
 
     forge = AttrForge(cfg)
     result = forge.run()

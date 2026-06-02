@@ -25,6 +25,13 @@ class PlannerConfig:
     strategy: str = "stratified"
     batch_size: int = 16
     seed: int | None = None
+    # When True (v2.9.6 default), the planner enforces explicit per-class
+    # balance: each value of the schema's label_attribute receives at least
+    # ceil(n / K) targets per batch, with leftover n % K randomized. Without
+    # this, random sampling can leave a class with 0 or 1 synth examples
+    # (the Banking77 seed-17 case: card_not_working got 1 sample of 48 ->
+    # per-class accuracy 0.325 vs 0.95 real-only).
+    class_balanced: bool = True
 
 
 class AttributePlanner:
@@ -58,7 +65,9 @@ class AttributePlanner:
                 if full is not None:
                     out.append(self._wrap(full))
 
-        if self.config.strategy == "stratified":
+        if self.config.class_balanced and self.schema.label_attribute:
+            out.extend(self._class_balanced(n - len(out), out, existing or []))
+        elif self.config.strategy == "stratified":
             out.extend(self._stratified(n - len(out)))
         elif self.config.strategy == "coverage_gap":
             out.extend(self._coverage_gap(n - len(out), existing or []))
@@ -66,6 +75,100 @@ class AttributePlanner:
             raise ValueError(f"Unknown planner strategy: {self.config.strategy!r}")
 
         return out[:n]
+
+    def _class_balanced(
+        self,
+        n: int,
+        already_picked: list[AttributeVector],
+        existing_samples: list[SyntheticSample],
+    ) -> list[AttributeVector]:
+        """Explicit per-class balance: every label value gets ceil(n/K) targets.
+
+        The non-class attributes are randomized as in the stratified
+        strategy. This is the dominant fix for the Banking77 seed-17
+        failure mode (one class got 1 sample of 48 by chance). When
+        targeted_combinations have already populated some class slots,
+        the remaining quota is adjusted accordingly so each class
+        finishes at >=ceil(n_total/K) targets.
+
+        Falls back gracefully if the label_attribute is missing or has
+        only one allowed value (degenerate case).
+        """
+        if n <= 0:
+            return []
+        label_attr = self.schema.label_attribute
+        if not label_attr:
+            return self._stratified(n)
+        allowed_labels = list(self.schema.values(label_attr) or [])
+        if len(allowed_labels) <= 1:
+            return self._stratified(n)
+        # Cross-iter balance: also count prior-iter accepted samples so a
+        # class that was under-filled in iter 1 receives more in iter 2.
+        already_per_class: dict[str, int] = {v: 0 for v in allowed_labels}
+        for av in already_picked:
+            lbl = av.values.get(label_attr)
+            if lbl in already_per_class:
+                already_per_class[lbl] += 1
+        for sample in existing_samples:
+            lbl = sample.requested_attributes.get(label_attr)
+            if lbl in already_per_class:
+                already_per_class[lbl] += 1
+        # Total target per class is ceil((total batch over all iters) / K).
+        K = len(allowed_labels)
+        total_batch = len(existing_samples) + len(already_picked) + n
+        per_class_target = -(-total_batch // K)  # ceil(total / K)
+        # Build the queue of class labels that need samples via ROUND-ROBIN
+        # over the deficits. This distributes n slots fairly across labels
+        # with equal deficit, rather than greedily filling the first label
+        # to its full quota before moving on (which left some classes at 0
+        # when len(deficits-queue) > n and many classes had equal deficit).
+        per_label_remaining: dict[str, int] = {
+            label: max(0, per_class_target - already_per_class[label])
+            for label in allowed_labels
+        }
+        queue: list[str] = []
+        # Round-robin: in each pass, give one slot to every label that
+        # still has deficit, in order of largest remaining deficit first.
+        while len(queue) < n and any(v > 0 for v in per_label_remaining.values()):
+            # Order labels by remaining deficit (largest first); tie-break
+            # via the RNG so ordering is not deterministic across calls.
+            labels_with_deficit = [
+                lab for lab, rem in per_label_remaining.items() if rem > 0
+            ]
+            self._rng.shuffle(labels_with_deficit)
+            labels_with_deficit.sort(
+                key=lambda lab: per_label_remaining[lab], reverse=True,
+            )
+            for label in labels_with_deficit:
+                if len(queue) >= n:
+                    break
+                queue.append(label)
+                per_label_remaining[label] -= 1
+        # Pad with randomly-selected labels if queue is still shorter than
+        # n (e.g. all deficits were 0 because the prior iters already over-
+        # filled every class).
+        while len(queue) < n:
+            queue.append(self._rng.choice(allowed_labels))
+        # Final shuffle so the order of generation is randomized.
+        self._rng.shuffle(queue)
+        # Now build the AttributeVector for each queued label by
+        # randomizing the other attributes (stratified per non-class
+        # attribute) and respecting schema constraints.
+        out: list[AttributeVector] = []
+        for label in queue[:n]:
+            values: dict[str, str] | None = None
+            for _ in range(32):  # max retries per slot for constraint sat
+                cand = {label_attr: label}
+                for name in self.schema.names():
+                    if name == label_attr:
+                        continue
+                    cand[name] = self._rng.choice(self.schema.values(name))
+                if self.schema.is_valid(cand):
+                    values = cand
+                    break
+            if values is not None:
+                out.append(self._wrap(values))
+        return out
 
     def _wrap(self, values: dict[str, str]) -> AttributeVector:
         self._counter += 1
