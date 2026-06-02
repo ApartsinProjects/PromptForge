@@ -1,0 +1,361 @@
+{
+  "low_weight": 0.3,
+  "augmented": {
+    "naive": [
+      {
+        "seed": 101,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 17,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.7333333333333333,
+        "weighted_worst": 0.0,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      }
+    ],
+    "few_shot": [
+      {
+        "seed": 101,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 17,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 16
+      }
+    ],
+    "self_critique": [
+      {
+        "seed": 101,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 32
+      },
+      {
+        "seed": 17,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.7333333333333333,
+        "weighted_worst": 0.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.7333333333333333,
+        "weighted_worst": 0.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 48
+      }
+    ],
+    "realism_only": [
+      {
+        "seed": 17,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.7333333333333333,
+        "weighted_worst": 0.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 48
+      }
+    ],
+    "diversity_only": [
+      {
+        "seed": 17,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.7333333333333333,
+        "weighted_worst": 0.0,
+        "n_flagged": 0,
+        "n_total": 48
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 0,
+        "n_total": 48
+      }
+    ],
+    "full_classic": [
+      {
+        "seed": 17,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 43,
+        "n_total": 48
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 47,
+        "n_total": 48
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 42,
+        "n_total": 48
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 0.7333333333333333,
+        "uniform_worst": 0.0,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 42,
+        "n_total": 48
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 48,
+        "n_total": 48
+      }
+    ],
+    "full_attrforge": [
+      {
+        "seed": 17,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 44,
+        "n_total": 48
+      },
+      {
+        "seed": 23,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 46,
+        "n_total": 48
+      },
+      {
+        "seed": 41,
+        "uniform_macro": 0.7866666666666666,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 0.8933333333333333,
+        "weighted_worst": 0.6666666666666666,
+        "n_flagged": 44,
+        "n_total": 48
+      },
+      {
+        "seed": 53,
+        "uniform_macro": 0.8933333333333333,
+        "uniform_worst": 0.6666666666666666,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 45,
+        "n_total": 48
+      },
+      {
+        "seed": 89,
+        "uniform_macro": 1.0,
+        "uniform_worst": 1.0,
+        "weighted_macro": 1.0,
+        "weighted_worst": 1.0,
+        "n_flagged": 48,
+        "n_total": 48
+      }
+    ]
+  }
+}

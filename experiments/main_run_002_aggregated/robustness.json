@@ -1,0 +1,270 @@
+{
+  "n_paraphrases_per_item": 2,
+  "real_only": {
+    "macro_clean": 0.8933333333333333,
+    "macro_para": 1.0,
+    "worst_clean": 0.6666666666666666,
+    "worst_para": 1.0
+  },
+  "augmented": {
+    "naive": [
+      {
+        "seed": 17,
+        "macro_clean": 1.0,
+        "macro_para": 1.0,
+        "worst_clean": 1.0,
+        "worst_para": 1.0
+      },
+      {
+        "seed": 23,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.8254545454545454,
+        "worst_clean": 0.0,
+        "worst_para": 0.4
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 53,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.888888888888889,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 89,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      }
+    ],
+    "few_shot": [
+      {
+        "seed": 17,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 23,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 1.0,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 1.0
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.888888888888889,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 53,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 89,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 1.0,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 1.0
+      }
+    ],
+    "self_critique": [
+      {
+        "seed": 17,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.8502164502164502,
+        "worst_clean": 0.0,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 23,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.8254545454545454,
+        "worst_clean": 0.0,
+        "worst_para": 0.4
+      },
+      {
+        "seed": 53,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.8933333333333333,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 89,
+        "macro_clean": 1.0,
+        "macro_para": 1.0,
+        "worst_clean": 1.0,
+        "worst_para": 1.0
+      }
+    ],
+    "realism_only": [
+      {
+        "seed": 17,
+        "macro_clean": 1.0,
+        "macro_para": 0.9028571428571428,
+        "worst_clean": 1.0,
+        "worst_para": 0.8
+      },
+      {
+        "seed": 23,
+        "macro_clean": 1.0,
+        "macro_para": 1.0,
+        "worst_clean": 1.0,
+        "worst_para": 1.0
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.7999999999999999,
+        "worst_clean": 0.0,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 53,
+        "macro_clean": 1.0,
+        "macro_para": 1.0,
+        "worst_clean": 1.0,
+        "worst_para": 1.0
+      },
+      {
+        "seed": 89,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      }
+    ],
+    "diversity_only": [
+      {
+        "seed": 17,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.8502164502164502,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 23,
+        "macro_clean": 1.0,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 1.0,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 53,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.8933333333333333,
+        "worst_clean": 0.0,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 89,
+        "macro_clean": 1.0,
+        "macro_para": 1.0,
+        "worst_clean": 1.0,
+        "worst_para": 1.0
+      }
+    ],
+    "full_classic": [
+      {
+        "seed": 17,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.8933333333333333,
+        "worst_clean": 0.0,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 23,
+        "macro_clean": 1.0,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 1.0,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 53,
+        "macro_clean": 0.7333333333333333,
+        "macro_para": 0.8254545454545454,
+        "worst_clean": 0.0,
+        "worst_para": 0.4
+      },
+      {
+        "seed": 89,
+        "macro_clean": 1.0,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 1.0,
+        "worst_para": 0.8571428571428571
+      }
+    ],
+    "full_attrforge": [
+      {
+        "seed": 17,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.8025974025974026,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.5714285714285715
+      },
+      {
+        "seed": 23,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 41,
+        "macro_clean": 0.7866666666666666,
+        "macro_para": 0.8425396825396826,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.6666666666666666
+      },
+      {
+        "seed": 53,
+        "macro_clean": 0.8933333333333333,
+        "macro_para": 0.9492063492063492,
+        "worst_clean": 0.6666666666666666,
+        "worst_para": 0.8571428571428571
+      },
+      {
+        "seed": 89,
+        "macro_clean": 1.0,
+        "macro_para": 1.0,
+        "worst_clean": 1.0,
+        "worst_para": 1.0
+      }
+    ]
+  }
+}

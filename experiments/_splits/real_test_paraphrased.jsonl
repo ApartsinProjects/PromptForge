@@ -1,0 +1,20 @@
+{"text": "pls refund my last order, never get and tracking nor says label printed.", "label": "refund_request", "_source": "backtranslation_de", "_origin_idx": 0, "_pivot": "de"}
+{"text": "Transaction failed, but money was deducted. Screenshot attached.", "label": "refund_request", "_source": "backtranslation_de", "_origin_idx": 1, "_pivot": "de"}
+{"text": "sync does not work between desktop and mobile phone, the new elements are not displayed", "label": "technical_problem", "_source": "backtranslation_de", "_origin_idx": 2, "_pivot": "de"}
+{"text": "the export to the PDF button is grayed out for me, other team members can use it well", "label": "technical_problem", "_source": "backtranslation_de", "_origin_idx": 3, "_pivot": "de"}
+{"text": "I can't log in. says wrong password, but I reset it five minutes ago.", "label": "account_issue", "_source": "backtranslation_de", "_origin_idx": 4, "_pivot": "de"}
+{"text": "My account deleted yesterday accidentally there is a way to undo that", "label": "account_issue", "_source": "backtranslation_de", "_origin_idx": 5, "_pivot": "de"}
+{"text": "honest your new pricing is a joke. why should someone pay this", "label": "complaint", "_source": "backtranslation_de", "_origin_idx": 6, "_pivot": "de"}
+{"text": "No response to ticket #4421 from last Monday.", "label": "complaint", "_source": "backtranslation_de", "_origin_idx": 7, "_pivot": "de"}
+{"text": "You're going to Norway to find out if it's worth registering.", "label": "general_question", "_source": "backtranslation_de", "_origin_idx": 8, "_pivot": "de"}
+{"text": "Hey, can two people share an account or do we need separate seats?", "label": "general_question", "_source": "backtranslation_de", "_origin_idx": 9, "_pivot": "de"}
+{"text": "pls refund my last order, never had it and the tracking always says the printed label.", "label": "refund_request", "_source": "backtranslation_fr", "_origin_idx": 0, "_pivot": "fr"}
+{"text": "failed transaction but money has been deducted. screenshot joint.", "label": "refund_request", "_source": "backtranslation_fr", "_origin_idx": 1, "_pivot": "fr"}
+{"text": "sync does not work between desktop and mobile, new elements do not appear", "label": "technical_problem", "_source": "backtranslation_fr", "_origin_idx": 2, "_pivot": "fr"}
+{"text": "the export to PDF button is gray for me, other team members can use it very well", "label": "technical_problem", "_source": "backtranslation_fr", "_origin_idx": 3, "_pivot": "fr"}
+{"text": "can't log in. says a bad password but I just reset it five minutes ago.", "label": "account_issue", "_source": "backtranslation_fr", "_origin_idx": 4, "_pivot": "fr"}
+{"text": "deleted my account by mistake yesterday is there is no way to cancel that", "label": "account_issue", "_source": "backtranslation_fr", "_origin_idx": 5, "_pivot": "fr"}
+{"text": "Honestly, your new prize is a joke.", "label": "complaint", "_source": "backtranslation_fr", "_origin_idx": 6, "_pivot": "fr"}
+{"text": "Still no answer on ticket #4421 from last Monday. Is there anyone there??", "label": "complaint", "_source": "backtranslation_fr", "_origin_idx": 7, "_pivot": "fr"}
+{"text": "You're on your way to Norway to find out if it's worth registering.", "label": "general_question", "_source": "backtranslation_fr", "_origin_idx": 8, "_pivot": "fr"}
+{"text": "Hey, two people can share an account or do we need separate seats", "label": "general_question", "_source": "backtranslation_fr", "_origin_idx": 9, "_pivot": "fr"}
