@@ -1,0 +1,506 @@
+{
+  "naive": [
+    {
+      "seed": 101,
+      "manifold_entropy": 2.4056487603301697,
+      "effective_rank": 11.085619860178387,
+      "eigenvalue_decay": 0.509349699514038,
+      "n_samples": 16
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.3597483134039714,
+      "effective_rank": 10.588286187333834,
+      "eigenvalue_decay": 0.41826113890358524,
+      "n_samples": 16
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.377768861604837,
+      "effective_rank": 10.780822503593086,
+      "eigenvalue_decay": 0.39981255758582235,
+      "n_samples": 16
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 2.2406964222754313,
+      "effective_rank": 9.399875291022306,
+      "eigenvalue_decay": 0.5966943535503298,
+      "n_samples": 16
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.2873560122136998,
+      "effective_rank": 9.848862952375908,
+      "eigenvalue_decay": 0.5049061844736361,
+      "n_samples": 16
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 2.409443479259031,
+      "effective_rank": 11.127766588618385,
+      "eigenvalue_decay": 0.5648847282493015,
+      "n_samples": 16
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 2.2350877511756906,
+      "effective_rank": 9.347302052953998,
+      "eigenvalue_decay": 0.31091753971126834,
+      "n_samples": 16
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 2.353040655531315,
+      "effective_rank": 10.517501252095578,
+      "eigenvalue_decay": 0.436598142789183,
+      "n_samples": 16
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 2.1719319664709076,
+      "effective_rank": 8.775221107504658,
+      "eigenvalue_decay": 0.37880969953241683,
+      "n_samples": 16
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 2.2623525885294793,
+      "effective_rank": 9.60566077285534,
+      "eigenvalue_decay": 0.3865176873263977,
+      "n_samples": 16
+    }
+  ],
+  "few_shot": [
+    {
+      "seed": 101,
+      "manifold_entropy": 2.352391171410404,
+      "effective_rank": 10.510672519857303,
+      "eigenvalue_decay": 0.40891891247704965,
+      "n_samples": 16
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.1848289590251726,
+      "effective_rank": 8.889128018216569,
+      "eigenvalue_decay": 0.3702012597948713,
+      "n_samples": 16
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.3195789131365983,
+      "effective_rank": 10.17139036531568,
+      "eigenvalue_decay": 0.408724094208128,
+      "n_samples": 16
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 2.2368634294962724,
+      "effective_rank": 9.363914599469714,
+      "eigenvalue_decay": 0.5012250940572129,
+      "n_samples": 16
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.307592027351181,
+      "effective_rank": 10.050194899993093,
+      "eigenvalue_decay": 0.4379585203305608,
+      "n_samples": 16
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 2.3517846979872967,
+      "effective_rank": 10.504300008889619,
+      "eigenvalue_decay": 0.5453367063927327,
+      "n_samples": 16
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 2.3549471407066163,
+      "effective_rank": 10.537571838372319,
+      "eigenvalue_decay": 0.4485014589811409,
+      "n_samples": 16
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 2.3492560568812273,
+      "effective_rank": 10.47777195819147,
+      "eigenvalue_decay": 0.47550948777792434,
+      "n_samples": 16
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 2.219039955682897,
+      "effective_rank": 9.198495661981026,
+      "eigenvalue_decay": 0.3347054096697494,
+      "n_samples": 16
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 2.271275748851453,
+      "effective_rank": 9.691757178677255,
+      "eigenvalue_decay": 0.3818979870271437,
+      "n_samples": 16
+    }
+  ],
+  "self_critique": [
+    {
+      "seed": 101,
+      "manifold_entropy": 3.0724760357496077,
+      "effective_rank": 21.595307284717514,
+      "eigenvalue_decay": 0.476327303989928,
+      "n_samples": 48
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.8270828703693516,
+      "effective_rank": 16.89610074853795,
+      "eigenvalue_decay": 0.4910005900064788,
+      "n_samples": 48
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.806256384986388,
+      "effective_rank": 16.5478533255858,
+      "eigenvalue_decay": 0.3249829559638302,
+      "n_samples": 48
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 2.911300536144239,
+      "effective_rank": 18.380687778070886,
+      "eigenvalue_decay": 0.5058544804975946,
+      "n_samples": 48
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.8953413084195248,
+      "effective_rank": 18.089674545960516,
+      "eigenvalue_decay": 0.3783249141425326,
+      "n_samples": 48
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 3.0062558007595355,
+      "effective_rank": 20.211581885348114,
+      "eigenvalue_decay": 0.4501000966626493,
+      "n_samples": 48
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 3.0189973975697293,
+      "effective_rank": 20.470757360952287,
+      "eigenvalue_decay": 0.4028814302405614,
+      "n_samples": 48
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 3.002811421332259,
+      "effective_rank": 20.142085283549772,
+      "eigenvalue_decay": 0.4337445028624313,
+      "n_samples": 48
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 2.899774573323848,
+      "effective_rank": 18.17004889400529,
+      "eigenvalue_decay": 0.3911084606572897,
+      "n_samples": 48
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 3.0257142173059988,
+      "effective_rank": 20.608718559577692,
+      "eigenvalue_decay": 0.45115275198835963,
+      "n_samples": 48
+    }
+  ],
+  "realism_only": [
+    {
+      "seed": 101,
+      "manifold_entropy": 3.0687358515759726,
+      "effective_rank": 21.514687718181936,
+      "eigenvalue_decay": 0.45026082241583076,
+      "n_samples": 48
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.75026809082987,
+      "effective_rank": 15.646826092540632,
+      "eigenvalue_decay": 0.482808337680676,
+      "n_samples": 48
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.811520465318419,
+      "effective_rank": 16.635192232641835,
+      "eigenvalue_decay": 0.39439743503443764,
+      "n_samples": 48
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 2.815058852724542,
+      "effective_rank": 16.694158248117418,
+      "eigenvalue_decay": 0.4081813319715272,
+      "n_samples": 48
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.905859560176109,
+      "effective_rank": 18.28095047777335,
+      "eigenvalue_decay": 0.37651664584752026,
+      "n_samples": 48
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 3.0555056704108137,
+      "effective_rank": 21.231919166128538,
+      "eigenvalue_decay": 0.4865599105506749,
+      "n_samples": 48
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 3.1445319581905253,
+      "effective_rank": 23.208810237251136,
+      "eigenvalue_decay": 0.42922462159457164,
+      "n_samples": 48
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 2.911788171117513,
+      "effective_rank": 18.38965302997184,
+      "eigenvalue_decay": 0.4357343224290411,
+      "n_samples": 48
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 3.0496259921188713,
+      "effective_rank": 21.107448593956935,
+      "eigenvalue_decay": 0.4040938320514368,
+      "n_samples": 48
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 3.06176261881126,
+      "effective_rank": 21.365182665447644,
+      "eigenvalue_decay": 0.4061338648235804,
+      "n_samples": 48
+    }
+  ],
+  "diversity_only": [
+    {
+      "seed": 101,
+      "manifold_entropy": 3.0107349617369104,
+      "effective_rank": 20.302315868579765,
+      "eigenvalue_decay": 0.4588863794915733,
+      "n_samples": 48
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.8094160698625688,
+      "effective_rank": 16.60022201818587,
+      "eigenvalue_decay": 0.4252682145502371,
+      "n_samples": 48
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.8640792013270513,
+      "effective_rank": 17.53290149706094,
+      "eigenvalue_decay": 0.3140519028403265,
+      "n_samples": 48
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 2.8146160837037906,
+      "effective_rank": 16.686768228174305,
+      "eigenvalue_decay": 0.346794868338032,
+      "n_samples": 48
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.950101218324953,
+      "effective_rank": 19.10788769873962,
+      "eigenvalue_decay": 0.4226997551309059,
+      "n_samples": 48
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 2.9648486275753374,
+      "effective_rank": 19.391767640406208,
+      "eigenvalue_decay": 0.40715563825371154,
+      "n_samples": 48
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 2.997484859728936,
+      "effective_rank": 20.035082457033674,
+      "eigenvalue_decay": 0.3747122933015104,
+      "n_samples": 48
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 2.975736016418667,
+      "effective_rank": 19.604046841292213,
+      "eigenvalue_decay": 0.36565760078231424,
+      "n_samples": 48
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 2.9922448613875985,
+      "effective_rank": 19.930373235851313,
+      "eigenvalue_decay": 0.35425214741109085,
+      "n_samples": 48
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 2.881293452841662,
+      "effective_rank": 17.837330010125438,
+      "eigenvalue_decay": 0.38560975036047174,
+      "n_samples": 48
+    }
+  ],
+  "full_classic": [
+    {
+      "seed": 101,
+      "manifold_entropy": 2.937937656114287,
+      "effective_rank": 18.876875531658165,
+      "eigenvalue_decay": 0.4714919019712642,
+      "n_samples": 48
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.824509140338013,
+      "effective_rank": 16.85267065926515,
+      "eigenvalue_decay": 0.4712261127288283,
+      "n_samples": 48
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.7991098021703777,
+      "effective_rank": 16.430014296097553,
+      "eigenvalue_decay": 0.41507899734463033,
+      "n_samples": 48
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 3.065703536716416,
+      "effective_rank": 21.449547224073026,
+      "eigenvalue_decay": 0.4820729023033811,
+      "n_samples": 48
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.906686649921567,
+      "effective_rank": 18.296076718967935,
+      "eigenvalue_decay": 0.4205188885438478,
+      "n_samples": 48
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 3.0156620000401495,
+      "effective_rank": 20.40259298825543,
+      "eigenvalue_decay": 0.45527101709955153,
+      "n_samples": 48
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 3.089336387463857,
+      "effective_rank": 21.962498549391007,
+      "eigenvalue_decay": 0.4336353845888584,
+      "n_samples": 48
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 3.072699856453651,
+      "effective_rank": 21.600141302554473,
+      "eigenvalue_decay": 0.39702504085215656,
+      "n_samples": 48
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 3.0180387814030443,
+      "effective_rank": 20.45114316474661,
+      "eigenvalue_decay": 0.3694436132461006,
+      "n_samples": 48
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 2.904954563973689,
+      "effective_rank": 18.26441377097142,
+      "eigenvalue_decay": 0.4240654563330276,
+      "n_samples": 48
+    }
+  ],
+  "full_attrforge": [
+    {
+      "seed": 101,
+      "manifold_entropy": 2.9036767051648846,
+      "effective_rank": 18.241089334788573,
+      "eigenvalue_decay": 0.39558780464692606,
+      "n_samples": 48
+    },
+    {
+      "seed": 109,
+      "manifold_entropy": 2.830177617142308,
+      "effective_rank": 16.94847089618001,
+      "eigenvalue_decay": 0.5156344917089624,
+      "n_samples": 48
+    },
+    {
+      "seed": 127,
+      "manifold_entropy": 2.9218221693388875,
+      "effective_rank": 18.575103625292876,
+      "eigenvalue_decay": 0.40369785467631153,
+      "n_samples": 48
+    },
+    {
+      "seed": 137,
+      "manifold_entropy": 2.9636714403090707,
+      "effective_rank": 19.3689533294623,
+      "eigenvalue_decay": 0.41658826931854737,
+      "n_samples": 48
+    },
+    {
+      "seed": 149,
+      "manifold_entropy": 2.885358080097621,
+      "effective_rank": 17.909979654699317,
+      "eigenvalue_decay": 0.35070048449396873,
+      "n_samples": 48
+    },
+    {
+      "seed": 17,
+      "manifold_entropy": 3.105967077592977,
+      "effective_rank": 22.330804156653986,
+      "eigenvalue_decay": 0.4769138194570795,
+      "n_samples": 48
+    },
+    {
+      "seed": 23,
+      "manifold_entropy": 3.0495282921682256,
+      "effective_rank": 21.105386498006027,
+      "eigenvalue_decay": 0.48224104743291785,
+      "n_samples": 48
+    },
+    {
+      "seed": 41,
+      "manifold_entropy": 2.8622919147252492,
+      "effective_rank": 17.501593163940946,
+      "eigenvalue_decay": 0.37976833629676826,
+      "n_samples": 48
+    },
+    {
+      "seed": 53,
+      "manifold_entropy": 3.0417577817075925,
+      "effective_rank": 20.942022404649894,
+      "eigenvalue_decay": 0.4035874088313166,
+      "n_samples": 48
+    },
+    {
+      "seed": 89,
+      "manifold_entropy": 2.9776696651683077,
+      "effective_rank": 19.641990855329716,
+      "eigenvalue_decay": 0.3727643759543876,
+      "n_samples": 48
+    }
+  ]
+}
