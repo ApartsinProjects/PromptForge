@@ -313,7 +313,7 @@ $$
 
 <h3><span class="subsection-num">6.2</span>Backends</h3>
 <p>
-  The critics, generator, and updater are backend-agnostic. The headline results in Section 7 use <code>gpt-4o-mini</code> as both generator and every critic, across 10 random seeds (17, 23, 41, 53, 89, 101, 109, 127, 137, 149), 7 conditions, and 3 iterations of 16 samples each (70 condition-runs in total on customer-support). Banking77 cross-domain replication uses the same 7 conditions on 5 random seeds (17, 23, 41, 53, 89), one iteration scale. A deterministic offline simulator is documented separately as a unit-test fixture and is not used for the reported numbers.
+  The critics, generator, and updater are backend-agnostic. The headline results in Section 7 use <code>gpt-4o-mini</code> as both generator and every critic, across 10 random seeds (17, 23, 41, 53, 89, 101, 109, 127, 137, 149), 7 conditions, and 3 iterations of 16 samples each (70 condition-runs in total on customer-support). Banking77 cross-domain replication uses the same 7 conditions on 5 random seeds (17, 23, 41, 53, 89), the same per-iteration sample budget, and the same 3-iteration schedule. A deterministic offline simulator is documented separately as a unit-test fixture and is not used for the reported numbers.
 </p>
 
 <h3><span class="subsection-num">6.3</span>Conditions</h3>
@@ -585,7 +585,7 @@ $$
 
 <div class="table-wrap">
 <table>
-<caption>Table 9: Post-hoc adversary audit (mean &plusmn; std across 5 random seeds). Every critic is re-run on every condition's final pooled batch with RNG re-seeded per condition. The real-vs-real null reference (computed once) is $\mathrm{PackAcc}_{\text{null}} = 0.56$ in this domain. Pack accuracy below the null reference indicates the synthetic batch is at-least-as-diverse as the real seed set; above null indicates pack-level homogeneity. We omit Coverage AUROC (saturates at $1.00$ for every condition) and the Mode-Seeking ratio (approximately constant at $0.23 \pm 0.01$ for every condition); both are reported in the released artifacts but do not differentiate conditions on this task.</caption>
+<caption>Table 9: Post-hoc adversary audit (mean $\pm$ std across the $5$ paid-API audit seeds: 17, 23, 41, 53, 89). The audit runs every critic on every condition's final pooled batch with RNG re-seeded per condition; the real-vs-real null reference (computed once) is $\mathrm{PackAcc}_{\text{null}} = 0.56$ in this domain. Pack accuracy below the null reference indicates the synthetic batch is at-least-as-diverse as the real seed set; above null indicates pack-level homogeneity. We omit Coverage AUROC (saturates at $1.00$ for every condition under in-sample fit; cross-validated AUROC, reported in Section 7.2, is below saturation) and the Mode-Seeking ratio (approximately constant at $0.23 \pm 0.01$ for every condition under the TF-IDF default; the embedding-based ratio, Section 7.2, also lands in a narrow band). Both quantities are reported in the released artifacts but do not differentiate conditions on this task.</caption>
 <thead>
 <tr>
   <th>Condition</th>
