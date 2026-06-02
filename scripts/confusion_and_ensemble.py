@@ -3,18 +3,18 @@
 Two free-CPU analyses that probe the v2 paper's diversity hypothesis from
 angles the v1 macro-F1 cannot see:
 
-1. CONFUSION MATRIX: do AttrForge's synthetic samples reduce the specific
+1. CONFUSION MATRIX: do SynSmith's synthetic samples reduce the specific
    pairwise class confusions that the v1 worst-class result identified?
    On v1's customer-support task we expect complaint <-> general_question
    confusion to dominate (frustrated user phrases complaints as questions).
-   If AttrForge's diversity is real, the augmented classifier should
+   If SynSmith's diversity is real, the augmented classifier should
    confuse those two LESS than the augmented full_classic classifier.
 
 2. CROSS-CONDITION ENSEMBLE: do classifiers trained on different
    conditions' synthetic batches learn DIFFERENT decision boundaries?
    If yes, an ensemble (logit average) over multiple conditions should
-   beat the best single condition. If AttrForge's diversity is
-   orthogonal to full_classic's keyword-anchoring, AttrForge + classic
+   beat the best single condition. If SynSmith's diversity is
+   orthogonal to full_classic's keyword-anchoring, SynSmith + classic
    ensemble should beat either alone.
 
 Outputs:
@@ -39,8 +39,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth(cond_dir):

@@ -1,4 +1,4 @@
-# AttrForge configuration using the simulated backend.
+# SynSmith configuration using the simulated backend.
 #
 # All seven critics share the same SimClient (different ``extra.role`` hints).
 # Suitable for offline harness validation; no API costs.

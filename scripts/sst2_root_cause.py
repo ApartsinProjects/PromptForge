@@ -21,7 +21,7 @@ import numpy as np
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def main() -> None:
@@ -45,7 +45,7 @@ def main() -> None:
     X_real = enc.encode(real_texts, normalize_embeddings=True, show_progress_bar=False)
     X_test = enc.encode(test_texts, normalize_embeddings=True, show_progress_bar=False)
 
-    # Load AttrForge seed 17 synth
+    # Load SynSmith seed 17 synth
     cd = REPO / "experiments/sst2_run_001_seed17/full_attrforge"
     samples = []
     for it in sorted(cd.glob("*/iter_*")):
@@ -56,7 +56,7 @@ def main() -> None:
     af_texts = [s.text for s in samples]
     af_labels = np.array([s.requested_attributes.get("intent", "?") for s in samples])
     print(
-        f"AttrForge seed 17: {len(samples)} synth "
+        f"SynSmith seed 17: {len(samples)} synth "
         f"({sum(1 for l in af_labels if l == 'positive')} pos, "
         f"{sum(1 for l in af_labels if l == 'negative')} neg)"
     )
@@ -84,25 +84,25 @@ def main() -> None:
     ]
     print()
     print(f"Real-only acc: {real_correct.mean():.3f}")
-    print(f"AttrForge acc: {af_correct.mean():.3f}")
+    print(f"SynSmith acc: {af_correct.mean():.3f}")
     print(
-        f"Real RIGHT + AttrForge WRONG: {len(af_wrong_real_right)} items "
+        f"Real RIGHT + SynSmith WRONG: {len(af_wrong_real_right)} items "
         f"(the cost gap)"
     )
     print(
-        f"AttrForge RIGHT + Real WRONG: {len(af_right_real_wrong)} items "
-        f"(AttrForge wins)"
+        f"SynSmith RIGHT + Real WRONG: {len(af_right_real_wrong)} items "
+        f"(SynSmith wins)"
     )
 
     rng = random.Random(17)
     print()
-    print("=== AttrForge FAILS, real-only SUCCEEDS (the gap; sample 15) ===")
+    print("=== SynSmith FAILS, real-only SUCCEEDS (the gap; sample 15) ===")
     for i in rng.sample(af_wrong_real_right, min(15, len(af_wrong_real_right))):
         print(
             f"  [TRUE={test_labels[i]:<9} AF={y_af[i]:<9}] {test_texts[i][:100]}"
         )
     print()
-    print("=== AttrForge WINS over real-only (sample 10) ===")
+    print("=== SynSmith WINS over real-only (sample 10) ===")
     for i in rng.sample(af_right_real_wrong, min(10, len(af_right_real_wrong))):
         print(f"  [TRUE={test_labels[i]:<9} R={y_r[i]:<9}] {test_texts[i][:100]}")
 

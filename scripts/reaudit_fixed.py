@@ -6,7 +6,7 @@ Root causes identified during v2:
    Table 9): the v1 critic uses TF-IDF cosine for "text distance" with
    use_embeddings=False (mode_seeking.py default). TF-IDF cosine is
    bounded in a narrow range for short utterances and is blind to
-   synonym substitution and structural reordering. AttrForge's diversity
+   synonym substitution and structural reordering. SynSmith's diversity
    manifests precisely as synonym + structural variation, which TF-IDF
    does not see. Re-audit with sentence-transformer embeddings should
    recover the differentiating signal.
@@ -39,8 +39,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def hamming(a: dict, b: dict) -> int:

@@ -30,19 +30,19 @@ import numpy as np  # noqa: E402
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
-import attrforge  # noqa: E402  (triggers .env load)
-from attrforge.critics.coverage_hole import (  # noqa: E402
+import synsmith  # noqa: E402  (triggers .env load)
+from synsmith.critics.coverage_hole import (  # noqa: E402
     CoverageHoleConfig,
     CoverageHoleFinder,
 )
-from attrforge.critics.mode_hunter import ModeHunter, ModeHunterConfig  # noqa: E402
-from attrforge.critics.mode_seeking import ModeSeeking, ModeSeekingConfig  # noqa: E402
-from attrforge.critics.pack_discriminator import (  # noqa: E402
+from synsmith.critics.mode_hunter import ModeHunter, ModeHunterConfig  # noqa: E402
+from synsmith.critics.mode_seeking import ModeSeeking, ModeSeekingConfig  # noqa: E402
+from synsmith.critics.pack_discriminator import (  # noqa: E402
     PackDiscriminator,
     PackDiscriminatorConfig,
 )
-from attrforge.llm import LLMConfig, build_client  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+from synsmith.llm import LLMConfig, build_client  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_final_samples(condition_dir: Path) -> list[SyntheticSample]:

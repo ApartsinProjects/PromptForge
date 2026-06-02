@@ -1,12 +1,12 @@
 """Quality-weighted augmentation: turn the verifier's per-sample verdicts into
 classifier sample weights.
 
-Hypothesis (the v2 method modification): AttrForge generates per-sample
+Hypothesis (the v2 method modification): SynSmith generates per-sample
 attribute-verifier verdicts as a side product of the loop. Treating those
 verdicts as soft sample weights for the downstream classifier (high-quality
 samples count more, samples flagged by the verifier count less) extracts
 information that v1's binary "include all 48 samples equally" protocol throws
-away. AttrForge should benefit MORE than full_classic because its verifier
+away. SynSmith should benefit MORE than full_classic because its verifier
 runs over a more diverse pool (more informative discriminations).
 
 Protocol:
@@ -17,7 +17,7 @@ Protocol:
      - synthetic verified True: weight 1.0
      - synthetic verified False: weight `--low-weight` (default 0.3)
    compare to an uniform-weight baseline (weight 1.0 for every sample).
-3. Report uniform vs weighted F1 per condition; paired-t for AttrForge vs Classic.
+3. Report uniform vs weighted F1 per condition; paired-t for SynSmith vs Classic.
 
 This script can be run on the v1 N=5 data right now (existing verdicts) and
 re-run after the N=10 extension completes for tighter statistics.
@@ -39,8 +39,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth_with_verdicts(cond_dir):

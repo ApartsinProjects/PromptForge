@@ -16,7 +16,7 @@ Beyond logit-average, two more sophisticated combiners are tested:
 
 If any of these beat the simple logit-average from ensemble_deep.py
 (self_critique + full_attrforge at 0.953 macro), it strengthens the
-v2 claim that AttrForge's diversity is decision-boundary diversity
+v2 claim that SynSmith's diversity is decision-boundary diversity
 that ensembling can extract.
 """
 from __future__ import annotations
@@ -32,8 +32,8 @@ import numpy as np
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth(cond_dir):
@@ -212,7 +212,7 @@ def main():
         t, p = st.ttest_rel(sc_af_macros, best_macros)
         try: _, pw = st.wilcoxon(sc_af_macros, best_macros, zero_method="zsplit")
         except: pw = float("nan")
-        print(f"  (self_critique+AttrForge) ens vs best solo {best_name}: "
+        print(f"  (self_critique+SynSmith) ens vs best solo {best_name}: "
               f"diff={statistics.mean(diffs_m):+.3f}+-{statistics.stdev(diffs_m):.3f}  "
               f"paired-t p={p:.3f}  Wilcoxon p={pw:.3f}")
 

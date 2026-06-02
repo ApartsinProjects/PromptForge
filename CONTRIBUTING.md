@@ -1,6 +1,6 @@
-# Contributing to AttrForge
+# Contributing to SynSmith
 
-Thanks for considering contributing. AttrForge's value to the community
+Thanks for considering contributing. SynSmith's value to the community
 comes from being a pluggable, reusable framework, not just a frozen
 research artifact. The single highest-leverage contribution is a new
 critic. The rest of this document walks through how to add one end-to-end,
@@ -35,10 +35,10 @@ candidate for inclusion.
 
 ### 2. Implement the protocol
 
-Every critic implements the same interface in `attrforge/schema.py`:
+Every critic implements the same interface in `synsmith/schema.py`:
 
 ```python
-from attrforge.schema import Critic, StructuredFeedback, NamedComplaint
+from synsmith.schema import Critic, StructuredFeedback, NamedComplaint
 
 class FactualCritic(Critic):
     name = "factual"
@@ -83,11 +83,11 @@ class FactualCritic(Critic):
 
 ### 3. Wire it into the ablation table
 
-Open `attrforge/baselines.py` and add an `enable_factual` flag to
-`AttrForgeConfig` (in `attrforge/loop.py`), then thread it through:
+Open `synsmith/baselines.py` and add an `enable_factual` flag to
+`SynSmithConfig` (in `synsmith/loop.py`), then thread it through:
 
 ```python
-# attrforge/baselines.py
+# synsmith/baselines.py
 
 def full_attrforge(cfg):
     out = ...
@@ -106,7 +106,7 @@ BASELINES["no_factual"] = no_factual
 
 ### 4. Register with the loop
 
-Open `attrforge/loop.py` and instantiate your critic when `cfg.enable_factual`
+Open `synsmith/loop.py` and instantiate your critic when `cfg.enable_factual`
 is true:
 
 ```python
@@ -123,8 +123,8 @@ template changes are needed.
 Add a unit test under `tests/test_critics/test_factual.py`:
 
 ```python
-from attrforge.critics.factual import FactualCritic
-from attrforge.schema import SyntheticSample, RealExample, AttributeSchema
+from synsmith.critics.factual import FactualCritic
+from synsmith.schema import SyntheticSample, RealExample, AttributeSchema
 
 def test_factual_critic_basic():
     critic = FactualCritic()
@@ -153,12 +153,12 @@ it emits, the analog from prior work (if any).
   config.yaml + schema.yaml + real_examples.jsonl, matching the layout
   of `examples/customer_support/`. The runner picks them up
   automatically.
-- **Backend adapters.** `attrforge/llm.py` currently ships `openai`,
+- **Backend adapters.** `synsmith/llm.py` currently ships `openai`,
   `anthropic`, and `echo`. Adding `gemini` or `mistral` is a single-file
   change. Match the existing `LLMClient` protocol.
-- **Downstream evaluators.** `attrforge/eval/downstream.py` is TF-IDF +
+- **Downstream evaluators.** `synsmith/eval/downstream.py` is TF-IDF +
   LogReg. A sentence-transformer-backed evaluator is in
-  `attrforge/eval/ensemble.py`; an end-to-end fine-tuning evaluator
+  `synsmith/eval/ensemble.py`; an end-to-end fine-tuning evaluator
   would be a useful addition.
 - **Aggregation scripts.** Add scripts to `scripts/` for new analyses
   (calibration ECE/Brier, OOD-detection AUROC, robustness to test-time
@@ -196,7 +196,7 @@ Open a GitHub issue with:
 
 - A reproducible minimal example (an `examples/<dataset>/config.yaml`
   or a `tests/test_<bug>.py` that fails on the current main).
-- The output of `pip show attrforge` and `python --version`.
+- The output of `pip show synsmith` and `python --version`.
 - The expected vs actual behavior.
 
 ## License

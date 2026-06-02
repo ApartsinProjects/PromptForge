@@ -6,7 +6,7 @@ those results cleanly, and the decision rule for whether to merge v2 to main.
 
 ## v2 thesis (one sentence)
 
-The seven-critic AttrForge loop produces synthetic data whose diversity
+The seven-critic SynSmith loop produces synthetic data whose diversity
 yields a measurable downstream advantage on tasks with semantically
 overlapping classes, manifests as lower variance and worst-class
 improvements on saturated tasks, and combines cleanly with two no-cost
@@ -16,17 +16,17 @@ on both task families.
 
 ## What v1 already established
 
-- Lexical diversity: AttrForge has the highest distinct-n and the lowest
+- Lexical diversity: SynSmith has the highest distinct-n and the lowest
   self-BLEU-4 among all iterated conditions (Table 8). Significant.
 - Variance reduction: on the hardest class of the customer-support task,
-  AttrForge has 3.4x lower seed-variance than full_classic and is the only
+  SynSmith has 3.4x lower seed-variance than full_classic and is the only
   iterated condition that never collapses to F1 = 0. Robust observation.
 - Protocol dependence: TF-IDF isolated gap is significant
   (-0.144, p = 0.046); the same gap is absorbed under sentence-transformer
   features. Cross-classifier robustness check.
 - Post-hoc audit (Pack Discriminator below null reference, Mode Hunter tic
   count): methodological contribution that retires "n/a" ablation tables.
-- MMD: AttrForge's diversity gain does not come at a measurable
+- MMD: SynSmith's diversity gain does not come at a measurable
   distributional cost (paired-t p in [0.30, 0.68] for all three feature
   spaces).
 
@@ -70,7 +70,7 @@ W4. Surface-invariance under back-translation. |macro F1 change| under
     (-0.030 macro; paired-t p = 0.10).
 
 W5. Test-time augmentation (TTA) via back-translation does not flip the
-    ranking. Specifically: TTA does not promote a non-AttrForge condition
+    ranking. Specifically: TTA does not promote a non-SynSmith condition
     to the macro F1 lead position. (v1 N = 5: few_shot + TTA leads at
     0.957; this is a v2 risk we must check.)
 
@@ -85,13 +85,13 @@ Same sections 1-6, 8, 9, 10, 11. Section 7 (Results) is restructured:
 
   7.2 Augmentation on overlapping 10-class task (Banking77 subset, NEW)
         - Headline: paired-t p < 0.05 (target) at every n in {10, 30, 50}
-        - Mechanism: classes share keywords, so AttrForge's diversity
+        - Mechanism: classes share keywords, so SynSmith's diversity
           can no longer be absorbed by the embedding classifier; the
-          classifier-dependent tradeoff resolves in AttrForge's favor
+          classifier-dependent tradeoff resolves in SynSmith's favor
 
   7.3 Worst-class F1 (NEW)
         - Both tasks
-        - AttrForge's variance-reduction signal turns into a mean
+        - SynSmith's variance-reduction signal turns into a mean
           advantage when measured on the metric that doesn't saturate
 
   7.4 Isolated train-on-synthetic (the v1 TF-IDF gap)
@@ -107,16 +107,16 @@ Same sections 1-6, 8, 9, 10, 11. Section 7 (Results) is restructured:
 
   7.8 NEW: Surface-invariance under back-translation
         - Two-pivot back-translation (DE, FR)
-        - |F1 change| metric: AttrForge most invariant
+        - |F1 change| metric: SynSmith most invariant
 
   7.9 NEW: Quality-weighted augmentation
         - Use the verifier verdicts as classifier sample weights
-        - AttrForge exceeds the real-only ceiling
+        - SynSmith exceeds the real-only ceiling
 
   7.10 NEW: Test-time augmentation (TTA) via back-translation
         - When you have synthetic anyway, the back-translation models are
           free at inference time; aggregate across original + paraphrases
-        - Honest framing: TTA boosts everything, AttrForge slightly more
+        - Honest framing: TTA boosts everything, SynSmith slightly more
 
 Section 8 (audit) stays.
 
@@ -138,7 +138,7 @@ Section 8 (audit) stays.
 
 - Per-critic surgical ablations (4 new conditions x 5 seeds). High-value
   but expensive and orthogonal to the headline question of "does
-  AttrForge win on a harder task". Defer to v3.
+  SynSmith win on a harder task". Defer to v3.
 - Verbalized Sampling baseline implementation. Defer to v3.
 - Human evaluation. Defer to v3.
 

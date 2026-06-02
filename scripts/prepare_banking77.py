@@ -5,7 +5,7 @@ fine-grained banking intents. Several CLUSTERS of intents semantically
 overlap in everyday wording, e.g. all card-related issues use the same
 vocabulary ("card", "blocked", "payment"). These clusters are exactly where
 the v1 customer-support task's keyword anchor advantage breaks down and
-where AttrForge's diversity should matter most.
+where SynSmith's diversity should matter most.
 
 We pick 10 intents from one dense cluster: "card and payment problems":
   - card_arrival

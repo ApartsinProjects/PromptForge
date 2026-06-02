@@ -147,11 +147,11 @@ FIX: Update Figure 7 caption to 0.54 to match Table 3. Or report both per-seed a
 
 **M-NEW-4. The orphan paragraph at line 471 contradicts Section 7.1.**
 
-WHERE: Section 7.2 last paragraph (line 471): "Two observations from Table 2 and Figure 2. First, on this N_test = 10 task the downstream metric saturates the moment a condition gets 48 training samples regardless of which critics are enabled, so the downstream metric alone cannot distinguish AttrForge from other iterated baselines."
+WHERE: Section 7.2 last paragraph (line 471): "Two observations from Table 2 and Figure 2. First, on this N_test = 10 task the downstream metric saturates the moment a condition gets 48 training samples regardless of which critics are enabled, so the downstream metric alone cannot distinguish SynSmith from other iterated baselines."
 
 WHY: Section 7.1 reports a 0.58 vs 0.40 macro F1 gap between full_classic and full_attrforge; both are iterated conditions with 48 samples. So the metric DOES distinguish them. This sentence is residual prose from the simulator era when the iterated conditions DID saturate at the same F1. Now they do not.
 
-Also: "the only loop-internal metric where full_attrforge differs from full_classic by more than one seed-std is the realism discriminator accuracy: 0.69 +/- 0.06 vs 0.72 +/- 0.10. The full AttrForge stack moves the realism objective 0.03 closer to chance than the three-critic baseline, while exactly matching it on attribute fidelity (1.00) and downstream metrics." Numbers are stale (real numbers are 0.83 +/- 0.17 vs 0.92 +/- 0.14; attribute fidelity is 0.06 / 0.10 NOT 1.00 / 1.00; downstream metrics do NOT match per Section 7.1).
+Also: "the only loop-internal metric where full_attrforge differs from full_classic by more than one seed-std is the realism discriminator accuracy: 0.69 +/- 0.06 vs 0.72 +/- 0.10. The full SynSmith stack moves the realism objective 0.03 closer to chance than the three-critic baseline, while exactly matching it on attribute fidelity (1.00) and downstream metrics." Numbers are stale (real numbers are 0.83 +/- 0.17 vs 0.92 +/- 0.14; attribute fidelity is 0.06 / 0.10 NOT 1.00 / 1.00; downstream metrics do NOT match per Section 7.1).
 
 FIX: Delete the paragraph entirely; it is residue from the simulator draft.
 

@@ -3,13 +3,13 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "attrforge"
+name = "synsmith"
 version = "0.1.0"
 description = "Multi-Objective Prompt Debugging for Realistic, Diverse, and Attribute-Controlled Synthetic Data Generation"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "AttrForge Contributors" }]
+authors = [{ name = "SynSmith Contributors" }]
 keywords = [
     "synthetic-data",
     "llm",
@@ -46,17 +46,17 @@ all = ["openai>=1.30", "anthropic>=0.30"]
 dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "ruff>=0.4"]
 
 [project.scripts]
-attrforge = "attrforge.cli:app"
+synsmith = "synsmith.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/attrforge"
-Issues = "https://github.com/yourusername/attrforge/issues"
+Homepage = "https://github.com/yourusername/synsmith"
+Issues = "https://github.com/yourusername/synsmith/issues"
 
 [tool.setuptools.packages.find]
-include = ["attrforge*"]
+include = ["synsmith*"]
 
 [tool.setuptools.package-data]
-attrforge = ["prompts/*.txt", "py.typed"]
+synsmith = ["prompts/*.txt", "py.typed"]
 
 [tool.ruff]
 line-length = 100

@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import pytest
 
-from attrforge.schema import AttributeSchema
+from synsmith.schema import AttributeSchema
 
 
 def _schema() -> AttributeSchema:

@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Adversarial Prompt Debugging for LLM Synthetic Data Generation</title>
+<title>SynSmith: Adversarial Multi-Critic Prompt Debugging for Synthetic Data Generation</title>
 <meta name="author" content="Alexander Apartsin, Yehudit Aperstein" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Adversarial Prompt Debugging for LLM Synthetic Data Generation" />
+<meta property="og:title" content="SynSmith: Adversarial Multi-Critic Prompt Debugging for Synthetic Data Generation" />
 <meta property="og:image" content="figures/main_run_002_multi_classifier.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Adversarial Prompt Debugging for LLM Synthetic Data Generation" />
+<meta name="twitter:title" content="SynSmith: Adversarial Multi-Critic Prompt Debugging for Synthetic Data Generation" />
 <meta name="twitter:image" content="figures/main_run_002_multi_classifier.png" />
 
 <link rel="stylesheet" href="style.css" />
@@ -27,12 +27,12 @@
 </head>
 <body>
 
-<a class="download-badge" href="attrforge.docx" title="Download a Microsoft Word version of this paper with native editable equations">Download .docx</a>
+<a class="download-badge" href="synsmith.docx" title="Download a Microsoft Word version of this paper with native editable equations">Download .docx</a>
 
 <main>
 
 <header class="paper-title">
-  <h1>Adversarial Prompt Debugging for LLM Synthetic Data Generation</h1>
+  <h1>SynSmith: Adversarial Multi-Critic Prompt Debugging for Synthetic Data Generation</h1>
   <div class="authors">
     <strong>Alexander Apartsin</strong><sup>1</sup> &emsp;
     <strong>Yehudit Aperstein</strong><sup>2</sup>
@@ -93,13 +93,13 @@
   LLM-based data augmentation strategies range from zero-shot generation prompts to multi-step pipelines that combine retrieval, filtering, and self-correction. Self-Instruct <a class="cite" href="#ref-self-instruct">[5]</a> and Unnatural Instructions <a class="cite" href="#ref-honovich">[4]</a> bootstrap instruction-tuning corpora through LLM self-generation. InPars <a class="cite" href="#ref-inpars">[10]</a>, SuperGen <a class="cite" href="#ref-supergen">[11]</a>, and ProGen <a class="cite" href="#ref-progen">[12]</a> use LLMs to synthesize training data for downstream classifiers and rerankers. West et al. (Symbolic Knowledge Distillation) <a class="cite" href="#ref-westsymbolic">[13]</a> use a large LLM to distill structured knowledge into a smaller model.
 </p>
 <p>
-  The sharpest single comparison point is AttrPrompt <a class="cite" href="#ref-attrprompt">[49]</a>, which conditions one-shot LLM generation on diverse attribute vectors and reports diversity and downstream-accuracy gains over class-conditional prompting on NYT, Amazon, Reddit, and arXiv. AttrPrompt establishes attribute-conditioned generation as a principle but is a single-shot generator with no iterative critic loop; the four GAN-style adversaries that drive AttrForge (Pack Discriminator, Mode-Seeking, Mode Hunter, Coverage Hole Finder) have no analogue in AttrPrompt. WANLI <a class="cite" href="#ref-wanli">[50]</a> pairs dataset cartography with GPT-3 generation and human relabeling, demonstrating that distribution-aware sampling produces more challenging synthetic NLI than uniform sampling; the "real-distribution anchor" idea is shared, but WANLI requires a human relabel step that AttrForge replaces with an LLM Verifier whose attribute_match is gated by the class label only (Section 4).
+  The sharpest single comparison point is AttrPrompt <a class="cite" href="#ref-attrprompt">[49]</a>, which conditions one-shot LLM generation on diverse attribute vectors and reports diversity and downstream-accuracy gains over class-conditional prompting on NYT, Amazon, Reddit, and arXiv. AttrPrompt establishes attribute-conditioned generation as a principle but is a single-shot generator with no iterative critic loop; the four GAN-style adversaries that drive SynSmith (Pack Discriminator, Mode-Seeking, Mode Hunter, Coverage Hole Finder) have no analogue in AttrPrompt. WANLI <a class="cite" href="#ref-wanli">[50]</a> pairs dataset cartography with GPT-3 generation and human relabeling, demonstrating that distribution-aware sampling produces more challenging synthetic NLI than uniform sampling; the "real-distribution anchor" idea is shared, but WANLI requires a human relabel step that SynSmith replaces with an LLM Verifier whose attribute_match is gated by the class label only (Section 4).
 </p>
 <p>
   Iterative-feedback synth generators are the next-closest family. S3 <a class="cite" href="#ref-s3">[51]</a> trains a small classifier on the synthetic batch, extrapolates its errors on a gold validation slice, and re-prompts the LLM with those errors as targets; ProGen <a class="cite" href="#ref-progen">[12]</a> uses noise-tolerant influence functions on a similar small-model loop. TarGEN <a class="cite" href="#ref-targen">[52]</a> adds a self-correction module for label noise after multi-step prompting. ARISE <a class="cite" href="#ref-arise">[53]</a> iterates rule induction over syntactic n-grams and bootstrapped filtering. PACE / Synthline <a class="cite" href="#ref-pace">[42]</a> combines multi-sample prompting with an actor-critic prompt-editing loop and reports F1 gains of $6$ to $43.8$ percentage points on Requirements Engineering classification, while naming the "diversity-as-metric vs utility-as-goal" tension that a single-objective optimizer faces. Genetic Prompt <a class="cite" href="#ref-genprompt">[43]</a> treats class-conditional attributes as gene sequences and uses the LLM to simulate crossover and mutation. CoT-Self-Instruct <a class="cite" href="#ref-cotselfinstr">[46]</a> applies Answer-Consistency and Rejecting-Instruction-Preferences filters in the reasoning domain. Self-Refine <a class="cite" href="#ref-selfrefine">[54]</a> and Reflexion <a class="cite" href="#ref-reflexion">[55]</a> generalize iterative critique-refine loops to general agent tasks but operate on single outputs, not data distributions, and use a single critic role.
 </p>
 <p>
-  All of these methods optimize one signal at a time. S3 and ProGen optimize for downstream validation accuracy; TarGEN for label correctness; ARISE for rule satisfaction; PACE for lexical diversity; AttrPrompt for attribute coverage at generation time. AttrForge runs a multi-critic stack in which seven critics (three baseline plus four GAN-style adversaries) each emit named, falsifiable complaints, and the prompt updater is asked to satisfy them jointly. The critic-coverage matrix below makes the structural difference explicit:
+  All of these methods optimize one signal at a time. S3 and ProGen optimize for downstream validation accuracy; TarGEN for label correctness; ARISE for rule satisfaction; PACE for lexical diversity; AttrPrompt for attribute coverage at generation time. SynSmith runs a multi-critic stack in which seven critics (three baseline plus four GAN-style adversaries) each emit named, falsifiable complaints, and the prompt updater is asked to satisfy them jointly. The critic-coverage matrix below makes the structural difference explicit:
 </p>
 
 <figure>
@@ -107,7 +107,7 @@
     <thead>
       <tr>
         <th>Critic role</th>
-        <th>AttrForge</th>
+        <th>SynSmith</th>
         <th>AttrPrompt</th>
         <th>S3</th>
         <th>ProGen</th>
@@ -129,14 +129,14 @@
       <tr><td>Prompt Updater</td><td>&#10003;</td><td>&ndash; (one-shot)</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td></tr>
     </tbody>
   </table>
-  <figcaption><strong>Table 0: Critic-coverage matrix.</strong> AttrForge is the only entry with all four GAN-style adversaries (Realism Discriminator, Pack Discriminator, Mode-Seeking, Mode Hunter) and the only one that combines them with a Coverage Hole Finder and a multi-critic Updater. AttrPrompt establishes attribute conditioning but is a one-shot generator; S3, ProGen, TarGEN, ARISE, and PACE all run iterative loops but on a single objective. Reflexion, Self-Refine, DSPy, and TextGrad optimize single outputs / prompts, not data distributions.</figcaption>
+  <figcaption><strong>Table 0: Critic-coverage matrix.</strong> SynSmith is the only entry with all four GAN-style adversaries (Realism Discriminator, Pack Discriminator, Mode-Seeking, Mode Hunter) and the only one that combines them with a Coverage Hole Finder and a multi-critic Updater. AttrPrompt establishes attribute conditioning but is a one-shot generator; S3, ProGen, TarGEN, ARISE, and PACE all run iterative loops but on a single objective. Reflexion, Self-Refine, DSPy, and TextGrad optimize single outputs / prompts, not data distributions.</figcaption>
 </figure>
 
 <p>
   PerFine <a class="cite" href="#ref-perfine">[45]</a> is the closest 2025 analog of our "named complaints, not scalar rewards" feedback contract: it emits structured complaints along four named dimensions (tone, vocabulary, sentence structure, topicality) and uses a cross-iteration knockout. PerFine reports $+7.8$ to $+13.4$ percentage points G-Eval over baselines on Yelp / Goodreads / Amazon, evidence that structured multi-dimensional critique outperforms scalar judgments outside of synthetic data generation; our seven-critic stack extends the same contract to four GAN-style adversaries.
 </p>
 <p>
-  AttrForge's positioning, in one sentence: <em>the first attribute-conditioned synthetic-data framework with a multi-critic adversarial loop in which every critic is anchored to the real-seed distribution</em> (via empirical-anchor calibration of the Verifier, domain-canonical veto of the Mode Hunter, and distribution-aware judging of the Realism Discriminator), evaluated across four task families (sentiment, fine-grained intent, question-type, NLI) that no single competitor's headline tables cover.
+  SynSmith's positioning, in one sentence: <em>the first attribute-conditioned synthetic-data framework with a multi-critic adversarial loop in which every critic is anchored to the real-seed distribution</em> (via empirical-anchor calibration of the Verifier, domain-canonical veto of the Mode Hunter, and distribution-aware judging of the Realism Discriminator), evaluated across four task families (sentiment, fine-grained intent, question-type, NLI) that no single competitor's headline tables cover.
 </p>
 
 <h3><span class="subsection-num">2.2</span>Prompt optimization via search and rewrite</h3>
@@ -144,7 +144,7 @@
   Several recent works treat prompt design as a discrete search problem. APE <a class="cite" href="#ref-ape">[14]</a> generates many candidate prompts and selects by held-out score. OPRO <a class="cite" href="#ref-opro">[15]</a> uses LLMs as optimizers that propose new candidates conditioned on the trajectory so far. EvoPrompt <a class="cite" href="#ref-evoprompt">[16]</a> applies evolutionary search to prompts. PromptBreeder <a class="cite" href="#ref-promptbreeder">[17]</a> uses LLM-driven mutation operators within an evolutionary loop. DSPy <a class="cite" href="#ref-dspy">[18]</a> compiles modular programs with optimized prompts. TextGrad <a class="cite" href="#ref-textgrad">[19]</a> treats prompts and outputs as differentiable artifacts updated by LLM-generated "text gradients". More recent work in 2025 includes GEPA <a class="cite" href="#ref-gepa">[25]</a>, which uses reflective prompt evolution with Pareto-front selection and reports gains over RL baselines, and Pareto Prompt Optimization <a class="cite" href="#ref-paretoprompt">[26]</a>, which explicitly explores the Pareto front of prompts using dominance relations rather than scalarizing objectives. The Auto-Prompt Ensemble work <a class="cite" href="#ref-autopromptens">[27]</a> shows a confidence-aware ensemble of optimized prompts beats single-prompt baselines on LLM-as-judge tasks.
 </p>
 <p>
-  AttrForge differs from this line in three ways. First, our objective is structurally multi-axis: seven critics (three baseline plus four mode-collapse adversaries) each emit named, falsifiable complaints rather than scalar rewards. Second, the updater is asked to satisfy them jointly under a length budget rather than through scalarization. Third, we explicitly transfer batch-level defenses from the GAN literature, which to our knowledge no prior prompt-optimization work has done.
+  SynSmith differs from this line in three ways. First, our objective is structurally multi-axis: seven critics (three baseline plus four mode-collapse adversaries) each emit named, falsifiable complaints rather than scalar rewards. Second, the updater is asked to satisfy them jointly under a length budget rather than through scalarization. Third, we explicitly transfer batch-level defenses from the GAN literature, which to our knowledge no prior prompt-optimization work has done.
 </p>
 
 <h3><span class="subsection-num">2.3</span>Multi-critic and debate-style judges</h3>
@@ -234,11 +234,11 @@ $$
 </p>
 
 <!-- ============================================================ -->
-<h2 id="sec-method"><span class="section-num">4</span>Method: the AttrForge loop</h2>
+<h2 id="sec-method"><span class="section-num">4</span>Method: the SynSmith loop</h2>
 
 <figure>
-  <img src="figures/architecture.png" alt="Schematic of the AttrForge optimization loop: real example set and attribute schema feed into the planner, which emits target attribute vectors; the generator produces synthetic samples; seven critics (three baseline plus four GAN-style adversaries) evaluate the batch; the updater rewrites the prompt under a length budget; samples optionally flow into a downstream evaluator." />
-  <figcaption>Figure 1: The AttrForge optimization loop. The attribute planner emits target attribute vectors $\mathbf{z}_t$ that condition the generator. The seven critic stack evaluates the resulting samples $S_t$ along orthogonal axes (three baseline critics, four GAN-style adversaries highlighted in gray); each emits structured named complaints. The prompt updater rewrites the generator prompt $P_{t+1}$ under a length budget, closing the loop. A downstream evaluator (right) trains a classifier on the final synthetic batch and tests it on held-out real data.</figcaption>
+  <img src="figures/architecture.png" alt="Schematic of the SynSmith optimization loop: real example set and attribute schema feed into the planner, which emits target attribute vectors; the generator produces synthetic samples; seven critics (three baseline plus four GAN-style adversaries) evaluate the batch; the updater rewrites the prompt under a length budget; samples optionally flow into a downstream evaluator." />
+  <figcaption>Figure 1: The SynSmith optimization loop. The attribute planner emits target attribute vectors $\mathbf{z}_t$ that condition the generator. The seven critic stack evaluates the resulting samples $S_t$ along orthogonal axes (three baseline critics, four GAN-style adversaries highlighted in gray); each emits structured named complaints. The prompt updater rewrites the generator prompt $P_{t+1}$ under a length budget, closing the loop. A downstream evaluator (right) trains a classifier on the final synthetic batch and tests it on held-out real data.</figcaption>
 </figure>
 
 <h3><span class="subsection-num">4.1</span>Attribute planner</h3>
@@ -317,7 +317,7 @@ $$
 
 <h3 id="sec-msgan"><span class="subsection-num">5.2</span>Mode-Seeking ratio (MSGAN analog)</h3>
 <p>
-  MSGAN penalizes a generator when two different latent codes produce similar outputs. For AttrForge, the "latent code" is the target attribute vector. For every pair of samples:
+  MSGAN penalizes a generator when two different latent codes produce similar outputs. For SynSmith, the "latent code" is the target attribute vector. For every pair of samples:
 </p>
 
 $$
@@ -716,9 +716,9 @@ $$
   Install with one command (<code>pip install -e ".[openai]"</code> or <code>.[anthropic]</code> or <code>.[all]</code>) and instantiate the loop in three lines:
 </p>
 
-<pre><code>from attrforge import AttrForge
+<pre><code>from synsmith import SynSmith
 
-forge = AttrForge.from_config("examples/customer_support/config.yaml")
+forge = SynSmith.from_config("examples/customer_support/config.yaml")
 result = forge.run(iterations=3)
 </code></pre>
 
@@ -784,7 +784,7 @@ result = forge.run(iterations=3)
   The cross-condition classifier ensembling of Section 7.3 is exposed as a typed public API so external users can apply the technique without reading the paper's analysis scripts:
 </p>
 
-<pre><code>from attrforge.eval import CrossConditionEnsemble, CrossConditionEnsembleConfig
+<pre><code>from synsmith.eval import CrossConditionEnsemble, CrossConditionEnsembleConfig
 
 ens = CrossConditionEnsemble(CrossConditionEnsembleConfig(backend="sentence-transformer"))
 ens.fit_per_condition(
@@ -803,7 +803,7 @@ print(pair_result.macro_f1, pair_result.worst_class_f1)
 <h3><span class="subsection-num">11.5</span>Backends, batching, multi-vendor</h3>
 
 <p>
-  LLM calls go through a backend-agnostic client. OpenAI, Anthropic, and an offline echo backend ship in-tree; the offline backend lets the entire pipeline (including the test suite) run with no API key, which is what the $45$-test CI uses. <strong>OpenAI Batch API</strong> is wired through <code>attrforge.llm_batch.BatchClient</code>: a paper-scale sweep (10 seeds $\times$ 7 conditions $\times$ 3 iterations $\times$ 16 samples $\times$ 7 critics $\approx 11\,000$ LLM calls) submits as one batch.jsonl, completes within a 24-hour SLA, and costs about $50\%$ of the real-time API equivalent. <strong>Multi-vendor LLM-as-judge</strong> is exposed via OpenRouter: the <code>full_attrforge_3judge</code> baseline swaps the single-judge realism discriminator for a three-judge debate (<code>openai/gpt-4o-mini</code> + <code>anthropic/claude-3-haiku</code> + <code>google/gemini-flash-1.5</code>) with Kolmogorov-Smirnov adaptive stopping, addressing the single-vendor judge-bias confound named in Section 9.2.
+  LLM calls go through a backend-agnostic client. OpenAI, Anthropic, and an offline echo backend ship in-tree; the offline backend lets the entire pipeline (including the test suite) run with no API key, which is what the $45$-test CI uses. <strong>OpenAI Batch API</strong> is wired through <code>synsmith.llm_batch.BatchClient</code>: a paper-scale sweep (10 seeds $\times$ 7 conditions $\times$ 3 iterations $\times$ 16 samples $\times$ 7 critics $\approx 11\,000$ LLM calls) submits as one batch.jsonl, completes within a 24-hour SLA, and costs about $50\%$ of the real-time API equivalent. <strong>Multi-vendor LLM-as-judge</strong> is exposed via OpenRouter: the <code>full_attrforge_3judge</code> baseline swaps the single-judge realism discriminator for a three-judge debate (<code>openai/gpt-4o-mini</code> + <code>anthropic/claude-3-haiku</code> + <code>google/gemini-flash-1.5</code>) with Kolmogorov-Smirnov adaptive stopping, addressing the single-vendor judge-bias confound named in Section 9.2.
 </p>
 
 <h3><span class="subsection-num">11.6</span>Testing, contribution, and licensing</h3>
@@ -1028,7 +1028,7 @@ print(pair_result.macro_f1, pair_result.worst_class_f1)
 
 <footer class="paper-footer">
   Code: <a href="https://github.com/ApartsinProjects/PromptForge">github.com/ApartsinProjects/PromptForge</a>.
-  Word version: <a href="attrforge.docx">attrforge.docx</a>.
+  Word version: <a href="synsmith.docx">synsmith.docx</a>.
 </footer>
 
 </main>

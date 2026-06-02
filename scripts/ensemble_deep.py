@@ -1,21 +1,21 @@
-"""Deep ensemble analysis: is AttrForge necessary for the ensemble win, or is
+"""Deep ensemble analysis: is SynSmith necessary for the ensemble win, or is
 ensembling just a generic regularizer?
 
 The v2 baseline finding: full_classic + full_attrforge ensemble beats
 full_classic alone by +0.067 macro F1 at paired-t p=0.038. Two follow-ups:
 
-1. Is AttrForge NECESSARY for the win? Compare:
-     - any pair NOT containing AttrForge
-     - any pair CONTAINING AttrForge
+1. Is SynSmith NECESSARY for the win? Compare:
+     - any pair NOT containing SynSmith
+     - any pair CONTAINING SynSmith
    If ensembling is generic regularization, all pairs should help equally.
-   If AttrForge's diversity is the differentiator, AttrForge-containing
+   If SynSmith's diversity is the differentiator, SynSmith-containing
    ensembles should win.
 
 2. What about 3-way and 4-way ensembles? If diversity is the active
    ingredient, adding more diverse conditions monotonically improves.
 
 3. Compute per-condition pair LEAVE-ONE-OUT: ensemble of (all iterated
-   conditions minus X) - does dropping AttrForge hurt the most?
+   conditions minus X) - does dropping SynSmith hurt the most?
 
 Outputs:
   experiments/<base>_aggregated/ensemble_deep.json
@@ -39,8 +39,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth(cond_dir):
@@ -178,29 +178,29 @@ def main():
         def fmt(v): return f"{statistics.mean(v):.3f}+-{statistics.stdev(v):.3f}"
         print(f"  {(ca + ' + ' + cb):<48} {fmt(m):<14} {fmt(w):<14} {gain:+.3f}")
 
-    # 3. AttrForge necessary?
-    print(f"\n=== Does AttrForge matter? ===")
+    # 3. SynSmith necessary?
+    print(f"\n=== Does SynSmith matter? ===")
     af_pairs = [(ca, cb, m, w) for ca, cb, m, w in pair_results if "full_attrforge" in (ca, cb)]
     no_af_pairs = [(ca, cb, m, w) for ca, cb, m, w in pair_results if "full_attrforge" not in (ca, cb)]
     af_macros = [statistics.mean(m) for _, _, m, _ in af_pairs]
     no_af_macros = [statistics.mean(m) for _, _, m, _ in no_af_pairs]
     if af_macros and no_af_macros:
-        print(f"  Pairs CONTAINING AttrForge      ({len(af_pairs)} pairs): "
+        print(f"  Pairs CONTAINING SynSmith      ({len(af_pairs)} pairs): "
               f"mean macro = {statistics.mean(af_macros):.3f}, "
               f"range [{min(af_macros):.3f}, {max(af_macros):.3f}]")
-        print(f"  Pairs NOT containing AttrForge  ({len(no_af_pairs)} pairs): "
+        print(f"  Pairs NOT containing SynSmith  ({len(no_af_pairs)} pairs): "
               f"mean macro = {statistics.mean(no_af_macros):.3f}, "
               f"range [{min(no_af_macros):.3f}, {max(no_af_macros):.3f}]")
 
-    # 4. 3-way and 4-way ensembles including AttrForge
-    print(f"\n=== Higher-order ensembles with AttrForge ===")
+    # 4. 3-way and 4-way ensembles including SynSmith
+    print(f"\n=== Higher-order ensembles with SynSmith ===")
     for k in (3, 4, 5):
         if k > len(iter_conds): continue
         # all k-subsets that include full_attrforge
         af_subsets = [s for s in itertools.combinations(iter_conds, k)
                       if "full_attrforge" in s]
         if not af_subsets: continue
-        # also all k-subsets that DO NOT include AttrForge
+        # also all k-subsets that DO NOT include SynSmith
         no_af_subsets = [s for s in itertools.combinations(iter_conds, k)
                          if "full_attrforge" not in s]
         af_means = []
@@ -211,13 +211,13 @@ def main():
         for s in no_af_subsets:
             m, _ = ensemble_eval(list(s))
             no_af_means.append(statistics.mean(m))
-        print(f"  k={k}: WITH AttrForge mean = {statistics.mean(af_means):.3f} "
+        print(f"  k={k}: WITH SynSmith mean = {statistics.mean(af_means):.3f} "
               f"(range [{min(af_means):.3f}, {max(af_means):.3f}], n={len(af_subsets)} subsets)")
         if no_af_means:
-            print(f"        NO AttrForge   mean = {statistics.mean(no_af_means):.3f} "
+            print(f"        NO SynSmith   mean = {statistics.mean(no_af_means):.3f} "
                   f"(range [{min(no_af_means):.3f}, {max(no_af_means):.3f}], n={len(no_af_subsets)} subsets)")
 
-    # 5. ALL ITERATED ensemble vs ALL minus AttrForge (leave-one-out test)
+    # 5. ALL ITERATED ensemble vs ALL minus SynSmith (leave-one-out test)
     print(f"\n=== Leave-one-out ensemble of all iterated conditions ===")
     all_iter = iter_conds
     m_all, w_all = ensemble_eval(all_iter)
@@ -232,7 +232,7 @@ def main():
               f"(drop {delta_m:+.3f})  worst = {statistics.mean(w):.3f}+-{statistics.stdev(w):.3f}  "
               f"(drop {delta_w:+.3f})")
 
-    # 6. Paired-t stats: every AttrForge-containing pair vs every non-AttrForge pair
+    # 6. Paired-t stats: every SynSmith-containing pair vs every non-SynSmith pair
     print(f"\n=== Paired stats: ALL-iterated ensemble vs best solo ===")
     from scipy import stats as st
     best_solo_cond = max(iter_conds, key=lambda c: statistics.mean(solo_results[c][0]))

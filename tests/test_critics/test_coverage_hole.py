@@ -13,8 +13,8 @@ These tests assert:
 """
 from __future__ import annotations
 
-from attrforge.critics.coverage_hole import CoverageHoleConfig, CoverageHoleFinder
-from attrforge.schema import RealExample, SyntheticSample
+from synsmith.critics.coverage_hole import CoverageHoleConfig, CoverageHoleFinder
+from synsmith.schema import RealExample, SyntheticSample
 
 
 def _real(text: str) -> RealExample:

@@ -1,4 +1,4 @@
-# AttrForge run configuration: customer support intent classification
+# SynSmith run configuration: customer support intent classification
 schema_path: examples/banking77/schema.yaml
 real_examples_path: experiments/_splits/banking77_real_train.jsonl
 

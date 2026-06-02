@@ -6,7 +6,7 @@ candidate banned patterns. We test them here without any API key.
 """
 from __future__ import annotations
 
-from attrforge.critics.mode_hunter import ModeHunter, ModeHunterConfig
+from synsmith.critics.mode_hunter import ModeHunter, ModeHunterConfig
 
 
 def test_count_substring_counts_corpus_occurrences():

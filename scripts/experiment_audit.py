@@ -1,4 +1,4 @@
-"""Systematic audit of all AttrForge experiment results for bugs and inconsistencies.
+"""Systematic audit of all SynSmith experiment results for bugs and inconsistencies.
 
 Checks performed across every experiment directory under experiments/:
 
@@ -32,7 +32,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def _read_jsonl_safe(path: Path) -> list[dict]:

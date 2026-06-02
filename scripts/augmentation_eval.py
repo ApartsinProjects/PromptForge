@@ -29,8 +29,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402  (loads .env)
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402  (loads .env)
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth(condition_dir: Path) -> list[SyntheticSample]:
@@ -186,8 +186,8 @@ def main() -> None:
     print(f"full_attrforge aug TF-IDF: {[round(x,3) for x in fa_tfidf]}")
     diffs_tfidf = [a - b for a, b in zip(fa_tfidf, fc_tfidf)]
     diffs_st = [a - b for a, b in zip(fa_st, fc_st)]
-    print(f"paired diffs (attrforge - classic) TF-IDF: {[round(d,3) for d in diffs_tfidf]}")
-    print(f"paired diffs (attrforge - classic) ST:     {[round(d,3) for d in diffs_st]}")
+    print(f"paired diffs (synsmith - classic) TF-IDF: {[round(d,3) for d in diffs_tfidf]}")
+    print(f"paired diffs (synsmith - classic) ST:     {[round(d,3) for d in diffs_st]}")
     try:
         from scipy import stats as st
         t, p = st.ttest_rel(fa_tfidf, fc_tfidf)

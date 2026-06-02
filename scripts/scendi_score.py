@@ -46,8 +46,8 @@ import numpy as np
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth(cond_dir: Path) -> list[SyntheticSample]:

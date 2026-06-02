@@ -218,7 +218,7 @@ def plot_per_class_f1(summaries: list[dict], out_path: Path) -> None:
 
 
 def plot_adversary_metrics(summaries: list[dict], out_path: Path) -> None:
-    """The headline contribution: metrics that exist ONLY in AttrForge."""
+    """The headline contribution: metrics that exist ONLY in SynSmith."""
     conds, pack, ms, banned, attr = [], [], [], [], []
     for s in summaries:
         if "error" in s:

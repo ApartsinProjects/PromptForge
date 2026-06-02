@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="assets/hero.png" alt="AttrForge: a forge anvil with a glowing crystalline prompt being shaped, surrounded by three critic spirits (cyan attribute verifier, amber diversity auditor, magenta realism discriminator) sending structured feedback back into the prompt." width="100%" />
+<img src="assets/hero.png" alt="SynSmith: a forge anvil with a glowing crystalline prompt being shaped, surrounded by three critic spirits (cyan attribute verifier, amber diversity auditor, magenta realism discriminator) sending structured feedback back into the prompt." width="100%" />
 
 <br />
 
-# AttrForge
+# SynSmith
 
 **Multi-Objective Prompt Debugging for Realistic, Diverse, and Attribute-Controlled Synthetic Data Generation**
 
 [![Paper](https://img.shields.io/badge/paper-HTML-blue.svg)](https://apartsinprojects.github.io/PromptForge/)
-[![DOCX](https://img.shields.io/badge/paper-DOCX-blue.svg)](https://apartsinprojects.github.io/PromptForge/attrforge.docx)
+[![DOCX](https://img.shields.io/badge/paper-DOCX-blue.svg)](https://apartsinprojects.github.io/PromptForge/synsmith.docx)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: research preview](https://img.shields.io/badge/status-research%20preview-orange.svg)](#)
@@ -18,7 +18,7 @@
 *An open-source framework that reframes synthetic data generation as iterative,*
 *critic-guided prompt optimization.*
 
-**Paper:** [Adversarial Prompt Debugging for LLM Synthetic Data Generation](https://apartsinprojects.github.io/PromptForge/) (Apartsin & Aperstein) - HTML with KaTeX math, or [download .docx](https://apartsinprojects.github.io/PromptForge/attrforge.docx)
+**Paper:** [Adversarial Prompt Debugging for LLM Synthetic Data Generation](https://apartsinprojects.github.io/PromptForge/) (Apartsin & Aperstein) - HTML with KaTeX math, or [download .docx](https://apartsinprojects.github.io/PromptForge/synsmith.docx)
 
 [Paper](https://apartsinprojects.github.io/PromptForge/) · [Overview](#overview) · [Method](#method) · [Quickstart](#quickstart) · [Architecture](#architecture) · [Research questions](#research-questions) · [Citation](#citation)
 
@@ -35,7 +35,7 @@ shallowly tied to the requested labels. The standard fix is to hand-tune the
 prompt, which scales poorly and loses information about *why* a given sample
 went wrong.
 
-**AttrForge** treats synthetic data generation as a closed-loop optimization
+**SynSmith** treats synthetic data generation as a closed-loop optimization
 problem. A generator LLM produces samples conditioned on explicit target
 attribute vectors. Seven LLM critics, three baseline (attribute verifier,
 realism discriminator, diversity auditor) and four GAN-style adversaries
@@ -101,7 +101,7 @@ named failures rather than free-form self-critique.
 
 Removing any one critic produces a measurably degraded distribution along its
 axis; the seven-critic loop is referenced in the paper as `full_attrforge` and
-is the default configuration when `attrforge run` is invoked without an
+is the default configuration when `synsmith run` is invoked without an
 ablation flag.
 
 ---
@@ -122,15 +122,15 @@ The `echo` backend exercises the full pipeline offline against a stubbed model.
 Useful for CI, smoke tests, and reading the on-disk run layout.
 
 ```bash
-attrforge run examples/customer_support/config.echo.yaml
+synsmith run examples/customer_support/config.echo.yaml
 ```
 
 ### Real run with OpenAI
 
 ```bash
 export OPENAI_API_KEY=sk-...
-attrforge run examples/customer_support/config.yaml --iterations 3
-attrforge inspect runs/<run_id>
+synsmith run examples/customer_support/config.yaml --iterations 3
+synsmith inspect runs/<run_id>
 ```
 
 ### Run the seven-condition paper experiment (customer-support or Banking77)
@@ -159,9 +159,9 @@ python scripts/ensemble_deep.py --base main_run_002
 ### Programmatic API
 
 ```python
-from attrforge import AttrForge
+from synsmith import SynSmith
 
-forge = AttrForge.from_config("examples/customer_support/config.yaml")
+forge = SynSmith.from_config("examples/customer_support/config.yaml")
 result = forge.run(iterations=3)
 
 print(result.final_prompt)
@@ -182,8 +182,8 @@ Every critic implements the same protocol (`name`, `evaluate(batch, real, attrs)
 add a fifth GAN-style adversary or a domain-specific verifier:
 
 ```python
-# attrforge/critics/my_critic.py
-from attrforge.schema import Critic, StructuredFeedback, NamedComplaint
+# synsmith/critics/my_critic.py
+from synsmith.schema import Critic, StructuredFeedback, NamedComplaint
 
 class MyCritic(Critic):
     name = "my_critic"
@@ -195,7 +195,7 @@ class MyCritic(Critic):
         )
 ```
 
-Then wire it into `attrforge/baselines.py` and add a flag in the ablation table.
+Then wire it into `synsmith/baselines.py` and add a flag in the ablation table.
 The updater template will render its complaints alongside the existing critics
 automatically; no change to the loop or the prompt-update logic is required.
 
@@ -237,7 +237,7 @@ automatically; no change to the loop or the prompt-update logic is required.
                        └─────────────────────────────────┘
 ```
 
-Every component lives behind a small typed interface (`attrforge/schema.py`).
+Every component lives behind a small typed interface (`synsmith/schema.py`).
 Each can be swapped without touching the loop, which is what makes the
 ablations cheap. The whole run, prompts, targets, samples, verdicts, reports,
 and metrics, is persisted under `runs/<id>/` so experiments are reproducible.
@@ -284,7 +284,7 @@ attributes, embedding/TF-IDF near-duplicate rate, and a qualitative audit of
 missing modes.
 
 **RQ4. Downstream usefulness.**
-Does AttrForge-generated data improve held-out real-test performance for a
+Does SynSmith-generated data improve held-out real-test performance for a
 downstream classifier, especially on rare, hard, or ambiguous slices? Baselines
 include naive prompting, few-shot prompting, self-critique, diversity-only,
 realism-only, and human prompt refinement.
@@ -301,7 +301,7 @@ realism-only, and human prompt refinement.
 | Diversity-only          | `diversity_only`          | Coverage-guided refinement, no realism / verifier critics |
 | Realism-only            | `realism_only`            | Realism discriminator + auditor; no verifier / GAN adversaries |
 | Full classic (3-critic) | `full_classic`            | Verifier + realism + auditor (3 baseline critics)         |
-| Full AttrForge (7-critic) | `full_attrforge`        | All 7 critics: 3 baseline + 4 GAN-style adversaries (default) |
+| Full SynSmith (7-critic) | `full_attrforge`        | All 7 critics: 3 baseline + 4 GAN-style adversaries (default) |
 
 Every baseline runs through the same harness and writes the same artifacts, so
 results are directly comparable.
@@ -311,7 +311,7 @@ results are directly comparable.
 ## Repository layout
 
 ```
-attrforge/
+synsmith/
 ├── schema.py            typed data models (Pydantic)
 ├── llm.py               backend-agnostic LLM client (OpenAI, Anthropic, echo)
 ├── planner.py           attribute planner (stratified, coverage-gap)
@@ -330,7 +330,7 @@ attrforge/
 ├── metrics.py           per-iteration scalar metrics
 ├── prompts/templates.py canonical prompt strings for every component
 ├── eval/downstream.py   sentence-transformer + LR downstream evaluator
-└── cli.py               attrforge run | inspect | schema
+└── cli.py               synsmith run | inspect | schema
 examples/
 ├── customer_support/    5-class intent, 40 real seeds (30 train + 10 test)
 └── banking77/           10-class card/payment subset, 300 train + 400 test
@@ -388,10 +388,10 @@ tests/                        schema, planner, end-to-end offline loop
 
 ## Citation
 
-If you use AttrForge in academic work, please cite:
+If you use SynSmith in academic work, please cite:
 
 ```bibtex
-@misc{apartsin2026attrforge,
+@misc{apartsin2026synsmith,
   title  = {Adversarial Prompt Debugging for LLM Synthetic Data Generation},
   author = {Apartsin, Alexander and Aperstein, Yehudit},
   year   = {2026},
@@ -403,7 +403,7 @@ If you use AttrForge in academic work, please cite:
 
 A full project description, including the formal problem definition, attribute
 schema examples, evaluation phases, and the taxonomy of synthetic-data
-artifacts, is available in [`attrforge_project_description.md`](attrforge_project_description.md).
+artifacts, is available in [`synsmith_project_description.md`](synsmith_project_description.md).
 
 ---
 

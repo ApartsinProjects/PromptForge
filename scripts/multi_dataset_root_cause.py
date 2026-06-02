@@ -1,7 +1,7 @@
 """Multi-dataset sample-based root-cause inspection.
 
 For each of (customer-support, Banking77, TREC, SST-2), under the OLD
-framework runs, finds the test items where AttrForge fails but real-only
+framework runs, finds the test items where SynSmith fails but real-only
 succeeds, and prints both the synth and real exemplars to surface
 register / vocabulary / style mismatch patterns common across domains.
 
@@ -25,7 +25,7 @@ sys.path.insert(0, str(REPO))
 
 
 def load_synth(cd: Path) -> list:
-    from attrforge.schema import SyntheticSample, load_jsonl
+    from synsmith.schema import SyntheticSample, load_jsonl
     samples = []
     for it in sorted(cd.glob("*/iter_*")):
         sj = it / "samples.jsonl"
@@ -44,7 +44,7 @@ def inspect_dataset(
     seed: int = 17,
     sample_failures: int = 12,
 ) -> None:
-    from attrforge.schema import RealExample, load_jsonl
+    from synsmith.schema import RealExample, load_jsonl
     from sklearn.linear_model import LogisticRegression
     from sentence_transformers import SentenceTransformer
 
@@ -69,14 +69,14 @@ def inspect_dataset(
 
     samples = load_synth(af_run)
     if not samples:
-        print(f"  AttrForge run EMPTY at {af_run}")
+        print(f"  SynSmith run EMPTY at {af_run}")
         return
     af_texts = [s.text for s in samples]
     af_labels = np.array([s.requested_attributes.get(label_attr, "?") for s in samples])
     n_af_classes = len(set(af_labels))
     n_real_classes = len(set(y_real))
     if n_af_classes < 2:
-        print(f"  AttrForge run has only {n_af_classes} classes, skipping")
+        print(f"  SynSmith run has only {n_af_classes} classes, skipping")
         return
     X_af = enc.encode(af_texts, normalize_embeddings=True, show_progress_bar=False)
     clf_af = LogisticRegression(max_iter=2000, C=1.0, class_weight="balanced", random_state=seed)
@@ -85,7 +85,7 @@ def inspect_dataset(
     acc_af = (y_pred_af == y_test).mean()
 
     print(
-        f"  Real-only acc {acc_r:.3f} | AttrForge acc {acc_af:.3f} "
+        f"  Real-only acc {acc_r:.3f} | SynSmith acc {acc_af:.3f} "
         f"| {len(samples)} synth ({n_af_classes} classes vs {n_real_classes} real)"
     )
 
@@ -99,21 +99,21 @@ def inspect_dataset(
         i for i in range(len(real_test))
         if af_correct[i] and not real_correct[i]
     ]
-    print(f"  AttrForge LOSES (real right, AF wrong): {len(af_loses)} items")
-    print(f"  AttrForge WINS (AF right, real wrong):   {len(af_wins)} items")
+    print(f"  SynSmith LOSES (real right, AF wrong): {len(af_loses)} items")
+    print(f"  SynSmith WINS (AF right, real wrong):   {len(af_wins)} items")
     print()
 
     rng = random.Random(seed)
-    print(f"--- {min(sample_failures, len(af_loses))} sampled FAILURE items (AttrForge wrong, real right) ---")
+    print(f"--- {min(sample_failures, len(af_loses))} sampled FAILURE items (SynSmith wrong, real right) ---")
     for i in rng.sample(af_loses, min(sample_failures, len(af_loses))):
         text = real_test[i].text[:110].replace("\n", " ")
         print(f"  [TRUE={y_test[i]:<20} AF={y_pred_af[i]:<20}] {text}")
 
-    # For 3 failed items, show 3 nearest AttrForge synth samples to surface
+    # For 3 failed items, show 3 nearest SynSmith synth samples to surface
     # what the generator IS producing vs what the test items look like.
     if af_loses and samples:
         print()
-        print("--- 3 failed items + 3 nearest AttrForge synth samples per item ---")
+        print("--- 3 failed items + 3 nearest SynSmith synth samples per item ---")
         from sklearn.metrics.pairwise import cosine_similarity
         sims = cosine_similarity(X_test[af_loses[:3]], X_af)
         for k, i in enumerate(af_loses[:3]):

@@ -7,13 +7,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from attrforge.loop import AttrForge, AttrForgeConfig
+from synsmith.loop import SynSmith, SynSmithConfig
 
 REPO = Path(__file__).resolve().parents[1]
 
 
 def test_offline_loop_smoke(tmp_path):
-    cfg = AttrForgeConfig.from_yaml(REPO / "examples/customer_support/config.echo.yaml")
+    cfg = SynSmithConfig.from_yaml(REPO / "examples/customer_support/config.echo.yaml")
     cfg.run_dir = str(tmp_path)
     cfg.iterations = 2
     cfg.samples_per_iteration = 4
@@ -23,7 +23,7 @@ def test_offline_loop_smoke(tmp_path):
     # writes the expected files.
     cfg.regen_on_rejection = False
 
-    forge = AttrForge(cfg)
+    forge = SynSmith(cfg)
     result = forge.run()
 
     assert len(result.iterations) == 2
@@ -40,8 +40,8 @@ def test_offline_loop_smoke(tmp_path):
 
 
 def test_metrics_present():
-    cfg = AttrForgeConfig.from_yaml(REPO / "examples/customer_support/config.echo.yaml")
-    forge = AttrForge(cfg)
+    cfg = SynSmithConfig.from_yaml(REPO / "examples/customer_support/config.echo.yaml")
+    forge = SynSmith(cfg)
     result = forge.run(iterations=1)
     m = result.iterations[0].metrics
     assert "attribute_match_rate" in m

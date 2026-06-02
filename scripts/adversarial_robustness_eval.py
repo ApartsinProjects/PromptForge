@@ -1,6 +1,6 @@
 """Adversarial robustness via back-translation paraphrased test set.
 
-Hypothesis: AttrForge's higher lexical diversity (Table 8: highest distinct-n,
+Hypothesis: SynSmith's higher lexical diversity (Table 8: highest distinct-n,
 lowest self-BLEU-4 of any iterated condition) should produce classifiers that
 degrade LESS when the test items are paraphrased. If the diversity claim is
 real, a classifier trained on a wider lexical distribution should handle
@@ -23,7 +23,7 @@ Protocol:
      - the clean test (the v1 number)
      - the paraphrased test
 3. Report F1 drop and worst-class F1 drop per condition, plus paired stats
-   for AttrForge vs full_classic.
+   for SynSmith vs full_classic.
 
 Outputs:
     experiments/_splits/real_test_paraphrased.jsonl
@@ -49,8 +49,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402  loads .env
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402  loads .env
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 BACKTRANSLATION_PIVOTS = [
@@ -235,7 +235,7 @@ def main():
         print(f"{c:<18} {msd(mc):<14} {msd(mp):<14} {msd(md):<14} "
               f"{msd(wc):<14} {msd(wp):<14} {msd(wd):<14}")
 
-    # Paired stats AttrForge vs Classic
+    # Paired stats SynSmith vs Classic
     print("\n=== Paired stats: full_attrforge - full_classic ===")
     try:
         from scipy import stats as st
@@ -258,7 +258,7 @@ def main():
             except ValueError:
                 p_w = float("nan")
             md, sd = statistics.mean(diffs), statistics.stdev(diffs) if len(diffs) > 1 else 0
-            print(f"  {metric:<12} (negative = AttrForge degrades less): "
+            print(f"  {metric:<12} (negative = SynSmith degrades less): "
                   f"diff={md:+.3f}+-{sd:.3f}; paired-t p={p:.3f}; Wilcoxon p={p_w:.3f}; "
                   f"per-seed: {[round(d,3) for d in diffs]}")
     except Exception as e:

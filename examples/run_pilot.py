@@ -6,14 +6,14 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from attrforge import AttrForge
-from attrforge.loop import AttrForgeConfig, configure_logging
+from synsmith import SynSmith
+from synsmith.loop import SynSmithConfig, configure_logging
 
 
 def main() -> None:
     configure_logging("INFO")
     cfg_path = Path(__file__).parent / "customer_support" / "config.echo.yaml"
-    forge = AttrForge(AttrForgeConfig.from_yaml(cfg_path))
+    forge = SynSmith(SynSmithConfig.from_yaml(cfg_path))
     result = forge.run()
     print(f"\nRun dir: {result.run_dir}")
     print(f"Final prompt v{result.final_prompt_version}:\n")

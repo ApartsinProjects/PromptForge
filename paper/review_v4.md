@@ -30,7 +30,7 @@ The authors pivoted again: the new headline is augmentation rather than isolated
 
 **BL-NEW-1. The new headline claim that `full_attrforge` is "the only iterated condition" that reaches the real-only ceiling at every n in [20, 30] is verifiably FALSE.**
 
-WHERE: Abstract, "What we find" paragraph, sentence 1: "the seven-critic loop is the only iterated condition that reaches the real-only macro F1 ceiling ($0.893$) at every real-train size from $20$ to $30$". Also: Section 7.1 paragraph 2, "(ii) AttrForge reaches the real-only ceiling; full_classic does not. ... The seven-critic loop matches that ceiling at every $n \geq 20$ ($0.893 \pm 0.075$); the three-critic baseline plateaus at $0.872$ and stays there."
+WHERE: Abstract, "What we find" paragraph, sentence 1: "the seven-critic loop is the only iterated condition that reaches the real-only macro F1 ceiling ($0.893$) at every real-train size from $20$ to $30$". Also: Section 7.1 paragraph 2, "(ii) SynSmith reaches the real-only ceiling; full_classic does not. ... The seven-critic loop matches that ceiling at every $n \geq 20$ ($0.893 \pm 0.075$); the three-critic baseline plateaus at $0.872$ and stays there."
 
 WHY: I verified directly from `experiments/main_run_002_aggregated/scarce_real.json`. Per-condition means under sentence-transformer + LR augmentation:
 
@@ -47,7 +47,7 @@ The paired-t p-value of `full_attrforge` vs `realism_only` at these sizes is 0.8
 This is the headline empirical claim. It is the first sentence of the "What we find" paragraph in the abstract, and it is paragraph (ii) of three substantive observations in Section 7.1. It does not survive a direct lookup against the data file the paper itself points to.
 
 FIX:
-1. Either remove "only" from the abstract sentence (then the claim becomes "AttrForge is one of several iterated conditions that match the ceiling"), or
+1. Either remove "only" from the abstract sentence (then the claim becomes "SynSmith is one of several iterated conditions that match the ceiling"), or
 2. Reframe the comparison around the right contrast (`full_attrforge` vs `full_classic` specifically, not vs all iterated conditions), or
 3. Change "every iterated condition" to "the multi-critic conditions we explicitly compare", which would require explicit acknowledgment that `realism_only` and `diversity_only` are not part of the headline comparison even though they appear in the same table.
 
@@ -70,7 +70,7 @@ NONE of these comparisons are significant at any conventional threshold. Under B
 
 The cell-by-cell means in Table 3 happen to land at 0.893 (FA) vs 0.872 (FC) when averaged across the discrete F1 values the 10-item test set can produce. But the per-seed pattern is: seeds 17 and 53 show AF > FC by +0.16; seeds 23 and 41 show AF < FC by -0.107; seed 89 shows tie. The 5-seed mean is dominated by seeds 17 / 53 where AF beats FC, and seeds 23 / 41 where it loses. This is exactly the seed-dependent noise pattern the round-2 review flagged for the isolated-protocol claim, just transposed to the augmentation protocol.
 
-The "AttrForge matches the ceiling; full_classic plateaus" claim is therefore an artifact of:
+The "SynSmith matches the ceiling; full_classic plateaus" claim is therefore an artifact of:
 - 10-item test set produces only 22 distinct F1 values, several of which are common attractors (0.733, 0.893, 1.0)
 - 5 seeds is enough that the mean lands on one of these attractors but not enough that the difference is significant
 
@@ -131,10 +131,10 @@ WHERE: The hyperparameter "samples per iteration = 16; 3 iterations" is fixed ac
 
 WHY: The augmentation headline rests on the claim that `full_attrforge`'s 48 synthetic samples push the augmented classifier to the ceiling more reliably than `full_classic`'s 48 synthetic samples. But this is at a single point in the (synthetic sample count) x (real-train size) plane. The natural follow-up question is whether `full_classic` would close the 0.021 gap if it generated 96 samples instead of 48, or if it used 8 exemplars per iteration like `few_shot`. The paper does not run these.
 
-If `full_classic` matches the ceiling at 96 samples and `full_attrforge` does so at 48, that would still be an interesting positive finding (cost reduction) but a different headline ("AttrForge reaches the ceiling with fewer samples") and weaker than "AttrForge is the only iterated condition that reaches the ceiling".
+If `full_classic` matches the ceiling at 96 samples and `full_attrforge` does so at 48, that would still be an interesting positive finding (cost reduction) but a different headline ("SynSmith reaches the ceiling with fewer samples") and weaker than "SynSmith is the only iterated condition that reaches the ceiling".
 
 FIX:
-1. Run one additional condition: `full_classic` at 6 iterations of 16 (96 samples), and compare to `full_attrforge` at 3 iterations of 16 (48 samples). If `full_classic_x2` matches the ceiling, the headline becomes "AttrForge reaches the ceiling with half the synthetic data". If it doesn't, the current framing strengthens.
+1. Run one additional condition: `full_classic` at 6 iterations of 16 (96 samples), and compare to `full_attrforge` at 3 iterations of 16 (48 samples). If `full_classic_x2` matches the ceiling, the headline becomes "SynSmith reaches the ceiling with half the synthetic data". If it doesn't, the current framing strengthens.
 2. Or explicitly acknowledge in the limitations that hyperparameter sweeps were not done.
 
 **MA-NEW-3. Statistical re-verification: paired-t / Wilcoxon are not reported in Table 3.**
@@ -189,7 +189,7 @@ FIX:
 
 **MI-NEW-1.** The abstract's "+0.10 to +0.23 macro F1" range is internally inconsistent with Section 7.1's "+0.14 to +0.23" range. See BL-NEW-4. Trivial to align once data is corrected.
 
-**MI-NEW-2.** Table 3 caption: "The real-only baseline at $n=20$ already reaches the same F1 as $n=30$, indicating that the sentence-transformer classifier saturates on this task at around 20 real examples." This is true and useful disclosure. Could be expanded to acknowledge that this saturation explains why the "ceiling match" claim is hard to read as a meaningful AttrForge property.
+**MI-NEW-2.** Table 3 caption: "The real-only baseline at $n=20$ already reaches the same F1 as $n=30$, indicating that the sentence-transformer classifier saturates on this task at around 20 real examples." This is true and useful disclosure. Could be expanded to acknowledge that this saturation explains why the "ceiling match" claim is hard to read as a meaningful SynSmith property.
 
 **MI-NEW-3.** Figure 2 caption: "The seven-critic loop (red) tracks the real-only baseline at $n \in \{15, 20, 25, 30\}$ and reaches the $0.893$ ceiling at $n \geq 20$." The same claim issue as BL-NEW-1: `realism_only` also tracks and exceeds the ceiling but is not drawn on the plot (the plot only shows `full_classic` and `full_attrforge`). Add `realism_only` and `diversity_only` lines, or restrict the caption to the explicit-comparison pair.
 
@@ -266,15 +266,15 @@ None of these tests are significant. Under Bonferroni at alpha = 0.05/6 = 0.0083
 
 The same analysis for `full_classic` vs real-only at n = 30: mean diff = -0.021, paired-t p = 0.74. Not different from zero.
 
-### Compare AttrForge vs real-only at n = 10 (the most positive case)
+### Compare SynSmith vs real-only at n = 10 (the most positive case)
 
-`full_attrforge` augmentation at n = 10 vs real-only at n = 10: paired-t p = 0.043, Wilcoxon p = 0.063, 5/5 directional, CI [+0.035, +0.125]. This is the strongest positive statistical finding for AttrForge augmentation in the entire scarce_real experiment. The abstract does mention this as part of "+0.10 to +0.23" gain at small n; the actual measured gain at n=10 is +0.080 with N=5.
+`full_attrforge` augmentation at n = 10 vs real-only at n = 10: paired-t p = 0.043, Wilcoxon p = 0.063, 5/5 directional, CI [+0.035, +0.125]. This is the strongest positive statistical finding for SynSmith augmentation in the entire scarce_real experiment. The abstract does mention this as part of "+0.10 to +0.23" gain at small n; the actual measured gain at n=10 is +0.080 with N=5.
 
 ### Compare `full_classic` vs real-only at n = 5
 
 `full_classic` augmentation at n = 5: mean diff = +0.229, paired-t p = 0.057, Wilcoxon p = 0.063, 5/5 directional. Approaching significance and consistently above real-only across all seeds. This is the strongest single-condition positive finding for augmentation in the experiment. The paper does report this as part of the +0.14 to +0.23 range at n=5, but it pairs it with `full_attrforge`'s weaker +0.142. By per-condition statistical strength, the augmentation experiment's WINNER is `full_classic` at n=5, not `full_attrforge` at any n.
 
-### Confirm or refute the "AttrForge matches the ceiling" claim with proper hypothesis tests
+### Confirm or refute the "SynSmith matches the ceiling" claim with proper hypothesis tests
 
 REFUTED in the form stated in the abstract ("the only iterated condition that reaches"). Three lines of evidence:
 1. `realism_only` exceeds 0.893 at all of n=20, 25, 30 (means 0.904, 0.904, 0.925); not just `full_attrforge`.
@@ -286,8 +286,8 @@ The defensible weaker version: at n >= 20 on this task with N = 5 seeds and a 10
 ## Writing and clarity issues
 
 - The four-paragraph abstract format (problem / what we do / what we find / what we additionally contribute) is a real improvement over previous rounds; readers can find the headline quickly. Good change.
-- Section 7.1 paragraph 2 lists three patterns (i), (ii), (iii). Pattern (ii) "AttrForge reaches the real-only ceiling; full_classic does not" is the load-bearing one and is the one that does not survive scrutiny. Either reframe or run more seeds.
-- The contrast between "matches the ceiling" (the new positive claim) and "0.14 macro-F1 cost under TF-IDF" (the previous round's negative finding, demoted to Section 7.2) is somewhat awkward. The paper is making two claims: (A) under augmentation with ST features, AttrForge matches the ceiling, (B) under isolated TF-IDF train-on-synth, AttrForge loses 0.14 to the baseline. Both can be true simultaneously, but the paper's framing oscillates between "this is the headline now" and "the TF-IDF gap was the headline before". A reader could finish the paper without knowing what the authors think the main contribution is.
+- Section 7.1 paragraph 2 lists three patterns (i), (ii), (iii). Pattern (ii) "SynSmith reaches the real-only ceiling; full_classic does not" is the load-bearing one and is the one that does not survive scrutiny. Either reframe or run more seeds.
+- The contrast between "matches the ceiling" (the new positive claim) and "0.14 macro-F1 cost under TF-IDF" (the previous round's negative finding, demoted to Section 7.2) is somewhat awkward. The paper is making two claims: (A) under augmentation with ST features, SynSmith matches the ceiling, (B) under isolated TF-IDF train-on-synth, SynSmith loses 0.14 to the baseline. Both can be true simultaneously, but the paper's framing oscillates between "this is the headline now" and "the TF-IDF gap was the headline before". A reader could finish the paper without knowing what the authors think the main contribution is.
 - Section 7.5 is titled "Realism trajectory" but discusses both the realism discriminator and the per-iteration downstream F1. Two different metrics; recommend splitting into 7.5 (realism discriminator across conditions) and 7.6 (per-iteration downstream F1 dynamics).
 - Section 9.6 has a subtle inconsistency: it positions against NanoFlux and Verbalized Sampling but does not engage with how this paper's main finding (an augmentation-only-statistically-distinguishable gain over baseline at n=10) compares to those works' reported effect sizes.
 - The "Code is open-source under MIT at github.com/ApartsinProjects/PromptForge" link is good. Worth verifying that the repository actually mirrors the submission's manifest (a TMLR reviewer following the link should reach a clean reproducer).
@@ -298,19 +298,19 @@ The defensible weaker version: at n >= 20 on this task with N = 5 seeds and a 10
 
 The paper has improved substantively since round 2. The N=3 -> N=5 seed expansion strengthens the TF-IDF significance from p=0.09 to p=0.046; the direct diversity measurements (distinct-n, self-BLEU-4) add an external check that BL4-of-round-2 specifically requested; the prose unification across abstract / Sections 9, 10, 11 has been completed; the BibTeX and HTML titles match. These are non-trivial improvements that demonstrate good-faith engagement.
 
-However, the v1.4 pivot to the augmentation headline introduces a NEW set of statistical and conceptual problems that are at least as serious as the round-2 issues they replaced. The two central claims in the new abstract (AttrForge is "the only iterated condition" reaching the ceiling; `full_classic` "plateaus at 0.872 and stays there") do not survive direct verification against `scarce_real.json`:
+However, the v1.4 pivot to the augmentation headline introduces a NEW set of statistical and conceptual problems that are at least as serious as the round-2 issues they replaced. The two central claims in the new abstract (SynSmith is "the only iterated condition" reaching the ceiling; `full_classic` "plateaus at 0.872 and stays there") do not survive direct verification against `scarce_real.json`:
 - `realism_only` exceeds the ceiling at all three sizes (n = 20, 25, 30) by larger margins than `full_attrforge` does
 - The per-seed `full_classic` values are identical at n = 15, 20, 25, 30, demonstrating that the "plateau" is a property of the saturated classifier on 10-item test, not a property of the synthetic-data quality
 - The 0.021 difference between `full_classic` and `full_attrforge` at n in [15, 30] is not statistically distinguishable from zero under paired-t (p > 0.7) or Wilcoxon (p >= 0.75) at any size
 - The directional split is 2/5 seeds in favor of AF at n in [15, 30], not 3/5 or higher
 - The strongest positive statistical finding in the entire augmentation experiment is actually `full_classic` vs real-only at n=5 (p=0.057, 5/5 directional, +0.23 gain), which the paper underplays
 
-The pattern is: the paper found a partial positive (AttrForge's point estimate matches the ceiling where `full_classic`'s does not), but it pushed that observation up to a "the only iterated condition" headline that the data does not support, because three OTHER iterated conditions (realism_only, diversity_only, few_shot) also reach or exceed that point.
+The pattern is: the paper found a partial positive (SynSmith's point estimate matches the ceiling where `full_classic`'s does not), but it pushed that observation up to a "the only iterated condition" headline that the data does not support, because three OTHER iterated conditions (realism_only, diversity_only, few_shot) also reach or exceed that point.
 
 What I would request from a fourth revision:
 1. Restate the augmentation headline as: "at n >= 20, all iterated conditions are within 0.05 macro F1 of the real-only ceiling on this task with N=5 seeds and a 10-item test set; the differences are not statistically distinguishable." Frame `full_attrforge` matching the ceiling as a positive but not unique finding. Remove the "only" claim.
 2. Repeat the scarce-real experiment with a 50-item or 100-item held-out test set. The 10-item test set is too small to resolve the 0.02 gap the abstract leans on; the discretization to ~22 distinct F1 attractor values is responsible for the "plateau" appearance.
-3. Run the scarce_real experiment with TF-IDF features (matching Section 7.2 / 7.3 protocol) and report all three classifiers. If the augmentation headline does not survive the TF-IDF check, demote it; if it does, the headline becomes "AttrForge augmentation reaches the ceiling on stronger downstream classifiers and not on TF-IDF" which is a more honest cross-classifier story.
+3. Run the scarce_real experiment with TF-IDF features (matching Section 7.2 / 7.3 protocol) and report all three classifiers. If the augmentation headline does not survive the TF-IDF check, demote it; if it does, the headline becomes "SynSmith augmentation reaches the ceiling on stronger downstream classifiers and not on TF-IDF" which is a more honest cross-classifier story.
 4. Reframe the Section 7.1 (i) "synthetic data is most valuable when real is scarce" observation around its actual strongest result: `full_classic` augmentation at n=5 delivers +0.229 F1 over real-only with 5/5 directional support. The 7-critic loop's gain (+0.142 at n=5) is weaker. This is the same direction as the isolated-protocol TF-IDF gap, just smaller.
 5. Either run a larger-budget condition (more iterations or more samples per iteration) for `full_classic` to test whether the 0.021 ceiling gap closes with more synthetic data, or acknowledge in the limitations that the augmentation comparison is at a single sample budget.
 
@@ -326,6 +326,6 @@ The minimum I would expect from a revision: the abstract and Section 7.1 either 
 
 3. **(BL-NEW-3, MA-NEW-2)** Repeat the scarce-real experiment with a 50+ item held-out test set, or add a higher-sample-count condition (e.g., `full_classic` at 96 samples) to test whether the "plateau" is a real per-condition ceiling or a saturation artifact of the 10-item test. Currently the 22 distinct F1 attractor values produced by 10-items-x-5-classes-x-balanced-support drive the "plateau at 0.872" appearance.
 
-4. **(MA-NEW-4)** Reframe Section 7.1 paragraph (i). The strongest single-condition statistical result in the scarce_real experiment is `full_classic` augmentation at n=5 (gain +0.229, 5/5 directional, paired-t p = 0.057). The 7-critic loop's gain at the same point is +0.142. Frame the scarce-real regime around its actual winner, not around the "AttrForge matches the ceiling at saturating n" claim. The "match" at saturating n is a positive observation but it is statistically indistinguishable from "real-only also matches the ceiling at saturating n", which is uninformative.
+4. **(MA-NEW-4)** Reframe Section 7.1 paragraph (i). The strongest single-condition statistical result in the scarce_real experiment is `full_classic` augmentation at n=5 (gain +0.229, 5/5 directional, paired-t p = 0.057). The 7-critic loop's gain at the same point is +0.142. Frame the scarce-real regime around its actual winner, not around the "SynSmith matches the ceiling at saturating n" claim. The "match" at saturating n is a positive observation but it is statistically indistinguishable from "real-only also matches the ceiling at saturating n", which is uninformative.
 
 5. **(MI-NEW-5, MI-NEW-2, BL-NEW-4)** Numerical consistency sweep. The abstract's "+0.10 to +0.23 macro F1" claim does not match Section 7.1's "+0.14 to +0.23" or the underlying data (FA at n=10 is +0.08). The ST p = 0.82 vs p = 0.66 inconsistency between abstract and Section 7.3 must be resolved (re-derive on the N=5 data and use one number). Table 3 should include paired-t / Wilcoxon p-values, not just per-cell means and standard deviations.

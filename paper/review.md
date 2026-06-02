@@ -1,8 +1,8 @@
-# TMLR Adversarial Self-Review: AttrForge
+# TMLR Adversarial Self-Review: SynSmith
 
 ## 1. Summary
 
-The paper proposes AttrForge, a multi-objective prompt optimization framework for LLM-based synthetic data generation. The core technical contribution is the transfer of four mode-collapse defenses from the GAN literature (Pack Discriminator, Mode-Seeking ratio, Mode Hunter with persistent banned-phrasing memory, Coverage Hole Finder via density-ratio estimation) into the prompt-debugging setting. The framework augments three baseline LLM critics with these four batch-level adversaries, all routing structured complaints into a prompt updater. Empirical claims are validated on a single customer-support intent task using a deterministic simulator backend (the live-LLM run failed due to OpenAI quota limits) across seven ablation conditions with a single seed.
+The paper proposes SynSmith, a multi-objective prompt optimization framework for LLM-based synthetic data generation. The core technical contribution is the transfer of four mode-collapse defenses from the GAN literature (Pack Discriminator, Mode-Seeking ratio, Mode Hunter with persistent banned-phrasing memory, Coverage Hole Finder via density-ratio estimation) into the prompt-debugging setting. The framework augments three baseline LLM critics with these four batch-level adversaries, all routing structured complaints into a prompt updater. Empirical claims are validated on a single customer-support intent task using a deterministic simulator backend (the live-LLM run failed due to OpenAI quota limits) across seven ablation conditions with a single seed.
 
 ## 2. Strengths
 

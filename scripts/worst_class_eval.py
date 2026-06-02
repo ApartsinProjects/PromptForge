@@ -37,7 +37,7 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
+import synsmith  # noqa: E402
 
 
 def main() -> None:

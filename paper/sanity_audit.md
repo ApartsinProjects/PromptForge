@@ -94,8 +94,8 @@ Concretely:
   the discriminator MORE confident in detecting synthetic patterns.
 
 This is an honest, important finding. The paper should reposition: instead of
-claiming AttrForge "improves over baselines", we report a **diagnostic
-tradeoff** — AttrForge reveals what naive ablations hide.
+claiming SynSmith "improves over baselines", we report a **diagnostic
+tradeoff** — SynSmith reveals what naive ablations hide.
 
 ## Bug audit (live-LLM run)
 
@@ -109,7 +109,7 @@ tradeoff** — AttrForge reveals what naive ablations hide.
 
 ## Recommendations for paper revision
 
-1. **Reframe contribution**: from "AttrForge improves downstream" to "AttrForge
+1. **Reframe contribution**: from "SynSmith improves downstream" to "SynSmith
    reveals an adversarial diversity-discriminability tradeoff invisible to
    naive ablations".
 2. **Headline finding**: full_classic > full_attrforge on downstream F1; this

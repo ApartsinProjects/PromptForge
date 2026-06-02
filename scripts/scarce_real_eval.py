@@ -7,7 +7,7 @@ pool to sizes {5, 10, 20, 30} stratified across classes, augment with each
 condition's synthetic batch, and measure downstream F1.
 
 Hypothesis: as real-train shrinks, the diversity of the synthetic data matters
-more, and AttrForge's adversaries should win at the smallest real-train sizes.
+more, and SynSmith's adversaries should win at the smallest real-train sizes.
 
 Outputs:
     experiments/<base>_aggregated/scarce_real.json
@@ -30,8 +30,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def stratified_subsample(reals, n, seed):

@@ -6,8 +6,8 @@ from __future__ import annotations
 
 from collections import Counter
 
-from attrforge.planner import AttributePlanner, PlannerConfig
-from attrforge.schema import AttributeSchema, SyntheticSample
+from synsmith.planner import AttributePlanner, PlannerConfig
+from synsmith.schema import AttributeSchema, SyntheticSample
 
 
 def _schema_10way() -> AttributeSchema:

@@ -37,8 +37,8 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402  (loads .env)
-from attrforge.schema import SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402  (loads .env)
+from synsmith.schema import SyntheticSample, load_jsonl  # noqa: E402
 
 
 def tokenize(s: str) -> list[str]:

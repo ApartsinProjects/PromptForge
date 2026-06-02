@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import pytest
 
-from attrforge.critics.debate_discriminator import (
+from synsmith.critics.debate_discriminator import (
     DebateConfig,
     DebateJudge,
     RealismDebate,
@@ -17,12 +17,12 @@ from attrforge.critics.debate_discriminator import (
     majority_vote,
     unanimous_fraction,
 )
-from attrforge.critics.discriminator import (
+from synsmith.critics.discriminator import (
     DiscriminationResult,
     DiscriminatorConfig,
     RealismDiscriminator,
 )
-from attrforge.schema import RealExample, RealismVerdict, SyntheticSample
+from synsmith.schema import RealExample, RealismVerdict, SyntheticSample
 
 
 def _real(t: str, idx: int) -> RealExample:

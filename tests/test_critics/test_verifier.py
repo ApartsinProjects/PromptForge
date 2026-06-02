@@ -15,8 +15,8 @@ from __future__ import annotations
 
 import json
 
-from attrforge.critics.verifier import AttributeVerifier, VerifierConfig
-from attrforge.schema import AttributeSchema, RealExample
+from synsmith.critics.verifier import AttributeVerifier, VerifierConfig
+from synsmith.schema import AttributeSchema, RealExample
 
 
 def _schema() -> AttributeSchema:
@@ -111,7 +111,7 @@ def test_class_primary_attribute_match_passes_when_only_auxiliary_attributes_fai
     attribute_match=True even if auxiliary attributes failed. Prevents
     the TREC failure mode where un-anchored auxiliary attributes (style,
     difficulty, scenario_type) caused attr_pass=0/16 across all iters."""
-    from attrforge.schema import SyntheticSample
+    from synsmith.schema import SyntheticSample
     v = AttributeVerifier(client=None, schema=_schema())
     sample = SyntheticSample(
         sample_id="t1",
@@ -134,7 +134,7 @@ def test_class_primary_attribute_match_passes_when_only_auxiliary_attributes_fai
 def test_class_primary_attribute_match_fails_when_class_fails():
     """v2.9.5: class-attribute failure still causes attribute_match=False
     even when LLM said overall True."""
-    from attrforge.schema import SyntheticSample
+    from synsmith.schema import SyntheticSample
     v = AttributeVerifier(client=None, schema=_schema())
     sample = SyntheticSample(
         sample_id="t2",

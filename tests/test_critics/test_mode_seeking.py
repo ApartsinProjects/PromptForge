@@ -10,8 +10,8 @@ exercises it end-to-end on stub samples and asserts:
 """
 from __future__ import annotations
 
-from attrforge.critics.mode_seeking import ModeSeeking, ModeSeekingConfig
-from attrforge.schema import SyntheticSample
+from synsmith.critics.mode_seeking import ModeSeeking, ModeSeekingConfig
+from synsmith.schema import SyntheticSample
 
 
 def _make_sample(text: str, intent: str, style: str, idx: int) -> SyntheticSample:

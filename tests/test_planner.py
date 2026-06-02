@@ -1,8 +1,8 @@
 """Attribute planner contract tests."""
 from __future__ import annotations
 
-from attrforge.planner import AttributePlanner, PlannerConfig
-from attrforge.schema import AttributeSchema
+from synsmith.planner import AttributePlanner, PlannerConfig
+from synsmith.schema import AttributeSchema
 
 
 def _schema() -> AttributeSchema:

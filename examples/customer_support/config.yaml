@@ -1,4 +1,4 @@
-# AttrForge run configuration: customer support intent classification
+# SynSmith run configuration: customer support intent classification
 schema_path: examples/customer_support/schema.yaml
 real_examples_path: examples/customer_support/real_examples.jsonl
 

@@ -1,4 +1,4 @@
-"""End-to-end experiment runner for the AttrForge paper.
+"""End-to-end experiment runner for the SynSmith paper.
 
 For each named baseline, run the loop with the same config (only critic
 stack varies), then evaluate every iteration's synthetic batch on the
@@ -26,10 +26,10 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
-from attrforge.baselines import BASELINES, build  # noqa: E402
-from attrforge.eval.downstream import DownstreamConfig, DownstreamEvaluator  # noqa: E402
-from attrforge.loop import AttrForge, AttrForgeConfig, configure_logging  # noqa: E402
-from attrforge.schema import RealExample, load_jsonl  # noqa: E402
+from synsmith.baselines import BASELINES, build  # noqa: E402
+from synsmith.eval.downstream import DownstreamConfig, DownstreamEvaluator  # noqa: E402
+from synsmith.loop import SynSmith, SynSmithConfig, configure_logging  # noqa: E402
+from synsmith.schema import RealExample, load_jsonl  # noqa: E402
 
 
 def split_real(
@@ -86,7 +86,7 @@ def split_real(
 
 def run_one(
     name: str,
-    base_cfg: AttrForgeConfig,
+    base_cfg: SynSmithConfig,
     test_real: list[RealExample],
     run_root: Path,
     iterations: int,
@@ -101,7 +101,7 @@ def run_one(
 
     print(f"\n=== Running condition: {name} (iters={cfg.iterations}, n/iter={cfg.samples_per_iteration}) ===", flush=True)
     t0 = time.time()
-    forge = AttrForge(cfg)
+    forge = SynSmith(cfg)
     result = forge.run()
     elapsed = time.time() - t0
 
@@ -191,7 +191,7 @@ def main() -> None:
     args = ap.parse_args()
 
     configure_logging("WARNING")
-    base_cfg = AttrForgeConfig.from_yaml(args.config)
+    base_cfg = SynSmithConfig.from_yaml(args.config)
 
     # Override backend everywhere if requested.
     if args.backend:
@@ -221,7 +221,7 @@ def main() -> None:
     seeds = args.seeds or [base_cfg.seed or 17]
 
     for seed in seeds:
-        seed_cfg = AttrForgeConfig(**{**base_cfg.__dict__, "seed": seed})
+        seed_cfg = SynSmithConfig(**{**base_cfg.__dict__, "seed": seed})
         # Propagate seed to nested configs.
         seed_cfg.planner.seed = seed
         seed_cfg.generator.seed = seed

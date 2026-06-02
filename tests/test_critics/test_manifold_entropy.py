@@ -8,11 +8,11 @@ from __future__ import annotations
 
 import pytest
 
-from attrforge.critics.manifold_entropy import (
+from synsmith.critics.manifold_entropy import (
     ManifoldEntropy,
     ManifoldEntropyConfig,
 )
-from attrforge.schema import SyntheticSample
+from synsmith.schema import SyntheticSample
 
 
 def _make(text: str, idx: int) -> SyntheticSample:

@@ -4,7 +4,7 @@ augmented downstream classifier.
 Diversity-injecting synthetic data should produce a classifier whose
 probability outputs better reflect actual class likelihoods - a wider
 sample distribution gives less overfit logits at decision boundaries.
-This is a second axis on which the AttrForge approach can win that does
+This is a second axis on which the SynSmith approach can win that does
 not depend on macro/worst F1 being significant.
 
 For each (condition, seed) we report:
@@ -37,8 +37,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def expected_calibration_error(y_true_idx, y_proba, n_bins=10):

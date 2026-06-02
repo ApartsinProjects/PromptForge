@@ -16,7 +16,7 @@ from pathlib import Path
 
 import pytest
 
-from attrforge.llm_batch import (
+from synsmith.llm_batch import (
     BatchClient,
     BatchConfig,
     BatchResponse,

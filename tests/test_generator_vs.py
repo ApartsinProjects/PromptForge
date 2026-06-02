@@ -10,8 +10,8 @@ import random
 
 import pytest
 
-from attrforge.generator import Generator, GeneratorConfig
-from attrforge.schema import AttributeSchema, AttributeVector
+from synsmith.generator import Generator, GeneratorConfig
+from synsmith.schema import AttributeSchema, AttributeVector
 
 
 @pytest.fixture
@@ -120,11 +120,11 @@ def test_config_defaults():
 
 def test_vs_baseline_in_registry():
     """full_attrforge_vs is in the BASELINES registry."""
-    from attrforge.baselines import BASELINES, build
-    from attrforge.loop import AttrForgeConfig
+    from synsmith.baselines import BASELINES, build
+    from synsmith.loop import SynSmithConfig
 
     assert "full_attrforge_vs" in BASELINES
-    cfg = AttrForgeConfig.from_yaml(
+    cfg = SynSmithConfig.from_yaml(
         "examples/customer_support/config.yaml"
     )
     out = build("full_attrforge_vs", cfg)

@@ -1,4 +1,4 @@
-# AttrForge run configuration: TREC question-type classification
+# SynSmith run configuration: TREC question-type classification
 schema_path: examples/trec/schema.yaml
 real_examples_path: experiments/_splits/trec_real_train.jsonl
 

@@ -1,4 +1,4 @@
-# AttrForge run configuration: SST-2 binary sentiment classification
+# SynSmith run configuration: SST-2 binary sentiment classification
 schema_path: examples/sst2/schema.yaml
 real_examples_path: experiments/_splits/sst2_real_train.jsonl
 

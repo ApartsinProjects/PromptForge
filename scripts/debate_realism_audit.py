@@ -32,12 +32,12 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 
-from attrforge.critics.debate_discriminator import (  # noqa: E402
+from synsmith.critics.debate_discriminator import (  # noqa: E402
     DebateConfig,
     DebateJudge,
     RealismDebate,
 )
-from attrforge.schema import (  # noqa: E402
+from synsmith.schema import (  # noqa: E402
     RealExample,
     SyntheticSample,
     load_jsonl,

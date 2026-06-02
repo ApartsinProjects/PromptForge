@@ -1,7 +1,7 @@
 """Per-class augmentation analysis.
 
 Disaggregate augmentation F1 by class to look for class-specific wins.
-Hypothesis: AttrForge's surface-diversity gains might help on the hardest
+Hypothesis: SynSmith's surface-diversity gains might help on the hardest
 class (general_question) more than on easier classes with strong keyword
 signatures.
 
@@ -26,8 +26,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def stratified_subsample(reals, n, seed):
@@ -148,7 +148,7 @@ def main():
             print(f" {m:.2f}±{s:.2f}              ", end="")
         print()
 
-    # Find class where AttrForge wins largest over full_classic
+    # Find class where SynSmith wins largest over full_classic
     print(f"\nMean per-class augmentation F1 at n=30 (full_attrforge - full_classic):")
     for lbl in labels:
         a = bag["full_attrforge"][n_focus][lbl]

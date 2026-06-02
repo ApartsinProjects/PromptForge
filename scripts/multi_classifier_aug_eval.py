@@ -36,8 +36,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def stratified_subsample(reals, n, seed):
@@ -219,7 +219,7 @@ def main():
         rm = [statistics.mean(real_only[cls][n]) for n in sizes_arr]
         rs = [statistics.stdev(real_only[cls][n]) if len(real_only[cls][n]) > 1 else 0 for n in sizes_arr]
         ax.errorbar(sizes_arr, rm, yerr=rs, marker="s", linewidth=2, capsize=4, color="#444444", linestyle="--", label="real-only")
-        for c, col, label in [("full_classic", "#3a6ea5", "3-critic loop"), ("full_attrforge", "#c0392b", "7-critic loop (AttrForge)")]:
+        for c, col, label in [("full_classic", "#3a6ea5", "3-critic loop"), ("full_attrforge", "#c0392b", "7-critic loop (SynSmith)")]:
             m = [statistics.mean(bag[cls][c][n]) if bag[cls][c][n] else 0 for n in sizes_arr]
             s = [statistics.stdev(bag[cls][c][n]) if bag[cls][c][n] and len(bag[cls][c][n]) > 1 else 0 for n in sizes_arr]
             ax.errorbar(sizes_arr, m, yerr=s, marker="o", linewidth=2, capsize=4, color=col, label=label)

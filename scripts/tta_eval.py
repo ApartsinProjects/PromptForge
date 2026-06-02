@@ -6,9 +6,9 @@ At inference time, predict on the original item AND the two paraphrases,
 then aggregate the three predictions into one per item (we evaluate two
 aggregation rules: majority vote and softmax-averaged logits).
 
-If AttrForge's higher lexical diversity produces a classifier whose
+If SynSmith's higher lexical diversity produces a classifier whose
 predictions are stable across paraphrases (the surface-invariance result
-in robustness.json), AttrForge should gain MORE from TTA than full_classic
+in robustness.json), SynSmith should gain MORE from TTA than full_classic
 (whose keyword-driven predictions disagree across paraphrases, so TTA
 introduces noise).
 
@@ -40,8 +40,8 @@ import numpy as np  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
-import attrforge  # noqa: E402
-from attrforge.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
+import synsmith  # noqa: E402
+from synsmith.schema import RealExample, SyntheticSample, load_jsonl  # noqa: E402
 
 
 def load_synth(cond_dir):
