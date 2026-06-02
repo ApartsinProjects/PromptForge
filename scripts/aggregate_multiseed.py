@@ -228,14 +228,21 @@ def _plot_main(rows, out_path):
 
 
 def _plot_audit(rows, null_pack, real_ms, out_path):
-    fig, axes = plt.subplots(2, 2, figsize=(13, 8))
+    # Only plot the two adversary metrics that actually differentiate
+    # conditions on this task. Coverage-hole AUROC saturates at 1.00 for
+    # every condition and Mode-seeking ratio is approximately constant at
+    # 0.23 +/- 0.01 for every condition; plotting them puts visually flat
+    # panels next to the differentiating ones and invites the wrong reading
+    # (the audit "showing" something it does not). Both are still in the
+    # released artifacts and called out in the audit table caption.
+    fig, axes = plt.subplots(1, 2, figsize=(13, 4.5))
     conds = [r["condition"] for r in rows]
     xs = list(range(len(conds)))
 
     # Pack
     means = [r["pack_audit_mean"] for r in rows]
     sds = [r["pack_audit_sd"] for r in rows]
-    ax = axes[0, 0]
+    ax = axes[0]
     _bar_with_error(ax, xs, means, sds, "#c0392b")
     ax.axhline(0.5, color="#888", linestyle=":", label="chance")
     ax.axhline(null_pack, color="#3a6ea5", linestyle="--", label=f"null real-vs-real ({null_pack:.2f})")
@@ -244,38 +251,16 @@ def _plot_audit(rows, null_pack, real_ms, out_path):
     ax.set_title("Pack accuracy on every condition's final batch (lower = more diverse)")
     ax.legend(fontsize=8); ax.grid(axis="y", linestyle=":", alpha=0.4)
 
-    # MS relative to real
-    means = [r["ms_rel_real_mean"] for r in rows]
-    sds = [r["ms_rel_real_sd"] for r in rows]
-    ax = axes[0, 1]
-    _bar_with_error(ax, xs, means, sds, "#3a6ea5")
-    ax.axhline(1.0, color="#888", linestyle="--", label=f"real ms = {real_ms:.3f}")
-    ax.set_xticks(xs); ax.set_xticklabels(conds, rotation=20, ha="right", fontsize=8)
-    ax.set_ylim(0, max(1.2, max(means) * 1.2 if means else 1.2))
-    ax.set_title("Mode-seeking ratio relative to real (higher = more attribute-responsive)")
-    ax.legend(fontsize=8); ax.grid(axis="y", linestyle=":", alpha=0.4)
-
-    # AUROC
-    means = [r["auroc_mean"] for r in rows]
-    sds = [r["auroc_sd"] for r in rows]
-    ax = axes[1, 0]
-    _bar_with_error(ax, xs, means, sds, "#7c4dff")
-    ax.axhline(0.5, color="#888", linestyle=":", label="indistinguishable (0.5)")
-    ax.set_xticks(xs); ax.set_xticklabels(conds, rotation=20, ha="right", fontsize=8)
-    ax.set_ylim(0, 1.1)
-    ax.set_title("Coverage-hole AUROC (lower = more real-like coverage)")
-    ax.legend(fontsize=8); ax.grid(axis="y", linestyle=":", alpha=0.4)
-
     # Hunter
     means = [r["hunter_new_mean"] for r in rows]
     sds = [r["hunter_new_sd"] for r in rows]
-    ax = axes[1, 1]
+    ax = axes[1]
     _bar_with_error(ax, xs, means, sds, "#2e715a")
     ax.set_xticks(xs); ax.set_xticklabels(conds, rotation=20, ha="right", fontsize=8)
     ax.set_title("LLM tics detected on final batch by Mode Hunter audit (lower = fewer)")
     ax.grid(axis="y", linestyle=":", alpha=0.4)
 
-    fig.suptitle("Post-hoc adversary audit on every condition's final batch (mean ± std across seeds)", fontsize=11, y=1.01)
+    fig.suptitle("Post-hoc adversary audit on every condition's final batch (mean ± std across seeds)", fontsize=11, y=1.02)
     fig.tight_layout()
     fig.savefig(out_path, dpi=160, bbox_inches="tight")
     plt.close(fig)
