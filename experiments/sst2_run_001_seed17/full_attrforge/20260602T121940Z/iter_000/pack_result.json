@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.3333333333333333,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "the film's pacing is [adjective], maintaining a [adjective] momentum",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "despite the [adjective] expectations, the film ultimately [verb] with its [adjective] plot",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the story offers a [adjective] narrative that [verb] from beginning to end",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of commas in unusual places",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague descriptors like 'interesting' and 'very touching'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of adjectives in pairs (e.g., 'stirring, funny', 'sensual, funny')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, punchy phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'very' for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on emotional descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film's pacing is so",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "despite",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film ultimately disappoints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lackluster",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "narrative fails to captivate",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formulaic and forgettable",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the edge",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "while [subject] [verb] [object]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "is more interested in [verb] than in [verb]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "last year's [descriptor] [descriptor] exercise",
+      "n_pairs_observed": 1
+    }
+  ]
+}

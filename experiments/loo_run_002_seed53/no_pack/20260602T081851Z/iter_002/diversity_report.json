@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a strong coverage of most attributes, but there are notable gaps in the noise category, particularly with 'missing_details' and 'irrelevant_details'. Additionally, there are several near-duplicate phrasings and overrepresented modes in the 'style' and 'noise' attributes.",
+  "missing_modes": [
+    "missing_details",
+    "irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "contradiction"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more variation in the 'style' attribute to reduce the prevalence of informal responses.",
+    "Introduce scenarios that include 'missing_details' to enhance the diversity of noise types.",
+    "Ensure a broader representation of noise types in future samples to avoid overrepresentation of 'contradiction'."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

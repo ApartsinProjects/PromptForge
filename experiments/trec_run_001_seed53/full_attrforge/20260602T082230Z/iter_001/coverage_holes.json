@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6839968011830467
+    },
+    {
+      "text": "What was the name of Randy Steven Craft 's lawyer ?",
+      "label": "human_beings",
+      "p_real": 0.6754456050794574
+    },
+    {
+      "text": "What is p.m. an abbreviation for , as in 5 p.m. ?",
+      "label": "abbreviation",
+      "p_real": 0.6747354954814168
+    },
+    {
+      "text": "What is object-oriented design ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6703501218282797
+    },
+    {
+      "text": "What is a Chinese `` spouting '' bowl ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6703501218282797
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

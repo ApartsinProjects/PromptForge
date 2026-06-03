@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, polarity intensities, styles, and noise types, but it lacks full coverage of scenario types, particularly 'story_plot' and 'visuals'. There are also instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "story_plot",
+    "visuals"
+  ],
+  "overrepresented_modes": [
+    "poetic",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Include more diverse scenario types in the generation process, especially 'story_plot' and 'visuals'.",
+    "Encourage the use of more varied phrasing to reduce near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

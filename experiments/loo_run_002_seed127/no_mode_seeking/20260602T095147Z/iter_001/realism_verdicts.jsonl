@@ -1,0 +1,24 @@
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Natural expression of frustration, informal tone, and specific complaint."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"Overly casual language and structure feels scripted; lacks real-world noise."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.85,"reason":"Direct and straightforward issue with a personal touch."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.8,"reason":"Detailed description of a specific problem, realistic phrasing."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Concise and clear question about billing, typical of customer inquiries."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct complaint about a subscription issue, realistic tone."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear context, realistic phrasing."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Frustrated tone and specific complaint about service, feels authentic."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific request regarding a billing issue, typical of customer service interactions."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Frustration expressed over delayed support, realistic customer experience."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.8,"reason":"Describes a specific technical issue with a personal touch."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Technical issue described with specific details, realistic context."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.6,"reason":"Overly emotional and verbose; lacks the concise nature of real complaints."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.85,"reason":"Clear request for help with a specific issue, realistic phrasing."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Direct and clear request regarding billing, typical of customer inquiries."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.5,"reason":"Overly polished and vague; lacks specificity and realism."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.8,"reason":"Specific issue with subscription access, realistic tone."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Describes a specific technical issue, realistic phrasing."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue with clear context, realistic phrasing."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct complaint about a product issue, typical of customer feedback."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Describes a specific technical issue with context, realistic phrasing."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with email verification, realistic customer experience."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.4,"reason":"Generic question lacking personal context; feels scripted."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.8,"reason":"Describes a specific issue with password change, realistic phrasing."}

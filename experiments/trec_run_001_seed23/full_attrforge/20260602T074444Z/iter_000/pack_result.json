@@ -1,0 +1,95 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "questions starting with 'what' or 'how'",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what are some numbers related to...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are the top five...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is a...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you tell me who the famous...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "comparative structures in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on factual information or definitions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific examples or references in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'who'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations or acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent spelling or grammatical errors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex questions with multiple components",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what is' or 'what are'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent spelling errors (e.g., 'wht', 'whr')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "general inquiries about broad topics (e.g., buildings, cities, human body)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'where'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, straightforward questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on trivia or factual information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of common knowledge topics",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific terms and acronyms like 'nasa'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of related terms or explanations in the questions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

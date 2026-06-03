@@ -1,0 +1,24 @@
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Casual language and a specific personal experience suggest authenticity."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct complaint with a personal touch, typical of real user frustration."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.7,"reason":"Overly structured and includes multiple questions that feel generic."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Casual tone and a specific issue indicate a real user experience."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Personal frustration expressed in a relatable manner."}
+{"sample_id":"R018","prediction":"real","confidence":0.8,"reason":"Informal language and a specific complaint suggest authenticity."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"Frustration over a specific issue indicates a real user experience."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.6,"reason":"Polished structure and overly detailed explanation feel artificial."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.9,"reason":"Casual language and a specific complaint suggest authenticity."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.65,"reason":"Generic question lacking personal context feels artificial."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.5,"reason":"Overly formal language and vague complaints suggest it may be generated."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.85,"reason":"Casual tone and specific issue indicate a real user experience."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Direct and specific technical issue suggests authenticity."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.7,"reason":"Polished language and repetitive structure feel artificial."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.6,"reason":"Generic inquiry lacking personal context suggests it may be generated."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.75,"reason":"Formal language and technical question feel overly polished."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Specific technical issue with logs suggests a real user."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Personal experience with a specific issue indicates authenticity."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Specific technical request suggests a real user experience."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.85,"reason":"Casual tone and specific complaint indicate authenticity."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"Casual language and a specific concern suggest a real user."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong emotional response and specific complaint indicate authenticity."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Direct complaint with a specific request suggests authenticity."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct and urgent request indicates a real user experience."}

@@ -1,0 +1,24 @@
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Natural language with emotional expression, informal tone."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Concise and direct complaint, typical of customer feedback."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Specific issue described in a straightforward manner, common in user complaints."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.7,"reason":"Overly detailed and structured, lacks the typical brevity of real complaints."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Direct request with specific details, typical of customer service inquiries."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Clear and concise complaint about an order issue."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"Specific issue with account management, typical of user feedback."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct complaint about product performance, common in customer reviews."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.6,"reason":"Lacks detail and specificity, feels generic."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct complaint about service, typical of user feedback."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.65,"reason":"Casual language and structure, feels overly polished."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.7,"reason":"Overly verbose and structured, lacks the urgency of real complaints."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Technical inquiry with specific context, typical of user questions."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Simple and direct question, common in customer inquiries."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint with urgency, typical of customer service issues."}
+{"sample_id":"R025","prediction":"real","confidence":0.75,"reason":"Specific inquiry about product options, typical of user feedback."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing and structure, lacks personal touch."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Common issue with password resets, typical of user complaints."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.65,"reason":"Overly detailed and structured, lacks the urgency of real complaints."}
+{"sample_id":"R017","prediction":"real","confidence":0.8,"reason":"Specific issue with account management, typical of user feedback."}
+{"sample_id":"R009","prediction":"real","confidence":0.75,"reason":"Technical issue described in a straightforward manner."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.6,"reason":"Lacks specificity and feels overly polished."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct complaint about order issue, typical of customer feedback."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.65,"reason":"Generic phrasing and structure, lacks personal touch."}

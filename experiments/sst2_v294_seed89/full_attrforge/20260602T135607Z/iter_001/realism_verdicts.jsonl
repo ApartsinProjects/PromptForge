@@ -1,0 +1,16 @@
+{"sample_id":"target_00018","prediction":"real","confidence":0.9,"reason":"Formal critique style; aligns with the critical tone of real samples."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.85,"reason":"Formal critique style; consistent with the analytical nature of real samples."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.8,"reason":"Casual, personal voice; real samples are more formal and analytical."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.9,"reason":"Formal and poetic language; fits the critical tone of real samples."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.8,"reason":"Formal critique style; aligns with the critical tone of real samples."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.85,"reason":"Formal critique style; consistent with the analytical nature of real samples."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.75,"reason":"Casual, humorous tone; real samples are more formal and critical."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.9,"reason":"Formal and poetic language; fits the critical tone of real samples."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.85,"reason":"Formal critique style; aligns with the critical tone of real samples."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"Formal critique style; aligns with the critical tone of real samples."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.85,"reason":"Formal critique style; aligns with the critical tone of real samples."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.9,"reason":"Formal and poetic language; fits the critical tone of real samples."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.7,"reason":"Casual, vague language; real samples are more formal and specific."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.85,"reason":"Formal critique style; aligns with the critical tone of real samples."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.75,"reason":"Casual, vague language; real samples are more formal and specific."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"Formal and poetic language; fits the critical tone of real samples."}

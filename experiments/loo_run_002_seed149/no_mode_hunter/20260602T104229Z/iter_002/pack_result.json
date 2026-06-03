@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "frequent use of polite requests and questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of personal anecdotes or situations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common themes of account issues and password problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of frustration in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i thought",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm reaching out because",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just received",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar phrasing in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of unrelated personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "overly detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance with a mix of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance with account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings like 'hello' and 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone and casual language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed directly to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and typos",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in negative reviews. Many texts utilize similar constructions, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "A positive review that is both sarcastic and concise.",
+    "A negative review that is formal and mild in intensity.",
+    "A positive review that focuses on pacing with a strong intensity."
+  ],
+  "overrepresented_modes": [
+    "Negative reviews that are poetic and express emotional dissatisfaction.",
+    "Informal negative reviews that use casual language to convey disappointment.",
+    "Positive reviews that highlight acting quality with strong intensity."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied sentence structures and vocabulary in both positive and negative reviews.",
+    "Incorporate more edge cases and rare combinations of attributes to enhance diversity.",
+    "Introduce prompts that specifically ask for unique perspectives or unconventional critiques."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

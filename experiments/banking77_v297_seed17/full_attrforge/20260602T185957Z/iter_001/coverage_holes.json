@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "What is the longest that a payment will show pending?  There is one showing that has been sitting there a few days.",
+      "label": "pending_card_payment",
+      "p_real": 0.7362848468020904
+    },
+    {
+      "text": "Is my card frozen?",
+      "label": "card_not_working",
+      "p_real": 0.7339920486570445
+    },
+    {
+      "text": "How can I get my card to work?",
+      "label": "card_not_working",
+      "p_real": 0.7324284560460547
+    },
+    {
+      "text": "There is a payment done with my card which i definitely did not do.Never seen that name before.",
+      "label": "card_payment_not_recognised",
+      "p_real": 0.7302510844325466
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

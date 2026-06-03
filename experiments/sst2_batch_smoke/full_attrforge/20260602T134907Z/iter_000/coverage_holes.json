@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": ", first-time director denzel washington and a top-notch cast manage to keep things interesting .",
+      "label": "positive",
+      "p_real": 0.6858137352842484
+    },
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6847995294182063
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6839445010099883
+    },
+    {
+      "text": "by a lackluster script and substandard performances",
+      "label": "negative",
+      "p_real": 0.683885090377833
+    },
+    {
+      "text": "supposed to be a romantic comedy",
+      "label": "negative",
+      "p_real": 0.6836254050557247
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

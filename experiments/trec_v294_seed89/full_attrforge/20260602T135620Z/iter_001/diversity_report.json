@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity across various intents and styles, but there are notable patterns in phrasing and structure that lead to nuance-level redundancy. Many texts utilize similar constructions, particularly in definitions and comparisons, which diminishes the overall richness of the content.",
+  "missing_modes": [
+    "complex definitions",
+    "creative comparisons",
+    "contextual examples"
+  ],
+  "overrepresented_modes": [
+    "What are the differences between X and Y?",
+    "Could you provide a definition of X?",
+    "What does X stand for?"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique sentence structures and varied phrasing, especially for definitions and comparisons.",
+    "Incorporate prompts that require examples or applications of concepts to enhance contextual richness.",
+    "Introduce more creative or hypothetical scenarios to stimulate diverse responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

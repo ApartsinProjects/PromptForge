@@ -1,0 +1,9 @@
+"""Generate realistic customer support messages that match the requested intent and style. Ensure the messages reflect a variety of scenarios, including common inquiries, technical problems, and account issues. Incorporate elements of real-world noise, such as informal language and minor errors, while maintaining clarity. Aim for a mix of short and medium-length responses, avoiding overly structured or polished language. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I thought I had ordered'
+- 'I want to make an informed decision'
+- 'I was just thinking a'
+- "I can't believe how many issues I've had"
+
+Please include diverse intents such as 'technical_problem' and 'general_question,' and limit verbose or informal styles to promote a wider range of expression. Introduce edge cases and rare scenarios to enhance complexity. The ambiguity should vary, with some messages being clear and others containing slight confusion. Strive for a balance in difficulty, ensuring some messages are straightforward while others present moderate challenges. Avoid near-duplicate phrasings to enrich the dataset's diversity."""

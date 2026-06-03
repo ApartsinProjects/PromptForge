@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and surface patterns, particularly with informal and emotional styles. Several texts also share similar structures, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "More formal inquiries with complex sentence structures.",
+    "Examples of concise and straightforward requests without emotional undertones.",
+    "Scenarios involving edge cases like card payment disputes or specific transaction types."
+  ],
+  "overrepresented_modes": [
+    "Informal style with conversational phrases, especially in requests for assistance.",
+    "Emotional expressions of frustration or anxiety, particularly regarding card issues."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that incorporate more formal language and varied sentence structures.",
+    "Include scenarios that explore less common issues or edge cases related to card usage.",
+    "Diversify emotional expressions and reduce reliance on common phrases to enhance uniqueness."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

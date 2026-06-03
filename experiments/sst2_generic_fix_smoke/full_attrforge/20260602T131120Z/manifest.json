@@ -1,0 +1,120 @@
+{
+  "run_dir": "E:\\Projects\\PromptForge\\experiments\\sst2_generic_fix_smoke\\full_attrforge\\20260602T131120Z",
+  "n_iterations": 2,
+  "final_prompt_version": 1,
+  "metric_history": [
+    {
+      "iteration": 0.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.5833333333333334,
+      "synthetic_detection_rate": 0.5,
+      "near_duplicate_rate": 0.25,
+      "combination_coverage": 0.8333333333333334,
+      "entropy/intent": 1.0,
+      "entropy/difficulty": 0.946394630357186,
+      "entropy/polarity_intensity": 0.946394630357186,
+      "entropy/style": 0.8207140722512382,
+      "entropy/noise": 0.7028195311147832,
+      "entropy/scenario_type": 0.7006980271295309,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 0.8,
+      "coverage/noise": 0.75,
+      "coverage/scenario_type": 0.6666666666666666,
+      "pack_accuracy": 0.6666666666666666,
+      "pack_confidence": 0.8666666666666667,
+      "mode_seeking_ratio": 0.2524607988932626,
+      "text_distance_mean": 0.9620415931871682,
+      "banned_phrasings_total": 2.0,
+      "banned_phrasings_new": 2.0,
+      "coverage_classifier_auroc": 1.0
+    },
+    {
+      "iteration": 1.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.16666666666666666,
+      "synthetic_detection_rate": 0.0,
+      "near_duplicate_rate": 0.25,
+      "combination_coverage": 0.6666666666666666,
+      "entropy/intent": 0.954434002924965,
+      "entropy/difficulty": 0.6021808102656678,
+      "entropy/polarity_intensity": 0.9850568223215079,
+      "entropy/style": 0.7536839766284379,
+      "entropy/noise": 0.9528195311147832,
+      "entropy/scenario_type": 0.7006980271295309,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 0.6666666666666666,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 0.8,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 0.6666666666666666,
+      "pack_accuracy": 0.6666666666666666,
+      "pack_confidence": 0.875,
+      "mode_seeking_ratio": 0.2411233997223731,
+      "text_distance_mean": 0.9408280714743427,
+      "banned_phrasings_total": 2.0,
+      "banned_phrasings_new": 0.0,
+      "coverage_classifier_auroc": 1.0
+    }
+  ],
+  "prompt_history": [
+    {
+      "version": 0,
+      "iteration": 0,
+      "prompt": "Generate realistic short movie review sentences that match the requested\nsentiment polarity (positive or negative). Reviews should sound like\nnatural film criticism: short, opinionated, using a mix of explicit\nsentiment words and comparative judgments. Match the requested style,\nintensity, and scenario type. Output a JSON object with the sample id,\nthe text, and the attribute values.\n",
+      "motivation": "initial prompt",
+      "feedback_summary": {},
+      "timestamp": "2026-06-02T13:11:20.929409+00:00"
+    },
+    {
+      "version": 1,
+      "iteration": 1,
+      "prompt": " \nGenerate realistic short movie review sentences that match the requested sentiment polarity (positive or negative) and intensity (mild, moderate, strong). Reviews should reflect natural film criticism: concise, opinionated, and using a blend of explicit sentiment words, comparative judgments, and occasional irrelevant asides for authenticity. Incorporate a variety of styles, including formal, poetic, and analytical, while avoiding sarcasm and overly informal language. Ensure diverse scenario types, focusing on aspects like acting quality, emotional impact, and visual elements. \n\nOutput a JSON object with the sample id, the text, and the attribute values.\n\n**Forbidden phrasings:** \n- 'Oh sure,'\n- \"who doesn't love\"\n\n**Preferred phrasings:** \n- a stirring, funny\n- and intermittently hilarious\n- dudsville\n- smartly\n- various sources\n",
+      "motivation": "The batch exhibits a good variety of intents, difficulties, and polarity intensities, but lacks diversity in style and scenario types. There are also some issues with noise types and near-duplicate phrasings.",
+      "feedback_summary": {
+        "iteration": 0,
+        "n_attribute_failures": 8,
+        "n_realism_artifacts": 10,
+        "near_duplicate_rate": 0.25,
+        "pack_accuracy": 0.6666666666666666,
+        "mode_seeking_ratio": 0.2524607988932626,
+        "n_banned_phrasings": 2,
+        "missing_modes": [
+          "poetic"
+        ],
+        "overrepresented_modes": [
+          "sarcastic",
+          "informal"
+        ],
+        "metrics": {
+          "attribute_match_rate": 0.0,
+          "discriminator_accuracy": 0.5833333333333334,
+          "synthetic_detection_rate": 0.5,
+          "near_duplicate_rate": 0.25,
+          "combination_coverage": 0.8333333333333334,
+          "entropy/intent": 1.0,
+          "entropy/difficulty": 0.946394630357186,
+          "entropy/polarity_intensity": 0.946394630357186,
+          "entropy/style": 0.8207140722512382,
+          "entropy/noise": 0.7028195311147832,
+          "entropy/scenario_type": 0.7006980271295309,
+          "coverage/intent": 1.0,
+          "coverage/difficulty": 1.0,
+          "coverage/polarity_intensity": 1.0,
+          "coverage/style": 0.8,
+          "coverage/noise": 0.75,
+          "coverage/scenario_type": 0.6666666666666666,
+          "pack_accuracy": 0.6666666666666666,
+          "pack_confidence": 0.8666666666666667,
+          "mode_seeking_ratio": 0.2524607988932626,
+          "text_distance_mean": 0.9620415931871682,
+          "banned_phrasings_total": 2.0,
+          "banned_phrasings_new": 2.0,
+          "coverage_classifier_auroc": 1.0
+        }
+      },
+      "timestamp": "2026-06-02T13:12:41.818044+00:00"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "The batch demonstrates a good coverage of the attribute schema with no missing modes. However, there are some instances of high ambiguity and typos that could be addressed for improved clarity and quality.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more diverse scenarios, especially focusing on edge cases and rare instances.",
+    "Implement stricter quality checks to reduce typos and improve clarity in the generated text."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

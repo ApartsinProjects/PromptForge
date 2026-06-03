@@ -1,0 +1,24 @@
+{"sample_id":"target_00007","prediction":"real","confidence":0.9,"reason":"The phrase 'watching paint dry' is a common idiom that adds a relatable touch, indicating a personal experience."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.85,"reason":"The critique is straightforward and reflects a personal opinion, lacking overly polished language."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.8,"reason":"The language is overly formal and lacks the nuance of personal experience, sounding more like a constructed critique."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.7,"reason":"The single word lacks context and depth, typical of LLM-generated samples."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.75,"reason":"The phrase is generic and lacks specificity, suggesting a lack of real-world engagement."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.7,"reason":"The phrase is vague and lacks a clear opinion or context, typical of LLM outputs."}
+{"sample_id":"R030","prediction":"synthetic","confidence":0.8,"reason":"The structure is overly complex and polished, lacking the spontaneity of real reviews."}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.75,"reason":"The phrasing is overly dramatic and lacks a personal touch, indicating a synthetic origin."}
+{"sample_id":"R043","prediction":"synthetic","confidence":0.7,"reason":"The sentence is generic and lacks specific details, typical of LLM-generated text."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.9,"reason":"The casual tone and personal reflection on a missed snack add authenticity."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.75,"reason":"The metaphor is overly elaborate and lacks the authenticity of personal experience."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.8,"reason":"The phrase is generic and lacks depth, typical of LLM-generated content."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.85,"reason":"The phrase is vague and lacks context, suggesting a lack of real-world engagement."}
+{"sample_id":"R012","prediction":"synthetic","confidence":0.8,"reason":"The language is overly formal and lacks personal touch, indicating a synthetic origin."}
+{"sample_id":"R006","prediction":"synthetic","confidence":0.75,"reason":"The phrase is generic and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"The phrase is vague and lacks a clear opinion or context, typical of LLM outputs."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.8,"reason":"The phrasing is overly dramatic and lacks a personal touch, indicating a synthetic origin."}
+{"sample_id":"R040","prediction":"synthetic","confidence":0.75,"reason":"The phrase is generic and lacks depth, typical of LLM-generated content."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.85,"reason":"The language is overly poetic and lacks the authenticity of personal experience."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.7,"reason":"The phrase is generic and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R047","prediction":"synthetic","confidence":0.75,"reason":"The phrase is vague and lacks a clear opinion or context, typical of LLM outputs."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.8,"reason":"The language is overly formal and lacks personal touch, indicating a synthetic origin."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"The phrase is straightforward and reflects a genuine opinion about performances."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.85,"reason":"The casual tone and straightforward critique suggest a personal experience."}

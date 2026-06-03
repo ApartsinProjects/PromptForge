@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.9,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "questions with excessive detail or complexity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers and additional context in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific examples or references in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does the acronym x stand for?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some cool things about y?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how many z does a typically have?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does the acronym x stand for in the context of y?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that are factual and specific",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of direct and simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'what' and 'how' as question starters",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of pop culture references or specific events",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does the acronym",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you provide a detailed list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "which famous person is known for",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some famous companies that started in",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is the nearest",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what ... do ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what was ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with excessive detail or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers like 'typical', 'maybe', and 'famous'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for lists or detailed explanations",
+      "n_pairs_observed": 1
+    }
+  ]
+}

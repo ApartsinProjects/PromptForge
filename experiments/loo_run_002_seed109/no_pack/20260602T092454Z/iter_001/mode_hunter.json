@@ -1,0 +1,66 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I really need my money back",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing emphasizes urgency and is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I accidentally ordered two of the same item",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This structure of admitting a mistake followed by a request for help is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "upload not working. just spins.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This concise description of a technical issue is not present in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I can't believe how frustrating this has been!",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific expression of frustration is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, quick question!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal opener does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I thought I was fine.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase reflects a personal sentiment that is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "it’s so annoyng!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The misspelling of 'annoying' is a distinctive feature not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I really need my money back",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing emphasizes urgency and is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I accidentally ordered two of the same item",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This structure of admitting a mistake followed by a request for help is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "upload not working. just spins.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This concise description of a technical issue is not present in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

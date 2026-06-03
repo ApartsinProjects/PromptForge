@@ -1,0 +1,19 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema, with all modes represented. However, there are instances of high ambiguity and typos that could affect clarity.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.0,
+  "recommendations": [
+    "Ensure that the generator produces clearer phrasing to reduce ambiguity, especially in high ambiguity samples.",
+    "Incorporate a review step to correct typos before finalizing samples.",
+    "Encourage the generation of more diverse examples for high ambiguity intents to cover edge cases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

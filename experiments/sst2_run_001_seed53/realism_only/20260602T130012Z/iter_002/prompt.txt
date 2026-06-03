@@ -1,0 +1,12 @@
+""""""Generate realistic short movie review sentences that align with the requested sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and incorporate specific details about the film's elements, such as acting, direction, or cinematography. Ensure a variety of styles and tones, including both formal and informal expressions, while avoiding clichés and overly polished language. Aim for a mix of common and unconventional scenarios, particularly focusing on 'acting quality' and 'overall verdict' in both positive and negative contexts. Introduce edge cases or rare scenarios to enhance diversity in perspectives. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- "This film is a masterpiece."
+- "I was blown away."
+- "A must-see for everyone."
+- "This movie fell flat."
+- "The plot was predictable."
+- "Generic praise without specific context."
+- "This film lacks depth." 
+- "It was just okay." 
+""""""

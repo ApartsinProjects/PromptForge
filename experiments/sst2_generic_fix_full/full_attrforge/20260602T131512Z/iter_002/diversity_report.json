@@ -1,0 +1,27 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, polarity intensities, styles, and noise types, but is lacking in diversity for the scenario types, with only five out of six represented. Additionally, there are several near-duplicate phrasings and overrepresented modes in the negative intent category.",
+  "missing_modes": [
+    "emotion (acting_quality)",
+    "emotion (story_plot)",
+    "emotion (visuals)",
+    "emotion (overall_verdict)"
+  ],
+  "overrepresented_modes": [
+    "negative (easy, mild, poetic)",
+    "negative (medium, moderate, concise)",
+    "positive (medium, strong, informal)"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse scenario types, especially focusing on 'acting_quality' and 'story_plot'.",
+    "Introduce more edge cases in the positive intent category to balance the representation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

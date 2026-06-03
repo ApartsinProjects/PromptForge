@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in informal and emotional styles. Several texts also share similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Formal inquiries with a high level of ambiguity",
+    "Concise requests for assistance in card handling scenarios",
+    "Emotional expressions regarding lost or stolen cards"
+  ],
+  "overrepresented_modes": [
+    "Informal style with high ambiguity in transaction issues",
+    "Emotional expressions regarding card issues",
+    "Fragmented style in informal contexts"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more formal and concise texts, especially for high ambiguity scenarios.",
+    "Diversify emotional expressions to include a wider range of sentiments and contexts.",
+    "Introduce more complex sentence structures to reduce redundancy in phrasing."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

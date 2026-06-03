@@ -1,0 +1,24 @@
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding transactions."}
+{"sample_id":"R058","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding ATM issues."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries with a clear request for clarification."}
+{"sample_id":"R082","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding payment status."}
+{"sample_id":"R094","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries with a detailed description of the issue."}
+{"sample_id":"R077","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding lost cards."}
+{"sample_id":"R080","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries about payment issues."}
+{"sample_id":"R028","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding unexpected charges."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries about exchange rates."}
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding card status."}
+{"sample_id":"R057","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing and lack of clarity; real samples are more formal."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding transaction errors."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.6,"reason":"informal phrasing; real samples are more structured."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding card issues."}
+{"sample_id":"R053","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries about ATM issues."}
+{"sample_id":"R036","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding unrecognized payments."}
+{"sample_id":"R006","prediction":"synthetic","confidence":0.5,"reason":"casual tone and exclamation; real samples are more formal."}
+{"sample_id":"R042","prediction":"synthetic","confidence":0.6,"reason":"informal phrasing; real samples are more structured."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding ATM issues."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries with a detailed request for information."}
+{"sample_id":"R052","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding ATM issues."}
+{"sample_id":"R043","prediction":"synthetic","confidence":0.6,"reason":"casual tone and rhetorical questioning; real samples are more straightforward."}
+{"sample_id":"R054","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding ATM issues."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"matches the register of customer service inquiries regarding unexpected charges."}

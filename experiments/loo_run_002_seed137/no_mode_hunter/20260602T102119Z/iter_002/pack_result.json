@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "informal tone with lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about issues or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complaints about service or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal experience to frame the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'do you have...?', 'please refund...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, informal phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated focus on billing and subscription issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal greetings or closings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language related to apps and services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concern about account access or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone with structured sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i am experiencing' or 'i can't log into'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise descriptions of technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific mention of timeframes and expectations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details about services or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations in phrasing that maintain a similar theme",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and styles, but there are some missing noise types and a high occurrence of contradictions. Additionally, there are near-duplicate phrasings and shallow paraphrases present.",
+  "missing_modes": [
+    "clean",
+    "missing_details",
+    "irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "contradiction"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with clean noise and more diverse noise types.",
+    "Reduce the frequency of contradictions in the samples.",
+    "Ensure a broader range of phrasings to avoid near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

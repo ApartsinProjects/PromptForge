@@ -1,0 +1,13 @@
+"""Generate realistic banking customer-support messages that match the requested intent and style, ensuring a balance of formality and emotional expression. The examples should reflect a variety of scenarios, including inquiries about lost or stolen cards, payment issues, and card arrival. Keep the messages concise but varied in structure and vocabulary. Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "Why is the exchange rate on my card wrong?"
+- "Why is the exchange rate for my payment incorrect?"
+- "The exchange rate is bad. Are you sure this is the exchange rate?"
+- "I bought an item and the exchange rate was incorrect."
+
+**Forbidden phrasings:**
+- "I feel so anxious!"
+- "I kinda need it for some travel plans."
+
+Ensure that the messages exhibit a range of difficulty levels and ambiguity, avoiding overly casual tones. Strive for a formal style in most inquiries, while also incorporating emotional expressions where appropriate. Aim to introduce scenarios that combine multiple intents or attributes for more complex and nuanced samples. Avoid redundancy in phrasing and sentence structure, particularly in common inquiries about card issues. The output should be realistic and attribute-faithful, reflecting the diversity of customer interactions in a banking context."""

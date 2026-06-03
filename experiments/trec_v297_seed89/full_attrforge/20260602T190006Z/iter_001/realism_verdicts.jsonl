@@ -1,0 +1,24 @@
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.8,"reason":"Casual phrasing; real samples are more formal and structured."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"Formal and complex sentence structure; aligns with academic discourse."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.7,"reason":"Casual tone; real samples exhibit a more formal register."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.85,"reason":"Formal inquiry; consistent with academic and analytical writing."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.6,"reason":"Simple question structure; lacks the depth of real samples."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.9,"reason":"Formal and specific inquiry; matches academic style."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.8,"reason":"Formal tone and structure; aligns with academic writing."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.5,"reason":"Basic question; lacks complexity found in real samples."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.75,"reason":"Casual language; real samples are more formal and analytical."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.6,"reason":"Simple inquiry; lacks the depth of real academic discourse."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Formal and detailed inquiry; consistent with academic writing."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.8,"reason":"Formal request for information; aligns with academic style."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing; real samples are more formal and structured."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.5,"reason":"Basic question; lacks complexity found in real samples."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.6,"reason":"Casual tone; real samples exhibit a more formal register."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.85,"reason":"Formal inquiry; consistent with academic and analytical writing."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.9,"reason":"Formal request for information; aligns with academic style."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"Complex and formal inquiry; matches academic discourse."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.5,"reason":"Casual phrasing; real samples are more formal and structured."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.85,"reason":"Formal and detailed inquiry; consistent with academic writing."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.6,"reason":"Casual tone; real samples exhibit a more formal register."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"Formal and complex inquiry; aligns with academic discourse."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.5,"reason":"Casual phrasing; real samples are more formal and structured."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.8,"reason":"Formal inquiry; consistent with academic and analytical writing."}

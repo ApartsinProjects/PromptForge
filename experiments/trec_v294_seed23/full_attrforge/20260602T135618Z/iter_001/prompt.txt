@@ -1,0 +1,27 @@
+ 
+Generate realistic open-domain English questions that align with the requested TREC question-type category. Each example should be a single complete question that ends with a question mark, resembling what a user might ask in an open-domain QA system. Ensure the questions reflect a range of intents, including comparisons, factoids, and unique inquiries. Vary the difficulty from easy to hard, and incorporate diverse sentence structures and vocabulary. Avoid redundancy in phrasing and ensure clarity while maintaining an appropriate level of complexity.
+
+Output a JSON object with the following structure:
+{
+  "sample_id": "unique_identifier",
+  "text": "the generated question",
+  "attributes": {
+    "intent": "specific intent type",
+    "difficulty": "easy/medium/hard",
+    "style": "formal/informal",
+    "noise": "low/medium/high",
+    "scenario_type": "factoid/comparison/list"
+  }
+}
+
+**Preferred phrasings:** 
+- "Can you explain the significance of..."
+- "What are the implications of..."
+- "How does X compare to Y in terms of..."
+- "What unique features distinguish..."
+
+**Forbidden phrasings:** 
+- Avoid starting questions with "What is" or "What are" excessively.
+- Do not use "in terms of" in comparison scenarios.
+
+Aim for a diverse set of questions that incorporate unique or lesser-known examples within each intent category while ensuring they are structured and formal.

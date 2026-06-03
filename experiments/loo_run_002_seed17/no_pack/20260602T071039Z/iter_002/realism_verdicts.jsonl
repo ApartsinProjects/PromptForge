@@ -1,0 +1,24 @@
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Casual language, specific issue with account management, lacks over-polished grammar."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.7,"reason":"Overly emotional language and structure feels scripted, lacks specific details."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct and concise, typical user inquiry about service features."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Straightforward question about product tiers, lacks complexity."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Specific inquiry about outages, realistic context."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific issue with billing, includes order number, realistic tone."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Common issue with password reset, casual language."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Frustration over shipping delay, realistic and relatable."}
+{"sample_id":"R007","prediction":"real","confidence":0.8,"reason":"Technical issue described in detail, realistic user experience."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Technical inquiry about API, professional tone."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.6,"reason":"Casual and vague language, feels less authentic."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.65,"reason":"Exaggerated emotional response, lacks specificity."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Direct question about discounts, typical customer inquiry."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"Overly dramatic language, feels scripted."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue with checkout, realistic."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint about product condition, realistic urgency."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific request regarding MFA, realistic user scenario."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.6,"reason":"Vague complaint, lacks specific details."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong dissatisfaction expressed, realistic customer experience."}
+{"sample_id":"R020","prediction":"real","confidence":0.85,"reason":"Frustration with service, realistic tone."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Specific technical issue with app, realistic detail."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical issue with CSV import, realistic inquiry."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with email verification, realistic context."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.65,"reason":"Generic complaint about wrong item, lacks specific details."}

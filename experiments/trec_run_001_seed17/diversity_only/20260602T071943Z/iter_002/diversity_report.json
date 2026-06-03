@@ -1,0 +1,21 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of attributes, but there are some issues with missing details and potential near-duplicates. The diversity of scenarios is well-covered, yet certain styles and intents could benefit from more unique phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "human_beings intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more unique phrasing to reduce near-duplicates, especially in informal contexts.",
+    "Introduce more edge cases or rare scenarios to enhance diversity, particularly in the 'description_and_abstract_concepts' and 'numeric_values' intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

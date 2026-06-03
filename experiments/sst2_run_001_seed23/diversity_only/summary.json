@@ -1,0 +1,153 @@
+{
+  "condition": "diversity_only",
+  "label": "diversity_only",
+  "iterations": 3,
+  "samples_per_iteration": 16,
+  "total_samples": 48,
+  "wall_time_seconds": 149.0185284614563,
+  "final_prompt_version": 2,
+  "final_metrics": {
+    "iteration": 2.0,
+    "attribute_match_rate": 0.0,
+    "discriminator_accuracy": 0.5,
+    "synthetic_detection_rate": 0.5,
+    "near_duplicate_rate": 0.15,
+    "combination_coverage": 1.0,
+    "entropy/intent": 1.0,
+    "entropy/difficulty": 0.9850568223215079,
+    "entropy/polarity_intensity": 0.9497012164384108,
+    "entropy/style": 0.9822177815287606,
+    "entropy/noise": 0.9681390622295665,
+    "entropy/scenario_type": 0.7939849352773115,
+    "coverage/intent": 1.0,
+    "coverage/difficulty": 1.0,
+    "coverage/polarity_intensity": 1.0,
+    "coverage/style": 1.0,
+    "coverage/noise": 1.0,
+    "coverage/scenario_type": 0.8333333333333334,
+    "mode_seeking_ratio": 0.24018566710710865,
+    "text_distance_mean": 0.9678247378576217,
+    "coverage_classifier_auroc": 1.0
+  },
+  "per_iter_downstream": [
+    {
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "per_class_f1": {
+        "negative": 0.0,
+        "positive": 0.6666666666666666
+      },
+      "per_class_support": {
+        "negative": 4,
+        "positive": 4
+      },
+      "confusion": {
+        "negative": {
+          "negative": 0,
+          "positive": 4
+        },
+        "positive": {
+          "negative": 0,
+          "positive": 4
+        }
+      },
+      "n_train": 16,
+      "n_test": 8,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": "",
+      "iteration": 0
+    },
+    {
+      "accuracy": 0.5,
+      "macro_f1": 0.4666666666666667,
+      "per_class_f1": {
+        "negative": 0.3333333333333333,
+        "positive": 0.6
+      },
+      "per_class_support": {
+        "negative": 4,
+        "positive": 4
+      },
+      "confusion": {
+        "negative": {
+          "negative": 1,
+          "positive": 3
+        },
+        "positive": {
+          "negative": 1,
+          "positive": 3
+        }
+      },
+      "n_train": 16,
+      "n_test": 8,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": "",
+      "iteration": 1
+    },
+    {
+      "accuracy": 0.375,
+      "macro_f1": 0.3650793650793651,
+      "per_class_f1": {
+        "negative": 0.4444444444444445,
+        "positive": 0.28571428571428575
+      },
+      "per_class_support": {
+        "negative": 4,
+        "positive": 4
+      },
+      "confusion": {
+        "negative": {
+          "negative": 2,
+          "positive": 2
+        },
+        "positive": {
+          "negative": 3,
+          "positive": 1
+        }
+      },
+      "n_train": 16,
+      "n_test": 8,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": "",
+      "iteration": 2
+    }
+  ],
+  "final_downstream": {
+    "accuracy": 0.375,
+    "macro_f1": 0.2727272727272727,
+    "per_class_f1": {
+      "negative": 0.0,
+      "positive": 0.5454545454545454
+    },
+    "per_class_support": {
+      "negative": 4,
+      "positive": 4
+    },
+    "confusion": {
+      "negative": {
+        "negative": 0,
+        "positive": 4
+      },
+      "positive": {
+        "negative": 1,
+        "positive": 3
+      }
+    },
+    "n_train": 48,
+    "n_test": 8,
+    "label_set": [
+      "negative",
+      "positive"
+    ],
+    "notes": ""
+  }
+}

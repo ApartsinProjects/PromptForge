@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of vivid imagery and metaphorical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative critiques with specific references to emotional impact",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of strong adjectives and adverbs",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'wow' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated comparisons (e.g., 'like watching paint dry')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disjointed or negative assessments of the film",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "rhythmic and playful language (e.g., 'colors dance like whispers')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of coherent structure in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "overly casual tone in critiques",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague descriptors like 'very good (but not great)'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of negative or critical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on character and storyline",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of phrases like 'funny in a sick, twisted sort of way'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of adjectives that convey a sense of disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film attempts to evoke emotion but ultimately falls flat",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this film is a disjointed mess",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the colors dance like whispers on a canvas",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the plot feels like a meandering stroll",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this movie moves at a nice clip",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of metaphorical language (e.g., 'woven with threads of joy and despair')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational tone with rhetorical questions (e.g., 'who doesn't love a good 3-hour story about nothing?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "descriptive phrases that emphasize emotional responses (e.g., 'genuinely captivating', 'dances in your heart')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures (e.g., 'the visuals just dont do the story any justice, they feel flat and uninspired.')",
+      "n_pairs_observed": 1
+    }
+  ]
+}

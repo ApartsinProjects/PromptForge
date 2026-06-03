@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and polarity intensities, but lacks diversity in style and scenario types. There are also some issues with noise types and near-duplicate phrasings.",
+  "missing_modes": [
+    "poetic"
+  ],
+  "overrepresented_modes": [
+    "sarcastic",
+    "informal"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more poetic styles to enhance diversity.",
+    "Introduce more scenario types, particularly 'acting_quality', 'emotion', and 'visuals' to balance the representation.",
+    "Reduce the use of sarcastic and informal styles to avoid overrepresentation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 0.75,
+    "scenario_type": 0.6666666666666666
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6418812524432187
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.640465057293212
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6383202801036576
+    },
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.6374075989017375
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

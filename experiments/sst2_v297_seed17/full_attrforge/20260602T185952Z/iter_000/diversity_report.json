@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a range of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly among negative reviews. Many samples utilize similar constructions, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "A positive review that highlights pacing in a unique or unexpected way.",
+    "A negative review that employs a more complex emotional critique rather than straightforward disappointment.",
+    "An informal style that conveys a strong positive sentiment."
+  ],
+  "overrepresented_modes": [
+    "Negative reviews that use phrases like 'fails to impress' or 'lack of depth'.",
+    "Concise style across both positive and negative intents, leading to a similar tone.",
+    "Sarcastic style that often conveys negativity in a predictable manner."
+  ],
+  "near_duplicate_rate": 0.35,
+  "recommendations": [
+    "Encourage more varied sentence structures and vocabulary in the generator to avoid repetitive phrasing.",
+    "Introduce prompts that specifically ask for unique perspectives or unexpected critiques.",
+    "Incorporate a wider range of emotional expressions, especially in negative reviews."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

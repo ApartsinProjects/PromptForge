@@ -1,0 +1,163 @@
+[
+  {
+    "condition": "full_attrforge",
+    "label": "full_attrforge",
+    "iterations": 3,
+    "samples_per_iteration": 16,
+    "total_samples": 48,
+    "wall_time_seconds": 292.7385787963867,
+    "final_prompt_version": 2,
+    "final_metrics": {
+      "iteration": 2.0,
+      "attribute_match_rate": 0.125,
+      "discriminator_accuracy": 0.5625,
+      "synthetic_detection_rate": 0.5625,
+      "near_duplicate_rate": 0.25,
+      "combination_coverage": 1.0,
+      "entropy/intent": 1.0,
+      "entropy/difficulty": 0.9850568223215079,
+      "entropy/polarity_intensity": 0.9497012164384108,
+      "entropy/style": 0.9822177815287606,
+      "entropy/noise": 0.9681390622295665,
+      "entropy/scenario_type": 0.7939849352773115,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 0.8333333333333334,
+      "pack_accuracy": 0.5,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.23951355362620774,
+      "text_distance_mean": 0.9646633917344267,
+      "banned_phrasings_total": 0.0,
+      "banned_phrasings_new": 0.0,
+      "coverage_classifier_auroc": 0.5
+    },
+    "per_iter_downstream": [
+      {
+        "accuracy": 0.5166666666666667,
+        "macro_f1": 0.3693367162015223,
+        "per_class_f1": {
+          "negative": 0.06451612903225806,
+          "positive": 0.6741573033707865
+        },
+        "per_class_support": {
+          "negative": 30,
+          "positive": 30
+        },
+        "confusion": {
+          "negative": {
+            "negative": 1,
+            "positive": 29
+          },
+          "positive": {
+            "negative": 0,
+            "positive": 30
+          }
+        },
+        "n_train": 16,
+        "n_test": 60,
+        "label_set": [
+          "negative",
+          "positive"
+        ],
+        "notes": "",
+        "iteration": 0
+      },
+      {
+        "accuracy": 0.55,
+        "macro_f1": 0.4998456313677061,
+        "per_class_f1": {
+          "negative": 0.34146341463414637,
+          "positive": 0.6582278481012658
+        },
+        "per_class_support": {
+          "negative": 30,
+          "positive": 30
+        },
+        "confusion": {
+          "negative": {
+            "negative": 7,
+            "positive": 23
+          },
+          "positive": {
+            "negative": 4,
+            "positive": 26
+          }
+        },
+        "n_train": 16,
+        "n_test": 60,
+        "label_set": [
+          "negative",
+          "positive"
+        ],
+        "notes": "",
+        "iteration": 1
+      },
+      {
+        "accuracy": 0.5,
+        "macro_f1": 0.4994438264738599,
+        "per_class_f1": {
+          "negative": 0.5161290322580646,
+          "positive": 0.4827586206896552
+        },
+        "per_class_support": {
+          "negative": 30,
+          "positive": 30
+        },
+        "confusion": {
+          "negative": {
+            "negative": 16,
+            "positive": 14
+          },
+          "positive": {
+            "negative": 16,
+            "positive": 14
+          }
+        },
+        "n_train": 16,
+        "n_test": 60,
+        "label_set": [
+          "negative",
+          "positive"
+        ],
+        "notes": "",
+        "iteration": 2
+      }
+    ],
+    "final_downstream": {
+      "accuracy": 0.55,
+      "macro_f1": 0.5278344505974935,
+      "per_class_f1": {
+        "negative": 0.42553191489361697,
+        "positive": 0.6301369863013698
+      },
+      "per_class_support": {
+        "negative": 30,
+        "positive": 30
+      },
+      "confusion": {
+        "negative": {
+          "negative": 10,
+          "positive": 20
+        },
+        "positive": {
+          "negative": 7,
+          "positive": 23
+        }
+      },
+      "n_train": 48,
+      "n_test": 60,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "condition": "real_only",
+    "error": "unknown baseline: 'real_only'; choices: ['attribute_only', 'diversity_only', 'few_shot', 'full_attrforge', 'full_attrforge_3judge', 'full_attrforge_vs', 'full_classic', 'naive', 'no_coverage_hole', 'no_mode_hunter', 'no_mode_seeking', 'no_pack', 'realism_only', 'self_critique']"
+  }
+]

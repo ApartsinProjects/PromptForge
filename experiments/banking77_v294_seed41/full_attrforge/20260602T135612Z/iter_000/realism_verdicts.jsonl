@@ -1,0 +1,24 @@
+{"sample_id":"R080","prediction":"real","confidence":0.9,"reason":"Formal inquiry about payment status; matches the register of real samples."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Formal inquiry regarding unrecognized charges; aligns with the register of real samples."}
+{"sample_id":"R081","prediction":"real","confidence":0.9,"reason":"Formal inquiry about pending payment; consistent with the register of real samples."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.8,"reason":"Casual tone and phrasing; real samples are more formal."}
+{"sample_id":"R047","prediction":"real","confidence":0.9,"reason":"Formal complaint about exchange rate error; matches the register of real samples."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.8,"reason":"Casual language and uncertainty; real samples are more formal."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Formal inquiry about card issues; aligns with the register of real samples."}
+{"sample_id":"R065","prediction":"real","confidence":0.9,"reason":"Formal complaint about payment acceptance; matches the register of real samples."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Formal inquiry about broken card; consistent with the register of real samples."}
+{"sample_id":"R086","prediction":"real","confidence":0.9,"reason":"Formal inquiry about pending payment; aligns with the register of real samples."}
+{"sample_id":"R085","prediction":"real","confidence":0.9,"reason":"Formal inquiry about pending transaction; matches the register of real samples."}
+{"sample_id":"R030","prediction":"real","confidence":0.9,"reason":"Formal complaint about unauthorized charge; aligns with the register of real samples."}
+{"sample_id":"R059","prediction":"real","confidence":0.9,"reason":"Formal complaint about ATM issue; matches the register of real samples."}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"Formal complaint about exchange rate; aligns with the register of real samples."}
+{"sample_id":"R072","prediction":"real","confidence":0.9,"reason":"Formal inquiry about lost card; matches the register of real samples."}
+{"sample_id":"R051","prediction":"real","confidence":0.9,"reason":"Formal complaint about ATM issue; aligns with the register of real samples."}
+{"sample_id":"R057","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing and lack of formality; real samples are more formal."}
+{"sample_id":"R089","prediction":"real","confidence":0.9,"reason":"Formal inquiry about payment availability; matches the register of real samples."}
+{"sample_id":"R038","prediction":"real","confidence":0.9,"reason":"Formal inquiry about unauthorized purchase; aligns with the register of real samples."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Formal inquiry about card functionality; matches the register of real samples."}
+{"sample_id":"R090","prediction":"real","confidence":0.9,"reason":"Formal inquiry about top-up failure; aligns with the register of real samples."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.7,"reason":"Casual tone and phrasing; real samples are more formal."}
+{"sample_id":"R058","prediction":"real","confidence":0.9,"reason":"Formal inquiry about retrieving card from ATM; matches the register of real samples."}
+{"sample_id":"R091","prediction":"real","confidence":0.9,"reason":"Formal inquiry about top-up issues; aligns with the register of real samples."}

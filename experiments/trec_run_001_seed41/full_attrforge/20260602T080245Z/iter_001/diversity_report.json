@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are issues with missing details and overrepresented styles. The near-duplicate rate indicates some redundancy in phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse styles, particularly formal and concise, to balance the representation.",
+    "Introduce more edge cases in difficulty levels, especially for easy and hard categories.",
+    "Ensure that all scenarios include sufficient detail to avoid missing information."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

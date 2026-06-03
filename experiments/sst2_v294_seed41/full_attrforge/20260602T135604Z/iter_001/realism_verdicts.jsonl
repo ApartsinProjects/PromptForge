@@ -1,0 +1,16 @@
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.9,"reason":"casual viewer voice; real samples are more formal and critical."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.85,"reason":"casual emotional expression; real samples are more analytical."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.8,"reason":"casual phrasing; real samples exhibit more critical depth."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"formal critique with vivid imagery; aligns with identified distribution."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.9,"reason":"casual and hyperbolic language; real samples are more restrained."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.8,"reason":"blunt and casual critique; real samples are more nuanced."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.85,"reason":"formal and descriptive language; fits the critical style."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.9,"reason":"sarcastic tone; real samples maintain a more serious critique."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.8,"reason":"formal critique with a balanced view; aligns with identified distribution."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.85,"reason":"strong critical language; fits the formal review style."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.9,"reason":"casual and enthusiastic tone; real samples are more critical."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"formal and poetic language; aligns with identified distribution."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.85,"reason":"sarcastic and casual tone; real samples are more serious."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.9,"reason":"formal praise; fits the critical and analytical style."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.8,"reason":"balanced critique; aligns with identified distribution."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.85,"reason":"casual language; real samples are more formal and critical."}

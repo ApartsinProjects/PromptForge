@@ -1,0 +1,24 @@
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.9,"reason":"casual inquiry; real samples are more formal and structured."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.8,"reason":"informal comparison; real samples are more formal and detailed."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.85,"reason":"simple factual question; real samples are more complex and analytical."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.8,"reason":"basic inquiry; real samples exhibit a more formal tone."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"formal and detailed request for information; aligns with real samples."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.9,"reason":"complex comparative analysis; matches the formal register of real samples."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.85,"reason":"formal comparison of theories; consistent with real samples."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.8,"reason":"simple list request; real samples are more formal and analytical."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.75,"reason":"informal inquiry; real samples are more structured and formal."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.85,"reason":"formal request for geographical insight; aligns with real samples."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.8,"reason":"simple factual question; real samples are more complex."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.75,"reason":"basic inquiry; real samples are more formal and detailed."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"complex philosophical inquiry; matches the formal register of real samples."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.85,"reason":"casual explanation request; real samples are more formal."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.8,"reason":"informal request for examples; real samples are more structured."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.9,"reason":"casual inquiry; real samples are more formal and detailed."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.85,"reason":"informal comparison; real samples are more formal."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.75,"reason":"basic inquiry; real samples are more complex and formal."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.85,"reason":"formal request for lesser-known information; aligns with real samples."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.8,"reason":"simple factual question; real samples are more complex."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.9,"reason":"casual inquiry; real samples are more formal and structured."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.85,"reason":"formal request for geographic characteristics; aligns with real samples."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"formal elaboration request; matches the formal register of real samples."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.9,"reason":"formal inquiry into emotional intelligence; aligns with real samples."}

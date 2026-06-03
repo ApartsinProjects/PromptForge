@@ -1,0 +1,18 @@
+{
+  "new_findings": [
+    {
+      "pattern": "In terms of",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase is used to set a context for comparisons or discussions in several synthetic samples.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "In terms of",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase is used to set a context for comparisons or discussions in several synthetic samples.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

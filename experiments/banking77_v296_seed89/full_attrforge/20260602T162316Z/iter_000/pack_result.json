@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i topped up but...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of simple vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dear customer support, i would like to report",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i wanted to reach out because",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would like to inquire about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone and polite requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hi there!' or 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language indicating urgency or distress",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "but it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't understand why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was really excited to use my new card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this is so",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite inquiries and requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in asking for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on the theme of card issues and transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' and 'hey there!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or uncertainty about the situation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamation marks to convey emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity in scenarios is commendable, yet certain styles and intents could benefit from more varied expressions.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "edge_case"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more formal and verbose styles to balance the informal tone present in many samples.",
+    "Introduce more edge cases and rare scenarios to enhance the diversity of the dataset.",
+    "Ensure that each intent has a wider range of emotional expressions to avoid redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

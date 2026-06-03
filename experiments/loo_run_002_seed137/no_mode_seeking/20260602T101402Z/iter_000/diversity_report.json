@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some near-duplicate phrasings and a few missing combinations of attributes. The diversity could be improved by incorporating more edge cases and varying the phrasing styles.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "typos",
+    "fragmented",
+    "informal"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Include more edge cases and rare scenarios to enhance diversity.",
+    "Vary the use of styles to avoid overrepresentation of informal and fragmented styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

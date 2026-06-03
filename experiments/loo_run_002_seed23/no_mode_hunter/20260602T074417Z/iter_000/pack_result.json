@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with casual openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific features or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am encountering an issue with my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't remember my password",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am very disappointed with the service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think my email might be different now",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed explanations or background information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or references to friends",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive punctuation for emphasis (e.g., ???, !!!)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am having some issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you assist me with this matter?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just want to know if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please assist me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i mean, are all my orders canceled or just some?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite opener followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed description of the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal feelings or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or concern about a service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of polite requests or greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise descriptions of problems",
+      "n_pairs_observed": 1
+    }
+  ]
+}

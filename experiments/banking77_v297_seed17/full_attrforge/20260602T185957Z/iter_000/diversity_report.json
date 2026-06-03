@@ -1,0 +1,27 @@
+{
+  "summary": "The batch demonstrates a high level of attribute coverage but suffers from significant nuance-level redundancy, particularly in phrasing and sentence structure. Many texts exhibit similar constructions and surface patterns, leading to a lack of true diversity in expression.",
+  "missing_modes": [
+    "More formal inquiries regarding card issues with detailed explanations.",
+    "Casual or humorous expressions related to card problems.",
+    "Scenarios involving multiple issues at once, such as lost cards and payment failures."
+  ],
+  "overrepresented_modes": [
+    "Concise inquiries that follow a similar question structure.",
+    "Verbose explanations that often repeat phrases like 'I just wanted to check in' or 'Can you help me with this?'",
+    "Fragmented styles that often use short, abrupt sentences."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary to reduce redundancy.",
+    "Include prompts for more complex scenarios that combine multiple intents or issues.",
+    "Incorporate a wider range of emotional tones and styles, such as humor or frustration, to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

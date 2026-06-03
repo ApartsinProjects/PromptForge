@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of personal anecdotes or emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in opening phrases (e.g., 'i've reached out', 'i've been feeling')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational tone with phrases like 'you know?' and 'just curious'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on transactional interactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal complaint structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy explanations with emotional appeals",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal pronouns and direct address",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on the theme of dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases about reaching out multiple times",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and feelings of not being heard",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on the principle of good service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for resolution rather than excuses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and informal phrasing (e.g., 'hey', 'so', 'you know?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and requests for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of starting with a greeting or casual opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with formal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or additional information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'u', 'somin')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account status or access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration with customer service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'hey' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "express dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration with service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'can you help' or similar phrasing",
+      "n_pairs_observed": 1
+    }
+  ]
+}

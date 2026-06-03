@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are instances of missing details and typos that affect clarity. Additionally, some intents are represented multiple times with similar phrasing, indicating a need for more diverse examples.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "locations intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse examples for the 'locations' intent to avoid overrepresentation.",
+    "Incorporate prompts that specifically request unique phrasing to reduce near-duplicate instances.",
+    "Ensure that generated samples are free from typos and missing details to enhance overall quality."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

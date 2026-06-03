@@ -1,0 +1,24 @@
+{"sample_id":"R049","prediction":"synthetic","confidence":0.9,"reason":"Overly polished and vague; lacks specific detail."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Casual, informal language; feels authentic."}
+{"sample_id":"R035","prediction":"synthetic","confidence":0.85,"reason":"Predictable structure and overly polished phrasing."}
+{"sample_id":"R028","prediction":"real","confidence":0.7,"reason":"Simple and direct; feels genuine."}
+{"sample_id":"R040","prediction":"synthetic","confidence":0.9,"reason":"Generic vocabulary and lacks real-world noise."}
+{"sample_id":"R037","prediction":"real","confidence":0.6,"reason":"Very brief but authentic; lacks polish."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.95,"reason":"Overly poetic and lacks specificity; feels artificial."}
+{"sample_id":"R022","prediction":"real","confidence":0.75,"reason":"Concise and relatable; feels like a genuine opinion."}
+{"sample_id":"R039","prediction":"real","confidence":0.7,"reason":"Casual tone; feels authentic."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Specific reference to a book; feels genuine."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.9,"reason":"Overly formal and lacks real-world context."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.95,"reason":"Flowery language and lacks concrete details."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.8,"reason":"Specific critique; feels authentic."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.85,"reason":"Generic phrasing; lacks depth."}
+{"sample_id":"R016","prediction":"real","confidence":0.75,"reason":"Specific critique; feels genuine."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.9,"reason":"Overly enthusiastic and lacks realism."}
+{"sample_id":"R018","prediction":"real","confidence":0.7,"reason":"Casual and relatable; feels authentic."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.95,"reason":"Overly grandiose and lacks specificity."}
+{"sample_id":"R012","prediction":"real","confidence":0.8,"reason":"Specific critique; feels genuine."}
+{"sample_id":"R031","prediction":"real","confidence":0.75,"reason":"Authentic sentiment; feels relatable."}
+{"sample_id":"R007","prediction":"real","confidence":0.7,"reason":"Casual language; feels genuine."}
+{"sample_id":"R036","prediction":"synthetic","confidence":0.85,"reason":"Overly formal and lacks real-world context."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.95,"reason":"Generic and overly positive; lacks depth."}
+{"sample_id":"R048","prediction":"synthetic","confidence":0.9,"reason":"Overly complex and lacks authenticity."}

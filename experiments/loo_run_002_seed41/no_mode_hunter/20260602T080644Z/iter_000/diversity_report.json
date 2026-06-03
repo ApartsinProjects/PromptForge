@@ -1,0 +1,26 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a high level of diversity across most attributes, but there are some missing modes and potential near-duplicates that could be addressed for improved variety.",
+  "missing_modes": [
+    "refund_request (edge_case)",
+    "complaint (rare)",
+    "general_question (rare)"
+  ],
+  "overrepresented_modes": [
+    "account_issue (common)",
+    "complaint (common)"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more edge cases for all intents, particularly for refund_request and complaint.",
+    "Introduce more varied phrasing to reduce near-duplicates and shallow paraphrases.",
+    "Ensure that rare scenarios are included for all intents to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

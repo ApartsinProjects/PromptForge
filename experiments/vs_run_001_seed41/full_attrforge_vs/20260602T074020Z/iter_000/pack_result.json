@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressing frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings or openings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific issues mentioned in a clear manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries mixed with expressions of dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases about customer service delays",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "multiple issues in a single message",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't believe how",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've been trying to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this has been",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "customer service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you sort that out for me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and lack of capitalization",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise questions about billing or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific order details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'want a refund', 'need a refund')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of urgency in phrasing (e.g., 'asap', 'unacceptable')",
+      "n_pairs_observed": 1
+    }
+  ]
+}

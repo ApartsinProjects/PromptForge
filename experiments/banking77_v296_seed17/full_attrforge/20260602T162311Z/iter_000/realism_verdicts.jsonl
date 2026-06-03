@@ -1,0 +1,24 @@
+{"sample_id":"R048","prediction":"synthetic","confidence":0.8,"reason":"casual phrasing; real samples are more detailed inquiries"}
+{"sample_id":"R099","prediction":"real","confidence":0.9,"reason":"detailed inquiry with urgency; matches real samples' style"}
+{"sample_id":"R057","prediction":"synthetic","confidence":0.85,"reason":"informal language and structure; real samples are more formal"}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"formal inquiry about a fee; aligns with real samples"}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.75,"reason":"casual tone; real samples are more structured"}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"clear and direct inquiry; matches real samples' style"}
+{"sample_id":"R080","prediction":"real","confidence":0.8,"reason":"formal inquiry about payment status; aligns with real samples"}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"specific question about exchange rate; matches real samples"}
+{"sample_id":"target_00007","prediction":"real","confidence":0.9,"reason":"formal inquiry about transaction issue; aligns with real samples"}
+{"sample_id":"R075","prediction":"real","confidence":0.8,"reason":"clear question about card theft; matches real samples"}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples are more formal"}
+{"sample_id":"R086","prediction":"real","confidence":0.85,"reason":"specific inquiry about payment status; aligns with real samples"}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"formal inquiry about unexpected fee; matches real samples"}
+{"sample_id":"R059","prediction":"synthetic","confidence":0.75,"reason":"informal language; real samples are more structured"}
+{"sample_id":"R062","prediction":"real","confidence":0.85,"reason":"clear inquiry about card decline; aligns with real samples"}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"formal inquiry about payment decline; matches real samples"}
+{"sample_id":"R028","prediction":"real","confidence":0.85,"reason":"specific question about charges; aligns with real samples"}
+{"sample_id":"R030","prediction":"real","confidence":0.9,"reason":"clear inquiry about unauthorized payment; matches real samples"}
+{"sample_id":"R097","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples are more formal"}
+{"sample_id":"R065","prediction":"real","confidence":0.85,"reason":"formal inquiry about payment acceptance; aligns with real samples"}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.8,"reason":"informal language; real samples are more structured"}
+{"sample_id":"R072","prediction":"real","confidence":0.8,"reason":"clear inquiry about lost card; matches real samples"}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"formal inquiry about card delivery; aligns with real samples"}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.6,"reason":"overly verbose and casual; real samples are more concise and formal"}

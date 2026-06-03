@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, polarity intensities, styles, and noise types, but there is a notable lack of diversity in the scenario types, with only acting quality, emotion, visuals, pacing, and story plot represented. Additionally, there are several instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "overall_verdict"
+  ],
+  "overrepresented_modes": [
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique scenario types, particularly 'overall_verdict'.",
+    "Diversify the use of styles to reduce the prevalence of sarcastic tones.",
+    "Incorporate more edge cases and rare scenarios to enhance the diversity of the samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

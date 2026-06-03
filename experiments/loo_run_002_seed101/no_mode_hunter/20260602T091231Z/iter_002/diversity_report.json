@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates good coverage across most attributes, but there are some missing noise modes and a high rate of near-duplicate phrasings. The diversity of scenarios is well represented, but certain noise types need more examples.",
+  "missing_modes": [
+    "clean",
+    "irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "contradiction",
+    "typos"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of samples with clean noise to balance the types of noise present.",
+    "Reduce the frequency of contradictions and typos in the generated samples to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6433496858936975
+    },
+    {
+      "text": ", populating its hackneyed and meanspirited storyline with cardboard characters and performers who value cash above credibility .",
+      "label": "negative",
+      "p_real": 0.6387083687164997
+    },
+    {
+      "text": "looking down at your watch and",
+      "label": "negative",
+      "p_real": 0.63674391329008
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6365220000160731
+    },
+    {
+      "text": "it 's loud and boring",
+      "label": "negative",
+      "p_real": 0.6335831227551673
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

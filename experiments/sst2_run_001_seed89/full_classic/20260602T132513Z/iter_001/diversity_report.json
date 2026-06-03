@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of attributes across all categories, with no missing modes or combinations. However, there are some near-duplicate phrasings and a tendency towards certain styles and intents that could be diversified further.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "sarcastic",
+    "poetic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse styles, particularly focusing on formal and concise styles.",
+    "Introduce more edge cases in scenarios, such as unique or unconventional story plots.",
+    "Reduce the frequency of sarcastic and poetic styles to balance the overall tone of the samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

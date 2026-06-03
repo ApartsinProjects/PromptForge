@@ -1,0 +1,24 @@
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"matches the critical tone and vocabulary of professional film reviews."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.8,"reason":"casual language and informal expression; real samples are more formal."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.7,"reason":"too vague and lacks the critical depth found in real samples."}
+{"sample_id":"R039","prediction":"real","confidence":0.85,"reason":"uses positive evaluative language typical of film critiques."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"casual tone and sarcasm; real samples are more structured."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.8,"reason":"informal and simplistic critique; real samples are more nuanced."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"complex sentence structure and critical insight typical of professional reviews."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.7,"reason":"too vague and lacks the critical depth found in real samples."}
+{"sample_id":"R028","prediction":"real","confidence":0.85,"reason":"specific reference to film styles indicates a knowledgeable critique."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.75,"reason":"informal and simplistic critique; real samples are more nuanced."}
+{"sample_id":"R036","prediction":"real","confidence":0.8,"reason":"positive evaluative language typical of film critiques."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.7,"reason":"casual tone and sarcasm; real samples are more structured."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"specific and positive language typical of professional reviews."}
+{"sample_id":"R035","prediction":"real","confidence":0.9,"reason":"complex sentence structure and critical insight typical of professional reviews."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"uses evaluative language typical of film critiques."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.75,"reason":"informal and simplistic critique; real samples are more nuanced."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.7,"reason":"casual language and informal expression; real samples are more formal."}
+{"sample_id":"R002","prediction":"synthetic","confidence":0.75,"reason":"too vague and lacks the critical depth found in real samples."}
+{"sample_id":"R031","prediction":"real","confidence":0.8,"reason":"uses specific evaluative language typical of film critiques."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.75,"reason":"informal and simplistic critique; real samples are more nuanced."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"complex sentence structure and critical insight typical of professional reviews."}
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"positive evaluative language typical of film critiques."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"critical tone and specific reference to journalism style."}
+{"sample_id":"R038","prediction":"real","confidence":0.85,"reason":"positive evaluative language typical of film critiques."}

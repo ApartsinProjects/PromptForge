@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What does EKG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.683003564738126
+    },
+    {
+      "text": "What does snafu stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.683003564738126
+    },
+    {
+      "text": "What does HIV stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.683003564738126
+    },
+    {
+      "text": "What does MSG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.683003564738126
+    },
+    {
+      "text": "What is p.m. an abbreviation for , as in 5 p.m. ?",
+      "label": "abbreviation",
+      "p_real": 0.6776698487438229
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What does EKG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.7307464133741887
+    },
+    {
+      "text": "What does snafu stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.7307464133741887
+    },
+    {
+      "text": "What does HIV stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.7307464133741887
+    },
+    {
+      "text": "What does MSG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.7307464133741887
+    },
+    {
+      "text": "What does R.E.M. stand for , as in the rock group R.E.M. ?",
+      "label": "abbreviation",
+      "p_real": 0.6976872093480411
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

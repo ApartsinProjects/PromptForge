@@ -1,0 +1,19 @@
+{
+  "attribute_match_rate": 0.0,
+  "discriminator_accuracy": 0.5,
+  "synthetic_detection_rate": 0.5,
+  "near_duplicate_rate": 0.0,
+  "combination_coverage": 0.6111111111111112,
+  "entropy/intent": 0.8433532525013715,
+  "entropy/difficulty": 0.9755307720176264,
+  "entropy/ambiguity": 0.9497012164384108,
+  "entropy/style": 0.8823679532568757,
+  "entropy/noise": 0.7028195311147832,
+  "entropy/scenario_type": 0.9414280318460244,
+  "coverage/intent": 0.8333333333333334,
+  "coverage/difficulty": 1.0,
+  "coverage/ambiguity": 1.0,
+  "coverage/style": 1.0,
+  "coverage/noise": 0.75,
+  "coverage/scenario_type": 1.0
+}

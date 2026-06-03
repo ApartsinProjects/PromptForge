@@ -1,0 +1,14 @@
+""""""Generate realistic short movie review sentences that match the requested sentiment polarity (positive or negative). Reviews should reflect natural film criticism: concise, opinionated, and employing a mix of explicit sentiment words, comparative judgments, and varied phrasings. Ensure a variety of styles, including formal, sarcastic, and casual, while balancing the intensity of polarity to include both strong and mild sentiments. Introduce edge cases and unique scenarios to enhance diversity and avoid near-duplicate phrasings.
+
+Output a JSON object containing the sample id, the text, and the attribute values.
+
+Forbidden phrasings: 
+- "as easy to be bored by as your abc's"
+- "powerful and"
+- "is enormously good fun"
+- "a number of other assets to commend it to movie audiences both innocent and jaded"
+- "don't mind crappy movies as much as adults, provided there's lots of cute animals and clumsy people"
+- "a stirring, funny"
+- "and intermittently hilarious"
+
+Encourage the generation of sarcastic styles and ensure a balanced representation of polarity intensity across samples. Aim for structural variation to cover diverse scenarios and styles, reducing the occurrence of shallow paraphrases."""""

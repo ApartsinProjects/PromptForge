@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples exhibits a strong coverage across most attributes, with a notable absence of certain intent values and some potential near-duplicates in phrasing. The diversity is generally good, but there are areas for improvement in representing all modes and ensuring unique expressions.",
+  "missing_modes": [
+    "entities",
+    "human_beings"
+  ],
+  "overrepresented_modes": [
+    "description_and_abstract_concepts",
+    "locations"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples focusing on 'entities' and 'human_beings' to enhance diversity.",
+    "Review and refine the phrasing of samples to minimize near-duplicates and ensure unique expressions.",
+    "Consider adding more edge cases or rare scenarios to challenge the generator."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

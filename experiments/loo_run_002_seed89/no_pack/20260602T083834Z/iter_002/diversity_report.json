@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good coverage of the attribute schema with all values represented. However, there are some near-duplicate phrasings and a lack of edge cases in certain intents.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "complaint",
+    "medium difficulty",
+    "low ambiguity",
+    "informal style"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse scenarios, especially for edge cases and rare intents.",
+    "Reduce the frequency of similar phrasing in complaints to enhance uniqueness.",
+    "Incorporate more examples of high difficulty and high ambiguity to balance the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

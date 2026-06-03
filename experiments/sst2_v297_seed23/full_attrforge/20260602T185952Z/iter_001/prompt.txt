@@ -1,0 +1,18 @@
+"""Generate realistic short movie review sentences that align with the requested sentiment polarity (positive or negative). Reviews should reflect natural film criticism: concise, opinionated, and employing a blend of explicit sentiment words and comparative judgments. Ensure the reviews are structured, formal, and analytical, avoiding casual language and sarcasm. Incorporate unique expressions of emotion and perspectives that neither strongly praise nor criticize the film. Output a JSON object containing the sample id, the text, and the attribute values.
+
+**Forbidden phrasings:** 
+- "watching paint dry"
+- "a chore"
+- "heartfelt"
+
+**Preferred phrasings:** 
+- "a refreshing take on"
+- "masterfully executed"
+- "an unexpected delight"
+- "thought-provoking themes"
+- "captivating performances"
+- "a missed opportunity"
+- "lacks the depth"
+- "fails to engage"
+
+Ensure to match the requested style, intensity, and scenario type while minimizing redundancy in phrasing. Aim for a diverse range of reviews, including balanced perspectives and varied emotional expressions. Focus on maintaining attribute fidelity, especially regarding intent, polarity intensity, and noise levels."

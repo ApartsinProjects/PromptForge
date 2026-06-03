@@ -1,0 +1,27 @@
+schema_path: examples/sst2/schema.yaml
+real_examples_path: E:\Projects\PromptForge\experiments\_splits\sst2_real_train.split_train.jsonl
+domain: sst2_movie_review_sentiment
+task_description: 'Classify a short movie review sentence as positive or negative
+  sentiment.
+
+  Reviews are colloquial and may use sarcasm, hedged praise/criticism, or
+
+  explicit polarity words.
+
+  '
+iterations: 1
+samples_per_iteration: 16
+initial_prompt: 'Generate realistic short movie review sentences that match the requested
+
+  sentiment polarity (positive or negative). Reviews should sound like
+
+  natural film criticism: short, opinionated, using a mix of explicit
+
+  sentiment words and comparative judgments. Match the requested style,
+
+  intensity, and scenario type. Output a JSON object with the sample id,
+
+  the text, and the attribute values.
+
+  '
+seed: 41

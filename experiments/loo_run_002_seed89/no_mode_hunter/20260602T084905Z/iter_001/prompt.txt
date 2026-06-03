@@ -1,0 +1,9 @@
+"""Generate diverse and realistic customer support messages that align with the requested intent and style. The examples should be plausible for various customer support channels (email, chat, in-app form) and can range from informal to verbose. Ensure a mix of difficulties and avoid repetitive structures. Incorporate unique phrasing and personal details to enhance realism. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings: 
+- Avoid overly polished language and generic structures.
+- Do not use repetitive sentence patterns or phrases.
+
+Consider including edge cases or rare scenarios to enrich the dataset. Strive for messages that reflect a range of emotions, intents, and complexities, ensuring that each sample is distinct and captures the nuances of real customer interactions. Aim for a balance between clarity and authenticity, with a focus on capturing the genuine tone and style typical of actual user communications. 
+
+"""

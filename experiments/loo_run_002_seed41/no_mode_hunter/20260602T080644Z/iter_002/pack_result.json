@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for action or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details (e.g., '2-day shipping', 'photos attached')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'need a refund or replacement asap')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'pls', 'weird')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes (e.g., mentioning a pet) to express emotional state",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests and hedging language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing issues (e.g., 'application crashes unexpectedly')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of qualifiers (e.g., 'i hope this doesn't come off as too much')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'i was wondering' and 'i hope this doesn't come off as too much'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing issues or requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of application issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on the theme of data management and syncing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "so my app keeps crashing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i hope this doesn't come off as too much, but",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing an unusual issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please clarify",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've been wondering, could you explain",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "like, are there specific features or benefits",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you explain",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've tried to reach out",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this is just awful",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific features or benefits",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't log into my account",
+      "n_pairs_observed": 1
+    }
+  ]
+}

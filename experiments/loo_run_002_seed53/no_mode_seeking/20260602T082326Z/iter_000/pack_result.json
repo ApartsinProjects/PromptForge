@@ -1,0 +1,127 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'thx')",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of dissatisfaction or frustration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "casual conversational openers (e.g., 'hey, quick question!', 'by the way')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or humor (e.g., mentioning a cat)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions (e.g., 'i'm really upset', 'super frustrated!')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests and expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' or 'hey there!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational tone with filler phrases like 'so like' or 'i thought'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or references to unrelated topics (e.g., cat video, bank statement)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient, often starting with 'how do i' or 'can you help?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment or upset",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'hey' or 'i'm really upset'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or specific error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lack of formal greetings or closings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or additional context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and technical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal anecdotes or humor",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational openers (e.g., 'hey, so like', 'by the way')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or unrelated comments (e.g., cat video, cat is sick)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or escalation",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "new_findings": [
+    {
+      "pattern": "like a",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This simile structure appears frequently in the synthetic samples to create vivid comparisons.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "this movie was",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener is used to introduce opinions about the film in several synthetic samples.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This specific opener appears multiple times in the synthetic batch but not in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "the pacing was so thrilling",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase is repeated in different contexts in the synthetic batch and does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "like a",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This simile structure appears frequently in the synthetic samples to create vivid comparisons.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "this movie was",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener is used to introduce opinions about the film in several synthetic samples.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

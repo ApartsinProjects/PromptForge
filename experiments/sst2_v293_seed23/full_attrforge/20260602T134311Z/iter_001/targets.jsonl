@@ -1,0 +1,16 @@
+{"sample_id": "target_00017", "intent": "negative", "difficulty": "easy", "polarity_intensity": "strong", "style": "formal", "noise": "typos", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00018", "intent": "negative", "difficulty": "hard", "polarity_intensity": "moderate", "style": "formal", "noise": "missing_punctuation", "scenario_type": "acting_quality"}
+{"sample_id": "target_00019", "intent": "positive", "difficulty": "medium", "polarity_intensity": "mild", "style": "formal", "noise": "clean", "scenario_type": "pacing"}
+{"sample_id": "target_00020", "intent": "positive", "difficulty": "hard", "polarity_intensity": "mild", "style": "poetic", "noise": "missing_punctuation", "scenario_type": "story_plot"}
+{"sample_id": "target_00021", "intent": "negative", "difficulty": "easy", "polarity_intensity": "strong", "style": "concise", "noise": "typos", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00022", "intent": "negative", "difficulty": "medium", "polarity_intensity": "mild", "style": "poetic", "noise": "typos", "scenario_type": "acting_quality"}
+{"sample_id": "target_00023", "intent": "positive", "difficulty": "medium", "polarity_intensity": "strong", "style": "poetic", "noise": "typos", "scenario_type": "emotion"}
+{"sample_id": "target_00024", "intent": "positive", "difficulty": "easy", "polarity_intensity": "strong", "style": "informal", "noise": "missing_punctuation", "scenario_type": "visuals"}
+{"sample_id": "target_00025", "intent": "positive", "difficulty": "medium", "polarity_intensity": "strong", "style": "concise", "noise": "clean", "scenario_type": "pacing"}
+{"sample_id": "target_00026", "intent": "negative", "difficulty": "easy", "polarity_intensity": "strong", "style": "informal", "noise": "missing_punctuation", "scenario_type": "emotion"}
+{"sample_id": "target_00027", "intent": "positive", "difficulty": "easy", "polarity_intensity": "mild", "style": "formal", "noise": "missing_punctuation", "scenario_type": "emotion"}
+{"sample_id": "target_00028", "intent": "negative", "difficulty": "easy", "polarity_intensity": "strong", "style": "poetic", "noise": "irrelevant_aside", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00029", "intent": "positive", "difficulty": "easy", "polarity_intensity": "moderate", "style": "poetic", "noise": "clean", "scenario_type": "story_plot"}
+{"sample_id": "target_00030", "intent": "positive", "difficulty": "easy", "polarity_intensity": "strong", "style": "formal", "noise": "typos", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00031", "intent": "positive", "difficulty": "hard", "polarity_intensity": "moderate", "style": "formal", "noise": "irrelevant_aside", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00032", "intent": "positive", "difficulty": "medium", "polarity_intensity": "strong", "style": "concise", "noise": "typos", "scenario_type": "emotion"}

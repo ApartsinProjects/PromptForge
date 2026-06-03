@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples covers all intents, difficulties, ambiguities, and noise types, but the style attribute is slightly underrepresented. There are also some near-duplicate phrasings and a few missing attribute combinations.",
+  "missing_modes": [
+    "informal",
+    "fragmented"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more informal and fragmented styles to enhance diversity.",
+    "Review and refine the generator to reduce near-duplicate phrasings.",
+    "Ensure that all combinations of attributes are considered during sample generation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

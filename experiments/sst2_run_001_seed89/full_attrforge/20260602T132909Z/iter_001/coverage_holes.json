@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "is enormously good fun",
+      "label": "positive",
+      "p_real": 0.6690485482055992
+    },
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.661718107012565
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6591859919603574
+    },
+    {
+      "text": "a long shot",
+      "label": "negative",
+      "p_real": 0.6566007081878348
+    },
+    {
+      "text": "unassuming",
+      "label": "negative",
+      "p_real": 0.6538513331274344
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

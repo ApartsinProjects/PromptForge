@@ -1,0 +1,102 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I can't believe I waited so long for a response",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses disbelief about response time, which is not found in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "it’s been like a month and nobody’s getting back to me",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration about delayed responses is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I hope you can clarify",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This polite request for clarification is not present in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "my cat is literally sitting on my keyboard",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This humorous and specific personal detail is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I just want to make sur",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This incomplete phrase suggests a conversational tone not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I have to say that I am really frustrated",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing indicates a personal expression of frustration that is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I seem to have lost access to my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique structure implies uncertainty about account access, which is not reflected in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I ordered a product last week, and it still hasn't arrived",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific sentence structure and context of ordering is not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I’m the owner, how can it be taken?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about ownership and confusion does not appear in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "like, do you think you guys are gonna add any more features",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal 'like' and casual tone are not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I mean, for the price I paid, I expected it to",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This conversational structure expressing expectation based on price is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can't seem to log in to my account anymore",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about logging in is not present in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can't believe I waited so long for a response",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses disbelief about response time, which is not found in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "it’s been like a month and nobody’s getting back to me",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration about delayed responses is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I hope you can clarify",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This polite request for clarification is not present in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "my cat is literally sitting on my keyboard",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This humorous and specific personal detail is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

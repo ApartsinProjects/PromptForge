@@ -1,0 +1,123 @@
+{
+  "pack_accuracy": 0.125,
+  "confidence_mean": 0.875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "requests for updates or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and formal structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with varying details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent focus on card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple declarative sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal context or emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inquiries about charges or fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory phrases indicating urgency or distress",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about fees or unexpected charges",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'my card' as a subject",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, concise statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structure (e.g., starting with 'my card...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on payment problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding card and account problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing disbelief or frustration",
+      "n_pairs_observed": 1
+    }
+  ]
+}

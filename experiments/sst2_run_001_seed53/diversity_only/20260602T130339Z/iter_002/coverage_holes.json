@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6359185732070564
+    },
+    {
+      "text": "this unrelenting bleak insistence",
+      "label": "negative",
+      "p_real": 0.627683537424311
+    },
+    {
+      "text": "various sources",
+      "label": "positive",
+      "p_real": 0.627683537424311
+    },
+    {
+      "text": "dudsville",
+      "label": "negative",
+      "p_real": 0.627683537424311
+    },
+    {
+      "text": "oddly compelling",
+      "label": "positive",
+      "p_real": 0.627683537424311
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

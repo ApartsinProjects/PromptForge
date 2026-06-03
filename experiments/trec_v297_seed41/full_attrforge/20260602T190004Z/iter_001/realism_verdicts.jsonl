@@ -1,0 +1,24 @@
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.8,"reason":"casual inquiry; real samples are more formal and detailed."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.9,"reason":"formal philosophical inquiry; matches the identified register."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.9,"reason":"formal request for information; aligns with the academic tone of real samples."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.9,"reason":"historical inquiry; consistent with the formal register."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.9,"reason":"complex philosophical question; matches the academic style."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"historical and geographical significance inquiry; aligns with formal register."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal and detailed."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.7,"reason":"simple comparison; lacks the depth of real samples."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.9,"reason":"formal inquiry about NASA; matches the academic tone."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"detailed explanation request; aligns with formal register."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"geographical uniqueness inquiry; matches the formal style."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.9,"reason":"scientific inquiry; aligns with the academic tone."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.9,"reason":"literary inquiry; matches the formal register."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.9,"reason":"ethical theories comparison; aligns with formal academic style."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"cultural practices inquiry; matches the formal register."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; lacks depth compared to real samples."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.7,"reason":"simple factual inquiry; real samples are more complex."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"formal inquiry about countries; aligns with academic tone."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.7,"reason":"simple comparison; lacks depth of real samples."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.9,"reason":"historical and ethical inquiry; matches the formal register."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"historical inquiry; aligns with the formal style."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"vague phrasing; lacks the depth of real samples."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.7,"reason":"simple definition request; real samples are more complex."}

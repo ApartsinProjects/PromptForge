@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.86875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressions of frustration or upset",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "casual conversational openers like 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "anecdotal asides (e.g., mentioning pets or personal situations)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and humor (e.g., 'lol')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing an issue with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't seem to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey,",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really upset with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's not giving me an option",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greeting (hey, hi there)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers (like, so)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account issues or software problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or troubleshooting",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or uncertainty about functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'smth', 'wid')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or specific error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lack of greetings or pleasantries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i am' at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of dissatisfaction or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual greetings like 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or unrelated details included in requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'hey' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual language and humor (e.g., 'my cat just knocked over my coffee', 'my cat is sitting on my keyboard right now lol')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions (e.g., 'what should i do?', 'is it supposed to do that?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and conversational style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and informal greetings (e.g., 'hey!', 'so, like,')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of dissatisfaction with service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "combination of unrelated issues in a single message (e.g., login issue and personal anecdote)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'please help' or similar requests for assistance",
+      "n_pairs_observed": 1
+    }
+  ]
+}

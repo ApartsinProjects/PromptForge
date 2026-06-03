@@ -1,0 +1,103 @@
+{
+  "pack_accuracy": 0.3333333333333333,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what is the ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does ... mean ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what ... is ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific historical or cultural figures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'how'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple, direct inquiries about specific facts or statistics",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on concrete, factual information rather than abstract concepts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does [abbreviation/phrase] stand for?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what [noun] is [context]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what letter appears on the [object] in [location]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is [institution/location] located?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with complex structures and multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'in the context of' and 'in terms of' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate questions with detailed context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on significance, relevance, and impact in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'which' or 'what'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in phrasing and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague or broad topics",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of multiple elements in a single question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific topics or facts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct inquiries about practical information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    }
+  ]
+}

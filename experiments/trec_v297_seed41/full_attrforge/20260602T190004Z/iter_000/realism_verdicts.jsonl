@@ -1,0 +1,23 @@
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.8,"reason":"Casual inquiry; real samples are more formal and academic."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.9,"reason":"Casual comparison; real samples are more formal and analytical."}
+{"sample_id":"target_00015","prediction":"real","confidence":0.85,"reason":"Formal inquiry about NATO; aligns with academic style."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.8,"reason":"Casual question; real samples are more formal and specific."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Simple factual question; real samples are more complex and formal."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.8,"reason":"Philosophical inquiry; aligns with formal academic style."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.9,"reason":"Detailed historical inquiry; matches formal academic tone."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.85,"reason":"Formal inquiry about NASA; aligns with academic style."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.8,"reason":"Philosophical concept; matches formal academic tone."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.85,"reason":"Formal definition inquiry; aligns with academic style."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.9,"reason":"Casual language; real samples are more formal and academic."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.85,"reason":"Casual comparison; real samples are more formal and analytical."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.9,"reason":"Casual tone; real samples are more formal and academic."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.8,"reason":"Formal inquiry about geography; aligns with academic style."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.85,"reason":"Historical inquiry; matches formal academic tone."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.9,"reason":"Casual phrasing; real samples are more formal and specific."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.8,"reason":"Historical inquiry; aligns with formal academic style."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.75,"reason":"Simple factual question; real samples are more complex and formal."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.8,"reason":"Simple factual question; real samples are more complex and formal."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.85,"reason":"Complex ecological inquiry; aligns with formal academic style."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.9,"reason":"Casual comparison; real samples are more formal and analytical."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.85,"reason":"Simple definition; real samples are more complex and formal."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.8,"reason":"Comparative analysis; aligns with formal academic style."}

@@ -1,0 +1,24 @@
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.9,"reason":"Casual question format; real samples are more formal and detailed."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.95,"reason":"Formal inquiry with complex structure; aligns with academic discourse."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.85,"reason":"Simple factual question; lacks depth compared to real samples."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.8,"reason":"Casual comparison; real samples are more formal and detailed."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.75,"reason":"Basic question; lacks the complexity of real samples."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.8,"reason":"Simple factual question; does not match the depth of real samples."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.9,"reason":"Informal language and structure; real samples are more formal."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.85,"reason":"Casual phrasing; real samples are more formal and analytical."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.8,"reason":"Informal structure; lacks the complexity of real samples."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.9,"reason":"Formal definition request; aligns with academic inquiry."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.85,"reason":"Casual phrasing; real samples are more formal and detailed."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.9,"reason":"Vague and informal; real samples are more specific and formal."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.8,"reason":"Simple factual question; lacks depth compared to real samples."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"Formal philosophical inquiry; aligns with academic discourse."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.85,"reason":"Casual comparison; real samples are more formal and analytical."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.95,"reason":"Spelling errors and informal structure; real samples are polished."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.9,"reason":"Formal inquiry about scientists; aligns with academic discourse."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.85,"reason":"Casual phrasing; lacks the complexity of real samples."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.8,"reason":"Simple factual question; lacks depth compared to real samples."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.85,"reason":"Basic factual inquiry; does not match the depth of real samples."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.9,"reason":"Vague and informal; real samples are more specific and formal."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.95,"reason":"Formal comparison of historical figures; aligns with academic discourse."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.9,"reason":"Spelling errors and informal structure; real samples are polished."}
+{"sample_id":"target_00003","prediction":"real","confidence":0.9,"reason":"Formal inquiry into a political concept; aligns with academic discourse."}

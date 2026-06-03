@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7763906252542672
+    },
+    {
+      "text": "Why is the exchange rate for my payment incorrect?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7708424427412355
+    },
+    {
+      "text": "The exchange rate is bad. Are you sure this is the exchange rate?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7572802177731328
+    },
+    {
+      "text": "I bough an item and the exchange rate was incorrect.",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7514034593016836
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

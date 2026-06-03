@@ -1,0 +1,37 @@
+{
+  "run_dir": "E:\\Projects\\PromptForge\\experiments\\trec_run_001_seed53\\few_shot\\20260602T081025Z",
+  "n_iterations": 1,
+  "final_prompt_version": 0,
+  "metric_history": [
+    {
+      "iteration": 0.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.5,
+      "synthetic_detection_rate": 0.5,
+      "near_duplicate_rate": 0.0,
+      "combination_coverage": 0.5555555555555556,
+      "entropy/intent": 0.9218145574751188,
+      "entropy/difficulty": 0.8957541375001009,
+      "entropy/ambiguity": 0.9497012164384108,
+      "entropy/style": 0.9283832117695864,
+      "entropy/noise": 0.902518266288633,
+      "entropy/scenario_type": 0.8246987351738496,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/ambiguity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 1.0
+    }
+  ],
+  "prompt_history": [
+    {
+      "version": 0,
+      "iteration": 0,
+      "prompt": "Generate realistic open-domain English questions that match the requested\nTREC question-type category. The example should be a single complete question\nthat ends with a question mark and reads as something a user might ask in\nan open-domain QA system. Match the requested style and noise level. Output\na JSON object with the sample id, the text, and the attribute values.\n",
+      "motivation": "initial prompt",
+      "feedback_summary": {},
+      "timestamp": "2026-06-02T08:10:25.727726+00:00"
+    }
+  ]
+}

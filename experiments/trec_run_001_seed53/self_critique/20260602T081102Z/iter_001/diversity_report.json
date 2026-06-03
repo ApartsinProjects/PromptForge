@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some near-duplicate phrasings and overrepresented modes. The diversity of scenarios is well-maintained, though some attributes could benefit from more edge cases.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "concise",
+    "list"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more verbose and fragmented styles to balance the representation.",
+    "Introduce more edge cases in the scenarios, particularly for numeric values and human beings.",
+    "Vary the phrasing in the questions to reduce near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

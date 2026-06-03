@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples covers all attribute values, but there are instances of near-duplicate phrasings and some shallow paraphrases. The diversity is generally good, but certain combinations could be explored further.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "complaint intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more varied phrasings for common intents like 'complaint' and 'refund_request'.",
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Consider adding more formal and concise styles to balance the informal samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

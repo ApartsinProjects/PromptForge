@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a good range of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in the emotional and verbose styles. Additionally, there are notable gaps in the noise attribute diversity.",
+  "missing_modes": [
+    "formal and concise style combinations",
+    "informal and emotional style combinations",
+    "low ambiguity in emotional style",
+    "high ambiguity in concise style"
+  ],
+  "overrepresented_modes": [
+    "verbose style with high ambiguity",
+    "concise style with low ambiguity",
+    "fragmented style with high ambiguity"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique sentence structures and vocabulary, especially for emotional and verbose styles.",
+    "Include examples that combine different styles and noise attributes to enhance diversity.",
+    "Ensure that all combinations of difficulty and ambiguity levels are represented across various intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

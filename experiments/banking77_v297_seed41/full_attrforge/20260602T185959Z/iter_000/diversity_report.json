@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with varied intents and styles; however, there are notable patterns in phrasing and structure, particularly in emotional and informal styles. Several texts also share similar constructions, leading to a redundancy in nuance.",
+  "missing_modes": [
+    "A more formal inquiry style for transaction issues.",
+    "A concise style for emotional expressions.",
+    "A fragmented style for reporting lost or stolen cards."
+  ],
+  "overrepresented_modes": [
+    "Informal style, especially in requests for assistance.",
+    "Emotional expressions related to frustrations with payments.",
+    "Fragmented style in inquiries about pending payments."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings and sentence structures, especially for emotional and informal styles.",
+    "Introduce more scenarios that require formal inquiries to balance the informal tone.",
+    "Diversify the emotional expressions to include a wider range of sentiments beyond frustration."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

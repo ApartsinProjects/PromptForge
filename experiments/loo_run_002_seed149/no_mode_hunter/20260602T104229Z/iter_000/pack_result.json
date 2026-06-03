@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "focus on specific issues without elaboration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language and personal feelings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'i can't believe' and 'i'm really upset'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dissatisfaction with service or product",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or detailed context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with the subject followed by the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks to convey emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal pronouns like 'i' and 'my'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated focus on specific issues (e.g., app functionality, order problems)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory sentences to convey strong emotions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating a problem followed by an emotional response",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical terms related to apps and accounts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't believe",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really upset",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated expressions of disbelief or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    }
+  ]
+}

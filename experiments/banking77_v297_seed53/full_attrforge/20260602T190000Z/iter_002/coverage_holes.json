@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "My card has been stolen what do I do?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7411116150255863
+    },
+    {
+      "text": "My card payment has been declined",
+      "label": "declined_card_payment",
+      "p_real": 0.7346717812971894
+    },
+    {
+      "text": "The ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7293068838781583
+    },
+    {
+      "text": "Is my card frozen?",
+      "label": "card_not_working",
+      "p_real": 0.7289319481401995
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

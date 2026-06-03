@@ -1,0 +1,24 @@
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Natural phrasing, straightforward question about a well-known astronomical fact."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.7,"reason":"Overly simplistic and lacks specificity; the phrasing feels generic."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Casual language and a specific inquiry about newspapers, typical of real-world questions."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.6,"reason":"Generic question structure; lacks depth and specificity."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Direct and clear question about a well-known band, typical of real inquiries."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Concise and specific question about an acronym, indicative of real-world curiosity."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.5,"reason":"The phrase 'number one in the sun' feels contrived and lacks context."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.4,"reason":"Overly formal and structured; lacks the casual tone typical of real questions."}
+{"sample_id":"R017","prediction":"real","confidence":0.8,"reason":"Quirky and specific question that reflects real-world financial terminology."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Specific historical inquiry that feels authentic and grounded."}
+{"sample_id":"R042","prediction":"real","confidence":0.9,"reason":"Direct question about a historical topic, typical of real-world inquiries."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Simple and direct question about a well-known fact, indicative of real curiosity."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"Specific historical question that reflects real-world knowledge."}
+{"sample_id":"R028","prediction":"real","confidence":0.7,"reason":"Specific inquiry about a legal case, indicative of real-world context."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"Specific question about university enrollment, typical of real-world inquiries."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Specific question about a television show, indicative of real-world knowledge."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.5,"reason":"Overly formal and structured; lacks the casual tone typical of real questions."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.4,"reason":"Generic comparison question that lacks depth and specificity."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Common acronym inquiry that reflects real-world usage."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.3,"reason":"Misspelling ('animls') and overly simplistic structure suggest synthetic origin."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Specific historical inquiry about a well-known artist, indicative of real-world knowledge."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.5,"reason":"Generic question about wood types; lacks specificity and depth."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical question about a landmark legal case, indicative of real-world context."}
+{"sample_id":"R032","prediction":"real","confidence":0.8,"reason":"Simple and direct question about a hotel, typical of real inquiries."}

@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are issues with near-duplicate phrasings and a lack of diversity in certain scenarios. Additionally, some attributes, such as 'difficulty' and 'style', show a tendency towards specific combinations.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "negative intent with hard difficulty",
+    "positive intent with hard difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse combinations of difficulty levels and styles across different intents.",
+    "Introduce more edge cases or rare scenarios to enhance the overall diversity of the samples.",
+    "Reduce the use of sarcastic style in negative intents to avoid redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

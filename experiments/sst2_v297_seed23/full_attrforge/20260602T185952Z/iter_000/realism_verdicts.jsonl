@@ -1,0 +1,24 @@
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.9,"reason":"formal and poetic language; aligns with the identified distribution."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.85,"reason":"casual and dismissive tone; real samples are more formal."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.75,"reason":"lacks depth and formality; real samples are more structured."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.8,"reason":"casual language; real samples exhibit a more formal critique."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.7,"reason":"informal tone; real samples are more polished."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"formal and positive critique; matches the identified distribution."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.85,"reason":"structured and formal analysis; aligns with real samples."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.8,"reason":"casual sarcasm; real samples are more serious."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"poetic and formal language; fits the identified distribution."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.85,"reason":"formal critique with a balanced view; aligns with real samples."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.9,"reason":"formal and positive language; matches the identified distribution."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.95,"reason":"detailed and formal analysis; aligns with real samples."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.75,"reason":"lacks depth and formality; real samples are more structured."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.7,"reason":"casual and simplistic; real samples are more complex."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.85,"reason":"formal and positive critique; matches the identified distribution."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.75,"reason":"casual sarcasm; real samples are more serious."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.9,"reason":"poetic and formal language; fits the identified distribution."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.8,"reason":"casual and dismissive tone; real samples are more formal."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"formal and poetic language; aligns with the identified distribution."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.75,"reason":"casual and personal tone; real samples are more formal."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.8,"reason":"casual sarcasm; real samples are more serious."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.75,"reason":"casual and humorous tone; real samples are more formal."}

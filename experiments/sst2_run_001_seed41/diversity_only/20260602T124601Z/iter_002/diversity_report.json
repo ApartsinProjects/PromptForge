@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, polarity intensities, styles, and noise types, but is lacking in scenario types, particularly 'overall_verdict' and 'pacing'. There are also several near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "overall_verdict"
+  ],
+  "overrepresented_modes": [
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique scenario types, especially 'overall_verdict' and 'pacing'.",
+    "Reduce the reliance on sarcastic style by diversifying the tone of the generated samples.",
+    "Implement stricter checks for near-duplicate phrasings to enhance originality."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

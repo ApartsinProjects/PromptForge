@@ -1,0 +1,18 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are issues with typos and some missing details in the text excerpts. Additionally, there are instances of high ambiguity across several entries.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.0,
+  "recommendations": [
+    "Ensure to include a check for typos and missing details in the text generation process.",
+    "Encourage the generation of more diverse examples, particularly for high ambiguity scenarios."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

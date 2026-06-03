@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What does EKG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6815194301831281
+    },
+    {
+      "text": "What does snafu stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6815194301831281
+    },
+    {
+      "text": "What does HIV stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6815194301831281
+    },
+    {
+      "text": "What does MSG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6815194301831281
+    },
+    {
+      "text": "What was Michelangelo 's last name ?",
+      "label": "human_beings",
+      "p_real": 0.6753858772057227
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

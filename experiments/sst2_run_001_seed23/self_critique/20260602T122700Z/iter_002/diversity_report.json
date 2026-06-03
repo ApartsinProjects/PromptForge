@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, polarity intensities, styles, and noise types, but lacks representation for one scenario type. There are also some near-duplicate phrasings and shallow paraphrases present.",
+  "missing_modes": [
+    "overall_verdict"
+  ],
+  "overrepresented_modes": [
+    "emotion",
+    "pacing"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples focusing on the 'overall_verdict' scenario type to ensure full coverage.",
+    "Review and diversify the phrasing used in samples to reduce near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

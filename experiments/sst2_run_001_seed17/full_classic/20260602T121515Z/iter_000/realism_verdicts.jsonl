@@ -1,0 +1,24 @@
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"The text has a nuanced critique with specific references to Scorsese's style, indicating a deeper understanding of film analysis."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.8,"reason":"The language is generic and lacks specific details, making it sound formulaic and predictable."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.7,"reason":"The text is incomplete and lacks context, suggesting it may be generated."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.8,"reason":"The phrasing is overly polished and lacks specific examples, making it sound generic."}
+{"sample_id":"R050","prediction":"synthetic","confidence":0.6,"reason":"The text is incomplete and lacks context, which is a common trait in generated samples."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.7,"reason":"The phrase is vague and lacks specificity, which is typical of LLM-generated content."}
+{"sample_id":"R006","prediction":"real","confidence":0.85,"reason":"The text reflects a casual conversational tone that feels authentic and relatable."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.9,"reason":"The sarcasm is overly exaggerated and lacks depth, typical of generated reviews."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.8,"reason":"The language is generic and lacks specific details, making it sound formulaic."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.7,"reason":"The phrase is vague and lacks context, which is a common trait in generated samples."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"The text conveys a personal reaction that feels authentic and relatable."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"The critique is specific and reflects a genuine opinion about the film's quality."}
+{"sample_id":"R044","prediction":"synthetic","confidence":0.6,"reason":"The phrase is vague and lacks specificity, which is typical of LLM-generated content."}
+{"sample_id":"R039","prediction":"real","confidence":0.8,"reason":"The text has a unique perspective and a specific tone that feels authentic."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"The metaphorical language and specific imagery suggest a deeper understanding of the material."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.9,"reason":"The sarcasm is overly exaggerated and lacks depth, typical of generated reviews."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.9,"reason":"The phrasing is overly polished and lacks specific examples, making it sound generic."}
+{"sample_id":"R022","prediction":"real","confidence":0.8,"reason":"The phrase conveys a personal opinion that feels authentic and relatable."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.7,"reason":"The text is incomplete and lacks context, which is a common trait in generated samples."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"The casual tone and specific reference to audience preferences suggest authenticity."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"The phrase is vague and lacks context, which is a common trait in generated samples."}
+{"sample_id":"R030","prediction":"real","confidence":0.9,"reason":"The text presents a thoughtful critique with specific references, indicating a deeper understanding."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.8,"reason":"The language is generic and lacks specific details, making it sound formulaic."}
+{"sample_id":"R048","prediction":"real","confidence":0.85,"reason":"The text provides a nuanced perspective that feels authentic and relatable."}

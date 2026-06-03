@@ -1,0 +1,24 @@
+{"sample_id":"target_00039","prediction":"real","confidence":0.9,"reason":"Natural phrasing and specific context about a refund request."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"Overly simplistic structure and generic vocabulary."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Specific technical issue described with a casual tone."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.95,"reason":"Conversational style with personal experience and details."}
+{"sample_id":"target_00042","prediction":"real","confidence":0.9,"reason":"Informal language and relatable context about a connection issue."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"Direct and urgent complaint about a technical issue."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Clear and concise request regarding a billing issue."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Frustrated tone and direct request to speak to a manager."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Specific complaint about shipping delay with urgency."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Technical issue with a clear request for assistance."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.9,"reason":"Personal experience with confusion over account management."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.85,"reason":"Genuine inquiry about return processing time."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.6,"reason":"Generic question lacking personal context."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.65,"reason":"Vague inquiry about future options without specific context."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"Specific issue with account management and clear request."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"Detailed personal account of a login issue with confusion."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Formal inquiry lacking personal touch or urgency."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.85,"reason":"Complex request involving refund and exchange with personal context."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"Casual tone and specific complaint about app crashing."}
+{"sample_id":"R023","prediction":"real","confidence":0.8,"reason":"Frustrated customer feedback with a clear request."}
+{"sample_id":"R002","prediction":"real","confidence":0.85,"reason":"Direct complaint about a damaged item with urgency."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Specific technical issue described with a clear request for help."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.6,"reason":"Overly formal and structured inquiry lacking personal context."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.85,"reason":"Inquiry about updates with a relatable context."}

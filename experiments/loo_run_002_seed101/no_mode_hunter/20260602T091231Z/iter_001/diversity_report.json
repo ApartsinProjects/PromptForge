@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some near-duplicate phrasings and a few missing edge cases. The diversity is generally acceptable, yet certain combinations could be enhanced.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "edge_case"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse emotional styles and rare scenarios.",
+    "Introduce more edge cases for technical problems and account issues.",
+    "Reduce the frequency of emotional style to balance the overall tone."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

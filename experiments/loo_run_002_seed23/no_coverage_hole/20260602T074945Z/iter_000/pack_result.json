@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i am unable to access my account",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structure (e.g., starting with a question or a statement followed by a specific inquiry)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't log into my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't remember my password",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "express my dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i believe improvements are necessary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed explanations or emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone (e.g., 'hey, so like', 'what even?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing frustration with a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases (e.g., 'i mean', 'kinda')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dear support, i am experiencing issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you assist me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i thought my subscription was canceled",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i really need help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't seem to recall the necessary details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with a specific issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i’m trying to figure out' or 'it really means a lot to me'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions regarding the situation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of polite requests or greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on time-related frustrations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise descriptions of technical issues",
+      "n_pairs_observed": 1
+    }
+  ]
+}

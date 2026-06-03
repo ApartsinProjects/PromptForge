@@ -1,0 +1,24 @@
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"The question is straightforward and lacks overly polished language, typical of casual inquiry."}
+{"sample_id":"R032","prediction":"real","confidence":0.85,"reason":"The phrasing is natural and conversational, indicative of a real question."}
+{"sample_id":"R038","prediction":"real","confidence":0.8,"reason":"The specificity of the audience (5th and 6th graders) suggests a genuine inquiry."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"The question is overly simplistic and lacks context, typical of LLM-generated content."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.75,"reason":"The question is broad and generic, lacking the nuance of a real-world discussion."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.65,"reason":"The phrasing is too formal and lacks the specificity of a real-world event."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"The question is specific and reflects a genuine curiosity about a historical figure."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"The question is specific and reflects a real-world event, indicative of genuine inquiry."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge about a well-known band."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"The specificity of the event and person suggests a real-world context."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"The question is specific and reflects a real-world legal context."}
+{"sample_id":"R031","prediction":"real","confidence":0.9,"reason":"The nickname is specific and reflects common knowledge about a tennis player."}
+{"sample_id":"R022","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a well-known author and topic."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a significant historical event."}
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common scientific inquiry."}
+{"sample_id":"R039","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a well-known product, indicating real-world knowledge."}
+{"sample_id":"R008","prediction":"real","confidence":0.75,"reason":"The question is specific and reflects a common topic in software design."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.7,"reason":"The spelling error ('differnces') and generic nature suggest LLM generation."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a well-known historical figure."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge about geography."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.75,"reason":"The question is overly formal and lacks the specificity of real-world inquiry."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"The question is specific and reflects a real-world context regarding education."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.7,"reason":"The question is overly complex and formal, lacking the nuance of real-world inquiry."}

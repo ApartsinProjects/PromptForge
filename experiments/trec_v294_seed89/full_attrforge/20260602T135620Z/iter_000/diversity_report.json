@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a variety of intents and difficulty levels, but there is significant redundancy in phrasing and structure, particularly with fragmented styles and questions about abbreviations and locations. This leads to a lack of nuanced diversity despite label-level coverage.",
+  "missing_modes": [
+    "More formal definitions or explanations that do not rely on fragmented or informal styles.",
+    "Complex comparisons that require deeper analysis rather than surface-level observations."
+  ],
+  "overrepresented_modes": [
+    "Fragmented style questions, particularly for easy and medium difficulty levels.",
+    "Questions about abbreviations and locations that follow similar structures."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and styles, especially for definitions and comparisons.",
+    "Introduce prompts that require deeper analytical thinking or unique phrasing to reduce redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

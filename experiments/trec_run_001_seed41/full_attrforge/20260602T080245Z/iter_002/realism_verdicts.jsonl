@@ -1,0 +1,24 @@
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple, direct question with no over-polished language."}
+{"sample_id":"R045","prediction":"real","confidence":0.85,"reason":"Specific historical question, lacks generic phrasing."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Direct question about a specific topic, no signs of synthetic structure."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Concise and straightforward, typical of real queries."}
+{"sample_id":"R010","prediction":"real","confidence":0.8,"reason":"Specific question about a biological feature, lacks generic phrasing."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Generic question about GDP, lacks depth and context."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.75,"reason":"Comparative question with a predictable structure."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Specific historical reference, typical of real inquiries."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.6,"reason":"Overly detailed request for background info, feels artificial."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Specific sports history question, straightforward."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Direct inquiry about a person, lacks synthetic cues."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Simple and clear question about an abbreviation."}
+{"sample_id":"R037","prediction":"real","confidence":0.85,"reason":"Specific question about a person, typical of real queries."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Direct question about a culinary topic, lacks generic phrasing."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.65,"reason":"Casual phrasing and vague context suggest artificial generation."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Technical question about design, straightforward."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.7,"reason":"Vague and casual phrasing, lacks specificity."}
+{"sample_id":"R018","prediction":"real","confidence":0.8,"reason":"Specific reference to a product, typical of real inquiries."}
+{"sample_id":"R032","prediction":"real","confidence":0.85,"reason":"Direct question about a location, lacks synthetic cues."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.6,"reason":"Generic and broad question about AI, lacks depth."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Clear and concise question about an abbreviation."}
+{"sample_id":"R040","prediction":"real","confidence":0.85,"reason":"Specific scientific inquiry, straightforward."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.65,"reason":"Complex structure and vague comparison suggest artificial generation."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Specific historical reference, typical of real inquiries."}

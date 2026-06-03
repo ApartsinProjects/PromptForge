@@ -1,0 +1,72 @@
+{
+  "new_findings": [
+    {
+      "pattern": "what's up with",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal phrasing is used to express confusion or inquiry about a situation.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’ve been trying to",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase indicates ongoing effort and is used multiple times in the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "can I get a refund instead of",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request structure for refunds is not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "what’s the thing with",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual phrasing is used to question a specific aspect of a service or product.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I'm really frustrated!",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific emotional opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I just don't understand why",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicates confusion and is not found in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Please help!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This direct plea for assistance appears multiple times in the synthetic batch but not in the real one.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "what's up with",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal phrasing is used to express confusion or inquiry about a situation.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’ve been trying to",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase indicates ongoing effort and is used multiple times in the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "can I get a refund instead of",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request structure for refunds is not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "what’s the thing with",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual phrasing is used to question a specific aspect of a service or product.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener appears multiple times in the synthetic batch but not in the real batch.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener appears multiple times in the synthetic batch but not in the real batch.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

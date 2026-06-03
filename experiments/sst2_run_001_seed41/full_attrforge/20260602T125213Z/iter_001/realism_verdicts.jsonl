@@ -1,0 +1,24 @@
+{"sample_id":"R049","prediction":"real","confidence":0.8,"reason":"The phrase is vague but has a casual tone that feels authentic."}
+{"sample_id":"R024","prediction":"real","confidence":0.7,"reason":"The term 'dudsville' is informal and colloquial, suggesting a genuine opinion."}
+{"sample_id":"R035","prediction":"synthetic","confidence":0.9,"reason":"The structure is overly polished and lacks real-world noise."}
+{"sample_id":"R028","prediction":"real","confidence":0.6,"reason":"The phrase is ambiguous and could reflect a genuine sentiment."}
+{"sample_id":"R040","prediction":"synthetic","confidence":0.85,"reason":"The phrase is too abstract and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R037","prediction":"real","confidence":0.5,"reason":"Very minimalistic, but could be a genuine thought."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.95,"reason":"The language is overly descriptive and lacks subtlety, typical of LLMs."}
+{"sample_id":"R022","prediction":"real","confidence":0.7,"reason":"Simple and straightforward, reflecting a common opinion."}
+{"sample_id":"R039","prediction":"real","confidence":0.75,"reason":"The phrase captures a specific sentiment that feels authentic."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"The reference to a specific author and work adds authenticity."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.9,"reason":"The phrasing is too formal and lacks a personal touch."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.9,"reason":"The language is overly flowery and lacks genuine critique."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.95,"reason":"The structure is overly dramatic and lacks authenticity."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.85,"reason":"The phrasing is generic and lacks depth."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"The critique is specific and reflects a genuine opinion."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.9,"reason":"The phrasing is overly enthusiastic and lacks subtlety."}
+{"sample_id":"R018","prediction":"real","confidence":0.7,"reason":"The phrase captures a visceral reaction that feels authentic."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.95,"reason":"The language is overly grandiose and lacks specificity."}
+{"sample_id":"R012","prediction":"real","confidence":0.75,"reason":"The critique is straightforward and reflects a common sentiment."}
+{"sample_id":"R031","prediction":"real","confidence":0.7,"reason":"The phrase captures a nuanced opinion that feels genuine."}
+{"sample_id":"R007","prediction":"real","confidence":0.6,"reason":"The phrase is informal and reflects a casual opinion."}
+{"sample_id":"R036","prediction":"synthetic","confidence":0.85,"reason":"The phrasing is too specific and lacks a personal touch."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.9,"reason":"The phrase is overly simplistic and lacks depth."}
+{"sample_id":"R048","prediction":"real","confidence":0.7,"reason":"The phrase is somewhat vague but reflects a genuine sentiment."}

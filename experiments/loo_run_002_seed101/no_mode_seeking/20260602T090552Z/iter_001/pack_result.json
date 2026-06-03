@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "repeated mention of app crashing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of login issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with 'when i try to' or 'it says'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and contractions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing frustration or issues with apps",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of login issues and app functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or feelings about the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrases like 'if there’s a way to check'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i would like to' or 'i seem to be'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of account access issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions without introductory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific scenarios without additional context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal experience to describe issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    }
+  ]
+}

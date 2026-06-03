@@ -1,0 +1,21 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of all attribute values, but there are instances of near-duplicate phrasings and shallow paraphrases that could be improved for greater diversity. Additionally, some rare or edge cases are absent.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "poetic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Introduce more edge cases in scenarios to enhance diversity.",
+    "Consider varying the intensity of sarcasm and formality in the responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

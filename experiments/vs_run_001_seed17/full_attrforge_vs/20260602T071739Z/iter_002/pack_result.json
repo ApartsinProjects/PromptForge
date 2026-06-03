@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.8625,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "requests for refunds",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "expressing frustration about order issues",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific error messages",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for information or updates",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of timeframes and deadlines",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements indicating strong emotions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustrated tone with exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about issues with orders or accounts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or feelings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "charged for",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'honestly' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language indicating disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific timeframes or conditions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthier, more detailed sentences",
+      "n_pairs_observed": 1
+    }
+  ]
+}

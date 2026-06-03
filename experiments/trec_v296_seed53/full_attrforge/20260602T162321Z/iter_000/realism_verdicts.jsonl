@@ -1,0 +1,21 @@
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.9,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.85,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.8,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.95,"reason":"formal academic inquiry; matches the identified distribution."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.9,"reason":"casual comparison; real samples are more formal and academic."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.85,"reason":"casual comparison; real samples are more formal and academic."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.9,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.9,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.9,"reason":"formal inquiry about abbreviations; matches the identified distribution."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.85,"reason":"casual comparison; real samples are more formal and academic."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.9,"reason":"formal inquiry about acronyms; matches the identified distribution."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.95,"reason":"formal inquiry about historical significance; matches the identified distribution."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.85,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.9,"reason":"formal inquiry about abstract concepts; matches the identified distribution."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.95,"reason":"formal inquiry about scientific definitions; matches the identified distribution."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.85,"reason":"casual comparison; real samples are more formal and academic."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.9,"reason":"formal inquiry about abstract concepts; matches the identified distribution."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"formal inquiry about art; matches the identified distribution."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.9,"reason":"casual question; real samples are more formal and academic."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.95,"reason":"formal inquiry about definitions; matches the identified distribution."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.85,"reason":"casual comparison; real samples are more formal and academic."}

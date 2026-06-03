@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6294833344414035
+    },
+    {
+      "text": "the item arrived damaged. need a refund or replacement asap. photos attached.",
+      "label": "refund_request",
+      "p_real": 0.6244309125823287
+    },
+    {
+      "text": "When I click checkout nothing happens, just a spinner forever. I'm on Safari 17.",
+      "label": "technical_problem",
+      "p_real": 0.6237601267588088
+    },
+    {
+      "text": "Are there any planned outages this weekend? Asking for our release schedule.",
+      "label": "general_question",
+      "p_real": 0.6214475950665034
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

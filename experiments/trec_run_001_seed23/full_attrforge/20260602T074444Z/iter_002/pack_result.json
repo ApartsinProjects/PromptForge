@@ -1,0 +1,95 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "informal phrasing and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler words like 'like' and 'again'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex questions with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that seek explanations or comparisons",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific individuals or events",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific names or terms that require factual recall",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions with a focus on trivia or lesser-known facts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with complex structures and multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'like' and 'actually'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific examples or comparisons",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of academic or technical vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions often include additional context or qualifiers (e.g., 'you know', 'like', 'in terms of')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific examples or requests for elaboration (e.g., 'can you also mention their historical significance?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex questions with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'you know' and 'actually'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent inclusion of additional context or examples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of asking for definitions or explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what is' or 'approximately how many'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific names or terms followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, straightforward questions with a focus on factual information",
+      "n_pairs_observed": 1
+    }
+  ]
+}

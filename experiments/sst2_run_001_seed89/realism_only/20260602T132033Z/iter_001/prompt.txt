@@ -1,0 +1,8 @@
+"""Generate realistic short movie review sentences that match the requested sentiment polarity (positive or negative). Reviews should reflect genuine film criticism: concise, opinionated, and infused with specific details, personal anecdotes, and a variety of expressive styles, including poetic elements. Ensure a mix of explicit sentiment words and nuanced comparative judgments. Match the requested style, intensity, and scenario type while avoiding clichés and overly polished language. Aim for unique phrasings to minimize redundancy and enhance diversity across styles and sentiments. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- "absolute masterpiece"
+- "overly dramatic"
+- "formulaic structure"
+- "typical of LLM outputs"
+"""

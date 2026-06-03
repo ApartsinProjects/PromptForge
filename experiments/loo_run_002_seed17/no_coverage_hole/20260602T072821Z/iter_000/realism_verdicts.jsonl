@@ -1,0 +1,24 @@
+{"sample_id":"R000","prediction":"real","confidence":0.95,"reason":"Natural language with specific details about a transaction, informal tone."}
+{"sample_id":"R009","prediction":"real","confidence":0.9,"reason":"Casual phrasing and a specific technical issue, lacks over-polished grammar."}
+{"sample_id":"R002","prediction":"real","confidence":0.92,"reason":"Direct and informal request with urgency, typical of customer complaints."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.85,"reason":"Overly structured and lacks personal touch; feels generic."}
+{"sample_id":"R008","prediction":"real","confidence":0.93,"reason":"Specific technical issue with logs mentioned, informal tone."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.8,"reason":"Verbose and overly detailed; lacks the typical brevity of real complaints."}
+{"sample_id":"R005","prediction":"real","confidence":0.94,"reason":"Concise and direct request, typical of customer service interactions."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.75,"reason":"Generic expression of frustration without specific details."}
+{"sample_id":"R013","prediction":"real","confidence":0.91,"reason":"Specific technical request with urgency, informal language."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.7,"reason":"Vague and overly formal; lacks personal context."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.78,"reason":"Informal but contains spelling errors and lacks coherence."}
+{"sample_id":"R029","prediction":"real","confidence":0.88,"reason":"Straightforward question about a service plan, typical of customer inquiries."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.82,"reason":"Excessive emotional language and repetition, feels scripted."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.76,"reason":"Informal but lacks depth and specificity, feels generic."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Direct and specific issue with a common problem, informal tone."}
+{"sample_id":"R003","prediction":"real","confidence":0.89,"reason":"Casual language with a specific request, typical of customer feedback."}
+{"sample_id":"R010","prediction":"real","confidence":0.92,"reason":"Specific technical issue described in a straightforward manner."}
+{"sample_id":"R028","prediction":"real","confidence":0.87,"reason":"Direct question about service features, typical of customer inquiries."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.8,"reason":"Overly formal and structured; lacks the spontaneity of real complaints."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.75,"reason":"Generic phrasing and structure, lacks personal touch."}
+{"sample_id":"R022","prediction":"real","confidence":0.91,"reason":"Concise and direct complaint about a service issue, typical of customer feedback."}
+{"sample_id":"R006","prediction":"real","confidence":0.93,"reason":"Specific technical issue described in a straightforward manner."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Direct inquiry about future options, typical of customer engagement."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured; lacks the spontaneity of real complaints."}

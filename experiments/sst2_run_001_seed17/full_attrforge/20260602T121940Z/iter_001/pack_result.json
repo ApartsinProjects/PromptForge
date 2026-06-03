@@ -1,0 +1,123 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "repeated use of short, fragmented phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent use of a negative tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with abrupt endings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of informal language and slang",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple and direct language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of adjectives followed by conjunctions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of contrasting phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conjunctions to connect ideas",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the film' as a subject",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "phrases that emphasize visual elements (e.g., 'stunning visuals', 'breathtaking cinematography')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures that start with descriptive phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of superlative adjectives (e.g., 'masterpiece', 'captivating', 'profound')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on emotional impact and lasting impressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long after the credits roll",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "masterfully evokes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "cinematic masterpiece",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "stunning visuals",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "profound emotional resonance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the performances are",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of creativity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "predictable",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "subtly nuanced",
+      "n_pairs_observed": 1
+    }
+  ]
+}

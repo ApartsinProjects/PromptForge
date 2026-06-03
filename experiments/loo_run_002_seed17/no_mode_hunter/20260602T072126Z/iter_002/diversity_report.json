@@ -1,0 +1,28 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, and scenarios, but there is a notable lack of diversity in the 'style' and 'noise' attributes. Additionally, there are several near-duplicate phrasings and some overrepresented modes.",
+  "missing_modes": [
+    "formal style",
+    "verbose style",
+    "typos noise",
+    "missing_details noise",
+    "irrelevant_details noise"
+  ],
+  "overrepresented_modes": [
+    "emotional style",
+    "contradiction noise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse styles, particularly formal and verbose.",
+    "Include examples with typos and missing details to enrich the noise attribute.",
+    "Ensure a balanced representation of all noise types to avoid overrepresentation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

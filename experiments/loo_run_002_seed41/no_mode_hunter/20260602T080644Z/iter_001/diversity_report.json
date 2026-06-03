@@ -1,0 +1,21 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all modes represented. However, there are some near-duplicate phrasings and a lack of edge cases in the complaint and refund_request intents.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse phrasings to reduce near-duplicates.",
+    "Include more edge cases for the complaint and refund_request intents to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

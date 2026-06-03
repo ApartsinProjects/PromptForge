@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6377131441912295
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6363171446935948
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6362306518796492
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6328147216103313
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

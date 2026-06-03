@@ -1,0 +1,16 @@
+{"sample_id":"target_00036","prediction":"real","confidence":0.85,"reason":"The emotional expression feels genuine and personal, with a relatable metaphor."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.75,"reason":"Overly polished language and a generic critique lacking personal touch."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.8,"reason":"Authentic emotional response conveyed, with a personal touch."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Overly elaborate language and metaphorical structure feel artificial."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.9,"reason":"Direct and straightforward critique with a personal opinion."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.65,"reason":"Generic positive sentiment with polished language, lacking depth."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.8,"reason":"Sarcastic tone and exaggerated metaphor suggest artificiality."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.85,"reason":"Overly complex language and dramatic phrasing feel contrived."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.88,"reason":"Concise and straightforward critique that feels authentic."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.75,"reason":"Exaggerated humor and metaphor suggest a lack of genuine critique."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.8,"reason":"Sarcastic tone and predictable structure indicate artificiality."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.82,"reason":"Simple and heartfelt expression that feels genuine."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.85,"reason":"Personal and relatable critique with a straightforward expression."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"Direct and honest critique that feels authentic."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"Complex language and structure feel overly polished and artificial."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.7,"reason":"Generic critique with polished language lacking personal insight."}

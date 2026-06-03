@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions starting with 'what' or 'i am'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and complete sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am frustrated",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i’ve been trying",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to reach out",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can someone help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'can you help' or similar requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'you know?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues with excessive context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i' or 'what'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing an unusual situation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to change my password",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what time does customer support open?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my app crashes every time i try to open it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and filler phrases like 'you know' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that include uncertainty or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help that are overly detailed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues with applications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for starting sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems",
+      "n_pairs_observed": 1
+    }
+  ]
+}

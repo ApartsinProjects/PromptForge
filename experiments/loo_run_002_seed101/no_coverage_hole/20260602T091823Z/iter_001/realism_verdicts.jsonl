@@ -1,0 +1,24 @@
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"Natural language with a personal touch, slight uncertainty in phrasing."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.8,"reason":"Overly concise and lacks emotional nuance, typical of LLM outputs."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.85,"reason":"Conversational tone and specific issue described, feels authentic."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.75,"reason":"Direct and blunt, lacks depth and emotional context."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"Polite request with personal sentiment, feels genuine."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.7,"reason":"Generic question lacking personal context or urgency."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.8,"reason":"Straightforward issue description, lacks emotional engagement."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Detailed description of a technical issue, feels authentic."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.9,"reason":"Clear request with specific details, natural language."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.95,"reason":"Personal narrative with emotional context, feels very real."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.7,"reason":"Generic inquiry lacking personal touch or urgency."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"Casual tone with a humorous touch, feels authentic."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.75,"reason":"Straightforward question, lacks depth and emotional context."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Common issue phrased in a relatable manner, feels genuine."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"Expresses frustration and personal experience, feels authentic."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.85,"reason":"Casual tone with a specific issue, feels genuine."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Simple request with a personal touch, feels authentic."}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.8,"reason":"Direct complaint lacking emotional depth."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.9,"reason":"Expresses frustration and seeks help, feels genuine."}
+{"sample_id":"R015","prediction":"synthetic","confidence":0.75,"reason":"Straightforward issue description, lacks emotional engagement."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint lacking personal context."}
+{"sample_id":"R020","prediction":"synthetic","confidence":0.8,"reason":"Frustrated tone but lacks specific personal details."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.75,"reason":"Technical issue described in a very straightforward manner."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.8,"reason":"Frustration expressed but lacks personal context."}

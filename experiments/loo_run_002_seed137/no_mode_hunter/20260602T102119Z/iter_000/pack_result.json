@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "direct requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues with specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms (e.g., mfa)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'need a [request] asap')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific technical issues (e.g., app crashing, subscription problems)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and casual language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific problems with accounts or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance with specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'mfa' and '2fa'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific devices or software versions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "structured format with clear problem statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, factual statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific software or browser versions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'frustrated', 'so frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar phrasing in describing issues with login and app functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of informal language and abbreviations (e.g., 'pls', 'cant')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the service provider",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional appeals regarding personal experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory phrases indicating frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'pls', 'i cant')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of confusion or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    }
+  ]
+}

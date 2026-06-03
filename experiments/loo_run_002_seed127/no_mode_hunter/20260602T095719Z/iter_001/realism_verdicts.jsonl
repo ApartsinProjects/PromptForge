@@ -1,0 +1,24 @@
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Natural expression of frustration, informal tone, and specific complaint."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.85,"reason":"Conversational tone with specific details about the issue, including confusion."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.8,"reason":"Direct request for help with a common issue, informal language."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.8,"reason":"Casual language and uncertainty about the password, typical of real user queries."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Straightforward question about billing, lacks complexity."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Clear complaint about subscription issues, direct and to the point."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue described with context, realistic user experience."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Emotional expression of frustration, typical of customer complaints."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific request regarding a billing issue, clear and concise."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Frustration expressed over delayed support, realistic customer experience."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.8,"reason":"Describes a specific problem with an app, casual language."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Technical issue described with specific details, realistic."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.6,"reason":"Overly detailed and emotional, feels scripted with generic frustrations."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.8,"reason":"Informal language and specific issue, typical of real user queries."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Direct request for correction of a billing issue, clear and concise."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.65,"reason":"Overly casual and verbose, feels less authentic."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.7,"reason":"Casual language but feels slightly scripted, especially with 'what's up with that'."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Specific technical issue described, realistic user experience."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical issue with specific details, realistic."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct complaint about a product issue, clear and concise."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Specific technical issue described with context, realistic user experience."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with email verification, realistic user concern."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.5,"reason":"Generic question that lacks context or emotional depth."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.6,"reason":"Casual language but feels overly verbose and lacks authenticity."}

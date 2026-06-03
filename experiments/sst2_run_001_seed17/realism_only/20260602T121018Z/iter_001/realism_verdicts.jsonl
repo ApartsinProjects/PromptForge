@@ -1,0 +1,24 @@
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Casual tone and personal reflection suggest authenticity."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.8,"reason":"Single word response lacks depth and context."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.85,"reason":"Creative metaphor and personal opinion indicate a human touch."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.75,"reason":"Generic and vague; lacks context or elaboration."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"Fragmented phrase with no clear meaning or context."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.7,"reason":"Informal and abrupt; lacks coherent structure."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase with no specific context or detail."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.8,"reason":"Overly polished and metaphorical; lacks real-world noise."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Direct critique with a personal opinion suggests authenticity."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.75,"reason":"Formal structure and vague critique; lacks personal touch."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.7,"reason":"Generic phrasing; lacks specific context or detail."}
+{"sample_id":"R043","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and structured; lacks personal insight."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.85,"reason":"Humorous and relatable commentary suggests a human author."}
+{"sample_id":"R044","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase; lacks specific context or detail."}
+{"sample_id":"R048","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and vague; lacks personal touch."}
+{"sample_id":"R045","prediction":"synthetic","confidence":0.7,"reason":"Fragmented and lacks depth; feels generic."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.8,"reason":"Overly technical and lacks personal insight."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.7,"reason":"Single word response lacks context and depth."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase; lacks specific context or detail."}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.75,"reason":"Generic phrasing; lacks specific context or detail."}
+{"sample_id":"R004","prediction":"synthetic","confidence":0.8,"reason":"Overly elaborate and lacks genuine critique."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.7,"reason":"Vague and lacks specific context or detail."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"Personal critique with specific observations suggests authenticity."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.75,"reason":"Informal and lacks coherent structure."}

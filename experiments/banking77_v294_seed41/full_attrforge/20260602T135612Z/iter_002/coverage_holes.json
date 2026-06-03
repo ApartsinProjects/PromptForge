@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "I can't get the card itself to work.",
+      "label": "card_not_working",
+      "p_real": 0.7336096185162919
+    },
+    {
+      "text": "There's an error in regards to the exchange rate for an item I bought.",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7222286329475542
+    },
+    {
+      "text": "How can I get my card to work?",
+      "label": "card_not_working",
+      "p_real": 0.7221101245686959
+    },
+    {
+      "text": "what do I need to do if the ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7198710975895375
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

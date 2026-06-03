@@ -1,0 +1,115 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional engagement phrases like 'hits you in the feels'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of personal opinion followed by a specific observation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences to convey excitement or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of elaborate and descriptive language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of emotional descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases that convey strong opinions about films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "patterns of contrasting ideas (e.g., potential vs. disappointment)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of depth in character analysis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of negative descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of colloquial or informal phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of negative descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vocabulary that includes abstract or metaphorical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency to critique with a sarcastic tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'honestly,' and 'sure,'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of informal language and phrases like 'hits you in the feels' and 'fun watch'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on personal opinions and emotional responses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent rhythm in the flow of sentences with a mix of casual and critical tones",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "sarcastic openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional weight and absurdity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrasting visuals with substance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dramatic language and hyperbole",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7642130400564245
+    },
+    {
+      "text": "There is a payment I don't recognize",
+      "label": "card_payment_not_recognised",
+      "p_real": 0.7254255053301645
+    },
+    {
+      "text": "What do I do if my card gets broken?",
+      "label": "card_not_working",
+      "p_real": 0.7224154834112804
+    },
+    {
+      "text": "There is a payment done with my card which i definitely did not do.Never seen that name before.",
+      "label": "card_payment_not_recognised",
+      "p_real": 0.7217489211252808
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

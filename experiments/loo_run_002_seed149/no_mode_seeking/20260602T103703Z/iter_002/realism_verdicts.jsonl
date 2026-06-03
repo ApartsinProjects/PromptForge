@@ -1,0 +1,21 @@
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Natural language with a specific issue; lacks over-polished grammar."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.85,"reason":"Conversational tone and informal language; feels authentic."}
+{"sample_id":"R013","prediction":"real","confidence":0.8,"reason":"Direct and specific request; lacks overly formal structure."}
+{"sample_id":"R022","prediction":"real","confidence":0.75,"reason":"Concise complaint; straightforward language."}
+{"sample_id":"R023","prediction":"real","confidence":0.8,"reason":"Emotional expression and specific complaint; feels genuine."}
+{"sample_id":"R026","prediction":"real","confidence":0.7,"reason":"Specific inquiry about outages; lacks generic phrasing."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.6,"reason":"Combines unrelated topics; feels disjointed and lacks focus."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.5,"reason":"Overly formal and structured; lacks real-world noise."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"Direct request with specific details; feels authentic."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Emotional tone and urgency; feels like a genuine complaint."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.4,"reason":"Overly detailed and formal; lacks natural conversational flow."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"Specific complaint with a clear emotional tone; feels authentic."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Direct and specific request; lacks overly polished language."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Casual language and straightforward request; feels genuine."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.8,"reason":"Specific issue with a clear request; lacks generic phrasing."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.5,"reason":"Generic question; lacks personal touch or specificity."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.4,"reason":"Formal and technical language; feels less authentic."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Specific issue with a clear request; feels genuine."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.9,"reason":"Emotional tone and specific complaint; feels authentic."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Direct complaint with emotional expression; feels genuine."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.85,"reason":"Casual tone and straightforward question; feels authentic."}

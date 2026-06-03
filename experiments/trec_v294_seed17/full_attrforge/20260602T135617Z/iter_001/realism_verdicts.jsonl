@@ -1,0 +1,16 @@
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.8,"reason":"casual inquiry; real samples are more formal and detailed."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.7,"reason":"casual tone; real samples are more formal and structured."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.9,"reason":"formal request for detailed information; matches the identified register."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.6,"reason":"simplistic inquiry; real samples are more complex and formal."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.85,"reason":"formal comparison of figures; aligns with the identified register."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.8,"reason":"formal inquiry about leadership; matches the identified register."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.75,"reason":"informal phrasing; real samples are more formal and detailed."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.9,"reason":"detailed inquiry about geographical significance; aligns with the identified register."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"formal request for detailed overview; matches the identified register."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.85,"reason":"formal request for comprehensive information; aligns with the identified register."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"simple definition request; real samples are more complex and formal."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"formal inquiry into philosophical concepts; matches the identified register."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.6,"reason":"basic factual question; real samples are more detailed and formal."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.65,"reason":"comparative question lacks depth; real samples are more formal and detailed."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.8,"reason":"formal inquiry about technology; aligns with the identified register."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal and detailed."}

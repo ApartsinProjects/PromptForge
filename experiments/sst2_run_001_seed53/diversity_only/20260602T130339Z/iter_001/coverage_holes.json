@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6477228324248782
+    },
+    {
+      "text": "by a lackluster script and substandard performances",
+      "label": "negative",
+      "p_real": 0.6462473798533033
+    },
+    {
+      "text": "looking down at your watch and",
+      "label": "negative",
+      "p_real": 0.6408427486820129
+    },
+    {
+      "text": "it 's loud and boring",
+      "label": "negative",
+      "p_real": 0.6394098461531212
+    },
+    {
+      "text": ", first-time director denzel washington and a top-notch cast manage to keep things interesting .",
+      "label": "positive",
+      "p_real": 0.6389328043318563
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

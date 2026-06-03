@@ -1,0 +1,103 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "the film [verb] [adjective] [emotion/response]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the film' as a subject",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional descriptors like 'whispers', 'tugs at the heartstrings', 'gentle warmth', 'cold and detached'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional descriptors like 'tearjerker', 'hits you right in the feels', 'stirs the soul'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "metaphorical language such as 'tangled tale', 'mere shadow', 'tepid cascade'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "rhythmic and stylistic tics with a focus on emotional impact and dramatic flair",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "metaphorical language (e.g., 'tepid cascade of emotions', 'whispers of promise fade')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "poetic structures and rhythms (e.g., 'the plot meanders like a river lost')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vivid imagery (e.g., 'visuals danced like a dream', 'painting emotions on the screen')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of abstract concepts (e.g., 'soul', 'magic', 'promise')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague or abstract descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of negative phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific names and references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency to critique with a detached tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of metaphorical language (e.g., 'meanders like a river')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative sentiment towards films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of critiques (e.g., 'the film fails to...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "rhythmic and stylistic tics in phrasing (e.g., 'barely stirs the soul')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language and imagery",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of metaphors and similes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of starting with a prepositional phrase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of personal opinion about films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrast between expectations and reality",
+      "n_pairs_observed": 1
+    }
+  ]
+}

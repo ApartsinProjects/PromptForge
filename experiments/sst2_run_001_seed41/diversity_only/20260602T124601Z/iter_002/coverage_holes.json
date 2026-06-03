@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "powerful and",
+      "label": "positive",
+      "p_real": 0.6703265237927574
+    },
+    {
+      "text": "it 's loud and boring",
+      "label": "negative",
+      "p_real": 0.6696047619277256
+    },
+    {
+      "text": "is enormously good fun",
+      "label": "positive",
+      "p_real": 0.6659638420860939
+    },
+    {
+      "text": "formulaic and forgettable",
+      "label": "negative",
+      "p_real": 0.6625096689087331
+    },
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6625096689087331
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

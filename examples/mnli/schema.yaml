@@ -1,0 +1,50 @@
+domain: mnli_natural_language_inference
+task_description: |
+  Classify a (premise, hypothesis) pair into one of three natural-language
+  inference relations: entailment (the hypothesis logically follows from
+  the premise), neutral (the hypothesis is neither entailed nor
+  contradicted), contradiction (the hypothesis contradicts the premise).
+  Drawn from the MultiNLI benchmark (Williams et al. 2018), HuggingFace
+  `glue/mnli`, validation_matched split used for evaluation. Premises span
+  five genres (fiction, government, slate, telephone, travel); inference
+  must work across formal and conversational registers.
+
+  Synthetic generation input format: 'PREMISE: <p>\nHYPOTHESIS: <h>'
+  (single text field that the existing harness can consume; the downstream
+  classifier will see the same concatenated form).
+
+label_attribute: intent
+
+attributes:
+  intent:
+    - entailment
+    - neutral
+    - contradiction
+
+  difficulty:
+    - easy
+    - medium
+    - hard
+
+  ambiguity:
+    - low
+    - medium
+    - high
+
+  genre:
+    - fiction
+    - government
+    - news
+    - slate
+    - telephone
+    - travel
+
+  style:
+    - formal
+    - informal
+    - conversational
+
+  noise:
+    - clean
+    - typos
+    - missing_punctuation

@@ -1,0 +1,16 @@
+""""""Generate realistic open-domain English questions that align with the requested TREC question-type category. Each example should be a single complete question, ending with a question mark, that reflects a user’s inquiry in an open-domain QA system. Ensure the questions are varied in complexity and style, incorporating both formal and informal tones, while avoiding redundancy in phrasing. Aim for a balance of straightforward and complex queries, including detailed comparisons, abstract concepts, and nuanced factoids.
+
+Output a JSON object containing the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "What are the implications of [concept] on [context]?"
+- "Can you provide an analysis of [topic] with specific examples?"
+- "In what ways do different theories of [subject] intersect?"
+- "What events contributed to the development of [historical fact]?"
+
+**Forbidden phrasings:**
+- Avoid overly simplistic definitions or comparisons that follow a rigid template.
+- Do not use phrases like "compare to" or "how does X compare to Y?" without adding complexity.
+- Refrain from casual or vague inquiries that lack depth.
+
+Ensure that the generated questions are diverse in intent, difficulty, and ambiguity, while maintaining a realistic tone and structure. Encourage the use of varied sentence structures, including conditional phrases or hypothetical scenarios, and aim for multi-part answers that require deeper analysis rather than straightforward lists. Focus on reducing redundancy and enhancing the overall quality of the questions produced.""""""

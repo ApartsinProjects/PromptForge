@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What 's the abbreviation for trinitrotoluene ?",
+      "label": "abbreviation",
+      "p_real": 0.6763958975773577
+    },
+    {
+      "text": "What is p.m. an abbreviation for , as in 5 p.m. ?",
+      "label": "abbreviation",
+      "p_real": 0.6760161280226653
+    },
+    {
+      "text": "What was Michelangelo 's last name ?",
+      "label": "human_beings",
+      "p_real": 0.6709494320631089
+    },
+    {
+      "text": "How many people did Randy Craft kill ?",
+      "label": "numeric_values",
+      "p_real": 0.6645844590308764
+    },
+    {
+      "text": "What powdered soft drink mix went into space ?",
+      "label": "entities",
+      "p_real": 0.6603878232577799
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

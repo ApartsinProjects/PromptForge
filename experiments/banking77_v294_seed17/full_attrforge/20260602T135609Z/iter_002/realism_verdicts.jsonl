@@ -1,0 +1,24 @@
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Casual inquiry about fees; matches the informal customer service register."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct question about card tracking; aligns with customer service inquiries."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.9,"reason":"Casual tone regarding card delivery; fits the informal customer service context."}
+{"sample_id":"R090","prediction":"real","confidence":0.9,"reason":"Simple question about payment issues; matches the informal register."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Casual expression of waiting for a card; aligns with customer service inquiries."}
+{"sample_id":"R061","prediction":"real","confidence":0.9,"reason":"Informal request for help with payment issues; fits the customer service context."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Casual inquiry about billing fees; matches the informal customer service register."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct question about card functionality; aligns with customer service inquiries."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Casual expression of confusion about card issues; fits the informal register."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Casual inquiry about card delivery; matches the informal customer service context."}
+{"sample_id":"R084","prediction":"real","confidence":0.9,"reason":"Informal statement about pending payment; aligns with customer service inquiries."}
+{"sample_id":"R060","prediction":"real","confidence":0.9,"reason":"Simple statement about payment decline; fits the informal register."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.8,"reason":"More formal tone and structure; contrasts with the casual register of real samples."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.8,"reason":"More formal and anxious tone; does not match the casual customer service register."}
+{"sample_id":"R089","prediction":"real","confidence":0.9,"reason":"Casual inquiry about payment availability; aligns with customer service context."}
+{"sample_id":"R077","prediction":"real","confidence":0.9,"reason":"Casual statement about a missing card; fits the informal register."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Informal inquiry about fees; matches the customer service context."}
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Casual complaint about exchange rate; aligns with informal customer service inquiries."}
+{"sample_id":"R049","prediction":"real","confidence":0.9,"reason":"Informal question about exchange rate; fits the customer service context."}
+{"sample_id":"R087","prediction":"real","confidence":0.9,"reason":"Casual inquiry about payment status; aligns with informal customer service register."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Informal request for help; matches the customer service context."}
+{"sample_id":"R059","prediction":"real","confidence":0.9,"reason":"Casual statement about ATM issue; fits the informal register."}
+{"sample_id":"R071","prediction":"real","confidence":0.9,"reason":"Casual expression of concern about card theft; aligns with customer service inquiries."}
+{"sample_id":"R017","prediction":"real","confidence":0.9,"reason":"Informal statement about card functionality; matches the customer service context."}

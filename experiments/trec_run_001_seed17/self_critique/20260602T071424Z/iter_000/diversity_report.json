@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of intents and difficulties, but there are notable gaps in noise types and some missing attribute combinations. Additionally, there are near-duplicate phrasings and a high rate of missing details across several entries.",
+  "missing_modes": [
+    "noise: irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "style: fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of examples with irrelevant details to enhance noise diversity.",
+    "Diversify the style attribute by including more examples in formal and informal styles.",
+    "Ensure that all combinations of attributes are represented, particularly focusing on the noise category."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

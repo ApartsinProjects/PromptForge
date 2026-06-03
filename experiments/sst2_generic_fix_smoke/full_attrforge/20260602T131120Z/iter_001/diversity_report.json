@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a good range of intents and polarity intensities, but there are gaps in the difficulty levels and scenario types. Additionally, the styles are underrepresented, and there are instances of near-duplicate phrasings.",
+  "missing_modes": [
+    "difficulty: hard",
+    "style: informal, sarcastic",
+    "scenario_type: acting_quality, visuals, emotion"
+  ],
+  "overrepresented_modes": [
+    "negative intent",
+    "medium difficulty",
+    "mild and moderate polarity intensity",
+    "formal style"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Include more diverse difficulty levels, especially hard.",
+    "Encourage the generation of informal and sarcastic styles.",
+    "Expand the scenario types to include acting quality, visuals, and emotion."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 0.6666666666666666
+  }
+}

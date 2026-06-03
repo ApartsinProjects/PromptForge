@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good range of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly around card issues. Several texts use similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "A more formal tone for inquiries about lost or stolen cards.",
+    "A more emotional style for expressing frustration with pending payments."
+  ],
+  "overrepresented_modes": [
+    "Verbose style in inquiries about card issues.",
+    "Concise style in general inquiries."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts with varied sentence structures and vocabulary to enhance nuance.",
+    "Introduce more edge cases, such as unique scenarios involving card usage or payment issues.",
+    "Incorporate a wider range of emotional expressions to capture different user sentiments."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

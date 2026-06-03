@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of attributes, but there are some near-duplicate phrasings and a lack of edge cases. All attribute modes are represented, but the diversity within certain modes could be improved.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "strong polarity_intensity",
+    "easy difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more edge cases in terms of difficulty and polarity intensity.",
+    "Introduce more diverse phrasings to avoid near-duplicates, especially in positive reviews.",
+    "Consider adding scenarios that focus on pacing and emotion with unique perspectives."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

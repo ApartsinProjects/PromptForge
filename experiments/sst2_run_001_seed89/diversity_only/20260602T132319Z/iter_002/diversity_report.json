@@ -1,0 +1,21 @@
+{
+  "summary": "The batch demonstrates a good variety of attributes across all categories, but there are some near-duplicate phrasings and a lack of edge cases. The overall diversity is satisfactory, yet there is room for improvement in unique expressions.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "negative intent with strong polarity intensity",
+    "easy difficulty level"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique and varied expressions, especially for negative reviews.",
+    "Introduce edge cases by requesting samples that explore less common scenarios or attributes."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

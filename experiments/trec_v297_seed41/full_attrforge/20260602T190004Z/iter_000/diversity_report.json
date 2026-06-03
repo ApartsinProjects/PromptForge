@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and structure, particularly in definitions and comparisons. Many texts follow similar templates, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Complex definitions that require multi-step reasoning",
+    "Comparative analyses that involve more than two entities",
+    "Examples of numeric values in real-world contexts"
+  ],
+  "overrepresented_modes": [
+    "Fragmented and informal styles in definitions",
+    "Concise comparisons that do not explore deeper implications",
+    "High ambiguity in questions about human beings and locations"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more complex and multi-layered questions, especially in the definition and comparison categories.",
+    "Introduce prompts that require unique examples or scenarios to reduce redundancy in phrasing.",
+    "Diversify the styles used for factual inquiries to include more formal and verbose options."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

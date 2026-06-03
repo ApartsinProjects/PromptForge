@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "direct and concise statements",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "informal language and slang usage",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of app issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'so like' and 'anyway'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues presented in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific product-related terminology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional language or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and emojis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases like 'i was wondering' and 'i think someone might've'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing (e.g., 'um', 'like', 'super important')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of account access issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations (e.g., 'pls')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and emojis in requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests with varying levels of urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases indicating confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of greetings or pleasantries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific issues or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and slang (e.g., 'totally broken', 'so like')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory expressions of frustration (e.g., 'i'm just so confused and frustrated!')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and misspellings (e.g., 'havng trbl', 'pls')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual tone and conversational style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed personal anecdotes or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of describing a problem followed by a request for help",
+      "n_pairs_observed": 1
+    }
+  ]
+}

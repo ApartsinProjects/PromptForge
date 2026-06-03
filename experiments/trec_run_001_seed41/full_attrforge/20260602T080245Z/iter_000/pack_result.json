@@ -1,0 +1,103 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.8583333333333334,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "what is",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what does",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who was it that",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what letter appears",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does ... stand for ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "when did ... live ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what was the name of ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'can you', 'what are', 'how many', 'who was'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations in some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent grammar and spelling in sample 4",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that require detailed explanations or lists",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'what is' or 'who is' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific details or requests for elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does it mean to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how many different types of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who are some famous",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some common",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that begin with 'what is' or 'what does'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific examples or references in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, factual inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of asking for definitions or explanations",
+      "n_pairs_observed": 1
+    }
+  ]
+}

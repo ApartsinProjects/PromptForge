@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite and formal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'could you please' and 'can you help me' structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed explanations of personal situations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'i need' or 'i thought'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with 'can you' or 'how do i'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific error codes or messages",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal pleasantries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific problems without elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal structure in requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'refund' in various contexts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms related to account management",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration expressed in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and softening phrases like 'i thought' or 'i'm having a bit of a challenging situation'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal greeting structure (e.g., 'dear customer service, i hope this message finds you well.')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy, detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite tone with expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' statements to describe personal experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical issues or error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal greetings or closings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in expressing dissatisfaction",
+      "n_pairs_observed": 1
+    }
+  ]
+}

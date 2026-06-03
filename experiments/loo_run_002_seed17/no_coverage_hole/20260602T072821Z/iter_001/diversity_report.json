@@ -1,0 +1,26 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents and difficulties, but there are some missing attribute values and overrepresented styles. Additionally, there are near-duplicate phrasings that could be improved for better diversity.",
+  "missing_modes": [
+    "intent: refund_request",
+    "style: verbose",
+    "scenario_type: common"
+  ],
+  "overrepresented_modes": [
+    "style: informal",
+    "style: emotional"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with the missing intent 'refund_request' to ensure full coverage.",
+    "Introduce more verbose styles to balance the emotional and informal styles that are currently overrepresented.",
+    "Vary the phrasing of similar intents to reduce near-duplicate rates."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

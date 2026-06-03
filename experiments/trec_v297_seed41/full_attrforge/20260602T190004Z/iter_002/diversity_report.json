@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a variety of intents and difficulty levels, but there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many texts utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "More complex comparisons that require multi-faceted analysis",
+    "Examples of rare or edge cases in historical or scientific contexts"
+  ],
+  "overrepresented_modes": [
+    "Questions starting with 'What are' or 'How does'",
+    "Fragmented style questions that lead to straightforward answers"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that incorporate unique contexts or scenarios to enhance nuance.",
+    "Introduce prompts that require deeper analysis or synthesis of information rather than straightforward factual retrieval."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

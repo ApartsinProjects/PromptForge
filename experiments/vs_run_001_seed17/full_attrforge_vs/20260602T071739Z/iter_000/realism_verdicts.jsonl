@@ -1,0 +1,24 @@
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Natural language with specific details about a transaction, informal tone."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Casual phrasing and specific technical issue, lacks overly polished structure."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct and informal request, includes personal experience."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"Overly structured and lacks personal touch, feels generic."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Specific technical issue with logs mentioned, informal tone."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.75,"reason":"Predictable structure and generic vocabulary, lacks real-world noise."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct and informal request, specific situation described."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.65,"reason":"Generic phrasing and structure, lacks personal detail."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific request related to a personal issue, informal tone."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.6,"reason":"Informal language but feels overly casual and lacks specificity."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.7,"reason":"Generic request, lacks personal detail and specificity."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Direct question about a service, informal tone."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Overly structured and emotional, feels less authentic."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.7,"reason":"Generic phrasing, lacks personal detail."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Specific issue with a personal account, informal tone."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and informal request, personal experience shared."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific technical issue described in an informal manner."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Direct question about service features, informal tone."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.65,"reason":"Generic phrasing, lacks personal detail."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.6,"reason":"Generic request, lacks specificity and personal touch."}
+{"sample_id":"R022","prediction":"real","confidence":0.8,"reason":"Direct issue with a service, informal tone."}
+{"sample_id":"R006","prediction":"real","confidence":0.85,"reason":"Specific technical issue described informally."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Direct question about future service options, informal tone."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.7,"reason":"Overly formal structure, lacks personal detail."}

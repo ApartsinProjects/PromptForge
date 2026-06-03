@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity in terms of intent, difficulty, and style, but suffers from significant nuance-level redundancy, particularly in the use of sarcastic phrasing and similar sentence structures. There are also repeated themes and vocabulary that limit the overall richness of the responses.",
+  "missing_modes": [
+    "A more varied use of 'hard' difficulty samples that explore different aspects of film critique beyond acting and plot.",
+    "More positive samples that utilize formal or poetic styles without redundancy in phrasing."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic critiques, particularly regarding acting quality, which appear multiple times with similar constructions.",
+    "Concise positive reviews that often use the same structure to express strong feelings."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique and varied sentence structures, especially for negative critiques.",
+    "Introduce more diverse scenarios and attributes combinations, particularly for 'hard' difficulty samples.",
+    "Expand the vocabulary used in both positive and negative reviews to avoid repetitive phrasing."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

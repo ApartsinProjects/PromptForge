@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6544406843478838
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6409790036707126
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6404061834012953
+    },
+    {
+      "text": "do you have a student discount available? if yes how do I apply?",
+      "label": "general_question",
+      "p_real": 0.6380356689702846
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,96 @@
+{
+  "new_findings": [
+    {
+      "pattern": "So, I was trying to find",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I can’t believe this happened!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This exclamatory phrase does not appear in the real batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I really expected them to be here by now",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of expectation is not found in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "It's all confusing.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicating confusion is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I hope this message finds you well.",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This formal greeting is not present in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I just want my money back, not a new pair in the wrong size again.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about refunds and exchanges is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you clarify this for me?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This request for clarification does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I've reached out multiple times",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrasing emphasizes repeated attempts to contact support, which is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel really anxious that they might have access to my personal information.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of anxiety regarding account security is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I just really need to get in!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal and urgent expression of need is not present in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I would like to inquire about the process for accessing my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal inquiry structure is distinct and not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "So, I was trying to find",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I can’t believe this happened!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This exclamatory phrase does not appear in the real batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I really expected them to be here by now",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of expectation is not found in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "It's all confusing.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicating confusion is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

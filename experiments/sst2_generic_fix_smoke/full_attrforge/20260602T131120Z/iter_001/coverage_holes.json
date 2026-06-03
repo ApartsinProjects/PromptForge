@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6737809209519962
+    },
+    {
+      "text": "by a lackluster script and substandard performances",
+      "label": "negative",
+      "p_real": 0.6733386940562672
+    },
+    {
+      "text": "a very good ( but not great ) movie",
+      "label": "positive",
+      "p_real": 0.6692222526571893
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6684748447667781
+    },
+    {
+      "text": "funny in a sick , twisted sort of way .",
+      "label": "positive",
+      "p_real": 0.6680407561913795
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

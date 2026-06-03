@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of attributes, but there are some near-duplicate phrasings and a lack of edge cases. The distribution of attributes is balanced, yet the presence of certain styles and scenarios could be expanded.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "concise",
+    "negative intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings and styles to reduce near-duplicates.",
+    "Incorporate rare or edge cases in scenarios, such as 'pacing' or 'visuals' with positive intent.",
+    "Increase the variety of difficulty levels across different intents to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

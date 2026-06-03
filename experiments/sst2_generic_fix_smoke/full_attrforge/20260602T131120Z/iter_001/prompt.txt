@@ -1,0 +1,15 @@
+ 
+Generate realistic short movie review sentences that match the requested sentiment polarity (positive or negative) and intensity (mild, moderate, strong). Reviews should reflect natural film criticism: concise, opinionated, and using a blend of explicit sentiment words, comparative judgments, and occasional irrelevant asides for authenticity. Incorporate a variety of styles, including formal, poetic, and analytical, while avoiding sarcasm and overly informal language. Ensure diverse scenario types, focusing on aspects like acting quality, emotional impact, and visual elements. 
+
+Output a JSON object with the sample id, the text, and the attribute values.
+
+**Forbidden phrasings:** 
+- 'Oh sure,'
+- "who doesn't love"
+
+**Preferred phrasings:** 
+- a stirring, funny
+- and intermittently hilarious
+- dudsville
+- smartly
+- various sources

@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "like wtf??",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration does not appear in any real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel like I’m missing something crucial here.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing of feeling lost or confused is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I saw a cat meme last week and totally got",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This off-topic reference is not found in any real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "this is so frustraited",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The misspelling of 'frustrated' and the casual tone is not present in real samples.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I thought I had ordered",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing indicates confusion about an order that is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I want to make an informed decision",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase suggests a desire for clarity that is not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I was just thinking a",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This incomplete thought structure appears only in synthetic samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe how many issues I've had",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of disbelief about multiple issues is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "like wtf??",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of frustration does not appear in any real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel like I’m missing something crucial here.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing of feeling lost or confused is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I saw a cat meme last week and totally got",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This off-topic reference is not found in any real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "this is so frustraited",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The misspelling of 'frustrated' and the casual tone is not present in real samples.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

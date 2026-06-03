@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of intents, difficulties, and styles, but there are some missing noise categories and a few near-duplicate phrasings. The diversity could be improved by including more varied noise types and ensuring unique phrasing.",
+  "missing_modes": [
+    "missing_details",
+    "irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "typos"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with different noise types, especially 'missing_details'.",
+    "Vary the phrasing in the generated samples to reduce near-duplicates.",
+    "Include more edge cases in the scenarios, particularly for numeric values and human beings."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,24 @@
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"The phrase is abstract and lacks the polish of synthetic text, suggesting a more genuine expression."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.9,"reason":"The structure is overly simplistic and lacks depth, typical of LLM-generated content."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.85,"reason":"The phrasing is generic and lacks specific detail, making it feel formulaic."}
+{"sample_id":"R003","prediction":"real","confidence":0.75,"reason":"The language is evocative and less polished, indicating a more authentic voice."}
+{"sample_id":"R011","prediction":"real","confidence":0.8,"reason":"The critique is nuanced and specific, suggesting a real review rather than a synthetic one."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.9,"reason":"The statement is overly broad and lacks unique insight, typical of LLM outputs."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.85,"reason":"The language is clichéd and lacks originality, indicating a synthetic origin."}
+{"sample_id":"R000","prediction":"real","confidence":0.7,"reason":"The phrase is blunt and lacks the polish of synthetic text, suggesting authenticity."}
+{"sample_id":"R001","prediction":"real","confidence":0.8,"reason":"The informal tone and abruptness suggest a genuine expression rather than a synthetic one."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.9,"reason":"The language is generic and lacks specific detail, making it feel formulaic."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.85,"reason":"The phrasing is overly simplistic and lacks depth, typical of LLM-generated content."}
+{"sample_id":"R020","prediction":"real","confidence":0.7,"reason":"The phrase is abstract and lacks the polish of synthetic text, suggesting a more genuine expression."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.9,"reason":"The word choice is overly simplistic and lacks depth, typical of LLM-generated content."}
+{"sample_id":"R002","prediction":"real","confidence":0.75,"reason":"The language is evocative and less polished, indicating a more authentic voice."}
+{"sample_id":"R012","prediction":"real","confidence":0.8,"reason":"The phrase is blunt and lacks the polish of synthetic text, suggesting authenticity."}
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.85,"reason":"The language is overly poetic and lacks specific detail, making it feel formulaic."}
+{"sample_id":"R010","prediction":"real","confidence":0.7,"reason":"The bluntness and simplicity suggest a genuine expression rather than a synthetic one."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.9,"reason":"The phrase is vague and lacks specificity, typical of LLM-generated content."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.85,"reason":"The phrase is generic and lacks unique insight, indicating a synthetic origin."}
+{"sample_id":"R005","prediction":"real","confidence":0.75,"reason":"The bluntness and simplicity suggest a genuine expression rather than a synthetic one."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.9,"reason":"The language is generic and lacks specific detail, making it feel formulaic."}
+{"sample_id":"R013","prediction":"real","confidence":0.7,"reason":"The critique is nuanced and specific, suggesting a real review rather than a synthetic one."}
+{"sample_id":"R023","prediction":"synthetic","confidence":0.85,"reason":"The phrase is overly generic and lacks depth, typical of LLM-generated content."}
+{"sample_id":"R015","prediction":"real","confidence":0.75,"reason":"The phrase is informal and lacks the polish of synthetic text, suggesting authenticity."}

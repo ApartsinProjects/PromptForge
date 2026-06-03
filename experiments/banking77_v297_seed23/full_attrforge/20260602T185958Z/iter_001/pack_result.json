@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "repeated structure of asking for help or clarification regarding payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of direct questions to address issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar vocabulary related to payments and card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal personal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about payment status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of urgency or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or scenarios",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what do i do if', 'how do i check', 'why is the exchange rate', 'let me know when you charge'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct inquiries about specific issues or actions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent use of a formal tone and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed a charge on my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you tell me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i really need that sorted out",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really frustrated because",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of asking for clarification or reasons",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on financial transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions followed by additional context or details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'upset', 'frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey there!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or confusion about unexpected charges",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in questioning about payments and transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was charged a different amount for my payment than what i expected",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just tried to top up my card, but it didn't go through",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am really upset because my last payment was declined",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me understand what went wrong?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you clarify this?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

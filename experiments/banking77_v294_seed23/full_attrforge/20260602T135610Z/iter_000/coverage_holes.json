@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.8079870867603179
+    },
+    {
+      "text": "My card has been stolen what do I do?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7997334766324544
+    },
+    {
+      "text": "Please help, the atm swallowed my card, what do I do?",
+      "label": "card_swallowed",
+      "p_real": 0.7880009523855203
+    },
+    {
+      "text": "what do I need to do if the ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7828057575686187
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

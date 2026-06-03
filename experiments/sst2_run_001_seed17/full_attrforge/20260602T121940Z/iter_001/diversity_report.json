@@ -1,0 +1,23 @@
+{
+  "summary": "The batch demonstrates a good variety of attributes across all categories, but there are instances of near-duplicate phrasings and some missing edge cases. The overall diversity is satisfactory, yet certain combinations could be explored further.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "sarcastic",
+    "hard difficulty",
+    "visuals scenario_type"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Include more edge cases in terms of difficulty and polarity intensity, especially for easy difficulty.",
+    "Explore combinations of styles and scenarios that have not been fully represented, such as combining informal style with pacing."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8916666666666666,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "in a [descriptive phrase], [subject] [verb] [object]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the [noun] [verb] like [comparison], [adjective]-worthy",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language and imagery",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated focus on character depth and emotional impact",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of commas to create lengthy, descriptive phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases that critique or analyze film elements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency to include specific names or references to industry figures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a mix of formal and informal tones within the same sample",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of metaphorical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "humorous critiques",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vivid imagery",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrast between positive and negative sentiments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "phrases that reflect on pacing or engagement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "humorous or sarcastic commentary on performances",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of comparative phrases (e.g., 'very good (but not great)', 'formulaic and forgettable')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, formulaic structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague descriptors (e.g., 'substantial or fresh')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of adjectives to describe films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of short, punchy phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of commas in lists",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on emotional descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of contrasting ideas (e.g., funny in a sick, twisted sort of way)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "tendency to use vague or abstract language",
+      "n_pairs_observed": 1
+    }
+  ]
+}

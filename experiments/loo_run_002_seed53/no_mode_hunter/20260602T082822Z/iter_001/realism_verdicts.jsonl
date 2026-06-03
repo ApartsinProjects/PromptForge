@@ -1,0 +1,24 @@
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Natural phrasing and context; typical customer inquiry."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Direct and straightforward question; common customer concern."}
+{"sample_id":"R023","prediction":"real","confidence":0.95,"reason":"Emotional expression and specific complaint; realistic customer frustration."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.7,"reason":"Overly detailed and structured; lacks real-world noise and emotional urgency."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Concise and clear request; typical customer service interaction."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Technical issue described in a straightforward manner; realistic."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.6,"reason":"Excessive detail and emotional context; feels scripted."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"Direct question about API; typical technical inquiry."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.65,"reason":"Generic complaint about a mix-up; lacks specific details."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Clear request for correction; typical customer service issue."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Simple question about product tiers; common inquiry."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.5,"reason":"Vague complaint; lacks specificity and emotional depth."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.55,"reason":"Unusual question; feels contrived and lacks urgency."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Frustration over shipping delay; realistic customer concern."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.6,"reason":"Generic complaint about processing; lacks specific details."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Clear expression of dissatisfaction; typical customer service issue."}
+{"sample_id":"R019","prediction":"real","confidence":0.85,"reason":"Direct request for refund; common customer complaint."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.5,"reason":"Lacks specificity and emotional depth; feels scripted."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Technical issue described clearly; realistic customer experience."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.55,"reason":"Generic request for refund; lacks specific details."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.5,"reason":"Vague issue with account; lacks emotional depth."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue; realistic customer experience."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.6,"reason":"Generic complaint; lacks specificity and emotional urgency."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Clear technical issue; realistic customer experience."}

@@ -1,0 +1,16 @@
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"Philosophical inquiry; aligns with academic discourse."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.9,"reason":"Complex philosophical question; matches formal academic style."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Detailed economic analysis; fits professional writing in economics."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.8,"reason":"Casual inquiry about landmarks; real samples are more formal."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.7,"reason":"Casual comparison of cities; lacks the depth of real samples."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.8,"reason":"Basic definition request; real samples are more complex."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.85,"reason":"Cultural analysis; aligns with academic and professional discourse."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.75,"reason":"Vague and casual question; lacks specificity of real samples."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.8,"reason":"Technical comparison; fits professional writing in technology."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.7,"reason":"Informal tone; real samples are more structured."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.85,"reason":"Complex inquiry into internet slang; matches academic style."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.7,"reason":"Simple comparison; lacks depth of real samples."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.9,"reason":"Informal language and misspelling; real samples are more polished."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.8,"reason":"Basic definition request; lacks complexity of real samples."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.85,"reason":"Detailed economic comparison; fits professional writing."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"Academic inquiry into psychology; aligns with formal style."}

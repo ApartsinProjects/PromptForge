@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What does EKG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.68106046417028
+    },
+    {
+      "text": "What does snafu stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6810604641702799
+    },
+    {
+      "text": "What does HIV stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6810604641702799
+    },
+    {
+      "text": "What does MSG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6810604641702799
+    },
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6686970309918241
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

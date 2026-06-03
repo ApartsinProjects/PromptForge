@@ -1,0 +1,24 @@
+{"sample_id":"R038","prediction":"real","confidence":0.9,"reason":"Casual phrasing and a specific question about classic books suggest a real inquiry."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"Overly complex structure and academic tone make it sound generated."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Simple and direct question about comic books indicates a real query."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"Specific reference to a well-known show suggests a genuine question."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"Generic phrasing and context make it sound like a generated question."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Casual and straightforward question about an acronym suggests authenticity."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific cultural reference indicates a real question."}
+{"sample_id":"R031","prediction":"real","confidence":0.8,"reason":"Direct question about a known athlete suggests a real inquiry."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"Specific reference to a book and author indicates a genuine question."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"Historical context and specificity suggest a real question."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a university suggests authenticity."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Direct question about a public figure indicates a real inquiry."}
+{"sample_id":"R045","prediction":"real","confidence":0.8,"reason":"Specific question about a criminal case suggests authenticity."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.7,"reason":"Technical jargon and lack of context make it sound generated."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.7,"reason":"Technical term without context suggests a generated question."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple and direct question about a historical figure suggests authenticity."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.75,"reason":"Generic phrasing and context make it sound like a generated question."}
+{"sample_id":"R032","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a location suggests a real question."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"Vague phrasing and lack of specificity suggest a generated question."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"Direct question about a college indicates a real inquiry."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Simple and straightforward question about an acronym suggests authenticity."}
+{"sample_id":"R046","prediction":"real","confidence":0.85,"reason":"Specific question about a common object suggests a real inquiry."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct question about an acronym indicates a real inquiry."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Simple and common question about slang suggests authenticity."}

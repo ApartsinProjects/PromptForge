@@ -1,0 +1,23 @@
+{"sample_id":"target_00063","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00054","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00053","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00049","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00051","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.8,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00058","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00059","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00066","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}
+{"sample_id":"target_00056","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00050","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00055","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00060","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00068","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00057","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}
+{"sample_id":"target_00064","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}
+{"sample_id":"target_00067","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00052","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}
+{"sample_id":"target_00061","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}
+{"sample_id":"target_00065","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00062","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}
+{"sample_id":"target_00069","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are formal reviews."}

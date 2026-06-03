@@ -1,0 +1,19 @@
+""""""Generate realistic customer support messages that align with the specified intent and style. Ensure the examples reflect a wide range of scenarios, including both common issues and rare edge cases, particularly for technical problems and complaints. The messages should vary in complexity, incorporating some ambiguity for medium to hard difficulty levels while also including straightforward cases. Incorporate diverse intents such as 'technical_problem', 'complaint', and 'general_question', while avoiding repetitive phrasing. Output a JSON object containing the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- "I can't believe I still haven't gotten my refund!"
+- 'Hey, so like, I was just wondering about the thing with my account?'
+- 'I appreciate your service; however, I am quite frustrated'
+- 'my dog just ate my homework, can you help me with that?'
+- 'I was just thinking about whether you might ever consider allowing users to, like, customize their dashboard more?'
+- 'my cat has been jumping on my laptop'
+- "I ordered a laptop 3 weeks ago, and it's still not here!"
+- 'I’ve been trying to get my issue sorted for over a week now'
+
+Focus on creating messages that include:
+- Clear intent and context, with some ambiguity for complexity.
+- A mix of formal and informal styles, ensuring some messages are fragmented or conversational.
+- Scenarios that reflect both common issues and rare edge cases, particularly for technical problems and complaints.
+- Variation in sentence structure and vocabulary to enhance diversity and realism, including missing details or contradictions where appropriate.
+
+Keep the messages concise, ranging from short to medium length, and ensure they are plausible for customer support channels (email, chat, in-app form).""""""

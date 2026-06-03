@@ -1,0 +1,19 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some missing details and potential near-duplicate phrasings. The diversity of scenarios is well represented, yet there are opportunities to enhance the uniqueness of the generated samples.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicate instances.",
+    "Ensure that each sample includes all necessary details to avoid missing information.",
+    "Consider adding more edge cases or rare scenarios to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

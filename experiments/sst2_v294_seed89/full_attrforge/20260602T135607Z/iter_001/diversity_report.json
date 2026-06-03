@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a high degree of surface-level diversity with varied intents, styles, and scenarios, but suffers from significant nuance-level redundancy, particularly in the use of poetic language and sarcastic expressions. Many texts rely on similar constructions and phrases, leading to a lack of depth in emotional and narrative critiques.",
+  "missing_modes": [
+    "A straightforward, plain English critique without embellishments or poetic language.",
+    "A more analytical approach focusing on technical aspects like direction, editing, or sound design."
+  ],
+  "overrepresented_modes": [
+    "Poetic expressions that often use similar metaphors and imagery.",
+    "Sarcastic remarks that follow a predictable structure, particularly in negative reviews."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of critiques that utilize a broader range of sentence structures and vocabulary.",
+    "Incorporate prompts that specifically request unique perspectives or analyses on less commonly discussed aspects of films, such as cinematography or sound design."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

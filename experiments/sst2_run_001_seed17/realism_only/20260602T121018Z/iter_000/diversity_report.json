@@ -1,0 +1,26 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety in intent, difficulty, polarity intensity, style, and noise, but there is a notable lack of diversity in the scenario types, particularly with the absence of 'acting_quality', 'emotion', and 'visuals'. Additionally, there are instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "acting_quality",
+    "emotion",
+    "visuals"
+  ],
+  "overrepresented_modes": [
+    "overall_verdict",
+    "pacing",
+    "story_plot"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Introduce more diverse scenario types, especially 'acting_quality', 'emotion', and 'visuals'.",
+    "Encourage the generation of more unique phrasings to reduce near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

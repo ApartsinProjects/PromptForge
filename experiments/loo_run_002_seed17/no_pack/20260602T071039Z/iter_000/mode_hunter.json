@@ -1,0 +1,54 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I initially wanted a refund for the item because it was completely different from what I ordered",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about wanting a refund due to a discrepancy in the order does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I’m really unhappy with the service. It just doesn’t meet my expectations.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of dissatisfaction with service is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I would like to formally request a refund for my recent purchase.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The formal request structure is not found in the real samples, which tend to be more casual.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you please help me resolve this issue?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request for assistance is not present in the real batch.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I initially wanted a refund for the item because it was completely different from what I ordered",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about wanting a refund due to a discrepancy in the order does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I’m really unhappy with the service. It just doesn’t meet my expectations.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of dissatisfaction with service is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I would like to formally request a refund for my recent purchase.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The formal request structure is not found in the real samples, which tend to be more casual.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you please help me resolve this issue?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request for assistance is not present in the real batch.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

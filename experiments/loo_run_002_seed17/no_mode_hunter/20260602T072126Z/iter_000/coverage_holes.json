@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6576684215135307
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6541806280893305
+    },
+    {
+      "text": "phone number on my account is wrong but the edit field is disabled. how do I update it",
+      "label": "account_issue",
+      "p_real": 0.6422539259337559
+    },
+    {
+      "text": "csv import keeps timing out at ~3000 rows. is there a row limit nobody documented?",
+      "label": "technical_problem",
+      "p_real": 0.6407422116582792
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

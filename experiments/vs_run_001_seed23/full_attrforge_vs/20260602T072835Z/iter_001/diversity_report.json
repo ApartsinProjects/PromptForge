@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but lacks diversity in the style attribute, particularly in the 'fragmented' and 'emotional' styles. Additionally, there are some near-duplicate phrasings that could be addressed.",
+  "missing_modes": [
+    "emotional",
+    "fragmented"
+  ],
+  "overrepresented_modes": [
+    "concise",
+    "formal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with emotional and fragmented styles to enhance diversity.",
+    "Review and revise samples to reduce near-duplicate phrasings and ensure unique expressions."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

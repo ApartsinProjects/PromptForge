@@ -1,0 +1,24 @@
+{"sample_id":"R037","prediction":"real","confidence":0.9,"reason":"Natural phrasing and specific inquiry about a person."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.8,"reason":"Overly vague and generic structure, lacks specificity."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"Predictable structure and common knowledge question."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Specific reference to comic books, natural phrasing."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Natural language and specific psychological term."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"Specific literary reference, natural phrasing."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Specific cultural reference, natural phrasing."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a historical figure, natural phrasing."}
+{"sample_id":"R039","prediction":"real","confidence":0.8,"reason":"Specific cultural reference, natural phrasing."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"Technical term inquiry, natural phrasing."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Specific historical reference, natural phrasing."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific cultural reference, natural phrasing."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"Specific inquiry about a common object, natural phrasing."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.75,"reason":"Unusual phrasing, lacks real-world context."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Specific geographical inquiry, natural phrasing."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Specific acronym inquiry, natural phrasing."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific historical reference, natural phrasing."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"Common knowledge question, lacks depth."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific acronym inquiry, natural phrasing."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.6,"reason":"Generic inquiry lacking specificity."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical reference, natural phrasing."}
+{"sample_id":"R038","prediction":"synthetic","confidence":0.7,"reason":"Generic inquiry, lacks specificity."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"Specific legal inquiry, natural phrasing."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.75,"reason":"Overly simplistic and generic question."}

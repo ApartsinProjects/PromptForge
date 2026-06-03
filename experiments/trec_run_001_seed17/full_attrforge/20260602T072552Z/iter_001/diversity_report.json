@@ -1,0 +1,19 @@
+{
+  "summary": "The batch exhibits a good range of attributes, but there are instances of high ambiguity and missing details in several entries. Additionally, there are near-duplicate phrasings that could affect diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more unique phrasing to reduce near-duplicates.",
+    "Incorporate more edge cases or rare scenarios to enhance diversity.",
+    "Ensure that each entry provides sufficient detail to avoid ambiguity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a reasonable variety of intents and styles, but there is significant redundancy in phrasing and surface patterns, particularly around lost or stolen cards and card payment issues. Several texts use similar constructions and emotional expressions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal and concise inquiries about card issues",
+    "informal and emotional expressions regarding payment fees",
+    "fragmented and low-ambiguity requests for assistance"
+  ],
+  "overrepresented_modes": [
+    "emotional expressions related to card issues",
+    "fragmented inquiries about lost or stolen cards",
+    "concise statements regarding payment recognition"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied emotional tones and styles, particularly for common intents like lost cards and payment issues.",
+    "Introduce more formal and concise inquiries to balance the emotional and fragmented styles present.",
+    "Include edge cases or rare scenarios, such as specific types of transaction issues or unique card handling situations."
+  ],
+  "coverage": {
+    "intent": 0.7,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

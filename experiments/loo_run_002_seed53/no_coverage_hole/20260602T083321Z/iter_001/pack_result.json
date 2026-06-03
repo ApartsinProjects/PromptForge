@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "polite request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of a specific issue followed by a request for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of a formal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expression of disappointment or loyalty",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct inquiry about refunds or order status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a brief description of the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for starting sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague language and excessive detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of frustration and urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by additional context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions or statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues described in a concise manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal anecdotes or emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler words (e.g., 'so, um', 'like')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or humorous elements (e.g., 'my cat has been jumping on my laptop')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of exclamation marks",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions followed by additional context or requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i ordered' as a sentence starter",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration expressed over customer service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific mention of problems with accounts or orders",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague error messages referenced",
+      "n_pairs_observed": 1
+    }
+  ]
+}

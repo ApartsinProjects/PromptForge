@@ -1,0 +1,20 @@
+""""""Generate realistic customer support messages that align with the requested intent and style. The messages should encompass a variety of scenarios, including general inquiries, account issues, technical problems, and edge cases, while balancing formality and emotional expression. Ensure the text is plausible for customer support channels (email, chat, in-app form) and includes specific details relevant to each situation. Aim for short to medium length, with varied phrasing to enhance uniqueness and avoid near-duplicates. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- "I can't believe this!"
+- 'I just want to know why'
+- 'Can I get my money back?'
+- 'I love your website!'
+- 'I’m really confused about'
+- 'I really expected better from your service.'
+- 'I was wondering if there are any plans for'
+- "It feels like my concerns weren't taken seriously"
+
+Ensure the following attributes are represented:
+- Intent: Include a mix of general questions, account issues, technical inquiries, and rare scenarios.
+- Difficulty: Incorporate a range from easy to moderate challenges.
+- Ambiguity: Strive for low ambiguity in most cases, but include a few scenarios with higher ambiguity.
+- Style: Vary between formal, informal, and concise tones, incorporating emotional responses where appropriate.
+- Noise: Maintain clarity while allowing for some real-world imperfections.
+
+Encourage diverse expressions and scenarios to enhance variety while ensuring all attribute values are effectively represented.""""""

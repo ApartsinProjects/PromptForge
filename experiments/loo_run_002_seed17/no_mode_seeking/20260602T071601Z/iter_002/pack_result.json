@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise, direct questions or statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and technical jargon",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on timeframes and expectations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing disbelief or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional appeals regarding expectations and satisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the service provider",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases like 'i can't believe' and 'i feel like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'so, like,' and 'i mean'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in details about orders and issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by an emotional response",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language emphasizing personal experience",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration with detailed explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations in tone that include curiosity and disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration about a product or service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes about past experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language indicating disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration expressed about a service or product",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about functionality or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expression of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "request for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific mention of issues with products or services",
+      "n_pairs_observed": 1
+    }
+  ]
+}

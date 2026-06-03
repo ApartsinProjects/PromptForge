@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a good variety of intents, styles, and noise types, but there are gaps in the difficulty levels and some scenario types. Additionally, there are instances of near-duplicate phrasings and overrepresented modes in certain categories.",
+  "missing_modes": [
+    "Difficulty: hard",
+    "Scenario Type: acting_quality, story_plot, pacing, visuals, emotion, overall_verdict"
+  ],
+  "overrepresented_modes": [
+    "Negative intent with medium difficulty and moderate polarity intensity",
+    "Positive intent with easy difficulty and strong polarity intensity"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with hard difficulty and explore more edge cases in scenario types.",
+    "Diversify the phrasing in positive and negative reviews to reduce near-duplicates."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

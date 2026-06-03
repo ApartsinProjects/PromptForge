@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6919474615565236
+    },
+    {
+      "text": "What does snafu stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6905067122518759
+    },
+    {
+      "text": "What does MSG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6905067122518759
+    },
+    {
+      "text": "What does HIV stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6905067122518759
+    },
+    {
+      "text": "What is p.m. an abbreviation for , as in 5 p.m. ?",
+      "label": "abbreviation",
+      "p_real": 0.6862090971770913
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

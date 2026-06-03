@@ -1,0 +1,21 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are some missing attribute combinations and potential near-duplicate phrasings. The diversity of intents is strong, yet certain combinations, particularly for the 'entities' intent, are underrepresented.",
+  "missing_modes": [
+    "intent: human_beings"
+  ],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with the 'human_beings' intent to ensure full coverage of the attribute schema.",
+    "Review and refine the phrasing of samples to reduce near-duplicate content, particularly in informal styles.",
+    "Consider adding more edge cases or rare scenarios to enhance diversity in the generated samples."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

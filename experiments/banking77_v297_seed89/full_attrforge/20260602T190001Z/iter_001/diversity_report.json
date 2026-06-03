@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with various intents and styles represented, but there are significant patterns of redundancy in phrasing and structure, particularly in emotional and informal styles. Many samples use similar constructions, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "formal and concise inquiries about card issues",
+    "emotional expressions of frustration in a more varied vocabulary",
+    "fragmented inquiries with different sentence structures"
+  ],
+  "overrepresented_modes": [
+    "emotional style with expressions of frustration",
+    "informal style with casual language and phrasing",
+    "fragmented style with short, abrupt sentences"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied emotional expressions by prompting for different feelings beyond frustration.",
+    "Introduce more formal and concise inquiries to balance the emotional and informal tones.",
+    "Vary sentence structures and vocabulary to reduce redundancy in phrasing, especially in informal and fragmented styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+""""""Generate a diverse and realistic set of short movie review sentences that align with the requested sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and utilizing a variety of explicit sentiment words and comparative judgments. Ensure a balanced representation of styles, incorporating formal, informal, and poetic expressions to enrich the output. Include a wide range of scenarios, from common to unique, while avoiding redundancy in phrasing.
+
+Output a JSON object containing the sample id, the review text, and the attribute values.
+
+Forbidden phrasings: "formulaic and forgettable", "powerful and", "a stirring, funny", "and intermittently hilarious", "those who do".
+
+Aim for a near-zero duplicate rate by varying sentence structure and vocabulary. Strive for a mix of intensity levels and scenario types to enhance the diversity of the generated reviews. Specifically, increase the representation of formal and poetic styles while ensuring a balanced distribution of positive and negative intents across different difficulty levels. Introduce unique phrasings to minimize near-duplicate content and enhance the overall richness of the reviews. 
+
+Consider incorporating metaphorical language, vivid imagery, and nuanced critiques to elevate the quality and diversity of the generated sentences. 
+""""""

@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, ambiguities, styles, noise types, and scenario types. However, there are some near-duplicate phrasings and a few missing edge cases.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "typos"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing to reduce near-duplicates.",
+    "Introduce more edge cases in the scenarios, especially for rare entities and locations.",
+    "Consider adding more formal and concise styles to balance the fragmented and verbose styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

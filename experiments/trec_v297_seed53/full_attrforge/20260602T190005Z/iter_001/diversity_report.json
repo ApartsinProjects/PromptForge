@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and scenarios, but there is a notable redundancy in phrasing and structure, particularly in the comparison and factoid scenarios. Many texts utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal style with high ambiguity",
+    "concise style with high difficulty",
+    "verbose style with low ambiguity"
+  ],
+  "overrepresented_modes": [
+    "concise style across multiple intents",
+    "fragmented style in definition and factoid scenarios",
+    "informal style in comparison scenarios"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts with varied sentence structures and vocabulary, especially for comparison and factoid scenarios.",
+    "Introduce more complex and nuanced questions that require deeper analysis or unique perspectives to enhance diversity.",
+    "Ensure that each intent is represented with a wider range of styles and ambiguity levels to avoid redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

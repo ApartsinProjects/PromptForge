@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good range of intents and styles, but there is significant redundancy in phrasing and surface patterns, particularly among positive reviews. The scenario types are mostly covered, but 'acting_quality' is notably absent.",
+  "missing_modes": [
+    "acting_quality scenario type",
+    "negative intent with informal style",
+    "positive intent with strong polarity intensity in a poetic style"
+  ],
+  "overrepresented_modes": [
+    "positive reviews using 'hits you in the feels' or similar emotional expressions",
+    "informal style in positive reviews",
+    "concise style across multiple scenario types"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied emotional expressions and vocabulary in positive reviews.",
+    "Include more complex sentence structures and diverse phrasing to reduce redundancy.",
+    "Ensure that all scenario types, especially 'acting_quality', are represented in future batches."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

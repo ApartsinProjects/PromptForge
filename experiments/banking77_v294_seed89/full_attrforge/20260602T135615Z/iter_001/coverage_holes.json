@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7660587384339169
+    },
+    {
+      "text": "I don't think that my top-up worked.",
+      "label": "top_up_failed",
+      "p_real": 0.7551540361365942
+    },
+    {
+      "text": "The ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7515321649740724
+    },
+    {
+      "text": "My top up isnt working",
+      "label": "top_up_failed",
+      "p_real": 0.748245833874069
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

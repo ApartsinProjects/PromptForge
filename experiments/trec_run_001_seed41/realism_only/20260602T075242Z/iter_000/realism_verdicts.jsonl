@@ -1,0 +1,24 @@
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Casual phrasing and specific context suggest a real question."}
+{"sample_id":"R032","prediction":"real","confidence":0.85,"reason":"Natural language and specific inquiry about a hotel indicate authenticity."}
+{"sample_id":"R038","prediction":"real","confidence":0.8,"reason":"The question is specific and relevant to a real educational context."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"Spelling error ('sistem') and overly simplistic structure suggest generation."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and complex structure for a casual inquiry, lacks real-world noise."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.7,"reason":"Generic phrasing and structure, lacks specificity and real-world context."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Direct and specific question about a historical figure suggests authenticity."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a known individual, phrasing feels natural."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Casual phrasing and specific context indicate a real question."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"Specific historical context and natural language suggest authenticity."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"Specific legal inquiry with natural phrasing indicates a real question."}
+{"sample_id":"R031","prediction":"real","confidence":0.9,"reason":"Casual phrasing and specific context suggest a real question."}
+{"sample_id":"R022","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a book with natural language suggests authenticity."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical context and natural phrasing indicate a real question."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"Specific scientific inquiry with natural language suggests authenticity."}
+{"sample_id":"R039","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a product label with natural phrasing suggests authenticity."}
+{"sample_id":"R008","prediction":"real","confidence":0.75,"reason":"Technical question with natural phrasing indicates a real inquiry."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.7,"reason":"Spelling error ('diferences') and generic structure suggest generation."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple and direct question with natural phrasing indicates authenticity."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a historical figure with natural language suggests authenticity."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Direct and specific question about a capital city suggests authenticity."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and detailed structure suggests generation."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a university with natural phrasing indicates authenticity."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.7,"reason":"Overly complex and detailed structure for a casual inquiry suggests generation."}

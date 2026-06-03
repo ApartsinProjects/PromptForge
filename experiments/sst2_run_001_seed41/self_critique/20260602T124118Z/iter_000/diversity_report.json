@@ -1,0 +1,22 @@
+{
+  "summary": "The batch demonstrates a good coverage of all attribute values, but there are instances of near-duplicate phrasings and some overrepresented modes. The diversity in scenarios is commendable, yet the emotional and overall verdict scenarios are particularly prevalent.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "negative intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Diversify the emotional and overall verdict scenarios to balance representation.",
+    "Introduce edge cases or rare scenarios to enhance the diversity of the samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

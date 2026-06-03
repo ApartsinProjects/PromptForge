@@ -1,0 +1,24 @@
+{"sample_id":"R035","prediction":"real","confidence":0.9,"reason":"The question is specific and contextually relevant, typical of real inquiries."}
+{"sample_id":"R019","prediction":"real","confidence":0.85,"reason":"The phrasing is straightforward and reflects a genuine curiosity about a historical fact."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"The question is factual and direct, indicative of real-world knowledge."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.7,"reason":"The phrase 'number one in the sun' feels overly polished and lacks context."}
+{"sample_id":"R011","prediction":"real","confidence":0.75,"reason":"The question is practical and reflects a common need for information."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.6,"reason":"The misspelling of 'person' suggests a lack of attention to detail typical of LLM outputs."}
+{"sample_id":"R006","prediction":"real","confidence":0.8,"reason":"The question is specific and relevant to music history."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"The question is specific to a well-known television show, indicating real-world knowledge."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"The question is factual and straightforward, typical of real inquiries."}
+{"sample_id":"R042","prediction":"real","confidence":0.8,"reason":"The question is historical and factual, indicative of genuine curiosity."}
+{"sample_id":"R031","prediction":"real","confidence":0.75,"reason":"The question is specific to sports and reflects real-world knowledge."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.65,"reason":"The question is technical but lacks depth and context, typical of LLM outputs."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects a genuine inquiry about cultural artifacts."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"The question is straightforward and factual, indicative of real-world knowledge."}
+{"sample_id":"R043","prediction":"real","confidence":0.75,"reason":"The question is practical and relevant to financial matters."}
+{"sample_id":"R015","prediction":"real","confidence":0.7,"reason":"The question is historical and reflects genuine curiosity."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.6,"reason":"The phrasing is generic and lacks specificity, typical of LLM outputs."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.55,"reason":"The question is vague and lacks context, indicative of LLM generation."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects genuine inquiry about a historical figure."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common internet slang."}
+{"sample_id":"R038","prediction":"real","confidence":0.75,"reason":"The question is practical and relevant to educational resources."}
+{"sample_id":"R039","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects knowledge about branding."}
+{"sample_id":"R013","prediction":"real","confidence":0.7,"reason":"The question is historical and reflects genuine curiosity about a cultural figure."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.65,"reason":"The question is vague and lacks specificity, typical of LLM outputs."}

@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a complete coverage of all attribute values, but there are some near-duplicate phrasings and potential overrepresentation of emotional and verbose styles. The diversity of scenarios is well-maintained, though edge cases could be further explored.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Introduce more edge case scenarios to enhance diversity.",
+    "Consider balancing the emotional and verbose styles with more formal or concise options."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

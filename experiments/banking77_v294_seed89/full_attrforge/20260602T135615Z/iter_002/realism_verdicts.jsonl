@@ -1,0 +1,24 @@
+{"sample_id":"R097","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal inquiries"}
+{"sample_id":"R090","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples are more structured"}
+{"sample_id":"R072","prediction":"synthetic","confidence":0.6,"reason":"casual expression; real samples are more formal"}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.75,"reason":"informal language; real samples are more professional"}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"target_00042","prediction":"real","confidence":0.9,"reason":"formal inquiry; matches the register of real samples"}
+{"sample_id":"R082","prediction":"synthetic","confidence":0.65,"reason":"informal tone; real samples are more structured"}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.6,"reason":"casual language; real samples are more formal"}
+{"sample_id":"R081","prediction":"real","confidence":0.85,"reason":"formal inquiry; aligns with the register of real samples"}
+{"sample_id":"R015","prediction":"synthetic","confidence":0.7,"reason":"informal tone; real samples are more professional"}
+{"sample_id":"R083","prediction":"real","confidence":0.8,"reason":"formal inquiry; matches the register of real samples"}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.65,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"R092","prediction":"synthetic","confidence":0.75,"reason":"informal language; real samples are more structured"}
+{"sample_id":"R030","prediction":"real","confidence":0.9,"reason":"formal inquiry; aligns with the register of real samples"}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.7,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"R055","prediction":"real","confidence":0.85,"reason":"formal inquiry; matches the register of real samples"}
+{"sample_id":"R043","prediction":"real","confidence":0.8,"reason":"formal inquiry; aligns with the register of real samples"}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"formal inquiry; matches the register of real samples"}
+{"sample_id":"R065","prediction":"synthetic","confidence":0.6,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples are more structured"}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.75,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"R033","prediction":"real","confidence":0.85,"reason":"formal inquiry; aligns with the register of real samples"}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"formal inquiry; matches the register of real samples"}
+{"sample_id":"R010","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal"}

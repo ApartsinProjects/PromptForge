@@ -1,0 +1,123 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of abstract adjectives (e.g., unassuming, lackluster, powerful)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "thematic focus on film critique",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases that question or challenge",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vocabulary that includes less common or more formal terms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of sarcastic openers like 'oh sure'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases expressing disappointment or sarcasm",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of hyperbolic expressions like 'nearly fell asleep' and 'left me speechless'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated emotional responses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "sarcastic commentary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrasting opinions within the same sample",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vivid descriptors of the viewing experience",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "oh sure,",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "honestly,",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the pacing was so thrilling",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "had me crying like a baby",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the actors really nailed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of complex and formal vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, descriptive phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of commas in lists",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "abstract themes and concepts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conjunctions at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "parenthetical phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague qualifiers like 'very good (but not great)'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific names or titles",
+      "n_pairs_observed": 1
+    }
+  ]
+}

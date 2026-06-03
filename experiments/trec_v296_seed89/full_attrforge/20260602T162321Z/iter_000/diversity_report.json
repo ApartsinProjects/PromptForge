@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high degree of redundancy in phrasing and structure, particularly in the use of fragmented and verbose styles. There is a notable lack of variety in the types of questions posed, especially regarding the intent categories related to human beings and locations.",
+  "missing_modes": [
+    "more diverse styles such as casual or narrative",
+    "additional difficulty levels, particularly hard for entities and locations"
+  ],
+  "overrepresented_modes": [
+    "fragmented style, especially in questions about human beings and definitions",
+    "verbose style in definition and comparison scenarios"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Introduce more varied sentence structures and styles, such as casual or narrative forms.",
+    "Ensure a broader range of difficulty levels for all intent categories, particularly for entities and locations.",
+    "Encourage the generation of questions that explore unique or less common aspects of the topics."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

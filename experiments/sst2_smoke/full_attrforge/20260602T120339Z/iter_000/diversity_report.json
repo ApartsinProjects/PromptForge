@@ -1,0 +1,37 @@
+{
+  "summary": "The batch exhibits a good variety of intents and polarity intensities but lacks diversity in style and scenario types. There are also missing combinations of difficulty and noise attributes.",
+  "missing_modes": [
+    "formal style",
+    "poetic style",
+    "concise style",
+    "hard difficulty",
+    "medium difficulty",
+    "strong polarity intensity",
+    "clean noise",
+    "missing_punctuation noise",
+    "acting_quality scenario type",
+    "visuals scenario type",
+    "emotion scenario type"
+  ],
+  "overrepresented_modes": [
+    "positive intent",
+    "medium difficulty",
+    "sarcastic style",
+    "irrelevant_aside noise",
+    "overall_verdict scenario type"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of samples with formal, poetic, and concise styles.",
+    "Include more scenarios related to acting quality, visuals, and emotion.",
+    "Ensure a balanced representation of difficulty levels and noise types."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 0.4,
+    "noise": 0.5,
+    "scenario_type": 0.5
+  }
+}

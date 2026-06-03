@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a strong variety of intents, difficulties, polarity intensities, styles, and noise types. However, there is a notable lack of diversity in the scenario types, with only five of the six possible types represented.",
+  "missing_modes": [
+    "emotion"
+  ],
+  "overrepresented_modes": [
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Ensure that all scenario types are represented in future batches, particularly focusing on the missing 'emotion' type.",
+    "Vary the use of sarcastic style to prevent overrepresentation and encourage a broader range of styles.",
+    "Introduce more edge cases or rare scenarios to enhance diversity in the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

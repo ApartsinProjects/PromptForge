@@ -1,0 +1,24 @@
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"The question is straightforward and lacks overly polished language."}
+{"sample_id":"R032","prediction":"real","confidence":0.85,"reason":"The phrasing is casual and reflects a common inquiry."}
+{"sample_id":"R038","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects a genuine educational concern."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"The question is overly simplistic and lacks context."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.75,"reason":"The structure is overly formal and academic, lacking real-world noise."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.8,"reason":"The question is complex but feels generic and lacks personal touch."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"The question is direct and reflects a specific historical inquiry."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"The question is specific and reflects genuine curiosity about a public figure."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to historical events."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"The question is practical and reflects a common legal inquiry."}
+{"sample_id":"R031","prediction":"real","confidence":0.9,"reason":"The question is specific and reflects knowledge of sports."}
+{"sample_id":"R022","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to literature."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"The question is historical and reflects a common inquiry."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"The question is scientific and reflects genuine curiosity."}
+{"sample_id":"R039","prediction":"real","confidence":0.75,"reason":"The question is specific and relates to branding."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"The question is technical but straightforward."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.7,"reason":"The question is overly simplistic and lacks depth."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to historical figures."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.75,"reason":"The question is overly formal and lacks a personal touch."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"The question is specific and reflects genuine inquiry about education."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.8,"reason":"The question is overly detailed and lacks a conversational tone."}

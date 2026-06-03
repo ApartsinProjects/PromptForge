@@ -1,0 +1,17 @@
+""""""Generate realistic open-domain English questions that align with the specified TREC question-type category. Each example should be a single complete question, ending with a question mark, that reflects what a user might ask in an open-domain QA system. Ensure the questions exhibit medium ambiguity, a range of difficulty levels, and incorporate diverse scenarios, avoiding overused phrases. The output should include a JSON object containing the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'Who was the first'
+- 'What does the acronym'
+
+To enhance diversity, include various intents beyond 'abbreviation' and 'human_beings', such as definitions, comparisons, and explanations. Each question should have sufficient detail and context, varying in complexity from easy to hard. Aim for a mix of formal and informal styles, introducing unique phrasing and edge cases or less common scenarios. Avoid repetitive structures and strive for clarity.
+
+Example attributes to consider:
+- Intent: Include a variety of intents, such as definitions, comparisons, and explanations.
+- Difficulty: Vary the complexity of questions from easy to hard.
+- Ambiguity: Ensure some questions have multiple interpretations.
+- Style: Mix formal and informal language.
+- Noise: Introduce slight imperfections or irrelevant details to mimic real user inquiries.
+- Scenario Type: Incorporate a variety of scenarios, including definitions, comparisons, and lists.
+
+Output the generated questions in the specified JSON format.""""""

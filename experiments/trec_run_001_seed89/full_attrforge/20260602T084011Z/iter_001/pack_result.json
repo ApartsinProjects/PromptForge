@@ -1,0 +1,115 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "what is/what 's the name of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how long ago was",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what continent 's name appears on",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how big is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you tell me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "in what ways does",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you provide",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what defines",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with complex structures and additional qualifiers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'can you tell me' or 'what are some' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of detailed context or conditions in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate phrasing compared to pack a",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you provide a list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you explain what",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the total number of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "which city between",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you list some characteristics associated with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does the acronym",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you provide a comprehensive list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you tell me the exact number of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does x stand for ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who is x ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is x located ?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

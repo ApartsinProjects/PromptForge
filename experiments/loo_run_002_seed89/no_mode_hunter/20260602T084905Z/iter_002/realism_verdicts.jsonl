@@ -1,0 +1,24 @@
+{"sample_id":"R017","prediction":"real","confidence":0.9,"reason":"Natural language with a common issue; lacks over-polished grammar."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Casual tone and specific complaint; feels authentic."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Specific technical issue with a browser; realistic detail."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Genuine inquiry about future options; lacks generic phrasing."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct complaint about a refund; straightforward language."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Frustration expressed over support delay; realistic tone."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Specific issue with checkout; includes browser detail."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Describes a common app issue; lacks overly formal structure."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Common issue with password reset; realistic context."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific technical issue with CSV import; realistic inquiry."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct complaint about order; clear and concise."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.6,"reason":"Overly detailed and structured; lacks real-world noise."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint about damaged item; straightforward."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.65,"reason":"Generic inquiry about API; lacks personal touch."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"Frustration over shipping delay; realistic tone."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint about premium plan; lacks specificity."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Specific issue with two-factor authentication; realistic."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"Expresses dissatisfaction; feels authentic."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.6,"reason":"Overly detailed and structured; lacks real-world noise."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.65,"reason":"Overly polished and structured; lacks genuine frustration."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.6,"reason":"Vague complaint; lacks specific details."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.55,"reason":"Casual tone but lacks specificity; feels generic."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.6,"reason":"Overly casual and structured; lacks genuine detail."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.65,"reason":"Generic inquiry about outages; lacks personal touch."}

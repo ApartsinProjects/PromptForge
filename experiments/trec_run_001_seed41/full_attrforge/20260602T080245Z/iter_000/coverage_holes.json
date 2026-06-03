@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What is p.m. an abbreviation for , as in 5 p.m. ?",
+      "label": "abbreviation",
+      "p_real": 0.6885725970477012
+    },
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6658165206769893
+    },
+    {
+      "text": "What 's the abbreviation for trinitrotoluene ?",
+      "label": "abbreviation",
+      "p_real": 0.6648507430886103
+    },
+    {
+      "text": "What does R.E.M. stand for , as in the rock group R.E.M. ?",
+      "label": "abbreviation",
+      "p_real": 0.6553557698840085
+    },
+    {
+      "text": "What is object-oriented design ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6544945996538128
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

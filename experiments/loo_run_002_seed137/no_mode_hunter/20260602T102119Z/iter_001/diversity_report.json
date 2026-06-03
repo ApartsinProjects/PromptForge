@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates good coverage across most attributes, but there is a notable lack of diversity in the 'style' attribute and some missing combinations of 'style' and 'scenario_type'.",
+  "missing_modes": [
+    "informal",
+    "clean"
+  ],
+  "overrepresented_modes": [
+    "fragmented",
+    "formal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with informal and clean styles to enhance diversity.",
+    "Ensure a wider variety of style and scenario_type combinations to avoid overrepresentation of certain modes."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

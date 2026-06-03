@@ -1,0 +1,7 @@
+""""""Generate realistic open-domain English questions that align with the requested TREC question-type category. Each example should be a single complete question ending with a question mark, reflecting a broad spectrum of user intents, difficulty levels, and styles. Incorporate both informal and formal phrasing while ensuring a diverse range of difficulty from easy to hard. Include edge cases related to numeric values and human experiences to enhance realism and depth.
+
+Output a JSON object containing the sample id, the text, and the attribute values. 
+
+Forbidden phrasings: Avoid overly casual language, repetitive structures, and common phrases that may lead to near-duplicates. Additionally, refrain from concise or list-like questions.
+
+Strive for a rich variety in intent, ambiguity, and scenario types, while maintaining a realistic tone. Encourage the generation of more verbose and fragmented styles to balance representation. Aim for unique question formulations to minimize redundancy and enhance overall dataset diversity. Ensure that each question reflects a distinct perspective or scenario, particularly focusing on less common experiences and numerical contexts to broaden the dataset's coverage."""""

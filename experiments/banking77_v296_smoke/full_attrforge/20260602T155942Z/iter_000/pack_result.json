@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions without proper capitalization",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of varied sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i just saw'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about fees or charges",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or worry",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional engagement with the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inquiries about card status or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hi' or 'dear customer support'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing around card problems (e.g., 'declined', 'not working')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "apologetic tone in requests for assistance",
+      "n_pairs_observed": 1
+    }
+  ]
+}

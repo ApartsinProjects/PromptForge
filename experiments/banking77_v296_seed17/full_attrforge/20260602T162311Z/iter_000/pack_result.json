@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.90625,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of card issues or transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of straightforward vocabulary without complex phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite opener with a greeting",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of first-person perspective",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing an issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please assist me with this matter?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed a charge that i don't recognize",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just checked my account and saw",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't find my card anywhere",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why was i charged?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think i might have left it at the store",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite greetings and requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases like 'i was wondering' and 'can you help'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or concern",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'hi there!' as an opener in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for updates or assistance with a specific issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or regret",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent mention of card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concern about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or explanation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of fees or payments",
+      "n_pairs_observed": 1
+    }
+  ]
+}

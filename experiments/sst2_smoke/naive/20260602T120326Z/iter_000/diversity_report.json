@@ -1,0 +1,20 @@
+{
+  "summary": "deterministic-only audit (no LLM client)",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.0,
+  "recommendations": [
+    "Increase coverage of attribute 'difficulty' (values to add: easy, medium, hard).",
+    "Increase coverage of attribute 'style' (values to add: formal, informal, sarcastic).",
+    "Increase coverage of attribute 'noise' (values to add: clean, typos, missing_punctuation).",
+    "Increase coverage of attribute 'scenario_type' (values to add: acting_quality, story_plot, pacing)."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 0.4,
+    "noise": 0.5,
+    "scenario_type": 0.5
+  }
+}

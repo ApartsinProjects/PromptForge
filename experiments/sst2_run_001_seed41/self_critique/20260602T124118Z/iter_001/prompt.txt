@@ -1,0 +1,8 @@
+"""Generate realistic short movie review sentences that align with the specified sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and employing a variety of explicit sentiment words and comparative judgments. Ensure a mix of styles, including formal, informal, and unique phrasings, while varying emotional tones and overall verdicts to enhance diversity. Incorporate edge cases or less common scenarios to broaden representation. 
+
+Output a JSON object containing the sample id, the text, and the attribute values. 
+
+Forbidden phrasings: Avoid repetitive structures and overused expressions that may lead to near-duplicates. Strive for originality in sentence construction and emotional expression to maintain a rich and varied dataset. Aim for a balanced representation of different styles and sentiments, ensuring no single mode dominates the output. 
+
+Consider including reviews that reflect a range of viewer experiences, from niche films to mainstream blockbusters, and explore diverse perspectives, such as cultural critiques or technical analyses, to enrich the dataset further. 
+"""

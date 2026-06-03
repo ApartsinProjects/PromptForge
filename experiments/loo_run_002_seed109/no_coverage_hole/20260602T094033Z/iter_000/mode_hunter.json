@@ -1,0 +1,54 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I can't believe how frustrating this situation is!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expressing disbelief and frustration does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I hope this message finds you well.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal opener is not found in any of the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, quick question!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual opener is unique to the synthetic batch and not present in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I am really frustrated with my recent purchase.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration regarding a purchase does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I can't believe how frustrating this situation is!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expressing disbelief and frustration does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I hope this message finds you well.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal opener is not found in any of the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, quick question!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual opener is unique to the synthetic batch and not present in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I am really frustrated with my recent purchase.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration regarding a purchase does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

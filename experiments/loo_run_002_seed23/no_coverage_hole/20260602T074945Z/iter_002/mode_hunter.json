@@ -1,0 +1,96 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I mean, how does this happen?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This conversational phrasing is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I’ve been meaning to ask,",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific opener does not appear in the real batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I ordered a coffee maker and it's not working like it said,",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This sentence structure and phrasing are not found in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I received a product that was completely different from what I ordered,",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I just can’t get into my account anymore!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expressing frustration about account access does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, so like",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal opener is unique to the synthetic batch and not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I thought I had the right password, but then I forgot if I changed it or not.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This complex sentence structure regarding password confusion is not present in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I am experiencing an issue with",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing is not present in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I have a situation with my recent subscription",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific structure is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I really liked the design and was looking f",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This incomplete thought and phrasing does not appear in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I'm having this really strange problem where",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific way of introducing a problem is not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I mean, how does this happen?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This conversational phrasing is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I’ve been meaning to ask,",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific opener does not appear in the real batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I ordered a coffee maker and it's not working like it said,",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This sentence structure and phrasing are not found in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I received a product that was completely different from what I ordered,",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

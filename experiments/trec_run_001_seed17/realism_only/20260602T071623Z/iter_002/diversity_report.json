@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, ambiguities, styles, noise types, and scenario types. However, there are some near-duplicate phrasings and a few missing details in several entries.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "high ambiguity"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage more diverse phrasing to reduce near-duplicates.",
+    "Ensure that each entry contains sufficient detail to avoid missing information.",
+    "Consider balancing the use of informal style and high ambiguity to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

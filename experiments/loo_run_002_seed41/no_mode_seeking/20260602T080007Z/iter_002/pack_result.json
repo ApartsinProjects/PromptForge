@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "concise statements with a focus on specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for resolution or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on problems encountered",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of informal language and abbreviations (e.g., 'plz', 'not sure')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns (e.g., 'i've', 'i can't', 'my app')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of frustration or requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone and casual phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'plz', 'kinda')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common themes of account access issues and app malfunctions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar opening phrases like 'i can't' and 'my app just keeps'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite inquiries and hedging language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'i' statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'can you' or 'could you' for requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries and requests for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i was just wondering' or 'it would be great to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations in sentence structure that include conditional phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing an unusual issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you provide guidance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering if there’s any possibility",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i wanted to ask about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for information or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers like 'not sure', 'i was just wondering', 'could you provide'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing in asking for confirmation or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrases (e.g., 'if there’s any possibility')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for detailed explanations or clarifications",
+      "n_pairs_observed": 1
+    }
+  ]
+}

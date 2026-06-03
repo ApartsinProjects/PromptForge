@@ -1,0 +1,119 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "short, fragmented phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of commas in unusual places",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague descriptors (e.g., 'very good', 'to forget')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of conjunctions and commas in lists",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, declarative statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of emotional language (e.g., 'tugs at the heartstrings')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., starting with 'this film' or 'the film')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated expressions (e.g., 'rollercoaster of emotions')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and conversational style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of unconventional phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "quirky and unexpected imagery",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, punchy sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency towards sarcasm or humor",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated emotional responses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of colloquial expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dramatic descriptors and metaphors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'but' to contrast ideas",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrast between positive and negative sentiments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated metaphors (e.g., 'like watching paint dry', 'rollercoaster of emotions')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "thematic reflections on the film's impact",
+      "n_pairs_observed": 1
+    }
+  ]
+}

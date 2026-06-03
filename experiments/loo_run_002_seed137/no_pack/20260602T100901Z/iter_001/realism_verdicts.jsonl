@@ -1,0 +1,24 @@
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.8,"reason":"Overly polished grammar and structure, lacks real-world noise."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Casual language, direct request, and informal tone typical of real user complaints."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Informal and straightforward language, typical of a genuine customer issue."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.7,"reason":"Polished structure and phrasing, lacks the urgency and frustration often found in real complaints."}
+{"sample_id":"R016","prediction":"real","confidence":0.85,"reason":"Direct and urgent tone, typical of a real user experiencing a problem."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Concise and direct complaint, typical of real user interactions."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.75,"reason":"Polished language and structure, lacks the typical noise of real user queries."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Direct question about future features, typical of real user inquiries."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Casual language and urgency indicate a real user experience."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical issue described in a straightforward manner, typical of real user feedback."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.7,"reason":"Polished language and structure, lacks the urgency of a real user issue."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Urgent and personal nature of the issue suggests a real user complaint."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Technical issue described in a straightforward manner, typical of real user feedback."}
+{"sample_id":"R022","prediction":"real","confidence":0.8,"reason":"Direct complaint about a service issue, typical of real user interactions."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Simple and direct inquiry about billing, typical of real user questions."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.6,"reason":"Overly detailed and polished, lacks the raw emotion often found in real complaints."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.65,"reason":"Overly elaborate and structured, lacks the urgency and frustration typical of real user issues."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Direct inquiry about service status, typical of real user questions."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"Emotional language and direct request indicate a real user experience."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Technical issue described in a straightforward manner, typical of real user feedback."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.7,"reason":"Polished language and structure, lacks the urgency of a real user issue."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.6,"reason":"Polished language and structure, lacks the urgency of a real user issue."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.5,"reason":"Casual language but overly structured and polished, lacks real-world noise."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct and emotional complaint typical of real user feedback."}

@@ -1,0 +1,24 @@
+{"sample_id":"R028","prediction":"real","confidence":0.9,"reason":"Specific question about a lawyer, indicative of real-world knowledge."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"Cultural reference to a soft drink, suggests familiarity with marketing."}
+{"sample_id":"R010","prediction":"real","confidence":0.8,"reason":"Technical question about biology, reflects real-world knowledge."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing and vague reference suggest a lack of depth."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Specific historical sports question, indicative of factual knowledge."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"Legal question with specific context, suggests real-world relevance."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Specific inquiry about a public figure's death, indicative of real-world events."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"Historical question about a political entity, reflects factual knowledge."}
+{"sample_id":"R030","prediction":"real","confidence":0.85,"reason":"Specific historical reference, indicative of factual knowledge."}
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Scientific question about astronomy, reflects real-world knowledge."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific cultural artifact inquiry, indicative of real-world knowledge."}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.6,"reason":"Generic question about a hotel, lacks specificity."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a television show, indicative of real-world knowledge."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"Practical question about exercises, reflects real-world applicability."}
+{"sample_id":"R037","prediction":"real","confidence":0.9,"reason":"Specific inquiry about a public figure, indicative of factual knowledge."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.75,"reason":"Complex comparison question with vague phrasing, lacks depth."}
+{"sample_id":"R035","prediction":"real","confidence":0.85,"reason":"Specific geographical question, indicative of real-world knowledge."}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"Specific historical inquiry about a criminal, indicative of factual knowledge."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a college, indicative of real-world knowledge."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Specific literary reference, indicative of cultural knowledge."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.7,"reason":"Casual and vague request for information, lacks specificity."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a cultural practice, indicative of real-world knowledge."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.65,"reason":"Vague and convoluted question structure, lacks clarity."}
+{"sample_id":"R023","prediction":"real","confidence":0.8,"reason":"Specific psychological inquiry, indicative of real-world knowledge."}

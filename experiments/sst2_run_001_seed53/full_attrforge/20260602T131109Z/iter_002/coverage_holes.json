@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6394271989179637
+    },
+    {
+      "text": "engaging and exciting narrative",
+      "label": "positive",
+      "p_real": 0.6382578683551714
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6382221498955372
+    },
+    {
+      "text": "it 's loud and boring",
+      "label": "negative",
+      "p_real": 0.6354497216754638
+    },
+    {
+      "text": "by a lackluster script and substandard performances",
+      "label": "negative",
+      "p_real": 0.631845551279729
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

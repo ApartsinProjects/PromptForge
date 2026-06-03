@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good variety of intents and styles, but there is significant redundancy in phrasing and structure, particularly in the negative and positive samples related to pacing and emotion. The use of sarcasm is limited to a few samples, and the emotional responses often follow similar patterns.",
+  "missing_modes": [
+    "A more varied range of emotional responses beyond 'forced' or 'disconnected' for negative samples.",
+    "Unique or unconventional expressions of pacing that do not rely on common phrases.",
+    "Diverse scenarios that explore different aspects of visuals beyond 'stunning' or 'poorly executed'."
+  ],
+  "overrepresented_modes": [
+    "The phrase structure 'the film's pacing was [adjective]' appears frequently.",
+    "Common expressions like 'tug at my heartstrings' and 'leaving viewers puzzled' are repeated.",
+    "The use of 'positive' and 'negative' descriptors often follows similar templates."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique emotional responses and pacing critiques.",
+    "Introduce a wider variety of vocabulary and sentence structures to describe visuals and acting quality.",
+    "Incorporate more edge cases or rare scenarios to enhance the diversity of responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

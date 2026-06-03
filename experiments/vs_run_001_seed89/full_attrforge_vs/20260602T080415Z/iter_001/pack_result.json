@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "polite requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or unique cases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'i' statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and expressions of confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for help with account issues or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of phrases like 'could you' and 'hoping you could'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or uncertainty",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on the theme of account issues or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthier, more detailed explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about delays or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of account access problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i’m having trouble",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you clarify",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey, i was wondering if you could help me with something",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for specific information or actions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for information or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and abbreviations",
+      "n_pairs_observed": 1
+    }
+  ]
+}

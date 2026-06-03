@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions about service or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of asking for information or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'what gives?' and 'also is the site down or something?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal pronouns and emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similarity in the way issues are presented, often with a narrative style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details (e.g., order numbers, subscription types)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i was charged', 'want my money back')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of informal greetings (e.g., 'hi team')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'do' or 'is'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with casual phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific features or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of personal feelings or anxieties",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'i’ve been trying' or 'i really hope'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account issues or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations (e.g., asap)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings (e.g., hi, quick one)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise structure with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in requests (e.g., order #99431, photos attached)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific features or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for information or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms or jargon",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on clarity",
+      "n_pairs_observed": 1
+    }
+  ]
+}

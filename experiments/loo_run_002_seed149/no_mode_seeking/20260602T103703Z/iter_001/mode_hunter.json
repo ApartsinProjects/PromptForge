@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I just don’t understand why",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses confusion and is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’ve been trying to update my app for days",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This structure indicates prolonged effort without success, which is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I noticed my last payment was taken out on a Tuesday",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific observation about payment timing does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "hey, can u tell me how long it takes for a refund?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal tone and abbreviation 'u' are distinctive to the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I can't believe this is happening again!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of disbelief does not appear in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I've been really frustrated with my experience lately!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique phrasing of frustration is not found in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I believe that a full refund should be considered.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This particular formulation of requesting a refund is absent in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "It feels like no one cares about my issues",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of feeling neglected does not appear in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I just don’t understand why",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses confusion and is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’ve been trying to update my app for days",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This structure indicates prolonged effort without success, which is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I noticed my last payment was taken out on a Tuesday",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific observation about payment timing does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "hey, can u tell me how long it takes for a refund?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal tone and abbreviation 'u' are distinctive to the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

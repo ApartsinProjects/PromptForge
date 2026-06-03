@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "what do i do if",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i need to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can i",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have an odd payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of asking for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'can you explain?' and 'can you provide any updates?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on similar themes (e.g., card issues, payment problems)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure with a greeting or polite opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i tried to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed sentences with personal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed towards getting help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of direct requests or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i [action] but [result]')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of the word 'card' in various contexts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'really upset', 'frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational openers (e.g., 'hey there!', 'hey, i noticed...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i tried to...', 'i just noticed...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration regarding fees and transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks to convey emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that include additional details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with conversational elements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct inquiries about charges or fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating an issue followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do i",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need help with",
+      "n_pairs_observed": 1
+    }
+  ]
+}

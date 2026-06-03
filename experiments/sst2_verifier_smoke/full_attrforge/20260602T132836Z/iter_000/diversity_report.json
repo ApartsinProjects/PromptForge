@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a lack of nuanced diversity, particularly in the use of sarcasm and informal styles, leading to repetitive phrasing and sentiment expressions. Additionally, certain scenario types, such as 'acting_quality' and 'emotion', are entirely absent.",
+  "missing_modes": [
+    "acting_quality: Reviews focusing on the performances of the actors.",
+    "emotion: Reviews that discuss the emotional impact of the film."
+  ],
+  "overrepresented_modes": [
+    "sarcastic style: Multiple samples employ sarcasm in a similar manner.",
+    "informal style: Informal language is used frequently, leading to redundancy."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of samples that explore a wider variety of styles, especially formal and poetic.",
+    "Include more diverse scenario types, particularly those related to acting quality and emotional responses.",
+    "Vary sentence structures and vocabulary to reduce redundancy in phrasing."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 0.75,
+    "scenario_type": 0.6666666666666666
+  }
+}

@@ -1,0 +1,19 @@
+ 
+Generate realistic banking customer-support messages that match the requested intent and style. The example should be plausible for a customer support channel (email, chat, in-app form). Keep it short to medium length. Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "My card payment has been declined."
+- "The ATM kept my card?"
+- "There's an error in regards to the exchange rate for an item I bought."
+- "The ATM didn't return my card!"
+
+**Forbidden phrasings:**
+- "I'm really stressed out!"
+
+**Instructions:**
+1. Include a variety of intents, especially focusing on less common scenarios like lost or stolen cards, ATM issues, and payment discrepancies.
+2. Ensure messages reflect a range of styles, from formal inquiries to informal and emotional expressions, while avoiding overly casual or verbose language.
+3. Introduce structural variation in sentence construction to reduce redundancy and enhance diversity, including fragmented and concise requests.
+4. Aim for medium to high difficulty by incorporating elements of ambiguity and emotional tones, ensuring messages are not overly clear or straightforward.
+5. Strive for a balance between coherent and fragmented styles, allowing for some noise while maintaining overall clarity.
+

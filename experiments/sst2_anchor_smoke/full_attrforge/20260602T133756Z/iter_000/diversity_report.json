@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a strong reliance on sarcastic and informal styles, particularly in positive intents, while the negative intents often utilize straightforward language. There is a notable lack of variety in sentence structure and vocabulary, leading to redundancy in expression.",
+  "missing_modes": [
+    "poetic style",
+    "strong polarity intensity in negative intent",
+    "clean noise type in positive scenarios",
+    "emotion scenario type"
+  ],
+  "overrepresented_modes": [
+    "sarcastic style in positive intents",
+    "informal style in negative intents",
+    "medium difficulty in positive intents"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more poetic and varied sentence structures.",
+    "Include more diverse vocabulary and expressions for both positive and negative intents.",
+    "Ensure a wider representation of scenario types, especially emotion and visuals."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 0.75,
+    "scenario_type": 0.6666666666666666
+  }
+}

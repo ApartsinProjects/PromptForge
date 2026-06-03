@@ -1,0 +1,163 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i've tried reaching out multiple times",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "this is absolutely unacceptable",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i am considering upgrading",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i am really frustrated with",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i just don't know how to",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional expressions (e.g., 'so frustrating', 'very frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the reader (e.g., 'can someone sort this out?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and emojis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "narrative style with personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "asking for help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "multiple issues presented in a single message",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'frustrated', 'unacceptable')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am really frustrated with your service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i paid for a premium subscription",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i hope you can help me understand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i found out that i can’t access it anymore",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "despite loving your products",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've been left feeling unheard and disappointed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of account access issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hi there' and 'hello'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of personal anecdotes or context in requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've been left feeling",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i hope you can help me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and lack of capitalization",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i want my money back",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "please refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is my",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "charged for my subscription",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this product does not do what your ads claim",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please assist me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this situation has been disheartening",
+      "n_pairs_observed": 1
+    }
+  ]
+}

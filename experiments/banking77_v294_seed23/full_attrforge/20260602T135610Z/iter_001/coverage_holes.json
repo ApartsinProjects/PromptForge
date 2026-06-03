@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "My card payment has been declined",
+      "label": "declined_card_payment",
+      "p_real": 0.7604385472677183
+    },
+    {
+      "text": "The ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7581185274648484
+    },
+    {
+      "text": "There's an error in regards to the exchange rate for an item I bought.",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7482353071669522
+    },
+    {
+      "text": "The ATM didnt return my card!",
+      "label": "card_swallowed",
+      "p_real": 0.7422084485529095
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

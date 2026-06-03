@@ -1,0 +1,24 @@
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple question format, typical of real user queries."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Specific question about a known show, indicative of real-world knowledge."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.8,"reason":"Overly complex and structured; lacks the casual tone of real queries."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Direct question about a historical figure, typical of real inquiries."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Simple and straightforward question, common in real-life contexts."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.75,"reason":"Basic question but lacks nuance; feels more like a prompt."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Direct and factual question about a well-known artist."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Common abbreviation question, typical of real user queries."}
+{"sample_id":"R020","prediction":"real","confidence":0.85,"reason":"Specific question about culinary knowledge, indicative of real interest."}
+{"sample_id":"R011","prediction":"real","confidence":0.8,"reason":"Practical question about accessing information, typical of real users."}
+{"sample_id":"R047","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a university, indicative of real-world context."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Common abbreviation question, typical of real user queries."}
+{"sample_id":"R045","prediction":"real","confidence":0.85,"reason":"Specific historical question, indicative of real-world knowledge."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Direct question about a public figure, typical of real inquiries."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.7,"reason":"Overly detailed and formal; lacks the casual tone of real queries."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Common abbreviation question, typical of real user queries."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Specific abbreviation question, indicative of real-world knowledge."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Common abbreviation question, typical of real user queries."}
+{"sample_id":"R014","prediction":"real","confidence":0.8,"reason":"Direct question about a scientific term, typical of real inquiries."}
+{"sample_id":"R031","prediction":"real","confidence":0.85,"reason":"Specific question about a sports figure, indicative of real-world context."}
+{"sample_id":"R037","prediction":"real","confidence":0.9,"reason":"Direct question about a person, typical of real inquiries."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Common abbreviation question, typical of real user queries."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.75,"reason":"Generic and overly descriptive; lacks the specificity of real queries."}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"Specific historical sports question, indicative of real-world knowledge."}

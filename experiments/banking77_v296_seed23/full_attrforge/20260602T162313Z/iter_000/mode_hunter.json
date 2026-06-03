@@ -1,0 +1,18 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I swear I didn't buy this!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This emphatic expression of disbelief about a charge is absent in the real batch.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I swear I didn't buy this!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This emphatic expression of disbelief about a charge is absent in the real batch.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "repeated use of 'like' as a filler",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "direct requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, to-the-point language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms (e.g., mfa, asap)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'need a [request]')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of technical issues with apps",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific issues or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences indicating strong emotions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned (e.g., checkout, subscription, filters)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct language with minimal emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific software or browser names (e.g., safari, firefox)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or confirmations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on functionality and user experience",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating the problem followed by an emotional response",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of exclamations and rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and casual phrasing (e.g., 'hey', 'like', 'weird')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'help' as a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating the problem followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed directly to the reader or support",
+      "n_pairs_observed": 1
+    }
+  ]
+}

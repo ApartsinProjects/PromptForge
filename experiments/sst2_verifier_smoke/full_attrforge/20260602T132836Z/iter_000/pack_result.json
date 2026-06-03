@@ -1,0 +1,111 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of vague descriptors like 'various sources' and 'a movie to forget'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases that lack specificity or depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures that include a mix of commentary and critique",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency to use overly complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the film' or 'the movie' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrasting statements about pacing and engagement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of subjective evaluations like 'total mess' and 'nice little surprise'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of sarcastic remarks",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative evaluations of films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'total mess' and 'disappointingly subpar'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a critical tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative sentiment towards films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "pacing and plot critiques",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disappointment in visual effects",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of audience disengagement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague descriptors like 'unassuming' and 'grace'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "phrases that include qualifiers like 'very good (but not great)'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "thematic focus on deeper meanings and societal issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of negative descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disjointed thoughts",
+      "n_pairs_observed": 1
+    }
+  ]
+}

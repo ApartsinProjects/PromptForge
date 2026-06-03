@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of attribute values, but there are instances of missing details and some near-duplicate phrasings. The diversity in scenarios is well-represented, yet certain edge cases could be further explored.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "hard difficulty",
+    "edge_case scenario"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique scenarios, especially for edge cases.",
+    "Introduce more variations in phrasing to reduce near-duplicate instances.",
+    "Ensure that all samples include sufficient detail to avoid missing information."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

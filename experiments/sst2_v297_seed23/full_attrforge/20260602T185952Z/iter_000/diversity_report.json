@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a range of intents and styles, but there is significant redundancy in phrasing and surface patterns, particularly in negative reviews. Many texts utilize similar constructions and vocabulary, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "A more neutral or balanced perspective that neither strongly praises nor criticizes the film.",
+    "Unique or unconventional expressions of emotion that diverge from common phrases."
+  ],
+  "overrepresented_modes": [
+    "Negative reviews often use phrases like 'watching paint dry' or 'a chore', creating a repetitive pattern.",
+    "Positive reviews frequently employ the term 'heartfelt' and similar descriptors."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied expressions and metaphors to describe emotional responses.",
+    "Introduce prompts that ask for specific examples or unique aspects of the film to reduce redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

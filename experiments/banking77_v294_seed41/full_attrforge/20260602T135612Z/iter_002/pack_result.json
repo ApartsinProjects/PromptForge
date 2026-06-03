@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i seem to have lost my card.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who can i speak with regarding a lost card?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "there is a payment done with my card which i definitely did not do.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my wallet was stolen, along with my cards.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of elaboration or detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i see a charge on my statement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't recognize it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to top up but it didn't work",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what's going on?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i didn't even make that transaction!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about unexpected charges or declines",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'my card' and 'charges' in various contexts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or concern regarding transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes related to card usage",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i' or 'my'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for action (e.g., freeze, order a new card)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'how do i...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was expecting",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was informed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    }
+  ]
+}

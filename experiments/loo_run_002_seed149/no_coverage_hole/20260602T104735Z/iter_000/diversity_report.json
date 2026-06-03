@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a complete coverage of all attribute values, but there are instances of near-duplicate phrasings and some overrepresented styles. The diversity could be improved by incorporating more edge cases and varying the emotional tone.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "formal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more varied emotional tones to reduce overrepresentation.",
+    "Introduce more edge cases to enhance the diversity of scenarios.",
+    "Ensure that phrasings are distinct to minimize near-duplicates."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

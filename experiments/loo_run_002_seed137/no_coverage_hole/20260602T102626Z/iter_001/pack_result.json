@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressing frustration or confusion about an issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "asking for help or guidance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey there!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing about experiencing issues or problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries and requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey there!' and 'i was wondering if...'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of urgency or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'asap' and 'mfa'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structure focusing on the issue at hand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "opening with a casual greeting",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or frustration about an issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'not sure what to do now' or 'this is just soooo frustrating'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations with excessive detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' or 'hey there!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific issues or complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise inquiries about account features or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in expressing dissatisfaction with services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    }
+  ]
+}

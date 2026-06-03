@@ -1,0 +1,18 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener appears in two synthetic samples but is absent in real samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener appears in two synthetic samples but is absent in real samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

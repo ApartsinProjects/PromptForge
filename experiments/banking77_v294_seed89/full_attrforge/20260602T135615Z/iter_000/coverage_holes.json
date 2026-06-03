@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "what do I need to do if the ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7817691149352584
+    },
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7802663369299565
+    },
+    {
+      "text": "My card has been stolen what do I do?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7741674549500566
+    },
+    {
+      "text": "I have a card payment which shows as pending",
+      "label": "pending_card_payment",
+      "p_real": 0.7715508820465622
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

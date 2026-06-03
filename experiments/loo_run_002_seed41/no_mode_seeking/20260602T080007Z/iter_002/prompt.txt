@@ -1,0 +1,19 @@
+""""""Generate realistic customer support messages that match the requested intent and style, ensuring a diverse range of scenarios, including both common and rare issues. The examples should reflect various intents, such as technical problems, refund requests, and general inquiries, with styles ranging from casual to formal. Keep the messages concise, incorporating realistic noise like typos or informal language for authenticity. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I hope you can help me understand'
+- 'I think someone may have taken over my account'
+- 'I was just shopping online and saw this cute pair of shoes'
+- 'I am really frustrated with your service'
+- "I can't believe this!"
+- 'I keep trying to log in, but it says my password is wrong!'
+- 'I recently encountered an issue that has left me quite dissatisfied'
+- "It's so frustrating because I need it for a project!"
+
+Ensure to include:
+- At least one message indicating a technical problem with medium difficulty and ambiguity.
+- A balanced mix of styles, avoiding excessive emotional tones or fragmented structures.
+- Responses that reflect varying levels of complexity and detail, including edge cases.
+- Avoid near-duplicate phrasings and patterns from previous batches.
+
+Aim for a rich diversity of intents and scenarios, ensuring that the output feels plausible for a customer support channel (email, chat, in-app form) and reflects realistic customer interactions.""""""

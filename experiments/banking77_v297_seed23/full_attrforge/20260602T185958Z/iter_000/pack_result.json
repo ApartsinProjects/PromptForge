@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i would like to report",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am writing to inquire",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you explain why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with minimal variation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "question format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short and direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'why' and 'what' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for updates or explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on transactional problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for explanations or confirmations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dear support, i recently attempted to use my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please guide me on the next steps?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just checked my transaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you explain why i was charged more?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to top up my account, but it wouldn’t go through",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i placed an order earlier today, and i just checked my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you check it?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it still shows that the payment is pending",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i paid with card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "charged a fee",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card payment is being declined",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exchange rate is bad",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do i",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is my new card?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i seem to have lost my card.",
+      "n_pairs_observed": 1
+    }
+  ]
+}

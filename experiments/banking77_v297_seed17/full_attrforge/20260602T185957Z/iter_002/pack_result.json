@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific scenarios involving payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed that...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please help...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's really frustrating...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really upset about this...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory phrases indicating distress or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about fees or charges",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of urgency or worry",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of situations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that seek immediate assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'top-up' and 'card' terminology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'u', 'kno')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or specific examples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated questioning format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions (e.g., 'it's upsetting')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't find my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's really frustrating",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm unsure if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please update me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really worried",
+      "n_pairs_observed": 1
+    }
+  ]
+}

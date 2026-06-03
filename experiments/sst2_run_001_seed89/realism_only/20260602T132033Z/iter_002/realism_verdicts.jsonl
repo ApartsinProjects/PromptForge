@@ -1,0 +1,16 @@
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.8,"reason":"Overly polished language and generic phrasing ('unexpected journey', 'hits you right in the feels') suggest a formulaic construction."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.9,"reason":"Authentic critique with a specific focus on emotional disconnection, indicative of a genuine review."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.85,"reason":"Personal connection expressed in a relatable manner, typical of real audience reactions."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.75,"reason":"Flowery language and metaphor ('gentle embrace', 'soft breeze') feel overly crafted and less spontaneous."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.9,"reason":"Direct and straightforward criticism of special effects, typical of genuine audience feedback."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"Generic positive sentiment ('heartwarming sense of nostalgia') lacks specific detail, suggesting a formulaic response."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.8,"reason":"Humorous and sarcastic tone reflects a personal opinion, characteristic of real reviews."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.75,"reason":"Metaphorical language ('stumbles like a lost wanderer') feels overly dramatic and less authentic."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.85,"reason":"Clear and straightforward critique of visuals, indicative of a genuine viewer's opinion."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.7,"reason":"Exaggerated humor and phrasing ('auditioning for a comedy club') suggest a constructed response."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.8,"reason":"Clichéd comparison ('as unexpected as a sunburn in July') indicates a lack of originality."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"Casual and straightforward expression of enjoyment, typical of real audience feedback."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.85,"reason":"Specific and relatable critique of the film's structure, indicative of a genuine review."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"Concise and direct criticism of performances, characteristic of authentic audience feedback."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"Generic praise ('intricate storytelling') lacks specific detail, suggesting a formulaic construction."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.7,"reason":"Vague language ('tried to evoke emotions') and lack of specific examples suggest a synthetic response."}

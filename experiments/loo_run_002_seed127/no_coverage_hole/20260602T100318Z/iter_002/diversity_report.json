@@ -1,0 +1,19 @@
+{
+  "summary": "The batch demonstrates a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity of scenarios is generally well-represented, though some edge cases could be further explored.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more edge cases, especially for technical problems and complaints.",
+    "Introduce more varied emotional styles, particularly in the context of refund requests and account issues.",
+    "Ensure that rare scenarios are included for all intents, particularly for general questions."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,16 @@
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"Formal, poetic language; aligns with professional critic prose."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.85,"reason":"Concise, critical tone; matches the register of film critique."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.9,"reason":"Descriptive and emotive language; fits the style of professional reviews."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.8,"reason":"Analytical tone; aligns with formal film critique."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.75,"reason":"Casual, informal language; real samples are more formal."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.7,"reason":"Casual tone and phrasing; contrasts with the formal register of real samples."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.65,"reason":"Informal expression; lacks the depth of professional critique."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.85,"reason":"Formal analysis of pacing; consistent with professional review style."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.7,"reason":"Casual exclamation; does not match the formal tone of real samples."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.75,"reason":"Informal language; contrasts with the analytical style of real samples."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing; lacks the sophistication of professional critique."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.65,"reason":"Informal tone; does not align with the formal register of real samples."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"Casual language and phrasing; contrasts with the formal style of real samples."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.75,"reason":"Informal and exaggerated language; does not match the formal register."}
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.7,"reason":"Casual expression; lacks the depth and formality of real samples."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.8,"reason":"Formal critique; aligns with the analytical tone of professional reviews."}

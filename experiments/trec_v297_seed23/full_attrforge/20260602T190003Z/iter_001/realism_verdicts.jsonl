@@ -1,0 +1,24 @@
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.9,"reason":"casual inquiry; real samples are more formal and detailed."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.85,"reason":"misspelled words and informal tone; real samples are more polished."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.8,"reason":"simple factual question; real samples are more complex and analytical."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.75,"reason":"informal phrasing; real samples are more structured."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.7,"reason":"general inquiry; real samples are more specific and academic."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"formal and detailed inquiry; matches the academic style of real samples."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.8,"reason":"simple comparison; real samples are more in-depth."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.85,"reason":"specific academic inquiry; aligns with the formal register of real samples."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.75,"reason":"basic definition request; real samples are more complex."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.7,"reason":"informal tourist inquiry; real samples are more analytical."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.9,"reason":"trivial question; real samples are more substantial."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.95,"reason":"detailed and formal inquiry; fits the academic style of real samples."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"simple factual question; real samples are more complex."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.85,"reason":"informal and simplistic; real samples are more sophisticated."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.9,"reason":"formal inquiry into political systems; matches the academic style."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.85,"reason":"formal and analytical question; aligns with the identified register."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"complex comparative analysis; fits the academic style of real samples."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.9,"reason":"detailed inquiry with context; matches the formal register."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.85,"reason":"formal comparative analysis; aligns with the academic style."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.8,"reason":"simple comparison; real samples are more in-depth."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.75,"reason":"informal tone and request for simplification; real samples are more formal."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.85,"reason":"misspelled word and informal tone; real samples are more polished."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"formal comparative analysis; fits the academic style of real samples."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.95,"reason":"detailed inquiry into renewable energy; matches the formal register."}

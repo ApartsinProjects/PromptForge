@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there are notable patterns in phrasing and structure, particularly in emotional and informal styles. Several texts also share similar sentence constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal inquiries with specific details about transaction processes",
+    "concise requests for urgent assistance in a professional tone",
+    "fragmented expressions of frustration without emotional embellishment"
+  ],
+  "overrepresented_modes": [
+    "emotional expressions of frustration regarding payments",
+    "informal requests for help with card issues",
+    "concise questions about card functionality"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that incorporate more varied sentence structures and vocabulary, especially in formal and fragmented styles.",
+    "Include scenarios that reflect unique or less common situations related to card usage, such as specific merchant disputes or unusual transaction errors.",
+    "Diversify emotional expressions by including calm inquiries alongside frustrated ones to balance the emotional tone."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

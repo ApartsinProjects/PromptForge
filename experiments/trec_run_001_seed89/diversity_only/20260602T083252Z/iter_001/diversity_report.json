@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of attributes with no missing modes. However, there are some near-duplicate phrasings and a few overrepresented modes that could be addressed for improved diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "locations",
+    "medium difficulty",
+    "informal style"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing in the generator to reduce near-duplicates.",
+    "Introduce additional scenarios or contexts for the 'locations' intent to enhance variety.",
+    "Consider varying the difficulty levels more evenly across different intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

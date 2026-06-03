@@ -1,0 +1,21 @@
+{
+  "summary": "The batch exhibits a good variety of attributes across all categories, but there are some near-duplicate phrasings and a lack of edge cases. The overall diversity is satisfactory, yet improvements can be made.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "sarcastic",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Incorporate more edge cases in scenarios to enhance diversity, especially in difficult and rare combinations."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

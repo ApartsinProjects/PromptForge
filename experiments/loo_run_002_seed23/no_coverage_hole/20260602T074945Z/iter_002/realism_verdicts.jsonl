@@ -1,0 +1,24 @@
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"Natural expression of frustration with a personal touch, includes uncertainty about setup."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue described with a clear context, typical of user complaints."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Direct and concise description of a technical problem, realistic user experience."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Clear expression of dissatisfaction with a specific timeframe, common in customer service interactions."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Simple inquiry about billing, straightforward and typical of customer questions."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Frustration over delayed shipping, relatable and realistic customer concern."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"Overly polished language and structure, lacks the typical noise of real-world complaints."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Direct request for a refund, typical of customer service interactions."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Simple and clear inquiry about discounts, realistic customer question."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.75,"reason":"Overly emotional and structured, lacks the spontaneity of real complaints."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear request, typical of user support queries."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Describes a common issue with urgency, realistic user experience."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Polished language and vague phrasing, lacks the urgency and specificity of real complaints."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct and clear demand for a refund, typical of customer dissatisfaction."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"Expresses long-term customer frustration, realistic and relatable."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.9,"reason":"Concise request for a refund, typical of customer service interactions."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.65,"reason":"Technical inquiry lacks personal touch and feels overly formal."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Expresses frustration in a relatable manner, typical of customer complaints."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue described, realistic user experience."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.9,"reason":"Expresses frustration with a specific issue, relatable and realistic."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured, lacks the spontaneity of real user inquiries."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Describes a common issue with account management, realistic user experience."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.9,"reason":"Direct and urgent request for assistance, typical of customer complaints."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear context, typical of user complaints."}

@@ -1,0 +1,16 @@
+{"sample_id":"target_00007","prediction":"real","confidence":0.9,"reason":"Formal review style; sophisticated vocabulary and complex sentence structure."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.8,"reason":"Casual viewer voice; real samples are professional critic prose."}
+{"sample_id":"target_00015","prediction":"real","confidence":0.85,"reason":"Formal review style; emotive language and complex sentence structure."}
+{"sample_id":"target_00010","prediction":"real","confidence":0.9,"reason":"Formal review style; intricate vocabulary and structured analysis."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.75,"reason":"Casual language; real samples are more formal and analytical."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.85,"reason":"Formal review style; detailed critique with complex sentence structure."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.8,"reason":"Casual viewer voice; real samples are professional critic prose."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.75,"reason":"Casual language; real samples are more formal and analytical."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing; lacks the depth and formality of real samples."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.8,"reason":"Formal review style; critical analysis with sophisticated vocabulary."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Casual tone; real samples are more formal and structured."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.7,"reason":"Casual language; lacks the depth and formality of real samples."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.8,"reason":"Formal review style; critical and analytical language."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.75,"reason":"Casual phrasing; lacks the depth and formality of real samples."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.85,"reason":"Formal review style; structured critique with complex sentence structure."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.9,"reason":"Formal review style; sophisticated vocabulary and structured analysis."}

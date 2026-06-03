@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, ambiguities, styles, noise types, and scenario types. However, there are instances of near-duplicate phrasings and some missing edge cases.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "medium difficulty",
+    "numeric values intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more edge cases for numeric values and human beings.",
+    "Diversify the difficulty levels by including more 'hard' and 'easy' samples.",
+    "Reduce the frequency of informal style to balance with more formal and concise styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

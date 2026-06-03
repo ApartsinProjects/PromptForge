@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity across various intents and styles; however, there are notable patterns in phrasing and structure that lead to nuance-level redundancy, particularly in informal and emotional styles. Several texts also share similar sentence constructions, which diminishes the overall richness of the dataset.",
+  "missing_modes": [
+    "formal concise inquiries",
+    "emotional verbose expressions",
+    "medium difficulty scenarios with clean noise"
+  ],
+  "overrepresented_modes": [
+    "informal style with fragmented sentences",
+    "emotional expressions regarding lost or stolen cards",
+    "formal inquiries about card arrival and payment issues"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary, especially for emotional and informal styles.",
+    "Include more edge cases and rare scenarios to enhance the diversity of intents, particularly in formal and concise styles.",
+    "Reduce reliance on common phrases and templates by prompting for unique expressions in each scenario."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,16 @@
+{"sample_id":"target_00030","prediction":"real","confidence":0.95,"reason":"Formal review style; aligns with professional film critique."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"Formal critique language; consistent with the identified distribution."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.95,"reason":"Professional tone and structure; matches the formal review style."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"Formal analysis; aligns with the professional critique register."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.92,"reason":"Formal and reflective language; consistent with professional film reviews."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.85,"reason":"Casual and overly simplistic language; real samples are more nuanced."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.8,"reason":"Casual and hyperbolic tone; does not match the formal critique style."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.88,"reason":"Poetic and formal language; aligns with the identified distribution."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.75,"reason":"Casual and vague language; lacks the depth of real samples."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"Formal and reflective tone; consistent with professional reviews."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.9,"reason":"Formal critique language; aligns with the identified distribution."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.93,"reason":"Formal and evocative language; matches the professional critique style."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.8,"reason":"Casual and simplistic expression; does not match the formal register."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.85,"reason":"Casual and negative tone; lacks the sophistication of real samples."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.87,"reason":"Formal and poetic language; aligns with the identified distribution."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"Formal critique language; consistent with the professional review style."}

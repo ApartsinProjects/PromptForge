@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what do i do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i topped up but",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card has gone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why is it failing to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, detailed inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal greetings and closings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hi there' or 'dear customer support'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of exclamatory statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of personal anecdotes or specific recent events",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple declarative sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short and direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think i lost my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you check that for me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "also, can you check if my last transaction is okay?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive detail in descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was charged",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think that my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "there is a payment i don't recognize",
+      "n_pairs_observed": 1
+    }
+  ]
+}

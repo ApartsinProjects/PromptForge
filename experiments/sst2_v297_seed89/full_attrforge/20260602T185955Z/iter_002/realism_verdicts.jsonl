@@ -1,0 +1,24 @@
+{"sample_id":"target_00060","prediction":"synthetic","confidence":0.9,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00069","prediction":"synthetic","confidence":0.9,"reason":"casual sarcasm; real samples are more formal and critical"}
+{"sample_id":"target_00049","prediction":"real","confidence":0.95,"reason":"formal analysis; aligns with the identified register of professional critique"}
+{"sample_id":"target_00048","prediction":"real","confidence":0.95,"reason":"formal and critical language; matches the professional review style"}
+{"sample_id":"target_00067","prediction":"synthetic","confidence":0.85,"reason":"casual language; real samples are more formal and detailed"}
+{"sample_id":"target_00047","prediction":"real","confidence":0.95,"reason":"formal praise; consistent with the professional critique style"}
+{"sample_id":"target_00059","prediction":"synthetic","confidence":0.9,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00050","prediction":"real","confidence":0.95,"reason":"formal critique; aligns with the identified register of professional review"}
+{"sample_id":"target_00068","prediction":"real","confidence":0.95,"reason":"formal praise; consistent with the professional critique style"}
+{"sample_id":"target_00054","prediction":"real","confidence":0.9,"reason":"formal critique; aligns with the identified register of professional review"}
+{"sample_id":"target_00062","prediction":"synthetic","confidence":0.85,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00053","prediction":"real","confidence":0.9,"reason":"formal critique; aligns with the identified register of professional review"}
+{"sample_id":"target_00056","prediction":"real","confidence":0.95,"reason":"formal analysis; aligns with the identified register of professional critique"}
+{"sample_id":"target_00058","prediction":"synthetic","confidence":0.9,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00052","prediction":"synthetic","confidence":0.85,"reason":"casual language; real samples are more formal and detailed"}
+{"sample_id":"target_00061","prediction":"synthetic","confidence":0.9,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00064","prediction":"real","confidence":0.95,"reason":"formal and descriptive language; matches the professional review style"}
+{"sample_id":"target_00055","prediction":"real","confidence":0.9,"reason":"formal critique; aligns with the identified register of professional review"}
+{"sample_id":"target_00051","prediction":"real","confidence":0.9,"reason":"formal analysis; aligns with the identified register of professional critique"}
+{"sample_id":"target_00063","prediction":"real","confidence":0.95,"reason":"formal and detailed critique; matches the professional review style"}
+{"sample_id":"target_00065","prediction":"synthetic","confidence":0.85,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00057","prediction":"synthetic","confidence":0.9,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00066","prediction":"synthetic","confidence":0.85,"reason":"casual tone; real samples are more formal and analytical"}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.85,"reason":"casual tone; real samples are more formal and analytical"}

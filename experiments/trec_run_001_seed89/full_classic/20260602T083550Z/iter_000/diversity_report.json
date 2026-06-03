@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, ambiguities, styles, noise types, and scenario types. However, there are some issues with missing details and overrepresented modes that could be addressed for improved diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "high ambiguity"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse styles, particularly formal and verbose, to balance the overrepresentation of fragmented style.",
+    "Introduce more edge cases in the scenarios, especially for rare or less common intents and combinations.",
+    "Ensure that all samples include sufficient detail to avoid missing details, particularly in definitions and comparisons."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "summary": "The batch demonstrates a good variety of attributes across all categories, but there are notable instances of near-duplicate phrasings and some missing edge cases. The overall diversity is satisfactory, yet improvements can be made to enhance uniqueness.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "poetic",
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more unique phrasing and avoid common expressions in the text generation process.",
+    "Introduce more edge cases in the scenarios, particularly in the 'emotion' and 'story_plot' categories."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

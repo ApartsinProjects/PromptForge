@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.0,
+  "macro_f1": 0.0,
+  "per_class_f1": {},
+  "per_class_support": {},
+  "confusion": {},
+  "n_train": 16,
+  "n_test": 10,
+  "label_set": [
+    "account_issue",
+    "complaint",
+    "general_question",
+    "refund_request",
+    "technical_problem"
+  ],
+  "notes": "classifier failed to fit: Unable to allocate 1.01 MiB for an array with shape (131805,) and data type float64",
+  "iteration": 1
+}

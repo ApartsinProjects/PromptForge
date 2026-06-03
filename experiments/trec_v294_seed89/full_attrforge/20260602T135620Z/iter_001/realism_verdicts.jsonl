@@ -1,0 +1,16 @@
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.85,"reason":"casual inquiry; real samples are more formal and structured."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.9,"reason":"formal inquiry about scientific contributions; aligns with academic style."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"formal educational inquiry; matches the academic register."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.85,"reason":"formal inquiry about literature; consistent with academic style."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.8,"reason":"simple definition request; lacks depth expected in real samples."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"detailed inquiry; aligns with formal educational context."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.85,"reason":"formal inquiry about cultural significance; matches academic style."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.9,"reason":"formal inquiry into psychological theories; aligns with academic register."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.75,"reason":"informal phrasing; lacks the depth of real samples."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.85,"reason":"formal inquiry into technology; consistent with academic style."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"formal comparison of historical figures; aligns with academic inquiry."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.85,"reason":"formal geographical comparison; matches academic style."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.9,"reason":"comprehensive definition request; aligns with formal educational context."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.85,"reason":"formal inquiry into geopolitics; consistent with academic style."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"detailed explanation request; aligns with formal academic inquiry."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.7,"reason":"simple definition request; lacks depth expected in real samples."}

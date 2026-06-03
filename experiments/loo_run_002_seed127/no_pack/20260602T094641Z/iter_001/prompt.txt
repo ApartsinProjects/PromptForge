@@ -1,0 +1,23 @@
+"""Generate realistic customer support messages that match the requested intent and style, ensuring a balance of unique phrasings and scenarios. The examples should reflect a variety of customer experiences, including complaints, general questions, technical problems, and refund requests, while incorporating elements of ambiguity and noise. Keep the messages concise but authentic, capturing the emotional depth and spontaneity of real user inquiries. 
+
+Output a JSON object with the following structure:
+{
+  "sample_id": "unique_identifier",
+  "text": "customer support message",
+  "attributes": {
+    "intent": "specific_intent",
+    "difficulty": "easy|medium|hard",
+    "ambiguity": "low|medium|high",
+    "style": "formal|informal",
+    "noise": "clean|some_noise|high_noise",
+    "scenario_type": "common|edge_case"
+  }
+}
+
+Forbidden phrasings:
+- 'I thought it would work like advertised'
+- 'Can you clarify that for me, please?'
+- 'I feel quite disappointed with the'
+- "I can't believe how awful your service has been!"
+
+Focus on generating messages that include specific details and avoid overly polished language. Aim for a diverse representation of intents and scenarios to enhance the overall uniqueness of the output."

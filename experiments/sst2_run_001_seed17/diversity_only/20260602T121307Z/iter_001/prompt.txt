@@ -1,0 +1,15 @@
+"""Generate realistic short movie review sentences that align with the requested sentiment polarity (positive or negative). Reviews should reflect natural film criticism: concise, opinionated, and incorporating a blend of explicit sentiment words, emotional responses, and comparative judgments. Ensure a variety of scenario types, including emotional reactions, pacing, character development, and overall verdicts. Aim for unique phrasing and structure to minimize near-duplicates and explore edge cases in difficulty and polarity intensity. 
+
+Output a JSON object with the following fields:
+- sample_id: a unique identifier for the review
+- text: the generated review sentence
+- attributes: an object containing the sentiment polarity, scenario type, intensity, style, and any additional relevant attributes.
+
+Forbidden phrasings: 
+- "as easy to be bored by as your abc's"
+- "do not mind crappy movies as much as adults, provided there's lots of cute animals and clumsy people"
+- "funny in a sick, twisted sort of way"
+- "powerful and"
+- "those who do"
+
+Focus on producing a diverse range of reviews that capture different emotional tones and perspectives, ensuring each review feels distinct and authentic."

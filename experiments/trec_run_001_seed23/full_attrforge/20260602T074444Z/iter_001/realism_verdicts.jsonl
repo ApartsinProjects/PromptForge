@@ -1,0 +1,24 @@
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Direct question about a specific historical fact, typical of real inquiries."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"Simple factual question, straightforward and typical of real-world queries."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Concise and specific question about a geographical fact."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.8,"reason":"Overly structured and lacks real-world context; feels like a generated question."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Technical question that reflects genuine inquiry into a programming concept."}
+{"sample_id":"R038","prediction":"real","confidence":0.85,"reason":"Specific request for a list, typical of real educational inquiries."}
+{"sample_id":"R032","prediction":"real","confidence":0.9,"reason":"Direct and simple question about a location, typical of real-world inquiries."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Specific factual question about a chemical compound, typical of real inquiries."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.7,"reason":"Generic question structure; lacks depth and context."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and structured; lacks the nuance of a real inquiry."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and clear question about a common abbreviation."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical question, typical of real-world inquiries."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.8,"reason":"Casual language and structure suggest a generated question."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Direct question about a historical figure, typical of real inquiries."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"Specific question about literature, typical of real-world inquiries."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Practical question about accessing information, typical of real inquiries."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.75,"reason":"Casual phrasing and structure suggest a generated question."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Direct question about an astronomical term, typical of real inquiries."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and verbose; lacks the nuance of a real inquiry."}
+{"sample_id":"R047","prediction":"real","confidence":0.9,"reason":"Specific factual question about a university, typical of real inquiries."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"Generic and vague question structure; lacks depth."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Direct question about a historical figure, typical of real inquiries."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.75,"reason":"Casual language and vague phrasing suggest a generated question."}
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Specific scientific question, typical of real-world inquiries."}

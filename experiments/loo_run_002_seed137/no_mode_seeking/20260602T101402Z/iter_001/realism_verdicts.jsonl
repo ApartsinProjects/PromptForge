@@ -1,0 +1,24 @@
+{"sample_id":"target_00032","prediction":"real","confidence":0.9,"reason":"Natural phrasing and specific request indicate a genuine user inquiry."}
+{"sample_id":"R001","prediction":"synthetic","confidence":0.7,"reason":"Overly concise and lacks personal touch; feels like a template."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.8,"reason":"Direct and abrupt language suggests a lack of emotional nuance."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.85,"reason":"Casual tone and specific frustration indicate a real user experience."}
+{"sample_id":"R016","prediction":"synthetic","confidence":0.75,"reason":"Lacks detail and emotional context; feels like a generic complaint."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.8,"reason":"Direct and formulaic structure suggests a template response."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"Personalized account issue with specific details indicates a real user."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.7,"reason":"Generic inquiry about features lacks personal context."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.75,"reason":"Straightforward complaint without emotional depth."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.8,"reason":"Technical issue phrased in a very clinical manner."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.85,"reason":"Casual language and urgency suggest a real user issue."}
+{"sample_id":"R012","prediction":"synthetic","confidence":0.7,"reason":"Lacks personal touch; feels like a standard recovery request."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.75,"reason":"Technical issue presented in a very straightforward manner."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint about features lacking personal context."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.65,"reason":"Very straightforward question lacking emotional nuance."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Detailed personal experience with emotional context indicates a real user."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"Specific frustrations and personal details suggest a genuine user inquiry."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Formal inquiry lacking personal context; feels like a template."}
+{"sample_id":"R023","prediction":"synthetic","confidence":0.75,"reason":"Generic complaint without emotional depth."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.8,"reason":"Technical issue presented in a very clinical manner."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"Casual tone and specific detail indicate a real user experience."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"Vague but relatable issue suggests a real user experience."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.85,"reason":"Personal anecdote and emotional context indicate a real user."}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.7,"reason":"Direct complaint lacking personal context; feels like a template."}

@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "as easy to be bored by as your abc 's",
+      "label": "negative",
+      "p_real": 0.6761993475853488
+    },
+    {
+      "text": "powerful and",
+      "label": "positive",
+      "p_real": 0.6722281582743662
+    },
+    {
+      "text": "do n't mind crappy movies as much as adults , provided there 's lots of cute animals and clumsy people",
+      "label": "negative",
+      "p_real": 0.6719994330837391
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6707788859043881
+    },
+    {
+      "text": "those who do",
+      "label": "positive",
+      "p_real": 0.6706963113242889
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

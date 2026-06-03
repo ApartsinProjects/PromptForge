@@ -1,0 +1,17 @@
+""""""Generate realistic banking customer-support messages that align with the requested intent and style. The messages should be plausible for a customer support channel (email, chat, in-app form) and vary in tone from formal inquiries to emotional expressions. Ensure clarity and avoid ambiguity in intent. Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "I think that my card has been stolen!"
+- "There is a single payment on my card which shows as pending."
+- "How can I get my card to work?"
+- "The ATM kept my card?"
+
+**Forbidden phrasings:**
+- "I would like to report"
+- "Could you please"
+- "I am writing to inquire"
+- "I attempted to"
+- "Can you explain why"
+- "I'm really upset because"
+
+Focus on generating messages that cover a range of scenarios, including edge cases and medium difficulty situations. Incorporate varied sentence structures and vocabulary to enhance diversity. Aim for messages that reflect a formal tone for inquiries while also allowing for emotional expressions in appropriate contexts. Include concise inquiries without emotional language and fragmented styles that convey urgency or confusion. Ensure that each message is concise yet informative, maintaining a balance between clarity and detail, while also providing detailed explanations or technical clarifications when necessary."""""

@@ -1,0 +1,37 @@
+{
+  "run_dir": "E:\\Projects\\PromptForge\\experiments\\sst2_smoke\\naive\\20260602T120326Z",
+  "n_iterations": 1,
+  "final_prompt_version": 0,
+  "metric_history": [
+    {
+      "iteration": 0.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.5,
+      "synthetic_detection_rate": 0.5,
+      "near_duplicate_rate": 0.0,
+      "combination_coverage": 0.5,
+      "entropy/intent": 0.8112781244591328,
+      "entropy/difficulty": 0.6309297535714574,
+      "entropy/polarity_intensity": 0.946394630357186,
+      "entropy/style": 0.43067655807339306,
+      "entropy/noise": 0.5,
+      "entropy/scenario_type": 0.5802792108518123,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 0.6666666666666666,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 0.4,
+      "coverage/noise": 0.5,
+      "coverage/scenario_type": 0.5
+    }
+  ],
+  "prompt_history": [
+    {
+      "version": 0,
+      "iteration": 0,
+      "prompt": "Generate realistic short movie review sentences that match the requested\nsentiment polarity (positive or negative). Reviews should sound like\nnatural film criticism: short, opinionated, using a mix of explicit\nsentiment words and comparative judgments. Match the requested style,\nintensity, and scenario type. Output a JSON object with the sample id,\nthe text, and the attribute values.\n",
+      "motivation": "initial prompt",
+      "feedback_summary": {},
+      "timestamp": "2026-06-02T12:03:26.615934+00:00"
+    }
+  ]
+}

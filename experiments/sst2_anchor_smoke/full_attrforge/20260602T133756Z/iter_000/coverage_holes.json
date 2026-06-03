@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "good-natured fun found in films like tremors",
+      "label": "positive",
+      "p_real": 0.68729813632625
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.686844897453561
+    },
+    {
+      "text": "a long shot",
+      "label": "negative",
+      "p_real": 0.6856319760267556
+    },
+    {
+      "text": "unassuming",
+      "label": "negative",
+      "p_real": 0.6828485009124263
+    },
+    {
+      "text": "substantial or fresh",
+      "label": "positive",
+      "p_real": 0.6818437164096064
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

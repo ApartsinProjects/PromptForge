@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I'm feeling a bit lost",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique expression of confusion does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I believe I was charged for a service I did not intend to purchase",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing regarding unintended charges is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Honestly, I'm quite upset",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This emotional opener is distinct and not present in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "The ongoing lack of resolution regarding my previous complaints",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal and complex structure is not reflected in the real samples.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I can't believe I was charged twice",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about being charged twice does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I realized too late that my subscription was renewed",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique expression regarding subscription renewal is absent in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "This experience has been beyond frustrating!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The emotional intensity and specific wording of frustration is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "just wondering if your api has like a limit",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual phrasing and context about API limits is not present in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I'm feeling a bit lost",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique expression of confusion does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I believe I was charged for a service I did not intend to purchase",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing regarding unintended charges is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Honestly, I'm quite upset",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This emotional opener is distinct and not present in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "The ongoing lack of resolution regarding my previous complaints",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal and complex structure is not reflected in the real samples.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

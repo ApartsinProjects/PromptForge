@@ -1,0 +1,194 @@
+{
+  "condition": "few_shot",
+  "label": "few_shot",
+  "iterations": 1,
+  "samples_per_iteration": 16,
+  "total_samples": 16,
+  "wall_time_seconds": 37.23904824256897,
+  "final_prompt_version": 0,
+  "final_metrics": {
+    "iteration": 0.0,
+    "attribute_match_rate": 0.0,
+    "discriminator_accuracy": 0.5,
+    "synthetic_detection_rate": 0.5,
+    "near_duplicate_rate": 0.0,
+    "combination_coverage": 0.5555555555555556,
+    "entropy/intent": 0.9218145574751188,
+    "entropy/difficulty": 0.8957541375001009,
+    "entropy/ambiguity": 0.9497012164384108,
+    "entropy/style": 0.9283832117695864,
+    "entropy/noise": 0.902518266288633,
+    "entropy/scenario_type": 0.8246987351738496,
+    "coverage/intent": 1.0,
+    "coverage/difficulty": 1.0,
+    "coverage/ambiguity": 1.0,
+    "coverage/style": 1.0,
+    "coverage/noise": 1.0,
+    "coverage/scenario_type": 1.0
+  },
+  "per_iter_downstream": [
+    {
+      "accuracy": 0.25,
+      "macro_f1": 0.1619047619047619,
+      "per_class_f1": {
+        "abbreviation": 0.0,
+        "description_and_abstract_concepts": 0.0,
+        "entities": 0.0,
+        "human_beings": 0.5714285714285715,
+        "locations": 0.0,
+        "numeric_values": 0.4
+      },
+      "per_class_support": {
+        "abbreviation": 2,
+        "description_and_abstract_concepts": 2,
+        "entities": 2,
+        "human_beings": 2,
+        "locations": 2,
+        "numeric_values": 2
+      },
+      "confusion": {
+        "abbreviation": {
+          "abbreviation": 0,
+          "description_and_abstract_concepts": 0,
+          "entities": 0,
+          "human_beings": 0,
+          "locations": 0,
+          "numeric_values": 2
+        },
+        "description_and_abstract_concepts": {
+          "abbreviation": 1,
+          "description_and_abstract_concepts": 0,
+          "entities": 0,
+          "human_beings": 0,
+          "locations": 1,
+          "numeric_values": 0
+        },
+        "entities": {
+          "abbreviation": 1,
+          "description_and_abstract_concepts": 0,
+          "entities": 0,
+          "human_beings": 1,
+          "locations": 0,
+          "numeric_values": 0
+        },
+        "human_beings": {
+          "abbreviation": 0,
+          "description_and_abstract_concepts": 0,
+          "entities": 0,
+          "human_beings": 2,
+          "locations": 0,
+          "numeric_values": 0
+        },
+        "locations": {
+          "abbreviation": 1,
+          "description_and_abstract_concepts": 0,
+          "entities": 0,
+          "human_beings": 1,
+          "locations": 0,
+          "numeric_values": 0
+        },
+        "numeric_values": {
+          "abbreviation": 0,
+          "description_and_abstract_concepts": 0,
+          "entities": 0,
+          "human_beings": 1,
+          "locations": 0,
+          "numeric_values": 1
+        }
+      },
+      "n_train": 16,
+      "n_test": 12,
+      "label_set": [
+        "abbreviation",
+        "description_and_abstract_concepts",
+        "entities",
+        "human_beings",
+        "locations",
+        "numeric_values"
+      ],
+      "notes": "",
+      "iteration": 0
+    }
+  ],
+  "final_downstream": {
+    "accuracy": 0.25,
+    "macro_f1": 0.1619047619047619,
+    "per_class_f1": {
+      "abbreviation": 0.0,
+      "description_and_abstract_concepts": 0.0,
+      "entities": 0.0,
+      "human_beings": 0.5714285714285715,
+      "locations": 0.0,
+      "numeric_values": 0.4
+    },
+    "per_class_support": {
+      "abbreviation": 2,
+      "description_and_abstract_concepts": 2,
+      "entities": 2,
+      "human_beings": 2,
+      "locations": 2,
+      "numeric_values": 2
+    },
+    "confusion": {
+      "abbreviation": {
+        "abbreviation": 0,
+        "description_and_abstract_concepts": 0,
+        "entities": 0,
+        "human_beings": 0,
+        "locations": 0,
+        "numeric_values": 2
+      },
+      "description_and_abstract_concepts": {
+        "abbreviation": 1,
+        "description_and_abstract_concepts": 0,
+        "entities": 0,
+        "human_beings": 0,
+        "locations": 1,
+        "numeric_values": 0
+      },
+      "entities": {
+        "abbreviation": 1,
+        "description_and_abstract_concepts": 0,
+        "entities": 0,
+        "human_beings": 1,
+        "locations": 0,
+        "numeric_values": 0
+      },
+      "human_beings": {
+        "abbreviation": 0,
+        "description_and_abstract_concepts": 0,
+        "entities": 0,
+        "human_beings": 2,
+        "locations": 0,
+        "numeric_values": 0
+      },
+      "locations": {
+        "abbreviation": 1,
+        "description_and_abstract_concepts": 0,
+        "entities": 0,
+        "human_beings": 1,
+        "locations": 0,
+        "numeric_values": 0
+      },
+      "numeric_values": {
+        "abbreviation": 0,
+        "description_and_abstract_concepts": 0,
+        "entities": 0,
+        "human_beings": 1,
+        "locations": 0,
+        "numeric_values": 1
+      }
+    },
+    "n_train": 16,
+    "n_test": 12,
+    "label_set": [
+      "abbreviation",
+      "description_and_abstract_concepts",
+      "entities",
+      "human_beings",
+      "locations",
+      "numeric_values"
+    ],
+    "notes": ""
+  }
+}

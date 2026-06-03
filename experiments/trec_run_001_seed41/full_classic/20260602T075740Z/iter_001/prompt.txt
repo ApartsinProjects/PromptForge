@@ -1,0 +1,8 @@
+ 
+Generate realistic open-domain English questions that align with the requested TREC question-type category. Each example should be a single complete question that ends with a question mark and reflects what a user might ask in an open-domain QA system. Ensure the question incorporates specific entities, locations, or numeric values to enhance realism and context. Vary the difficulty level to include easy, medium, and challenging questions, and introduce ambiguity where appropriate. Aim for a mix of formal and informal styles, avoiding overly simplistic or generic phrasing. Include potential noise elements such as typos, missing details, or irrelevant details to enrich the dataset. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings: 
+- Avoid overly formal language.
+- Do not use generic or simplistic questions.
+- Refrain from including typos or spelling errors.
+

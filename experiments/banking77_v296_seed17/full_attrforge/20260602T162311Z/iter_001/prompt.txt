@@ -1,0 +1,13 @@
+"""Generate realistic banking customer-support messages that match the requested intent and style. The example should be plausible for a customer support channel (email, chat, in-app form). Keep it concise yet detailed, ensuring a formal tone. Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "What do I do if my card is stolen?"
+- "My card has been stolen, what do I do?"
+- "What do I do if my card gets broken?"
+- "What do I need to do if the ATM kept my card?"
+
+**Forbidden phrasings:**
+- Avoid casual language and informal structures.
+- Do not use phrases like "Can you help?" or "What should I do?" excessively.
+
+Ensure that the generated messages cover a variety of emotional tones, including urgency and concern, while maintaining clarity. Introduce scenarios that involve complex interactions or multi-step issues to enhance diversity. Aim for unique sentence structures and vocabulary to reduce redundancy. Each message should clearly express the intent, scenario type, and difficulty level without ambiguity. The output should reflect a range of customer experiences, from simple inquiries to more complex issues, while adhering to the formal style typical of customer support communications."""

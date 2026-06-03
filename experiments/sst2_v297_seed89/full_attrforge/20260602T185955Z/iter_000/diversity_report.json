@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and surface patterns, particularly in sarcastic and poetic styles. Many samples utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "A more straightforward, plain English style that avoids embellishment.",
+    "A mix of different emotional tones within the same intent category, such as contrasting feelings in positive reviews."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic expressions, particularly in negative reviews.",
+    "Poetic descriptions that often follow similar structures and imagery."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary to reduce redundancy.",
+    "Incorporate prompts that specifically request unique emotional expressions or contrasting viewpoints within the same intent.",
+    "Introduce a plain English mode to balance the more elaborate styles present in the batch."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

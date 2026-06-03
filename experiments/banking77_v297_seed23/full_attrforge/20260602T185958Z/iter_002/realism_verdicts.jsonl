@@ -1,0 +1,24 @@
+{"sample_id":"target_00060","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal inquiries about card issues"}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples use more complete sentences and formal inquiries"}
+{"sample_id":"R051","prediction":"synthetic","confidence":0.6,"reason":"informal structure; real samples are more structured and detailed"}
+{"sample_id":"R087","prediction":"real","confidence":0.9,"reason":"formal inquiry about payment status; matches real distribution"}
+{"sample_id":"R084","prediction":"real","confidence":0.9,"reason":"formal inquiry about pending payment; matches real distribution"}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"formal inquiry about app settings; matches real distribution"}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"formal complaint about exchange rate; matches real distribution"}
+{"sample_id":"target_00061","prediction":"synthetic","confidence":0.8,"reason":"casual tone and emotional language; real samples are more formal"}
+{"sample_id":"target_00063","prediction":"synthetic","confidence":0.8,"reason":"casual and emotional tone; real samples are more formal"}
+{"sample_id":"R030","prediction":"real","confidence":0.9,"reason":"formal inquiry about unauthorized payment; matches real distribution"}
+{"sample_id":"R036","prediction":"real","confidence":0.9,"reason":"formal inquiry about unrecognized payment; matches real distribution"}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"formal inquiry about card issues; matches real distribution"}
+{"sample_id":"target_00050","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"casual and emotional tone; real samples are more formal"}
+{"sample_id":"target_00051","prediction":"synthetic","confidence":0.8,"reason":"casual tone and emotional language; real samples are more formal"}
+{"sample_id":"R038","prediction":"real","confidence":0.9,"reason":"formal inquiry about suspicious purchase; matches real distribution"}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples are more structured"}
+{"sample_id":"R089","prediction":"real","confidence":0.9,"reason":"formal inquiry about payment availability; matches real distribution"}
+{"sample_id":"target_00049","prediction":"synthetic","confidence":0.8,"reason":"casual tone and emotional language; real samples are more formal"}
+{"sample_id":"R091","prediction":"real","confidence":0.9,"reason":"formal inquiry about top-up issues; matches real distribution"}
+{"sample_id":"R062","prediction":"real","confidence":0.9,"reason":"formal inquiry about card decline; matches real distribution"}
+{"sample_id":"R080","prediction":"real","confidence":0.9,"reason":"formal inquiry about pending payments; matches real distribution"}
+{"sample_id":"R086","prediction":"real","confidence":0.9,"reason":"formal inquiry about pending payment; matches real distribution"}
+{"sample_id":"R055","prediction":"real","confidence":0.9,"reason":"formal statement about ATM issue; matches real distribution"}

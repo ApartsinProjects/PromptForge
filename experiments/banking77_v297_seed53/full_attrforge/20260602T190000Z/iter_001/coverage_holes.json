@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.739152151170105
+    },
+    {
+      "text": "How can I get my card to work?",
+      "label": "card_not_working",
+      "p_real": 0.737655277319733
+    },
+    {
+      "text": "Is my card frozen?",
+      "label": "card_not_working",
+      "p_real": 0.7318770512063165
+    },
+    {
+      "text": "I think that my card has been stolen!",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7307182645677582
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

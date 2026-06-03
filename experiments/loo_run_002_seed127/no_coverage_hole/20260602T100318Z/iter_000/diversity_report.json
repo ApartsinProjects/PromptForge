@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some near-duplicate phrasings and overrepresented styles. Additionally, certain edge cases are underrepresented.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "concise",
+    "common"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing to reduce near-duplicates.",
+    "Include more edge cases in the scenarios to enhance diversity.",
+    "Balance the representation of styles, particularly reducing the frequency of 'concise' and 'common' styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

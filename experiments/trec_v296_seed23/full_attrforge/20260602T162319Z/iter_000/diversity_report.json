@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a variety of intents and scenarios, but there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many texts follow similar patterns, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "More complex or multi-part questions that require deeper analysis or synthesis of information.",
+    "Questions that explore less common or niche topics within each intent category."
+  ],
+  "overrepresented_modes": [
+    "Questions beginning with 'What is' or 'How does', which dominate the phrasing across multiple intents.",
+    "Use of 'compare' in several comparison scenarios, leading to similar structures."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that utilize varied sentence structures and vocabulary to enhance nuance.",
+    "Incorporate prompts that ask for specific examples or case studies to diversify the responses.",
+    "Introduce questions that require critical thinking or opinion-based answers to reduce formulaic responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

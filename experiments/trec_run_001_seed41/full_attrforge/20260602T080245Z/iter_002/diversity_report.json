@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are notable issues with missing details and some near-duplicate phrasings. The diversity of scenarios is well represented, yet certain intents like 'numeric_values' and 'human_beings' show a tendency towards similar phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "human_beings",
+    "abbreviation"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more unique phrasing and scenarios for 'human_beings' and 'abbreviation' intents.",
+    "Include more edge cases or rare examples in the prompts to enhance diversity.",
+    "Ensure that all samples provide sufficient detail to avoid 'missing_details' noise."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

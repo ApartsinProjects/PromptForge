@@ -1,0 +1,27 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity of scenarios is commendable, yet certain styles and intents could benefit from more varied expressions.",
+  "missing_modes": [
+    "No samples for 'technical_problem' in 'formal' style.",
+    "No samples for 'complaint' in 'informal' style.",
+    "No samples for 'general_question' in 'fragmented' style.",
+    "No samples for 'refund_request' in 'verbose' style."
+  ],
+  "overrepresented_modes": [
+    "The 'emotional' style appears frequently across various intents.",
+    "The 'hard' difficulty level is predominant in many samples."
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more varied expressions for the 'technical_problem' intent, especially in 'formal' style.",
+    "Introduce more informal complaints to diversify the emotional range.",
+    "Explore additional phrasing for refund requests to reduce redundancy in emotional and concise styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

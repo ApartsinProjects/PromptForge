@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "polite requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrases (e.g., 'if it’s broken', 'if there is a way')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone and vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or additional context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details like order numbers or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems encountered",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or money back",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'money back'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with product functionality or service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrases (e.g., 'can you clarify?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of interest or intent (e.g., 'i'm really interested in using your services')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite opening with a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'can' or 'is there a way' to pose questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of dissatisfaction or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "thanking the recipient for their help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complaints about service or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for resolution or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a demand or frustration",
+      "n_pairs_observed": 1
+    }
+  ]
+}

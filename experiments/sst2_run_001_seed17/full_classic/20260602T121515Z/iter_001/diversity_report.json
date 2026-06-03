@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of attributes across all categories, but there are instances of near-duplicate phrasings and some overrepresentation of certain styles. Additionally, edge cases and rare combinations are absent.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "sarcastic",
+    "formal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Introduce a wider range of edge cases in scenarios to enhance diversity.",
+    "Balance the representation of styles to avoid overrepresentation of sarcastic and formal styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

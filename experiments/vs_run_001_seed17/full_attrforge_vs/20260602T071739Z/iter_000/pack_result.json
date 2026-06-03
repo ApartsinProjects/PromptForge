@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.86875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of informal language and slang (e.g., 'totally outta whack', 'u help?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with emotional undertones",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions to express uncertainty or seek assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise descriptions of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for resolution or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about the issue (e.g., timeframes, error codes)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'do you' or 'any chance'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues related to account access or app functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "structured sentences with clear context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and complete sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about features or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complaints about product functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, blunt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and slang (e.g., 'weird prob', 'outta whack', 'u help?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account issues or order problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements (e.g., 'order issues!', 'any idea what’s up?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with a personal experience or issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues related to account access or functionality",
+      "n_pairs_observed": 1
+    }
+  ]
+}

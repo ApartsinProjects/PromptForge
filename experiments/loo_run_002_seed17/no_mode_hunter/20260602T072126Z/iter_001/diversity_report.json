@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a strong coverage of attributes, but there are some missing modes in the 'intent' and 'style' categories. Additionally, there are near-duplicate phrasings and some overrepresented styles.",
+  "missing_modes": [
+    "account_issue",
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "rare"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse intents, particularly 'account_issue' and 'verbose' styles.",
+    "Reduce the frequency of informal and rare scenarios to balance the diversity of styles and scenarios."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

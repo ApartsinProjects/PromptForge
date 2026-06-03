@@ -1,0 +1,127 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.90625,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "lack of detailed context or emotional expression",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i was wondering",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "there is/are",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think there's",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just checked",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "payment on my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' and 'hello'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for clarification or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing around card delivery and fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion about card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and slang (e.g., 'ain't', 'any ideas why')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed sentences expressing stress or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of asking for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual greetings (e.g., 'hey') at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i'm really' at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of emotional language (e.g., 'stressed', 'worried')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar phrasing around payment issues (e.g., 'pending', 'not working')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'pending payment'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and exclamations (e.g., 'oh my god', 'can you please')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or action (e.g., 'can you please freeze it for me?', 'what should i do?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences with missing punctuation or grammatical errors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in expressing concern about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or solutions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 1
+    }
+  ]
+}

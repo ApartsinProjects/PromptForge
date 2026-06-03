@@ -1,0 +1,19 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some concerns regarding the presence of typos and irrelevant details in several entries. Additionally, there are instances of high ambiguity across multiple intents, particularly in numeric values and human beings.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Consider adding more edge cases or rare scenarios to enhance diversity.",
+    "Review the entries for clarity and relevance to minimize noise from irrelevant details."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

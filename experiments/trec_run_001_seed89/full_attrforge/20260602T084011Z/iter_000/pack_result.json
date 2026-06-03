@@ -1,0 +1,87 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "inconsistent capitalization and punctuation",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions starting with 'what' or 'how'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and typos",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on definitions and comparisons",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how does...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are the...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how does' or 'what is'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and typos (e.g., 'aare', 'wat', 'abbrvations')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on comparisons and definitions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how does' or 'what does'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "comparative structures in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific examples or entities in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how does [subject] compare to [subject]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what kind of [noun] are in [place]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who is the founder of [company]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what [subject] [verb] [object]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about historical figures or events",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific names or terms in questions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

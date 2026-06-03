@@ -1,0 +1,167 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.90625,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of simple sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "formal request structure",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i am",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would appreciate",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "request a refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the item did not meet my expectations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this level of unresponsiveness",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "attempting to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and brevity in communication",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal greetings or closings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing such as 'want a refund' or 'need help'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or stress",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conditional statements about refunds or returns",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'i think' or 'maybe'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or stress",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers like 'i think' or 'maybe not'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language (e.g., 'i feel so lost right now')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conditional phrasing (e.g., 'i think', 'maybe not')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i’m really frustrated' or similar sentiments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i’m really [emotion]!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just [action] about [topic] and [consequence].",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this isn’t the experience i expected.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need to know about [topic], like what’s the difference?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really frustrated right now.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding order and shipping issues",
+      "n_pairs_observed": 1
+    }
+  ]
+}

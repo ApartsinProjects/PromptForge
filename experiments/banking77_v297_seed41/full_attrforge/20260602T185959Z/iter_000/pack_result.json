@@ -1,0 +1,123 @@
+{
+  "pack_accuracy": 0.25,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions starting with 'why'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in reporting problems with fees or rates",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'hey' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my [issue] [is/was] [description of the issue]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i [action] [related to the issue]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "let me know when [specific request related to the issue]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have a [specific issue] on my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'if'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific issues related to card problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific functionalities or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar vocabulary related to card issues (e.g., 'missing', 'stolen', 'help')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concerns about pending transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i' or 'why'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and emotional appeal",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for explanation or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    }
+  ]
+}

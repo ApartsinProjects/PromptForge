@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of redundancy in emotional expressions and informal styles, with several texts using similar constructions and phrases. There is a noticeable lack of variety in the vocabulary and sentence structures employed across different intents.",
+  "missing_modes": [
+    "formal style texts that provide detailed explanations",
+    "concise inquiries without emotional language",
+    "fragmented style texts that convey urgency or confusion"
+  ],
+  "overrepresented_modes": [
+    "emotional style, particularly in contexts of frustration or anxiety",
+    "informal style, especially in requests for help",
+    "concise style used in straightforward inquiries"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts in a formal style to balance emotional and informal expressions.",
+    "Introduce more varied sentence structures and vocabulary to reduce redundancy.",
+    "Include scenarios that require detailed explanations or technical clarifications to diversify the responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "repeated use of 'hey' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries and requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings and expressions of hope or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and filler phrases (e.g., 'i mean', 'like', 'you know')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in requests for help or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific product references and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "overly detailed explanations with personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of filler phrases like 'you know?' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of dissatisfaction with a humorous twist",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational openers with casual language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, run-on sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'you know?' or 'anyway'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't log in",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am writing to express my dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was just browsing through your website",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you elaborate on",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or specific examples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about order status or account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal anecdotes or emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language or specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with casual phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for specific information or actions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

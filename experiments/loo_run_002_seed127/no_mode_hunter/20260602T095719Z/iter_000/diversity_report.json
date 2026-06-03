@@ -1,0 +1,21 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema, with all values represented. However, there are instances of near-duplicate phrasings and some overrepresented modes that could be diversified.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "complaint",
+    "general_question"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse scenarios, especially for 'technical_problem' and 'refund_request' intents.",
+    "Introduce more edge cases and rare scenarios to enhance the diversity of the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

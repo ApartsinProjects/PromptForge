@@ -1,0 +1,24 @@
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"Formal inquiry into geographical features; matches academic style."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Formal comparison of art forms; aligns with academic discourse."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.85,"reason":"Philosophical inquiry; fits the academic register."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.8,"reason":"Academic focus on writing conventions; matches formal style."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.9,"reason":"Philosophical concept exploration; aligns with academic writing."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.8,"reason":"Historical inquiry; fits academic style."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.75,"reason":"Factual inquiry; aligns with academic tone."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.85,"reason":"Legal comparison; matches formal academic discourse."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Historical analysis; fits academic writing style."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.8,"reason":"Cultural comparison; aligns with academic inquiry."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.6,"reason":"Casual phrasing; lacks depth expected in academic writing."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.5,"reason":"Simple factual question; lacks academic rigor."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.85,"reason":"Economic analysis; fits formal academic style."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.8,"reason":"Historical contributions; aligns with academic inquiry."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.55,"reason":"Casual tone; lacks depth expected in academic writing."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.5,"reason":"Casual inquiry; lacks academic rigor."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.85,"reason":"Cultural analysis; fits academic style."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.8,"reason":"Cultural inquiry; aligns with academic discourse."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.85,"reason":"Historical comparison; matches academic writing."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"Architectural analysis; fits formal academic style."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.5,"reason":"Vague inquiry; lacks specificity expected in academic writing."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.5,"reason":"Casual phrasing; lacks depth expected in academic writing."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.8,"reason":"Geographical inquiry; aligns with academic tone."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.75,"reason":"Technical comparison; fits formal academic style."}

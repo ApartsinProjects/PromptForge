@@ -1,0 +1,24 @@
+{"sample_id":"R038","prediction":"real","confidence":0.9,"reason":"Casual phrasing and a specific question about classic books for a particular age group suggest a real inquiry."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"The question is overly complex and structured, lacking the natural flow of a typical inquiry."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"The question is straightforward and specific to comic book lore, indicating a genuine curiosity."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a well-known television show, suggesting a real-world context."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"The question is structured and lacks the nuance of a typical user inquiry."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"The question is simple and direct, typical of a real-world query."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a cultural artifact, indicating genuine interest."}
+{"sample_id":"R031","prediction":"real","confidence":0.8,"reason":"The question is specific to a well-known athlete, suggesting a real inquiry."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"The question is specific to a known author and his work, indicating a real-world context."}
+{"sample_id":"R030","prediction":"real","confidence":0.85,"reason":"The question is historical and specific, suggesting a genuine inquiry."}
+{"sample_id":"R047","prediction":"real","confidence":0.8,"reason":"The question is straightforward and pertains to a specific institution, indicating a real inquiry."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a public figure, suggesting a real-world context."}
+{"sample_id":"R045","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a known criminal case, indicating genuine interest."}
+{"sample_id":"R008","prediction":"real","confidence":0.75,"reason":"The question is technical but straightforward, suggesting a real inquiry."}
+{"sample_id":"R014","prediction":"real","confidence":0.8,"reason":"The question is specific to a scientific term, indicating a genuine inquiry."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"The question is simple and direct, typical of a real-world query."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"The question is generic and lacks specificity, suggesting it may be generated."}
+{"sample_id":"R032","prediction":"real","confidence":0.75,"reason":"The question is specific to a location, indicating a real inquiry."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.65,"reason":"The question is vague and generic, lacking the specificity of a real inquiry."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"The question is straightforward and pertains to a specific institution, indicating a real inquiry."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"The question is simple and direct, typical of a real-world query."}
+{"sample_id":"R046","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a common object, indicating a real inquiry."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"The question is simple and direct, typical of a real-world query."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"The question is straightforward and relates to common internet slang, indicating a real inquiry."}

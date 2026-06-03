@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "questions about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance with login problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of elaborate explanations or emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' or 'hi'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions and conversational language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing such as 'i can't' or 'i seem to be encountering'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to issues without specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures regarding account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i recently noticed'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions and requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by additional context or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i was just wondering'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of filler phrases like 'kind of' or 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive questioning format regarding order status or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise issue description followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms related to apps and devices",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structure with a focus on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of lowercase letters and informal tone",
+      "n_pairs_observed": 1
+    }
+  ]
+}

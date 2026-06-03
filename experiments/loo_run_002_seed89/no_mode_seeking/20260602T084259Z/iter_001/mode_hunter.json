@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Hey, so",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal opener appears multiple times in the synthetic batch but not in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can't use the app anymore!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about app usage does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Like, why is it even doing this?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This rhetorical question structure is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I find myself pondering over",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This reflective phrasing is not present in any real samples.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I think there might be a problem but I'm not sure what el",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing indicates uncertainty and does not appear in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I really need some help understanding the features of your service.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase expresses a need for clarification about service features, which is not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I am writing to express my dissatisfaction regarding my recent order.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal opener is unique to the synthetic batch and does not match any real sample structure.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I seem to have encountered an unusual problem with my account that I cannot quite detail.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This complex sentence structure indicating vague issues is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, so",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal opener appears multiple times in the synthetic batch but not in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can't use the app anymore!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about app usage does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Like, why is it even doing this?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This rhetorical question structure is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I find myself pondering over",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This reflective phrasing is not present in any real samples.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

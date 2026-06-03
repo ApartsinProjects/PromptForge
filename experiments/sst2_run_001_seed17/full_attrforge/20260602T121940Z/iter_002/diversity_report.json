@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, polarity intensities, styles, and noise types. However, there is a notable absence of certain scenario types, particularly 'story_plot' and 'visuals', which limits the overall diversity.",
+  "missing_modes": [
+    "story_plot",
+    "visuals"
+  ],
+  "overrepresented_modes": [
+    "poetic",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples that include the missing scenario types, especially 'story_plot' and 'visuals'.",
+    "Diversify the styles further by incorporating more unique expressions beyond 'poetic' and 'concise'."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

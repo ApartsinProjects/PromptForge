@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, ambiguities, and styles, but there are some missing noise categories and a few overrepresented modes. Additionally, there are instances of near-duplicate phrasings.",
+  "missing_modes": [
+    "missing_details",
+    "contradiction"
+  ],
+  "overrepresented_modes": [
+    "irrelevant_details",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Ensure to include examples with missing details to cover all noise categories.",
+    "Vary the use of 'concise' style to prevent overrepresentation.",
+    "Introduce more edge cases and rare scenarios to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

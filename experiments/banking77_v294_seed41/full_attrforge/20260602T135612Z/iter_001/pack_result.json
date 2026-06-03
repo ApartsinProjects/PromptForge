@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "it's so frustrating.",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i can't get the card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how can i",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are the steps to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't think that",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently made a payment, but ...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me understand ...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to ... but ...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don’t understand why this happened ...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about the status of an order or transaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'weeks ago' and 'where is it?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently made a payment, but it seems like",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you clarify",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it seems unusual since i expected",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am really confused about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what do i do if'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'how' and 'what' to initiate inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated questioning format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific issues (exchange rate, card theft)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar phrasing in inquiries about exchange rates",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed at the beginning of the samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or explanation",
+      "n_pairs_observed": 1
+    }
+  ]
+}

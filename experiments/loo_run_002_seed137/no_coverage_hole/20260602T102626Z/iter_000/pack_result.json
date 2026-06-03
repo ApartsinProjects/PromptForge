@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "direct requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms related to apps and subscriptions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structure with a focus on issues and solutions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions without much elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and factual language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'mfa' and '2fa'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and slang",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i'm really upset!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'help' or 'not sure'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language (e.g., 'overwhelmed', 'upset', 'frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler words like 'like' and 'uh'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a personal anecdote or emotional response",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of informal language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent mention of technical issues with apps or accounts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual phrases like 'not sure what's going on' and 'help!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing (e.g., 'any ideas?', 'ain't workin.')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about technical issues or customer service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "combination of personal anecdotes with requests for help",
+      "n_pairs_observed": 1
+    }
+  ]
+}

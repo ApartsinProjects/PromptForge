@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are some missing combinations and potential overrepresentation of certain styles. Additionally, there are near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "complaint"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing by incorporating a wider range of emotional tones and complaint expressions.",
+    "Introduce additional edge cases or rare scenarios to enhance the diversity of the samples.",
+    "Reduce redundancy by varying the structure and vocabulary used in similar intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

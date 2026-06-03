@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a strong coverage of attribute values, with only a few missing modes in the 'intent' category. There are instances of near-duplicate phrasings and a high rate of ambiguity across several samples.",
+  "missing_modes": [
+    "human_beings"
+  ],
+  "overrepresented_modes": [
+    "description_and_abstract_concepts",
+    "locations",
+    "numeric_values"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse intents, particularly focusing on 'human_beings'.",
+    "Reduce ambiguity in the generated samples by providing clearer prompts.",
+    "Vary the phrasing and structure of questions to minimize near-duplicate outputs."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

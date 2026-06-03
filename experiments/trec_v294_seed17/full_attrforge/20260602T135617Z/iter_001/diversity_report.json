@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many texts utilize similar constructions, leading to a lack of nuanced diversity in expression.",
+  "missing_modes": [
+    "Examples of numeric values in practical contexts, such as statistics or measurements in everyday life.",
+    "More informal or conversational styles for complex topics, which could enhance relatability.",
+    "Unique or less common scenarios that combine multiple intents, such as a comparison of abstract concepts with numeric values."
+  ],
+  "overrepresented_modes": [
+    "Questions starting with 'Can you' or 'What are' which leads to a formulaic structure.",
+    "Verbose explanations that often repeat similar patterns of elaboration without introducing new vocabulary or concepts."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that incorporate varied sentence structures and vocabulary to reduce redundancy.",
+    "Include prompts that ask for examples or scenarios that blend multiple intents or styles to enhance richness.",
+    "Request the inclusion of edge cases or less common examples to diversify the range of responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high coverage of attribute values, with only a few missing modes in the 'intent' category. There are instances of near-duplicate phrasings and some overrepresented styles, particularly 'emotional' and 'verbose'.",
+  "missing_modes": [
+    "complaint",
+    "general_question"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing in the generator to reduce near-duplicates.",
+    "Include prompts that specifically request edge cases or rare scenarios to enhance diversity.",
+    "Ensure that all intents are represented equally in future batches."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

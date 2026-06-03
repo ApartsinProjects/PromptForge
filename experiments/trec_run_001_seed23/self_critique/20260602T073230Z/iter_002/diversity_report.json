@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but lacks diversity in the style attribute, with a notable absence of 'concise' and 'fragmented' styles. Additionally, there are near-duplicate phrasings present in the samples.",
+  "missing_modes": [
+    "concise"
+  ],
+  "overrepresented_modes": [
+    "verbose",
+    "fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more concise styles in the samples.",
+    "Introduce more diverse phrasing to reduce near-duplicates.",
+    "Ensure that all style modes are represented evenly in future batches."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

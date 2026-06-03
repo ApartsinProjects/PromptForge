@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all modes represented. However, there are some near-duplicate phrasings and a few edge cases that could be better represented.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing styles to reduce redundancy, especially for 'fragmented' and 'concise' styles.",
+    "Include more edge cases in the scenarios to enhance the diversity of the samples.",
+    "Consider adding examples with more complex technical issues or unique account problems to enrich the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

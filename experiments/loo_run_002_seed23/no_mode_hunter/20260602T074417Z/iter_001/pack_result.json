@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise problem statement followed by specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating the issue followed by a request for information or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers and hedging language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of app issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of casual language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'every time' to describe issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague references to technical issues (e.g., 'error code', 'discrepancy in the records')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and casual phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'u', 'whtvr')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal requests with excessive detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "greetings that vary in formality (e.g., 'hey', 'dear support team')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'asap', 'whtvr')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common complaint structure (issue description followed by a request for action)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, straightforward sentences with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'asap'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of short sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal greetings or closings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "explanatory phrases with excessive detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'i mean' and 'but also'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of app issues and crashes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    }
+  ]
+}

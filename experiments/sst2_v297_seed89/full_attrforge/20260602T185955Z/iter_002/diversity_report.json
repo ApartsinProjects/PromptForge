@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a high degree of surface-level diversity in terms of intent, difficulty, and style, but suffers from significant nuance-level redundancy, particularly in sarcastic and informal styles. Many samples reuse similar sentence structures and phrasings, leading to a lack of true diversity in expression.",
+  "missing_modes": [
+    "A sample that combines a positive intent with a poetic style and easy difficulty.",
+    "A negative intent with a formal style and mild polarity intensity.",
+    "A medium difficulty sample that is sarcastic but focuses on visuals."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic style, particularly in negative samples, often using similar constructions.",
+    "Concise style with positive intent, frequently employing similar vocabulary and sentence structures."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied sentence structures and vocabulary in the generator prompt.",
+    "Introduce specific prompts for unique combinations of styles and intents that are currently underrepresented.",
+    "Incorporate examples that emphasize emotional depth or complex character analysis to enhance nuance."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

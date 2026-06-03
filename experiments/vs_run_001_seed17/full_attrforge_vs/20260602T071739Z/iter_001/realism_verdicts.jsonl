@@ -1,0 +1,24 @@
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"Casual language and informal phrasing ('Hey, so like') suggest a genuine user experience."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"Informal tone and emotional expression ('a million times, still no luck!') indicate a real user frustration."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.8,"reason":"Casual language and uncertainty ('just wondering lol') suggest a real user inquiry."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Conversational style and personal context ('I can't remember my password') indicate a real user issue."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.8,"reason":"Informal phrasing and a direct question suggest a genuine user experience."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured language lacks the typical noise of real user queries."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.85,"reason":"Casual tone and uncertainty ('maybe I'm missing some info?') suggest a real user inquiry."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Direct and urgent language ('need help recovering it') indicates a real user issue."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Informal and frustrated tone ('it's been 6 days, where is my package') suggests a real user complaint."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Casual language and specific details about the issue indicate a real user experience."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"Emotional expression and informal tone ('I’m really frustrated!') suggest a genuine user complaint."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"Generic question structure lacks personal context or emotional engagement."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Direct and specific issue ('reset email never arrives') indicates a real user problem."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.65,"reason":"Formal structure and lack of personal context suggest a less authentic inquiry."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct request for action ('please refund and confirm cancellation') indicates a real user issue."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.6,"reason":"Generic question structure lacks personal context or emotional engagement."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue ('csv import keeps timing out') suggests a real user experience."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.7,"reason":"Formal language and structured inquiry suggest a less authentic user experience."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct complaint and request for action ('want a refund on the missing one') indicate a real user issue."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Emotional expression and urgency ('this is ridiculous. third time this week.') suggest a genuine user complaint."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Frustrated tone and specific complaint ('it's been 4 days. unacceptable.') indicate a real user issue."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with personal context ('I changed my email') suggests a real user experience."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct complaint and emotional tone ('I want my money back') indicate a real user issue."}
+{"sample_id":"R006","prediction":"real","confidence":0.85,"reason":"Specific technical issue ('android app won't open') suggests a real user experience."}

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents and scenarios, but there are notable gaps in style representation and noise types. Additionally, there are several near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "verbose",
+    "fragmented"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "irrelevant_details"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more verbose and fragmented styles to enhance diversity.",
+    "Introduce more noise types such as contradictions and missing details to create varied scenarios.",
+    "Reduce reliance on informal styles by including more formal and emotional styles in the prompts."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

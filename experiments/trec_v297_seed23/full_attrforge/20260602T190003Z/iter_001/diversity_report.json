@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a variety of intents and scenarios, but there is noticeable redundancy in phrasing and structure, particularly in the way questions are framed. Many entries utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Complex or multi-part questions that require synthesis of information from multiple domains.",
+    "Questions that explore abstract concepts without direct reference to entities or definitions."
+  ],
+  "overrepresented_modes": [
+    "Questions starting with 'What are' or 'How do' followed by a comparison or list.",
+    "Verbose explanations that include unnecessary details or context."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied question structures and phrasing to enhance nuance diversity.",
+    "Include prompts that require creative or critical thinking rather than straightforward factual recall.",
+    "Incorporate edge cases or rare scenarios that challenge typical question formats."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

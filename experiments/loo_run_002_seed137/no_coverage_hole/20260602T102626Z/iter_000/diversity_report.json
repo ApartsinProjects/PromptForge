@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are instances of near-duplicate phrasings and some overrepresented modes. The diversity could be improved by incorporating more edge cases and varying the phrasing styles.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "informal",
+    "hard difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse phrasing styles to reduce near-duplicates.",
+    "Include more edge cases and rare scenarios to enhance the diversity of the samples.",
+    "Vary the difficulty levels more evenly across intents to avoid overrepresentation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

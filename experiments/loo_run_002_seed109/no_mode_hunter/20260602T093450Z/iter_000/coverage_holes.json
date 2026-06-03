@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6467726876712303
+    },
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.6465061960791634
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6318733583871873
+    },
+    {
+      "text": "do you have a student discount available? if yes how do I apply?",
+      "label": "general_question",
+      "p_real": 0.6295371323928196
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

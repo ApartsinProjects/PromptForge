@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "powerful and",
+      "label": "positive",
+      "p_real": 0.6903100077815563
+    },
+    {
+      "text": "formulaic and forgettable",
+      "label": "negative",
+      "p_real": 0.6779811040315458
+    },
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6779811040315458
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6669570493417413
+    },
+    {
+      "text": ", populating its hackneyed and meanspirited storyline with cardboard characters and performers who value cash above credibility .",
+      "label": "negative",
+      "p_real": 0.6646255290589124
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

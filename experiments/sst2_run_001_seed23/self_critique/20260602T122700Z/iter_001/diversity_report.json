@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a strong representation of intents, difficulties, polarity intensities, and noise types, but lacks diversity in styles, particularly the informal and sarcastic modes. Additionally, there are instances of near-duplicate phrasings and overrepresented modes in the negative intent category.",
+  "missing_modes": [
+    "sarcastic",
+    "informal"
+  ],
+  "overrepresented_modes": [
+    "negative intent with strong polarity intensity"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more informal and sarcastic styles to enhance diversity.",
+    "Introduce more varied expressions for negative reviews to reduce redundancy.",
+    "Incorporate edge cases or rare scenarios to broaden the range of outputs."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

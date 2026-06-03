@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, ambiguities, and styles, but there are some missing noise types and a high occurrence of irrelevant details. Additionally, the near-duplicate rate suggests some redundancy in phrasing.",
+  "missing_modes": [
+    "typos",
+    "missing_details",
+    "contradiction"
+  ],
+  "overrepresented_modes": [
+    "irrelevant_details"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with missing details and contradictions to enhance diversity.",
+    "Reduce the frequency of irrelevant details in the generated samples to improve clarity.",
+    "Ensure a balanced representation of noise types in future batches."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

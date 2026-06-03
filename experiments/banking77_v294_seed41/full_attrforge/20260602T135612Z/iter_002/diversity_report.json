@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good range of intents and scenarios, but there is notable redundancy in phrasing and structure, particularly in how issues are expressed. Several texts use similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal inquiries about card issues",
+    "emotional expressions of frustration regarding payments",
+    "concise requests for information on card statuses"
+  ],
+  "overrepresented_modes": [
+    "informal style with conversational phrasing",
+    "concise questions about card issues",
+    "fragmented expressions of confusion or urgency"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more formal and emotional styles to diversify the tone of inquiries.",
+    "Introduce varied sentence structures and vocabulary to reduce redundancy in phrasing.",
+    "Include more complex scenarios that combine multiple issues or emotions to enhance nuance."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

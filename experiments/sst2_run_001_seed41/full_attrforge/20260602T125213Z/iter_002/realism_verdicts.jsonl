@@ -1,0 +1,24 @@
+{"sample_id":"R041","prediction":"real","confidence":0.8,"reason":"The phrase 'various sources' is vague but fits a real-world context."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.7,"reason":"The word 'strangely' lacks context and feels incomplete."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.9,"reason":"The phrase 'i kinda felt a bit let down' is overly casual and lacks depth."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"The description of the movie's format and indecipherability feels authentic."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.8,"reason":"The sarcastic tone is predictable and lacks genuine emotion."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.85,"reason":"The phrase is overly polished and lacks real-world nuance."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"The casual tone and specific references to 'cute animals' feel authentic."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"The critique of a storyline with 'cardboard characters' feels genuine."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.75,"reason":"The phrase 'masterpiece of bad taste' is a cliché and lacks originality."}
+{"sample_id":"R048","prediction":"real","confidence":0.8,"reason":"The phrase 'commend it to movie audiences' feels like a genuine review."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.9,"reason":"The overly poetic language feels artificial and lacks authenticity."}
+{"sample_id":"R020","prediction":"real","confidence":0.7,"reason":"The phrase 'a long shot' is vague but can fit a real context."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"The reference to 'kubrick-meets-spielberg' feels like a genuine critique."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.8,"reason":"The phrase 'powerful and' is incomplete and lacks context."}
+{"sample_id":"R015","prediction":"real","confidence":0.75,"reason":"The phrase 'unrelenting bleak insistence' feels like a genuine critique."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"The detailed critique of characters and plot feels authentic."}
+{"sample_id":"R050","prediction":"real","confidence":0.8,"reason":"The phrase 'intermittently hilarious' fits a real review context."}
+{"sample_id":"R013","prediction":"real","confidence":0.7,"reason":"The casual tone of 'the hell cares' feels authentic."}
+{"sample_id":"R018","prediction":"real","confidence":0.75,"reason":"The phrase 'skeeved out' feels like a genuine reaction."}
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.85,"reason":"The sarcastic tone feels forced and lacks genuine emotion."}
+{"sample_id":"R003","prediction":"real","confidence":0.8,"reason":"The critique of entertainment value feels authentic."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.9,"reason":"The phrase 'excruciatingly slow pacing' is overly dramatic and lacks subtlety."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.85,"reason":"The phrase about 'graphics that look like they were rendered in the 90s' feels clichéd."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.8,"reason":"The phrase 'ambitious, ultimately fall short' is a common critique structure."}

@@ -1,0 +1,161 @@
+{
+  "run_dir": "E:\\Projects\\PromptForge\\experiments\\sst2_run_001_seed41\\full_classic\\20260602T124753Z",
+  "n_iterations": 3,
+  "final_prompt_version": 2,
+  "metric_history": [
+    {
+      "iteration": 0.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.08333333333333333,
+      "synthetic_detection_rate": 0.2857142857142857,
+      "near_duplicate_rate": 0.15,
+      "combination_coverage": 1.0,
+      "entropy/intent": 0.9886994082884974,
+      "entropy/difficulty": 0.9320201587042913,
+      "entropy/polarity_intensity": 0.9965119062478287,
+      "entropy/style": 0.8504146864248051,
+      "entropy/noise": 0.7959585933443496,
+      "entropy/scenario_type": 0.9306282244165779,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 1.0
+    },
+    {
+      "iteration": 1.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.75,
+      "synthetic_detection_rate": 1.0,
+      "near_duplicate_rate": 0.15,
+      "combination_coverage": 1.0,
+      "entropy/intent": 1.0,
+      "entropy/difficulty": 0.9850568223215079,
+      "entropy/polarity_intensity": 0.9965119062478287,
+      "entropy/style": 0.810901968858509,
+      "entropy/noise": 0.9772170014624825,
+      "entropy/scenario_type": 0.9306282244165779,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 0.8,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 1.0
+    },
+    {
+      "iteration": 2.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.875,
+      "synthetic_detection_rate": 1.0,
+      "near_duplicate_rate": 0.15,
+      "combination_coverage": 1.0,
+      "entropy/intent": 0.954434002924965,
+      "entropy/difficulty": 0.8957541375001009,
+      "entropy/polarity_intensity": 0.9755307720176264,
+      "entropy/style": 0.7641913951834827,
+      "entropy/noise": 0.8980898459737487,
+      "entropy/scenario_type": 0.8521669194428305,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 0.8333333333333334
+    }
+  ],
+  "prompt_history": [
+    {
+      "version": 0,
+      "iteration": 0,
+      "prompt": "Generate realistic short movie review sentences that match the requested\nsentiment polarity (positive or negative). Reviews should sound like\nnatural film criticism: short, opinionated, using a mix of explicit\nsentiment words and comparative judgments. Match the requested style,\nintensity, and scenario type. Output a JSON object with the sample id,\nthe text, and the attribute values.\n",
+      "motivation": "initial prompt",
+      "feedback_summary": {},
+      "timestamp": "2026-06-02T12:47:53.212050+00:00"
+    },
+    {
+      "version": 1,
+      "iteration": 1,
+      "prompt": " \nGenerate diverse and realistic short movie review sentences that align with the requested sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and infused with a variety of explicit sentiment words and comparative judgments. Ensure that the reviews vary in emotional tone, incorporating both strong and mild polarity intensities, and represent a mix of formal and informal styles. Include unique scenarios and avoid repetitive phrasing to enhance diversity. Output a JSON object with the sample id, the text, and the attribute values.\n\nForbidden phrasings: Avoid overly formal language, vague expressions, and generic phrases. Strive for personal engagement and specificity in opinions. \n\n",
+      "motivation": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all modes represented. However, there are instances of near-duplicate phrasings and a lack of diversity in the emotional tones expressed.",
+      "feedback_summary": {
+        "iteration": 0,
+        "n_attribute_failures": 16,
+        "n_realism_artifacts": 19,
+        "near_duplicate_rate": 0.15,
+        "pack_accuracy": null,
+        "mode_seeking_ratio": null,
+        "n_banned_phrasings": 0,
+        "missing_modes": [],
+        "overrepresented_modes": [
+          "informal",
+          "negative",
+          "medium difficulty"
+        ],
+        "metrics": {
+          "attribute_match_rate": 0.0,
+          "discriminator_accuracy": 0.08333333333333333,
+          "synthetic_detection_rate": 0.2857142857142857,
+          "near_duplicate_rate": 0.15,
+          "combination_coverage": 1.0,
+          "entropy/intent": 0.9886994082884974,
+          "entropy/difficulty": 0.9320201587042913,
+          "entropy/polarity_intensity": 0.9965119062478287,
+          "entropy/style": 0.8504146864248051,
+          "entropy/noise": 0.7959585933443496,
+          "entropy/scenario_type": 0.9306282244165779,
+          "coverage/intent": 1.0,
+          "coverage/difficulty": 1.0,
+          "coverage/polarity_intensity": 1.0,
+          "coverage/style": 1.0,
+          "coverage/noise": 1.0,
+          "coverage/scenario_type": 1.0
+        }
+      },
+      "timestamp": "2026-06-02T12:49:13.763012+00:00"
+    },
+    {
+      "version": 2,
+      "iteration": 2,
+      "prompt": " \nGenerate a diverse and realistic set of short movie review sentences that align with the specified sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and infused with a variety of explicit sentiment words and comparative judgments. Ensure that the reviews vary in emotional tone, incorporating both strong and mild polarity intensities, and represent a mix of formal, informal, and poetic styles. Include unique scenarios and avoid repetitive phrasing to enhance diversity, including rare or edge cases in scenarios. Output a JSON object with the sample id, the text, and the attribute values.\n\nForbidden phrasings: Avoid overly polished language, vague expressions, and generic phrases. Strive for personal engagement and specificity in opinions. Ensure that the reviews exhibit a range of difficulty levels and include intentional noise, such as typos or informal speech patterns, to enhance realism. Aim for a balanced representation of styles, ensuring that formal reviews are included alongside informal and sarcastic tones. \n\n",
+      "motivation": "The batch exhibits a good range of intents, difficulties, and polarity intensities, but the style attribute is underrepresented, particularly in the formal category. Additionally, there are several instances of near-duplicate phrasings and a lack of rare or edge cases.",
+      "feedback_summary": {
+        "iteration": 1,
+        "n_attribute_failures": 16,
+        "n_realism_artifacts": 13,
+        "near_duplicate_rate": 0.15,
+        "pack_accuracy": null,
+        "mode_seeking_ratio": null,
+        "n_banned_phrasings": 0,
+        "missing_modes": [
+          "formal"
+        ],
+        "overrepresented_modes": [
+          "informal",
+          "concise",
+          "sarcastic"
+        ],
+        "metrics": {
+          "attribute_match_rate": 0.0,
+          "discriminator_accuracy": 0.75,
+          "synthetic_detection_rate": 1.0,
+          "near_duplicate_rate": 0.15,
+          "combination_coverage": 1.0,
+          "entropy/intent": 1.0,
+          "entropy/difficulty": 0.9850568223215079,
+          "entropy/polarity_intensity": 0.9965119062478287,
+          "entropy/style": 0.810901968858509,
+          "entropy/noise": 0.9772170014624825,
+          "entropy/scenario_type": 0.9306282244165779,
+          "coverage/intent": 1.0,
+          "coverage/difficulty": 1.0,
+          "coverage/polarity_intensity": 1.0,
+          "coverage/style": 0.8,
+          "coverage/noise": 1.0,
+          "coverage/scenario_type": 1.0
+        }
+      },
+      "timestamp": "2026-06-02T12:50:38.540876+00:00"
+    }
+  ]
+}

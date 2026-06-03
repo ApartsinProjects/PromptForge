@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high degree of surface-level diversity with various intents and styles represented; however, there is significant redundancy in phrasing and structure, particularly in the expressions of confusion and frustration. Several texts also share similar constructions, leading to a lack of nuanced variation.",
+  "missing_modes": [
+    "Formal inquiries with specific details about transaction history",
+    "Casual conversations reflecting a sense of urgency",
+    "Emotional appeals that express disappointment or anger in unique ways"
+  ],
+  "overrepresented_modes": [
+    "Expressions of confusion regarding payments (e.g., 'I don't understand why', 'I'm not sure what happened')",
+    "Frustrated emotional tones in response to fees or declined payments",
+    "Concise requests for help without elaboration"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied emotional responses to issues, including unique expressions of frustration or confusion.",
+    "Incorporate more complex sentence structures and vocabulary to reduce redundancy in phrasing.",
+    "Include scenarios that involve multiple issues or combine intents for richer context."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

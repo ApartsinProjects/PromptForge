@@ -1,0 +1,54 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I can't believe I was charged twice",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about being charged twice does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I realized too late that my subscription was renewed",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique expression regarding subscription renewal is absent in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "This experience has been beyond frustrating!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The emotional intensity and specific wording of frustration is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "just wondering if your api has like a limit",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual phrasing and context about API limits is not present in the real samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I can't believe I was charged twice",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about being charged twice does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I realized too late that my subscription was renewed",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique expression regarding subscription renewal is absent in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "This experience has been beyond frustrating!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The emotional intensity and specific wording of frustration is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "just wondering if your api has like a limit",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The casual phrasing and context about API limits is not present in the real samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

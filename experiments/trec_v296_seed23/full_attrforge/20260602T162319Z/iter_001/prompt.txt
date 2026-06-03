@@ -1,0 +1,11 @@
+"""Generate realistic open-domain English questions that align with the requested TREC question-type category. Each question should be a single complete sentence, ending with a question mark, and should reflect what a user might genuinely ask in an open-domain QA system. Ensure the questions vary in complexity, style, and intent, avoiding formulaic structures. Incorporate specific examples or case studies where applicable and encourage critical thinking or opinion-based responses. Output a JSON object containing the sample id, the text, and the attribute values.
+
+**Forbidden phrasings:** 
+- Avoid starting questions with "What is" or "How does."
+- Refrain from using "compare" in comparison scenarios.
+
+**Preferred phrasings:** 
+- Use phrases that invite deeper analysis, such as "Can you explain the implications of...?" or "What are the key differences between...?"
+- Incorporate nuanced vocabulary and varied sentence structures to enhance diversity.
+
+Ensure that the questions maintain a formal tone, exhibit low ambiguity, and include relevant details, while also reflecting a range of intents and scenarios. Aim for a balanced noise level that includes some relevant distractions to mimic real user inquiries. Strive for a diverse set of questions that cover less common topics within each intent category, while ensuring all attributes are accurately represented in the output."""

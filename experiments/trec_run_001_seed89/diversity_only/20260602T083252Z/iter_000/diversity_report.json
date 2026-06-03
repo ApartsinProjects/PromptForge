@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are issues with missing details and typos across several samples. Additionally, some intents and scenarios are repeated, leading to potential redundancy.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "high ambiguity"
+  ],
+  "near_duplicate_rate": 0.2,
+  "recommendations": [
+    "Encourage more diverse phrasing to reduce redundancy and near-duplicates.",
+    "Ensure that all samples include complete details to avoid missing information.",
+    "Consider adding edge cases or rare scenarios to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

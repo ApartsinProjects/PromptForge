@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is a notable redundancy in phrasing and structure, particularly in the definition and list scenarios. Many texts follow similar patterns, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "More examples of concise and fragmented styles that explore complex topics.",
+    "Inclusion of rare or edge cases in the context of human beings and locations."
+  ],
+  "overrepresented_modes": [
+    "Verbose explanations in definitions, particularly for abstract concepts.",
+    "Informal styles used for factoid questions, which may limit depth."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique sentence structures and vocabulary to enhance nuance.",
+    "Introduce prompts that specifically request diverse examples of less common scenarios or attributes."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

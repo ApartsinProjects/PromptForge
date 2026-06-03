@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or upset",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or confirmation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures starting with 'i'm really upset' or 'i can't access'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on customer service dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "starting with 'i can't' or 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mentioning specific issues with products or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'idk', 'u')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'i feel' or 'i'm really' to express feelings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions mixed with complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'idk', 'u', 'hey')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational tone with personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of questions seeking help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of first-person perspective",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on negative experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i'm really upset!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetition of emotional language (e.g., 'frustrating', 'upset', 'care')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing disappointment or frustration with a purchase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requesting assistance or a refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language in some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions about customer service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'idk', 'u')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration with technical issues or service delays",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6511854819023858
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6446866708624881
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6385514040695899
+    },
+    {
+      "text": "do you have a student discount available? if yes how do I apply?",
+      "label": "general_question",
+      "p_real": 0.6383561207001499
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,54 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I just want to make sur",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This incomplete phrase suggests a conversational tone not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I have to say that I am really frustrated",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing indicates a personal expression of frustration that is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I seem to have lost access to my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique structure implies uncertainty about account access, which is not reflected in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I ordered a product last week, and it still hasn't arrived",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific sentence structure and context of ordering is not found in real samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I just want to make sur",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This incomplete phrase suggests a conversational tone not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I have to say that I am really frustrated",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing indicates a personal expression of frustration that is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I seem to have lost access to my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique structure implies uncertainty about account access, which is not reflected in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I ordered a product last week, and it still hasn't arrived",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific sentence structure and context of ordering is not found in real samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

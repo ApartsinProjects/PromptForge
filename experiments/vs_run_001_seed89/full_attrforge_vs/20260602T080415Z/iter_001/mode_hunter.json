@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "So, I ordered this phone",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing is unique to the synthetic batch and does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’m at my wit's end!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is not found in the real batch, making it distinctive.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I have a unique case where",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicates a specific situation and does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Help! account got weird.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal tone and structure of this request are not present in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I’m facing a bit of a dilemma",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique phrasing suggests a personal struggle that is not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I think someone accessed my account improperly",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific concern about account access is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can I get my money back for the one that's missing?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal structure and phrasing of this refund request is distinct from real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "It's kind of critical and I don’t get it",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual expression of urgency is not reflected in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "So, I ordered this phone",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing is unique to the synthetic batch and does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’m at my wit's end!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is not found in the real batch, making it distinctive.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I have a unique case where",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicates a specific situation and does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Help! account got weird.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal tone and structure of this request are not present in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

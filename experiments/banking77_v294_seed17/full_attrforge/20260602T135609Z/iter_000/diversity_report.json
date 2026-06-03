@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good range of intents and scenarios but suffers from redundancy in phrasing and structure, particularly with the 'card_swallowed' and 'declined_card_payment' intents. There are also notable gaps in the representation of certain styles and scenarios.",
+  "missing_modes": [
+    "formal inquiries about card issues",
+    "concise explanations for payment problems",
+    "emotional expressions regarding lost or stolen cards"
+  ],
+  "overrepresented_modes": [
+    "informal style in multiple intents",
+    "fragmented structure in requests for help",
+    "verbose explanations for transaction issues"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more formal and concise inquiries to balance the informal tone.",
+    "Introduce more diverse sentence structures and vocabulary to reduce redundancy, especially for common intents.",
+    "Include edge cases or less common scenarios to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

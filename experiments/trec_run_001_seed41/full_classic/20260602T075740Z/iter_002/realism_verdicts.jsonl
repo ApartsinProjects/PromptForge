@@ -1,0 +1,24 @@
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple question structure, lacks over-polished grammar."}
+{"sample_id":"R045","prediction":"real","confidence":0.85,"reason":"Direct question with specific historical context, typical of real queries."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Specific question about domestication, indicative of real-world knowledge."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Straightforward question with common abbreviation, lacks synthetic cues."}
+{"sample_id":"R010","prediction":"real","confidence":0.75,"reason":"Unique question about biology, not overly polished."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Overly formal structure, lacks real-world noise."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.65,"reason":"Predictable structure, lacks depth in context."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Specific reference to comic books, indicative of real knowledge."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.75,"reason":"Overly detailed and formal, lacks natural flow."}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"Historical sports question, typical of real inquiries."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a person, indicative of real-world knowledge."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Common abbreviation question, straightforward and natural."}
+{"sample_id":"R037","prediction":"real","confidence":0.8,"reason":"Specific question about a person, indicative of real-world context."}
+{"sample_id":"R020","prediction":"real","confidence":0.75,"reason":"Unique culinary question, lacks synthetic cues."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.7,"reason":"Generic structure, lacks real-world noise."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"Technical question about design, indicative of real knowledge."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.65,"reason":"Overly formal and structured, lacks natural flow."}
+{"sample_id":"R018","prediction":"real","confidence":0.75,"reason":"Unique cultural reference, indicative of real-world knowledge."}
+{"sample_id":"R032","prediction":"real","confidence":0.7,"reason":"Specific inquiry about a location, typical of real questions."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"Generic definition question, lacks depth."}
+{"sample_id":"R006","prediction":"real","confidence":0.85,"reason":"Common abbreviation question, straightforward and natural."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"Scientific inquiry about the galaxy, indicative of real knowledge."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.65,"reason":"Overly formal and structured, lacks natural flow."}
+{"sample_id":"R019","prediction":"real","confidence":0.75,"reason":"Unique historical reference, indicative of real-world knowledge."}

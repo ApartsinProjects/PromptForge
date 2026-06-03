@@ -1,0 +1,16 @@
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with the positive critique of storytelling."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.85,"reason":"Formal critique; uses sophisticated vocabulary to express disappointment."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"Formal review style; discusses pacing in a professional manner."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"Formal analysis; maintains a professional tone discussing narrative absorption."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.9,"reason":"Formal review; uses sophisticated language to discuss storytelling and character arcs."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; lacks the depth and formality of real samples."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.75,"reason":"Casual and dramatic language; does not match the formal critique style."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.85,"reason":"Formal review style; uses metaphorical language in a sophisticated manner."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.85,"reason":"Formal critique; employs metaphor to describe storytelling."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.7,"reason":"Casual expression; lacks the analytical depth of real samples."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.85,"reason":"Formal critique; discusses performances with a professional tone."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.8,"reason":"Casual and overly emotional tone; does not match the formal register."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.75,"reason":"Casual language; lacks the analytical depth of real samples."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.8,"reason":"Casual and informal tone; does not align with the formal critique style."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"Casual and poetic language; lacks the analytical rigor of real samples."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.85,"reason":"Formal critique; discusses narrative engagement in a professional manner."}

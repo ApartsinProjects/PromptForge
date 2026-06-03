@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and polarities, but lacks diversity in styles and presents several near-duplicate phrasings. There are also some missing combinations of styles and scenarios that could enhance the overall richness of the dataset.",
+  "missing_modes": [
+    "poetic",
+    "formal"
+  ],
+  "overrepresented_modes": [
+    "sarcastic",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of samples in the poetic style to diversify the dataset.",
+    "Reduce the emphasis on sarcastic and concise styles to balance representation.",
+    "Introduce more varied scenarios, especially those that combine different styles and intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

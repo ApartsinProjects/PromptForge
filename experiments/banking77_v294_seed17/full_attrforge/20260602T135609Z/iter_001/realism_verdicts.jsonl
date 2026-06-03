@@ -1,0 +1,24 @@
+{"sample_id":"R060","prediction":"real","confidence":0.9,"reason":"Direct and concise inquiry about a payment issue; matches the informal customer service register."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Casual inquiry about exchange rates; aligns with customer service communication."}
+{"sample_id":"R063","prediction":"synthetic","confidence":0.7,"reason":"Informal tone and grammatical errors; lacks the clarity of real customer inquiries."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Clear and straightforward question about card tracking; fits the customer service context."}
+{"sample_id":"R031","prediction":"real","confidence":0.9,"reason":"Casual yet clear concern about an unrecognized charge; matches the register."}
+{"sample_id":"R089","prediction":"real","confidence":0.9,"reason":"Direct question about payment availability; fits the customer service register."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.6,"reason":"Informal phrasing and spelling errors; lacks the professionalism of real inquiries."}
+{"sample_id":"R096","prediction":"synthetic","confidence":0.6,"reason":"Casual language and vague phrasing; does not match the clarity of real samples."}
+{"sample_id":"R043","prediction":"real","confidence":0.9,"reason":"Detailed inquiry about exchange rates; aligns with customer service communication."}
+{"sample_id":"R072","prediction":"real","confidence":0.9,"reason":"Simple and clear statement about a lost card; fits the register."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Clear concern about an unexpected charge; matches the customer service context."}
+{"sample_id":"R064","prediction":"real","confidence":0.9,"reason":"Direct question about card decline; fits the customer service register."}
+{"sample_id":"R055","prediction":"real","confidence":0.9,"reason":"Clear statement about an ATM issue; aligns with customer service inquiries."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.5,"reason":"Informal tone and grammatical issues; lacks the clarity of real inquiries."}
+{"sample_id":"R077","prediction":"real","confidence":0.9,"reason":"Simple and clear statement about a missing card; fits the register."}
+{"sample_id":"R094","prediction":"real","confidence":0.9,"reason":"Detailed inquiry about a failed transaction; aligns with customer service communication."}
+{"sample_id":"R041","prediction":"real","confidence":0.9,"reason":"Direct question about exchange rates; fits the customer service register."}
+{"sample_id":"R054","prediction":"real","confidence":0.9,"reason":"Clear inquiry about a swallowed card; matches the customer service context."}
+{"sample_id":"R076","prediction":"real","confidence":0.9,"reason":"Direct question about stolen card; fits the customer service register."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Clear inquiry about card delivery; aligns with customer service communication."}
+{"sample_id":"R074","prediction":"real","confidence":0.9,"reason":"Direct question about stolen card; fits the customer service register."}
+{"sample_id":"R034","prediction":"real","confidence":0.9,"reason":"Clear concern about a payment discrepancy; matches the register."}
+{"sample_id":"R067","prediction":"real","confidence":0.9,"reason":"Simple inquiry about payment failure; fits the customer service context."}
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Direct question about card status; aligns with customer service communication."}

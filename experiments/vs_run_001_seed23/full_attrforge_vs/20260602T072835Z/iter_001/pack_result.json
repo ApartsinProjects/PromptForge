@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise issue description followed by a specific error or request for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about service status or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific technical details (e.g., file size, software version)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expression of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can anyone help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i believe i used a different email",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you help me fix this?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of varied sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone without greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing issues or problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements of issues without elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise requests for assistance or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'asap', 'need')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common complaint themes (e.g., account issues, product problems)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or background information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'the item arrived...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical terms related to account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of 'i need help' or 'i have an issue'",
+      "n_pairs_observed": 1
+    }
+  ]
+}

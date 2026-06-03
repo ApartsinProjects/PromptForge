@@ -1,0 +1,24 @@
+{"sample_id":"R014","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal inquiries about card issues"}
+{"sample_id":"R064","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples use more formal language"}
+{"sample_id":"target_00044","prediction":"real","confidence":0.9,"reason":"formal inquiry with structured language; matches real samples"}
+{"sample_id":"R052","prediction":"synthetic","confidence":0.75,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R055","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"R051","prediction":"synthetic","confidence":0.7,"reason":"informal structure; real samples are more formal"}
+{"sample_id":"target_00057","prediction":"real","confidence":0.85,"reason":"formal inquiry about unexpected fees; matches real samples"}
+{"sample_id":"R095","prediction":"synthetic","confidence":0.65,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R061","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"R037","prediction":"synthetic","confidence":0.6,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.6,"reason":"informal structure; real samples are more formal"}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"formal inquiry about charges; matches real samples"}
+{"sample_id":"R028","prediction":"real","confidence":0.75,"reason":"formal inquiry about charges; matches real samples"}
+{"sample_id":"R004","prediction":"synthetic","confidence":0.85,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.8,"reason":"informal phrasing; real samples are more formal"}
+{"sample_id":"R059","prediction":"synthetic","confidence":0.7,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"R091","prediction":"synthetic","confidence":0.65,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R086","prediction":"synthetic","confidence":0.6,"reason":"informal phrasing; real samples are more formal"}
+{"sample_id":"R078","prediction":"synthetic","confidence":0.9,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"R083","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing; real samples are more formal"}
+{"sample_id":"R042","prediction":"synthetic","confidence":0.75,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"formal inquiry about fees; matches real samples"}
+{"sample_id":"R096","prediction":"synthetic","confidence":0.7,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"target_00056","prediction":"real","confidence":0.85,"reason":"formal inquiry about ATM issues; matches real samples"}

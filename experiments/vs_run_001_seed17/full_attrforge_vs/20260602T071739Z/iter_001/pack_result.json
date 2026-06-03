@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "use of informal language and conversational tone (e.g., 'hey, so like')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'hey' or 'please help me!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive questioning style (e.g., 'is that normal?', 'is there something wrong?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or specific error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings or openings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' or 'so'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on personal experience as a customer",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed with uncertainty",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'so' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to issues without specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a question mark at the end",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrases like 'hey' and 'just wondering'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamation marks to express frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of asking for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing disappointment or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about functionality or limitations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing annoyance",
+      "n_pairs_observed": 1
+    }
+  ]
+}

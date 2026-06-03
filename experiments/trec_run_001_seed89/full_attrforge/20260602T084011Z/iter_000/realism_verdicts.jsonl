@@ -1,0 +1,24 @@
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Natural phrasing, straightforward question about a well-known astronomical fact."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.7,"reason":"Generic structure and phrasing; lacks specific context or nuance."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Casual phrasing, realistic inquiry about local media."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.6,"reason":"Predictable structure; lacks depth or specificity."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Direct question about a specific band, natural language."}
+{"sample_id":"R001","prediction":"real","confidence":0.95,"reason":"Common abbreviation inquiry, phrased naturally."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.5,"reason":"Overly polished and vague; lacks real-world context."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.4,"reason":"Generic question structure; lacks specificity."}
+{"sample_id":"R017","prediction":"real","confidence":0.8,"reason":"Quirky question that reflects a unique perspective."}
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Specific historical inquiry, phrased naturally."}
+{"sample_id":"R042","prediction":"real","confidence":0.85,"reason":"Direct question about a historical figure, natural language."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Simple and direct question about a well-known location."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"Specific historical inquiry, phrased in a natural way."}
+{"sample_id":"R028","prediction":"real","confidence":0.75,"reason":"Specific question about a legal case, realistic phrasing."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"Direct inquiry about a university, phrased naturally."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Specific question about a television show, natural language."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.5,"reason":"Overly formal and structured; lacks real-world context."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.6,"reason":"Generic comparison question; lacks depth."}
+{"sample_id":"R007","prediction":"real","confidence":0.95,"reason":"Common abbreviation inquiry, phrased naturally."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.4,"reason":"Misspelling and vague structure; lacks specificity."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Direct question about a historical figure, natural phrasing."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.5,"reason":"Generic inquiry about herbs; lacks specificity."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical inquiry, phrased naturally."}
+{"sample_id":"R032","prediction":"real","confidence":0.8,"reason":"Simple and direct question about a location, natural language."}

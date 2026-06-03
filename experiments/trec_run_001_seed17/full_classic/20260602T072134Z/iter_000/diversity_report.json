@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples shows a good variety of intents, difficulties, and scenarios, but there are notable gaps in noise types and some missing attribute combinations. Additionally, there are several instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "noise: irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "style: fragmented",
+    "intent: numeric_values"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with irrelevant details to enhance diversity in noise types.",
+    "Reduce the frequency of fragmented style and numeric values intent to balance the representation.",
+    "Incorporate more edge cases in the scenarios, especially for human beings and locations."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

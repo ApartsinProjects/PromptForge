@@ -1,0 +1,36 @@
+{
+  "summary": "The batch exhibits a strong coverage of most attributes, but there are missing values in the 'intent' and 'noise' categories. Additionally, there are several near-duplicate phrasings and a few overrepresented modes.",
+  "missing_modes": [
+    "refund_request (edge_case)",
+    "technical_problem (common)",
+    "technical_problem (rare)",
+    "technical_problem (edge_case)",
+    "complaint (common)",
+    "complaint (edge_case)",
+    "general_question (rare)",
+    "general_question (edge_case)",
+    "account_issue (common)",
+    "account_issue (rare)",
+    "account_issue (common)",
+    "noise (clean)"
+  ],
+  "overrepresented_modes": [
+    "complaint",
+    "refund_request",
+    "general_question"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more diverse intents, especially for technical problems and edge cases.",
+    "Increase the variety of noise types to include clean samples.",
+    "Review and reduce near-duplicate phrasings by incorporating more varied language."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is a noticeable redundancy in phrasing and sentence structure, particularly among negative and sarcastic samples. Additionally, the emotional and visual scenarios are often described using similar expressions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "A more straightforward, plain English style for both positive and negative reviews.",
+    "A mix of different emotional tones beyond mild, moderate, and strong, such as ambivalence or indifference."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic remarks often follow a similar structure, particularly in negative reviews.",
+    "Positive reviews frequently use phrases like 'feast for the eyes' or 'kept me hooked', leading to a lack of unique expressions."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary, especially for emotional and visual descriptions.",
+    "Introduce prompts that specifically request unique expressions or metaphors to enhance creativity in reviews."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,24 @@
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Casual language and specific issue indicate a real user experience."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.7,"reason":"Overly polite and structured; lacks specific details about the bad experience."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct complaint about a specific issue with a purchase."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.6,"reason":"Generic question lacking personal context or urgency."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.65,"reason":"Predictable structure and phrasing; lacks personal touch."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Specific complaint about billing with a clear request for resolution."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.5,"reason":"Vague and overly cautious language; lacks specificity."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.55,"reason":"Generic phrasing and structure; lacks urgency."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.6,"reason":"Predictable structure and lacks personal context."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Specific inquiry about service outages; sounds like a real user."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear question."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct complaint about an order with a clear request for a refund."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Frustrated tone and specific complaint about service."}
+{"sample_id":"R016","prediction":"real","confidence":0.85,"reason":"Specific issue with account access; sounds authentic."}
+{"sample_id":"R025","prediction":"real","confidence":0.75,"reason":"Inquires about future options; sounds like a genuine user concern."}
+{"sample_id":"R028","prediction":"real","confidence":0.7,"reason":"Asks a specific question about product tiers; sounds authentic."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.5,"reason":"Vague and lacks urgency; feels scripted."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.6,"reason":"Overly formal and structured; lacks personal context."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with account verification; sounds authentic."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint about a damaged item with a clear request."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"Specific complaint about shipping delay; sounds genuine."}
+{"sample_id":"R007","prediction":"real","confidence":0.8,"reason":"Specific technical issue with a clear description."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific billing issue with a clear request for a refund."}
+{"sample_id":"R003","prediction":"real","confidence":0.85,"reason":"Direct complaint about a wrong size with a clear request."}

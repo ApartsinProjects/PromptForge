@@ -1,0 +1,24 @@
+{"sample_id":"R049","prediction":"synthetic","confidence":0.9,"reason":"Overly polished and vague; lacks specific detail or context."}
+{"sample_id":"R047","prediction":"synthetic","confidence":0.85,"reason":"Generic vocabulary and structure; lacks personal touch or unique insight."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"Unique phrasing and specific imagery; feels more authentic."}
+{"sample_id":"R043","prediction":"synthetic","confidence":0.9,"reason":"Overly formal and structured; lacks natural flow."}
+{"sample_id":"R030","prediction":"real","confidence":0.75,"reason":"Complex sentence structure and thematic depth suggest authenticity."}
+{"sample_id":"R031","prediction":"real","confidence":0.7,"reason":"Personal and reflective tone; feels genuine."}
+{"sample_id":"R036","prediction":"synthetic","confidence":0.8,"reason":"Predictable phrasing and lacks real-world context."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.95,"reason":"Extremely vague and lacks context; feels like a placeholder."}
+{"sample_id":"R005","prediction":"real","confidence":0.7,"reason":"Descriptive and specific; conveys a clear opinion."}
+{"sample_id":"R037","prediction":"synthetic","confidence":0.9,"reason":"Single word response lacks depth and context."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.85,"reason":"Casual and generic; lacks depth and specific critique."}
+{"sample_id":"R014","prediction":"real","confidence":0.75,"reason":"Imagery and metaphor suggest a more authentic voice."}
+{"sample_id":"R038","prediction":"synthetic","confidence":0.9,"reason":"Generic and lacks specific detail; feels formulaic."}
+{"sample_id":"R050","prediction":"synthetic","confidence":0.85,"reason":"Fragmented and lacks context; feels like a filler."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.9,"reason":"Incomplete thought; lacks depth and context."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.95,"reason":"Very vague and generic; lacks specificity."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.8,"reason":"Humorous and personal; conveys a clear opinion."}
+{"sample_id":"R013","prediction":"real","confidence":0.7,"reason":"Casual and conversational tone; feels authentic."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.9,"reason":"Single word response lacks context and depth."}
+{"sample_id":"R002","prediction":"synthetic","confidence":0.85,"reason":"Generic phrasing; lacks personal insight."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.75,"reason":"Specific critique and personal experience suggest authenticity."}
+{"sample_id":"R039","prediction":"real","confidence":0.7,"reason":"Unique phrasing and specific tone suggest a genuine opinion."}
+{"sample_id":"R010","prediction":"real","confidence":0.75,"reason":"Casual and relatable; conveys a personal perspective."}
+{"sample_id":"R006","prediction":"synthetic","confidence":0.85,"reason":"Generic and lacks specific detail; feels formulaic."}

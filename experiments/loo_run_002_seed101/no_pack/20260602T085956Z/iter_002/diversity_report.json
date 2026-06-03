@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and styles, but there are notable gaps in the noise attribute, particularly with 'clean' and 'missing_details'. Additionally, there are several instances of high ambiguity and contradiction, which may need to be balanced with clearer cases.",
+  "missing_modes": [
+    "clean",
+    "missing_details"
+  ],
+  "overrepresented_modes": [
+    "high ambiguity",
+    "contradiction"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with 'clean' noise to provide clearer cases.",
+    "Reduce the frequency of high ambiguity and contradiction scenarios to create a more balanced dataset.",
+    "Include more edge cases that involve unique or rare situations to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

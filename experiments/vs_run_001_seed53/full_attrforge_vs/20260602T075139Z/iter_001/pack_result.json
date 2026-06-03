@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i would like to inquire about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you assist me in",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it would be helpful if you could",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "please refund it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements of frustration or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of stating a problem followed by a brief description of attempts to resolve it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of short, concise sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or confirmations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific app or platform names",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing feelings or emotions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthier explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues described in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific software or app references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests for help or guidance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal vocabulary and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'how' to inquire about processes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of introductory phrases like 'honestly,' 'so,' and 'really disappointed'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of emotion (upset, disappointed)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'refund' in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and direct address to a team or support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical issues or scenarios",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common digital issues related to accounts and software",
+      "n_pairs_observed": 1
+    }
+  ]
+}

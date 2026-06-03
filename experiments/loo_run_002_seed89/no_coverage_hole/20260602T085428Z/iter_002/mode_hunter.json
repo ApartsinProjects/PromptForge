@@ -1,0 +1,102 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I just don’t get it.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses confusion and does not appear in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I seem to have forgotten the credentials for my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This structure indicates a specific issue with account access that is not found in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I ordered a blue jacket, but I got a red one.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This sentence structure detailing a mix-up in order fulfillment is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I am writing to express my dissatisfaction with the service provided.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal opener is not present in the real samples and indicates a specific tone of complaint.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I wish I could provide more details",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses a desire to give more information, which is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I feel like I'm missing something important",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase conveys a sense of anxiety about missing information, which does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe this!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This exclamatory opener indicates strong frustration, which is not present in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you please help?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This polite request for assistance is a common structure in the synthetic batch but is absent in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I’m really frustrated right now!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific emotional expression does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "it feels like no one cares.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase conveys a sense of neglect that is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "kinda frustrating, you know?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The informal tone and phrasing are unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "what’s up with that?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual questioning style does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I just don’t get it.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses confusion and does not appear in the real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I seem to have forgotten the credentials for my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This structure indicates a specific issue with account access that is not found in real samples.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I ordered a blue jacket, but I got a red one.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This sentence structure detailing a mix-up in order fulfillment is unique to the synthetic batch.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "I am writing to express my dissatisfaction with the service provided.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal opener is not present in the real samples and indicates a specific tone of complaint.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

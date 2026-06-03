@@ -1,0 +1,111 @@
+{
+  "pack_accuracy": 1.0,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language (e.g., 'u' instead of 'you')",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions framed in a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in question structure with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "comparative questions involving two subjects",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how do' or 'how does'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "comparative questions about size or behavior",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual phrasing and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of unrelated topics in a single question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how' or 'could you elaborate'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "comparative structures (e.g., 'compare to', 'differences and similarities')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in phrasing and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of multiple subjects in a single question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'could you' or 'how do'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of comparative language (e.g., 'compare to', 'differ in behavior')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific contexts or examples in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions comparing two entities",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for elaboration or lists",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of cultural references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on common phrases or concepts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how does'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler phrases like 'maybe' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of unrelated topics within a single question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual tone in phrasing",
+      "n_pairs_observed": 1
+    }
+  ]
+}

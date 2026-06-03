@@ -1,0 +1,24 @@
+{"sample_id":"R016","prediction":"synthetic","confidence":0.8,"reason":"Overly polished and abstract phrasing, lacks real-world context."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.7,"reason":"Fragmented structure and vague content suggest a lack of depth."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.9,"reason":"Natural flow and specific critique indicate genuine opinion."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.75,"reason":"Abstract language and lack of concrete detail suggest artificial generation."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Detailed analysis and specific references to film elements indicate authenticity."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing and predictable structure suggest a lack of originality."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.8,"reason":"Clear critique with relatable language indicates a real review."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.7,"reason":"Vague and overly simplistic language lacks depth."}
+{"sample_id":"R001","prediction":"synthetic","confidence":0.65,"reason":"Informal and abrupt phrasing suggests a lack of coherence."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.75,"reason":"Polished but generic language lacks specific insights."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.7,"reason":"Casual language and lack of depth suggest artificial generation."}
+{"sample_id":"R020","prediction":"synthetic","confidence":0.8,"reason":"Overly simplistic and vague, lacking real-world context."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.75,"reason":"Generic and polished language suggests a lack of authenticity."}
+{"sample_id":"R002","prediction":"real","confidence":0.85,"reason":"Rich imagery and specific critique indicate a genuine review."}
+{"sample_id":"R012","prediction":"synthetic","confidence":0.7,"reason":"Informal and vague, lacking depth and specificity."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Evocative language and specific imagery suggest authenticity."}
+{"sample_id":"R010","prediction":"synthetic","confidence":0.6,"reason":"Vague and overly simplistic, lacking depth."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.7,"reason":"Generic and lacks context, suggesting artificial generation."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.75,"reason":"Overly polished and vague, lacking specific insights."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.65,"reason":"Informal and abrupt phrasing suggests a lack of coherence."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"Specific praise and engaging language indicate a genuine review."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.7,"reason":"Fragmented and vague, lacking depth and specificity."}
+{"sample_id":"R023","prediction":"synthetic","confidence":0.75,"reason":"Generic phrasing and lack of detail suggest artificial generation."}
+{"sample_id":"R015","prediction":"synthetic","confidence":0.7,"reason":"Overly simplistic and vague, lacking real-world context."}

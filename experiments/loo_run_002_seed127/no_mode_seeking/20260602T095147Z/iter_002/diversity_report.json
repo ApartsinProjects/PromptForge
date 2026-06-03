@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a good coverage of attribute values, but there are some missing combinations and potential overrepresentation of certain styles. Additionally, there are instances of near-duplicate phrasings that could be addressed.",
+  "missing_modes": [
+    "edge_case for refund_request",
+    "common for technical_problem",
+    "common for complaint"
+  ],
+  "overrepresented_modes": [
+    "informal style",
+    "verbose style"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing and scenarios, especially for edge cases and common intents.",
+    "Introduce more variations in style to reduce overrepresentation of informal and verbose styles.",
+    "Ensure that all combinations of attributes are represented in future batches."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

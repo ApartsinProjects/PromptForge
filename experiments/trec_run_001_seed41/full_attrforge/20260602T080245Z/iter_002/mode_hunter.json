@@ -1,0 +1,17 @@
+{
+  "new_findings": [],
+  "banned_library": [
+    {
+      "pattern": "Can you tell me",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrasing is used multiple times in the synthetic batch but does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Could you elaborate on",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase is used in multiple synthetic samples but is absent from the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

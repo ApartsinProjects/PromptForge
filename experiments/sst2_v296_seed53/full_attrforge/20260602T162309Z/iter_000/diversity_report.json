@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a range of intents and styles, but there is significant redundancy in sarcastic and poetic expressions, leading to a lack of nuanced diversity. Many samples also share similar sentence structures and phrasings, particularly in the negative intent category.",
+  "missing_modes": [
+    "A more straightforward or plain English style that avoids sarcasm or poetic language.",
+    "Unique combinations of attributes that haven't been explored, such as 'mild' intensity with 'formal' style in a negative context."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic style, particularly in negative reviews, often using similar constructions.",
+    "Poetic style, especially in positive reviews, leading to similar imagery and phrasing."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more straightforward, plain English responses to balance the poetic and sarcastic tones.",
+    "Introduce more diverse combinations of attributes, particularly focusing on less common pairings like 'mild' polarity intensity with 'formal' style.",
+    "Vary sentence structures and vocabulary to reduce redundancy in phrasing, especially in negative reviews."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

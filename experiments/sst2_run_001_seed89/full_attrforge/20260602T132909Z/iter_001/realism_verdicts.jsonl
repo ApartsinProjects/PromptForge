@@ -1,0 +1,24 @@
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Casual language and specific reference to a film suggest authenticity."}
+{"sample_id":"R034","prediction":"real","confidence":0.7,"reason":"The phrase 'emotional force' feels genuine, though slightly generic."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.9,"reason":"Overly polished and emotional language, lacks real-world noise."}
+{"sample_id":"R005","prediction":"real","confidence":0.8,"reason":"Simple and straightforward, typical of genuine reviews."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.85,"reason":"Flowery language and metaphorical expressions are overly dramatic."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.95,"reason":"Highly structured and polished, reads like a formulaic review."}
+{"sample_id":"R037","prediction":"real","confidence":0.75,"reason":"Concise and informal, typical of genuine commentary."}
+{"sample_id":"R011","prediction":"real","confidence":0.7,"reason":"Descriptive and somewhat bleak, aligns with authentic critique."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.9,"reason":"Exaggerated language and structure suggest artificial generation."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"Direct critique of script and performances feels authentic."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Specific references and humor indicate a genuine review."}
+{"sample_id":"R007","prediction":"real","confidence":0.7,"reason":"Single-word critique is straightforward and authentic."}
+{"sample_id":"R012","prediction":"real","confidence":0.8,"reason":"Descriptive and critical, typical of real reviews."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.9,"reason":"Metaphorical language and structure feel overly crafted."}
+{"sample_id":"R003","prediction":"real","confidence":0.75,"reason":"Casual and blunt, typical of genuine commentary."}
+{"sample_id":"R029","prediction":"real","confidence":0.6,"reason":"Vague and simple, but could be seen as authentic."}
+{"sample_id":"R001","prediction":"real","confidence":0.8,"reason":"Specific technical critique suggests authenticity."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.95,"reason":"Overly poetic and embellished language indicates artificiality."}
+{"sample_id":"R020","prediction":"real","confidence":0.7,"reason":"Informal and blunt, typical of genuine reviews."}
+{"sample_id":"R006","prediction":"real","confidence":0.75,"reason":"Casual tone and relatable content suggest authenticity."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.85,"reason":"Structured and somewhat clichéd, indicating synthetic generation."}
+{"sample_id":"R017","prediction":"real","confidence":0.7,"reason":"Fragmented thought feels authentic in a review context."}
+{"sample_id":"R031","prediction":"real","confidence":0.75,"reason":"Casual and humorous tone aligns with genuine commentary."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Simple and straightforward, typical of real reviews."}

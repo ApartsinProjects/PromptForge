@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "questions without clear context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed personal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal pronouns like 'i' and 'my'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vocabulary that includes phrases like 'can you help me' and 'would like to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'hi' or 'hey' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common issues related to billing and orders",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with lower case",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal phrasing like 'quick one' or 'if yes how do i apply?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct inquiries about account features or billing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration with technology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for flexibility or options",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'so like' or 'any idea?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual phrases like 'so like' and 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'hi' or 'quick one' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise phrasing with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'asap'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about service features or tiers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for specific actions or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise structure",
+      "n_pairs_observed": 1
+    }
+  ]
+}

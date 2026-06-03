@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of conversational openers like 'so, i was...' or 'i've been waiting for...'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or anxiety about card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in asking for confirmation or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific details about the situation (e.g., 'weird flashing lights', 'urgent payment')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'could you please' and 'i would like to inquire'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues with cards or payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating an issue followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or confirmation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or anxiety",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details about account status or transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'i'm really anxious' and 'hey, so i was looking'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about payment status or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'why' or 'how'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements about payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating a problem followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of simple vocabulary and sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was charged",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think that my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why hasn't my payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i paid with card",
+      "n_pairs_observed": 1
+    }
+  ]
+}

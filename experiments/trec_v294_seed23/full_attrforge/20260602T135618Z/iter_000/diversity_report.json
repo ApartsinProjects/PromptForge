@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a high level of redundancy in phrasing and structure, particularly in the way questions are framed. Many texts follow similar patterns, leading to a lack of nuanced diversity despite covering all requested attributes.",
+  "missing_modes": [
+    "Examples of rare or edge cases in each intent category, such as unique historical figures for human beings or obscure locations.",
+    "More varied sentence structures and vocabulary to enhance the richness of the texts."
+  ],
+  "overrepresented_modes": [
+    "Questions starting with 'What is' or 'What are', particularly in factoid and list scenarios.",
+    "The use of 'in terms of' in comparison scenarios."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that utilize a wider variety of interrogative forms and structures.",
+    "Incorporate prompts that specifically request unique or lesser-known examples within each intent category."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

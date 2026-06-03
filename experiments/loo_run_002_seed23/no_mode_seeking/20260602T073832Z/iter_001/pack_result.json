@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise issue description followed by specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or error codes (e.g., '502', 'android 14')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions or requests for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details (e.g., 'triple-checked my order')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of app crashes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and filler words (e.g., 'like', 'um')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing urgency or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple issues in one sample",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual greeting opener (e.g., 'hey', 'quick question')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'can you' or 'could you' for requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of personal anecdotes or unrelated details (e.g., having a dog)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'hey' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent mention of issues with orders and refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual tone with phrases like 'kinda annoying' and 'really confused'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of issues with specific items or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler words (e.g., 'like', 'um', 'kinda')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of app issues and troubleshooting steps",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of annoyance or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about devices and actions taken",
+      "n_pairs_observed": 1
+    }
+  ]
+}

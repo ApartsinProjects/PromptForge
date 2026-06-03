@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.25,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "requests for refunds or corrections",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "polite inquiries about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed explanations of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone with personal experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or additional information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or context included in queries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise problem statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues related to accounts or software",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'mfa' and 'api'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i' or 'hi team'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression compared to pack a",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or solutions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request or complaint",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common technical issues mentioned (e.g., app crashing, account issues)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., starting with a problem statement followed by a request)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of urgency in language (e.g., 'unacceptable', 'asap', 'ridiculous')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone and lowercase letters",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on a single issue",
+      "n_pairs_observed": 1
+    }
+  ]
+}

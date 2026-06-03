@@ -1,0 +1,99 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "questions starting with 'what' or 'how'",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "inclusion of specific examples or references to well-known entities",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of formal question structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on definitions and comparisons",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of well-known cultural references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that compare or contrast two entities",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrasing ('if you were to...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with complex structures and multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of introductory phrases like 'can you' and 'how does'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate questions that include additional context or qualifiers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of explanatory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on general knowledge topics",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of asking for definitions or explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is/who is/what does/can you tell me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with a single, straightforward answer",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, factual inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific names or terms without context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'can you' or 'which'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in question structure with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific phrases like 'known for' and 'can you explain'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate questions compared to pack a",
+      "n_pairs_observed": 1
+    }
+  ]
+}

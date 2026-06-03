@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of intents, difficulties, ambiguities, and noise types, but lacks diversity in the style attribute. Additionally, there are some near-duplicate phrasings present.",
+  "missing_modes": [
+    "informal",
+    "fragmented"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples in informal and fragmented styles to enhance diversity.",
+    "Review the samples for near-duplicate phrasings and ensure more varied expressions are used.",
+    "Introduce more edge cases and rare scenarios to broaden the range of examples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

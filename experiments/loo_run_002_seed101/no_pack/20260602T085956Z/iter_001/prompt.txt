@@ -1,0 +1,8 @@
+"""Generate realistic customer support messages that align with the requested intent and style. Ensure the messages are plausible for various customer support channels (email, chat, in-app form) and incorporate a personal touch. Keep the length short to medium. Focus on generating diverse scenarios, including some with contradictions, while minimizing irrelevant details. Output a JSON object containing the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'Hey, so I was using the app to upload my files and it just stopped halfway through.'
+- 'I just wanted to express my frustration with the service I received recently.'
+- 'I was just wondering if you guys could tell me how I can get my favorite snack delivered faster?'
+
+Ensure to include a mix of intents such as refund requests, general questions, and account issues. Strive for clarity and emotional context, avoiding overly formal or scripted tones. Introduce varied noise types and ensure the difficulty level reflects realistic customer interactions. Aim for unique phrasings to reduce near-duplicates and enhance overall diversity in the generated texts. Your goal is to create messages that feel authentic and relatable, capturing the nuances of real customer support interactions."""

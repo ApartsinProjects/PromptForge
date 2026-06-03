@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are some issues with missing details and potential near-duplicates. The diversity in scenarios and intents is well-represented, though some combinations may benefit from further exploration.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal style",
+    "human_beings intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more varied phrasing in informal styles to reduce near-duplicates.",
+    "Introduce additional edge cases for human beings and entities to enhance diversity.",
+    "Ensure that all scenarios include sufficient detail to avoid missing details."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,24 @@
+{"sample_id":"R035","prediction":"real","confidence":0.9,"reason":"The question is straightforward and contextually relevant, typical of real inquiries."}
+{"sample_id":"R019","prediction":"real","confidence":0.85,"reason":"The phrasing is natural and specific, suggesting a real-world trivia question."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"The question is factual and direct, resembling common knowledge queries."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.7,"reason":"The phrase 'number one in the sun' feels overly polished and lacks context."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"The question is practical and relevant, typical of real-world inquiries."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.95,"reason":"This is a well-known historical fact, phrased naturally."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"The question is specific and factual, typical of real-world knowledge."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"The question is relevant to popular culture and phrased naturally."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"The question is straightforward and factual, typical of real inquiries."}
+{"sample_id":"R042","prediction":"real","confidence":0.8,"reason":"The question is factual and relevant to historical knowledge."}
+{"sample_id":"R031","prediction":"real","confidence":0.85,"reason":"The question is specific and relevant to sports trivia."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.6,"reason":"The question is vague and lacks depth, suggesting a synthetic origin."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"The question is specific and factual, typical of real-world knowledge."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"The question is straightforward and factual, typical of real inquiries."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"The question is specific and relevant to legal knowledge."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"The question is specific and relevant to historical knowledge."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.5,"reason":"The misspellings and awkward phrasing suggest a synthetic origin."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.65,"reason":"The question is vague and lacks specificity, suggesting a synthetic origin."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"The question is specific and factual, typical of real-world knowledge."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"The question is straightforward and factual, typical of real inquiries."}
+{"sample_id":"R038","prediction":"real","confidence":0.85,"reason":"The question is specific and relevant to educational content."}
+{"sample_id":"R039","prediction":"real","confidence":0.8,"reason":"The question is specific and relevant to branding knowledge."}
+{"sample_id":"R013","prediction":"real","confidence":0.75,"reason":"The question is specific and relevant to historical context."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.6,"reason":"The phrasing is awkward and lacks clarity, suggesting a synthetic origin."}

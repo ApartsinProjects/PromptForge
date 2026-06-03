@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are issues with typos and missing details in several entries. Additionally, there are near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "typos"
+  ],
+  "near_duplicate_rate": 0.2,
+  "recommendations": [
+    "Encourage more diverse phrasing and sentence structures to reduce near-duplicates.",
+    "Implement stricter checks for typos and missing details in the generated text.",
+    "Consider adding more edge cases or rare scenarios to enhance the diversity of the samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "excessive use of filler phrases like 'like seriously' and 'you know'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions and informal language, such as 'ruining my day' and 'i just want it to work!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions and requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of personal anecdotes or unrelated details, such as 'my friend's cat went missing'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'u', 'pls', 'yo')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "varying levels of formality in addressing customer support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about features or options",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, direct requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of a formal tone without emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal greeting and closing phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i hope this message finds you well'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "overly verbose explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests with excessive gratitude",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional expressions or emojis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to time or expectations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i want my money back.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "want a refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "not a reship",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "unacceptable.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "any chance of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'pls', 'u', 'pw')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account access or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of dissatisfaction with service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone and casual phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct address to the service provider",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in asking for help or clarification",
+      "n_pairs_observed": 1
+    }
+  ]
+}

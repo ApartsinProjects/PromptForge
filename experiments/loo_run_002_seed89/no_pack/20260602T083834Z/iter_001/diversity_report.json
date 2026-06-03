@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a comprehensive coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity is generally good, though some modes are overrepresented.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "high ambiguity",
+    "hard difficulty",
+    "emotional style"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasing to reduce near-duplicates.",
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Consider adding more informal and concise styles to balance the representation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

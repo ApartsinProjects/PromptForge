@@ -1,0 +1,24 @@
+{"sample_id":"target_00055","prediction":"synthetic","confidence":0.85,"reason":"casual question format; real samples are more formal and analytical."}
+{"sample_id":"target_00058","prediction":"synthetic","confidence":0.9,"reason":"informal tone; real samples are more structured and academic."}
+{"sample_id":"target_00072","prediction":"real","confidence":0.95,"reason":"formal inquiry into geographical significance; matches the analytical style of real samples."}
+{"sample_id":"target_00068","prediction":"real","confidence":0.9,"reason":"formal comparison of leadership styles; aligns with the analytical register of real samples."}
+{"sample_id":"target_00063","prediction":"synthetic","confidence":0.8,"reason":"casual phrasing; real samples are more formal and detailed."}
+{"sample_id":"target_00051","prediction":"real","confidence":0.9,"reason":"formal inquiry into geographical boundaries; consistent with the analytical style of real samples."}
+{"sample_id":"target_00059","prediction":"synthetic","confidence":0.85,"reason":"informal tone; real samples are more structured and academic."}
+{"sample_id":"target_00053","prediction":"real","confidence":0.95,"reason":"formal elaboration on philosophical implications; matches the analytical style of real samples."}
+{"sample_id":"target_00066","prediction":"synthetic","confidence":0.9,"reason":"informal and misspelled; real samples are more polished and formal."}
+{"sample_id":"target_00054","prediction":"real","confidence":0.9,"reason":"formal inquiry into scientific concepts; aligns with the analytical register of real samples."}
+{"sample_id":"target_00062","prediction":"synthetic","confidence":0.85,"reason":"casual phrasing; real samples are more formal and analytical."}
+{"sample_id":"target_00065","prediction":"synthetic","confidence":0.8,"reason":"informal tone; real samples are more structured and academic."}
+{"sample_id":"target_00052","prediction":"synthetic","confidence":0.9,"reason":"casual and vague inquiry; real samples are more formal and specific."}
+{"sample_id":"target_00057","prediction":"synthetic","confidence":0.85,"reason":"informal tone; real samples are more structured and academic."}
+{"sample_id":"target_00069","prediction":"real","confidence":0.95,"reason":"formal comparison of historical figures; matches the analytical style of real samples."}
+{"sample_id":"target_00056","prediction":"real","confidence":0.9,"reason":"formal explanation of biological classification; aligns with the analytical register of real samples."}
+{"sample_id":"target_00061","prediction":"synthetic","confidence":0.9,"reason":"informal and misspelled; real samples are more polished and formal."}
+{"sample_id":"target_00049","prediction":"real","confidence":0.95,"reason":"formal elaboration on existentialism; matches the analytical style of real samples."}
+{"sample_id":"target_00070","prediction":"real","confidence":0.9,"reason":"formal inquiry into civil rights figures; aligns with the analytical register of real samples."}
+{"sample_id":"target_00064","prediction":"real","confidence":0.9,"reason":"formal request for theoretical concepts; matches the analytical style of real samples."}
+{"sample_id":"target_00071","prediction":"real","confidence":0.9,"reason":"formal inquiry into geographical features; aligns with the analytical register of real samples."}
+{"sample_id":"target_00060","prediction":"real","confidence":0.9,"reason":"formal inquiry into species extinction; matches the analytical style of real samples."}
+{"sample_id":"target_00050","prediction":"synthetic","confidence":0.85,"reason":"informal tone and misspelled; real samples are more polished and formal."}
+{"sample_id":"target_00067","prediction":"synthetic","confidence":0.8,"reason":"casual comparison; real samples are more formal and analytical."}

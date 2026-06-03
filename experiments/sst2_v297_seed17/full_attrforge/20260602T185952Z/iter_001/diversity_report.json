@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with varied intents and styles, but there is significant nuance redundancy, particularly in the phrasing and structure of negative reviews. Many samples utilize similar sarcastic constructions and expressions of disappointment, leading to a lack of true diversity in sentiment expression.",
+  "missing_modes": [
+    "A plain English style that avoids embellishments or poetic language.",
+    "A more analytical or critical style that focuses on specific aspects of the film without emotional language."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic expressions in negative reviews, often using similar phrases to convey disappointment.",
+    "Concise positive reviews that frequently use the term 'mesmerizing' or similar descriptors."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more plain English reviews that focus on straightforward critiques.",
+    "Introduce more varied emotional expressions in negative reviews to avoid repetitive sarcasm.",
+    "Include a wider range of vocabulary and sentence structures to enhance the uniqueness of each review."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

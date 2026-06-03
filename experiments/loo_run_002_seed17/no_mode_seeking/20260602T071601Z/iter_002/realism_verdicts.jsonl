@@ -1,0 +1,24 @@
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Natural phrasing and context-specific issue; lacks over-polished grammar."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.7,"reason":"Overly structured and predictable; lacks personal touch."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct and concise; reflects a common user issue."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Specific inquiry about product features; natural language."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Contextual and relevant question; informal tone."}
+{"sample_id":"R000","prediction":"real","confidence":0.95,"reason":"Specific issue with order; includes details like order number."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Common user issue with a personal touch; informal language."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"Casual tone and specific complaint about shipping."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Technical issue described in a straightforward manner."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Technical inquiry; clear and concise."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.6,"reason":"Generic complaint; lacks specific details or emotional depth."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.65,"reason":"Overly dramatic and structured; lacks authenticity."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Direct question about discounts; informal tone."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"Generic frustration expressed; lacks specific context."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Specific technical issue; clear and relatable."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint with urgency; natural language."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific request related to account security; informal."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.6,"reason":"Lacks specificity and emotional depth; feels scripted."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong emotional response; reflects a real customer experience."}
+{"sample_id":"R020","prediction":"real","confidence":0.85,"reason":"Frustrated tone; common customer service complaint."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Specific technical issue; relatable and informal."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Technical inquiry with specific details; natural phrasing."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with account management; informal tone."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.65,"reason":"Generic request for help; lacks personal touch."}

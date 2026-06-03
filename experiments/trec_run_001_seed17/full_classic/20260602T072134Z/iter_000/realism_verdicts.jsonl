@@ -1,0 +1,24 @@
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Simple, direct question with no over-polished grammar or structure."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.8,"reason":"Generic structure and vocabulary; lacks specificity."}
+{"sample_id":"R037","prediction":"real","confidence":0.85,"reason":"Specific question about a person, natural phrasing."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Overly broad and abstract; lacks real-world context."}
+{"sample_id":"R038","prediction":"real","confidence":0.9,"reason":"Clear, specific inquiry about a list; natural language."}
+{"sample_id":"R036","prediction":"real","confidence":0.9,"reason":"Direct question with clear intent; no artificial cues."}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"Specific historical sports question; natural phrasing."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.7,"reason":"Overly complex and verbose; lacks concise clarity."}
+{"sample_id":"R031","prediction":"real","confidence":0.9,"reason":"Specific nickname inquiry; straightforward language."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.75,"reason":"Generic question about landmarks; lacks depth."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.6,"reason":"Excessively detailed and verbose; lacks natural flow."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Specific comic book reference; natural phrasing."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"Direct and clear question about a common object."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple, factual question; no artificial cues."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Clear inquiry about an acronym; natural language."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Direct question about a common term; straightforward."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific biological question; natural phrasing."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.7,"reason":"Generic question; lacks specificity and context."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical legal question; natural language."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct question about an abbreviation; clear intent."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.75,"reason":"Generic structure; lacks depth and specificity."}
+{"sample_id":"R030","prediction":"real","confidence":0.85,"reason":"Specific historical reference; natural phrasing."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.65,"reason":"Overly verbose and complex; lacks concise clarity."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.7,"reason":"Generic question; lacks depth and specificity."}

@@ -1,0 +1,24 @@
+{"sample_id":"R083","prediction":"real","confidence":0.9,"reason":"Direct inquiry about exchange rates; matches the formal customer service context."}
+{"sample_id":"R055","prediction":"real","confidence":0.9,"reason":"Formal request regarding card payment fees; aligns with customer service inquiries."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"Casual tone and phrasing ('I apologize, but my card seems to not function properly') contrasts with the more direct inquiries in real samples."}
+{"sample_id":"R041","prediction":"real","confidence":0.9,"reason":"Direct question about fees; fits the formal customer service register."}
+{"sample_id":"R123","prediction":"real","confidence":0.9,"reason":"Formal inquiry about declined payment; matches the customer service context."}
+{"sample_id":"R155","prediction":"real","confidence":0.9,"reason":"Direct question about stolen cards; aligns with formal customer service inquiries."}
+{"sample_id":"R042","prediction":"real","confidence":0.9,"reason":"Formal inquiry about unexpected fees; fits the customer service context."}
+{"sample_id":"R109","prediction":"real","confidence":0.9,"reason":"Direct question about ATM issues; matches the formal register."}
+{"sample_id":"R150","prediction":"real","confidence":0.9,"reason":"Formal inquiry about lost cards; aligns with customer service context."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.6,"reason":"Casual phrasing ('Hi, I’m just checking') contrasts with the more formal inquiries in real samples."}
+{"sample_id":"R100","prediction":"real","confidence":0.9,"reason":"Direct statement about ATM issues; fits the formal customer service context."}
+{"sample_id":"R151","prediction":"real","confidence":0.9,"reason":"Direct inquiry about stolen cards; aligns with formal customer service inquiries."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Formal inquiry about card arrival; matches the customer service context."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.7,"reason":"Casual tone ('Hey, I just saw a charge') contrasts with the more formal inquiries in real samples."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Direct inquiry about card arrival; fits the formal customer service context."}
+{"sample_id":"R127","prediction":"real","confidence":0.9,"reason":"Formal inquiry about payment issues; aligns with customer service context."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Direct statement about card issues; matches the formal register."}
+{"sample_id":"R135","prediction":"real","confidence":0.9,"reason":"Direct inquiry about payment acceptance; fits the formal customer service context."}
+{"sample_id":"R124","prediction":"real","confidence":0.9,"reason":"Direct statement about card issues; aligns with customer service inquiries."}
+{"sample_id":"R161","prediction":"real","confidence":0.9,"reason":"Formal inquiry about transaction times; matches the customer service context."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct inquiry about card arrival; fits the formal customer service context."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.7,"reason":"Casual tone ('Hello! I recently attempted') contrasts with the more formal inquiries in real samples."}
+{"sample_id":"R182","prediction":"real","confidence":0.9,"reason":"Direct inquiry about topping up; aligns with customer service context."}
+{"sample_id":"R057","prediction":"real","confidence":0.9,"reason":"Direct statement about fees; fits the formal customer service context."}

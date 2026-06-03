@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "full of grace",
+      "label": "positive",
+      "p_real": 0.683895210013929
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6828989646311325
+    },
+    {
+      "text": "funny in a sick , twisted sort of way .",
+      "label": "positive",
+      "p_real": 0.6814399141100234
+    },
+    {
+      "text": "unassuming",
+      "label": "negative",
+      "p_real": 0.6793199946675557
+    },
+    {
+      "text": "by a lackluster script and substandard performances",
+      "label": "negative",
+      "p_real": 0.6781727721752393
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

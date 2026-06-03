@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but lacks diversity in style, with a notable absence of 'fragmented' style. Additionally, there are several instances of missing details across various samples.",
+  "missing_modes": [
+    "fragmented"
+  ],
+  "overrepresented_modes": [
+    "informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with 'fragmented' style to enhance diversity.",
+    "Ensure that all samples include sufficient details to avoid missing information.",
+    "Diversify the use of informal style to balance with formal and concise styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

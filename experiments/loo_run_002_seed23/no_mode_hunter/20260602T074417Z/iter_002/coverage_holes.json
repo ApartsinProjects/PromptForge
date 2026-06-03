@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6503768410118381
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6452804888630518
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6436529942114388
+    },
+    {
+      "text": "card was charged for the annual plan, I only meant monthly, can you fix this",
+      "label": "refund_request",
+      "p_real": 0.6421974347597389
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

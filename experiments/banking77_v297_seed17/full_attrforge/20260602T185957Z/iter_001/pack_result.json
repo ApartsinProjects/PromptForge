@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i need help",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'i think' or 'i noticed'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed explanations of situations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or uncertainty",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of exchange rate issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in complaints about fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with direct requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed a charge on my statement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help/please provide details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i do not recognize",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card status or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'why did my...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think my card is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i cannot recall making",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration with card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about payment problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or disbelief",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have a payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "there is a payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i topped up",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing issues with payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of conversational openers like 'hey' and 'what’s going on?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a casual tone and direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory phrases to express frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent mention of card issues with a focus on personal experience",
+      "n_pairs_observed": 1
+    }
+  ]
+}

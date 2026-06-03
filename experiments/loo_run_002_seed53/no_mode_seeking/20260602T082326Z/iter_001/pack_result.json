@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressions of disappointment or frustration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise problem statement followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or specific error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal politeness",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of specific software or service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration expressed in a concise manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues described with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise problem statements followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical details (e.g., browser version, app issues)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'x is happening, y is the issue')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of transitional phrases like 'i must say' and 'could you please'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues described in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational tone with questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i've been trying to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or additional context (e.g., 'my dog was a bit anxious')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise problem statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'quick one', 'need help')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common issues related to account access and functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with a personal experience or issue",
+      "n_pairs_observed": 1
+    }
+  ]
+}

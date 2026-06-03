@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a variety of intents and styles, but there is significant redundancy in phrasing, particularly with sarcastic and negative sentiments. Many samples use similar constructions, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "plain English descriptions of films without embellishment",
+    "detailed critiques focusing on specific elements like cinematography or sound design"
+  ],
+  "overrepresented_modes": [
+    "sarcastic remarks about the film's quality",
+    "concise negative reviews that express disappointment"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings and sentence structures, especially for negative and sarcastic reviews.",
+    "Include prompts for more detailed analyses of specific aspects of the films, such as character development or thematic depth."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,17 @@
+"""Generate realistic open-domain English questions that match the requested TREC question-type category. Each question should be a single complete inquiry that ends with a question mark and reflects the complexity and style typical of user queries in an open-domain QA system. Ensure a variety of sentence structures and styles, particularly for definitions and comparisons, while maintaining the requested noise level. 
+
+Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:** 
+- "What are the key differences between X and Y?"
+- "Can you explain the significance of [concept] in [context]?"
+- "What factors contribute to [phenomenon]?"
+- "How does [event] impact [group or situation]?"
+- "What are some examples of [category]?"
+
+**Forbidden phrasings:** 
+- Avoid overly casual or fragmented styles.
+- Do not use simplistic questions about abbreviations or locations.
+- Refrain from straightforward factoid questions that lack depth.
+
+Focus on producing questions that vary in difficulty, ambiguity, and intent, ensuring they align with the requested scenario type. Aim for a balance of formal and informal styles while avoiding redundancy in phrasing and structure. Incorporate complex comparisons and analytical inquiries to enhance diversity in the output."""

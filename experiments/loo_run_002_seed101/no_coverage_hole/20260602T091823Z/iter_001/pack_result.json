@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i can't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my app keeps crashing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "help me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "like i've tried",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "but it's still not working",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical details (e.g., 'i'm on safari 17')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for information or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language (e.g., 'stressing me out', 'really upset')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'i mean' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conditional phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing uncertainty about the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal phrasing with missing punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions without introductory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would like to request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just don't understand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can someone help me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it keeps saying",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't know why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about billing or technical issues",
+      "n_pairs_observed": 1
+    }
+  ]
+}

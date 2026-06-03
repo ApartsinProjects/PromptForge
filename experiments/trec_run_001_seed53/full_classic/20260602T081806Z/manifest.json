@@ -1,0 +1,158 @@
+{
+  "run_dir": "E:\\Projects\\PromptForge\\experiments\\trec_run_001_seed53\\full_classic\\20260602T081806Z",
+  "n_iterations": 3,
+  "final_prompt_version": 2,
+  "metric_history": [
+    {
+      "iteration": 0.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.125,
+      "synthetic_detection_rate": 0.0,
+      "near_duplicate_rate": 0.15,
+      "combination_coverage": 0.5555555555555556,
+      "entropy/intent": 0.9218145574751188,
+      "entropy/difficulty": 0.8957541375001009,
+      "entropy/ambiguity": 0.9497012164384108,
+      "entropy/style": 0.9283832117695864,
+      "entropy/noise": 0.902518266288633,
+      "entropy/scenario_type": 0.8246987351738496,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/ambiguity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 1.0
+    },
+    {
+      "iteration": 1.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.875,
+      "synthetic_detection_rate": 0.75,
+      "near_duplicate_rate": 0.1,
+      "combination_coverage": 0.7222222222222222,
+      "entropy/intent": 0.9789848253208956,
+      "entropy/difficulty": 0.9965119062478287,
+      "entropy/ambiguity": 0.9850568223215079,
+      "entropy/style": 0.8504146864248051,
+      "entropy/noise": 0.885891110799899,
+      "entropy/scenario_type": 0.8387106419146823,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/ambiguity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 1.0
+    },
+    {
+      "iteration": 2.0,
+      "attribute_match_rate": 0.0,
+      "discriminator_accuracy": 0.875,
+      "synthetic_detection_rate": 0.8571428571428571,
+      "near_duplicate_rate": 0.0,
+      "combination_coverage": 0.7222222222222222,
+      "entropy/intent": 0.9400664543100068,
+      "entropy/difficulty": 0.9497012164384108,
+      "entropy/ambiguity": 0.9497012164384108,
+      "entropy/style": 0.9388906303246313,
+      "entropy/noise": 0.7959585933443496,
+      "entropy/scenario_type": 0.902518266288633,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/ambiguity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 1.0
+    }
+  ],
+  "prompt_history": [
+    {
+      "version": 0,
+      "iteration": 0,
+      "prompt": "Generate realistic open-domain English questions that match the requested\nTREC question-type category. The example should be a single complete question\nthat ends with a question mark and reads as something a user might ask in\nan open-domain QA system. Match the requested style and noise level. Output\na JSON object with the sample id, the text, and the attribute values.\n",
+      "motivation": "initial prompt",
+      "feedback_summary": {},
+      "timestamp": "2026-06-02T08:18:06.430849+00:00"
+    },
+    {
+      "version": 1,
+      "iteration": 1,
+      "prompt": "\"\"\"Generate diverse and realistic open-domain English questions that align with the specified TREC question-type category. Each question should be a single complete sentence, ending with a question mark, and reflect the complexity and context of real user inquiries in an open-domain QA system. Ensure a mix of styles, including informal and fragmented structures, and incorporate varying levels of difficulty and ambiguity. Aim for questions that may include numeric values, comparisons, or abstract concepts to enhance depth and realism. \n\nOutput a JSON object containing the sample id, the question text, and the attribute values including intent, difficulty, ambiguity, style, noise, and scenario_type. \n\nForbidden phrasings: Avoid overly simplistic structures, generic vocabulary, and predictable formats. Strive for unique phrasing to minimize near-duplicates and ensure a wide range of scenarios and contexts are represented. \n\n\"\"\"",
+      "motivation": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all modes represented. However, there are instances of near-duplicate phrasings and some overrepresented modes that could affect diversity.",
+      "feedback_summary": {
+        "iteration": 0,
+        "n_attribute_failures": 16,
+        "n_realism_artifacts": 17,
+        "near_duplicate_rate": 0.15,
+        "pack_accuracy": null,
+        "mode_seeking_ratio": null,
+        "n_banned_phrasings": 0,
+        "missing_modes": [],
+        "overrepresented_modes": [
+          "informal",
+          "medium difficulty",
+          "definition scenario_type"
+        ],
+        "metrics": {
+          "attribute_match_rate": 0.0,
+          "discriminator_accuracy": 0.125,
+          "synthetic_detection_rate": 0.0,
+          "near_duplicate_rate": 0.15,
+          "combination_coverage": 0.5555555555555556,
+          "entropy/intent": 0.9218145574751188,
+          "entropy/difficulty": 0.8957541375001009,
+          "entropy/ambiguity": 0.9497012164384108,
+          "entropy/style": 0.9283832117695864,
+          "entropy/noise": 0.902518266288633,
+          "entropy/scenario_type": 0.8246987351738496,
+          "coverage/intent": 1.0,
+          "coverage/difficulty": 1.0,
+          "coverage/ambiguity": 1.0,
+          "coverage/style": 1.0,
+          "coverage/noise": 1.0,
+          "coverage/scenario_type": 1.0
+        }
+      },
+      "timestamp": "2026-06-02T08:19:29.898703+00:00"
+    },
+    {
+      "version": 2,
+      "iteration": 2,
+      "prompt": "\"\"\"\"\"\"Generate diverse and realistic open-domain English questions that align with the specified TREC question-type category. Each question should be a single complete sentence, ending with a question mark, and reflect the complexity and context of real user inquiries in an open-domain QA system. Incorporate a variety of styles, including informal, fragmented, and complex structures, while ensuring questions vary in difficulty and ambiguity. Aim for questions that may include numeric values, comparisons, or abstract concepts to enhance depth and realism. \n\nOutput a JSON object containing the sample id, the question text, and the attribute values including intent, difficulty, ambiguity, style, noise, and scenario_type. \n\nForbidden phrasings: Avoid overly simplistic structures, generic vocabulary, and predictable formats. Strive for unique phrasing to minimize near-duplicates and ensure a wide range of scenarios and contexts are represented. Additionally, reduce high ambiguity scenarios and introduce more edge cases or rare scenarios to enhance diversity. \n\nEnsure that each question reflects specific entities or concepts, avoids vague or overly broad inquiries, and maintains a natural phrasing that aligns with real-world contexts. Aim for a balanced representation of all attribute values while avoiding redundancy in expression. \n\n\"\"\"\"\"\"",
+      "motivation": "The batch exhibits a comprehensive coverage of all attribute values, but there are instances of high ambiguity and typos that could affect clarity. Additionally, the presence of near-duplicate phrasings suggests a need for more varied expressions.",
+      "feedback_summary": {
+        "iteration": 1,
+        "n_attribute_failures": 16,
+        "n_realism_artifacts": 7,
+        "near_duplicate_rate": 0.1,
+        "pack_accuracy": null,
+        "mode_seeking_ratio": null,
+        "n_banned_phrasings": 0,
+        "missing_modes": [],
+        "overrepresented_modes": [
+          "high ambiguity",
+          "concise style"
+        ],
+        "metrics": {
+          "attribute_match_rate": 0.0,
+          "discriminator_accuracy": 0.875,
+          "synthetic_detection_rate": 0.75,
+          "near_duplicate_rate": 0.1,
+          "combination_coverage": 0.7222222222222222,
+          "entropy/intent": 0.9789848253208956,
+          "entropy/difficulty": 0.9965119062478287,
+          "entropy/ambiguity": 0.9850568223215079,
+          "entropy/style": 0.8504146864248051,
+          "entropy/noise": 0.885891110799899,
+          "entropy/scenario_type": 0.8387106419146823,
+          "coverage/intent": 1.0,
+          "coverage/difficulty": 1.0,
+          "coverage/ambiguity": 1.0,
+          "coverage/style": 1.0,
+          "coverage/noise": 1.0,
+          "coverage/scenario_type": 1.0
+        }
+      },
+      "timestamp": "2026-06-02T08:21:08.547333+00:00"
+    }
+  ]
+}

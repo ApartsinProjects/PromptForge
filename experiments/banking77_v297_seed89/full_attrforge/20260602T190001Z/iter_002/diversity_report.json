@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with varied intents and styles, but there are notable redundancies in phrasing and sentence structures, particularly in the emotional and fragmented styles. Several texts also share similar constructions, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "formal concise inquiries",
+    "informal verbose expressions",
+    "medium difficulty scenarios with low ambiguity"
+  ],
+  "overrepresented_modes": [
+    "fragmented style with similar sentence structures",
+    "emotional expressions that convey anxiety or confusion",
+    "concise inquiries about card issues"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique sentence structures and vocabulary, especially in emotional and fragmented styles.",
+    "Introduce prompts that specifically request variations in phrasing for common issues to reduce redundancy.",
+    "Include examples of formal concise inquiries to balance the emotional and fragmented styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

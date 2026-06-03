@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6372376686138109
+    },
+    {
+      "text": "a number of other assets to commend it to movie audiences both innocent and jaded",
+      "label": "positive",
+      "p_real": 0.6360032851673583
+    },
+    {
+      "text": ", populating its hackneyed and meanspirited storyline with cardboard characters and performers who value cash above credibility .",
+      "label": "negative",
+      "p_real": 0.635168934165593
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6339684374209138
+    },
+    {
+      "text": "broomfield 's style of journalism is hardly journalism at all , and",
+      "label": "negative",
+      "p_real": 0.6317053410658615
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

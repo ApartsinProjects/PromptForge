@@ -1,0 +1,24 @@
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Simple question structure, common abbreviation."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a unique characteristic, natural phrasing."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.7,"reason":"Unusual question linking animals to stock market, lacks real-world context."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Common abbreviation, straightforward question."}
+{"sample_id":"R045","prediction":"real","confidence":0.95,"reason":"Specific historical fact, natural phrasing."}
+{"sample_id":"R043","prediction":"real","confidence":0.9,"reason":"Specific legal inquiry, realistic context."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Specific historical inquiry, plausible question."}
+{"sample_id":"R046","prediction":"real","confidence":0.85,"reason":"Common knowledge question, straightforward."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Specific sports fact, natural phrasing."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple historical question, common knowledge."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Common abbreviation, straightforward question."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.6,"reason":"Generic question about a Nobel Prize, lacks depth."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.65,"reason":"Vague question about travel, lacks specificity."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"Natural phrasing, common inquiry about exercises."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Common abbreviation, straightforward question."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.7,"reason":"Generic historical inquiry, lacks specificity."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific historical context, plausible question."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.75,"reason":"Overly broad request for a list, lacks natural phrasing."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.7,"reason":"Opinion-based question, lacks depth."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.85,"reason":"Common abbreviation, straightforward question."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"Scientific inquiry, plausible question."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.5,"reason":"Overly complex and broad question, lacks natural phrasing."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"Common abbreviation, straightforward question."}
+{"sample_id":"R037","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a person, plausible context."}

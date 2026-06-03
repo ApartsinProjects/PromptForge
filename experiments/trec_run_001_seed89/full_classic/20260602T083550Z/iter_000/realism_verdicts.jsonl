@@ -1,0 +1,24 @@
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Natural phrasing, straightforward question about a scientific topic."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.7,"reason":"Overly polished and generic; lacks personal touch or specificity."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Casual phrasing, realistic inquiry about local media."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.6,"reason":"Generic question structure; lacks depth or context."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Specific and clear question about a well-known band."}
+{"sample_id":"R001","prediction":"real","confidence":0.95,"reason":"Simple, direct question with common slang."}
+{"sample_id":"R018","prediction":"real","confidence":0.8,"reason":"Unique phrasing, likely referencing a specific advertisement."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.5,"reason":"Complex structure with awkward phrasing; lacks natural flow."}
+{"sample_id":"R017","prediction":"real","confidence":0.75,"reason":"Quirky question that reflects a humorous take on finance."}
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Historical inquiry with a specific focus."}
+{"sample_id":"R042","prediction":"real","confidence":0.85,"reason":"Direct question about a historical figure."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"Simple and factual question about geography."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"Specific historical reference, realistic phrasing."}
+{"sample_id":"R028","prediction":"real","confidence":0.7,"reason":"Specific inquiry about a legal case; realistic context."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"Factual question about university enrollment."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Specific question about a well-known TV show."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.4,"reason":"Awkward phrasing and overly formal structure."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.6,"reason":"Comparative question lacks depth and specificity."}
+{"sample_id":"R007","prediction":"real","confidence":0.95,"reason":"Common slang question; very natural."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.3,"reason":"Misspellings and awkward phrasing indicate LLM generation."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple factual question about a historical figure."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.5,"reason":"Generic question structure; lacks specificity."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical inquiry about a landmark case."}
+{"sample_id":"R032","prediction":"real","confidence":0.8,"reason":"Simple and direct question about a location."}

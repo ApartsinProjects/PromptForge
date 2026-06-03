@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openings like 'hello' or 'i'm experiencing'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive detail in describing issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone in some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific requests for refunds or resolutions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inquiry about a specific feature or issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon or specific terms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures across samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite opening and closing phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed explanations or elaborations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions at the beginning of the text (e.g., 'i'm really upset!', 'i'm really frustrated')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints without elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal context or emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'u', 'plz', 'somthing')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account status or service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i can' or 'is there a way to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or assistance",
+      "n_pairs_observed": 1
+    }
+  ]
+}

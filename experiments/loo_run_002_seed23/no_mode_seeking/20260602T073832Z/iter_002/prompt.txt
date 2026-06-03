@@ -1,0 +1,17 @@
+""""""Generate realistic customer support messages that align with the requested intent and style. Incorporate a variety of scenarios, including rare cases and edge situations, while ensuring a balance of emotional, fragmented, and concise styles. Include a range of ambiguity levels and difficulty, with some messages being straightforward and others more complex. Aim for a natural tone that reflects informal speech patterns and urgency when necessary. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I was wondering if'
+- 'I just don’t understand how'
+- 'so frustrating!'
+- 'Hey, quick question -'
+- 'Can you clarify this situation?'
+
+Consider including messages like:
+- "Two factor codes never come through, I've been locked out for 2 days now."
+- "When I click checkout, nothing happens. Just a spinner forever. I'm on Safari 17."
+- "Is the pro plan billed monthly or yearly?"
+- "The CSV import keeps timing out at ~3000 rows. Is there a row limit nobody documented?"
+- "Ordered 2 items, only got 1. I need a refund for the missing one, not a reship."
+
+Ensure that generated messages are plausible for customer support channels (email, chat, in-app form) and vary in length and structure to enhance diversity. Include emotional expressions and fragmented sentences to reflect real customer experiences."""""

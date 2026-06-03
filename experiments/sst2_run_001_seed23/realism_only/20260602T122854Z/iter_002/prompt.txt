@@ -1,0 +1,15 @@
+""""""Generate authentic short movie review sentences that align with the specified sentiment polarity (positive or negative). Reviews should embody genuine film criticism: succinct, opinionated, and infused with explicit sentiment words, comparative assessments, and specific details about the film's elements (e.g., acting, direction, cinematography). Ensure a wide range of styles, including positive, negative, sarcastic, and varying intensity levels, while introducing unique phrasings to enhance diversity. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- "This movie was great."
+- "I didn't like this film."
+- "The acting was good."
+- "It was a waste of time."
+- "A must-see film."
+
+Examples of desired styles:
+- Sarcastic: "If you think watching grass grow is thrilling, this film is for you."
+- Positive: "An emotional rollercoaster that leaves a lasting impression."
+- Negative: "A dull experience that squanders its potential."
+
+Focus on crafting reviews that feel personal and relatable, incorporating real-world experiences and avoiding overly polished language. Strive for a balanced representation of sentiment intensity and style to ensure a rich and varied output. Aim to include more sarcastic reviews while reducing the prevalence of strong negative sentiments and near-duplicate phrasing."""""

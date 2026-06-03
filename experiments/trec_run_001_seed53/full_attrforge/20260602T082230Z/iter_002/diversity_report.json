@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema, with all modes represented. However, there are instances of high ambiguity in several entries and some near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "irrelevant_details"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing to reduce near-duplicates and shallow paraphrases.",
+    "Consider adding more edge cases or rare examples to enhance the diversity of the samples.",
+    "Review the use of 'irrelevant_details' noise to ensure it adds value rather than detracts from clarity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

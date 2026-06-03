@@ -1,0 +1,24 @@
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"The question is straightforward and lacks the over-polished structure typical of LLMs."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.8,"reason":"The question is overly simplistic and lacks depth, suggesting a generated response."}
+{"sample_id":"target_00042","prediction":"real","confidence":0.85,"reason":"The phrasing is natural and conversational, typical of human inquiry."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects a casual tone, indicating a real person."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.75,"reason":"The question is factual but lacks nuance, suggesting it may be generated."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"The question is specific and reflects a genuine curiosity about a historical figure."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.7,"reason":"The structure is somewhat generic and lacks real-world context."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.9,"reason":"The question is detailed and reflects a nuanced understanding of time."}
+{"sample_id":"R031","prediction":"synthetic","confidence":0.65,"reason":"The question is straightforward but lacks depth, typical of generated content."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.85,"reason":"The question is complex and reflects a deeper inquiry into technology."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.7,"reason":"The question is simple and lacks the complexity of human-generated questions."}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.75,"reason":"The question is factual but lacks the nuance of a real-world inquiry."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.7,"reason":"The phrasing is generic and lacks real-world context."}
+{"sample_id":"R035","prediction":"synthetic","confidence":0.6,"reason":"The question is straightforward but lacks depth, suggesting it may be generated."}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"The question is specific and reflects genuine interest in sports history."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"The question is comparative and reflects a nuanced understanding of demographics."}
+{"sample_id":"R043","prediction":"synthetic","confidence":0.7,"reason":"The question is factual but lacks the complexity of human-generated inquiries."}
+{"sample_id":"R023","prediction":"synthetic","confidence":0.65,"reason":"The question is vague and lacks depth, typical of generated content."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.8,"reason":"The question is complex and reflects a nuanced understanding of multiple concepts."}
+{"sample_id":"R042","prediction":"synthetic","confidence":0.7,"reason":"The question is straightforward but lacks the depth of a human inquiry."}
+{"sample_id":"R010","prediction":"synthetic","confidence":0.6,"reason":"The question is factual but lacks the nuance of real-world context."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.65,"reason":"The question is simple and lacks the complexity of human-generated questions."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.7,"reason":"The question is overly specific and lacks the nuance of a real inquiry."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"The question is straightforward but lacks depth, suggesting it may be generated."}

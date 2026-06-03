@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but the style attribute is underrepresented in the 'concise' mode. Additionally, there are instances of near-duplicate phrasings and some missing details in several samples.",
+  "missing_modes": [
+    "concise"
+  ],
+  "overrepresented_modes": [
+    "verbose",
+    "fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples in the 'concise' style to enhance diversity.",
+    "Review samples for near-duplicate phrasings and ensure unique expressions.",
+    "Instruct the generator to include more detailed scenarios to avoid missing details."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

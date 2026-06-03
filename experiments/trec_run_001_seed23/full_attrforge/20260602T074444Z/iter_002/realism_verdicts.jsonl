@@ -1,0 +1,24 @@
+{"sample_id":"R038","prediction":"real","confidence":0.9,"reason":"Natural phrasing and context; typical question format."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"Overly formal structure and complex phrasing for a simple comparison."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Casual question style; specific cultural reference."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"Direct and straightforward question; common knowledge."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"Informal phrasing and lack of specificity; feels generated."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Simple and direct question; common acronym."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific cultural reference; natural phrasing."}
+{"sample_id":"R031","prediction":"real","confidence":0.9,"reason":"Casual question style; specific nickname reference."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"Direct question about a specific book; natural phrasing."}
+{"sample_id":"R030","prediction":"real","confidence":0.85,"reason":"Historical reference; straightforward question."}
+{"sample_id":"R047","prediction":"real","confidence":0.8,"reason":"Direct inquiry about a specific institution; natural phrasing."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Specific inquiry about a public figure; natural phrasing."}
+{"sample_id":"R045","prediction":"real","confidence":0.8,"reason":"Direct question about a specific individual; natural phrasing."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.7,"reason":"Technical term; lacks real-world context."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.7,"reason":"Technical term; overly formal structure."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple and direct question; common knowledge."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.75,"reason":"Overly formal phrasing; lacks specificity."}
+{"sample_id":"R032","prediction":"real","confidence":0.8,"reason":"Direct inquiry about a specific location; natural phrasing."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"Informal phrasing; lacks specificity and context."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"Direct question about a specific institution; natural phrasing."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Common acronym; straightforward question."}
+{"sample_id":"R046","prediction":"real","confidence":0.85,"reason":"Direct inquiry about a specific object; natural phrasing."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Common acronym; straightforward question."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Common abbreviation; straightforward question."}

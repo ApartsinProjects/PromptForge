@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all modes represented. However, there are instances of near-duplicate phrasings and a lack of diversity in the emotional tones expressed.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "negative",
+    "medium difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse emotional expressions in the samples, especially for positive intents.",
+    "Introduce more edge cases or rare scenarios to enhance the variety of responses.",
+    "Reduce the frequency of informal style and medium difficulty to balance the representation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

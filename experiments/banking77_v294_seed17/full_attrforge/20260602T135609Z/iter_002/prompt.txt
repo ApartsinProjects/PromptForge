@@ -1,0 +1,17 @@
+ 
+Generate realistic banking customer-support messages that match the requested intent and style. The example should be plausible for a customer support channel (email, chat, in-app form). Keep it short to medium length, aiming for a balance of formal and concise inquiries. Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "I have a card payment which shows as pending."
+- "How can I get my card to work?"
+- "Is my card frozen?"
+- "The ATM kept my card?"
+- "What should I do if my card is stolen?"
+- "I noticed an unauthorized fee; can you explain this?"
+
+**Forbidden phrasings:**
+- Avoid casual openings like "hey" or "hello."
+- Do not use fragmented structures or overly verbose explanations.
+- Refrain from expressing frustration or confusion in a repetitive manner.
+
+Ensure that the generated messages exhibit a range of intents and scenarios, including formal inquiries about card issues, concise explanations for payment problems, and emotional expressions regarding lost or stolen cards. Strive for medium difficulty and high ambiguity in the inquiries, avoiding straightforward or overly casual tones. Introduce diverse sentence structures and vocabulary to reduce redundancy, particularly for common intents. Aim for a variety of scenarios, including complex inquiries that combine multiple issues or emotions, to enhance overall diversity in the output.

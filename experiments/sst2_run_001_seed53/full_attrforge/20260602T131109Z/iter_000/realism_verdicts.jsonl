@@ -1,0 +1,24 @@
+{"sample_id":"R017","prediction":"real","confidence":0.8,"reason":"The phrase 'various sources' is vague but fits a natural conversational context."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.9,"reason":"Overly poetic and polished language, lacks real-world noise."}
+{"sample_id":"R020","prediction":"real","confidence":0.7,"reason":"Simple and informal, fits a casual review style."}
+{"sample_id":"R003","prediction":"real","confidence":0.75,"reason":"The phrase captures a raw emotional sentiment typical of genuine reviews."}
+{"sample_id":"R009","prediction":"real","confidence":0.7,"reason":"Fragmented thought reflects a natural, conversational style."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.85,"reason":"Predictable structure and generic vocabulary, lacks depth."}
+{"sample_id":"R012","prediction":"real","confidence":0.8,"reason":"Colloquial expression, fits a casual review."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.9,"reason":"Over-polished and vague, lacks specific detail."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.85,"reason":"Generic praise and overly enthusiastic tone, typical of LLM output."}
+{"sample_id":"R018","prediction":"real","confidence":0.75,"reason":"Authentic expression of opinion, fits a review context."}
+{"sample_id":"R026","prediction":"real","confidence":0.7,"reason":"Casual and informal, fits a conversational review style."}
+{"sample_id":"R000","prediction":"real","confidence":0.8,"reason":"Critical and specific, typical of genuine reviews."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.9,"reason":"Overly simplistic and lacks depth, feels generated."}
+{"sample_id":"R015","prediction":"real","confidence":0.75,"reason":"Unique phrasing and emotional tone suggest authenticity."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.85,"reason":"Cliché phrasing and overly polished, lacks genuine critique."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.9,"reason":"Generic and overly sentimental, typical of LLM-generated text."}
+{"sample_id":"R016","prediction":"real","confidence":0.7,"reason":"Unique expression, fits a more authentic review style."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.85,"reason":"Overly formal and vague, lacks specific detail."}
+{"sample_id":"R019","prediction":"real","confidence":0.75,"reason":"Natural phrasing and context suggest authenticity."}
+{"sample_id":"R004","prediction":"real","confidence":0.8,"reason":"Critical and specific, fits a genuine review style."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.85,"reason":"Generic criticism and overly polished language."}
+{"sample_id":"R006","prediction":"real","confidence":0.7,"reason":"Casual and informal, fits a conversational review style."}
+{"sample_id":"R014","prediction":"real","confidence":0.75,"reason":"Simple and straightforward, typical of genuine reviews."}
+{"sample_id":"R007","prediction":"real","confidence":0.7,"reason":"Unique phrasing and context suggest authenticity."}

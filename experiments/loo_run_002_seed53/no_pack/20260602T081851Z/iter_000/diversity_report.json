@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity could be improved by including more edge cases and varying the phrasing.",
+  "missing_modes": [
+    "No samples with 'technical_problem' in a 'common' scenario type.",
+    "No samples with 'complaint' in a 'common' scenario type that are 'concise'.",
+    "No samples with 'general_question' that are 'verbose'."
+  ],
+  "overrepresented_modes": [
+    "The 'informal' style is frequently used across multiple intents, particularly for account issues and general questions."
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Introduce more diverse phrasing for common intents to reduce near-duplicates.",
+    "Create additional samples for missing attribute combinations, especially for 'technical_problem' and 'complaint'.",
+    "Encourage the generation of more edge cases to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

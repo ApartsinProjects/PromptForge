@@ -1,0 +1,24 @@
+{"sample_id":"target_00047","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects a nuanced comparison, typical of human inquiry."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"The phrasing is overly simplistic and lacks depth, suggesting a generic response."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge, typical of human curiosity."}
+{"sample_id":"R015","prediction":"real","confidence":0.85,"reason":"The question is specific and historical, indicating a human-like inquiry."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.75,"reason":"The question is broad and lacks real-world context, typical of LLM-generated content."}
+{"sample_id":"R043","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to legal processes, indicating a human-like inquiry."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects a historical figure, typical of human curiosity."}
+{"sample_id":"R028","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a legal case, indicating a human-like inquiry."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to astrophysics, indicating a human-like inquiry."}
+{"sample_id":"R031","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to sports, indicating a human-like inquiry."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge, typical of human curiosity."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"The question is overly complex and academic, lacking the nuance of real-world discussion."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to chemistry, indicating a human-like inquiry."}
+{"sample_id":"R041","prediction":"real","confidence":0.9,"reason":"The question is specific and historical, indicating a human-like inquiry."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.6,"reason":"The phrasing is vague and lacks specificity, suggesting a generic response."}
+{"sample_id":"R045","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a criminal case, indicating a human-like inquiry."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.65,"reason":"The question contains a typo and lacks specificity, suggesting a less polished origin."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge, typical of human curiosity."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.5,"reason":"The question is nonsensical and lacks coherence, suggesting a generated response."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a historical figure, indicating a human-like inquiry."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to software design, indicating a human-like inquiry."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"The question is straightforward and reflects common knowledge, typical of human curiosity."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.7,"reason":"The question is overly specific and lacks real-world context, typical of LLM-generated content."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"The question is complex and academic, lacking the nuance of real-world discussion."}

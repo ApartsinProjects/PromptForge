@@ -1,0 +1,23 @@
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Simple question structure, common knowledge query."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific question about a biological feature, typical of real inquiries."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.7,"reason":"Unusual and nonsensical question; lacks context."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Common acronym question, straightforward."}
+{"sample_id":"R045","prediction":"real","confidence":0.95,"reason":"Specific historical query, likely to be asked."}
+{"sample_id":"R043","prediction":"real","confidence":0.9,"reason":"Legal question with specific context, realistic."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a historical figure, plausible."}
+{"sample_id":"R046","prediction":"real","confidence":0.85,"reason":"Common knowledge question about a game."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Historical sports question, likely to be asked."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple factual question about a well-known artist."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Common acronym question, straightforward."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing, lacks specificity."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.65,"reason":"Vague and overly broad question."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"Practical question about children's activities."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Common acronym question, straightforward."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.7,"reason":"Generic tourist question, lacks depth."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.75,"reason":"Broad and vague question, lacks specificity."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.7,"reason":"Overly complex comparison question, lacks real-world context."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.65,"reason":"Generic social media question, lacks depth."}
+{"sample_id":"R040","prediction":"real","confidence":0.85,"reason":"Scientific question about astronomy, plausible."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.5,"reason":"Overly detailed and formal question, lacks natural phrasing."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.6,"reason":"Complex question with excessive detail, lacks natural flow."}
+{"sample_id":"R037","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a person, plausible."}

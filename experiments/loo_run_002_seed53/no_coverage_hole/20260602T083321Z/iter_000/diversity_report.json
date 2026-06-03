@@ -1,0 +1,26 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are some missing attribute combinations and near-duplicate phrasings that could be improved for better diversity. Additionally, certain edge cases are underrepresented.",
+  "missing_modes": [
+    "No samples exhibit the 'technical_problem' intent with a 'common' scenario_type.",
+    "No samples exhibit the 'complaint' intent with a 'common' scenario_type and 'clean' noise.",
+    "No samples exhibit the 'general_question' intent with a 'hard' difficulty."
+  ],
+  "overrepresented_modes": [
+    "The 'refund_request' intent appears frequently across various styles and difficulties.",
+    "The 'account_issue' intent is also common, particularly in informal style."
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse scenarios, especially for the 'technical_problem' and 'complaint' intents.",
+    "Introduce more edge cases and rare scenarios to enhance the overall diversity of the samples.",
+    "Reduce the frequency of similar phrasings by varying the structure and vocabulary used in the generated texts."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

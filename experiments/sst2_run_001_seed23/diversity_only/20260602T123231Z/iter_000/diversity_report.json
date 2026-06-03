@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a strong coverage of attributes, but the style attribute is underrepresented in terms of formal and sarcastic styles. There are also instances of near-duplicate phrasings and a lack of edge cases.",
+  "missing_modes": [
+    "formal style",
+    "sarcastic style"
+  ],
+  "overrepresented_modes": [
+    "positive intent",
+    "hard difficulty",
+    "mild polarity intensity"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more diverse styles, particularly formal and sarcastic.",
+    "Introduce prompts that specifically request rare or edge case scenarios.",
+    "Vary the intensity of polarity more widely to include stronger negative sentiments."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

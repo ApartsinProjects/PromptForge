@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6454306334485777
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6441953931880937
+    },
+    {
+      "text": "the item arrived damaged. need a refund or replacement asap. photos attached.",
+      "label": "refund_request",
+      "p_real": 0.6360765047035698
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6348570671211121
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressions of confusion or urgency",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "exclamatory statements expressing anxiety or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'plz')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated themes of waiting and uncertainty regarding cards",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inquiries about fees or charges",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language in some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed explanation of the issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of concern or anxiety",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "thank you or similar closing remarks",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues related to card transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for updates or actions regarding cards",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i was getting cash and...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing around charges and fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and typos",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and slang (e.g., 'hey', 'plz', 'jus')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of urgency or anxiety (e.g., 'i really need', 'i am so anxious', 'it feels like forever')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks to convey emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual phrasing and sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do if my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i believe'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'plz', 'jus')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    }
+  ]
+}

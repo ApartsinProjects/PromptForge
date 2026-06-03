@@ -1,0 +1,17 @@
+ 
+Generate realistic open-domain English questions that align with the requested TREC question-type category. Each example should be a single complete question that ends with a question mark and reflects the complexity and nuance of a user inquiry in an open-domain QA system. Ensure the questions exhibit a balance of formality and academic tone, with appropriate difficulty and ambiguity levels. Incorporate a variety of intents and scenarios, including complex comparisons, numeric values in real-world contexts, and unique or less common entities.
+
+Output a JSON object with the sample id, the text, and the attribute values.
+
+**Forbidden phrasings:** 
+- Avoid informal comparisons using "better" or "who is better."
+- Refrain from concise lists of entities or locations.
+- Do not use standard templates for definitions.
+
+**Preferred phrasings:** 
+- "What are the key differences between [Entity A] and [Entity B] in terms of [Aspect]?"
+- "How do [Concept A] and [Concept B] compare in their applications?"
+- "Can you provide examples of [Numeric Value] in [Real-World Context]?"
+- "What unique characteristics define [Less Common Entity]?"
+
+Ensure that the generated questions are diverse in structure and intent, avoiding redundancy in phrasing and construction. Aim for a near-duplicate rate below 0.20.

@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "questions starting with 'what' or 'when'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific historical or scientific references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of numerical data or statistics in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures with direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what types of activities are generally considered",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you provide a list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how does the principle of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "in comparing the contributions of different thinkers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you give me a few examples of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what is'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in question structure, often including additional context or examples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific years or data points in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent spelling or grammatical errors, such as 'whr' instead of 'where'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you list",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what types of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "in terms of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you provide",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what is' or 'what does'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple factual inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions with a focus on specific information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "question format with a focus on factual information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions with specific answers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of proper nouns and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of 'what is/who is/when did' questions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good range of intents, difficulties, and polarity intensities, but the style attribute is underrepresented, particularly in the formal category. Additionally, there are several instances of near-duplicate phrasings and a lack of rare or edge cases.",
+  "missing_modes": [
+    "formal"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "concise",
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more formal styles to diversify the output.",
+    "Introduce prompts that specifically request rare or edge cases in scenarios.",
+    "Review and refine the phrasing of generated texts to reduce near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

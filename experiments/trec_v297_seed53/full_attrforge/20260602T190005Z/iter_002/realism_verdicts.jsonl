@@ -1,0 +1,24 @@
+{"sample_id":"target_00069","prediction":"real","confidence":0.9,"reason":"Formal inquiry into leadership styles; aligns with academic discourse."}
+{"sample_id":"target_00058","prediction":"real","confidence":0.9,"reason":"Formal question about historical classification; matches academic style."}
+{"sample_id":"target_00061","prediction":"real","confidence":0.9,"reason":"Formal inquiry into abstract art; consistent with academic writing."}
+{"sample_id":"target_00057","prediction":"real","confidence":0.9,"reason":"Formal exploration of abstract concepts; aligns with scholarly tone."}
+{"sample_id":"target_00063","prediction":"real","confidence":0.9,"reason":"Formal question about geographical influences; matches academic register."}
+{"sample_id":"target_00062","prediction":"real","confidence":0.9,"reason":"Formal inquiry into philosophical thought; consistent with academic discourse."}
+{"sample_id":"target_00070","prediction":"real","confidence":0.9,"reason":"Detailed inquiry into geographical features; aligns with academic style."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.8,"reason":"Casual tone about mythological creatures; real samples are formal."}
+{"sample_id":"target_00064","prediction":"real","confidence":0.9,"reason":"Formal inquiry into renewable energy; matches academic writing."}
+{"sample_id":"target_00067","prediction":"synthetic","confidence":0.8,"reason":"Casual inquiry about a famous person; real samples are formal."}
+{"sample_id":"target_00053","prediction":"real","confidence":0.9,"reason":"Formal exploration of time concepts; aligns with academic discourse."}
+{"sample_id":"target_00056","prediction":"synthetic","confidence":0.7,"reason":"Casual inquiry about countries; real samples are formal."}
+{"sample_id":"target_00054","prediction":"synthetic","confidence":0.8,"reason":"Casual tone about internet slang; real samples are formal."}
+{"sample_id":"target_00068","prediction":"synthetic","confidence":0.8,"reason":"Casual inquiry about a celebrity; real samples are formal."}
+{"sample_id":"target_00060","prediction":"synthetic","confidence":0.7,"reason":"Casual tone about travel; real samples are formal."}
+{"sample_id":"target_00065","prediction":"real","confidence":0.9,"reason":"Formal inquiry into cultural influences; aligns with academic style."}
+{"sample_id":"target_00051","prediction":"real","confidence":0.9,"reason":"Formal question about acronyms in context; matches academic writing."}
+{"sample_id":"target_00049","prediction":"real","confidence":0.9,"reason":"Formal inquiry into economic models; aligns with academic discourse."}
+{"sample_id":"target_00050","prediction":"real","confidence":0.9,"reason":"Formal exploration of NATO's significance; matches academic style."}
+{"sample_id":"target_00052","prediction":"real","confidence":0.9,"reason":"Formal comparison of philosophical theories; aligns with academic writing."}
+{"sample_id":"target_00071","prediction":"real","confidence":0.9,"reason":"Detailed inquiry into historical summits; matches academic style."}
+{"sample_id":"target_00066","prediction":"real","confidence":0.9,"reason":"Formal exploration of cultural heritage; aligns with academic discourse."}
+{"sample_id":"target_00059","prediction":"synthetic","confidence":0.7,"reason":"Casual inquiry about television habits; real samples are formal."}
+{"sample_id":"target_00055","prediction":"real","confidence":0.9,"reason":"Formal question about global politics; matches academic writing."}

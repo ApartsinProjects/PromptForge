@@ -1,0 +1,24 @@
+{"sample_id":"R039","prediction":"synthetic","confidence":0.8,"reason":"casual phrasing; real samples are more formal inquiries about payment issues."}
+{"sample_id":"R044","prediction":"synthetic","confidence":0.7,"reason":"informal tone; real samples are more structured and formal."}
+{"sample_id":"R087","prediction":"real","confidence":0.9,"reason":"formal inquiry about payment status; matches the register of real samples."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.8,"reason":"casual language; real samples are more formal."}
+{"sample_id":"R050","prediction":"synthetic","confidence":0.75,"reason":"informal tone; real samples are more structured."}
+{"sample_id":"R054","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal."}
+{"sample_id":"R062","prediction":"real","confidence":0.85,"reason":"formal inquiry about card decline; aligns with real sample register."}
+{"sample_id":"R041","prediction":"real","confidence":0.9,"reason":"formal inquiry about exchange rate; matches real sample style."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.95,"reason":"formal request for assistance; aligns with real sample register."}
+{"sample_id":"R058","prediction":"real","confidence":0.85,"reason":"formal inquiry about card retrieval; matches real sample style."}
+{"sample_id":"R094","prediction":"real","confidence":0.9,"reason":"structured inquiry about transaction failure; aligns with real samples."}
+{"sample_id":"R052","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal."}
+{"sample_id":"R010","prediction":"synthetic","confidence":0.75,"reason":"informal tone; real samples are more structured."}
+{"sample_id":"R066","prediction":"synthetic","confidence":0.8,"reason":"casual language; real samples are more formal."}
+{"sample_id":"R076","prediction":"real","confidence":0.85,"reason":"formal inquiry about stolen card; matches real sample register."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.8,"reason":"informal tone; real samples are more structured."}
+{"sample_id":"R095","prediction":"real","confidence":0.9,"reason":"formal inquiry about credit card decline; aligns with real samples."}
+{"sample_id":"R090","prediction":"synthetic","confidence":0.75,"reason":"casual phrasing; real samples are more formal."}
+{"sample_id":"R065","prediction":"real","confidence":0.85,"reason":"formal inquiry about payment acceptance; matches real sample style."}
+{"sample_id":"R068","prediction":"real","confidence":0.9,"reason":"formal inquiry about payment decline; aligns with real samples."}
+{"sample_id":"R045","prediction":"real","confidence":0.85,"reason":"formal inquiry about exchange rate; matches real sample register."}
+{"sample_id":"R064","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more formal."}
+{"sample_id":"R091","prediction":"real","confidence":0.9,"reason":"formal inquiry about top-up usage; aligns with real samples."}
+{"sample_id":"R098","prediction":"synthetic","confidence":0.75,"reason":"casual language; real samples are more formal."}

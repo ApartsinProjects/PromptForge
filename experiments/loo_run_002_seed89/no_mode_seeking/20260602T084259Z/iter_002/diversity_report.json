@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity of scenarios is commendable, yet certain styles and intents could benefit from more varied expressions.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "complaint",
+    "medium difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings for common intents to reduce near-duplicates.",
+    "Introduce additional edge cases or rare scenarios to enhance diversity.",
+    "Explore more varied emotional expressions to balance the overrepresentation of emotional style."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

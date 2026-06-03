@@ -1,0 +1,24 @@
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"The question is straightforward and specific, typical of real-world inquiries."}
+{"sample_id":"R046","prediction":"real","confidence":0.85,"reason":"The question is factual and concise, resembling common trivia."}
+{"sample_id":"R033","prediction":"real","confidence":0.8,"reason":"The phrasing is natural and reflects a common knowledge question."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.7,"reason":"The question is factual but lacks nuance and context, typical of LLM generation."}
+{"sample_id":"R008","prediction":"real","confidence":0.75,"reason":"The question is specific and relevant to a technical topic."}
+{"sample_id":"R038","prediction":"real","confidence":0.8,"reason":"The question is practical and reflects a common educational inquiry."}
+{"sample_id":"R032","prediction":"real","confidence":0.7,"reason":"The question is straightforward and likely to be asked by someone looking for information."}
+{"sample_id":"R004","prediction":"real","confidence":0.75,"reason":"The question is specific and relates to a well-known chemical compound."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.65,"reason":"The question is factual but lacks depth and context, typical of LLM outputs."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.6,"reason":"The question is broad and generic, lacking specificity."}
+{"sample_id":"R003","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a common abbreviation."}
+{"sample_id":"R041","prediction":"real","confidence":0.75,"reason":"The question is historical and relevant, typical of real-world inquiries."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.7,"reason":"The question is overly simplistic and lacks real-world context."}
+{"sample_id":"R026","prediction":"real","confidence":0.7,"reason":"The question is specific and relates to a historical figure."}
+{"sample_id":"R022","prediction":"real","confidence":0.75,"reason":"The question is specific and relates to a well-known author."}
+{"sample_id":"R011","prediction":"real","confidence":0.7,"reason":"The question is practical and reflects a common inquiry."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.65,"reason":"The question is vague and lacks depth, typical of LLM generation."}
+{"sample_id":"R014","prediction":"real","confidence":0.7,"reason":"The question is specific and relates to a scientific term."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.6,"reason":"The question is broad and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R047","prediction":"real","confidence":0.75,"reason":"The question is factual and likely to be asked by someone seeking information."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.65,"reason":"The question is vague and lacks depth, typical of LLM generation."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a well-known historical figure."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.6,"reason":"The question is vague and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R040","prediction":"real","confidence":0.75,"reason":"The question is factual and relates to a scientific inquiry."}

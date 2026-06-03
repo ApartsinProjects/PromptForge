@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "informal greeting at the beginning of the text (e.g., 'hey', 'hi')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and punctuation (e.g., 'it just won't go through', 'help?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific issues related to app functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of a casual opener like 'hi team' or 'quick one'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about technical issues or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, straightforward structure with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical terms (e.g., 'api', 'checkout', 'safari')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common issue reporting format (e.g., 'won't open', 'nothing happens')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about refunds or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details like 'weeks ago' and 'order number'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of emotional expressions like 'i can't believe this happened!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "difficulties accessing my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "password is incorrect",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have tried resetting my password",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it frequently crashes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon (e.g., '502', 'logs attached')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures (e.g., 'i want', 'i ordered')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression compared to pack a",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm trying to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was charged for",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "help!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's been quite some time",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how can i get my money back?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations with excessive detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and urgency",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I was wondering if",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This opener indicates a casual inquiry style that does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I just don’t understand how",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase conveys confusion and is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "so frustrating!",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This exclamatory phrase expressing frustration is not present in the real samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I was wondering if",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This opener indicates a casual inquiry style that does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I just don’t understand how",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase conveys confusion and is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "so frustrating!",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This exclamatory phrase expressing frustration is not present in the real samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

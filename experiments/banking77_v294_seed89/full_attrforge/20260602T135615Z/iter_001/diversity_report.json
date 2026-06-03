@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of emotional expression and informal language, particularly in scenarios involving card issues. However, there is a noticeable redundancy in phrasing and sentence structure, especially regarding card payment issues and emotional responses.",
+  "missing_modes": [
+    "formal inquiries about card issues",
+    "concise explanations for payment discrepancies",
+    "detailed descriptions of card handling procedures"
+  ],
+  "overrepresented_modes": [
+    "emotional style in card-related issues",
+    "fragmented and informal language in expressing frustration",
+    "high ambiguity in scenarios involving declined payments"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Introduce more formal and concise styles for inquiries about card issues.",
+    "Encourage the use of varied sentence structures to reduce redundancy in emotional expressions.",
+    "Include scenarios that require detailed procedural explanations to enhance nuance."
+  ],
+  "coverage": {
+    "intent": 0.9,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

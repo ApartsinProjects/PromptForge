@@ -1,0 +1,24 @@
+{"sample_id":"target_00002","prediction":"real","confidence":0.9,"reason":"Natural language with personal frustration; lacks over-polished grammar."}
+{"sample_id":"target_00015","prediction":"real","confidence":0.85,"reason":"Casual tone and specific inquiry; feels authentic."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Formal structure and generic inquiry; lacks personal touch."}
+{"sample_id":"R000","prediction":"real","confidence":0.8,"reason":"Specific issue with a clear request; feels genuine."}
+{"sample_id":"R021","prediction":"real","confidence":0.75,"reason":"Direct complaint with emotional tone; realistic."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.8,"reason":"Frustration expressed in a relatable manner; authentic."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific technical issue; personal context adds authenticity."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.65,"reason":"Technical inquiry feels overly formal and structured."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific problem with a clear context; realistic."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.6,"reason":"Generic question about future features; lacks personal touch."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.9,"reason":"Clear request for assistance; feels genuine."}
+{"sample_id":"R015","prediction":"real","confidence":0.75,"reason":"Specific issue with account management; realistic."}
+{"sample_id":"R018","prediction":"real","confidence":0.8,"reason":"Frustration expressed over shipping delay; authentic."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.85,"reason":"Direct request for help; feels genuine."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.9,"reason":"Casual tone and specific issue; realistic."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Strong emotional response; feels authentic."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.85,"reason":"Specific request for help with disappointment; genuine."}
+{"sample_id":"R012","prediction":"real","confidence":0.8,"reason":"Serious issue with account security; realistic."}
+{"sample_id":"R020","prediction":"real","confidence":0.75,"reason":"Emotional complaint about service; feels authentic."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.85,"reason":"Specific issue with subscription; relatable."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.8,"reason":"Personal disappointment expressed; feels genuine."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.65,"reason":"Generic inquiry about product tiers; lacks personal context."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.6,"reason":"Casual inquiry but lacks depth; feels generic."}
+{"sample_id":"R004","prediction":"real","confidence":0.8,"reason":"Specific complaint about order; feels authentic."}

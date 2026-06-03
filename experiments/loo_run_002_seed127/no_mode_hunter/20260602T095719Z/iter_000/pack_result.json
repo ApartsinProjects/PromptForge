@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "long, complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries and requests for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i would like to' or 'i was wondering if'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, technical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific issues with software or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and acronyms (e.g., mfa, csv)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with a sense of urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "multiple issues mentioned in a single sample",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details like order numbers or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems and requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requesting a refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "want my money back",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with excessive formality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i would like to' or 'i hope you're doing well'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i would like to' or 'can i get'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy explanations followed by a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings like 'hello' or 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'can i' at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or product",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a demand or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences conveying frustration",
+      "n_pairs_observed": 1
+    }
+  ]
+}

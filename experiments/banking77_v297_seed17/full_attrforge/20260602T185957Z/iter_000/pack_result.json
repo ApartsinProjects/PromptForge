@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "simple sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal context or detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, concise phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite opener with greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hi there' and 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or concern about payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the recipient, such as 'can you check?' and 'what’s up with that?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in sentences, often starting with a personal observation followed by a request for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing issues with my card payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you check?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just checked my account and noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really worried about it. what should i do now?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't recognize",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey, i just",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is that about?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "also, i think",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'hi there!' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in inquiries about card delivery",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for information or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and expressions of gratitude",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please help me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "waiting on my new card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "for some reason my card payment hasn't worked",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just noticed a",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think i",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "is this new?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

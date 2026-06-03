@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7812637035082343
+    },
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.763001736885503
+    },
+    {
+      "text": "My card has been stolen what do I do?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7573252164803131
+    },
+    {
+      "text": "What do I do if my card gets broken?",
+      "label": "card_not_working",
+      "p_real": 0.7482690060199102
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

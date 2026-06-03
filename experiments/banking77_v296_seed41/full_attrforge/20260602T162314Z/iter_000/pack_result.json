@@ -1,0 +1,131 @@
+{
+  "pack_accuracy": 0.25,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and phrasing",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions starting with 'why'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements about charges or fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on the exchange rate or fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i don't think...', 'i tried to...', 'my card is...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my [issue] [is/was] [description of the issue]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i [action] [related to payment or account]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'isnt', 'didnt')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what do i do' or 'what's go on'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, direct statements about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in presenting problems related to cards",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dear customer support, i am writing to...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would appreciate your assistance in this matter.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i feel like i'm hitting a wall here!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would like to inquire about...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card is missing.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card has gone missing.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do i put a freeze on my cards and order a new one?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "maximum how many days get the courier?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concerns about pending transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'i' or 'why'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific financial terminology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for assistance",
+      "n_pairs_observed": 1
+    }
+  ]
+}

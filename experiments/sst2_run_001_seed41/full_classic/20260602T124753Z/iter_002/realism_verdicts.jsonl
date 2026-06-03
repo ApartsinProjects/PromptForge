@@ -1,0 +1,24 @@
+{"sample_id":"R041","prediction":"real","confidence":0.8,"reason":"The phrase 'various sources' is vague but fits a natural conversational context."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.7,"reason":"The word 'strangely' lacks context and feels incomplete, suggesting a generated response."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.9,"reason":"The informal tone and phrasing ('kinda felt like a let down, ya know?') is overly casual and predictable."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"The description of the movie's format and its impact feels authentic and nuanced."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.8,"reason":"The phrase 'tear jerker' and the casual tone suggest a formulaic response."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.85,"reason":"The comparison to 'a bad video game from the 90s' is a cliché and lacks depth."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"The sentiment about 'crappy movies' and the mention of 'cute animals' feels genuine and relatable."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"The critique of a 'hackneyed and meanspirited storyline' is specific and detailed."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.9,"reason":"The phrase '#ArtisticFail' and the exaggerated tone suggest a generated response."}
+{"sample_id":"R048","prediction":"real","confidence":0.75,"reason":"The phrase 'a number of other assets to commend it' feels like a genuine review."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.85,"reason":"The metaphor about 'joy blooms like spring flowers' is overly poetic and lacks authenticity."}
+{"sample_id":"R020","prediction":"real","confidence":0.7,"reason":"The phrase 'a long shot' is vague but can fit into a natural conversation."}
+{"sample_id":"R036","prediction":"real","confidence":0.8,"reason":"The reference to 'kubrick-meets-spielberg' is specific and knowledgeable."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.9,"reason":"The phrase 'powerful and' is incomplete and lacks context."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"The phrase 'this unrelenting bleak insistence' conveys a strong sentiment."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"The detailed critique of the movie's plot and characters feels authentic."}
+{"sample_id":"R050","prediction":"real","confidence":0.75,"reason":"The phrase 'intermittently hilarious' fits a natural review context."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.8,"reason":"The phrase 'the hell cares' feels too abrupt and lacks depth."}
+{"sample_id":"R018","prediction":"real","confidence":0.8,"reason":"The sentiment about needing a shower conveys a relatable reaction."}
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.9,"reason":"The phrase 'masterpiece of boredom' is overly dramatic and formulaic."}
+{"sample_id":"R003","prediction":"real","confidence":0.75,"reason":"The critique about entertainment feels genuine and reflective."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.85,"reason":"The phrase 'torturous crawl' and 'mire of boredom' are overly dramatic and clichéd."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.9,"reason":"The comparison to a 'toddler went wild with a crayon box' is overly simplistic and lacks nuance."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.85,"reason":"The phrase 'dire disappointment' and 'painfully dull' feel exaggerated and formulaic."}

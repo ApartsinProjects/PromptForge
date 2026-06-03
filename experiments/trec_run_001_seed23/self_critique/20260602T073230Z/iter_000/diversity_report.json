@@ -1,0 +1,19 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are issues with missing details and typos that affect clarity. Additionally, some intents and scenarios could benefit from more diverse examples.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Ensure that each sample includes complete and relevant details to avoid missing information.",
+    "Introduce more examples of rare or edge cases, particularly in the 'human_beings' and 'locations' intents.",
+    "Reduce the use of typos and ensure clarity in phrasing to enhance the quality of the samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

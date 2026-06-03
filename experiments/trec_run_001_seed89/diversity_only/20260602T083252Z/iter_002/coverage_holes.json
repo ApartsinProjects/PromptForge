@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6835162262214688
+    },
+    {
+      "text": "What was Michelangelo 's last name ?",
+      "label": "human_beings",
+      "p_real": 0.6832772787136813
+    },
+    {
+      "text": "Who is Samuel Pickering ?",
+      "label": "human_beings",
+      "p_real": 0.6817786284711058
+    },
+    {
+      "text": "What is object-oriented design ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6770996150733839
+    },
+    {
+      "text": "What is a Chinese `` spouting '' bowl ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6770996150733839
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

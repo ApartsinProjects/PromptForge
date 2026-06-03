@@ -1,0 +1,72 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Hey, so I was just wondering",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I seem to be encountering a rather perplexing issue",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing is not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I just found out that the upgrade I paid for isn't working at all",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific structure and context do not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I want a refund. I didn’t get the item I ordered.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This direct statement of intent is phrased uniquely in the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I was told it should",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing indicates a prior expectation that is unmet, which is not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I thought I read somewhere that",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase suggests uncertainty about information that is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe how slow the service is!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This exclamatory expression of frustration about service speed is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, so I was just wondering",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I seem to be encountering a rather perplexing issue",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal phrasing is not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I just found out that the upgrade I paid for isn't working at all",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific structure and context do not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I want a refund. I didn’t get the item I ordered.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This direct statement of intent is phrased uniquely in the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

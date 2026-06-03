@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, polarity intensities, styles, and noise types, but there is a notable lack of diversity in the scenario types, with only six out of the eight types represented. Additionally, there are several near-duplicate phrasings present.",
+  "missing_modes": [
+    "acting_quality",
+    "story_plot"
+  ],
+  "overrepresented_modes": [
+    "positive, easy, mild, informal, clean, overall_verdict"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples that include the missing scenario types, particularly 'acting_quality' and 'story_plot'.",
+    "Introduce more varied phrasings and expressions to reduce near-duplicate content.",
+    "Ensure a more balanced representation of all scenario types to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

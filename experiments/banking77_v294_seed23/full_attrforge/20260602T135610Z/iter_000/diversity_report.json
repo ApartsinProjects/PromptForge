@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a reasonable range of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly around card issues and payment inquiries. Several texts use similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal inquiries with specific details about card issues",
+    "concise explanations for payment discrepancies",
+    "emotional expressions regarding lost or stolen cards"
+  ],
+  "overrepresented_modes": [
+    "informal language in payment-related inquiries",
+    "fragmented expressions of card issues",
+    "verbose explanations for card arrival and payment issues"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary, especially for common intents like card issues and payment discrepancies.",
+    "Include more formal and concise styles to balance the informal and verbose samples present.",
+    "Introduce scenarios that involve less common situations, such as specific actions taken after losing a card or detailed inquiries about exchange rates."
+  ],
+  "coverage": {
+    "intent": 0.7,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

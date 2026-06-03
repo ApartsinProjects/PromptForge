@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but there is a notable lack of diversity in the style attribute, particularly in the use of 'concise' and 'formal' styles. Additionally, the presence of near-duplicate phrasings suggests a need for more distinct variations in wording.",
+  "missing_modes": [
+    "concise"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples in a concise style to enhance diversity.",
+    "Introduce more distinct phrasing variations to reduce near-duplicate content."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

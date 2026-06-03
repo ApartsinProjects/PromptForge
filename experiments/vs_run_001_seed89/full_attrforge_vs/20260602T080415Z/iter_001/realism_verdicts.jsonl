@@ -1,0 +1,24 @@
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Casual language and a specific complaint indicate a genuine customer experience."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Direct and specific issue with a clear request, typical of real customer feedback."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Realistic scenario with a common issue and informal tone."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.8,"reason":"Overly polished and dramatic language, lacks specific details."}
+{"sample_id":"R017","prediction":"real","confidence":0.9,"reason":"Specific issue with a common service problem, realistic phrasing."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Describes a common technical issue in a straightforward manner."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.7,"reason":"Generic inquiry with overly formal structure, lacks personal touch."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Describes a specific security issue, realistic urgency."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Clear complaint about an order with a straightforward request."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Specific complaint with urgency and a request for resolution."}
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Describes a common account issue with a clear request."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific issue with a clear request for a refund, realistic tone."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.8,"reason":"Formal and technical inquiry, lacks personal context."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"Direct complaint about a service issue, realistic phrasing."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Expresses frustration with a service, typical of real customer feedback."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Generic inquiry about outages, lacks personal context."}
+{"sample_id":"R009","prediction":"real","confidence":0.9,"reason":"Describes a specific technical issue with a clear question."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Simple and direct question about billing, realistic tone."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Specific complaint about subscription issues, realistic phrasing."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Describes a specific technical issue with a clear request for help."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and anxious tone, lacks specific details."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint about an app issue, lacks personal touch."}
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Direct question about discounts, realistic and straightforward."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.7,"reason":"Casual language but lacks specific context, feels generic."}

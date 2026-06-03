@@ -1,0 +1,131 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "pacing",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of negative descriptors for films",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of clichés and idiomatic expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on visual and narrative elements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrasting opinions within the same sample",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, punchy phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal or slang terms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of depth in critique",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague or non-specific phrases like 'various sources'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of informal language or slang",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "structural patterns that include abrupt or incomplete thoughts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency towards overly complex or convoluted sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of phrases that seem disconnected or lack coherence",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of contrasting opinions about the film's pacing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of starting with a critique followed by a positive note",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar vocabulary related to film critique (e.g., 'drags', 'masterpiece', 'fun watch')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and conversational style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "oh sure,",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "while the",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film's",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "predictable",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a good old-fashioned cliché",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "that was hard to endure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "while the film",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "rich exploration of character dynamics",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "engaging and thoughtfully structured",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dragging on for an eternity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "tedious experience",
+      "n_pairs_observed": 1
+    }
+  ]
+}

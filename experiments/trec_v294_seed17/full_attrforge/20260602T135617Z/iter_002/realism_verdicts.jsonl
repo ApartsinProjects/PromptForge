@@ -1,0 +1,16 @@
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.8,"reason":"casual inquiry; real samples are more formal and structured."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.9,"reason":"formal academic inquiry; aligns with the identified distribution."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.85,"reason":"formal and informative; matches the academic tone of real samples."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"complex philosophical inquiry; consistent with the formal register."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.8,"reason":"formal definition request; aligns with the academic style."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"detailed academic inquiry; matches the formal register."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.75,"reason":"casual phrasing; real samples are more formal."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.7,"reason":"simple definition request; lacks the depth of real samples."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.65,"reason":"informal comparison; real samples are more formal and detailed."}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.9,"reason":"very casual and vague; real samples are more structured."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.85,"reason":"informal and simplistic; real samples are more academic."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.7,"reason":"casual inquiry; real samples are more formal and analytical."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.8,"reason":"formal inquiry about art; aligns with the academic tone."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.75,"reason":"vague and informal; real samples are more structured."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.85,"reason":"formal statistical inquiry; matches the academic style."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"formal inquiry about urban initiatives; aligns with the identified distribution."}

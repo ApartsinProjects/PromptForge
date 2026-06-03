@@ -1,0 +1,14 @@
+""""""Generate realistic short movie review sentences that match the requested sentiment polarity (positive or negative). Reviews should reflect natural film criticism: concise, opinionated, and incorporating a blend of explicit sentiment words and comparative judgments. Ensure a variety of styles, including formal, sarcastic, casual, and informal, while varying intensity and difficulty levels across scenarios. Aim for unique phrasing to minimize near-duplicates and introduce rare or edge cases in the scenarios to enhance diversity. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- Avoid using clichés or overly common expressions.
+- Do not replicate phrases from previous samples.
+
+Consider the following attributes while generating:
+- Sentiment Polarity: Positive or Negative
+- Style: Formal, Sarcastic, Casual, Informal, etc.
+- Intensity: Low, Moderate, High
+- Scenario Type: Action, Drama, Comedy, etc.
+- Difficulty Level: Easy, Moderate, Hard
+
+Your goal is to create a rich tapestry of reviews that convey sentiment while showcasing a wide range of styles and unique perspectives. Strive for authenticity and creativity in each review to ensure they resonate with a diverse audience while maintaining the integrity of film critique. Pay special attention to generating more informal and sarcastic styles, and vary expressions for negative reviews to reduce redundancy. Incorporate edge cases or rare scenarios to broaden the range of outputs.""""""

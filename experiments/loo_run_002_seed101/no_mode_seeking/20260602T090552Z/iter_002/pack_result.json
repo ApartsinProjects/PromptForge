@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "polite requests for information or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy, detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of transitional phrases like 'but' and 'i just want to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific features or processes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about subscription plans or returns",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal pronouns and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration with technology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, technical language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions or statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific error codes or technical terms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and shorthand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details included (e.g., order numbers, item counts)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaint about a service issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of a specific technical problem",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on customer frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for resolution or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about plans or subscriptions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or credits",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific timeframes mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with uploads or imports",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point structure",
+      "n_pairs_observed": 1
+    }
+  ]
+}

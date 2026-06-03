@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a variety of intents and scenarios, but there is significant redundancy in phrasing and sentence structure, particularly in the way questions are framed. Many entries utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Examples of rare or edge cases in the context of numeric values, such as unusual statistics or lesser-known entities.",
+    "More varied informal styles that reflect different conversational tones or contexts."
+  ],
+  "overrepresented_modes": [
+    "Questions beginning with 'What is' or 'Can you provide', which dominate the formal and verbose styles.",
+    "Concise questions that often follow a similar structure, particularly in comparison scenarios."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied question structures and phrasings to enhance nuance.",
+    "Incorporate prompts that specifically request unusual or edge case examples to broaden the diversity of responses.",
+    "Introduce more informal and conversational styles that reflect different contexts and tones."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

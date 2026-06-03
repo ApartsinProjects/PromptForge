@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6495798890527521
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6452582878128407
+    },
+    {
+      "text": "card was charged for the annual plan, I only meant monthly, can you fix this",
+      "label": "refund_request",
+      "p_real": 0.6392966209234616
+    },
+    {
+      "text": "search results page loads but the filters don't apply. firefox latest, cleared cache, same thing.",
+      "label": "technical_problem",
+      "p_real": 0.6383951000418968
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

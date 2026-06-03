@@ -1,0 +1,24 @@
+{"sample_id":"target_00047","prediction":"real","confidence":0.85,"reason":"Casual tone and conversational phrasing suggest a real human inquiry."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.7,"reason":"Overly simplistic structure and generic vocabulary indicate a likely LLM generation."}
+{"sample_id":"R002","prediction":"synthetic","confidence":0.65,"reason":"The question is too straightforward and lacks context, typical of LLM outputs."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"Specific historical inquiry suggests a real human question."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.75,"reason":"The phrasing is overly formal and lacks personal touch, indicating LLM generation."}
+{"sample_id":"R043","prediction":"real","confidence":0.9,"reason":"Specific legal question with a clear context suggests a real human inquiry."}
+{"sample_id":"R026","prediction":"real","confidence":0.85,"reason":"Specific historical figure inquiry suggests a real human question."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"The question is too specific and lacks depth, typical of LLM outputs."}
+{"sample_id":"R014","prediction":"real","confidence":0.8,"reason":"Specific scientific inquiry suggests a real human question."}
+{"sample_id":"R031","prediction":"real","confidence":0.75,"reason":"Specific sports-related question suggests a real human inquiry."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.5,"reason":"The question is too basic and lacks context, typical of LLM outputs."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and academic phrasing suggests LLM generation."}
+{"sample_id":"R004","prediction":"synthetic","confidence":0.6,"reason":"The question is too straightforward and lacks context, typical of LLM outputs."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"Specific historical legal inquiry suggests a real human question."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.5,"reason":"The phrasing is generic and lacks depth, typical of LLM outputs."}
+{"sample_id":"R045","prediction":"real","confidence":0.8,"reason":"Specific inquiry about a criminal case suggests a real human question."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.9,"reason":"Simple factual question suggests a real human inquiry."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.6,"reason":"The question is too basic and lacks context, typical of LLM outputs."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.4,"reason":"The question is nonsensical and lacks real-world context, indicating LLM generation."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific historical inquiry suggests a real human question."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.5,"reason":"The question is too basic and lacks context, typical of LLM outputs."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.5,"reason":"The question is overly simplistic and lacks depth, typical of LLM outputs."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"Simple factual question suggests a real human inquiry."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and academic phrasing suggests LLM generation."}

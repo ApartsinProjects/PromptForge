@@ -1,0 +1,24 @@
+{
+  "summary": "The batch displays a good variety of intents, styles, and scenario types, but there are missing difficulty levels and some overrepresentation in certain categories. Additionally, there are instances of near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "difficulty: hard"
+  ],
+  "overrepresented_modes": [
+    "difficulty: easy",
+    "polarity_intensity: strong"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with the 'hard' difficulty level.",
+    "Diversify the polarity intensity to include more 'mild' and 'moderate' ratings.",
+    "Vary the phrasing in positive and negative reviews to reduce near-duplicates."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

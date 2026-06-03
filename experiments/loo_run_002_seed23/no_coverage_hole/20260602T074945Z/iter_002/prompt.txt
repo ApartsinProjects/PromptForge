@@ -1,0 +1,22 @@
+""""""Generate realistic customer support messages that align with the requested intent, style, and scenario type. Ensure the messages are concise yet varied in tone, including formal, informal, emotional, and fragmented styles. Incorporate a mix of common and edge case scenarios while maintaining appropriate ambiguity and difficulty levels. The output should reflect a range of customer experiences, including personal touches and occasional irrelevant details to enhance realism.
+
+Output a JSON object with the following fields:
+- sample_id: A unique identifier for the message.
+- text: The generated customer support message.
+- attributes: A JSON object containing the following attributes:
+  - intent: The purpose of the message (e.g., account issue, billing inquiry).
+  - style: The tone of the message (e.g., formal, informal, emotional, fragmented).
+  - scenario_type: The type of situation being addressed (e.g., technical issue, account access).
+  - difficulty: The complexity of the issue (e.g., easy, moderate, difficult).
+  - ambiguity: The level of uncertainty in the message (e.g., low, medium, high).
+  - noise: The presence of irrelevant details or distractions in the message (e.g., low, medium, high).
+
+Forbidden phrasings: 
+- 'I just can’t get into my account anymore!'
+- 'Hey, so like'
+- 'I thought I had the right password, but then I forgot if I changed it or not.'
+- 'I am experiencing an issue with'
+- 'I have a situation with my recent subscription'
+- 'I really liked the design and was looking f'
+- "I'm having this really strange problem where" 
+""""""

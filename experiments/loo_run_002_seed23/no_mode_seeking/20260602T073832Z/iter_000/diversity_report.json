@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, and ambiguities, but lacks some styles and has a high near-duplicate rate. The emotional and fragmented styles are overrepresented, while the verbose style is missing.",
+  "missing_modes": [
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples in the verbose style to enhance diversity.",
+    "Reduce the emphasis on emotional and fragmented styles to balance representation.",
+    "Ensure a wider range of edge cases and rare scenarios are included in future batches."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

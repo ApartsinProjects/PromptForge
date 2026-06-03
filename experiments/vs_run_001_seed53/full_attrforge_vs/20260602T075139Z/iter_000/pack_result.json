@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8625,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific features or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone in inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamation marks to emphasize frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific technical problems or errors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "request a refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "for something i bought",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disappointed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with a personal need or issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and direct requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and greetings (e.g., 'hey', 'can you help?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration regarding account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to problems (e.g., 'not sure if it's a bug or just my confusion')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific browser or device mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical problems with features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language despite complaints",
+      "n_pairs_observed": 1
+    }
+  ]
+}

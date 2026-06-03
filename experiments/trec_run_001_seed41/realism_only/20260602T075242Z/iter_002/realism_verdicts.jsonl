@@ -1,0 +1,24 @@
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple, direct question with no embellishments."}
+{"sample_id":"R045","prediction":"real","confidence":0.85,"reason":"Specific factual question, straightforward language."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Concise and factual, typical of real-world queries."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Direct and clear question, lacks complexity."}
+{"sample_id":"R010","prediction":"real","confidence":0.75,"reason":"Specific inquiry, straightforward language."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.6,"reason":"Generic question structure, lacks depth."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.65,"reason":"Overly simplistic and subjective question."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Specific and factual, typical of real-world knowledge."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.5,"reason":"Overly detailed and structured, lacks natural flow."}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"Specific historical fact, straightforward."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Concise and factual, typical of real-world queries."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and clear question, lacks complexity."}
+{"sample_id":"R037","prediction":"real","confidence":0.75,"reason":"Specific inquiry, straightforward language."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Simple, direct question with no embellishments."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.55,"reason":"Casual language and structure, lacks specificity."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"Concise and factual, typical of real-world queries."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.5,"reason":"Generic question structure, lacks depth."}
+{"sample_id":"R018","prediction":"real","confidence":0.75,"reason":"Specific and factual, typical of real-world knowledge."}
+{"sample_id":"R032","prediction":"real","confidence":0.7,"reason":"Specific inquiry, straightforward language."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.6,"reason":"Generic question structure, lacks depth."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Direct and clear question, lacks complexity."}
+{"sample_id":"R040","prediction":"real","confidence":0.85,"reason":"Specific factual question, straightforward language."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.5,"reason":"Overly detailed and structured, lacks natural flow."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Specific and factual, typical of real-world knowledge."}

@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "long, complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i was just wondering' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'could you please' for requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "combination of personal experience with a request for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with specific applications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific software or technical terms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of timeframes or delays",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, conversational sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or stress",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that combine multiple issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details like order numbers or account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems and requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or money back",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal vocabulary and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for detailed information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests followed by a thank you",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about functionality or issues with devices",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complaints about service or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase letters",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for resolution or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a frustration",
+      "n_pairs_observed": 1
+    }
+  ]
+}

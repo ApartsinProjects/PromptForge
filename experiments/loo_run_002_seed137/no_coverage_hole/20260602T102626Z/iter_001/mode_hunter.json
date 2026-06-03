@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "like,",
+      "n_synthetic_occurrences": 4,
+      "rationale": "This informal phrasing appears multiple times in synthetic samples but is absent in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I thought I",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This phrase is used to express confusion or surprise in synthetic samples but does not appear in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Can someone help me",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This request for assistance is a common theme in synthetic samples but is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’m really confused",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of confusion is present in synthetic samples but is not used in real samples.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I just feel so overwhelmed",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific emotional expression does not appear in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe I had to wait so long",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase reflects a personal sentiment about waiting that is not found in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I really dont like this new update",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This informal expression of dissatisfaction is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "What do I even do if I can't get it right?!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This rhetorical question format expressing confusion is not present in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "like,",
+      "n_synthetic_occurrences": 4,
+      "rationale": "This informal phrasing appears multiple times in synthetic samples but is absent in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I thought I",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This phrase is used to express confusion or surprise in synthetic samples but does not appear in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "Can someone help me",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This request for assistance is a common theme in synthetic samples but is not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’m really confused",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of confusion is present in synthetic samples but is not used in real samples.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

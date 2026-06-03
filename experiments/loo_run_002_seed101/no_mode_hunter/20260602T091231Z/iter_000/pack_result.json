@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and slang (e.g., 'like', 'sooo')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'frustrating' and variations of 'not working'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise requests or statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language or specific terms related to issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems or inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone (e.g., 'hey', 'like', 'so')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in problem description (e.g., 'i tried to... but...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases (e.g., 'i feel like', 'i don't know what to do')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise problem statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of simple, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on app functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests and expressions of confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise requests for information or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and slang (e.g., 'like', 'sooo frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate sentences with emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing frustration with technology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive use of filler words and phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler words (e.g., 'like', 'sooo')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with additional personal details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations in tone from casual to formal within the same pack",
+      "n_pairs_observed": 1
+    }
+  ]
+}

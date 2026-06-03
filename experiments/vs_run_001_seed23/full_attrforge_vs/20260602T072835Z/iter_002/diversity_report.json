@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a strong coverage of most attributes, but there are notable gaps in the 'noise' and 'intent' categories, particularly concerning the presence of 'typos' and 'technical_problem' intent. Additionally, there are several near-duplicate phrasings that could be diversified.",
+  "missing_modes": [
+    "technical_problem",
+    "typos"
+  ],
+  "overrepresented_modes": [
+    "complaint",
+    "refund_request"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Ensure to include more diverse intents, especially 'technical_problem', in future samples.",
+    "Introduce more varied noise types, particularly 'typos', to enhance realism.",
+    "Encourage the generation of unique phrasings to reduce near-duplicate instances."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

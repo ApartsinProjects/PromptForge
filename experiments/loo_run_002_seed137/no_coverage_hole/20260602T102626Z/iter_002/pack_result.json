@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "hey, quick question.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please help me out with this?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was told i'd get my order by now",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do i make sure i don’t mess it up?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "do u guys have any way to get a discount",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with phrases like 'this is kinda frustrating' and 'it's been super frustrating'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions regarding service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'do you have...?', 'please refund...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for entire sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on transactional issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language related to apps and services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on problem description",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'u', 'smth', 'lol')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about service or support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with frequent use of 'hey' or 'so'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a conversational style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations like 'u' and 'smth'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "multiple sentences in a single sample with a casual rhythm",
+      "n_pairs_observed": 1
+    }
+  ]
+}

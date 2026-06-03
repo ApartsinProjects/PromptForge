@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Is my card frozen?",
+      "label": "card_not_working",
+      "p_real": 0.740751766763225
+    },
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7383220525486686
+    },
+    {
+      "text": "The exchange rate is bad. Are you sure this is the exchange rate?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7273354780652793
+    },
+    {
+      "text": "There is a payment I don't recognize",
+      "label": "card_payment_not_recognised",
+      "p_real": 0.7253036651351158
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

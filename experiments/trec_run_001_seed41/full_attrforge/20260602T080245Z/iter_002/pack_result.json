@@ -1,0 +1,95 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.8833333333333333,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions that include additional context or background information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'how' and 'what's the meaning of' as common openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific acronyms and their explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how does' or 'what's the'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague terms like 'like' in sample 2",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on abstract concepts and formal terminology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'which'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague or broad phrasing in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of pop culture references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures in some questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'could you please explain', 'which', 'how would you define', 'can you explain'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal and structured questioning",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on definitions and explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'how' or 'which'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language like 'you know' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in phrasing and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more elaborate questions with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'who'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific trivia or obscure facts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent complexity of questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of pop culture references",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "How many people did Randy Craft kill ?",
+      "label": "numeric_values",
+      "p_real": 0.6761851587842646
+    },
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6711912013907596
+    },
+    {
+      "text": "What was Michelangelo 's last name ?",
+      "label": "human_beings",
+      "p_real": 0.6680393017554791
+    },
+    {
+      "text": "How many consecutive baseball games did Lou Gehrig play ?",
+      "label": "numeric_values",
+      "p_real": 0.6663639929806823
+    },
+    {
+      "text": "What was the name of Randy Steven Craft 's lawyer ?",
+      "label": "human_beings",
+      "p_real": 0.6656448654777646
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

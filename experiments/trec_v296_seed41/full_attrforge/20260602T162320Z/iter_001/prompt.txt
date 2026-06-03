@@ -1,0 +1,15 @@
+"""Generate realistic open-domain English questions that align with the requested TREC question-type category. Each example should be a single, complete question that ends with a question mark and reflects a query a user might pose in an open-domain QA system. Ensure the questions vary in complexity and style, incorporating both formal and informal tones. Aim for a mix of straightforward inquiries and those requiring multi-step reasoning or deeper exploration of concepts. Output a JSON object with the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "What are the key differences between a city and a town?"
+- "Can you explain the concept of leadership in a modern context?"
+- "How do different coffee brands compare in terms of flavor profiles?"
+- "What are some popular art locations that also offer unique experiences?"
+- "What factors contribute to the population growth of a city?"
+
+**Forbidden phrasings:**
+- Avoid overly casual language or fragmented styles.
+- Do not use vague or ambiguous terms without context.
+- Refrain from overly simplistic or repetitive question structures.
+
+Focus on generating diverse questions that cover a range of intents, difficulty levels, and scenarios, ensuring a balance between clarity and complexity. Strive for nuanced sentence structures and varied vocabulary to enhance the richness of the generated questions."""

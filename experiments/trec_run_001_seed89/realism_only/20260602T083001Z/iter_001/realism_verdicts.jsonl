@@ -1,0 +1,24 @@
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Simple, direct question with no over-polished language."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Specific question about a known show, typical of real inquiries."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.75,"reason":"Overly complex structure and generic phrasing, lacks real-world noise."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Straightforward question about a historical figure."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"Specific and factual question, typical of real user queries."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.7,"reason":"Generic question structure, lacks depth and context."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Simple factual question, typical of real inquiries."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and clear question, typical of real user queries."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Specific question about culinary knowledge, typical of real inquiries."}
+{"sample_id":"R011","prediction":"real","confidence":0.8,"reason":"Practical question about obtaining a newspaper, typical of real inquiries."}
+{"sample_id":"R047","prediction":"real","confidence":0.75,"reason":"Specific question about university enrollment, typical of real inquiries."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Simple and factual question, typical of real inquiries."}
+{"sample_id":"R045","prediction":"real","confidence":0.8,"reason":"Specific historical question, typical of real inquiries."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Direct question about a known individual, typical of real inquiries."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.7,"reason":"Overly complex and verbose, lacks real-world context."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Simple and common abbreviation question, typical of real inquiries."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Direct and factual question, typical of real inquiries."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Simple and clear question, typical of real inquiries."}
+{"sample_id":"R014","prediction":"real","confidence":0.8,"reason":"Specific question about a scientific term, typical of real inquiries."}
+{"sample_id":"R031","prediction":"real","confidence":0.8,"reason":"Specific question about a known athlete, typical of real inquiries."}
+{"sample_id":"R037","prediction":"real","confidence":0.85,"reason":"Direct question about a public figure, typical of real inquiries."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Simple and factual question, typical of real inquiries."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.65,"reason":"Generic phrasing and structure, lacks specificity."}
+{"sample_id":"R044","prediction":"real","confidence":0.8,"reason":"Specific historical sports question, typical of real inquiries."}

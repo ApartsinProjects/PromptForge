@@ -1,0 +1,24 @@
+{"sample_id":"target_00002","prediction":"real","confidence":0.9,"reason":"Casual language and informal phrasing ('Hey, so like') suggest a real user."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.8,"reason":"Overly polished and structured; the dog homework line feels like a forced humor."}
+{"sample_id":"R026","prediction":"real","confidence":0.85,"reason":"Direct and concise inquiry typical of real user communication."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific issue with a clear request, common in real user complaints."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Frustrated tone and informal language suggest a real user experience."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.9,"reason":"Emotional expression and urgency indicate a real user's frustration."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a straightforward request."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Technical inquiry with a clear focus, typical of real user questions."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific issue with a clear request for clarification, common in real complaints."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Direct question about future options, typical of real user inquiries."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.9,"reason":"Clear request for a refund with a specific reason, typical of real users."}
+{"sample_id":"R015","prediction":"real","confidence":0.85,"reason":"Specific issue with account management, common in real user complaints."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Frustration over shipping delay, typical of real user experiences."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.9,"reason":"Direct request for a refund with a clear reason, typical of real users."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.85,"reason":"Casual language and emotional expression suggest a real user."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Strong emotional response and clear request for a refund indicate a real user."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.9,"reason":"Detailed complaint with a specific request for help, typical of real users."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Specific account recovery issue, common in real user communications."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Frustrated tone and urgency suggest a real user experience."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured; lacks the typical noise of real user complaints."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.75,"reason":"Polished language and formal structure suggest a synthetic origin."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Direct inquiry about product features, typical of real user questions."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.85,"reason":"Informal language and a casual tone suggest a real user."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Specific issue with a clear request for a refund, typical of real users."}

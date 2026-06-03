@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates good coverage across all attribute values, but there are some near-duplicate phrasings and a few missing edge cases. The diversity of scenarios is generally well-represented, though some modes could benefit from more variation.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "account_issue",
+    "informal style",
+    "medium difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more varied phrasings for common intents like 'account_issue' and 'complaint'.",
+    "Introduce additional edge cases to enhance diversity in scenario types.",
+    "Consider adding more examples with 'hard' difficulty to balance the distribution."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

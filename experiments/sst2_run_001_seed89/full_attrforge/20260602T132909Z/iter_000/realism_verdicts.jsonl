@@ -1,0 +1,24 @@
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"Casual language and informal phrasing suggest a personal opinion."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.7,"reason":"Overly polished and lacks specific detail, feels generic."}
+{"sample_id":"R035","prediction":"synthetic","confidence":0.6,"reason":"Predictable structure and phrasing, lacks real-world noise."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Specific critique and informal tone suggest a genuine review."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.5,"reason":"Fragmented thought lacks context, feels artificial."}
+{"sample_id":"R006","prediction":"real","confidence":0.85,"reason":"Casual language and relatable sentiment indicate a real review."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.6,"reason":"Vague and abstract phrasing lacks personal touch."}
+{"sample_id":"R018","prediction":"real","confidence":0.8,"reason":"Concise and straightforward, typical of a personal review."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.5,"reason":"Generic vocabulary and lack of specificity suggest artificiality."}
+{"sample_id":"R042","prediction":"synthetic","confidence":0.5,"reason":"Lacks depth and specificity, feels like a placeholder."}
+{"sample_id":"R037","prediction":"synthetic","confidence":0.6,"reason":"Overly simplistic and lacks nuanced critique."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Casual reference to a specific film suggests a genuine opinion."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.5,"reason":"Feels overly polished and lacks personal touch."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.4,"reason":"Vague and lacks context, typical of generated text."}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.5,"reason":"Abstract and lacks specificity, feels artificial."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"Casual language and personal sentiment indicate a genuine review."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"Feels like a constructed phrase, lacks personal touch."}
+{"sample_id":"R007","prediction":"real","confidence":0.8,"reason":"Direct and emotional language suggests a real opinion."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.5,"reason":"Generic praise and lacks specific detail."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.5,"reason":"Overly dramatic and lacks personal context."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.4,"reason":"Exaggerated emotional response feels artificial."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.85,"reason":"Specific critique and relatable sentiment suggest authenticity."}
+{"sample_id":"R031","prediction":"synthetic","confidence":0.5,"reason":"Vague and lacks depth, feels like a generated phrase."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.5,"reason":"Generic praise and lacks specific detail."}

@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, polarity intensities, styles, and noise types, but there is a notable absence of certain scenario types. Additionally, there are some near-duplicate phrasings and shallow paraphrases present.",
+  "missing_modes": [
+    "overall_verdict"
+  ],
+  "overrepresented_modes": [
+    "positive",
+    "medium",
+    "mild",
+    "informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Include more diverse scenario types, particularly 'overall_verdict'.",
+    "Vary the intensity and style of positive and negative reviews to reduce overrepresentation.",
+    "Encourage the generation of more unique phrasings to minimize near-duplicates."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

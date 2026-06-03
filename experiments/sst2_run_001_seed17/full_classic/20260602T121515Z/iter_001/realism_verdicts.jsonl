@@ -1,0 +1,24 @@
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Conversational tone with personal opinion; informal language and exclamations suggest genuine reaction."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.8,"reason":"Single-word response lacks context and depth, typical of LLM-generated text."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.85,"reason":"Casual language and specific critique indicate a personal review rather than a formulaic response."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.75,"reason":"Generic and vague; lacks context or elaboration, suggesting it is generated."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"Phrase is too abstract and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.7,"reason":"Fragmented and lacks context; feels like a generated phrase."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase with no specific context, indicative of LLM generation."}
+{"sample_id":"R014","prediction":"real","confidence":0.8,"reason":"Descriptive and vivid language suggests a genuine critique rather than a formulaic response."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Casual and relatable language with a personal opinion indicates a real review."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and lacks personal touch; feels like a generated critique."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.7,"reason":"Generic and vague; lacks context or elaboration, suggesting it is generated."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"Specific mention of a director and cast, with a nuanced opinion suggests a real review."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.9,"reason":"Humorous and relatable critique indicates a personal review rather than a formulaic response."}
+{"sample_id":"R044","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase lacking context; feels like a generated response."}
+{"sample_id":"R048","prediction":"synthetic","confidence":0.75,"reason":"Overly formal and lacks personal touch; feels like a generated critique."}
+{"sample_id":"R045","prediction":"synthetic","confidence":0.7,"reason":"Fragmented and lacks context; feels like a generated phrase."}
+{"sample_id":"R005","prediction":"real","confidence":0.8,"reason":"Descriptive and critical language suggests a genuine review."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.7,"reason":"Vague and lacks context; indicative of LLM generation."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase with no specific context, indicative of LLM generation."}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.7,"reason":"Generic and lacks specificity; feels like a generated phrase."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Humorous and specific critique suggests a personal review."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase lacking context; feels like a generated response."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"Detailed critique with personal opinion indicates a real review."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.75,"reason":"Fragmented and lacks context; feels like a generated phrase."}

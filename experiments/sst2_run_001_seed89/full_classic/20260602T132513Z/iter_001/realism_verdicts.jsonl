@@ -1,0 +1,16 @@
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.85,"reason":"Over-polished grammar and a predictable structure make it feel artificial."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.9,"reason":"Natural expression of frustration with pacing, includes relatable sentiment."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.85,"reason":"Casual language and personal touch suggest a genuine review."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.8,"reason":"Flowery language and overly poetic imagery feel contrived."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.75,"reason":"The humor feels forced and lacks real-world context."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.9,"reason":"Authentic critique of emotional impact, relatable and straightforward."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.88,"reason":"Witty and relatable commentary on time wasted, feels genuine."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.8,"reason":"Overly elaborate and abstract language lacks real-world grounding."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.85,"reason":"Strong imagery and relatable critique of acting quality suggest authenticity."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.9,"reason":"Excessively grandiose language and comparisons feel artificial."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.87,"reason":"Balanced critique with a personal touch, feels authentic."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.85,"reason":"Overly poetic and abstract language lacks genuine critique."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.82,"reason":"Natural expression of confusion and critique, relatable sentiment."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.8,"reason":"Vague and overly metaphorical language feels contrived."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"Strong metaphor and relatable critique of plot issues suggest authenticity."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.85,"reason":"Flowery language and abstract concepts feel artificial."}

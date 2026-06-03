@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good range of intents and scenarios, but there is significant redundancy in phrasing and sentence structure, particularly with the 'card_swallowed' and 'declined_card_payment' intents. Additionally, the emotional and informal styles are overrepresented, while other styles are underutilized.",
+  "missing_modes": [
+    "formal style for 'pending_card_payment' and 'lost_or_stolen_card'",
+    "emotional style for 'card_payment_fee_charged' and 'card_payment_wrong_exchange_rate'",
+    "concise style for 'card_arrival' and 'top_up_failed'"
+  ],
+  "overrepresented_modes": [
+    "fragmented style in multiple entries",
+    "informal style, especially in requests for assistance",
+    "high ambiguity in several texts, particularly for transaction issues"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied sentence structures and vocabulary, especially for intents with multiple entries.",
+    "Introduce more edge cases or rare scenarios to diversify the responses.",
+    "Ensure that all styles are represented across different intents, particularly formal and concise styles."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6489863965730988
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6472608694068331
+    },
+    {
+      "text": "When I click checkout nothing happens, just a spinner forever. I'm on Safari 17.",
+      "label": "technical_problem",
+      "p_real": 0.6353132848697497
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6342107741084748
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

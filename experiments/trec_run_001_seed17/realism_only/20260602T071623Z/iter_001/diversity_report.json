@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are instances of high ambiguity and near-duplicate phrasings. The diversity of scenarios is well represented, yet some intents, particularly related to human beings, show a tendency towards similar themes.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "high ambiguity in human beings and locations",
+    "verbose style in human beings"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse scenarios for human beings to reduce redundancy.",
+    "Introduce more edge cases or rare examples in the context of numeric values and locations.",
+    "Vary the complexity of questions to balance the difficulty levels across different intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What was Michelangelo 's last name ?",
+      "label": "human_beings",
+      "p_real": 0.6750084420190909
+    },
+    {
+      "text": "What is magnetar ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6733279854101376
+    },
+    {
+      "text": "What was the name of Randy Steven Craft 's lawyer ?",
+      "label": "human_beings",
+      "p_real": 0.6688741186423045
+    },
+    {
+      "text": "What is object-oriented design ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6634266486164367
+    },
+    {
+      "text": "What is a Chinese `` spouting '' bowl ?",
+      "label": "description_and_abstract_concepts",
+      "p_real": 0.6634266486164367
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

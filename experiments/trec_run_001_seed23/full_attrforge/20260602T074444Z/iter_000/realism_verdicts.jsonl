@@ -1,0 +1,24 @@
+{"sample_id":"R034","prediction":"real","confidence":0.9,"reason":"Direct question with specific context, typical of real inquiries."}
+{"sample_id":"R047","prediction":"real","confidence":0.9,"reason":"Straightforward question about enrollment, lacks overly polished language."}
+{"sample_id":"R016","prediction":"real","confidence":0.85,"reason":"Casual phrasing and context suggest a genuine inquiry."}
+{"sample_id":"R038","prediction":"real","confidence":0.8,"reason":"Specific request for a list, typical of real-world questions."}
+{"sample_id":"R036","prediction":"real","confidence":0.9,"reason":"Simple factual question, common in real-life scenarios."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.7,"reason":"Generic phrasing and structure, lacks specific context."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Direct and factual question, typical of real inquiries."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.6,"reason":"Vague phrasing, lacks depth and specificity."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.65,"reason":"Overly simplistic and generic question."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.5,"reason":"Complexity and structure suggest LLM generation."}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"Specific historical inquiry, typical of real questions."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Common knowledge question, phrased naturally."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Simple and direct question, typical of real inquiries."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.7,"reason":"Overly detailed and structured, suggests LLM generation."}
+{"sample_id":"R030","prediction":"real","confidence":0.85,"reason":"Specific historical context, typical of real questions."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing, lacks specificity."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"Direct factual question, typical of real inquiries."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"Specific historical inquiry, phrased naturally."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.5,"reason":"Overly complex and structured, suggests LLM generation."}
+{"sample_id":"R035","prediction":"real","confidence":0.85,"reason":"Specific geographical inquiry, typical of real questions."}
+{"sample_id":"R010","prediction":"real","confidence":0.8,"reason":"Direct and factual question, typical of real inquiries."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific cultural inquiry, phrased naturally."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.6,"reason":"Generic comparison question, lacks depth."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple factual question, typical of real inquiries."}

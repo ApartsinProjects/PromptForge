@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "concise statements with specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and technical jargon",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for information or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems and requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with a product or service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "using a conversational tone with filler phrases like 'you know' or 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language emphasizing feelings about the situation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language to convey feelings about the situation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational fillers like 'so' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration mixed with positive remarks",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for guidance or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language expressing disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms and specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence lengths and rhythms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was [emotion] about [product/service], but it just didn’t work out for me.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was expecting it to be [adjective], but honestly, i'm feeling [emotion].",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can i get a [request]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really frustrated because [issue].",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please guide me on how to [request]?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

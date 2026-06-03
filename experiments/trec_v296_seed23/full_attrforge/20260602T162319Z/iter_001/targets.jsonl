@@ -1,0 +1,16 @@
+{"sample_id": "target_00022", "intent": "entities", "difficulty": "medium", "ambiguity": "high", "style": "verbose", "noise": "clean", "scenario_type": "list"}
+{"sample_id": "target_00023", "intent": "entities", "difficulty": "easy", "ambiguity": "low", "style": "informal", "noise": "missing_details", "scenario_type": "comparison"}
+{"sample_id": "target_00024", "intent": "human_beings", "difficulty": "easy", "ambiguity": "low", "style": "formal", "noise": "missing_details", "scenario_type": "factoid"}
+{"sample_id": "target_00025", "intent": "numeric_values", "difficulty": "easy", "ambiguity": "high", "style": "concise", "noise": "irrelevant_details", "scenario_type": "list"}
+{"sample_id": "target_00026", "intent": "abbreviation", "difficulty": "easy", "ambiguity": "medium", "style": "concise", "noise": "clean", "scenario_type": "definition"}
+{"sample_id": "target_00027", "intent": "description_and_abstract_concepts", "difficulty": "hard", "ambiguity": "medium", "style": "informal", "noise": "clean", "scenario_type": "definition"}
+{"sample_id": "target_00028", "intent": "description_and_abstract_concepts", "difficulty": "hard", "ambiguity": "medium", "style": "concise", "noise": "clean", "scenario_type": "comparison"}
+{"sample_id": "target_00029", "intent": "abbreviation", "difficulty": "hard", "ambiguity": "medium", "style": "concise", "noise": "typos", "scenario_type": "list"}
+{"sample_id": "target_00030", "intent": "locations", "difficulty": "medium", "ambiguity": "low", "style": "informal", "noise": "clean", "scenario_type": "comparison"}
+{"sample_id": "target_00031", "intent": "description_and_abstract_concepts", "difficulty": "medium", "ambiguity": "low", "style": "concise", "noise": "irrelevant_details", "scenario_type": "list"}
+{"sample_id": "target_00032", "intent": "abbreviation", "difficulty": "hard", "ambiguity": "medium", "style": "concise", "noise": "missing_details", "scenario_type": "list"}
+{"sample_id": "target_00033", "intent": "human_beings", "difficulty": "medium", "ambiguity": "medium", "style": "informal", "noise": "irrelevant_details", "scenario_type": "factoid"}
+{"sample_id": "target_00034", "intent": "locations", "difficulty": "medium", "ambiguity": "high", "style": "concise", "noise": "missing_details", "scenario_type": "list"}
+{"sample_id": "target_00035", "intent": "numeric_values", "difficulty": "hard", "ambiguity": "low", "style": "concise", "noise": "typos", "scenario_type": "list"}
+{"sample_id": "target_00036", "intent": "entities", "difficulty": "easy", "ambiguity": "high", "style": "fragmented", "noise": "clean", "scenario_type": "comparison"}
+{"sample_id": "target_00037", "intent": "numeric_values", "difficulty": "easy", "ambiguity": "medium", "style": "verbose", "noise": "irrelevant_details", "scenario_type": "factoid"}

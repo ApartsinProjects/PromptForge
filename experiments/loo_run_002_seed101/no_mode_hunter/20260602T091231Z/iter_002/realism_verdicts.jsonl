@@ -1,0 +1,24 @@
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.8,"reason":"Overly formal and polished language, lacks personal touch and real-world noise."}
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Casual tone, direct question, and lacks over-polished structure."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Informal language, specific technical issue, and realistic context."}
+{"sample_id":"target_00044","prediction":"real","confidence":0.9,"reason":"Conversational tone, personal frustration, and informal language."}
+{"sample_id":"target_00042","prediction":"real","confidence":0.9,"reason":"Detailed personal experience, informal language, and realistic context."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Direct and urgent tone, realistic issue, and informal structure."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Concise and straightforward, realistic customer service request."}
+{"sample_id":"R020","prediction":"real","confidence":0.85,"reason":"Emotional expression, informal language, and realistic complaint."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Direct complaint about shipping, informal tone, and realistic context."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Specific technical issue, informal language, and realistic request."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.75,"reason":"Overly complex structure and polished language, lacks real-world noise."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.7,"reason":"Generic phrasing and overly polished, lacks personal touch."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Simple and direct question, realistic context."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Direct inquiry about product features, realistic tone."}
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Specific issue with account management, realistic tone."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.75,"reason":"Overly detailed and polished, lacks the urgency of real-world issues."}
+{"sample_id":"R026","prediction":"real","confidence":0.85,"reason":"Direct inquiry about service status, realistic context."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.9,"reason":"Simple and direct complaint, realistic tone."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"Specific technical issue, informal language, and realistic context."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Emotional expression, realistic complaint about service."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint with urgency, realistic context."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Specific technical issue, realistic tone."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured, lacks personal touch."}
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.75,"reason":"Polished language and structure, lacks real-world noise."}

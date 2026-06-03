@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, ambiguities, and styles, but there are some issues with noise and a lack of certain attribute combinations. The near-duplicate rate suggests some redundancy in phrasing.",
+  "missing_modes": [
+    "typos",
+    "missing_details",
+    "contradiction"
+  ],
+  "overrepresented_modes": [
+    "irrelevant_details"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse noise types, especially focusing on missing details and contradictions.",
+    "Introduce more edge cases and rare scenarios to enhance the diversity of the samples.",
+    "Reduce the use of informal and emotional styles to balance the representation of styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

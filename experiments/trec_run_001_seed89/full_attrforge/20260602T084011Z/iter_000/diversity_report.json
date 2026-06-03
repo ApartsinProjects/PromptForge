@@ -1,0 +1,21 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, ambiguities, styles, noises, and scenario types. However, there are several instances of typos and fragmented styles that could be improved for clarity and quality.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more concise and clean styles to reduce fragmentation.",
+    "Implement stricter checks for typos and missing details in the generated samples.",
+    "Diversify the phrasing in the generated samples to reduce near-duplicates and shallow paraphrases."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

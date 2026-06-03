@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and structure, particularly among the poetic samples. Many texts utilize similar metaphors and constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "A straightforward, plain English critique without elaborate metaphors or poetic language.",
+    "A more varied emotional response that includes subtlety beyond strong or mild expressions."
+  ],
+  "overrepresented_modes": [
+    "Poetic style with metaphorical language describing emotions and narratives.",
+    "Formal critiques that use similar sentence structures and vocabulary."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of critiques in plain English to balance the poetic and formal styles.",
+    "Introduce more varied emotional responses, including nuanced critiques that explore mixed feelings.",
+    "Diversify sentence structures and vocabulary to avoid repetitive phrasing, especially in poetic samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "concise technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific error messages",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and factual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and technical jargon",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't believe",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's really upsetting",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can someone please",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i feel totally neglected",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's not the right size",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "totally confusing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'so,' and 'i was trying to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of informal language and filler words like 'ugh' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific examples of issues with products or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed complaints with emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'so, i was trying to...' or 'i can't believe...'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive detail in requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise requests for information or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct statements without emotional context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language and specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise problem statement followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical terms or references (e.g., mfa, checkout, password reset)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and straightforward language with minimal emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common complaint structure: issue description followed by a question or request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'upsetting', 'frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    }
+  ]
+}

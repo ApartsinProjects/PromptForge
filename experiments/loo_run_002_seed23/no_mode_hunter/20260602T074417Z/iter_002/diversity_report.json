@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a strong representation of most attributes, but there are notable gaps in certain noise categories and a lack of specific intent types. Additionally, the presence of near-duplicate phrasings suggests a need for more diverse expressions.",
+  "missing_modes": [
+    "missing details",
+    "irrelevant details"
+  ],
+  "overrepresented_modes": [
+    "complaint",
+    "refund_request"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with missing details and irrelevant details to enhance diversity.",
+    "Introduce more examples for the 'technical_problem' and 'account_issue' intents to ensure balanced representation.",
+    "Vary the phrasing and structure of complaints and refund requests to reduce near-duplicate instances."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

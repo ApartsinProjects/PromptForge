@@ -1,0 +1,24 @@
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Natural phrasing and specific issue with a browser, typical of user complaints."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct complaint about a payment issue, informal language typical of user feedback."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Specific details about an order and shipping delay, common in customer service inquiries."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Clear and concise complaint about an order issue, typical of real user experiences."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Specific issue with billing, informal tone suggests a real user."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.7,"reason":"Overly casual language and misspellings suggest a generated response."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.65,"reason":"Combines unrelated topics (password and pizza), indicating a lack of focus typical in LLM outputs."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.8,"reason":"Describes a common technical issue with a specific action taken, typical of user complaints."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a browser, phrasing is natural and user-like."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.6,"reason":"Casual language and abbreviation ('u') suggest a less authentic user experience."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Specific account recovery issue, phrasing is typical of real user concerns."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.5,"reason":"Emotional language feels exaggerated and less structured, typical of LLM generation."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.4,"reason":"Combines unrelated topics (dog behavior and product inquiry), indicating a lack of coherence."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.6,"reason":"Overly formal and structured language, lacking the spontaneity of real user inquiries."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Technical question about an API, phrasing is straightforward and user-like."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Frustrated user complaint, natural language and emotional tone suggest authenticity."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Specific billing issue with order number, typical of real customer service inquiries."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Inquires about product options, phrasing is natural and user-like."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Simple inquiry about discounts, phrasing is typical of real user questions."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint about a damaged item, phrasing is natural and user-like."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Describes a technical issue with specific details, typical of real user experiences."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.5,"reason":"Casual language and misspellings suggest a less authentic user experience."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.55,"reason":"Combines unrelated topics (support and rumors), indicating a lack of coherence."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Clear complaint about service experience, phrasing is typical of real user feedback."}

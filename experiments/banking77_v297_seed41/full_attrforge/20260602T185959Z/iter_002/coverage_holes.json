@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7644952487813113
+    },
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7492088110587299
+    },
+    {
+      "text": "what do I need to do if the ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7419831223700004
+    },
+    {
+      "text": "I need help with understanding why my card is not working.",
+      "label": "card_not_working",
+      "p_real": 0.7372342430184446
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

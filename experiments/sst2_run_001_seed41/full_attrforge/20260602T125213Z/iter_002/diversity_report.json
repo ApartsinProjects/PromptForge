@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, polarity intensities, styles, and noise types, but there is a notable absence of certain scenario types. Additionally, some phrases exhibit near-duplicate characteristics.",
+  "missing_modes": [
+    "emotion",
+    "overall_verdict"
+  ],
+  "overrepresented_modes": [
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse scenario types, particularly 'emotion' and 'overall_verdict'.",
+    "Reduce the frequency of sarcastic styles to promote a wider range of expression.",
+    "Introduce more edge cases in terms of difficulty and polarity intensity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

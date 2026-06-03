@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all values represented. However, there are instances of near-duplicate phrasings and some overrepresented modes that could affect diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "complaint",
+    "medium difficulty",
+    "low ambiguity",
+    "common scenario_type"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more variation in phrasing to reduce near-duplicates.",
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Balance the representation of intents to avoid overrepresentation of complaints."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

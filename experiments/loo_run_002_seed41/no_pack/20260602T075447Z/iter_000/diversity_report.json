@@ -1,0 +1,25 @@
+{
+  "summary": "The batch demonstrates good coverage across most attributes, but there are some missing combinations and potential overrepresentation of certain styles. Additionally, there are near-duplicate phrasings that could be addressed.",
+  "missing_modes": [
+    "intent: technical_problem",
+    "scenario_type: rare"
+  ],
+  "overrepresented_modes": [
+    "style: verbose",
+    "style: informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with the 'technical_problem' intent to ensure diversity.",
+    "Limit the use of verbose and informal styles to promote a wider range of expression.",
+    "Introduce more edge cases and rare scenarios to enhance the dataset's complexity."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

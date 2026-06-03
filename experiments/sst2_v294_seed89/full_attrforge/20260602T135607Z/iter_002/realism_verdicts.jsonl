@@ -1,0 +1,15 @@
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.9,"reason":"casual viewer voice; real samples are professional critic prose"}
+{"sample_id":"target_00044","prediction":"real","confidence":0.95,"reason":"formal critique with analytical depth"}
+{"sample_id":"target_00041","prediction":"real","confidence":0.95,"reason":"formal critique with emotional analysis"}
+{"sample_id":"target_00042","prediction":"real","confidence":0.95,"reason":"formal critique with poetic language"}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.85,"reason":"casual viewer voice; real samples are professional critic prose"}
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"formal critique with positive sentiment"}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are professional critic prose"}
+{"sample_id":"target_00033","prediction":"real","confidence":0.9,"reason":"formal critique with strong imagery"}
+{"sample_id":"target_00048","prediction":"synthetic","confidence":0.85,"reason":"casual viewer voice; real samples are professional critic prose"}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are professional critic prose"}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.75,"reason":"casual viewer voice; real samples are professional critic prose"}
+{"sample_id":"target_00034","prediction":"real","confidence":0.95,"reason":"formal critique with analytical depth"}
+{"sample_id":"target_00040","prediction":"real","confidence":0.85,"reason":"formal critique with concise evaluation"}
+{"sample_id":"target_00039","prediction":"real","confidence":0.9,"reason":"formal critique with thematic exploration"}
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"formal critique with analytical depth"}

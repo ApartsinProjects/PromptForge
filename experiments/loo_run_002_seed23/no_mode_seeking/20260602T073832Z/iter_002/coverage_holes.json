@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "I changed my email and now I can't receive verification codes on the new one",
+      "label": "account_issue",
+      "p_real": 0.6411126408054184
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6374122690457652
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6354367322470906
+    },
+    {
+      "text": "When I click checkout nothing happens, just a spinner forever. I'm on Safari 17.",
+      "label": "technical_problem",
+      "p_real": 0.6337160078545866
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

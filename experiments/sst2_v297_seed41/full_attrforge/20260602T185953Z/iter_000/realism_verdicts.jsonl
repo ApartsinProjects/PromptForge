@@ -1,0 +1,22 @@
+{"sample_id":"target_00005","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with the identified distribution's register."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.85,"reason":"Creative language and metaphor; fits the critical prose style."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.8,"reason":"Casual tone and informal expression; real samples are more formal."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"Formal and emotive language; consistent with the identified distribution."}
+{"sample_id":"target_00003","prediction":"real","confidence":0.9,"reason":"Thoughtful and formal exploration of themes; matches the target distribution."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.75,"reason":"Casual and sarcastic tone; real samples are more polished."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.85,"reason":"Metaphorical language and formal critique; aligns with the identified style."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"Casual and enthusiastic tone; contrasts with the formal register of real samples."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.8,"reason":"Witty critique; fits the critical prose style of the identified distribution."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"Formal analysis of pacing; consistent with the identified distribution."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.85,"reason":"Positive and formal tone; aligns with the identified distribution."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.75,"reason":"Casual and informal expression; contrasts with the formal register of real samples."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.9,"reason":"Formal and positive review style; matches the identified distribution."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.85,"reason":"Complex themes discussed in a formal manner; aligns with the identified style."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.9,"reason":"Metaphorical and formal language; consistent with the identified distribution."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.85,"reason":"Formal critique of character development; matches the identified style."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.7,"reason":"Informal and simplistic expression; contrasts with the formal register of real samples."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.8,"reason":"Metaphorical language and formal critique; aligns with the identified distribution."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.85,"reason":"Formal critique using metaphor; consistent with the identified style."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.85,"reason":"Formal critique of performances; aligns with the identified distribution."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.85,"reason":"Formal and descriptive language; matches the identified distribution."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.8,"reason":"Formal critique of emotional impact; aligns with the identified style."}

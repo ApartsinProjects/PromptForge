@@ -1,0 +1,24 @@
+{"sample_id":"R098","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal inquiries about card issues"}
+{"sample_id":"R038","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more structured and formal"}
+{"sample_id":"R016","prediction":"synthetic","confidence":0.6,"reason":"informal question style; real samples are more direct and formal"}
+{"sample_id":"R040","prediction":"synthetic","confidence":0.7,"reason":"casual expression; real samples are more formal and detailed"}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.5,"reason":"informal request; real samples are more structured"}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.6,"reason":"casual inquiry; real samples are more formal"}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.5,"reason":"informal tone; real samples are more professional"}
+{"sample_id":"R066","prediction":"synthetic","confidence":0.6,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.5,"reason":"informal question; real samples are more structured"}
+{"sample_id":"R063","prediction":"synthetic","confidence":0.7,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R050","prediction":"synthetic","confidence":0.6,"reason":"casual request; real samples are more formal"}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"formal inquiry with detailed context; matches real samples"}
+{"sample_id":"R089","prediction":"synthetic","confidence":0.5,"reason":"informal tone; real samples are more structured"}
+{"sample_id":"R069","prediction":"synthetic","confidence":0.6,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"formal inquiry about fees; matches real samples"}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.7,"reason":"casual tone; real samples are more formal"}
+{"sample_id":"target_00023","prediction":"real","confidence":0.9,"reason":"detailed formal inquiry; matches real samples"}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.6,"reason":"informal tone; real samples are more structured"}
+{"sample_id":"R093","prediction":"synthetic","confidence":0.5,"reason":"informal phrasing; real samples are more formal"}
+{"sample_id":"R073","prediction":"synthetic","confidence":0.6,"reason":"casual request; real samples are more formal"}
+{"sample_id":"R015","prediction":"synthetic","confidence":0.5,"reason":"informal question; real samples are more structured"}
+{"sample_id":"R094","prediction":"real","confidence":0.8,"reason":"formal request for assistance; matches real samples"}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"casual inquiry; real samples are more formal"}
+{"sample_id":"target_00027","prediction":"real","confidence":0.9,"reason":"detailed formal inquiry about lost card; matches real samples"}

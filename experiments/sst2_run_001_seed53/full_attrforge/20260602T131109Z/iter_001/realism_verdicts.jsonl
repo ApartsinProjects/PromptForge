@@ -1,0 +1,24 @@
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.9,"reason":"Overly polished and vague; lacks specific detail or personal touch."}
+{"sample_id":"R000","prediction":"real","confidence":0.8,"reason":"Natural language with a critical tone; feels authentic."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Complex sentence structure and specific critique suggest a genuine review."}
+{"sample_id":"R020","prediction":"synthetic","confidence":0.9,"reason":"Generic and overly simplistic; lacks depth."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.8,"reason":"Predictable structure and phrasing; feels formulaic."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.85,"reason":"Overly dramatic language; lacks real-world nuance."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.9,"reason":"Vague and lacks specificity; feels like a placeholder."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.75,"reason":"Casual tone and personal opinion suggest authenticity."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.9,"reason":"Fragmented and lacks coherence; feels artificial."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.7,"reason":"Conversational style and emotional expression suggest a real review."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Specific mention of director and cast; feels authentic."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.85,"reason":"Generic praise; lacks specific examples or details."}
+{"sample_id":"R023","prediction":"synthetic","confidence":0.9,"reason":"Overly broad and lacks depth; feels like a template."}
+{"sample_id":"R016","prediction":"synthetic","confidence":0.9,"reason":"Ambiguous and lacks context; feels artificial."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.8,"reason":"Sarcastic tone and personal opinion suggest authenticity."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.85,"reason":"Generic phrasing; lacks specific detail."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.9,"reason":"Overly polished and lacks personal insight."}
+{"sample_id":"R004","prediction":"real","confidence":0.8,"reason":"Specific critique and detailed language suggest authenticity."}
+{"sample_id":"R013","prediction":"real","confidence":0.75,"reason":"Natural language and critical perspective suggest a real review."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.9,"reason":"Vague and lacks context; feels like a placeholder."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.7,"reason":"Descriptive language and personal opinion suggest authenticity."}
+{"sample_id":"R007","prediction":"real","confidence":0.75,"reason":"Specific reference to a book and critical tone suggest authenticity."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.9,"reason":"Vague and lacks detail; feels like a generic statement."}
+{"sample_id":"R010","prediction":"synthetic","confidence":0.85,"reason":"Generic and lacks specific critique; feels formulaic."}

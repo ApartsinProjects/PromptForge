@@ -1,0 +1,54 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I thought it would work like advertised",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about expectations and advertisement does not appear in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you clarify that for me, please?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This polite request for clarification is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I feel quite disappointed with the",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of disappointment is not found in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't belive how awful your service has been!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration with service quality is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I thought it would work like advertised",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about expectations and advertisement does not appear in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you clarify that for me, please?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This polite request for clarification is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I feel quite disappointed with the",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of disappointment is not found in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't belive how awful your service has been!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration with service quality is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

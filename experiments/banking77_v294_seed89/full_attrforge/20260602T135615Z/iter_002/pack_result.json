@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of simple sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "requests for assistance or guidance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and complete sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openings like 'hey' or 'can you explain'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or uncertainty",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of situations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of emotion or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific scenarios related to card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'why are' or 'what are'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements about payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "minimal elaboration on context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or explanation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i think'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct inquiries about next steps",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'how do i' structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concerns about theft or loss of cards",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration expressed in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why doesn't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have a",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how can",
+      "n_pairs_observed": 1
+    }
+  ]
+}

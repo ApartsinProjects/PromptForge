@@ -1,0 +1,25 @@
+ 
+Generate realistic open-domain English questions that align with the specified TREC question-type category. Each question should be a single complete inquiry, ending with a question mark, and reflect the complexity and formality typical of user queries in an open-domain QA system. Ensure the questions are attribute-faithful, capturing the intended intent, difficulty, ambiguity, style, noise level, and scenario type.
+
+Output a JSON object containing the sample id, the text, and the attribute values.
+
+**Preferred phrasings:**
+- "What are the defining traits of effective leadership in modern organizations?"
+- "In what ways do the scientific contributions of Einstein and Newton differ?"
+- "Could you elaborate on the cultural and historical importance of the Great Wall of China?"
+- "What statistical evidence supports the assertion of climate change?"
+
+**Forbidden phrasings:**
+- Avoid overly casual language or informal tones.
+- Do not use vague or simplistic questions.
+- Refrain from repetitive structures or templates.
+
+**Guidelines:**
+- Incorporate complex definitions that require multi-step reasoning.
+- Explore comparative analyses involving multiple entities.
+- Include numeric values in real-world contexts to enhance diversity.
+- Strive for varied structures and styles to reduce redundancy in phrasing.
+- Encourage unique sentence structures and vocabulary to enhance nuance.
+- Introduce prompts that request diverse examples of less common scenarios or attributes.
+
+Ensure that the generated questions reflect a range of intents and styles while maintaining clarity and relevance to the specified category.

@@ -1,0 +1,27 @@
+{
+  "summary": "The batch of synthetic samples exhibits a high level of diversity across most attributes, with a notable absence of certain intent categories and some overrepresentation of informal styles. Additionally, there are several instances of missing details and high ambiguity in the questions posed.",
+  "missing_modes": [
+    "abbreviation (easy)",
+    "entities (medium)",
+    "entities (hard)",
+    "description_and_abstract_concepts (medium)",
+    "description_and_abstract_concepts (easy)"
+  ],
+  "overrepresented_modes": [
+    "informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse intent categories, particularly focusing on missing modes.",
+    "Reduce the frequency of informal style to balance the overall tone of the samples.",
+    "Ensure that each sample includes sufficient detail to minimize ambiguity."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

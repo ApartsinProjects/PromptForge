@@ -1,0 +1,16 @@
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"Formal inquiry into scientific concepts; aligns with academic discourse."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing; lacks depth expected in formal analysis."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.95,"reason":"Complex, formal structure; aligns with academic writing on historical analysis."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; lacks the analytical depth of real samples."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.85,"reason":"Formal legal inquiry; matches academic and professional writing."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.9,"reason":"Formal philosophical inquiry; aligns with academic discourse."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.6,"reason":"Simplistic question; lacks the complexity of real academic inquiries."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.65,"reason":"Casual phrasing; lacks depth expected in formal historical analysis."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.8,"reason":"Formal inquiry into art; aligns with academic writing."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.75,"reason":"Formal request for information; aligns with academic writing."}
+{"sample_id":"target_00034","prediction":"real","confidence":0.9,"reason":"Detailed statistical inquiry; matches academic and professional writing."}
+{"sample_id":"target_00035","prediction":"real","confidence":0.85,"reason":"Formal inquiry into art movements; aligns with academic discourse."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.5,"reason":"Informal phrasing; lacks depth and specificity of real inquiries."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.55,"reason":"Casual tone; lacks the analytical depth of real samples."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.9,"reason":"Formal philosophical inquiry; aligns with academic writing."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.8,"reason":"Formal inquiry into academic writing conventions; matches academic discourse."}

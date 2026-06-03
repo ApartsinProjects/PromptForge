@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.25,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "my card",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i topped up but the app denied it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do if my card gets broken?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card has gone missing.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why is it failing to top-up?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on financial discrepancies",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why am i getting charged",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card isn't working",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i’ve been waiting for my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please give me an update?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to add funds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you check",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey, i just noticed a charge",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of first-person perspective",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey, i just noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i thought my new card was",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just noticed that my recent payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what’s going on?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me figure this out?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific phrases like 'my card' and 'declined'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar rhythm in sentence length and construction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent mention of card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think that",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering",
+      "n_pairs_observed": 1
+    }
+  ]
+}

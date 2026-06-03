@@ -1,0 +1,139 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "could you please",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i attempted to",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what do i do now?",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "can you",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was at",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently made a purchase, but...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you provide clarification on this matter?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to add funds to my account, but...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please help me understand why...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently made a purchase, but the exchange rate applied to my card appears to be incorrect.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to add funds to my account, but the transaction did not go through.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what should i do?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please clarify why my top-up was unsuccessful?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "clarify why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "unexpected fee",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "next steps",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed at the end of the sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific scenarios or contexts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' as a subject",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need help with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the payment is still pending",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card is not working",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "waiting on my new card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to make a purchase, but my card was declined",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed an unexpected fee",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please help me understand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what' or 'how'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct inquiries about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for assistance or clarification",
+      "n_pairs_observed": 1
+    }
+  ]
+}

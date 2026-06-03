@@ -1,0 +1,18 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I need clarification on this issue.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request for clarification is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I need clarification on this issue.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request for clarification is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

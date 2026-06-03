@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.9125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "formal tone and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy explanations with specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of phrases like 'i wish to express my dissatisfaction' and 'i am reaching out to formally request'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i am' at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific timeframes mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite tone with requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy explanations with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions seeking clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy and complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or guidance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with customer service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i'm really frustrated'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about policies or resolutions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or concern",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases like 'i'm really frustrated' and 'i keep seeing'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific details about issues (e.g., damaged item, account settings)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the support team",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am reaching out to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am having trouble with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i’ve been trying to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just want to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "whenever i try to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it appears to be loading indefinitely",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i only meant', 'want a refund', 'it's been')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'not a reship', 'where is my package')",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+"""Generate realistic customer support messages that match the requested intent and style. Ensure the messages reflect a range of scenarios, including rare cases and edge situations. Maintain a balance of emotional, fragmented, and verbose styles, while also incorporating short, direct questions. The output should include a mix of ambiguity levels and difficulty, with some messages being concise and others more detailed. Aim for a natural tone that includes informal speech patterns and urgency when appropriate. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I was wondering if'
+- 'I just don’t understand how'
+- 'so frustrating!'
+
+Consider including messages like:
+- "Two factor codes never come through, I've been locked out for 2 days now."
+- "Hi team, quick one - does the API have a rate limit on the search endpoint?"
+- "Is the pro plan billed monthly or yearly?"
+- "Ordered 2 items, only got 1. Want a refund on the missing one, not a reship."
+
+Ensure that the generated messages are plausible for a customer support channel (email, chat, in-app form) and keep them short to medium length, with variations in structure and style to enhance diversity."

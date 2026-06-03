@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a variety of intents and difficulties, but there is a notable redundancy in phrasing and structure, particularly among negative reviews. The use of informal and concise styles is prevalent, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "formal style in positive reviews",
+    "strong polarity intensity in easy difficulty",
+    "sarcastic style in positive reviews",
+    "poetic style in negative reviews"
+  ],
+  "overrepresented_modes": [
+    "informal style across multiple positive reviews",
+    "concise style in both positive and negative reviews",
+    "negative intent with moderate polarity intensity"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more diverse sentence structures and vocabulary in both positive and negative reviews.",
+    "Include more examples of formal and poetic styles, especially in positive contexts.",
+    "Ensure a wider range of polarity intensities is represented across all difficulty levels."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

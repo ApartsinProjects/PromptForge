@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressions of disappointment or frustration",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "concise problem statement followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct mention of technical issues or account problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in presenting issues (e.g., 'i only meant...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a brief description",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical references (e.g., 'android 14', 'safari 17')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on frustration and urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with a focus on specific technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'x is y but z')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers like 'currently' and 'really'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal pronouns like 'i' and 'my'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions or statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues described in a concise manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific software or platform references",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional language or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by additional context or complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent punctuation and capitalization",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, detailed complaints about service or products",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise problem statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'quick one', 'need help')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common technical issues related to accounts and software",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns (e.g., 'i changed', 'my email got hijacked')",
+      "n_pairs_observed": 1
+    }
+  ]
+}

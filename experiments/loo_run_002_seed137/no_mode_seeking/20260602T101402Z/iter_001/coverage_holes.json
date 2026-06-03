@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.6415925616326327
+    },
+    {
+      "text": "the item arrived damaged. need a refund or replacement asap. photos attached.",
+      "label": "refund_request",
+      "p_real": 0.641205188578047
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6408416734086376
+    },
+    {
+      "text": "subscription auto-renewed after I cancelled. please refund and confirm cancellation.",
+      "label": "refund_request",
+      "p_real": 0.6351411291611729
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,9 @@
+"""Generate realistic open-domain English questions that match the requested TREC question-type category. Each example should be a single complete question that ends with a question mark and reflects a user’s inquiry in an open-domain QA system. Ensure a variety of styles, including formal, informal, and fragmented, and incorporate different noise types, such as irrelevant details. Strive for diverse attribute combinations, especially in the noise category, to enhance overall richness. 
+
+Output a JSON object containing the sample id, the text, and the attribute values. 
+
+Forbidden phrasings: Avoid repetitive structures or near-duplicate phrasings. Aim for unique expressions in each generated question to maintain diversity and realism. 
+
+Consider including questions that may have ambiguous wording or varying difficulty levels to further enrich the dataset. Each question should feel authentic and relevant to real user queries, reflecting a broad spectrum of intents and scenarios. 
+
+Please ensure that all combinations of attributes are represented, particularly focusing on the noise category to enhance the overall quality and variety of the generated samples. Aim for a balanced representation across all attributes, including intent, difficulty, ambiguity, style, noise, and scenario type."""

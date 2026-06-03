@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "I have a card payment which shows as pending",
+      "label": "pending_card_payment",
+      "p_real": 0.7557793283511545
+    },
+    {
+      "text": "How can I get my card to work?",
+      "label": "card_not_working",
+      "p_real": 0.75439101135923
+    },
+    {
+      "text": "Is my card frozen?",
+      "label": "card_not_working",
+      "p_real": 0.7531948529470814
+    },
+    {
+      "text": "The ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7515632956105
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

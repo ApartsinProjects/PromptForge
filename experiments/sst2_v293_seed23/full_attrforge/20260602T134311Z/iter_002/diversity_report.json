@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a good range of intents and styles, but there is notable redundancy in phrasing and sentence structure, particularly among positive and negative sentiments. The scenario types are underrepresented, especially in unique combinations.",
+  "missing_modes": [
+    "A positive review focusing on visuals with a strong polarity intensity.",
+    "A negative review discussing pacing with a formal style.",
+    "A medium difficulty review on story plot with a sarcastic tone."
+  ],
+  "overrepresented_modes": [
+    "Informal style in positive reviews, particularly with mild to moderate polarity intensity.",
+    "Poetic style used for both positive and negative sentiments, leading to similar constructions."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied sentence structures and vocabulary in positive and negative reviews.",
+    "Incorporate more unique combinations of scenario types with different styles and polarity intensities.",
+    "Add prompts for edge cases or rare sentiments to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

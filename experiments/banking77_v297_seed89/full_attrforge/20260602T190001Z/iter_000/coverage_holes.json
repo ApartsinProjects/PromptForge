@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "I have a card payment which shows as pending",
+      "label": "pending_card_payment",
+      "p_real": 0.7372248757828043
+    },
+    {
+      "text": "My top up isnt working",
+      "label": "top_up_failed",
+      "p_real": 0.7330868199548706
+    },
+    {
+      "text": "My card payment has been declined",
+      "label": "declined_card_payment",
+      "p_real": 0.7304408822760258
+    },
+    {
+      "text": "Why are all my card payments being declined?",
+      "label": "declined_card_payment",
+      "p_real": 0.7299741488199226
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and styles, but there are some missing noise types and potential near-duplicates. The overall diversity is high, but attention should be paid to the representation of noise attributes.",
+  "missing_modes": [
+    "typos",
+    "missing_details",
+    "irrelevant_details",
+    "contradiction"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "fragmented",
+    "medium difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with different noise types, especially missing_details and irrelevant_details.",
+    "Introduce more diverse phrasing in informal and fragmented styles to reduce near-duplicates.",
+    "Ensure a balanced representation of difficulty levels across all intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

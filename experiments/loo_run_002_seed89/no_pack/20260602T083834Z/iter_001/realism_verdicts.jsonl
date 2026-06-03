@@ -1,0 +1,24 @@
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Casual language and direct request indicate a genuine customer complaint."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Specific issue with billing and a clear request for resolution suggest authenticity."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Real-world issue with password reset, includes detail about checking spam."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.8,"reason":"Overly emotional and structured, lacks specific details about the service."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with email verification, typical of real user problems."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Describes a common technical issue with a specific app."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.75,"reason":"Generic questions and casual tone suggest a lack of real urgency."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Describes a serious security issue, typical of real user concerns."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Clear request for a refund based on a specific order issue."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint about a damaged item with a request for resolution."}
+{"sample_id":"R015","prediction":"real","confidence":0.85,"reason":"Specific issue with account management, typical of real user inquiries."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific billing issue with a clear request for a refund."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.7,"reason":"Technical question lacks personal context, feels more like a scripted inquiry."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct complaint about a paid feature not working, typical of real user issues."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong emotional language and a clear request to cancel indicate a real user."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.65,"reason":"Technical inquiry feels generic and lacks personal context."}
+{"sample_id":"R009","prediction":"real","confidence":0.9,"reason":"Specific technical issue with documentation reference suggests authenticity."}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"Simple inquiry about billing structure, typical of real user questions."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Clear complaint about subscription management, typical of real user issues."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Specific technical issue with a clear request for help."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.75,"reason":"Overly polite and structured, lacks the urgency typical of real complaints."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.7,"reason":"Casual tone and unnecessary detail about the cat suggest a lack of authenticity."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Direct inquiry about discounts, typical of real user questions."}
+{"sample_id":"target_00032","prediction":"real","confidence":0.9,"reason":"Specific issue with account access, typical of real user problems."}

@@ -1,0 +1,21 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema, with all modes represented. However, there are concerns regarding the presence of near-duplicate phrasings and shallow paraphrases, particularly in the 'description_and_abstract_concepts' and 'entities' intents.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "description_and_abstract_concepts",
+    "entities"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more diverse phrasing and scenarios for the 'description_and_abstract_concepts' and 'entities' intents to reduce redundancy.",
+    "Introduce edge cases or rare scenarios to enhance the diversity of the generated samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

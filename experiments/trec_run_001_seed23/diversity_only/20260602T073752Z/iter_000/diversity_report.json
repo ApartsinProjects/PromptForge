@@ -1,0 +1,19 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are notable issues with missing details and typos across several entries. Additionally, some intents and scenarios could benefit from more diverse phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more diverse phrasings to avoid near-duplicates.",
+    "Ensure that all samples include complete details to reduce instances of missing information.",
+    "Consider adding edge cases or rare scenarios to enhance the diversity of the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

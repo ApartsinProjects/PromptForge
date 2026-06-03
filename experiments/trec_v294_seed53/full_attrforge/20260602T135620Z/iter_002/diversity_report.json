@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity in terms of intent and style, but there is significant redundancy in phrasing and sentence structure, particularly in the 'description_and_abstract_concepts' and 'comparison' categories. Many texts utilize similar constructions and vocabulary, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "Examples of specific locations or entities in the context of their significance.",
+    "Unique or less common numeric values or statistics.",
+    "Casual or conversational styles in definitions or explanations."
+  ],
+  "overrepresented_modes": [
+    "Verbose and fragmented styles in philosophical and abstract discussions.",
+    "Concise phrasing in definitions and factoids."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that incorporate unique examples or case studies to illustrate concepts.",
+    "Vary sentence structures and vocabulary more significantly, especially in the 'description_and_abstract_concepts' and 'comparison' categories.",
+    "Include prompts for more informal or conversational styles in scenarios that allow for it."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

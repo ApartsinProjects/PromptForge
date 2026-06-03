@@ -1,0 +1,7 @@
+""""""Generate realistic short movie review sentences that align with the requested sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and incorporating a mix of explicit sentiment words, comparative judgments, and unique phrasings. Ensure a variety of styles, including straightforward, dry humor, and mild sarcasm, while maintaining the requested intensity and scenario type. Introduce intentional noise, such as informal asides or minor typos, to enhance realism. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'Oh sure,'
+- 'the pacing was so thrilling'
+
+Ensure that the reviews cover a wide range of intents and difficulties, including edge cases. Aim for a mix of strong and moderate polarity intensities, and avoid repetitive structures or vocabulary. Strive for depth and specificity in critiques to better reflect real-world opinions. Encourage unique phrasings to reduce near-duplicates and introduce diverse scenarios. The goal is to produce a varied and engaging set of reviews that feel authentic and reflect a broad spectrum of film criticism styles, while also varying the intensity of sarcasm and formality in the responses."""""

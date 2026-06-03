@@ -1,0 +1,22 @@
+{
+  "summary": "The batch demonstrates a good variety of attributes, but there are instances of near-duplicate phrasings and a lack of edge cases in the scenarios. Additionally, some combinations of attributes are underrepresented.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "negative intent with hard difficulty and mild/moderate polarity intensity",
+    "positive intent with hard difficulty and poetic style"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Include more edge cases in scenarios, such as rare combinations of difficulty and polarity intensity.",
+    "Diversify the use of styles across all intents to avoid overrepresentation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Why did my credit card get declined for top up?",
+      "label": "top_up_failed",
+      "p_real": 0.7354766508388348
+    },
+    {
+      "text": "Is my card frozen?",
+      "label": "card_not_working",
+      "p_real": 0.7323583799466605
+    },
+    {
+      "text": "Why is the exchange rate for my payment incorrect?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7291651655063052
+    },
+    {
+      "text": "There's an error with the rate that is charged.",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7276953055134031
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

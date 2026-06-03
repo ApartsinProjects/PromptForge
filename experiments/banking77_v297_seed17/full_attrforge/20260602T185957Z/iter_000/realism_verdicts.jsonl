@@ -1,0 +1,24 @@
+{"sample_id":"R048","prediction":"synthetic","confidence":0.8,"reason":"casual inquiry; real samples are more detailed and formal"}
+{"sample_id":"R099","prediction":"real","confidence":0.9,"reason":"detailed request for assistance; matches the real distribution's style"}
+{"sample_id":"R057","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing and lack of detail; real samples are more structured"}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.6,"reason":"casual tone and mixed topics; real samples focus on specific card issues"}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"direct inquiry about exchange rate; aligns with real samples"}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"formal request about card tracking; matches real distribution"}
+{"sample_id":"R080","prediction":"real","confidence":0.8,"reason":"specific question about payment status; consistent with real samples"}
+{"sample_id":"R044","prediction":"real","confidence":0.85,"reason":"inquiry about exchange rate; aligns with real distribution"}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.5,"reason":"casual tone; real samples are more formal and detailed"}
+{"sample_id":"R075","prediction":"real","confidence":0.9,"reason":"clear question about stolen card; matches real distribution"}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.6,"reason":"informal phrasing; real samples are more structured"}
+{"sample_id":"R086","prediction":"real","confidence":0.8,"reason":"specific issue with payment; aligns with real samples"}
+{"sample_id":"R029","prediction":"real","confidence":0.85,"reason":"inquiry about unexpected fees; matches real distribution"}
+{"sample_id":"R059","prediction":"real","confidence":0.9,"reason":"direct statement about ATM issue; aligns with real samples"}
+{"sample_id":"R062","prediction":"real","confidence":0.85,"reason":"specific question about card decline; matches real distribution"}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"formal request for assistance; aligns with real samples"}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"inquiry about charges; matches real distribution"}
+{"sample_id":"R030","prediction":"real","confidence":0.85,"reason":"specific issue with unauthorized payment; aligns with real samples"}
+{"sample_id":"R097","prediction":"synthetic","confidence":0.5,"reason":"informal phrasing; real samples are more structured"}
+{"sample_id":"R065","prediction":"real","confidence":0.8,"reason":"direct question about payment issues; matches real distribution"}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.6,"reason":"informal tone; real samples are more formal"}
+{"sample_id":"R072","prediction":"real","confidence":0.9,"reason":"clear statement about lost card; aligns with real samples"}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"formal inquiry about card status; matches real distribution"}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.5,"reason":"casual tone and mixed topics; real samples focus on specific card issues"}

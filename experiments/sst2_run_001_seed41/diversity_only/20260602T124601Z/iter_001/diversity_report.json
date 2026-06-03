@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, polarities, and noise types, but lacks diversity in styles, particularly formal and poetic styles. Additionally, there are near-duplicate phrasings and some missing attribute combinations.",
+  "missing_modes": [
+    "formal style"
+  ],
+  "overrepresented_modes": [
+    "informal style",
+    "negative intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more formal and poetic styles to enhance diversity.",
+    "Introduce more unique phrasings to reduce near-duplicate content.",
+    "Ensure a balanced representation of positive and negative intents across different difficulty levels."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

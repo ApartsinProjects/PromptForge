@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6352342807160113
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6335371302334287
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6282043285162746
+    },
+    {
+      "text": "I've been a customer for years and this is by far the worst experience. Cancel my plan.",
+      "label": "complaint",
+      "p_real": 0.6231262369033655
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

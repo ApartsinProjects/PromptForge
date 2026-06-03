@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a comprehensive coverage of attribute values, but there are notable issues with missing details and potential near-duplicates. The diversity of scenarios is well-represented, yet some intents show redundancy in phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "verbose",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more varied phrasings to reduce redundancy.",
+    "Incorporate edge cases or rare scenarios to enhance diversity.",
+    "Ensure that all definitions include sufficient detail to avoid missing information."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

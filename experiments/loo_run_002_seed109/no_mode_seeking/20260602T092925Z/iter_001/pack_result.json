@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'like' as a filler",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a personal anecdote",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of expressing frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inconsistent capitalization and punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't log in.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently purchased a premium subscription",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've tried resetting my password",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can i get a refund for them?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamation marks used for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed sentences with emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific order numbers or product details mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests and explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of filler phrases like 'so, like,'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about issues (e.g., order numbers, app features)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently attempted",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms or specific error codes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., starting with a complaint followed by a request)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, detailed explanations of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language (e.g., 'really upset', 'frustrating')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific references to order numbers or product details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'like' and 'i mean'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific details like order numbers or subscription types",
+      "n_pairs_observed": 1
+    }
+  ]
+}

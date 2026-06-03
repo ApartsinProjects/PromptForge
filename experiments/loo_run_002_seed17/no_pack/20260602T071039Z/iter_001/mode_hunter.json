@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "So, like,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This informal opener appears multiple times in the synthetic batch but is absent in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can’t believe how",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This expression of disbelief is used in the synthetic samples but does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I dunno why, but",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual phrasing is unique to the synthetic batch and not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’m a bit confused.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicating confusion is present in the synthetic samples but not in the real ones.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I initially wanted a refund for the item because it was completely different from what I ordered",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about wanting a refund due to a discrepancy in the order does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I’m really unhappy with the service. It just doesn’t meet my expectations.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of dissatisfaction with service is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I would like to formally request a refund for my recent purchase.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "The formal request structure is not found in the real samples, which tend to be more casual.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Can you please help me resolve this issue?",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific request for assistance is not present in the real batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "So, like,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This informal opener appears multiple times in the synthetic batch but is absent in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can’t believe how",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This expression of disbelief is used in the synthetic samples but does not appear in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I dunno why, but",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual phrasing is unique to the synthetic batch and not found in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I’m a bit confused.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicating confusion is present in the synthetic samples but not in the real ones.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good range of intents and difficulties, but there is significant redundancy in phrasing and structure, particularly in the emotional and verbose styles. Several texts also share similar surface patterns, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal style texts that provide detailed explanations",
+    "informal texts with varied sentence structures",
+    "concise texts that convey urgency or frustration"
+  ],
+  "overrepresented_modes": [
+    "verbose style with emotional undertones",
+    "informal style expressing confusion or frustration",
+    "concise style used in straightforward inquiries"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts with varied emotional tones and sentence structures to enhance nuance diversity.",
+    "Include more formal and detailed inquiries to balance the emotional and informal styles present in the current batch.",
+    "Introduce edge cases or rare scenarios related to card issues to diversify the content further."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

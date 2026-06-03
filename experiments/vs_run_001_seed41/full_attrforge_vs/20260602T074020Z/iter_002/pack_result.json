@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.90625,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions posed in a roundabout way",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "direct and concise complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details (e.g., browser type, shipping times)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, straightforward sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "urgency in requests (e.g., 'need a refund or replacement asap')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific timeframes mentioned in complaints",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct address to a team or support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues with accounts or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about functionality or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of account-related problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of varied vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "explanatory tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or seeking clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or examples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have run into a rather perplexing issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering if there’s any way to get",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i kinda don’t know what to do about it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i thought we were getting emails about changes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'i kinda don’t know' or 'i was just wondering'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "explanatory language that adds unnecessary detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vocabulary that is more elaborate and less direct",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'you know?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or curiosity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    }
+  ]
+}

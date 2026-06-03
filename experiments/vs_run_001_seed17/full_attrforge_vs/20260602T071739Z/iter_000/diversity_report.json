@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, but there are some missing combinations and potential issues with near-duplicate phrasings. The diversity of scenarios is well represented, yet edge cases could be better explored.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "fragmented",
+    "common"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more varied phrasing to reduce near-duplicates.",
+    "Include more edge cases in the scenarios to enhance diversity.",
+    "Ensure that all combinations of attributes, especially for rare scenarios, are represented."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

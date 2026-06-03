@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6595022611544928
+    },
+    {
+      "text": "unassuming",
+      "label": "negative",
+      "p_real": 0.6559021634521434
+    },
+    {
+      "text": "funny in a sick , twisted sort of way .",
+      "label": "positive",
+      "p_real": 0.653817059978958
+    },
+    {
+      "text": "by a lackluster script and substandard performances",
+      "label": "negative",
+      "p_real": 0.653201279807086
+    },
+    {
+      "text": "substantial or fresh",
+      "label": "positive",
+      "p_real": 0.6528560704481908
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

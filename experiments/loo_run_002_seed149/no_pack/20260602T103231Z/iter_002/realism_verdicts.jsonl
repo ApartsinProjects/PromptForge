@@ -1,0 +1,24 @@
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Natural language with personal frustration, informal tone."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.85,"reason":"Casual language, use of 'idk', and informal structure."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.8,"reason":"Concise and direct, lacks personal touch or emotional context."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.75,"reason":"Very brief and lacks detail, feels generic."}
+{"sample_id":"R023","prediction":"synthetic","confidence":0.7,"reason":"Direct complaint but lacks emotional depth."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Formal structure, lacks personal context."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.9,"reason":"Casual tone, personal anecdote about forgetting a dog's name."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.6,"reason":"Overly formal and structured, lacks personal touch."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.75,"reason":"Direct and transactional, lacks emotional context."}
+{"sample_id":"R020","prediction":"synthetic","confidence":0.7,"reason":"Frustration expressed but lacks personal detail."}
+{"sample_id":"target_00040","prediction":"real","confidence":0.95,"reason":"Conversational tone, personal confusion expressed."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.65,"reason":"Direct complaint, lacks emotional depth."}
+{"sample_id":"R000","prediction":"synthetic","confidence":0.7,"reason":"Transactional and lacks personal context."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.75,"reason":"Direct request, lacks emotional nuance."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.85,"reason":"Natural language, personal experience shared."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.6,"reason":"Generic question, lacks personal context."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.65,"reason":"Formal and technical, lacks personal touch."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.7,"reason":"Direct issue reporting, lacks emotional context."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.9,"reason":"Conversational tone, personal frustration and confusion expressed."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.6,"reason":"Generic inquiry, lacks personal context."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.7,"reason":"Technical issue reported, lacks emotional depth."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.85,"reason":"Natural language, personal confusion expressed."}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.7,"reason":"Direct complaint, lacks emotional nuance."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"Casual inquiry, personal context present."}

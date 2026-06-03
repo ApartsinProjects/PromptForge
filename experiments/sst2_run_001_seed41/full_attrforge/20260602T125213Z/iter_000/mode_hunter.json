@@ -1,0 +1,30 @@
+{
+  "new_findings": [
+    {
+      "pattern": "nothing short of mesmerizing",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrase is used to describe performances in a positive light, appearing in two different samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "like a",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This simile structure is used to create vivid imagery and is present in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "nothing short of mesmerizing",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrase is used to describe performances in a positive light, appearing in two different samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "like a",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This simile structure is used to create vivid imagery and is present in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

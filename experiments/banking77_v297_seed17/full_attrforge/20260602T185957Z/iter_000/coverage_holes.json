@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Why is the exchange rate for my payment incorrect?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7375217991367793
+    },
+    {
+      "text": "My card has been stolen what do I do?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7351289878016677
+    },
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7350837234266535
+    },
+    {
+      "text": "Please tell me why I was charged additionally when I used the card.",
+      "label": "card_payment_fee_charged",
+      "p_real": 0.7302155725254841
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,115 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of vague descriptors like 'various sources' and 'a movie to forget'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases that indicate a lack of engagement or emotional connection",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar rhythm and flow in sentence construction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "despite the film's attempts at",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this film is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the pacing is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the movie kinda",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "oh sure, because",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disappointingly lackluster",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "waste of time",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "kinda dragged on",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lost my interest",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative sentiment towards movies",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "phrases indicating disengagement or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the movie' as a subject",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and informal expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative sentiment expressed in a straightforward manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal opinion and subjective statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of starting with a personal reaction or opinion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disjointed thoughts",
+      "n_pairs_observed": 1
+    }
+  ]
+}

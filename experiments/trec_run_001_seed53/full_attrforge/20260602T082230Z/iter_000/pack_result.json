@@ -1,0 +1,103 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "questions starting with 'who' or 'what'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual phrasing and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'the guy' and 'actually' in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on contemporary topics and technology",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what does' or 'how many'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions with a focus on definitions or facts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and contractions like 'what's'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in question format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is <topic>?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what was the name of <person>'s <relation>?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how did <person> <verb>?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what <topic> is about <subject>?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does [term] mean?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the main city in [country]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does [abbreviation] stand for?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who are some famous people that [time period]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the definition of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who is the guy that played",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you provide a list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about abbreviations or acronyms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific historical or cultural facts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific names or terms in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of context or examples in questions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{"sample_id":"target_00030","prediction":"real","confidence":0.9,"reason":"Natural expression with emotional engagement; lacks over-polished grammar."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.8,"reason":"Single word response lacks context and depth, typical of LLM generation."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.85,"reason":"Unique phrasing and a personal opinion; feels authentic."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.75,"reason":"Generic and vague; lacks context and specificity."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"Fragmented phrase with no clear context; typical of LLM output."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.8,"reason":"Casual phrase lacking depth; feels generated."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.75,"reason":"Generic phrase; lacks specificity and context."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Complex sentence structure with vivid imagery; feels authentic."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.85,"reason":"Personal critique with specific observations; natural language."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.8,"reason":"Overly formal and lacks a personal touch; feels generated."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase; lacks context and specificity."}
+{"sample_id":"R043","prediction":"real","confidence":0.9,"reason":"Detailed observation with specific references; feels authentic."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.85,"reason":"Personal experience shared in a relatable way; natural language."}
+{"sample_id":"R044","prediction":"synthetic","confidence":0.75,"reason":"Generic phrase; lacks context and specificity."}
+{"sample_id":"R048","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and vague; lacks personal touch."}
+{"sample_id":"R045","prediction":"synthetic","confidence":0.75,"reason":"Fragmented and lacks depth; feels generated."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"Specific critique with a unique perspective; feels authentic."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.8,"reason":"Vague and lacks context; typical of LLM generation."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Generic phrase; lacks specificity and context."}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.75,"reason":"Generic and lacks depth; feels generated."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Complex sentence with humor and specific references; feels authentic."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.7,"reason":"Vague and lacks context; typical of LLM generation."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.85,"reason":"Personal critique with specific observations; natural language."}
+{"sample_id":"R018","prediction":"synthetic","confidence":0.8,"reason":"Casual phrase lacking depth; feels generated."}

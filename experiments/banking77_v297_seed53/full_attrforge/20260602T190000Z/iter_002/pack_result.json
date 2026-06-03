@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what's up with that?",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "repeated use of 'pending' in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structure starting with a question",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'card' in multiple contexts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'why' or 'what do i do if'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of simple vocabulary and short sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i topped up but",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried using my card but",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to top-up",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please help me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would like to inquire about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card was declined",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what to do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "seems to be pending",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need to know",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing around card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "but it didn't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you clarify",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this is so frustrating!",
+      "n_pairs_observed": 1
+    }
+  ]
+}

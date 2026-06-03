@@ -1,0 +1,19 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attributes, but there are instances of missing details and potential near-duplicate phrasings. The diversity of scenarios is well-represented, yet some intents could benefit from more varied examples.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicate instances.",
+    "Include more edge cases or rare examples for each intent to enhance diversity.",
+    "Ensure that all samples contain complete details to avoid missing information."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and scenarios, but there is a notable redundancy in phrasing and structure, particularly in comparison questions. Many texts follow similar templates, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Complex comparisons that require multi-faceted analysis rather than simple A vs. B questions.",
+    "Unique or rare entities and locations that are not commonly referenced.",
+    "Diverse styles that incorporate humor or creative storytelling."
+  ],
+  "overrepresented_modes": [
+    "Comparison questions structured as 'Who is better/famous?'",
+    "Lists that start with 'What are some...' or 'Can you list...'",
+    "Definitions that begin with 'What is the definition of...'"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that require deeper analysis or synthesis of information rather than straightforward comparisons.",
+    "Introduce prompts that explore less common entities, locations, or abstract concepts to enhance diversity.",
+    "Vary the sentence structures and phrasing to avoid repetitive templates, especially in comparison and list scenarios."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

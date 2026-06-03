@@ -1,0 +1,111 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8916666666666666,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of sarcasm in openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "descriptive phrases followed by a critique",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional engagement expressed through personal reflection",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of elaborate and flowery language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of evaluating performances",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional engagement as a theme",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrast between expectations and reality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague descriptors like 'very good' or 'lackluster'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of adjective + noun combinations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence constructions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of complex vocabulary and sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of negative critiques",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated focus on emotional engagement and depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "cliché references in narrative discussions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, concise phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague qualifiers (e.g., 'very good (but not great)', 'a movie to forget')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed analysis or depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, punchy phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of humor with a dark twist",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "ellipses for dramatic effect",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "fragmented sentence structures",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of the attribute schema, with all modes represented. However, there are instances of near-duplicate phrasings and some overrepresentation of certain styles and scenarios.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "story_plot"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing to reduce near-duplicates.",
+    "Introduce more edge cases in scenarios, especially for pacing and emotion.",
+    "Consider adding more formal and poetic styles to balance the informal dominance."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

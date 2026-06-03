@@ -1,0 +1,24 @@
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Casual language and emotional expression suggest a genuine frustration."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Direct question about product features, typical of user inquiries."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Specific technical issue with a browser, indicative of a real user experience."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.7,"reason":"Overly formal structure and polished grammar, lacks real-world noise."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Concise and relatable issue with urgency, typical of real user complaints."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.65,"reason":"Generic phrasing and overly casual tone, feels scripted."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct and clear request for a refund, typical of customer service interactions."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.6,"reason":"Misspelling and casual language, but feels somewhat contrived."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Specific issue with billing, common in customer service contexts."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.7,"reason":"Casual language and vague phrasing, lacks specificity."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Technical inquiry about API, typical of developer communication."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.5,"reason":"Exaggerated metaphor and emotional tone, feels scripted."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.6,"reason":"Overly detailed and structured, lacks the spontaneity of real user queries."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct and clear request for a refund, typical of customer complaints."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Specific issue with billing, common in customer service contexts."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Frustration over shipping delay, relatable and typical of real user experiences."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.5,"reason":"Vague emotional expression, lacks specificity and feels scripted."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.6,"reason":"Generic issue with account access, lacks personal touch."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.6,"reason":"Simple and direct, but feels too generic and lacks real-world noise."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Clear request for a refund with evidence, typical of customer service interactions."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.5,"reason":"Casual language and vague phrasing, feels scripted."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue with documentation, typical of user inquiries."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.6,"reason":"Casual tone and exaggerated complaint, feels scripted."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct complaint about product performance, typical of real user feedback."}

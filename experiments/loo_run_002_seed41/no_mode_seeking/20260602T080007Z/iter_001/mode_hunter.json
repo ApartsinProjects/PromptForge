@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I can't believe this!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific exclamatory opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I keep trying to log in, but it says my password is wrong!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrasing is not found in the real batch and expresses a common login issue.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I recently encountered an issue that has left me quite dissatisfied",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal expression of dissatisfaction is not present in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "It's so frustrating because I need it for a project!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific context of urgency related to a project is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I hope you can help me understand",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing is used to express a request for clarification and does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I think someone may have taken over my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrase indicates a concern about account security and is unique to the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I was just shopping online and saw this cute pair of shoes",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific narrative style of describing an online shopping experience is not found in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I am really frustrated with your service",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is a common sentiment but is phrased uniquely in the synthetic batch.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe this!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific exclamatory opener is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I keep trying to log in, but it says my password is wrong!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This phrasing is not found in the real batch and expresses a common login issue.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I recently encountered an issue that has left me quite dissatisfied",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal expression of dissatisfaction is not present in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "It's so frustrating because I need it for a project!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific context of urgency related to a project is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

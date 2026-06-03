@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and ambiguities, but the style attribute lacks full representation. Additionally, there are instances of near-duplicate phrasings and some missing attribute combinations.",
+  "missing_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "overrepresented_modes": [
+    "concise",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more samples with fragmented and emotional styles.",
+    "Diversify the phrasing to reduce near-duplicate instances.",
+    "Ensure that all combinations of attributes are represented, especially for style."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

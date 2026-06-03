@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high degree of surface-level diversity across various intents and styles; however, there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many entries utilize similar constructions, leading to a lack of nuanced variation in the responses.",
+  "missing_modes": [
+    "More complex or multi-part questions that require deeper analysis or synthesis of information.",
+    "Questions that require subjective interpretation or opinion rather than factual answers."
+  ],
+  "overrepresented_modes": [
+    "Questions beginning with 'What is' or 'What does' which dominate the structure of many entries.",
+    "Concise and fragmented styles are frequently used, particularly in definitions and factoids."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that incorporate varied sentence structures and more complex phrasing.",
+    "Introduce prompts that require comparative analysis or synthesis of information from multiple sources.",
+    "Include more informal or conversational styles that deviate from the standard question formats."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

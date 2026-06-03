@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a comprehensive coverage of all attribute values, but there are instances of high ambiguity and typos that could affect clarity. Additionally, the presence of near-duplicate phrasings suggests a need for more varied expressions.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "high ambiguity",
+    "concise style"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more varied phrasings to reduce near-duplicates.",
+    "Consider reducing the frequency of high ambiguity scenarios to improve clarity.",
+    "Introduce more edge cases or rare scenarios to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

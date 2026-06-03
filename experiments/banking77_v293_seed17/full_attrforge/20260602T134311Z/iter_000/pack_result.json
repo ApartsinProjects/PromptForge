@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or concern",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i just checked my account'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations on the theme of card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of straightforward, factual statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing around card transactions and issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have a card payment which shows as pending",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering why my card was declined",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the longest that a payment will show pending?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and exclamations (e.g., 'i'm really upset!', 'whats up?', 'hey, i'm still waiting')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of expressing frustration or confusion about payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with emotional undertones",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions (e.g., 'what's going on?', 'can you help?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' and 'hello'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational tone with personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed directly to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or concern",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think that",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i need to do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to [action] with my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "transaction was unsuccessful",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm still waiting on [item or service]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "seems like my [issue] has failed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need help with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "definitely did not do",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "getting cash",
+      "n_pairs_observed": 1
+    }
+  ]
+}

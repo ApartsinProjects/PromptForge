@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i'm really frustrated!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated questioning about specific features or capabilities",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't access my account.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really frustrated!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey, so i bought this gadget last week",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's like, come on, i have deadlines!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "given that they’re still under your r",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "dissatisfaction expressed with specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations in sentence structure but maintaining a casual rhythm",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases about account access issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and expressions of dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more emotional expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' or 'i’m really frustrated right now!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated themes of account access issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive detail in complaints or questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of complaints or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or background information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with casual phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details without elaboration",
+      "n_pairs_observed": 1
+    }
+  ]
+}

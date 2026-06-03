@@ -1,0 +1,78 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I was hoping to get my money back",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about seeking a refund does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel like I'm going in circles over here",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can't believe how bad this is",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This dramatic expression of dissatisfaction is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I tried resetting my password, but the email hasn’t arrived",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific scenario regarding password reset emails does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I might have forgotten my log-in credentials",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about forgetting log-in credentials does not appear in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I seem to have misplaced access to my account",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This unique expression regarding misplaced account access is not found in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I’ve been wondering how to update my profile info",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual inquiry about updating profile information is absent in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Honestly, this is ridiculous",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration does not appear in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I was hoping to get my money back",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing about seeking a refund does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I feel like I'm going in circles over here",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This expression of frustration is unique to the synthetic batch.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I can't believe how bad this is",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This dramatic expression of dissatisfaction is not found in the real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I tried resetting my password, but the email hasn’t arrived",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific scenario regarding password reset emails does not appear in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

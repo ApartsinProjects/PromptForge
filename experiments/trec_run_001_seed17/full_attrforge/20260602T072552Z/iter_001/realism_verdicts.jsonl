@@ -1,0 +1,24 @@
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Simple question structure, lacks over-polished grammar."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.8,"reason":"Overly complex and polished structure, generic vocabulary."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Direct question, straightforward language."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Concise and specific question, typical of real inquiries."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Simple and direct question format."}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"Clear and straightforward question."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Basic factual question, typical of real queries."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"Simple factual inquiry, lacks complexity."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.75,"reason":"Vague and generic structure, lacks specificity."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.7,"reason":"Predictable structure, lacks real-world noise."}
+{"sample_id":"R039","prediction":"real","confidence":0.85,"reason":"Specific and factual question."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"Direct and clear question."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Simple factual inquiry."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Straightforward question format."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Basic and common question."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.7,"reason":"Generic and vague question structure."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.75,"reason":"Overly broad and generic phrasing."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.8,"reason":"Generic structure, lacks specificity."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"Specific and clear question."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.75,"reason":"Complex structure, overly polished."}
+{"sample_id":"R028","prediction":"real","confidence":0.85,"reason":"Specific inquiry, typical of real questions."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Simple and direct question."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.7,"reason":"Vague and overly complex structure."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific and straightforward question."}

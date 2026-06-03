@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6483453264494546
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6454108820490965
+    },
+    {
+      "text": "csv import keeps timing out at ~3000 rows. is there a row limit nobody documented?",
+      "label": "technical_problem",
+      "p_real": 0.6383657949695265
+    },
+    {
+      "text": "Forgot my password and the reset email never arrives. Already checked spam.",
+      "label": "account_issue",
+      "p_real": 0.6347549594737293
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

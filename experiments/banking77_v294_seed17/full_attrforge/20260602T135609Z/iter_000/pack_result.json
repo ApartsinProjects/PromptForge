@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "frequent use of conversational openings like 'hey' or 'hello'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated expressions of frustration or confusion regarding transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in asking for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific examples like 'pizza place' or 'payment for that pizza place'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "there are charges on my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need help with understanding",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "maximum how many days",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please freeze it for me?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my [payment/card] [verb] [adjective]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the [superlative] that [situation]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of stress or frustration about payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and exclamations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive questioning about payment status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' and 'hello there'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational tone with personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the longest that",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are my next steps?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what do i need to do if",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with varying details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on transaction failures or delays",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "payment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "definitely did not do",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "need help with understanding",
+      "n_pairs_observed": 1
+    }
+  ]
+}

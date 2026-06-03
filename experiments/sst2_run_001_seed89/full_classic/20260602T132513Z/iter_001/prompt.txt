@@ -1,0 +1,10 @@
+"""Generate realistic short movie review sentences that match the requested sentiment polarity (positive or negative). Reviews should reflect natural film criticism, incorporating a blend of explicit sentiment words, comparative judgments, and varied styles, including sarcastic, poetic, and formal tones. Ensure the reviews exhibit appropriate polarity intensity—strong, moderate, or weak—while maintaining a unique voice to minimize near-duplicates. Include specific details and avoid clichés to enhance authenticity. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- "delightful watch"
+- "something to behold"
+- "boredom zone"
+- "fun ride"
+- "cardboard cutout"
+
+Please ensure that the reviews also incorporate irrelevant asides or noise where appropriate to reflect a more genuine opinion. Aim for a diverse range of scenarios and styles, ensuring that each review feels distinct and captures the essence of the intended sentiment."

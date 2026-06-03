@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "what is ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does ... stand for?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what ... do ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who is ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is <topic>?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how <adjective> is <subject>?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does <acronym> stand for?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions with a factual answer format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'who' or 'how many'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal phrasing like 'you would say'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of well-known figures or events",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variability in question types but maintaining a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does the term ... refer to?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "which ... do ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does the term ... mean in ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who is the person that ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "in the vast cosmos, what are ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'who' or 'what'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific examples or references in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of additional context or qualifiers in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'in which' or 'how many'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complexity in phrasing with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on factual or educational content",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific terminology related to various fields (history, biology, astronomy, etc.)",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are some missing combinations and potential near-duplicates. The diversity in scenarios is commendable, yet certain styles and intents could benefit from more variation.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "concise",
+    "medium difficulty"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Encourage the generation of samples with a mix of formal and emotional styles.",
+    "Ensure a broader range of difficulty levels, particularly hard and easy, across all intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

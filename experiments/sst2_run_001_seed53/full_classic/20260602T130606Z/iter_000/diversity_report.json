@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of attributes, but there are instances of near-duplicate phrasings and a lack of edge cases. The distribution of attributes is balanced, with all modes represented.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "sarcastic",
+    "positive"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more edge cases in terms of difficulty and polarity intensity.",
+    "Introduce more diverse phrasings to reduce near-duplicate content.",
+    "Ensure a more balanced representation of styles, particularly in negative reviews."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

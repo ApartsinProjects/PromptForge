@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a strong presence of poetic and formal styles, particularly in positive reviews, while the negative reviews often rely on similar constructions and phrases. There is a noticeable lack of informal and sarcastic styles, as well as a redundancy in the expression of negative sentiments.",
+  "missing_modes": [
+    "sarcastic style",
+    "informal style",
+    "medium difficulty for negative intent",
+    "strong polarity intensity for easy difficulty"
+  ],
+  "overrepresented_modes": [
+    "poetic style in positive reviews",
+    "formal style in both positive and negative reviews",
+    "strong polarity intensity in negative reviews"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more diverse sentence structures and vocabulary for both positive and negative reviews.",
+    "Include more examples of informal and sarcastic styles to balance the current styles represented.",
+    "Ensure that the generator explores a wider range of emotional expressions and narrative techniques."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

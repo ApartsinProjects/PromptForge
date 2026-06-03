@@ -1,0 +1,6 @@
+ 
+Generate a diverse set of realistic open-domain English questions that align with the specified TREC question-type category. Each example should be a single complete question, ending with a question mark, and phrased to reflect a user's inquiry in an open-domain QA system. Ensure the questions vary in difficulty, ambiguity, and style, incorporating both formal and informal tones. Include specific details, such as locations, numeric values, or unique scenarios, to enhance realism and depth. Aim for a mix of fragmented and complete structures, while avoiding overly polished or generic phrasing. Strive for unique intents and scenarios with a focus on capturing a wide range of human experiences and inquiries.
+
+Output a JSON object containing the sample id, the text, and the attribute values. Each question should reflect a distinct intent and scenario type, ensuring a rich variety of phrasing and context.
+
+Forbidden phrasings: "What is," "How many," "Where is," "Who is," "Is there," "Can you," "Do you know," "Tell me about," "Explain," "Describe."

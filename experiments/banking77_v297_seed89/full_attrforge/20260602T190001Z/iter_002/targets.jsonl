@@ -1,0 +1,16 @@
+{"sample_id": "target_00043", "intent": "card_swallowed", "difficulty": "hard", "ambiguity": "low", "style": "concise", "noise": "missing_details", "scenario_type": "transaction_issue"}
+{"sample_id": "target_00044", "intent": "card_arrival", "difficulty": "hard", "ambiguity": "high", "style": "emotional", "noise": "typos", "scenario_type": "card_handling"}
+{"sample_id": "target_00045", "intent": "card_not_working", "difficulty": "hard", "ambiguity": "medium", "style": "concise", "noise": "missing_details", "scenario_type": "card_handling"}
+{"sample_id": "target_00046", "intent": "card_payment_fee_charged", "difficulty": "hard", "ambiguity": "medium", "style": "informal", "noise": "contradiction", "scenario_type": "transaction_issue"}
+{"sample_id": "target_00047", "intent": "card_arrival", "difficulty": "hard", "ambiguity": "high", "style": "verbose", "noise": "contradiction", "scenario_type": "card_handling"}
+{"sample_id": "target_00048", "intent": "card_payment_fee_charged", "difficulty": "medium", "ambiguity": "high", "style": "formal", "noise": "clean", "scenario_type": "general_inquiry"}
+{"sample_id": "target_00049", "intent": "pending_card_payment", "difficulty": "easy", "ambiguity": "low", "style": "concise", "noise": "irrelevant_details", "scenario_type": "transaction_issue"}
+{"sample_id": "target_00050", "intent": "top_up_failed", "difficulty": "easy", "ambiguity": "high", "style": "verbose", "noise": "clean", "scenario_type": "general_inquiry"}
+{"sample_id": "target_00051", "intent": "card_payment_not_recognised", "difficulty": "hard", "ambiguity": "high", "style": "concise", "noise": "irrelevant_details", "scenario_type": "transaction_issue"}
+{"sample_id": "target_00052", "intent": "card_swallowed", "difficulty": "hard", "ambiguity": "high", "style": "fragmented", "noise": "irrelevant_details", "scenario_type": "card_handling"}
+{"sample_id": "target_00053", "intent": "card_payment_not_recognised", "difficulty": "medium", "ambiguity": "low", "style": "fragmented", "noise": "typos", "scenario_type": "card_handling"}
+{"sample_id": "target_00054", "intent": "top_up_failed", "difficulty": "hard", "ambiguity": "low", "style": "fragmented", "noise": "contradiction", "scenario_type": "card_handling"}
+{"sample_id": "target_00055", "intent": "declined_card_payment", "difficulty": "medium", "ambiguity": "low", "style": "verbose", "noise": "missing_details", "scenario_type": "general_inquiry"}
+{"sample_id": "target_00056", "intent": "pending_card_payment", "difficulty": "hard", "ambiguity": "medium", "style": "fragmented", "noise": "irrelevant_details", "scenario_type": "transaction_issue"}
+{"sample_id": "target_00057", "intent": "card_not_working", "difficulty": "medium", "ambiguity": "medium", "style": "fragmented", "noise": "clean", "scenario_type": "card_handling"}
+{"sample_id": "target_00058", "intent": "card_payment_wrong_exchange_rate", "difficulty": "medium", "ambiguity": "low", "style": "formal", "noise": "missing_details", "scenario_type": "transaction_issue"}

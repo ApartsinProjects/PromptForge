@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in the way questions are framed. Many entries utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Questions that require subjective interpretation or opinion-based responses.",
+    "Examples of numeric values that involve complex calculations or projections.",
+    "More formal definitions that incorporate technical jargon."
+  ],
+  "overrepresented_modes": [
+    "Informal questioning style, particularly in definitions and comparisons.",
+    "Concise phrasing that often leads to similar sentence structures across multiple entries."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that require deeper analysis or subjective interpretation to enhance nuance.",
+    "Incorporate a wider range of sentence structures and vocabulary to reduce redundancy.",
+    "Add prompts for more formal or technical inquiries that utilize specialized language."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

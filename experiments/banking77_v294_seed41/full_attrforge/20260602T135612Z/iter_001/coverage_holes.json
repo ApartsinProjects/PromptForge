@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "I don't think that my top-up worked.",
+      "label": "top_up_failed",
+      "p_real": 0.753465795982146
+    },
+    {
+      "text": "what do I need to do if the ATM kept my card?",
+      "label": "card_swallowed",
+      "p_real": 0.7512574069435801
+    },
+    {
+      "text": "Why did my credit card get declined for top up?",
+      "label": "top_up_failed",
+      "p_real": 0.7414021705587939
+    },
+    {
+      "text": "I have a card payment which shows as pending",
+      "label": "pending_card_payment",
+      "p_real": 0.7411239328398092
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

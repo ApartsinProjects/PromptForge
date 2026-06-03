@@ -1,0 +1,22 @@
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.85,"reason":"casual tone; real samples are more formal and structured"}
+{"sample_id":"target_00033","prediction":"real","confidence":0.9,"reason":"formal review style, positive evaluation"}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"concise and balanced review, typical of professional critiques"}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.8,"reason":"informal language and structure; real samples are more polished"}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.75,"reason":"casual phrasing; real samples exhibit more formal critique"}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.8,"reason":"informal tone; real samples are more structured and critical"}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.8,"reason":"casual and humorous tone; real samples are more serious"}
+{"sample_id":"target_00042","prediction":"real","confidence":0.85,"reason":"engaging and balanced review style, aligns with real samples"}
+{"sample_id":"target_00023","prediction":"real","confidence":0.8,"reason":"direct critique of visuals, typical of professional reviews"}
+{"sample_id":"target_00031","prediction":"real","confidence":0.85,"reason":"formal critique of casting, aligns with real sample style"}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.75,"reason":"poetic language; real samples are more straightforward"}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.8,"reason":"informal and humorous tone; real samples are more serious"}
+{"sample_id":"target_00037","prediction":"real","confidence":0.9,"reason":"formal critique, aligns with professional review style"}
+{"sample_id":"target_00028","prediction":"real","confidence":0.85,"reason":"strong negative critique, typical of formal reviews"}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.7,"reason":"overly poetic language; real samples are more direct"}
+{"sample_id":"target_00025","prediction":"real","confidence":0.85,"reason":"formal critique of emotional impact, aligns with real samples"}
+{"sample_id":"target_00029","prediction":"real","confidence":0.8,"reason":"formal critique of narrative complexity, typical of reviews"}
+{"sample_id":"target_00032","prediction":"real","confidence":0.85,"reason":"formal critique of pacing, aligns with professional review style"}
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"positive evaluation of performances, typical of formal reviews"}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.75,"reason":"casual phrasing; real samples are more formal"}
+{"sample_id":"target_00041","prediction":"synthetic","confidence":0.7,"reason":"overly dramatic language; real samples are more grounded"}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.8,"reason":"casual and humorous tone; real samples are more serious"}

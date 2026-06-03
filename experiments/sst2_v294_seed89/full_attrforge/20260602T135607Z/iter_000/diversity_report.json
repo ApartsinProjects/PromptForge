@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a strong reliance on sarcastic and informal styles, particularly in negative reviews, leading to a lack of nuanced expression. Additionally, there is a notable repetition of certain phrases and structures, especially in the context of pacing and overall verdicts.",
+  "missing_modes": [
+    "A formal positive review that highlights specific aspects of the film without sarcasm.",
+    "A poetic or artistic expression of emotion related to the film's impact.",
+    "A medium difficulty review that uses clean language and avoids typos."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic negative reviews, particularly about pacing and overall verdicts.",
+    "Concise negative reviews that follow a similar structure."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more diverse styles, especially formal and poetic expressions.",
+    "Introduce more varied sentence structures and vocabulary to reduce redundancy.",
+    "Include scenarios that explore unique combinations of attributes, such as a positive review with typos or a hard difficulty review that is informal."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

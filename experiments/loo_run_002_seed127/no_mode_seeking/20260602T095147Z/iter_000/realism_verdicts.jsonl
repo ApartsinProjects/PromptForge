@@ -1,0 +1,24 @@
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Casual language, direct question, typical user inquiry."}
+{"sample_id":"R016","prediction":"real","confidence":0.95,"reason":"Emotional tone, specific complaint, real-world frustration."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong emotional response, personal experience, typical customer complaint."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.8,"reason":"Overly polite and structured, lacks personal touch, generic vocabulary."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Direct inquiry, common customer question, informal tone."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Frustrated tone, specific complaint, realistic user experience."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Technical issue described in detail, realistic user scenario."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Exaggerated emotional response, lacks specific details, feels scripted."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.7,"reason":"Mixed feelings expressed in a generic way, lacks specificity."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Technical issue with specific details, realistic user experience."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.75,"reason":"Polished language, lacks real-world noise, feels scripted."}
+{"sample_id":"R004","prediction":"real","confidence":0.85,"reason":"Direct complaint about an order, typical customer issue."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Common inquiry about service tiers, informal tone."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured, lacks personal touch."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Specific technical request, realistic user scenario."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.8,"reason":"Formal language, overly detailed, lacks personal experience."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct complaint about billing, typical customer issue."}
+{"sample_id":"R015","prediction":"real","confidence":0.85,"reason":"Specific issue with account management, realistic user scenario."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific billing issue, realistic user complaint."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Frustrated tone, realistic customer experience."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue described, realistic user scenario."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Specific complaint about shipping, realistic user experience."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.75,"reason":"Emotional tone feels exaggerated, lacks specific details."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Inquiry about future options, typical user question."}

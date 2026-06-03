@@ -1,0 +1,16 @@
+{"sample_id":"target_00001","prediction":"real","confidence":0.85,"reason":"The use of humor and personal experience feels authentic, with a conversational tone."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.7,"reason":"The phrasing is overly polished and lacks specific details, making it feel generic."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.8,"reason":"The straightforward critique and lack of embellishment suggest a genuine opinion."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.75,"reason":"The structure is predictable and the vocabulary is somewhat generic, lacking personal touch."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.9,"reason":"The sarcasm and informal tone indicate a personal reaction, typical of real reviews."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.85,"reason":"The casual language and relatable commentary on snacks add authenticity."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.8,"reason":"The emotional response and specific critique suggest a genuine review."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.7,"reason":"The exaggerated sarcasm and structure feel formulaic, typical of LLM outputs."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.85,"reason":"The humor and personal experience indicate a real viewer's reaction."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.65,"reason":"The phrasing is overly dramatic and lacks nuanced critique, suggesting artificial generation."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.8,"reason":"The personal experience and straightforward critique feel authentic."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.7,"reason":"The language is overly formal and lacks personal engagement, typical of LLM outputs."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.75,"reason":"The casual tone and informal structure suggest a genuine opinion."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.6,"reason":"The phrase 'absolute masterpiece' is clichéd and lacks specific details."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.8,"reason":"The strong opinion and straightforward critique suggest a real review."}
+{"sample_id":"target_00003","prediction":"real","confidence":0.85,"reason":"The emotional expression and personal touch indicate a genuine viewer's reaction."}

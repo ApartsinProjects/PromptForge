@@ -1,0 +1,24 @@
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Natural language with specific details about a technical issue; lacks over-polished grammar."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Casual tone and specific complaint about a payment issue; feels authentic."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Specific complaint about shipping delay; informal language suggests a real user."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct and specific request for a refund; lacks overly formal structure."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Specific issue with billing; conversational tone indicates a real user."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.7,"reason":"Overly casual language and misspellings; feels constructed."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.8,"reason":"Specific issue with account status; conversational but realistic."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.8,"reason":"Casual tone with a specific complaint; feels authentic."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Technical issue described in a straightforward manner; realistic."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.65,"reason":"Casual language and use of 'u' instead of 'you' feels less authentic."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Urgent request for help with a security issue; realistic tone."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.6,"reason":"Generic expression of frustration; lacks specific details."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.7,"reason":"Overly structured and polite; feels less like a real user."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.75,"reason":"Formal language and structure; lacks the spontaneity of real complaints."}
+{"sample_id":"R024","prediction":"real","confidence":0.85,"reason":"Technical inquiry with specific context; feels authentic."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Emotional expression of frustration; realistic and relatable."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Specific issue with billing; straightforward and realistic."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Specific inquiry about product options; feels authentic."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"Direct question about discounts; realistic tone."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Urgent request for a refund; specific and realistic."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific technical issue described; feels authentic."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.6,"reason":"Misspellings and informal language suggest a less authentic complaint."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.7,"reason":"Casual language and structure feel overly polished for a real complaint."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Strong emotional expression and specific complaint; feels authentic."}

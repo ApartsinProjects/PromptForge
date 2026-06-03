@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema, with all modes represented. However, there are some concerns regarding the presence of near-duplicate phrasings and potential overrepresentation of certain styles.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more variation in phrasing to reduce near-duplicates.",
+    "Introduce additional edge cases to enhance diversity in scenarios.",
+    "Balance the representation of styles to avoid overrepresentation of emotional and verbose styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a good range of intents and difficulties, but there is a notable lack of variety in the style attribute, particularly with the formal and fragmented styles. Additionally, the near-duplicate rate indicates some redundancy in phrasing across samples.",
+  "missing_modes": [
+    "fragmented",
+    "emotional"
+  ],
+  "overrepresented_modes": [
+    "concise",
+    "informal"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing and styles, particularly focusing on emotional and fragmented styles.",
+    "Introduce edge cases and rare scenarios that are less common in the current batch to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

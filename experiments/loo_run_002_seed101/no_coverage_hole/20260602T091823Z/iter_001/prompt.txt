@@ -1,0 +1,16 @@
+"""Generate realistic customer support messages that reflect the requested intent and style, incorporating a range of difficulties and scenarios. Ensure messages include elements of ambiguity, missing details, or contradictions to enhance diversity. Avoid overly formal language; aim for a personal touch that feels authentic. Output a JSON object with the sample id, the text, and the attribute values. 
+
+**Forbidden phrasings:** 
+- 'Hey! So like,'
+- "I think someone might've, like, changed my password"
+- 'I am really frustrated with how my recent experience'
+- 'I just got a new phone last week.'
+
+**Guidelines:**
+1. Incorporate a mix of styles, including informal, conversational, and fragmented.
+2. Include a variety of intents, such as general inquiries, complaints, and requests for assistance.
+3. Ensure some messages have missing details or contradictions to reflect real-world complexity.
+4. Maintain a balance in noise types, avoiding excessive verbosity or informal language.
+5. Create samples that represent both common and rare scenarios to enrich the dataset.
+
+Keep messages short to medium length, with a focus on realism and emotional expression. Aim for a minimum of 10 unique samples per batch to ensure diversity in responses."""

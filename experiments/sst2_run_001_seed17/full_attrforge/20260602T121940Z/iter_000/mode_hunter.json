@@ -1,0 +1,30 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener is used multiple times in the synthetic batch to introduce sarcastic comments.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "the film's pacing is",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrasing is used to discuss pacing in both a negative and positive context in the synthetic batch.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific opener is used multiple times in the synthetic batch to introduce sarcastic comments.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "the film's pacing is",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrasing is used to discuss pacing in both a negative and positive context in the synthetic batch.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

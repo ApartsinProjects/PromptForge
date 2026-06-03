@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a lack of nuanced diversity, particularly in the use of sarcastic and informal styles, and there are several near-duplicate phrasings that diminish the overall richness of the text. Additionally, the scenario types are underrepresented, particularly in emotional and acting quality assessments.",
+  "missing_modes": [
+    "emotional assessments that explore character feelings or audience reactions",
+    "acting quality evaluations that focus on performances rather than plot or visuals"
+  ],
+  "overrepresented_modes": [
+    "sarcastic and informal styles, particularly in positive and negative intents",
+    "the phrase structure 'this movie is/was' followed by a negative or positive qualifier"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that explore a wider range of scenario types, especially emotion and acting quality.",
+    "Introduce more varied sentence structures and vocabulary to avoid repetitive phrasing.",
+    "Include examples of different styles such as poetic or more formal critiques to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 0.75,
+    "scenario_type": 0.6666666666666666
+  }
+}

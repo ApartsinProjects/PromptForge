@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "powerful and",
+      "label": "positive",
+      "p_real": 0.6710793045676671
+    },
+    {
+      "text": "as easy to be bored by as your abc 's",
+      "label": "negative",
+      "p_real": 0.6685859973167408
+    },
+    {
+      "text": "a stirring , funny",
+      "label": "positive",
+      "p_real": 0.6645049724351374
+    },
+    {
+      "text": "those who do",
+      "label": "positive",
+      "p_real": 0.6638731565780576
+    },
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6633527260090792
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,24 @@
+{"sample_id":"target_00001","prediction":"real","confidence":0.9,"reason":"Formal inquiry; matches the professional tone of real samples."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are more formal."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.85,"reason":"Informal language; real samples are more structured."}
+{"sample_id":"R012","prediction":"synthetic","confidence":0.75,"reason":"Casual phrasing; real samples exhibit more formality."}
+{"sample_id":"R030","prediction":"synthetic","confidence":0.8,"reason":"Informal tone; real samples are more professional."}
+{"sample_id":"R029","prediction":"real","confidence":0.7,"reason":"Direct inquiry about fees; aligns with real sample style."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.9,"reason":"Casual language; real samples are more formal."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.85,"reason":"Informal structure; real samples are more polished."}
+{"sample_id":"R005","prediction":"real","confidence":0.7,"reason":"Clear inquiry about card status; matches real sample tone."}
+{"sample_id":"R025","prediction":"real","confidence":0.65,"reason":"Direct question about fees; aligns with real sample style."}
+{"sample_id":"R089","prediction":"real","confidence":0.7,"reason":"Formal inquiry about payment availability; matches real samples."}
+{"sample_id":"R003","prediction":"synthetic","confidence":0.9,"reason":"Informal phrasing; real samples are more structured."}
+{"sample_id":"R031","prediction":"real","confidence":0.65,"reason":"Inquiry about unrecognized payment; aligns with real sample tone."}
+{"sample_id":"R049","prediction":"real","confidence":0.7,"reason":"Formal inquiry about exchange rate; matches real sample style."}
+{"sample_id":"R034","prediction":"real","confidence":0.65,"reason":"Direct question about statement; aligns with real sample tone."}
+{"sample_id":"R096","prediction":"synthetic","confidence":0.85,"reason":"Informal language; real samples are more formal."}
+{"sample_id":"R045","prediction":"real","confidence":0.7,"reason":"Formal inquiry about exchange rate; matches real sample style."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.9,"reason":"Casual expression of frustration; real samples are more formal."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.85,"reason":"Informal phrasing; real samples are more polished."}
+{"sample_id":"R004","prediction":"synthetic","confidence":0.9,"reason":"Casual tone; real samples are more formal."}
+{"sample_id":"R001","prediction":"synthetic","confidence":0.85,"reason":"Informal structure; real samples are more professional."}
+{"sample_id":"R072","prediction":"synthetic","confidence":0.9,"reason":"Casual phrasing; real samples are more structured."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.85,"reason":"Informal tone; real samples are more formal."}
+{"sample_id":"R067","prediction":"synthetic","confidence":0.85,"reason":"Casual language; real samples are more polished."}

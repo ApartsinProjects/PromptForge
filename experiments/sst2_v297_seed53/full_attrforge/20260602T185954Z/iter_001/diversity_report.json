@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in the positive and negative samples. Many texts rely on similar constructions and vocabulary, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "A more diverse range of emotional responses, particularly in the negative intent category.",
+    "Unique combinations of styles and scenario types that haven't been explored."
+  ],
+  "overrepresented_modes": [
+    "Informal style is prevalent in both positive and negative samples.",
+    "Concise phrasing is frequently used across multiple scenario types, especially in negative reviews."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary to enhance nuance.",
+    "Introduce prompts that specifically request unique emotional expressions or uncommon scenario combinations.",
+    "Explore more edge cases in reviews, such as mixed feelings or complex critiques that blend multiple attributes."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

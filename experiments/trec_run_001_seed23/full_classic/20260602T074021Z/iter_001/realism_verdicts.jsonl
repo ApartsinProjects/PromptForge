@@ -1,0 +1,24 @@
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"The question is straightforward and specific, typical of real inquiries."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"The question is factual and concise, resembling common knowledge queries."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"The phrasing is natural and reflects a common question about geography."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.7,"reason":"The structure is overly simplistic and lacks nuance, typical of LLM outputs."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"The question is specific and relevant to a technical topic."}
+{"sample_id":"R038","prediction":"real","confidence":0.8,"reason":"The question is specific and reflects a common educational inquiry."}
+{"sample_id":"R032","prediction":"real","confidence":0.85,"reason":"The question is straightforward and likely to be asked by someone looking for information."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"The question is factual and specific, typical of real inquiries."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.6,"reason":"The phrasing is overly simplistic and lacks depth, suggesting LLM generation."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.65,"reason":"The question is broad and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"The question is specific and factual, resembling common knowledge inquiries."}
+{"sample_id":"R041","prediction":"real","confidence":0.85,"reason":"The question is specific and relevant to historical events."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.7,"reason":"The phrasing is casual and lacks depth, suggesting LLM generation."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"The question is specific and likely to be asked by someone seeking information."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to literature, typical of real inquiries."}
+{"sample_id":"R011","prediction":"real","confidence":0.8,"reason":"The question is straightforward and reflects a common inquiry."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.6,"reason":"The phrasing is vague and lacks specificity, typical of LLM outputs."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"The question is specific and factual, resembling common knowledge inquiries."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.5,"reason":"The question is overly broad and lacks specificity, suggesting LLM generation."}
+{"sample_id":"R047","prediction":"real","confidence":0.85,"reason":"The question is specific and factual, typical of real inquiries."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.6,"reason":"The question is vague and lacks depth, typical of LLM outputs."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"The question is specific and factual, resembling common knowledge inquiries."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.5,"reason":"The phrasing is casual and lacks specificity, suggesting LLM generation."}
+{"sample_id":"R040","prediction":"real","confidence":0.85,"reason":"The question is specific and factual, typical of real inquiries."}

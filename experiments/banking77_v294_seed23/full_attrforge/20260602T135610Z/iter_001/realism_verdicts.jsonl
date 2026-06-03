@@ -1,0 +1,24 @@
+{"sample_id":"R085","prediction":"real","confidence":0.9,"reason":"Direct inquiry about a payment status; matches the informal, customer service-oriented register."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"Concise statement about an error; fits the informal, customer service-oriented register."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"Simple question regarding charges; aligns with the informal, customer service-oriented register."}
+{"sample_id":"R087","prediction":"real","confidence":0.9,"reason":"Inquiry about payment status; matches the informal, customer service-oriented register."}
+{"sample_id":"R072","prediction":"real","confidence":0.9,"reason":"Casual statement about losing a card; fits the informal, customer service-oriented register."}
+{"sample_id":"R039","prediction":"real","confidence":0.9,"reason":"Direct statement about an unrecognized payment; aligns with the informal, customer service-oriented register."}
+{"sample_id":"R090","prediction":"real","confidence":0.9,"reason":"Question about a failed transaction; matches the informal, customer service-oriented register."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Casual inquiry about a broken card; fits the informal, customer service-oriented register."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Statement about being charged a fee; aligns with the informal, customer service-oriented register."}
+{"sample_id":"R075","prediction":"real","confidence":0.9,"reason":"Inquiry about a stolen card; matches the informal, customer service-oriented register."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Question about an added fee; fits the informal, customer service-oriented register."}
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"Statement about an incorrect exchange rate; aligns with the informal, customer service-oriented register."}
+{"sample_id":"R068","prediction":"real","confidence":0.9,"reason":"Statement about a declined payment; matches the informal, customer service-oriented register."}
+{"sample_id":"R004","prediction":"synthetic","confidence":0.7,"reason":"Casual language and phrasing ('What's go on') suggests a less polished style; real samples are more straightforward."}
+{"sample_id":"R048","prediction":"real","confidence":0.9,"reason":"Question about an exchange rate; fits the informal, customer service-oriented register."}
+{"sample_id":"R074","prediction":"real","confidence":0.9,"reason":"Inquiry about a stolen card; matches the informal, customer service-oriented register."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Request for clarification on charges; aligns with the informal, customer service-oriented register."}
+{"sample_id":"R066","prediction":"real","confidence":0.9,"reason":"Inquiry about a declined card; matches the informal, customer service-oriented register."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.6,"reason":"Polished and formal tone ('Could you please tell me...') contrasts with the informal register of real samples."}
+{"sample_id":"R049","prediction":"real","confidence":0.9,"reason":"Question about an incorrect exchange rate; fits the informal, customer service-oriented register."}
+{"sample_id":"R097","prediction":"real","confidence":0.9,"reason":"Statement about a failed top-up; aligns with the informal, customer service-oriented register."}
+{"sample_id":"R064","prediction":"real","confidence":0.9,"reason":"Inquiry about a declined card; matches the informal, customer service-oriented register."}
+{"sample_id":"R080","prediction":"real","confidence":0.9,"reason":"Question about pending payments; fits the informal, customer service-oriented register."}
+{"sample_id":"R082","prediction":"real","confidence":0.9,"reason":"Inquiry about a pending payment status; aligns with the informal, customer service-oriented register."}

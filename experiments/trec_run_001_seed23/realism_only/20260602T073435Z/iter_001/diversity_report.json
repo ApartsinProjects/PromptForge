@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and ambiguities, but the style attribute is underrepresented in the 'verbose' mode. Additionally, there are several instances of missing details across various samples.",
+  "missing_modes": [
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "informal"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of more verbose samples to balance the style attribute.",
+    "Ensure that all samples include sufficient details to avoid missing details.",
+    "Diversify the use of informal style to prevent overrepresentation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

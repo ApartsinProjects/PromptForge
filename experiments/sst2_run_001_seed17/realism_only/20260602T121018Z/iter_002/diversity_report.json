@@ -1,0 +1,25 @@
+{
+  "summary": "The batch demonstrates good coverage across most attributes, but the scenario_type attribute is slightly underrepresented, lacking one of its modes. Additionally, there are several instances of near-duplicate phrasings and overrepresented styles.",
+  "missing_modes": [
+    "story_plot",
+    "visuals"
+  ],
+  "overrepresented_modes": [
+    "poetic",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Introduce more diverse scenario types, especially story_plot and visuals.",
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Consider varying the styles used to balance representation across all styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

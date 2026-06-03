@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6444306932144555
+    },
+    {
+      "text": "app keeps crashing on android 14 every time i open the camera tab. tried reinstall. nothing.",
+      "label": "technical_problem",
+      "p_real": 0.6439499748384221
+    },
+    {
+      "text": "android app won't open since the last update. just a white screen then it closes",
+      "label": "technical_problem",
+      "p_real": 0.6421162486464795
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6418087193381105
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

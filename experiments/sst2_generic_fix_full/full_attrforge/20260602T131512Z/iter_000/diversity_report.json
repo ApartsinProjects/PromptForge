@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, polarity intensities, styles, and noise types, but there is a notable absence of certain scenario types. Additionally, there are instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "emotion",
+    "acting_quality",
+    "visuals"
+  ],
+  "overrepresented_modes": [
+    "pacing",
+    "overall_verdict"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples that include all scenario types, especially those that are currently missing.",
+    "Diversify the phrasing in the generated samples to reduce near-duplicate and shallow paraphrase occurrences."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

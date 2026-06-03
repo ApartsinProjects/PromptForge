@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a range of intents and styles, but there is significant redundancy in the use of poetic language and similar sentence structures, particularly in negative reviews. Additionally, many positive reviews rely on familiar phrases and constructions, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "A straightforward, plain English style for both positive and negative reviews.",
+    "Unique combinations of attributes, such as 'easy' difficulty with 'strong' polarity intensity."
+  ],
+  "overrepresented_modes": [
+    "Poetic style in negative reviews, often using metaphors and imagery.",
+    "Formal style in positive reviews, frequently employing phrases like 'must-watch' or 'captivating narrative'."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary to enhance nuance.",
+    "Include prompts for more straightforward and casual expressions in both positive and negative reviews.",
+    "Explore combinations of attributes that are less common, such as 'easy' difficulty with 'strong' polarity intensity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

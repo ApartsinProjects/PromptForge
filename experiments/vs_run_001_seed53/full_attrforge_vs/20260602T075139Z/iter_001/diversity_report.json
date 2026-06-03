@@ -1,0 +1,23 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, and styles, but there are some missing noise types and potential near-duplicates. The noise attribute is underrepresented, particularly in the 'contradiction' category.",
+  "missing_modes": [
+    "contradiction"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of samples with 'contradiction' noise to ensure a more comprehensive coverage of the noise attribute.",
+    "Reduce the frequency of 'emotional' and 'verbose' styles to balance the diversity of styles in the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

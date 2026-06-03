@@ -1,0 +1,24 @@
+{
+  "summary": "The batch demonstrates a good variety of intents, difficulties, and noise types, but lacks diversity in style, with only four out of five styles represented. Additionally, there are instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "sarcastic"
+  ],
+  "overrepresented_modes": [
+    "strong polarity_intensity",
+    "negative intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more sarcastic styles to enhance diversity.",
+    "Introduce more varied phrasings to reduce near-duplicate content.",
+    "Ensure a more balanced representation of polarity intensity across samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

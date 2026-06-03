@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high degree of redundancy in phrasing and structure, particularly in the use of verbose and fragmented styles. Many texts also rely on similar question formats, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Examples of rare or edge cases in scientific terminology or philosophical concepts.",
+    "Unique or unconventional comparisons that challenge typical perspectives."
+  ],
+  "overrepresented_modes": [
+    "Verbose style is heavily used, especially in requests for lists and definitions.",
+    "Fragmented style appears frequently in informal contexts, leading to repetitive questioning formats."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that utilize varied sentence structures and vocabulary to enhance nuance.",
+    "Incorporate prompts that specifically ask for unique examples or edge cases within each intent category.",
+    "Diversify the styles used by including more informal or creative approaches to the same intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

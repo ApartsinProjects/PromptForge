@@ -1,0 +1,24 @@
+{"sample_id":"target_00036","prediction":"real","confidence":0.9,"reason":"Casual tone and humor suggest a personal opinion."}
+{"sample_id":"R002","prediction":"synthetic","confidence":0.8,"reason":"Overly simplistic and lacks depth; feels formulaic."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.85,"reason":"Very brief and lacks context; feels like a placeholder."}
+{"sample_id":"R045","prediction":"synthetic","confidence":0.75,"reason":"Overly polished and vague; lacks specific detail."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.7,"reason":"Single-word response lacks depth and context."}
+{"sample_id":"R048","prediction":"synthetic","confidence":0.8,"reason":"Generic phrasing and structure; lacks personal touch."}
+{"sample_id":"R042","prediction":"synthetic","confidence":0.75,"reason":"Overly grandiose language; feels exaggerated."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.7,"reason":"Predictable structure and lacks unique insight."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.85,"reason":"Natural phrasing and specific observation about pacing."}
+{"sample_id":"R021","prediction":"synthetic","confidence":0.8,"reason":"Incomplete thought; lacks context and depth."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.9,"reason":"Detailed observation with a personal touch."}
+{"sample_id":"R006","prediction":"synthetic","confidence":0.75,"reason":"Generic statement; lacks specificity."}
+{"sample_id":"R038","prediction":"synthetic","confidence":0.7,"reason":"Formulaic language; lacks unique perspective."}
+{"sample_id":"R049","prediction":"synthetic","confidence":0.8,"reason":"Overly polished and vague; lacks context."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.85,"reason":"Casual tone and specific critique suggest a personal opinion."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.9,"reason":"Vivid description and personal touch indicate authenticity."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.85,"reason":"Specific critique with a relatable sentiment."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.75,"reason":"Generic and lacks depth; feels like a placeholder."}
+{"sample_id":"R007","prediction":"synthetic","confidence":0.8,"reason":"Overly simplistic and lacks context."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.75,"reason":"Generic and lacks specific detail."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Engaging language and vivid imagery suggest a personal opinion."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.8,"reason":"Vague and lacks context; feels like a placeholder."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.85,"reason":"Personal sentiment and specific critique indicate authenticity."}
+{"sample_id":"R001","prediction":"synthetic","confidence":0.75,"reason":"Generic phrasing and lacks unique insight."}

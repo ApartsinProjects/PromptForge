@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of attributes, but there are some missing combinations and potential near-duplicates. The diversity is generally well-covered, but attention to rare or edge cases could be improved.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "account_issue",
+    "edge_case"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique scenarios for 'refund_request' and 'technical_problem' intents.",
+    "Introduce more edge cases that involve less common issues to enhance diversity.",
+    "Ensure that the generator creates more varied phrasing to reduce near-duplicates."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

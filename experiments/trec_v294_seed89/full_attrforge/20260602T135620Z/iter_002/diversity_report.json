@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity in terms of intent and style, but there is significant nuance-level redundancy, particularly in the phrasing and structure of the questions. Many texts follow similar patterns, especially in the comparison scenario type, leading to a lack of true diversity in expression.",
+  "missing_modes": [
+    "A more technical or academic style for complex concepts.",
+    "Conversational style that mimics everyday speech for informal contexts.",
+    "Creative or narrative styles that could explore abstract concepts through storytelling."
+  ],
+  "overrepresented_modes": [
+    "Questions starting with 'What are the differences between...' or 'What are the similarities and differences...'",
+    "Informal style questions that use casual language.",
+    "Concise phrasing that lacks depth in exploration of topics."
+  ],
+  "near_duplicate_rate": 0.35,
+  "recommendations": [
+    "Encourage the generation of questions that utilize varied sentence structures and vocabulary to enhance nuance.",
+    "Incorporate prompts that request specific examples or case studies to deepen the exploration of complex ideas.",
+    "Introduce styles that reflect different tones, such as persuasive or narrative, to diversify the approach to similar intents."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

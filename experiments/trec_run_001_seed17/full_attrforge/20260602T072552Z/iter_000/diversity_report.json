@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a strong representation of various intents and difficulties, but there are notable gaps in noise types and some missing attribute combinations. Additionally, there are instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "noise: irrelevant_details",
+    "intent: human_beings"
+  ],
+  "overrepresented_modes": [
+    "style: fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of examples with 'noise: irrelevant_details' to enhance diversity.",
+    "Include more examples focusing on 'human_beings' to ensure comprehensive coverage of intents.",
+    "Vary the style more by reducing the frequency of 'fragmented' style outputs."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

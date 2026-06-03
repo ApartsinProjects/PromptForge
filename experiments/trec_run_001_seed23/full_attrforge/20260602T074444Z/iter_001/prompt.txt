@@ -1,0 +1,8 @@
+"""Generate diverse and realistic open-domain English questions that align with the specified TREC question-type category. Each example should be a single complete question, ending with a question mark, and should reflect the complexity and ambiguity expected from a user query in an open-domain QA system. Ensure the questions vary in style, incorporating informal and conversational elements, while also including some irrelevant details to enhance noise levels. Strive for a mix of difficulty levels, from easy to challenging, and include various intents, such as inquiries about human beings, numeric values, and abstract concepts. 
+
+Output a JSON object containing the sample id, the text of the question, and the attribute values, ensuring that each question is unique and avoids repetitive structures. 
+
+Forbidden phrasings:
+- 'Can you tell me'
+
+Remember to include specific examples, avoid overly generic phrasing, and ensure that each question captures a distinct scenario type. Aim for a balance of ambiguity and clarity to reflect realistic user interactions. Incorporate a range of topics to enhance diversity while maintaining attribute fidelity. """

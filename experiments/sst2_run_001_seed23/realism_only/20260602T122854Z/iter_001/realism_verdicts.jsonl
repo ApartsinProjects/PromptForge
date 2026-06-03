@@ -1,0 +1,24 @@
+{"sample_id":"R032","prediction":"real","confidence":0.8,"reason":"Casual language and informal tone suggest authenticity."}
+{"sample_id":"R011","prediction":"real","confidence":0.7,"reason":"Very brief and blunt expression, typical of genuine reactions."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.9,"reason":"Overly polished and generic phrasing, lacks personal touch."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.85,"reason":"Predictable structure and generic vocabulary, feels formulaic."}
+{"sample_id":"R029","prediction":"real","confidence":0.6,"reason":"Incomplete thought but reflects a natural conversational style."}
+{"sample_id":"R018","prediction":"real","confidence":0.75,"reason":"Informal and relatable expression, typical of genuine commentary."}
+{"sample_id":"R030","prediction":"synthetic","confidence":0.9,"reason":"Overly complex and polished language, lacks real-world noise."}
+{"sample_id":"R004","prediction":"real","confidence":0.8,"reason":"Humorous and specific reference, indicative of authentic critique."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.95,"reason":"Excessively grandiose language, typical of LLM-generated content."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.9,"reason":"Flowery language and vague expressions, lacks specificity."}
+{"sample_id":"R013","prediction":"real","confidence":0.7,"reason":"Casual and dismissive tone, typical of genuine reactions."}
+{"sample_id":"R016","prediction":"real","confidence":0.8,"reason":"Detailed critique with specific language, indicative of real opinion."}
+{"sample_id":"R038","prediction":"real","confidence":0.75,"reason":"Balanced opinion with a nuanced view, typical of authentic reviews."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.9,"reason":"Generic and vague language, lacks personal insight."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"Detailed analysis with specific references, indicative of real critique."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.95,"reason":"Dramatic and exaggerated language, typical of LLM-generated content."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.9,"reason":"Overly poetic and abstract, lacks concrete details."}
+{"sample_id":"R020","prediction":"real","confidence":0.6,"reason":"Very brief and ambiguous, but reflects a natural conversational style."}
+{"sample_id":"R051","prediction":"real","confidence":0.65,"reason":"Informal and somewhat vague, typical of genuine commentary."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.95,"reason":"Overly sentimental and vague, lacks specificity."}
+{"sample_id":"R041","prediction":"real","confidence":0.5,"reason":"Very vague and generic, but could reflect a real thought."}
+{"sample_id":"R017","prediction":"real","confidence":0.7,"reason":"Casual and blunt expression, typical of genuine reactions."}
+{"sample_id":"R035","prediction":"real","confidence":0.75,"reason":"Balanced and nuanced opinion, indicative of real critique."}
+{"sample_id":"R008","prediction":"real","confidence":0.7,"reason":"Casual language and relatable critique, typical of genuine commentary."}

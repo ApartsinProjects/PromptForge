@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of vague descriptors like 'various sources' and 'a movie to forget'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases that indicate a lack of engagement or emotional connection",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures that include a conjunction followed by a contrasting statement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the presence of overly complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of transitional phrases like 'while' and 'despite'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of evaluative language (e.g., 'commendable', 'tedious', 'boring')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases indicating surprise or expectation (e.g., 'i didn't expect much', 'really surprised me')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "oh sure,",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the plot was",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "just feels",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "muddled mess of cliches",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "redefines the art of boredom",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative sentiment towards movies",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of critique followed by a specific example",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of phrases indicating disappointment or boredom",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague descriptors like 'unassuming' and 'grace'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "phrases that lack specificity or detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of qualifiers like 'very good (but not great)'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "thematic focus on emotional or philosophical reflections",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of negative descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disjointed thoughts",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I was really hoping to get my money back",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses a desire for a refund in a unique way not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I seem to have forgotten my password",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This construction of expressing forgetfulness about a password is not present in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I shouldn't be requesting a refund since I didn't intend to buy this",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific justification for a refund request is not found in real samples.",
+      "introduced_at_iteration": 1
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I can't believe how frustrating this situation is!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expressing disbelief and frustration does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I hope this message finds you well.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This formal opener is not found in any of the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "Hey, quick question!",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This casual opener is unique to the synthetic batch and not present in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I am really frustrated with my recent purchase.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration regarding a purchase does not appear in the real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I was really hoping to get my money back",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing expresses a desire for a refund in a unique way not found in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I seem to have forgotten my password",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This construction of expressing forgetfulness about a password is not present in real samples.",
+      "introduced_at_iteration": 1
+    },
+    {
+      "pattern": "I shouldn't be requesting a refund since I didn't intend to buy this",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific justification for a refund request is not found in real samples.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

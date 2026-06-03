@@ -1,0 +1,24 @@
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Formal critique style; aligns with the identified distribution of professional film reviews."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.8,"reason":"Casual, conversational tone; real samples are more formal and analytical."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.7,"reason":"Lacks context and depth; does not match the detailed analysis typical of real samples."}
+{"sample_id":"R039","prediction":"real","confidence":0.85,"reason":"Formal and positive critique; consistent with the professional review style."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Casual sarcasm; real samples exhibit more structured critique."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.7,"reason":"Informal and simplistic; lacks the depth of real film reviews."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Witty and critical; aligns with the formal review style of real samples."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.6,"reason":"Vague and lacks context; does not fit the detailed analysis of real samples."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Specific reference to film styles; matches the professional critique register."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.75,"reason":"Casual and blunt; real samples are more nuanced and formal."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"Positive and formal tone; consistent with the identified distribution."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.8,"reason":"Casual sarcasm; does not match the formal critique style of real samples."}
+{"sample_id":"R041","prediction":"real","confidence":0.9,"reason":"Formal and specific; aligns with the professional review style."}
+{"sample_id":"R035","prediction":"real","confidence":0.85,"reason":"Detailed and formal critique; consistent with the identified distribution."}
+{"sample_id":"R040","prediction":"real","confidence":0.8,"reason":"Formal and analytical; matches the professional review style."}
+{"sample_id":"R013","prediction":"synthetic","confidence":0.7,"reason":"Casual and simplistic; lacks the depth of real film reviews."}
+{"sample_id":"R009","prediction":"synthetic","confidence":0.75,"reason":"Informal and dismissive; does not fit the formal critique style."}
+{"sample_id":"R002","prediction":"synthetic","confidence":0.7,"reason":"Casual tone; real samples are more formal and analytical."}
+{"sample_id":"R031","prediction":"synthetic","confidence":0.65,"reason":"Casual and vague; lacks the depth of real film reviews."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.8,"reason":"Formal critique; aligns with the identified distribution of professional film reviews."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Witty and critical; consistent with the formal review style."}
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Positive and formal tone; aligns with the professional review style."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"Formal critique; matches the professional review style."}
+{"sample_id":"R038","prediction":"real","confidence":0.85,"reason":"Formal and positive critique; consistent with the identified distribution."}

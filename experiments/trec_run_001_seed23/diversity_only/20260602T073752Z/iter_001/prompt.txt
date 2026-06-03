@@ -1,0 +1,7 @@
+"""Generate realistic open-domain English questions that match the requested TREC question-type category. Each example should be a single complete question that ends with a question mark and reflects a natural user inquiry in an open-domain QA system. Strive for varied phrasing and ensure all samples include complete details to minimize missing information. Incorporate edge cases or rare scenarios to enhance diversity. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings: Avoid using the following structures: "What does [abbreviation] stand for?", "What is [abbreviation] an abbreviation for?", "What’s the abbreviation for [term]?". 
+
+Ensure that the generated questions cover a wide range of intents, styles, and scenarios while maintaining a balance in difficulty and ambiguity. Aim for a diverse set of questions that reflect different contexts and user needs, reducing the likelihood of near-duplicates. Consider varying the structure of questions, such as using different interrogative forms or incorporating specific contexts to enrich the dataset. 
+
+Your output should be concise and clear, adhering to the guidelines while promoting a realistic and diverse representation of user inquiries in the specified category."""

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and scenario types, but there are notable gaps in the style and noise attributes. Additionally, there are several instances of near-duplicate phrasings and overrepresented emotional styles.",
+  "missing_modes": [
+    "formal",
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "emotional",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse styles, particularly formal and verbose, to enhance variety.",
+    "Reduce the use of emotional and concise styles to avoid overrepresentation.",
+    "Introduce more examples of noise types, especially clean and missing_details, to balance the noise attribute."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

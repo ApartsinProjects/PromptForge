@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i am unable to",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i’ve been trying to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i received the wrong item",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i updated my profile",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of account access issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'are', 'is', or 'what'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'it's weird, right?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by an explanation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'but' to introduce complications or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution in a formal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language related to digital services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a demand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of exclamatory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about app functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms like 'update', 'reinstall', and 'refund'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of complaint followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was wondering if you guys",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i would like to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "request a refund",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "please assist with this issue",
+      "n_pairs_observed": 1
+    }
+  ]
+}

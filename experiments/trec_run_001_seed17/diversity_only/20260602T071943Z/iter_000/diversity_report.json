@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a strong coverage of the attribute schema, with a notable absence of certain noise types and a few missing intent categories. There is a moderate presence of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "noise: irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "style: fragmented",
+    "intent: locations",
+    "intent: numeric_values"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with 'irrelevant_details' noise to enhance diversity.",
+    "Diversify the intent categories by including more examples related to 'human_beings' and 'description_and_abstract_concepts'.",
+    "Reduce the frequency of 'fragmented' style and 'locations' intent to balance the representation."
+  ],
+  "coverage": {
+    "intent": 0.8333333333333334,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

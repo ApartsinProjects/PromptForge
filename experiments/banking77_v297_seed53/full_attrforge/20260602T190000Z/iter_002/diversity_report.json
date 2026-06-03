@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with varied intents and styles; however, there are notable patterns in phrasing and sentence structure that lead to nuance-level redundancy. Several texts share similar constructions, particularly in how issues are presented and requests for assistance are framed.",
+  "missing_modes": [
+    "More emotional expressions in requests for help, particularly in scenarios involving lost or stolen cards.",
+    "Examples of informal inquiries that incorporate humor or casual language.",
+    "Complex scenarios that combine multiple issues (e.g., a card being both lost and having pending payments)."
+  ],
+  "overrepresented_modes": [
+    "Formal requests for assistance, especially regarding transaction issues.",
+    "Fragmented styles that express confusion or frustration, particularly in easy difficulty levels."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Introduce more varied sentence structures and vocabulary to reduce redundancy in phrasing.",
+    "Include examples that combine multiple intents or scenarios to enhance complexity.",
+    "Encourage the generation of texts that reflect a wider emotional range, especially in high-stress situations."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

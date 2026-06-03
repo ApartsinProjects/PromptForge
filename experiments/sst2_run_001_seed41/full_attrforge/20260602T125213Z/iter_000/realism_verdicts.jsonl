@@ -1,0 +1,24 @@
+{"sample_id":"target_00007","prediction":"real","confidence":0.9,"reason":"Natural expression of frustration with a movie, informal tone."}
+{"sample_id":"target_00009","prediction":"real","confidence":0.85,"reason":"Authentic critique with personal sentiment, lacks over-polished language."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.8,"reason":"Detailed critique with specific language, feels genuine."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.95,"reason":"Single word response lacks depth and context."}
+{"sample_id":"R034","prediction":"synthetic","confidence":0.9,"reason":"Generic phrase, overly simplistic and lacks nuance."}
+{"sample_id":"R033","prediction":"synthetic","confidence":0.9,"reason":"Vague and generic terms, lacks specificity."}
+{"sample_id":"R030","prediction":"synthetic","confidence":0.85,"reason":"Overly complex sentence structure, feels contrived."}
+{"sample_id":"R019","prediction":"synthetic","confidence":0.9,"reason":"Unusual phrasing and lack of real-world context."}
+{"sample_id":"R043","prediction":"synthetic","confidence":0.8,"reason":"Generic praise, lacks personal touch."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.9,"reason":"Casual, relatable expression of emotion, feels authentic."}
+{"sample_id":"R014","prediction":"synthetic","confidence":0.85,"reason":"Overly dramatic language, lacks genuine critique."}
+{"sample_id":"R022","prediction":"synthetic","confidence":0.9,"reason":"Generic dismissal, lacks personal insight."}
+{"sample_id":"R041","prediction":"synthetic","confidence":0.95,"reason":"Vague reference, lacks context and detail."}
+{"sample_id":"R012","prediction":"synthetic","confidence":0.85,"reason":"Generic criticism, lacks personal experience."}
+{"sample_id":"R006","prediction":"synthetic","confidence":0.9,"reason":"Overly simplistic and lacks depth."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.9,"reason":"Generic praise, lacks specificity."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.85,"reason":"Contrived phrasing, lacks authenticity."}
+{"sample_id":"R040","prediction":"synthetic","confidence":0.9,"reason":"Vague and generic, lacks real-world context."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.8,"reason":"Overly poetic and abstract, lacks grounded critique."}
+{"sample_id":"R008","prediction":"synthetic","confidence":0.85,"reason":"Generic criticism, lacks personal touch."}
+{"sample_id":"R047","prediction":"synthetic","confidence":0.9,"reason":"Generic praise, lacks depth and specificity."}
+{"sample_id":"R005","prediction":"synthetic","confidence":0.85,"reason":"Overly technical language, lacks personal insight."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"Genuine expression of admiration, feels authentic."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.85,"reason":"Personal disappointment expressed in a relatable way."}

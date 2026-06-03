@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good range of intents and styles, but there is notable redundancy in phrasing and structure, particularly around pending payments and card arrival inquiries. Several texts use similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal inquiries about lost or stolen cards",
+    "emotional expressions regarding card payment issues",
+    "concise requests for clarification on transaction issues"
+  ],
+  "overrepresented_modes": [
+    "informal style in inquiries about card issues",
+    "fragmented structure in requests for updates",
+    "high ambiguity in card payment-related queries"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage more varied sentence structures and vocabulary for each intent, especially for common issues like pending payments and card arrivals.",
+    "Include more formal and emotional styles to diversify the tone of the inquiries.",
+    "Introduce edge cases or rare scenarios related to card handling and payments to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 0.7,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

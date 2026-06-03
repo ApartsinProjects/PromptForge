@@ -1,0 +1,22 @@
+{
+  "summary": "The batch demonstrates a good coverage of all attribute values, but there are instances of near-duplicate phrasings and shallow paraphrases. The diversity of scenarios and styles is present, yet some attributes could benefit from more unique expressions.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "concise",
+    "negative intent"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more varied expressions and unique phrasings to reduce near-duplicates.",
+    "Introduce edge cases or rare scenarios to enhance diversity, particularly in positive reviews.",
+    "Consider adding more informal styles to balance the representation of styles."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attributes, but there are some missing combinations and potential overrepresentation of certain styles. The near-duplicate rate suggests some redundancy in phrasing.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "concise"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage more diverse phrasing by including additional examples of formal and emotional styles.",
+    "Introduce more edge cases and rare scenarios to enhance the diversity of the dataset.",
+    "Ensure a balanced representation of all styles to avoid overrepresentation of informal and concise modes."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

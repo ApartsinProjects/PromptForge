@@ -1,0 +1,16 @@
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.9,"reason":"Over-polished sarcasm and predictable structure; lacks real-world noise."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.8,"reason":"Natural phrasing and relatable critique; feels authentic."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.85,"reason":"Casual language and personal touch; reflects genuine emotion."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.95,"reason":"Overly poetic and abstract; lacks concrete details."}
+{"sample_id":"target_00027","prediction":"synthetic","confidence":0.9,"reason":"Exaggerated sarcasm and polished language; feels contrived."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.8,"reason":"Clear critique with relatable sentiment; feels authentic."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.85,"reason":"Overly clever phrasing and lack of depth; feels artificial."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.9,"reason":"Flowery language and abstract imagery; lacks real-world grounding."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.75,"reason":"Direct critique with relatable imagery; feels genuine."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.95,"reason":"Overly elaborate language and structure; lacks authenticity."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.8,"reason":"Personal experience and emotional resonance; feels authentic."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.9,"reason":"Excessively poetic and abstract; lacks concrete details."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.9,"reason":"Overly complex language and structure; feels artificial."}
+{"sample_id":"target_00030","prediction":"real","confidence":0.75,"reason":"Relatable metaphor and critique; feels genuine."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.85,"reason":"Clichéd language and predictable structure; lacks depth."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.8,"reason":"Emotional resonance and personal touch; feels authentic."}

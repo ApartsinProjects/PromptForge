@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and surface patterns, particularly with negative reviews. Many texts utilize similar constructions, especially in expressing dissatisfaction, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Positive reviews that use formal language",
+    "Negative reviews that are poetic or use strong emotional language",
+    "Diverse expressions of sarcasm beyond common phrases"
+  ],
+  "overrepresented_modes": [
+    "Concise negative reviews that follow a similar structure",
+    "Informal positive reviews that use common phrases",
+    "Sarcastic remarks that rely on the same template"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary for both positive and negative reviews.",
+    "Incorporate more edge cases or rare expressions of intent, especially for sarcasm and poetic styles.",
+    "Ensure that each review type explores different aspects of the film rather than relying on common critiques."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

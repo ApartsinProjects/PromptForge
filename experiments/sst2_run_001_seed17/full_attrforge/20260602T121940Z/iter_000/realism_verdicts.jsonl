@@ -1,0 +1,24 @@
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"The text has a nuanced critique with specific references to Scorsese's style, indicating a deeper understanding of film."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.8,"reason":"The language is overly polished and generic, lacking specific details that would make it feel authentic."}
+{"sample_id":"R029","prediction":"real","confidence":0.7,"reason":"The fragment suggests a continuation of thought, typical of real conversational snippets."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.85,"reason":"The structure is very predictable and lacks personal touch, making it feel formulaic."}
+{"sample_id":"R050","prediction":"real","confidence":0.6,"reason":"The phrase is vague but could fit into a casual conversation about humor."}
+{"sample_id":"R041","prediction":"real","confidence":0.5,"reason":"The phrase is too vague but could be part of a larger discussion."}
+{"sample_id":"R006","prediction":"real","confidence":0.8,"reason":"The phrase reflects a common sentiment about romantic comedies, suggesting authenticity."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.9,"reason":"The sarcasm feels forced and the structure is overly neat, typical of generated text."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.85,"reason":"The language is overly critical in a generic way, lacking specific examples."}
+{"sample_id":"R033","prediction":"real","confidence":0.6,"reason":"The phrase is vague but could fit into a broader discussion about film."}
+{"sample_id":"R018","prediction":"real","confidence":0.7,"reason":"The expression captures a relatable feeling, suggesting authenticity."}
+{"sample_id":"R005","prediction":"real","confidence":0.8,"reason":"The description is specific and reflects a common critique of digital filmmaking."}
+{"sample_id":"R044","prediction":"real","confidence":0.5,"reason":"The phrase is vague but could fit into a broader discussion about film."}
+{"sample_id":"R039","prediction":"real","confidence":0.7,"reason":"The phrase captures a specific type of humor that feels authentic."}
+{"sample_id":"R014","prediction":"real","confidence":0.8,"reason":"The metaphorical language suggests a deeper analysis of the film's themes."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.9,"reason":"The sarcasm is overly structured and lacks the nuance of real criticism."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.85,"reason":"The phrasing is overly polished and lacks personal experience."}
+{"sample_id":"R022","prediction":"real","confidence":0.6,"reason":"The phrase is vague but could fit into a broader discussion about film."}
+{"sample_id":"R000","prediction":"real","confidence":0.5,"reason":"The phrase is too vague but could be part of a larger discussion."}
+{"sample_id":"R010","prediction":"real","confidence":0.7,"reason":"The casual tone and specific reference to audience preferences suggest authenticity."}
+{"sample_id":"R028","prediction":"real","confidence":0.5,"reason":"The phrase is too vague but could be part of a larger discussion."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"The description is specific and reflects a thoughtful critique of a film's themes."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.9,"reason":"The phrasing is generic and lacks specific details that would make it feel authentic."}
+{"sample_id":"R048","prediction":"real","confidence":0.7,"reason":"The phrase suggests a nuanced understanding of audience reception."}

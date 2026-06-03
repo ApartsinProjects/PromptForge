@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good variety of intents and scenarios, but there is significant redundancy in phrasing and emotional expression, particularly in the 'emotional' style. Additionally, the 'informal' style is overrepresented, leading to a lack of formal and concise expressions.",
+  "missing_modes": [
+    "formal expressions for card handling inquiries",
+    "concise inquiries about transaction issues",
+    "emotional expressions for card payment issues"
+  ],
+  "overrepresented_modes": [
+    "informal style, particularly in requests for help",
+    "emotional expressions regarding card issues",
+    "fragmented style in transaction-related inquiries"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more formal and concise inquiries to balance the emotional and informal styles.",
+    "Introduce more varied sentence structures and vocabulary to reduce redundancy in phrasing.",
+    "Include edge cases or rare scenarios related to card issues to enhance diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

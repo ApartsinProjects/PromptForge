@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of attributes, but there is a notable absence of certain scenario types. Additionally, some modes are overrepresented, and there are near-duplicate phrasings present.",
+  "missing_modes": [
+    "emotion"
+  ],
+  "overrepresented_modes": [
+    "pacing",
+    "overall_verdict"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Ensure to include more diverse scenario types, particularly 'emotion'.",
+    "Vary the phrasing and structure of the text excerpts to reduce near-duplicates.",
+    "Encourage the generation of samples that explore edge cases in difficulty and polarity intensity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

@@ -1,0 +1,24 @@
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"Casual language, direct question, and specific context suggest a real user inquiry."}
+{"sample_id":"R028","prediction":"real","confidence":0.85,"reason":"Informal phrasing and a specific question indicate a genuine user concern."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Real-world scenario with specific details about MFA and phone switching."}
+{"sample_id":"R015","prediction":"real","confidence":0.9,"reason":"Specific issue with account management, casual tone suggests authenticity."}
+{"sample_id":"R005","prediction":"real","confidence":0.95,"reason":"Direct complaint about a subscription issue, realistic urgency and detail."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.7,"reason":"Overly polished structure and generic phrasing, lacks real-world noise."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.65,"reason":"Casual language but feels scripted and lacks specific context."}
+{"sample_id":"R024","prediction":"real","confidence":0.8,"reason":"Technical inquiry with specific terminology, likely from a real user."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.75,"reason":"Similar to target_00031, feels too structured and lacks personal touch."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Specific complaint about an order, realistic tone and urgency."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical issue with a specific detail about CSV import, realistic."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Urgent request for refund or replacement, realistic scenario."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific issue with checkout process, realistic user experience."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.6,"reason":"Casual language but feels overly generic and lacks specific context."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.8,"reason":"Specific complaint about a damaged product, realistic tone."}
+{"sample_id":"R025","prediction":"real","confidence":0.75,"reason":"Inquiry about future options, realistic but slightly formal."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.7,"reason":"Casual language but feels scripted and lacks personal touch."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Urgent request for account recovery, realistic scenario."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Frustration expressed in a realistic manner, likely from a real user."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.65,"reason":"Generic phrasing and structure, lacks specific details."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.7,"reason":"Casual language but feels overly generic and lacks specific context."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.8,"reason":"Specific complaint about a damaged item, realistic tone."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.6,"reason":"Casual language but feels scripted and lacks personal touch."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Technical issue with specific details, realistic user experience."}

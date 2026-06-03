@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "What 's the abbreviation for trinitrotoluene ?",
+      "label": "abbreviation",
+      "p_real": 0.6441973468225727
+    },
+    {
+      "text": "What is p.m. an abbreviation for , as in 5 p.m. ?",
+      "label": "abbreviation",
+      "p_real": 0.6414774713058364
+    },
+    {
+      "text": "What does snafu stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6395653920889731
+    },
+    {
+      "text": "What does EKG stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6395653920889731
+    },
+    {
+      "text": "What does HIV stand for ?",
+      "label": "abbreviation",
+      "p_real": 0.6395653920889731
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "expressing frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to issues without specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with introductory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues related to account access or order status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details (e.g., shipping times, account types)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with a focus on specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for action or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression compared to pack a",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or upset emotions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a plea for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'pls')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with a specific issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requesting help or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory sentences to convey emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite language mixed with expressions of dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal pronouns like 'i' and 'my'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague references to service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language indicating upset or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for help or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical issues or app-related problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or uncertainty about the situation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language or specific terms related to services",
+      "n_pairs_observed": 1
+    }
+  ]
+}

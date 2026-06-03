@@ -1,0 +1,14 @@
+{
+  "mode_seeking_ratio": 0.23503722392017729,
+  "n_pairs": 120,
+  "text_distance_mean": 0.942135261463881,
+  "target_distance_mean": 4.458333333333333,
+  "attribute_sensitivity": {
+    "noise": 0.3724106178330375,
+    "style": 0.8476926892605139,
+    "difficulty": 0.0,
+    "intent": 0.0,
+    "ambiguity": 0.0,
+    "scenario_type": 0.0
+  }
+}

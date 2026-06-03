@@ -1,0 +1,4 @@
+{"sample_id": "target_00001", "intent": "positive", "difficulty": "medium", "polarity_intensity": "moderate", "style": "sarcastic", "noise": "typos", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00002", "intent": "positive", "difficulty": "easy", "polarity_intensity": "mild", "style": "informal", "noise": "irrelevant_aside", "scenario_type": "overall_verdict"}
+{"sample_id": "target_00003", "intent": "positive", "difficulty": "medium", "polarity_intensity": "strong", "style": "sarcastic", "noise": "irrelevant_aside", "scenario_type": "story_plot"}
+{"sample_id": "target_00004", "intent": "negative", "difficulty": "easy", "polarity_intensity": "mild", "style": "informal", "noise": "typos", "scenario_type": "pacing"}

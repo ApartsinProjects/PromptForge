@@ -1,0 +1,42 @@
+{
+  "new_findings": [
+    {
+      "pattern": "I seem to have encountered a unique issue.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing is not found in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe how bad your customer service has become;",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I believe my account is under a different name than what I registered, which is confusing.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This particular structure and content do not match any real samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "I seem to have encountered a unique issue.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific phrasing is not found in any real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I can't believe how bad your customer service has become;",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This specific expression of frustration is not present in real samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "I believe my account is under a different name than what I registered, which is confusing.",
+      "n_synthetic_occurrences": 1,
+      "rationale": "This particular structure and content do not match any real samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

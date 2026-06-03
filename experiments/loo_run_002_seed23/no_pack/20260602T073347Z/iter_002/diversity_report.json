@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good variety of intents and styles, but there are notable gaps in noise types and some missing attribute combinations. Additionally, there are instances of near-duplicate phrasings and overrepresented modes in certain categories.",
+  "missing_modes": [
+    "noise: clean",
+    "scenario_type: common for account_issue",
+    "scenario_type: common for refund_request"
+  ],
+  "overrepresented_modes": [
+    "intent: complaint",
+    "style: fragmented",
+    "noise: contradiction"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of examples with 'clean' noise to balance the noise types.",
+    "Include more common scenarios for account issues and refund requests to enhance diversity.",
+    "Reduce the frequency of fragmented style and contradiction noise in complaints to avoid redundancy."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

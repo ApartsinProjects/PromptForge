@@ -1,0 +1,4 @@
+{"sample_id":"target_00001","attribute_match":false,"failed_attributes":["intent","style","noise"],"reason":"The text conveys a negative intent and is sarcastic, not positive, and it does not contain typos."}
+{"sample_id":"target_00002","attribute_match":false,"failed_attributes":["intent","polarity_intensity","style","noise"],"reason":"The text expresses a positive sentiment but includes irrelevant thoughts, making it informal and lacking mild polarity intensity."}
+{"sample_id":"target_00003","attribute_match":false,"failed_attributes":["intent","polarity_intensity","style"],"reason":"The text is sarcastic and negative, contradicting the requested positive intent and strong polarity intensity."}
+{"sample_id":"target_00004","attribute_match":false,"failed_attributes":["polarity_intensity","noise"],"reason":"The text expresses a strong negative sentiment about pacing, and it does not contain any typos."}

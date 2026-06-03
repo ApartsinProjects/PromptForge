@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a reasonable variety of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly with requests for clarification and issues related to card transactions. Several samples also share similar surface patterns, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal inquiries with detailed explanations",
+    "emotional expressions of frustration or urgency",
+    "concise requests for immediate assistance"
+  ],
+  "overrepresented_modes": [
+    "informal requests for help",
+    "simple statements of issues without elaboration",
+    "requests for clarification using similar structures"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary, especially for common intents like card issues.",
+    "Include prompts that require users to express their emotions or urgency in different ways.",
+    "Introduce scenarios that involve multiple issues or combine intents to create more complex inquiries."
+  ],
+  "coverage": {
+    "intent": 0.7,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

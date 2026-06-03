@@ -1,0 +1,24 @@
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Natural language, specific request, and informal tone typical of customer support inquiries."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Real-world issue with a specific technical problem, informal language."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint with urgency, informal tone, and specific details."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"Overly polished and lacks specific details about the issue."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"Specific technical issue with logs mentioned, informal tone."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.75,"reason":"Overly detailed and structured, lacks the spontaneity of real user frustration."}
+{"sample_id":"R005","prediction":"real","confidence":0.85,"reason":"Concise and direct complaint about a subscription issue."}
+{"sample_id":"target_00008","prediction":"synthetic","confidence":0.6,"reason":"Generic complaint lacking specific details or urgency."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Specific request related to MFA, informal and direct."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.65,"reason":"Informal language but lacks clarity and specificity."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.7,"reason":"Casual tone but overly structured and lacks real-world noise."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Simple, straightforward question about subscription plans."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.6,"reason":"Exaggerated emotional response and overly detailed."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.65,"reason":"Informal but lacks specificity and feels formulaic."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Specific issue with password reset, informal tone."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct complaint about a product issue, informal language."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear description."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Straightforward question about product tiers."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.7,"reason":"Generic complaint lacking specific details."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.65,"reason":"Polished language and structure, feels scripted."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Specific complaint about a paid feature, informal tone."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Specific technical issue described in an informal manner."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Direct inquiry about product features, informal tone."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.5,"reason":"Overly formal and structured, lacks the spontaneity of real complaints."}

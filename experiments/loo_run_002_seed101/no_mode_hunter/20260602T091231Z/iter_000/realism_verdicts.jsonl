@@ -1,0 +1,24 @@
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"Informal language and typos suggest a genuine user frustration."}
+{"sample_id":"R025","prediction":"synthetic","confidence":0.8,"reason":"Overly formal and structured; lacks personal touch."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"Specific details about a transaction indicate a real user issue."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.9,"reason":"Casual language and expressions of frustration suggest authenticity."}
+{"sample_id":"R020","prediction":"real","confidence":0.8,"reason":"Direct complaint with emotional tone indicates a real user experience."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.75,"reason":"Formal inquiry lacks personal context and emotional engagement."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"Long-term customer complaint suggests a real user experience."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.7,"reason":"Overly formal and structured; lacks personal touch."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.75,"reason":"Polished language and structure suggest a generated response."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific technical issue indicates a real user experience."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Direct request for assistance with a billing issue suggests authenticity."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.9,"reason":"Casual language and urgency indicate a genuine user issue."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.9,"reason":"Detailed account of frustration suggests a real user experience."}
+{"sample_id":"R019","prediction":"real","confidence":0.8,"reason":"Direct complaint about product performance indicates a real user."}
+{"sample_id":"R016","prediction":"real","confidence":0.85,"reason":"Specific issue with account access suggests a real user experience."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"Generic inquiry lacks personal context."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.9,"reason":"Casual language and personal context suggest authenticity."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.85,"reason":"Expresses confusion and desire for help, indicating a real user."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.6,"reason":"Absurd content suggests a lack of realism."}
+{"sample_id":"R007","prediction":"real","confidence":0.8,"reason":"Specific technical issue indicates a real user experience."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific issue with app functionality suggests a real user."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"Specific request for account update indicates a real user experience."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.9,"reason":"Expresses frustration and urgency, indicating a genuine user issue."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue indicates a real user experience."}

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with varied intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in negative reviews. Many texts utilize similar constructions and stock phrases, leading to a lack of nuanced expression.",
+  "missing_modes": [
+    "A more diverse range of emotional responses in positive reviews, particularly those that are not overly enthusiastic.",
+    "Unique combinations of styles and scenario types that have not been explored, such as poetic negative reviews."
+  ],
+  "overrepresented_modes": [
+    "Negative reviews often employ sarcastic or formal styles, leading to a predictable tone.",
+    "Concise style is frequently used across various intents, which diminishes the richness of expression."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique emotional responses in positive reviews, avoiding clichés.",
+    "Introduce more varied sentence structures and vocabulary to reduce redundancy in negative reviews.",
+    "Explore combinations of styles and scenario types that have not been fully utilized, such as informal poetic reviews."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

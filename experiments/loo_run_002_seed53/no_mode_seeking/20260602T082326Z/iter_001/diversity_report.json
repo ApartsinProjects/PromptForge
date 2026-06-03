@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and styles, but there are some missing noise categories and potential near-duplicates. The noise attribute is underrepresented, particularly in the 'contradiction' category.",
+  "missing_modes": [
+    "contradiction"
+  ],
+  "overrepresented_modes": [
+    "irrelevant_details"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with contradictory information to enhance diversity.",
+    "Reduce the frequency of samples with irrelevant details to improve clarity and focus.",
+    "Ensure a more balanced representation of noise types across the samples."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

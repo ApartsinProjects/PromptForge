@@ -1,0 +1,24 @@
+{"sample_id":"target_00018","prediction":"real","confidence":0.9,"reason":"Casual language and urgency suggest a real user experience."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.85,"reason":"Concise and informal phrasing indicates a genuine user issue."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.8,"reason":"Overly formal structure and polished grammar suggest LLM generation."}
+{"sample_id":"R023","prediction":"real","confidence":0.9,"reason":"Direct and emotional language typical of a frustrated customer."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Straightforward complaint with a clear request, indicative of real user frustration."}
+{"sample_id":"R020","prediction":"real","confidence":0.85,"reason":"Informal tone and urgency suggest a real customer experience."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.75,"reason":"Combines unrelated issues in a structured way, typical of LLM output."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.9,"reason":"Simple and direct complaint, typical of real user feedback."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Clear and concise request for a refund, indicative of a real user."}
+{"sample_id":"R019","prediction":"real","confidence":0.85,"reason":"Direct complaint with emotional undertones, typical of real user feedback."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.7,"reason":"Generic question lacking personal touch, suggesting LLM generation."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Casual language and specific issue indicate a real user experience."}
+{"sample_id":"R010","prediction":"real","confidence":0.85,"reason":"Specific technical issue described in a straightforward manner."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.65,"reason":"Formal structure and lack of urgency suggest LLM generation."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Urgent tone and specific issue indicate a real user experience."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Technical issue described with specific details, typical of real user feedback."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.75,"reason":"Polished language and formal request suggest LLM generation."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"Urgent and personal issue described, indicative of a real user."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear description suggests a real user."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Casual language and specific problem indicate a real user experience."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical issue with specific details suggests a real user."}
+{"sample_id":"R027","prediction":"synthetic","confidence":0.7,"reason":"Generic question lacking personal context, suggesting LLM generation."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct complaint with urgency and specific request indicates a real user."}
+{"sample_id":"target_00026","prediction":"real","confidence":0.85,"reason":"Casual language and specific issue suggest a real user experience."}

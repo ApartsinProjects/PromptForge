@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a good variety of intents and scenarios, but there are notable redundancies in phrasing and structure, particularly in the comparison and list scenarios. Several texts also rely on similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "complex comparisons that involve multiple entities or abstract concepts",
+    "examples of numeric values in real-world contexts",
+    "unique or less common entities and locations"
+  ],
+  "overrepresented_modes": [
+    "informal comparisons using 'better' or 'who is better'",
+    "concise lists of entities or locations",
+    "definitions that follow a standard template"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more complex and varied sentence structures, especially in comparison scenarios.",
+    "Include prompts for unique or less common examples in each category to enhance diversity.",
+    "Vary the phrasing used in definitions and lists to avoid repetitive structures."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

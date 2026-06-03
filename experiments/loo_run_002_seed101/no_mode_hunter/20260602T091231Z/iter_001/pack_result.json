@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "repeated structure of expressing a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory phrases to convey frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar rhythm in sentence length and complexity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'i can't' or 'i'm trying to' as openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common themes of app issues and account access problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't believe this!",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm trying to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i received an item",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing frustration or issues with a service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i've been trying to understand' as an opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration regarding unclear processes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar vocabulary related to customer service issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i was wondering' or 'could you please assist me'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i would like to' or 'i am experiencing'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of 'can you assist me' or 'please confirm'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal phrasing and lack of punctuation in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in reporting problems (e.g., 'i changed my email and now...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite request structure (e.g., 'i would like to request', 'can you tell me')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'please' and 'help' as common requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about processes or policies",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with apps or items",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    }
+  ]
+}

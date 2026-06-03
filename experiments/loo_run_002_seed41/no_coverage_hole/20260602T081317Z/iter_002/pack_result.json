@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 5
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "informal tone with conversational language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler words like 'like' and 'so'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of 'what's going on?' or similar inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, blunt language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i've been a customer for years...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on timeframes (e.g., '24h', '4 days')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal greetings like 'hi team'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and structured format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms like 'api', 'rate limit', 'checkout'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific details and context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations in phrasing that maintain a formal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific scenarios or examples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about features or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of curiosity or hope",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a speculative manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i hope' and 'i want to make sure'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues or requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for information or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing issues or requests",
+      "n_pairs_observed": 1
+    }
+  ]
+}

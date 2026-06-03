@@ -1,0 +1,131 @@
+{
+  "pack_accuracy": 0.125,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "questions starting with 'what do i do if' or 'why doesn't'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in addressing issues with cards and transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive mention of exchange rate issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar phrasing regarding charges and transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what do i do if'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of 'why are/what do i do if/why did'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i see that my payment is still pending.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what should i do in this situation?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i just checked my account and saw a charge i didn't authorize.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what’s up with that?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i attempted to [action] with my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "my card [issue] and i've tried several times",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you please [request]?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i received the card [time frame] and was successful using it previously",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'why' to start questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i don't know what's wrong with my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have an odd payment in my statement",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are the steps to get my card back",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a fee came along with me paying with card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think that my card has been stolen",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "payment done with my card which i definitely did not do",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i have a payment i didn't make on my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "why are all my card payments being declined?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

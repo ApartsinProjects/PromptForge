@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a strong presence of positive sentiments and a limited variety of styles, particularly leaning towards informal and poetic expressions. There is noticeable redundancy in phrasing and sentence structure, especially in positive reviews.",
+  "missing_modes": [
+    "A formal negative review that critiques pacing or visuals.",
+    "An informal negative review that discusses acting quality.",
+    "A sarcastic review that addresses any aspect of the film."
+  ],
+  "overrepresented_modes": [
+    "Positive reviews using informal language.",
+    "Concise positive statements about visuals and acting quality.",
+    "Poetic expressions in positive reviews."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied sentence structures and vocabulary, especially for negative reviews.",
+    "Include more edge cases, such as sarcastic or formal critiques, to enhance diversity.",
+    "Ensure that different aspects of the film are critiqued in unique ways to avoid redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

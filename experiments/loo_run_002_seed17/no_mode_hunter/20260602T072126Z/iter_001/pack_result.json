@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or unrelated details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual manner",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'hey' or similar informal greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "directly stating an issue or question without much elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of specific numerical details (e.g., '2 items', '5mb')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i [action] and now [result]')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of expressing disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or references to others' experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in expressing issues with the service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual language and informal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'hey' or similar openers",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration with a personal touch",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiry about a previous request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expression of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'i mean' or 'i was wondering if'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and filler words (e.g., 'like', 'so', 'lol')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disbelief",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and slang",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated sentence structures with variations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual openings like 'hey' or 'so'",
+      "n_pairs_observed": 1
+    }
+  ]
+}

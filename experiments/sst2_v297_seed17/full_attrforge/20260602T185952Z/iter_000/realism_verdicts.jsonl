@@ -1,0 +1,21 @@
+{"sample_id":"target_00008","prediction":"real","confidence":0.9,"reason":"Formal review style; sophisticated vocabulary and structure."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.9,"reason":"Informal language; lacks the depth and structure of real samples."}
+{"sample_id":"target_00003","prediction":"real","confidence":0.85,"reason":"Formal critique; uses evocative language typical of professional reviews."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.8,"reason":"Enthusiastic and formal tone; aligns with the register of real samples."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.75,"reason":"Critical analysis; uses formal language and structure."}
+{"sample_id":"target_00015","prediction":"real","confidence":0.85,"reason":"Formal critique; sophisticated vocabulary and structure."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.8,"reason":"Formal review style; concise and analytical."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.75,"reason":"Formal critique; uses analytical language."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.8,"reason":"Formal critique; structured and analytical."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.9,"reason":"Casual tone; lacks the depth and structure of real samples."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.85,"reason":"Casual language; real samples are more formal and analytical."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.8,"reason":"Evocative language; aligns with the register of real samples."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.9,"reason":"Formal review style; uses sophisticated vocabulary."}
+{"sample_id":"target_00013","prediction":"real","confidence":0.85,"reason":"Formal critique; uses poetic language typical of professional reviews."}
+{"sample_id":"target_00006","prediction":"real","confidence":0.75,"reason":"Formal critique; structured and analytical."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; lacks the depth and structure of real samples."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.9,"reason":"Casual language; lacks the depth and structure of real samples."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.85,"reason":"Casual tone; lacks the depth and structure of real samples."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.9,"reason":"Informal language; lacks the depth and structure of real samples."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.9,"reason":"Casual tone; lacks the depth and structure of real samples."}

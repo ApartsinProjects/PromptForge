@@ -1,0 +1,13 @@
+""""""Generate realistic customer support messages that align with the requested intent and style, ensuring a broad range of scenarios and levels of difficulty. Focus on edge cases while avoiding common phrasing. The messages should reflect authentic user experiences, incorporating urgency and specificity. Include a mix of styles, such as emotional, fragmented, verbose, and concise, while maintaining clarity. Output a JSON object with the sample id, the text, and the attribute values.
+
+Forbidden phrasings:
+- 'I might have forgotten my log-in credentials'
+- 'I seem to have misplaced access to my account'
+- 'I’ve been wondering how to update my profile info'
+- 'Honestly, this is ridiculous'
+- 'I was hoping to get my money back'
+- "I feel like I'm going in circles over here"
+- "I can't believe how bad this is"
+- 'I tried resetting my password, but the email hasn’t arrived'
+
+Ensure the messages are concise to medium-length, avoiding ambiguity and noise. Aim for a balance of intents, including refund requests, technical issues, and general inquiries, while introducing varied sentence structures to minimize near-duplicates. The generated messages should feel authentic and reflect a wide range of customer experiences, including rare scenarios. Prioritize clarity and urgency in conveying the user's issue to enhance realism and engagement while ensuring a diverse representation of styles and tones."""""

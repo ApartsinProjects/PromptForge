@@ -1,0 +1,29 @@
+{
+  "summary": "The batch demonstrates a high coverage of attribute values, with a notable absence of certain intent types and scenario types. There are instances of near-duplicate phrasings and some overrepresented styles.",
+  "missing_modes": [
+    "refund_request with formal style",
+    "technical_problem with any style",
+    "complaint with informal style",
+    "general_question with fragmented style",
+    "rare scenario_type for refund_request"
+  ],
+  "overrepresented_modes": [
+    "informal style for refund_request",
+    "verbose style for complaints",
+    "medium ambiguity for account issues"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse intents, particularly technical_problem and complaint in various styles.",
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Reduce the frequency of informal and verbose styles to balance representation."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

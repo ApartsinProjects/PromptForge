@@ -1,0 +1,159 @@
+[
+  {
+    "condition": "full_attrforge",
+    "label": "full_attrforge",
+    "iterations": 3,
+    "samples_per_iteration": 16,
+    "total_samples": 48,
+    "wall_time_seconds": 933.3612134456635,
+    "final_prompt_version": 2,
+    "final_metrics": {
+      "iteration": 2.0,
+      "attribute_match_rate": 0.0625,
+      "discriminator_accuracy": 0.5625,
+      "synthetic_detection_rate": 0.5625,
+      "near_duplicate_rate": 0.25,
+      "combination_coverage": 1.0,
+      "entropy/intent": 0.954434002924965,
+      "entropy/difficulty": 0.8957541375001009,
+      "entropy/polarity_intensity": 0.9755307720176264,
+      "entropy/style": 0.7641913951834827,
+      "entropy/noise": 0.8980898459737487,
+      "entropy/scenario_type": 0.8521669194428305,
+      "coverage/intent": 1.0,
+      "coverage/difficulty": 1.0,
+      "coverage/polarity_intensity": 1.0,
+      "coverage/style": 1.0,
+      "coverage/noise": 1.0,
+      "coverage/scenario_type": 0.8333333333333334,
+      "pack_accuracy": 0.5,
+      "pack_confidence": 0.0,
+      "mode_seeking_ratio": 0.2560436965152337,
+      "text_distance_mean": 0.9529560956991008,
+      "banned_phrasings_total": 0.0,
+      "banned_phrasings_new": 0.0,
+      "coverage_classifier_auroc": 0.5
+    },
+    "per_iter_downstream": [
+      {
+        "accuracy": 0.5333333333333333,
+        "macro_f1": 0.5064629847238542,
+        "per_class_f1": {
+          "negative": 0.6216216216216216,
+          "positive": 0.3913043478260869
+        },
+        "per_class_support": {
+          "negative": 30,
+          "positive": 30
+        },
+        "confusion": {
+          "negative": {
+            "negative": 23,
+            "positive": 7
+          },
+          "positive": {
+            "negative": 21,
+            "positive": 9
+          }
+        },
+        "n_train": 16,
+        "n_test": 60,
+        "label_set": [
+          "negative",
+          "positive"
+        ],
+        "notes": "",
+        "iteration": 0
+      },
+      {
+        "accuracy": 0.5333333333333333,
+        "macro_f1": 0.5138888888888888,
+        "per_class_f1": {
+          "negative": 0.611111111111111,
+          "positive": 0.4166666666666667
+        },
+        "per_class_support": {
+          "negative": 30,
+          "positive": 30
+        },
+        "confusion": {
+          "negative": {
+            "negative": 22,
+            "positive": 8
+          },
+          "positive": {
+            "negative": 20,
+            "positive": 10
+          }
+        },
+        "n_train": 16,
+        "n_test": 60,
+        "label_set": [
+          "negative",
+          "positive"
+        ],
+        "notes": "",
+        "iteration": 1
+      },
+      {
+        "accuracy": 0.5,
+        "macro_f1": 0.36079545454545453,
+        "per_class_f1": {
+          "negative": 0.6590909090909091,
+          "positive": 0.0625
+        },
+        "per_class_support": {
+          "negative": 30,
+          "positive": 30
+        },
+        "confusion": {
+          "negative": {
+            "negative": 29,
+            "positive": 1
+          },
+          "positive": {
+            "negative": 29,
+            "positive": 1
+          }
+        },
+        "n_train": 16,
+        "n_test": 60,
+        "label_set": [
+          "negative",
+          "positive"
+        ],
+        "notes": "",
+        "iteration": 2
+      }
+    ],
+    "final_downstream": {
+      "accuracy": 0.5833333333333334,
+      "macro_f1": 0.5628096764791606,
+      "per_class_f1": {
+        "negative": 0.6575342465753425,
+        "positive": 0.46808510638297873
+      },
+      "per_class_support": {
+        "negative": 30,
+        "positive": 30
+      },
+      "confusion": {
+        "negative": {
+          "negative": 24,
+          "positive": 6
+        },
+        "positive": {
+          "negative": 19,
+          "positive": 11
+        }
+      },
+      "n_train": 48,
+      "n_test": 60,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": ""
+    }
+  }
+]

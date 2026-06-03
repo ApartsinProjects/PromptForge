@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "exclamatory statements expressing urgency or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the recipient for clarification or advice",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language indicating stress or concern",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure in inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i noticed a charge on my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help me figure it out?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i do not recognize",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please provide details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really worried and confused",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i’m so stressed right now",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing worry or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or situations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions (e.g., stressed, worried)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'why'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of elaboration or detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of emotional language (e.g., 'frustrating', 'worried', 'perplexed')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of stress or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'could you please' as a repeated opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the recipient",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of anxiety or worry",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of card-related issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite requests for information",
+      "n_pairs_observed": 1
+    }
+  ]
+}

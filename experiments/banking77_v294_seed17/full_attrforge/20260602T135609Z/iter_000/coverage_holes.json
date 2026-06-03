@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Why is the exchange rate on my card wrong?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7721935783338923
+    },
+    {
+      "text": "My card has been stolen what do I do?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7668953643340803
+    },
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7639567272121357
+    },
+    {
+      "text": "I bough an item and the exchange rate was incorrect.",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7512780399515642
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,24 @@
+{"sample_id":"target_00035","prediction":"real","confidence":0.9,"reason":"Natural expression of frustration, informal language, and personal touch."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a browser, casual tone."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Detailed description of a specific problem, informal language."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"Direct complaint about service delay, informal tone."}
+{"sample_id":"R029","prediction":"real","confidence":0.75,"reason":"Simple inquiry, straightforward language."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"Personal account of a shipping issue, emotional tone."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.7,"reason":"Overly polished and structured, lacks real-world noise."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Concise complaint about missing item, informal."}
+{"sample_id":"R027","prediction":"real","confidence":0.8,"reason":"Simple question about discounts, casual tone."}
+{"sample_id":"target_00036","prediction":"synthetic","confidence":0.65,"reason":"Polished language and structure, feels scripted."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"Specific technical request, informal language."}
+{"sample_id":"R016","prediction":"real","confidence":0.9,"reason":"Direct complaint about service issue, informal."}
+{"sample_id":"target_00042","prediction":"real","confidence":0.8,"reason":"Personal account of account access issue, informal."}
+{"sample_id":"R019","prediction":"real","confidence":0.85,"reason":"Direct complaint about product, emotional tone."}
+{"sample_id":"R023","prediction":"real","confidence":0.8,"reason":"Long-term customer complaint, emotional language."}
+{"sample_id":"target_00038","prediction":"real","confidence":0.9,"reason":"Simple refund request, informal language."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.6,"reason":"Formal structure and language, lacks personal touch."}
+{"sample_id":"R020","prediction":"real","confidence":0.85,"reason":"Emotional complaint about service, informal."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"Specific technical issue, casual tone."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.7,"reason":"Polished language, feels overly structured."}
+{"sample_id":"target_00045","prediction":"synthetic","confidence":0.65,"reason":"Generic question, lacks personal context."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific technical issue, informal language."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.8,"reason":"Personal account of refund issue, informal."}
+{"sample_id":"R008","prediction":"real","confidence":0.85,"reason":"Specific technical issue, casual tone."}

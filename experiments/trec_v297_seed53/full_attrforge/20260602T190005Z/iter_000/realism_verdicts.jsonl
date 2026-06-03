@@ -1,0 +1,23 @@
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.8,"reason":"casual question format; real samples are more formal and analytical."}
+{"sample_id":"target_00011","prediction":"synthetic","confidence":0.9,"reason":"casual comparison; real samples are more formal and structured."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.7,"reason":"simple factual question; real samples are more complex and analytical."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.85,"reason":"formal inquiry into complex concepts; aligns with analytical style of real samples."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.8,"reason":"informal phrasing; real samples are more formal."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.75,"reason":"formal exploration of cognitive concepts; aligns with analytical style."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.8,"reason":"formal philosophical inquiry; matches the analytical tone of real samples."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.7,"reason":"simple factual request; real samples are more complex."}
+{"sample_id":"target_00005","prediction":"synthetic","confidence":0.6,"reason":"basic literary question; real samples are more analytical."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.9,"reason":"simple factual question; lacks complexity of real samples."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.8,"reason":"informal request for information; real samples are more formal."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.85,"reason":"casual comparison; real samples are more formal and analytical."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.8,"reason":"simple comparative question; lacks depth of real samples."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.9,"reason":"basic geographical question; real samples are more complex."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.8,"reason":"formal scientific inquiry; aligns with analytical style of real samples."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.9,"reason":"simple abbreviation question; lacks complexity of real samples."}
+{"sample_id":"target_00012","prediction":"synthetic","confidence":0.85,"reason":"informal comparison; real samples are more formal."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.8,"reason":"casual comparison; real samples are more formal and analytical."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.75,"reason":"formal inquiry into renewable energy; aligns with analytical style."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.9,"reason":"simple request for information; lacks complexity of real samples."}
+{"sample_id":"target_00015","prediction":"synthetic","confidence":0.85,"reason":"informal phrasing; real samples are more formal."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.9,"reason":"basic mathematical question; lacks complexity of real samples."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.85,"reason":"simple comparative question; lacks depth of real samples."}

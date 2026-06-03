@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity across various intents and styles; however, there are notable patterns in phrasing and structure that indicate a lack of nuanced variation, particularly in the way questions are framed. Several texts also rely on similar constructions, leading to redundancy in expression.",
+  "missing_modes": [
+    "Examples of rare or edge case scenarios, such as unique historical events or uncommon scientific concepts.",
+    "More informal or conversational styles that could appeal to a younger audience or casual learners."
+  ],
+  "overrepresented_modes": [
+    "Questions starting with 'Could you elaborate on...' or 'Can you tell me about...' which create a repetitive structure.",
+    "The use of 'What is...' or 'How many...' for definitions and numeric inquiries, leading to a formulaic approach."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that utilize a wider variety of question structures and phrasings.",
+    "Incorporate prompts that ask for examples of less common or more complex scenarios to enhance nuance.",
+    "Explore different styles of questioning, such as rhetorical questions or hypothetical scenarios, to diversify the text outputs."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

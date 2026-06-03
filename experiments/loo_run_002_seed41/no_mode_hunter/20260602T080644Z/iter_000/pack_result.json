@@ -1,0 +1,159 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "exclamatory sentences expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases like 'i need help' or 'this is so frustrating'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings like 'hey there!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamation marks for emphasis",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the company",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "personal anecdotes or mixed feelings about products/services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive emotional expression (e.g., frustration, tiredness)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and slang (e.g., 'ur', 'like')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated phrases indicating dissatisfaction (e.g., 'not satisfied', 'poor service')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions directed at the company for explanations or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings (e.g., 'hey', 'hello', 'hey there!')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of account issues and login problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases (e.g., 'like', 'so')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical issues as a complaint (e.g., app not opening, checkout issues)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and lack of punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on issues with orders or accounts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and abrupt sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific references to order details or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am unable to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am very frustrated",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can someone please explain",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i expected much better service",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this has happened multiple times",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am totally not satisfied",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "it's just not what i was promised",
+      "n_pairs_observed": 1
+    }
+  ]
+}

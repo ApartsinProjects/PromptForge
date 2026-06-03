@@ -1,0 +1,24 @@
+{"sample_id":"R082","prediction":"real","confidence":0.9,"reason":"Direct inquiry about payment status; matches informal register of real samples."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.8,"reason":"Casual greeting and phrasing; real samples are more direct and urgent."}
+{"sample_id":"R050","prediction":"real","confidence":0.85,"reason":"Urgent request for help; matches the informal register of real samples."}
+{"sample_id":"R071","prediction":"real","confidence":0.9,"reason":"Direct statement of concern; aligns with the informal tone of real samples."}
+{"sample_id":"R062","prediction":"real","confidence":0.85,"reason":"Casual inquiry about card decline; fits the informal register."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Casual phrasing; real samples are more straightforward."}
+{"sample_id":"R032","prediction":"real","confidence":0.9,"reason":"Direct statement about an unauthorized payment; matches informal register."}
+{"sample_id":"R049","prediction":"real","confidence":0.85,"reason":"Direct question about exchange rate; aligns with informal tone."}
+{"sample_id":"R064","prediction":"real","confidence":0.9,"reason":"Simple inquiry about card decline; fits the informal register."}
+{"sample_id":"R038","prediction":"real","confidence":0.85,"reason":"Concern about unauthorized purchase; matches informal style."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"Inquiry about card delivery; aligns with informal register."}
+{"sample_id":"R070","prediction":"real","confidence":0.9,"reason":"Direct question about lost card; fits informal tone."}
+{"sample_id":"R011","prediction":"real","confidence":0.85,"reason":"Description of card issues; matches informal register."}
+{"sample_id":"R042","prediction":"real","confidence":0.8,"reason":"Statement about incorrect exchange rate; aligns with informal style."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing; real samples are more direct."}
+{"sample_id":"R098","prediction":"real","confidence":0.85,"reason":"Direct statement about app denial; matches informal register."}
+{"sample_id":"R076","prediction":"real","confidence":0.9,"reason":"Concern about stolen card; aligns with informal tone."}
+{"sample_id":"R025","prediction":"real","confidence":0.85,"reason":"Inquiry about card fee; fits informal register."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Simple statement about card delivery; matches informal style."}
+{"sample_id":"R083","prediction":"real","confidence":0.85,"reason":"Direct question about payment status; aligns with informal register."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing; real samples are more direct."}
+{"sample_id":"R066","prediction":"real","confidence":0.85,"reason":"Statement about card issues; matches informal register."}
+{"sample_id":"R030","prediction":"real","confidence":0.9,"reason":"Concern about unauthorized payment; aligns with informal tone."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.6,"reason":"Polished and formal tone; real samples are more urgent and direct."}

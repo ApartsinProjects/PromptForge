@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a high degree of surface-level diversity with varied intents and styles, but there is significant redundancy in phrasing, particularly with sarcastic comments and negative evaluations. The scenario types are mostly covered, but 'pacing' and 'story_plot' could benefit from more nuanced expressions.",
+  "missing_modes": [
+    "A positive review that highlights pacing as a strong point.",
+    "A negative review that uses a formal style to critique acting quality without sarcasm.",
+    "An informal review that praises visuals without clichés."
+  ],
+  "overrepresented_modes": [
+    "Sarcastic remarks, especially in negative reviews.",
+    "Negative evaluations of visuals and acting quality using similar structures."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied expressions for negative feedback, particularly avoiding sarcasm.",
+    "Include more positive reviews that utilize different styles and focus on less commonly critiqued aspects like pacing or emotional depth.",
+    "Diversify the vocabulary used in both positive and negative reviews to reduce redundancy."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

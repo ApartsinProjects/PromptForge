@@ -1,0 +1,24 @@
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Casual language and specific issue indicate a real user experience."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.7,"reason":"Overly polished and structured; lacks personal touch."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"Direct complaint with a specific issue suggests a real user."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.6,"reason":"Casual language but feels overly structured and generic."}
+{"sample_id":"target_00043","prediction":"real","confidence":0.8,"reason":"Detailed description of a technical issue indicates a real user."}
+{"sample_id":"R001","prediction":"real","confidence":0.9,"reason":"Specific request for a correction suggests a real user experience."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.65,"reason":"Conversational tone but lacks depth and specificity."}
+{"sample_id":"target_00047","prediction":"synthetic","confidence":0.7,"reason":"Casual language but feels generic and lacks real-world noise."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing and structure suggest a synthetic origin."}
+{"sample_id":"R026","prediction":"real","confidence":0.8,"reason":"Specific inquiry about outages indicates a real user."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Technical issue with specific details suggests a real user."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct complaint about an order indicates a real user."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Frustrated tone and specific complaint suggest a real user."}
+{"sample_id":"R016","prediction":"real","confidence":0.85,"reason":"Specific issue with two-factor authentication indicates a real user."}
+{"sample_id":"R025","prediction":"real","confidence":0.8,"reason":"Inquiry about future options suggests a real user."}
+{"sample_id":"R028","prediction":"real","confidence":0.8,"reason":"Specific question about product tiers indicates a real user."}
+{"sample_id":"target_00037","prediction":"synthetic","confidence":0.6,"reason":"Casual language but feels overly structured and lacks depth."}
+{"sample_id":"target_00042","prediction":"synthetic","confidence":0.5,"reason":"Overly detailed and polished; lacks real-world noise."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with email verification suggests a real user."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Direct request for a refund indicates a real user."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Specific complaint about shipping delay suggests a real user."}
+{"sample_id":"R007","prediction":"real","confidence":0.85,"reason":"Technical issue with specific details indicates a real user."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific request for a refund indicates a real user."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct request for a refund indicates a real user."}

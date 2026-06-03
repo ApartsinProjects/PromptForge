@@ -1,0 +1,131 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 3
+    },
+    {
+      "pattern": "lack of detailed context or emotional expression",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i recently noticed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i thought",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what’s going on?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "clarify this matter",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "confusing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of asking about pending payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar vocabulary related to card issues and transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'i' at the beginning of multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with questions about payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and emotional appeals",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements about issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with minimal variation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card charges or fees",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of card payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of similar sentence structures (e.g., 'i [verb] with card and [result]')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of the word 'pending'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or anxiety about payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or explanation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of similar sentence structures (e.g., starting with 'i was' or 'i'm really')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetition of themes related to unexpected charges or delays",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i seem to have misplaced my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm really confused about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i tried to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what can i do?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

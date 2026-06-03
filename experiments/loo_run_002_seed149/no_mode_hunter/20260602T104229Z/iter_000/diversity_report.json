@@ -1,0 +1,19 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a comprehensive coverage of the attribute schema, with no missing modes or overrepresented modes. However, there are instances of near-duplicate phrasings and shallow paraphrases that could be improved for greater diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.2,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Introduce more edge case scenarios to enhance diversity.",
+    "Consider varying the emotional tone across different intents to avoid similarity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

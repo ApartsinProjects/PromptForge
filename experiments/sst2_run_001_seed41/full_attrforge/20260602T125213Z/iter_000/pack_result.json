@@ -1,0 +1,103 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8666666666666667,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "short, fragmented phrases",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "this movie is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "feels like",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "fails to deliver",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "stumbles through",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of metaphorical language (e.g., 'meanders aimlessly', 'drift like forgotten dreams')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "descriptive phrases that convey strong opinions (e.g., 'stunningly bad performance', 'nothing short of mesmerizing')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency to use vivid imagery and emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the performances were nothing short of mesmerizing.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "overall, it's a decent movie that has its moments.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "like a book with pages torn, the plot stumbles through the hours without purpose.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i really felt something during that scene, you know?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "this movie drags on forever and feels like a chore to sit through.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of engaging and exciting descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and slang",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of sarcasm or humor",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of certain phrases or themes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "abstract descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conjunctions at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vocabulary that lacks depth and variation",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{"sample_id":"target_00040","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional critique."}
+{"sample_id":"target_00044","prediction":"synthetic","confidence":0.8,"reason":"Casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.85,"reason":"Formal critique; consistent with the identified register."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional critique."}
+{"sample_id":"target_00046","prediction":"real","confidence":0.85,"reason":"Formal critique; consistent with the identified register."}
+{"sample_id":"target_00043","prediction":"synthetic","confidence":0.75,"reason":"Casual viewer voice; real samples are professional critic prose."}
+{"sample_id":"target_00036","prediction":"real","confidence":0.8,"reason":"Formal critique; aligns with the identified register."}
+{"sample_id":"target_00042","prediction":"real","confidence":0.85,"reason":"Formal review style; consistent with professional critique."}
+{"sample_id":"target_00039","prediction":"real","confidence":0.8,"reason":"Formal critique; aligns with the identified register."}
+{"sample_id":"target_00041","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional critique."}
+{"sample_id":"target_00034","prediction":"synthetic","confidence":0.7,"reason":"More poetic and less analytical; real samples are more straightforward."}
+{"sample_id":"target_00035","prediction":"synthetic","confidence":0.75,"reason":"Casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00037","prediction":"real","confidence":0.85,"reason":"Formal critique; aligns with the identified register."}
+{"sample_id":"target_00038","prediction":"synthetic","confidence":0.7,"reason":"Casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00033","prediction":"real","confidence":0.8,"reason":"Formal critique; aligns with the identified register."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.9,"reason":"Formal review style; aligns with professional critique."}

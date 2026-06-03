@@ -1,0 +1,115 @@
+{
+  "pack_accuracy": 0.6666666666666666,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "repetitive sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "the film's [adjective] [noun] [verb] [adverb]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film [verb] [adverb] [noun] that [verb] the audience [adverb]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film's [noun] [verb] [adverb], [verb] a [noun] of [adjective] [noun] that [verb] a [adjective] [noun]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, fragmented phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and slang",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "negative descriptors without elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional depth in critiques",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the plot",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "aimlessly",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "deeply",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film's pacing is expertly crafted",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film masterfully weaves a captivating narrative",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the plot meanders aimlessly",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the film' as a subject opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on film critique",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film's [adjective] [noun] [verb phrase]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the [subject] [verb] [adverb] [adjective phrase]",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the film's' as a sentence opener",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abstract vocabulary and phrases like 'emotional depth', 'cohesion', and 'tapestry of feelings'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex emotional depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual slang",
+      "n_pairs_observed": 1
+    }
+  ]
+}

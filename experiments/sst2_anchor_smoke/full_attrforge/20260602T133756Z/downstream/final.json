@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.4375,
+  "macro_f1": 0.41700404858299595,
+  "per_class_f1": {
+    "negative": 0.5263157894736842,
+    "positive": 0.3076923076923077
+  },
+  "per_class_support": {
+    "negative": 8,
+    "positive": 8
+  },
+  "confusion": {
+    "negative": {
+      "negative": 5,
+      "positive": 3
+    },
+    "positive": {
+      "negative": 6,
+      "positive": 2
+    }
+  },
+  "n_train": 8,
+  "n_test": 16,
+  "label_set": [
+    "negative",
+    "positive"
+  ],
+  "notes": ""
+}

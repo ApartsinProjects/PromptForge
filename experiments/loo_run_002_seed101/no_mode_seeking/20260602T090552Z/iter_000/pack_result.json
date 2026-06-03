@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressing frustration or urgency",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'can you help?' or 'i'm really frustrated!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise requests for assistance or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical language related to specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of emotional expression or personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problem description",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and greetings (e.g., 'hey!', 'y’all', 'like')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration and requests for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated themes of account access issues and payment problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with apps or accounts",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of capitalization and punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise descriptions of problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite inquiries with excessive detail",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual greetings like 'hi there!' and 'hey!'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of urgency or need for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of filler phrases like 'i was just wondering' or 'i seem to have misplaced'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and concise requests",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about specific features or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complaints about delays or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and phrasing (e.g., 'hey, so like', 'help pls')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler words and phrases (e.g., 'just', 'anyway')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal greetings and expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'so like' and 'anyway'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more conversational sentences with multiple issues combined",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory sentences expressing strong emotions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual language and personal anecdotes included in technical issues",
+      "n_pairs_observed": 1
+    }
+  ]
+}

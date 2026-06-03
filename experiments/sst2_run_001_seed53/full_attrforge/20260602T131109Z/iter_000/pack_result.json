@@ -1,0 +1,99 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.9,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "use of exclamatory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'unexpectedly' or 'surprisingly'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a setup and a twist",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "casual conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'plot twists' in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of vague descriptors like 'lackluster' and 'substandard'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, punchy phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure with a focus on negative aspects",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and colloquialisms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the [subject] [verb] [adjective phrase], [additional commentary].",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the [subject] [verb] [adjective phrase], [contrast or additional observation].",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory phrases to emphasize points.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film's [adjective] is quite [adjective], albeit with some [adjective] moments.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "oh sure, the [noun] was so [adjective] it felt like [metaphor], but let's just call it '[adjective]'.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the performances were [adverb] [adjective], failing to convey the [noun] required for any [adjective] engagement.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional descriptors followed by a metaphor",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of casual language and phrases like 'hits you right in the feels'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "contrasting opinions within a single sentence",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exaggerated expressions of sentiment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of emotional descriptors like 'heart heavy' and 'warm fuzzy feeling'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with 'the performances were' or 'the film's'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of vague emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases like 'engaging' and 'depth required'",
+      "n_pairs_observed": 1
+    }
+  ]
+}

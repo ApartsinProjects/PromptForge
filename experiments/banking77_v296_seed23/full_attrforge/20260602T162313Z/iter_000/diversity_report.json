@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with varied intents and styles; however, there are notable patterns in phrasing and sentence structure that lead to nuance-level redundancy. Several texts utilize similar constructions, particularly in expressing confusion or requests for assistance.",
+  "missing_modes": [
+    "Formal inquiries about card handling with specific details",
+    "Casual expressions of frustration regarding transaction issues",
+    "Concise requests for clarification on fees or charges"
+  ],
+  "overrepresented_modes": [
+    "Fragmented and informal styles in expressing confusion",
+    "Emotional responses to card issues, particularly in lost or stolen scenarios",
+    "Verbose inquiries about card arrival and payment discrepancies"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of texts that incorporate more varied sentence structures and vocabulary to express similar intents.",
+    "Include more formal and concise styles for inquiries, especially regarding transaction issues and card handling.",
+    "Introduce scenarios that involve specific details or unique circumstances to reduce redundancy in phrasing."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

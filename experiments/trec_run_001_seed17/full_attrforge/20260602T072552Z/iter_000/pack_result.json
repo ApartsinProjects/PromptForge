@@ -1,0 +1,103 @@
+{
+  "pack_accuracy": 0.8333333333333334,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "questions starting with 'how' or 'what'",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "how does ... compare to ...?",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "complexity and length of questions vary significantly",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal and academic vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific details and requests for comprehensive information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the abbreviation for ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of specific names or terms (e.g., 'michelangelo', 'chapter 11 bankruptcy')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of a factual inquiry format",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "varied topics but consistent question structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "which cities are",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you provide a comprehensive list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some cool facts about",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'can you' or 'which'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific and detailed inquiries",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of asking for lists or explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone and vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you provide a comprehensive list of...",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the capital city of ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is ... located?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please tell me who is ...?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many texts utilize similar constructions, leading to a lack of nuanced diversity despite label-level coverage.",
+  "missing_modes": [
+    "More complex comparisons that require multi-faceted reasoning or synthesis of information.",
+    "Examples of informal or conversational definitions that engage the reader more personally.",
+    "Unique scenarios that blend multiple intents, such as asking for a comparison of abstract concepts with real-world applications."
+  ],
+  "overrepresented_modes": [
+    "Concise questions that follow a similar structure (e.g., 'What is...?', 'Who is...?').",
+    "Verbose definitions that often include unnecessary details without adding depth to the explanation.",
+    "High ambiguity questions that tend to use stock phrases or common templates."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that require deeper analysis or synthesis of information rather than straightforward comparisons.",
+    "Incorporate more varied sentence structures and vocabulary to reduce redundancy in phrasing.",
+    "Introduce scenarios that blend multiple intents to create richer, more complex queries."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

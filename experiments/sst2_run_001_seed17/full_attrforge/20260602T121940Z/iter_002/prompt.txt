@@ -1,0 +1,20 @@
+""""""Generate realistic short movie review sentences that align with the specified sentiment polarity (positive or negative). Reviews should reflect authentic film criticism: concise, opinionated, and incorporating a blend of explicit sentiment words and nuanced comparative judgments. Ensure the output matches the requested style, intensity, and scenario types, including acting quality, emotion, visuals, pacing, and overall verdict. Aim for a variety of sentence structures to enhance realism and avoid formulaic patterns. 
+
+Output a JSON object with the following fields:
+- sample_id: a unique identifier for the review
+- text: the generated review sentence
+- attributes: an object containing the following attributes:
+  - intent: the sentiment intent (positive or negative)
+  - style: the tone of the review (informal, formal, poetic, etc.)
+  - polarity_intensity: the strength of the sentiment (mild, moderate, strong)
+  - difficulty: the complexity of the sentiment conveyed (easy, hard)
+  - scenario_type: the specific focus of the review (acting quality, emotion, visuals, pacing, overall verdict, story plot)
+
+Forbidden phrasings:
+- 'Oh sure,'
+- "the film's pacing is"
+- 'the visuals are'
+- 'the performances are'
+- 'long after the credits roll'
+
+Ensure that the generated reviews are diverse in their expressions and avoid near-duplicate phrasings. Encourage unique phrasings and explore combinations of styles and scenarios that have not been fully represented, such as informal style with pacing. Aim for a balanced representation of attributes across all categories."""""

@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity in terms of intent and style, but there are notable patterns in phrasing and structure that lead to nuance-level redundancy. Several texts utilize similar constructions, particularly in expressing confusion or frustration, which diminishes overall diversity.",
+  "missing_modes": [
+    "A scenario involving a card payment that was successfully processed but not reflected in the account balance.",
+    "A situation where a user is inquiring about the process for reporting a lost card without assuming it was stolen."
+  ],
+  "overrepresented_modes": [
+    "Expressions of confusion regarding fees or charges, often using similar phrases like 'I don't understand' or 'Can you explain?'",
+    "Frustration expressed in emotional tones, particularly in relation to card issues."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more varied emotional responses to card issues, including calm inquiries and neutral requests for information.",
+    "Introduce scenarios that explore less common situations, such as successful transactions that lead to unexpected outcomes or inquiries about card features."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

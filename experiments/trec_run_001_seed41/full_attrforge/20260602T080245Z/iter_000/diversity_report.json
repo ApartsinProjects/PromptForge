@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, difficulties, ambiguities, styles, and scenario types. However, there are some missing noise categories and a notable presence of typos across multiple entries.",
+  "missing_modes": [
+    "missing_details",
+    "irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "typos"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Ensure to include examples with 'missing_details' noise to enhance diversity.",
+    "Reduce the frequency of typos by refining the generation process.",
+    "Encourage the generation of more edge cases or rare scenarios to improve coverage."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

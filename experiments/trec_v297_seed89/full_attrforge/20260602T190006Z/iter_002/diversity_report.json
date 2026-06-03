@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high degree of redundancy in phrasing and structure, particularly with the use of fragmented styles and similar question constructions. There is a notable lack of nuanced diversity in the way concepts are presented, leading to near-duplicate phrasings.",
+  "missing_modes": [
+    "More varied sentence structures and vocabulary to enhance engagement.",
+    "Inclusion of edge cases or rare examples to broaden the scope of responses."
+  ],
+  "overrepresented_modes": [
+    "Fragmented style with similar question formats, such as 'What are the key traits...' or 'Can you provide a detailed explanation...'.",
+    "Use of 'Could you...' as a common phrase to initiate questions."
+  ],
+  "near_duplicate_rate": 0.35,
+  "recommendations": [
+    "Encourage the generation of responses that utilize a wider variety of sentence structures and vocabulary.",
+    "Incorporate prompts that specifically request unique examples or perspectives to avoid redundancy.",
+    "Introduce more informal and conversational styles to balance the formal and verbose responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

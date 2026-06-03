@@ -1,0 +1,24 @@
+{"sample_id":"target_00052","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00066","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00060","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00071","prediction":"synthetic","confidence":0.95,"reason":"grammatical error and informal tone; real samples are formal."}
+{"sample_id":"target_00051","prediction":"real","confidence":0.85,"reason":"detailed and formal inquiry; aligns with the complex style of real samples."}
+{"sample_id":"target_00056","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00065","prediction":"real","confidence":0.8,"reason":"formal inquiry with depth; aligns with the complex style of real samples."}
+{"sample_id":"target_00057","prediction":"synthetic","confidence":0.95,"reason":"informal language and tone; real samples are formal."}
+{"sample_id":"target_00053","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00049","prediction":"real","confidence":0.75,"reason":"formal inquiry with specificity; aligns with the complex style of real samples."}
+{"sample_id":"target_00064","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00061","prediction":"synthetic","confidence":0.95,"reason":"informal tone and vague inquiry; real samples are formal."}
+{"sample_id":"target_00062","prediction":"real","confidence":0.85,"reason":"detailed and formal inquiry; aligns with the complex style of real samples."}
+{"sample_id":"target_00050","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00058","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00055","prediction":"real","confidence":0.8,"reason":"formal inquiry with depth; aligns with the complex style of real samples."}
+{"sample_id":"target_00059","prediction":"real","confidence":0.75,"reason":"formal inquiry with specificity; aligns with the complex style of real samples."}
+{"sample_id":"target_00072","prediction":"synthetic","confidence":0.9,"reason":"simple question format; real samples are more complex and detailed."}
+{"sample_id":"target_00068","prediction":"real","confidence":0.8,"reason":"formal inquiry with depth; aligns with the complex style of real samples."}
+{"sample_id":"target_00054","prediction":"real","confidence":0.75,"reason":"formal inquiry with specificity; aligns with the complex style of real samples."}
+{"sample_id":"target_00069","prediction":"real","confidence":0.85,"reason":"detailed and formal inquiry; aligns with the complex style of real samples."}
+{"sample_id":"target_00070","prediction":"synthetic","confidence":0.95,"reason":"informal language and tone; real samples are formal."}
+{"sample_id":"target_00063","prediction":"synthetic","confidence":0.9,"reason":"grammatical error and informal tone; real samples are formal."}
+{"sample_id":"target_00067","prediction":"real","confidence":0.85,"reason":"detailed and formal inquiry; aligns with the complex style of real samples."}

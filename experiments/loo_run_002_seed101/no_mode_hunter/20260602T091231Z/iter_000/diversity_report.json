@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates good coverage across most attributes, but there are some missing noise types and a notable presence of irrelevant details in several samples. Additionally, there are instances of near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "contradiction",
+    "clean"
+  ],
+  "overrepresented_modes": [
+    "irrelevant_details"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with 'contradiction' noise to enhance diversity.",
+    "Reduce the frequency of 'irrelevant_details' in the generated samples to improve clarity.",
+    "Implement stricter guidelines to avoid near-duplicate phrasings in the text excerpts."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.8,
+    "scenario_type": 1.0
+  }
+}

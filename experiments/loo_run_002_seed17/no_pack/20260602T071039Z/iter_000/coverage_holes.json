@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6428464239502211
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6390564361517627
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6323631377962914
+    },
+    {
+      "text": "I've been a customer for years and this is by far the worst experience. Cancel my plan.",
+      "label": "complaint",
+      "p_real": 0.631430770295761
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

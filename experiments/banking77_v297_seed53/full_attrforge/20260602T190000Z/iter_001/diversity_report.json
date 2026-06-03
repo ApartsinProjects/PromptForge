@@ -1,0 +1,28 @@
+{
+  "summary": "The batch exhibits a good range of intents and scenarios, but there is significant redundancy in phrasing and surface patterns, particularly in the emotional and verbose styles. Several texts also share similar sentence structures, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "formal concise",
+    "informal concise",
+    "informal emotional",
+    "formal fragmented"
+  ],
+  "overrepresented_modes": [
+    "verbose",
+    "emotional",
+    "fragmented"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique sentence structures and vocabulary, especially in the formal and concise styles.",
+    "Introduce prompts that specifically request variations in emotional expression and tone to reduce redundancy.",
+    "Ensure that edge cases and less common scenarios are included to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

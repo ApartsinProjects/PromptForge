@@ -1,0 +1,24 @@
+{"sample_id":"target_00026","prediction":"real","confidence":0.9,"reason":"Casual language and informal phrasing suggest a genuine user inquiry."}
+{"sample_id":"target_00027","prediction":"real","confidence":0.85,"reason":"Simple structure and directness indicate a real user experience."}
+{"sample_id":"target_00018","prediction":"real","confidence":0.95,"reason":"Informal tone and conversational style suggest authenticity."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Casual language and emotional expression indicate a real user concern."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"Personal experience and informal tone suggest a genuine user issue."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.7,"reason":"Overly formal language and structured request feel less authentic."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.8,"reason":"Very formal and detailed inquiry lacks the typical noise of real user communication."}
+{"sample_id":"R012","prediction":"real","confidence":0.85,"reason":"Direct and urgent tone suggests a real user issue."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Casual phrasing and urgency indicate a genuine user complaint."}
+{"sample_id":"R010","prediction":"real","confidence":0.9,"reason":"Informal language and specific details suggest a real user experience."}
+{"sample_id":"target_00025","prediction":"real","confidence":0.95,"reason":"Emotional expression and personal experience indicate authenticity."}
+{"sample_id":"R028","prediction":"synthetic","confidence":0.75,"reason":"Generic inquiry lacks personal touch and real-world context."}
+{"sample_id":"R014","prediction":"real","confidence":0.85,"reason":"Direct and concise language suggests a real user issue."}
+{"sample_id":"R026","prediction":"synthetic","confidence":0.7,"reason":"Formal structure and lack of personal context feel less authentic."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct complaint with specific details indicates a real user issue."}
+{"sample_id":"R029","prediction":"synthetic","confidence":0.75,"reason":"Generic inquiry lacks personal context and emotional engagement."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue suggests a real user experience."}
+{"sample_id":"R024","prediction":"synthetic","confidence":0.7,"reason":"Formal tone and structured inquiry feel less authentic."}
+{"sample_id":"R004","prediction":"real","confidence":0.9,"reason":"Direct complaint with specific details indicates a real user issue."}
+{"sample_id":"R020","prediction":"real","confidence":0.95,"reason":"Emotional expression and urgency suggest a genuine user complaint."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"Frustration and specific details indicate a real user experience."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Direct and urgent tone suggests a real user issue."}
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct complaint with emotional engagement indicates authenticity."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Specific technical issue and informal tone suggest a real user experience."}

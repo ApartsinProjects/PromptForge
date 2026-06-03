@@ -1,0 +1,24 @@
+{"sample_id":"target_00015","prediction":"real","confidence":0.9,"reason":"Formal inquiry into scientific theory; aligns with academic discourse."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.8,"reason":"Casual question about a singer; real samples are more formal."}
+{"sample_id":"target_00002","prediction":"real","confidence":0.85,"reason":"Formal request for comprehensive information; aligns with academic style."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.75,"reason":"Informal phrasing; real samples are more structured."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.7,"reason":"Casual inquiry about trees; real samples are more formal."}
+{"sample_id":"target_00007","prediction":"real","confidence":0.8,"reason":"Formal question regarding scientific measurement; aligns with academic discourse."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.8,"reason":"Formal comparison of species; aligns with academic inquiry."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.9,"reason":"Complex philosophical inquiry; aligns with academic writing."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing about a landmark; real samples are more formal."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.85,"reason":"Formal request for biographical information; aligns with academic style."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.8,"reason":"Formal comparison of population figures; aligns with academic inquiry."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.9,"reason":"Complex inquiry into philosophical concepts; aligns with academic writing."}
+{"sample_id":"target_00004","prediction":"synthetic","confidence":0.75,"reason":"Informal question about memes; real samples are more formal."}
+{"sample_id":"target_00016","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing about a fictional character; real samples are more formal."}
+{"sample_id":"target_00023","prediction":"real","confidence":0.8,"reason":"Formal inquiry into influential figures; aligns with academic style."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.8,"reason":"Formal comparison of climates; aligns with academic inquiry."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.8,"reason":"Formal comparison of climates; aligns with academic inquiry."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.7,"reason":"Casual inquiry about a celebrity; real samples are more formal."}
+{"sample_id":"target_00014","prediction":"synthetic","confidence":0.75,"reason":"Casual phrasing about landmarks; real samples are more formal."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.85,"reason":"Complex inquiry into consciousness; aligns with academic writing."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.8,"reason":"Formal comparison of climates; aligns with academic inquiry."}
+{"sample_id":"target_00001","prediction":"synthetic","confidence":0.7,"reason":"Casual phrasing about cities; real samples are more formal."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.75,"reason":"Informal question about prime numbers; real samples are more formal."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.8,"reason":"Informal inquiry about texting abbreviations; real samples are more formal."}

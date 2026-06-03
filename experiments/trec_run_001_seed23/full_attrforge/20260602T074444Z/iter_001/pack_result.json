@@ -1,0 +1,107 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.8916666666666666,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "informal language and conversational tone",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "what does <acronym> stand for ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who <verb> the <noun> ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is <place> located ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'you know' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that include qualifiers such as 'you know' or 'and stuff'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on contemporary or popular topics",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of filler phrases like 'like' and 'you know'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that include qualifiers or hedging phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vague or abstract phrasing in questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what’s the name of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what defines a person's",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you provide a list of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the full form of",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "approximately how many ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what is the ... of ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what was the name of ...?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what does ... stand for ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what 's the abbreviation for ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what are some ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "who was known as ... ?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what ... is ... ?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

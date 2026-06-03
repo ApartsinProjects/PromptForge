@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.875,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i can't log in",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i am encountering an issue with",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed to the reader or support team",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of formal language and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations (e.g., 'asap', 'mfa')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of formal structure or greetings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "immediacy in tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't seem to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i've been trying to get help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing an issue where",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "express my frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "provide guidance on how to proceed",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite inquiries and suggestions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for information or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal tone and vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lengthy and complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formal and polite language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of phrases like 'i am experiencing' and 'i wanted to bring to your attention'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "excessive detail in describing issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of qualifiers like 'rather perplexing' and 'some confusion'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently changed my password",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i seem to get a strange message",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you assist me with this matter",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't seem to access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i received a different item than what i ordered",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i thought it was the password, but i reset it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you assist me with this matter?",
+      "n_pairs_observed": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{"sample_id":"R028","prediction":"real","confidence":0.9,"reason":"The question is specific and factual, typical of real inquiries."}
+{"sample_id":"R018","prediction":"real","confidence":0.85,"reason":"The phrasing is casual and contextually relevant, suggesting a real-world reference."}
+{"sample_id":"R010","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to biological characteristics, indicating a real inquiry."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.7,"reason":"The structure is overly formal and lacks the nuance of a typical historical question."}
+{"sample_id":"R044","prediction":"real","confidence":0.9,"reason":"The question is straightforward and factual, typical of real-world sports trivia."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"The question is specific and legal in nature, suggesting a real-world context."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a known individual, indicating a real inquiry."}
+{"sample_id":"R015","prediction":"real","confidence":0.8,"reason":"The question is specific to historical context, suggesting a real inquiry."}
+{"sample_id":"R030","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to historical events, indicating a real inquiry."}
+{"sample_id":"R040","prediction":"real","confidence":0.9,"reason":"The question is factual and scientific, typical of real-world inquiries."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to cultural artifacts, indicating a real inquiry."}
+{"sample_id":"R032","prediction":"synthetic","confidence":0.6,"reason":"The question is vague and lacks specificity, suggesting a synthetic origin."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"The question is specific to a known television show, indicating a real inquiry."}
+{"sample_id":"R016","prediction":"real","confidence":0.85,"reason":"The question is practical and relevant to child development, suggesting a real inquiry."}
+{"sample_id":"R037","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a known individual, indicating a real inquiry."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.75,"reason":"The question is complex and structured in a way that feels overly academic, suggesting synthetic."}
+{"sample_id":"R035","prediction":"real","confidence":0.8,"reason":"The question is specific to geography and tourism, indicating a real inquiry."}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a known individual, indicating a real inquiry."}
+{"sample_id":"R036","prediction":"real","confidence":0.85,"reason":"The question is specific and factual, typical of real-world inquiries."}
+{"sample_id":"R022","prediction":"real","confidence":0.85,"reason":"The question is specific to literature and historical context, indicating a real inquiry."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.7,"reason":"The question is overly complex and structured, lacking the nuance of a typical inquiry."}
+{"sample_id":"R021","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to cultural practices, indicating a real inquiry."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.75,"reason":"The question is complex and comparative, suggesting a synthetic origin."}
+{"sample_id":"R023","prediction":"real","confidence":0.8,"reason":"The question is specific to psychological terms, indicating a real inquiry."}

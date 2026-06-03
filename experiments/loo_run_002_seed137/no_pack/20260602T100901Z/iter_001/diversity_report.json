@@ -1,0 +1,24 @@
+{
+  "summary": "The batch exhibits a good variety of intents and difficulties, but there are notable gaps in the style attribute, particularly with the absence of 'informal' and 'concise' styles. Additionally, some scenarios are overrepresented, particularly those involving account issues.",
+  "missing_modes": [
+    "informal",
+    "concise"
+  ],
+  "overrepresented_modes": [
+    "fragmented",
+    "verbose"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more informal and concise styles to enhance diversity.",
+    "Ensure a balanced representation of scenario types, especially for account issues, to avoid overrepresentation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

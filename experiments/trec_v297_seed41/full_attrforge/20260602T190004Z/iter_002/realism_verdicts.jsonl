@@ -1,0 +1,24 @@
+{"sample_id":"target_00070","prediction":"real","confidence":0.9,"reason":"Formal inquiry about geographical positioning; matches academic style."}
+{"sample_id":"target_00050","prediction":"synthetic","confidence":0.8,"reason":"Simple factual question; lacks depth compared to real samples."}
+{"sample_id":"target_00064","prediction":"real","confidence":0.85,"reason":"In-depth question about historical achievements; aligns with academic inquiry."}
+{"sample_id":"target_00069","prediction":"real","confidence":0.9,"reason":"Complex question about historical figures; matches analytical style."}
+{"sample_id":"target_00068","prediction":"synthetic","confidence":0.75,"reason":"Vague and overly simplistic question; does not match the depth of real samples."}
+{"sample_id":"target_00056","prediction":"real","confidence":0.8,"reason":"Explains a concept with potential applications; fits academic style."}
+{"sample_id":"target_00059","prediction":"real","confidence":0.85,"reason":"Professional inquiry into project management; aligns with formal writing."}
+{"sample_id":"target_00063","prediction":"synthetic","confidence":0.7,"reason":"Basic question about a literary work; lacks analytical depth."}
+{"sample_id":"target_00065","prediction":"real","confidence":0.8,"reason":"Focused on industry achievements; matches professional inquiry."}
+{"sample_id":"target_00055","prediction":"synthetic","confidence":0.7,"reason":"Simple factual question; lacks complexity of real samples."}
+{"sample_id":"target_00062","prediction":"synthetic","confidence":0.75,"reason":"Basic definition question; does not match the analytical tone of real samples."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.9,"reason":"Detailed inquiry into historical significance; aligns with academic style."}
+{"sample_id":"target_00054","prediction":"real","confidence":0.85,"reason":"Comparative analysis of climate data; fits formal inquiry."}
+{"sample_id":"target_00071","prediction":"synthetic","confidence":0.65,"reason":"Basic comparison question; lacks depth compared to real samples."}
+{"sample_id":"target_00058","prediction":"synthetic","confidence":0.7,"reason":"Simple factual question; does not match the complexity of real samples."}
+{"sample_id":"target_00051","prediction":"synthetic","confidence":0.7,"reason":"Basic factual inquiry; lacks depth of analysis found in real samples."}
+{"sample_id":"target_00052","prediction":"real","confidence":0.8,"reason":"Comparative geographical inquiry; aligns with academic style."}
+{"sample_id":"target_00060","prediction":"real","confidence":0.85,"reason":"Comprehensive inquiry into inventions; matches formal writing."}
+{"sample_id":"target_00057","prediction":"real","confidence":0.9,"reason":"In-depth question about influential figures in psychology; fits academic style."}
+{"sample_id":"target_00049","prediction":"synthetic","confidence":0.65,"reason":"Simple factual question; lacks complexity of real samples."}
+{"sample_id":"target_00061","prediction":"real","confidence":0.85,"reason":"Comparative analysis of leadership styles; aligns with formal inquiry."}
+{"sample_id":"target_00053","prediction":"real","confidence":0.9,"reason":"Theoretical inquiry into social dynamics; matches academic style."}
+{"sample_id":"target_00066","prediction":"synthetic","confidence":0.7,"reason":"Basic question about landmarks; lacks depth of analysis found in real samples."}
+{"sample_id":"target_00067","prediction":"real","confidence":0.8,"reason":"Inquiry into civil rights contributions; aligns with formal writing."}

@@ -1,0 +1,23 @@
+{
+  "summary": "The batch exhibits a good variety of intents, styles, and noise types, but there are gaps in the difficulty attribute, particularly with the 'hard' level not being represented. Additionally, some scenarios are repeated with similar sentiments, indicating a need for more diverse phrasing.",
+  "missing_modes": [
+    "difficulty: hard"
+  ],
+  "overrepresented_modes": [
+    "negative intent with medium difficulty and varying polarity intensity"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Ensure to include examples with 'hard' difficulty in future samples.",
+    "Encourage more diverse phrasing and scenarios to avoid repetition, especially in negative reviews.",
+    "Consider adding edge cases or rare sentiments to enhance the overall diversity of the batch."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

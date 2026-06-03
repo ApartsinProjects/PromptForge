@@ -1,0 +1,42 @@
+{
+  "new_findings": [
+    {
+      "pattern": "oh sure, because",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This specific opener is used multiple times in the synthetic batch to express sarcasm.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "another film that",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This structure is used to introduce a negative sentiment about films in the synthetic samples.",
+      "introduced_at_iteration": 2
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "nothing short of mesmerizing",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This specific phrase is used to describe performances in a positive light, appearing in two different samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "like a",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This simile structure is used to create vivid imagery and is present in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "oh sure, because",
+      "n_synthetic_occurrences": 3,
+      "rationale": "This specific opener is used multiple times in the synthetic batch to express sarcasm.",
+      "introduced_at_iteration": 2
+    },
+    {
+      "pattern": "another film that",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This structure is used to introduce a negative sentiment about films in the synthetic samples.",
+      "introduced_at_iteration": 2
+    }
+  ]
+}

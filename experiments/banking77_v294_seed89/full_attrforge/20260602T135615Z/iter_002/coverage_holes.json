@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "What do I do if my card is stolen?",
+      "label": "lost_or_stolen_card",
+      "p_real": 0.7641268708232718
+    },
+    {
+      "text": "If I see a payment in the app that I don't recognize, what should I do?",
+      "label": "card_payment_not_recognised",
+      "p_real": 0.754488908142397
+    },
+    {
+      "text": "Why is the exchange rate for my payment incorrect?",
+      "label": "card_payment_wrong_exchange_rate",
+      "p_real": 0.7520377191369644
+    },
+    {
+      "text": "How do I get a new card as your machine swallowed mine!",
+      "label": "card_swallowed",
+      "p_real": 0.7408036719014289
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

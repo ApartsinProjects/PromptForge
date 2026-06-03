@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6527658002316622
+    },
+    {
+      "text": "engaging and exciting narrative",
+      "label": "positive",
+      "p_real": 0.6513802412388606
+    },
+    {
+      "text": "unassuming",
+      "label": "negative",
+      "p_real": 0.6503845367238875
+    },
+    {
+      "text": "is enormously good fun",
+      "label": "positive",
+      "p_real": 0.6501977387783496
+    },
+    {
+      "text": "funny in a sick , twisted sort of way .",
+      "label": "positive",
+      "p_real": 0.6490535373473767
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

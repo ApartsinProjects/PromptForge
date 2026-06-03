@@ -1,0 +1,24 @@
+{"sample_id":"R027","prediction":"real","confidence":0.9,"reason":"Simple, direct question with no over-polished language."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.8,"reason":"Overly complex structure and vocabulary, lacks natural conversational flow."}
+{"sample_id":"R014","prediction":"real","confidence":0.9,"reason":"Concise and straightforward question, typical of real inquiries."}
+{"sample_id":"R013","prediction":"real","confidence":0.9,"reason":"Direct question with clear context, typical of real-world queries."}
+{"sample_id":"R026","prediction":"real","confidence":0.9,"reason":"Simple and factual question, consistent with real-world knowledge."}
+{"sample_id":"R045","prediction":"real","confidence":0.9,"reason":"Direct and factual question, typical of real inquiries."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Straightforward question with clear context."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"Simple factual question, typical of real-world knowledge."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.7,"reason":"Generic and overly broad question, lacks specificity."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.7,"reason":"Predictable structure and generic vocabulary."}
+{"sample_id":"R039","prediction":"real","confidence":0.9,"reason":"Direct and factual question, typical of real inquiries."}
+{"sample_id":"R024","prediction":"real","confidence":0.9,"reason":"Simple and clear question, consistent with real-world knowledge."}
+{"sample_id":"R025","prediction":"real","confidence":0.9,"reason":"Concise and straightforward question."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Direct question with clear context."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Simple and common abbreviation question."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.7,"reason":"Generic phrasing and lacks specificity."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.8,"reason":"Overly complex structure and vague."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.8,"reason":"Overly complex and verbose, lacks natural flow."}
+{"sample_id":"R018","prediction":"real","confidence":0.9,"reason":"Simple and direct question, typical of real inquiries."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.8,"reason":"Overly complex and verbose, lacks natural conversational flow."}
+{"sample_id":"R028","prediction":"real","confidence":0.9,"reason":"Direct and factual question."}
+{"sample_id":"R002","prediction":"real","confidence":0.9,"reason":"Simple and straightforward question."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.8,"reason":"Overly complex and subjective, lacks specificity."}
+{"sample_id":"R009","prediction":"real","confidence":0.9,"reason":"Concise and straightforward question."}

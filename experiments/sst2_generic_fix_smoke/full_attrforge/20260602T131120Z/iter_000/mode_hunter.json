@@ -1,0 +1,30 @@
+{
+  "new_findings": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase is used to introduce a sarcastic comment in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "who doesn't love",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This rhetorical question format is used in a sarcastic context in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    }
+  ],
+  "banned_library": [
+    {
+      "pattern": "Oh sure,",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This phrase is used to introduce a sarcastic comment in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "who doesn't love",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This rhetorical question format is used in a sarcastic context in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{"sample_id":"target_00065","prediction":"synthetic","confidence":0.8,"reason":"casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00061","prediction":"real","confidence":0.9,"reason":"formal analysis; matches the register of real samples."}
+{"sample_id":"target_00053","prediction":"synthetic","confidence":0.7,"reason":"casual phrasing; real samples are more structured and critical."}
+{"sample_id":"target_00062","prediction":"synthetic","confidence":0.75,"reason":"casual tone; real samples exhibit a more formal critique."}
+{"sample_id":"target_00050","prediction":"synthetic","confidence":0.85,"reason":"informal and humorous; real samples are more serious."}
+{"sample_id":"target_00057","prediction":"real","confidence":0.85,"reason":"formal critique; aligns with the analytical style of real samples."}
+{"sample_id":"target_00051","prediction":"real","confidence":0.9,"reason":"formal and critical; matches the register of real samples."}
+{"sample_id":"target_00063","prediction":"real","confidence":0.9,"reason":"positive formal critique; consistent with real samples."}
+{"sample_id":"target_00055","prediction":"real","confidence":0.9,"reason":"formal tone; aligns with the analytical style of real samples."}
+{"sample_id":"target_00045","prediction":"real","confidence":0.8,"reason":"formal critique; matches the register of real samples."}
+{"sample_id":"target_00064","prediction":"synthetic","confidence":0.7,"reason":"casual and light-hearted; real samples are more formal."}
+{"sample_id":"target_00047","prediction":"real","confidence":0.85,"reason":"formal critique; aligns with the analytical style of real samples."}
+{"sample_id":"target_00048","prediction":"real","confidence":0.85,"reason":"formal analysis; matches the register of real samples."}
+{"sample_id":"target_00058","prediction":"synthetic","confidence":0.8,"reason":"casual and hyperbolic; real samples are more formal."}
+{"sample_id":"target_00054","prediction":"real","confidence":0.85,"reason":"formal critique; aligns with the analytical style of real samples."}
+{"sample_id":"target_00056","prediction":"synthetic","confidence":0.75,"reason":"casual and sarcastic; real samples are more formal."}
+{"sample_id":"target_00066","prediction":"real","confidence":0.8,"reason":"formal critique; matches the register of real samples."}
+{"sample_id":"target_00060","prediction":"synthetic","confidence":0.75,"reason":"casual and hyperbolic; real samples are more formal."}
+{"sample_id":"target_00059","prediction":"synthetic","confidence":0.7,"reason":"casual tone; real samples are more formal and analytical."}
+{"sample_id":"target_00046","prediction":"synthetic","confidence":0.8,"reason":"casual and humorous; real samples are more serious."}
+{"sample_id":"target_00049","prediction":"synthetic","confidence":0.75,"reason":"casual tone; real samples are more formal and critical."}
+{"sample_id":"target_00052","prediction":"real","confidence":0.85,"reason":"formal critique; aligns with the analytical style of real samples."}

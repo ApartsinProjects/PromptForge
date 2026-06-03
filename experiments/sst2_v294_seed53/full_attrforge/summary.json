@@ -1,0 +1,157 @@
+{
+  "condition": "full_attrforge",
+  "label": "full_attrforge",
+  "iterations": 3,
+  "samples_per_iteration": 16,
+  "total_samples": 48,
+  "wall_time_seconds": 3979.755647420883,
+  "final_prompt_version": 2,
+  "final_metrics": {
+    "iteration": 2.0,
+    "attribute_match_rate": 0.25,
+    "discriminator_accuracy": 0.3125,
+    "synthetic_detection_rate": 0.3125,
+    "near_duplicate_rate": 0.25,
+    "combination_coverage": 0.6666666666666666,
+    "entropy/intent": 0.9886994082884974,
+    "entropy/difficulty": 0.6021808102656678,
+    "entropy/polarity_intensity": 0.9965119062478287,
+    "entropy/style": 0.9592101522724051,
+    "entropy/noise": 0.9681390622295665,
+    "entropy/scenario_type": 0.9607329284860076,
+    "coverage/intent": 1.0,
+    "coverage/difficulty": 0.6666666666666666,
+    "coverage/polarity_intensity": 1.0,
+    "coverage/style": 1.0,
+    "coverage/noise": 1.0,
+    "coverage/scenario_type": 1.0,
+    "pack_accuracy": 0.5,
+    "pack_confidence": 0.0,
+    "mode_seeking_ratio": 0.2535972567875837,
+    "text_distance_mean": 0.9723441123486826,
+    "banned_phrasings_total": 0.0,
+    "banned_phrasings_new": 0.0,
+    "coverage_classifier_auroc": 0.5
+  },
+  "per_iter_downstream": [
+    {
+      "accuracy": 0.5,
+      "macro_f1": 0.36079545454545453,
+      "per_class_f1": {
+        "negative": 0.0625,
+        "positive": 0.6590909090909091
+      },
+      "per_class_support": {
+        "negative": 30,
+        "positive": 30
+      },
+      "confusion": {
+        "negative": {
+          "negative": 1,
+          "positive": 29
+        },
+        "positive": {
+          "negative": 1,
+          "positive": 29
+        }
+      },
+      "n_train": 16,
+      "n_test": 60,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": "",
+      "iteration": 0
+    },
+    {
+      "accuracy": 0.45,
+      "macro_f1": 0.3552588733311625,
+      "per_class_f1": {
+        "negative": 0.10810810810810811,
+        "positive": 0.6024096385542169
+      },
+      "per_class_support": {
+        "negative": 30,
+        "positive": 30
+      },
+      "confusion": {
+        "negative": {
+          "negative": 2,
+          "positive": 28
+        },
+        "positive": {
+          "negative": 5,
+          "positive": 25
+        }
+      },
+      "n_train": 16,
+      "n_test": 60,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": "",
+      "iteration": 1
+    },
+    {
+      "accuracy": 0.55,
+      "macro_f1": 0.4998456313677061,
+      "per_class_f1": {
+        "negative": 0.34146341463414637,
+        "positive": 0.6582278481012658
+      },
+      "per_class_support": {
+        "negative": 30,
+        "positive": 30
+      },
+      "confusion": {
+        "negative": {
+          "negative": 7,
+          "positive": 23
+        },
+        "positive": {
+          "negative": 4,
+          "positive": 26
+        }
+      },
+      "n_train": 16,
+      "n_test": 60,
+      "label_set": [
+        "negative",
+        "positive"
+      ],
+      "notes": "",
+      "iteration": 2
+    }
+  ],
+  "final_downstream": {
+    "accuracy": 0.5333333333333333,
+    "macro_f1": 0.42544459644322846,
+    "per_class_f1": {
+      "negative": 0.17647058823529416,
+      "positive": 0.6744186046511628
+    },
+    "per_class_support": {
+      "negative": 30,
+      "positive": 30
+    },
+    "confusion": {
+      "negative": {
+        "negative": 3,
+        "positive": 27
+      },
+      "positive": {
+        "negative": 1,
+        "positive": 29
+      }
+    },
+    "n_train": 48,
+    "n_test": 60,
+    "label_set": [
+      "negative",
+      "positive"
+    ],
+    "notes": ""
+  }
+}

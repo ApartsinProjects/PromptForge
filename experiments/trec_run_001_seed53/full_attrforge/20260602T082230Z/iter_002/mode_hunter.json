@@ -1,0 +1,17 @@
+{
+  "new_findings": [],
+  "banned_library": [
+    {
+      "pattern": "Who was the first",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This structure is used to inquire about historical firsts in multiple synthetic samples.",
+      "introduced_at_iteration": 0
+    },
+    {
+      "pattern": "What does the acronym",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This structure is used to ask for the meaning of acronyms, which is not present in the real batch.",
+      "introduced_at_iteration": 1
+    }
+  ]
+}

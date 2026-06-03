@@ -1,0 +1,31 @@
+{
+  "holes": [
+    {
+      "text": "powerful and",
+      "label": "positive",
+      "p_real": 0.6879391299179993
+    },
+    {
+      "text": "is enormously good fun",
+      "label": "positive",
+      "p_real": 0.6763693525036593
+    },
+    {
+      "text": "and intermittently hilarious",
+      "label": "positive",
+      "p_real": 0.6756802190258837
+    },
+    {
+      "text": "formulaic and forgettable",
+      "label": "negative",
+      "p_real": 0.6756802190258837
+    },
+    {
+      "text": "looking down at your watch and",
+      "label": "negative",
+      "p_real": 0.6741978946916386
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "concise and direct phrasing",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of exclamatory sentences to express urgency or anxiety",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions that seek clarification or explanation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "conversational tone with informal greetings like 'hi'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'what should i do?'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty regarding card status (lost, stolen, misplaced)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and punctuation (e.g., 'stole??')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for clarification or assistance regarding fees or transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of first-person perspective",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific problems related to card usage",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'fee' and 'card' in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions starting with 'why did'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about atm issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short and direct sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing regarding card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frustration expressed about card issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for explanations or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of exclamatory phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on urgency or importance of transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i made a purchase",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "when will it go through?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i think that the card is",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "please tell me why",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of card payment issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'declined' in multiple samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, straightforward questions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

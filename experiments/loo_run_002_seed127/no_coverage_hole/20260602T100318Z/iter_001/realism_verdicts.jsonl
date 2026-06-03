@@ -1,0 +1,24 @@
+{"sample_id":"R019","prediction":"real","confidence":0.9,"reason":"Direct and informal language typical of customer complaints."}
+{"sample_id":"target_00020","prediction":"synthetic","confidence":0.7,"reason":"Overly structured and lacks real-world noise; feels scripted."}
+{"sample_id":"target_00028","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing and predictable structure."}
+{"sample_id":"target_00024","prediction":"real","confidence":0.85,"reason":"Casual tone and specific details suggest a real user experience."}
+{"sample_id":"R029","prediction":"real","confidence":0.8,"reason":"Concise and straightforward question typical of user inquiries."}
+{"sample_id":"R005","prediction":"real","confidence":0.9,"reason":"Direct complaint with specific request; feels authentic."}
+{"sample_id":"R011","prediction":"real","confidence":0.9,"reason":"Specific technical issue described in a relatable manner."}
+{"sample_id":"R020","prediction":"real","confidence":0.9,"reason":"Emotional language and urgency indicate a genuine complaint."}
+{"sample_id":"R000","prediction":"real","confidence":0.9,"reason":"Specific order number and clear request suggest authenticity."}
+{"sample_id":"R021","prediction":"real","confidence":0.85,"reason":"Frustration expressed in a relatable way; feels like a real user."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.65,"reason":"Lacks specific details and feels somewhat generic."}
+{"sample_id":"R008","prediction":"real","confidence":0.9,"reason":"Technical issue described with specific details; feels authentic."}
+{"sample_id":"target_00019","prediction":"synthetic","confidence":0.5,"reason":"Overly verbose and structured; lacks the spontaneity of real complaints."}
+{"sample_id":"target_00029","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing and predictable structure; feels scripted."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"Direct complaint with a clear request; feels authentic."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.5,"reason":"Casual language but feels overly structured and generic."}
+{"sample_id":"target_00031","prediction":"synthetic","confidence":0.6,"reason":"Generic phrasing and overly polished; lacks real-world noise."}
+{"sample_id":"R006","prediction":"real","confidence":0.9,"reason":"Specific technical issue described in a relatable manner."}
+{"sample_id":"R009","prediction":"real","confidence":0.85,"reason":"Specific technical issue with a clear question; feels authentic."}
+{"sample_id":"R003","prediction":"real","confidence":0.9,"reason":"Direct complaint with a clear request; feels authentic."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"Specific technical issue described with details; feels authentic."}
+{"sample_id":"R017","prediction":"real","confidence":0.85,"reason":"Specific issue with a clear request; feels authentic."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.4,"reason":"Generic question lacking specific context; feels scripted."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.5,"reason":"Casual language but feels overly structured and generic."}

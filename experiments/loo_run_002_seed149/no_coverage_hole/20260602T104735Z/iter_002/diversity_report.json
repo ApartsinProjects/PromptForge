@@ -1,0 +1,22 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, and styles, but there are some near-duplicate phrasings and a lack of edge cases. The diversity in scenario types is well-covered, yet some attribute combinations could be explored further.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "informal",
+    "account_issue"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more unique phrasings to reduce near-duplicates.",
+    "Include more edge cases in the scenarios to enhance diversity.",
+    "Vary the use of 'account_issue' intent to balance representation with other intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "pack_accuracy": 0.25,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i need my money back, not credits or whatever.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i was really looking forward to receiving it on the promised date, but now it's past that.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i ordered a shirt and it’s the wrong size.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i received the wrong item in my order and would like to request a refund.",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of personal anecdotes or informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or emotion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for detailed information or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for technical assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific issues with account access",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and direct questioning",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations (e.g., mfa, api)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'i changed my...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures focusing on issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with a direct request or issue",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a desired outcome",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for the first word in some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical issues or account problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service delays",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emphasis on frustration or dissatisfaction",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of specific timeframes (e.g., '24h', '4 days')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about service or product issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "focus on specific problems without additional context or personal anecdotes",
+      "n_pairs_observed": 1
+    }
+  ]
+}

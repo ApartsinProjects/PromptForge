@@ -1,0 +1,151 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "short, direct sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for beginnings of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions or requests for clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations (e.g., 'mfa', 'pro', 'app')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical jargon related to apps and devices",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures with a focus on issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of lowercase for the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with account management",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for fixes or changes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with emotional expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of 'i' at the beginning of sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by attempts to resolve it",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of phrases like 'can someone help' or 'i really hope someone can help'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational language and informal phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "variations of 'i need a refund' or similar phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, abrupt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of timeframes to express frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal anecdotes or emotional depth",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "exclamatory statements expressing frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed narratives with emotional context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about the status of orders or services",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler words like 'umm' and 'like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    }
+  ]
+}

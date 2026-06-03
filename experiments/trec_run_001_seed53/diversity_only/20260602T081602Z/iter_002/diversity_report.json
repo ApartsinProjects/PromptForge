@@ -1,0 +1,19 @@
+{
+  "summary": "The batch of synthetic samples covers all attribute values, but there are some issues with ambiguity levels and the presence of typos. Additionally, there are near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [],
+  "overrepresented_modes": [],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse examples by specifying unique contexts or scenarios for each intent.",
+    "Reduce the use of similar phrasing by introducing a requirement for varied sentence structures.",
+    "Ensure that all generated samples are free from typos to maintain quality."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

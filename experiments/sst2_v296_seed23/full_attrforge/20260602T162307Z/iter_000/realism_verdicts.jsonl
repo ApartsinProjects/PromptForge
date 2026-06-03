@@ -1,0 +1,24 @@
+{"sample_id":"target_00015","prediction":"real","confidence":0.9,"reason":"elevated language, poetic imagery; aligns with formal film critique."}
+{"sample_id":"target_00021","prediction":"real","confidence":0.9,"reason":"rich descriptive language, emotional depth; matches formal review style."}
+{"sample_id":"target_00002","prediction":"synthetic","confidence":0.8,"reason":"casual tone, informal language; real samples are more polished."}
+{"sample_id":"target_00009","prediction":"synthetic","confidence":0.7,"reason":"informal phrasing, lacks depth; contrasts with formal critique."}
+{"sample_id":"target_00006","prediction":"synthetic","confidence":0.8,"reason":"casual language, conversational tone; real samples are more formal."}
+{"sample_id":"target_00007","prediction":"synthetic","confidence":0.8,"reason":"informal expression, lacks sophistication; real samples are more refined."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"formal language, strong evaluative tone; aligns with professional critique."}
+{"sample_id":"target_00011","prediction":"real","confidence":0.8,"reason":"concise, clear evaluation; matches formal review style."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.7,"reason":"sarcastic tone, informal language; contrasts with formal critique."}
+{"sample_id":"target_00022","prediction":"real","confidence":0.9,"reason":"poetic language, emotional resonance; aligns with formal film critique."}
+{"sample_id":"target_00008","prediction":"real","confidence":0.8,"reason":"balanced critique, formal tone; matches professional writing."}
+{"sample_id":"target_00005","prediction":"real","confidence":0.8,"reason":"positive evaluation, formal language; aligns with real samples."}
+{"sample_id":"target_00004","prediction":"real","confidence":0.9,"reason":"complex language, deep analysis; matches formal critique style."}
+{"sample_id":"target_00016","prediction":"real","confidence":0.8,"reason":"formal critique, clear evaluation; aligns with professional writing."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.7,"reason":"casual tone, simplistic language; contrasts with formal reviews."}
+{"sample_id":"target_00012","prediction":"real","confidence":0.8,"reason":"concise evaluation, formal tone; matches professional critique."}
+{"sample_id":"target_00017","prediction":"real","confidence":0.9,"reason":"descriptive language, formal tone; aligns with real samples."}
+{"sample_id":"target_00013","prediction":"synthetic","confidence":0.7,"reason":"sarcastic tone, informal language; contrasts with formal critique."}
+{"sample_id":"target_00014","prediction":"real","confidence":0.9,"reason":"poetic imagery, elevated language; aligns with formal film critique."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.8,"reason":"casual language, informal tone; contrasts with formal reviews."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.9,"reason":"rich imagery, formal tone; aligns with professional critique."}
+{"sample_id":"target_00001","prediction":"real","confidence":0.8,"reason":"positive emotional response, formal language; matches real samples."}
+{"sample_id":"target_00003","prediction":"synthetic","confidence":0.7,"reason":"sarcastic tone, informal language; contrasts with formal critique."}
+{"sample_id":"target_00010","prediction":"synthetic","confidence":0.7,"reason":"sarcastic tone, informal language; contrasts with formal reviews."}

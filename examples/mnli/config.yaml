@@ -1,0 +1,72 @@
+# SynSmith run configuration: MNLI 3-class natural language inference
+schema_path: examples/mnli/schema.yaml
+real_examples_path: experiments/_splits/mnli_real_train.jsonl
+
+domain: mnli_natural_language_inference
+task_description: |
+  Classify a (premise, hypothesis) pair as entailment, neutral, or
+  contradiction. Synthetic samples must include BOTH a premise and a
+  hypothesis, formatted as 'PREMISE: <p>\nHYPOTHESIS: <h>'.
+
+iterations: 3
+samples_per_iteration: 16
+seed: 17
+run_dir: runs
+
+initial_prompt: |
+  Generate realistic (premise, hypothesis) pairs that exemplify the
+  requested NLI relation (entailment, neutral, or contradiction). The
+  premise should be a self-contained statement (1-2 sentences); the
+  hypothesis should be a related claim that either follows from, is
+  unrelated to, or contradicts the premise per the requested label.
+  Output a JSON object with the sample id, the text formatted as
+  'PREMISE: <p>\nHYPOTHESIS: <h>' on two lines, and the attribute values.
+
+generator_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.9
+  max_tokens: 500
+
+verifier_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 400
+
+discriminator_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 400
+
+auditor_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 500
+
+updater_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 800
+
+pack_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 300
+
+hunter_llm:
+  backend: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 400

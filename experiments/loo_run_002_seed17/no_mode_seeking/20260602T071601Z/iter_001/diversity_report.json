@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a high coverage of attributes, but there are some missing modes in the 'intent' and 'style' categories. Additionally, there are instances of near-duplicate phrasings that could be improved for diversity.",
+  "missing_modes": [
+    "technical_problem",
+    "complaint",
+    "fragmented",
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "general_question"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more diverse intents, particularly 'technical_problem' and 'complaint'.",
+    "Include more variations in style, especially 'fragmented' and 'verbose'.",
+    "Reduce the use of informal language to enhance the overall diversity of styles."
+  ],
+  "coverage": {
+    "intent": 0.8,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

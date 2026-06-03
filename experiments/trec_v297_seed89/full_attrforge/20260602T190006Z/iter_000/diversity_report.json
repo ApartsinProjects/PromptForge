@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and scenarios, but there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many texts utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "more varied sentence structures, especially in complex questions",
+    "greater use of informal styles to balance the formal and fragmented tones",
+    "examples of numeric values in more diverse contexts beyond simple counts"
+  ],
+  "overrepresented_modes": [
+    "fragmented style with similar question formats",
+    "verbose explanations that often repeat similar phrases",
+    "concise questions that follow a predictable pattern"
+  ],
+  "near_duplicate_rate": 0.35,
+  "recommendations": [
+    "Encourage the generation of questions with varied sentence structures and styles, especially informal and fragmented styles.",
+    "Introduce more complex numeric value scenarios that require deeper reasoning or context.",
+    "Diversify the phrasing of questions to avoid repetitive patterns, particularly in the way comparisons and definitions are framed."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

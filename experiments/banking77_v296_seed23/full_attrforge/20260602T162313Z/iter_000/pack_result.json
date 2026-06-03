@@ -1,0 +1,135 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.8875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "i am writing to inquire about",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "i attempted to",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "could you assist me with this issue?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please provide me with an update on",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed context or emotional expression",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i need assistance as my card",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you please provide me with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you clarify why this charge appeared",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about card status",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion regarding payments",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of 'i think my card is...' or 'i made a payment...'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration regarding transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal experiences (e.g., 'i made a payment', 'i think my card is lost')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific transaction-related vocabulary (e.g., 'exchange rate', 'pending', 'withdraw cash')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or guidance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific details about transactions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of polite language and questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about fees and charges",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of 'i [action] with [method] and [result]'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise phrasing with minimal elaboration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "how do i",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i seem to have",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "what's go on",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive question structure",
+      "n_pairs_observed": 1
+    }
+  ]
+}

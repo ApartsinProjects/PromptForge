@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a high level of surface diversity with various intents and styles, but there are notable patterns in phrasing and structure that lead to nuance-level redundancy. Several texts utilize similar constructions, particularly in expressing confusion or requests for assistance.",
+  "missing_modes": [
+    "More varied emotional expressions, especially in formal contexts.",
+    "Different ways to express urgency or panic in informal styles."
+  ],
+  "overrepresented_modes": [
+    "Concise and fragmented styles are frequently used, particularly in inquiries about payment issues.",
+    "Common phrases like 'Can you help?' and 'What should I do?' appear multiple times."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of more unique sentence structures and vocabulary to reduce redundancy.",
+    "Incorporate a wider range of emotional tones and expressions to enhance nuance diversity.",
+    "Introduce scenarios that involve more complex interactions or multi-step issues to diversify responses."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

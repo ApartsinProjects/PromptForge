@@ -1,0 +1,24 @@
+{"sample_id":"R037","prediction":"real","confidence":0.9,"reason":"The question is straightforward and specific, typical of real inquiries."}
+{"sample_id":"target_00039","prediction":"synthetic","confidence":0.8,"reason":"The structure is overly formal and lacks the nuance of a natural conversation."}
+{"sample_id":"target_00033","prediction":"synthetic","confidence":0.85,"reason":"The phrasing is overly polished and the question is generic."}
+{"sample_id":"R029","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a well-known comic book character."}
+{"sample_id":"R023","prediction":"real","confidence":0.85,"reason":"The question is clear and relates to a specific psychological concept."}
+{"sample_id":"R022","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a known author and topic."}
+{"sample_id":"R021","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a cultural reference."}
+{"sample_id":"R012","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a known public figure."}
+{"sample_id":"R039","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a well-known product."}
+{"sample_id":"R008","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a technical concept."}
+{"sample_id":"R027","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a historical fact."}
+{"sample_id":"R009","prediction":"real","confidence":0.8,"reason":"The question is specific and relates to a cultural artifact."}
+{"sample_id":"R046","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a common game."}
+{"sample_id":"R017","prediction":"synthetic","confidence":0.75,"reason":"The question is vague and lacks real-world context."}
+{"sample_id":"R033","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a geographical fact."}
+{"sample_id":"R001","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a known acronym."}
+{"sample_id":"R013","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a historical figure."}
+{"sample_id":"target_00040","prediction":"synthetic","confidence":0.8,"reason":"The question is overly formal and lacks conversational tone."}
+{"sample_id":"R000","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a known medical term."}
+{"sample_id":"R011","prediction":"synthetic","confidence":0.75,"reason":"The question is vague and lacks specificity."}
+{"sample_id":"R041","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a significant legal decision."}
+{"sample_id":"R038","prediction":"synthetic","confidence":0.8,"reason":"The question is generic and lacks real-world context."}
+{"sample_id":"R043","prediction":"real","confidence":0.85,"reason":"The question is specific and relates to a legal process."}
+{"sample_id":"R007","prediction":"real","confidence":0.9,"reason":"The question is specific and relates to a common internet acronym."}

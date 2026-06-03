@@ -1,0 +1,27 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and structure, particularly in the way questions are framed. Many samples utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "Examples of numeric values that are not just averages or totals, such as specific statistics or historical data.",
+    "Unique comparisons that explore less common themes or subjects.",
+    "More formal definitions that delve into technical jargon or specialized knowledge."
+  ],
+  "overrepresented_modes": [
+    "Concise questions that follow a similar structure, often starting with 'What are' or 'What is'.",
+    "Informal styles that use conversational language without much variation.",
+    "Lists that primarily ask for examples or definitions without deeper exploration."
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of questions that vary sentence structure and complexity, such as using conditional phrases or hypothetical scenarios.",
+    "Include prompts that require multi-part answers or deeper analysis rather than straightforward lists.",
+    "Incorporate a wider range of vocabulary and phrasing to reduce redundancy in question formation."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

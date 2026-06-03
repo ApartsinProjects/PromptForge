@@ -1,0 +1,22 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of attribute values, but there are instances of missing details and some overrepresentation of certain styles and scenarios. Additionally, there are near-duplicate phrasings that could be diversified.",
+  "missing_modes": [],
+  "overrepresented_modes": [
+    "emotional",
+    "common"
+  ],
+  "near_duplicate_rate": 0.2,
+  "recommendations": [
+    "Encourage more diverse phrasing and scenarios, particularly for emotional and common styles.",
+    "Introduce more edge cases and rare scenarios to enhance diversity.",
+    "Ensure that all samples include sufficient detail to avoid missing details."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

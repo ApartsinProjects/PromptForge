@@ -1,0 +1,11 @@
+{
+  "new_findings": [],
+  "banned_library": [
+    {
+      "pattern": "Can you tell me",
+      "n_synthetic_occurrences": 2,
+      "rationale": "This opener is used to request information in several synthetic samples.",
+      "introduced_at_iteration": 0
+    }
+  ]
+}

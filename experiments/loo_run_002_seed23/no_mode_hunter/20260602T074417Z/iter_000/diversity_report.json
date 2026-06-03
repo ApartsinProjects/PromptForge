@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good coverage of intents, difficulties, ambiguities, and noise types, but lacks diversity in the style attribute, particularly in formal and verbose styles. There are also several near-duplicate phrasings and shallow paraphrases present.",
+  "missing_modes": [
+    "verbose"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "emotional",
+    "fragmented"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of more verbose and formal styles to enhance diversity.",
+    "Implement stricter checks for near-duplicate phrasings and shallow paraphrases.",
+    "Include edge cases and rare scenarios more frequently to enrich the dataset."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 0.8333333333333334,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

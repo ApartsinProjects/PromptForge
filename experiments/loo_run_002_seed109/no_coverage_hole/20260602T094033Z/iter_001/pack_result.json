@@ -1,0 +1,163 @@
+{
+  "pack_accuracy": 0.75,
+  "confidence_mean": 0.875,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "detailed descriptions of issues",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "repeated use of personal pronouns (i, my)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone and conversational style",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for help or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., starting with 'i'm', 'my', 'the app')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of a casual opener like 'hi team' or 'quick one'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about technical issues or features",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of stating a problem followed by a brief description",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific software or platform names (e.g., 'safari 17')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point phrasing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of emotion (e.g., 'i’m really upset', 'disappointing')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific order details mentioned (e.g., 'order #12345')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure of stating a problem followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "polite requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of complex sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific references to order details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i am experiencing",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i recently attempted",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "can you help?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "not functioning properly",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "issues with",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of technical terms or error codes (e.g., '502', 'logs attached')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive sentence structures (e.g., 'i want my money back', 'ordered x items, only got y')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more detailed explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of 'i' statements to express personal experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or resolution",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific references to products or issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "inclusion of emotional expressions like 'upset' or 'excited'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long-winded explanations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional expressions of frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific references to order numbers or items",
+      "n_pairs_observed": 1
+    }
+  ]
+}

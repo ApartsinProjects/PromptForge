@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.5,
+  "confidence_mean": 0.89375,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "questions about processes or timelines",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "direct complaints about service or functionality",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "long, complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for information or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational phrases like 'i mean' and 'you know'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and filler phrases like 'so, like,'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "long, convoluted sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive structure starting with 'i was trying to' or 'so, i was trying to'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise problem statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct questions about functionality",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific software or technical terms",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of personal anecdotes or emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, direct questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with minimal punctuation",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or clarifications",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and shorthand (e.g., 'csv', 'pro plan')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, straightforward sentence structure",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of specific technical issues (e.g., filters, two-factor codes)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent use of first-person perspective",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "immediate requests for resolution or action",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone (e.g., 'so, like,' and 'i mean,')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions posed in a casual manner (e.g., 'is the pro plan billed monthly or yearly?')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive phrasing and structure (e.g., 'i tried to return my order because...')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of uncertainty or confusion (e.g., 'but not sure?' and 'which is super weird')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific timeframes mentioned (e.g., '24h', '4 days')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "technical issues with clear parameters (e.g., '3000 rows', '5mb')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and to-the-point structure",
+      "n_pairs_observed": 1
+    }
+  ]
+}

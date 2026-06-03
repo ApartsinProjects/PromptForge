@@ -1,0 +1,26 @@
+{
+  "summary": "The batch exhibits a variety of intents and styles, but there is significant redundancy in phrasing and sentence structure, particularly in the definition and comparison scenarios. Many texts utilize similar constructions, leading to a lack of nuanced diversity.",
+  "missing_modes": [
+    "More complex or layered definitions that explore multiple facets of a concept.",
+    "Examples of numeric values that involve calculations or comparisons rather than straightforward queries.",
+    "Informal scenarios that engage in dialogue or personal anecdotes."
+  ],
+  "overrepresented_modes": [
+    "Fragmented and concise styles are prevalent, especially in definitions and comparisons.",
+    "High ambiguity is frequently paired with easy difficulty, creating predictable patterns."
+  ],
+  "near_duplicate_rate": 0.35,
+  "recommendations": [
+    "Encourage the generation of texts that incorporate varied sentence structures and vocabulary to enhance nuance.",
+    "Introduce scenarios that require multi-step reasoning or deeper exploration of concepts.",
+    "Include more informal and conversational styles that reflect personal opinions or experiences."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

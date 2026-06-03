@@ -1,0 +1,24 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of intents, styles, and noise types, but lacks diversity in difficulty levels and polarity intensity. Additionally, there are some near-duplicate phrasings that could be improved for uniqueness.",
+  "missing_modes": [
+    "Difficulty: hard",
+    "Polarity intensity: mild"
+  ],
+  "overrepresented_modes": [
+    "Negative intent with medium difficulty and moderate polarity intensity"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples with hard difficulty and mild polarity intensity.",
+    "Introduce more unique phrasing to reduce near-duplicate content.",
+    "Ensure a balanced representation of all difficulty levels and polarity intensities."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 0.6666666666666666,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "summary": "The batch of synthetic samples demonstrates a good variety of attributes, but there is a notable absence of certain scenario types, particularly 'acting_quality' and 'overall_verdict' in negative contexts. Additionally, there are instances of near-duplicate phrasings and shallow paraphrases.",
+  "missing_modes": [
+    "acting_quality",
+    "overall_verdict (negative)"
+  ],
+  "overrepresented_modes": [
+    "positive (easy, mild, informal)",
+    "negative (hard, strong, sarcastic)"
+  ],
+  "near_duplicate_rate": 0.15,
+  "recommendations": [
+    "Encourage the generation of samples that include the missing scenario types, especially in negative contexts.",
+    "Diversify the phrasing and expression styles to reduce near-duplicate and shallow paraphrase occurrences.",
+    "Introduce edge cases or rare scenarios to enhance overall diversity."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 1.0,
+    "noise": 1.0,
+    "scenario_type": 0.8333333333333334
+  }
+}

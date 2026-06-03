@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "ordered 2 items, only got 1. want a refund on the missing one, not a reship.",
+      "label": "refund_request",
+      "p_real": 0.6561023347403278
+    },
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6549691272310765
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6543439534758089
+    },
+    {
+      "text": "When I click checkout nothing happens, just a spinner forever. I'm on Safari 17.",
+      "label": "technical_problem",
+      "p_real": 0.640616650125795
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

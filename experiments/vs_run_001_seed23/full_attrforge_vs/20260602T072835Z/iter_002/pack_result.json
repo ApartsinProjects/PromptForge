@@ -1,0 +1,155 @@
+{
+  "pack_accuracy": 0.375,
+  "confidence_mean": 0.88125,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "longer, more complex sentences with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'omg')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i can't get into my account",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "where is my order?",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "i'm uncertain about how to handle",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "hey, i was trying to figure out",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "questions about technical issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for assistance",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations (e.g., mfa, api)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specificity in describing problems (e.g., row limit, verification codes)",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with phrases like 'quick one'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements with a focus on specific issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated structure of stating a problem followed by a desired outcome",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and abbreviations (e.g., 'omg', 'i can't')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of confusion or frustration about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or clarification",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures starting with personal pronouns ('i', 'what’s')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with lowercase beginnings",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for help or information",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific technical issues mentioned",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "frequent mention of account-related problems",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complaint about delays or issues with support",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of direct and assertive language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of timeframes (e.g., '24h', '4 days', 'third time this week')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "specific references to account or subscription issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct complaints about account issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal tone and lowercase letters",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or corrections",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar structure in phrasing complaints",
+      "n_pairs_observed": 1
+    }
+  ]
+}

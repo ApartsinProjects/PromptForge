@@ -1,0 +1,16 @@
+{"sample_id":"target_00027","prediction":"real","confidence":0.9,"reason":"Formal inquiry about NASA's significance in aerospace exploration; matches the informative and educational register."}
+{"sample_id":"target_00030","prediction":"synthetic","confidence":0.8,"reason":"Simple factual question; lacks depth and context compared to real samples."}
+{"sample_id":"target_00032","prediction":"synthetic","confidence":0.7,"reason":"Casual inquiry about movies; does not align with the more formal and analytical tone of real samples."}
+{"sample_id":"target_00021","prediction":"synthetic","confidence":0.7,"reason":"Casual question about singers; lacks the depth and specificity of real samples."}
+{"sample_id":"target_00026","prediction":"synthetic","confidence":0.6,"reason":"Basic question about abbreviations; does not match the complexity of real samples."}
+{"sample_id":"target_00023","prediction":"synthetic","confidence":0.6,"reason":"Casual inquiry about FOMO; lacks the analytical depth of real samples."}
+{"sample_id":"target_00018","prediction":"synthetic","confidence":0.5,"reason":"Vague and informal question about imagination; does not fit the formal register of real samples."}
+{"sample_id":"target_00024","prediction":"synthetic","confidence":0.6,"reason":"Simple factual question about tortoises; lacks the analytical depth of real samples."}
+{"sample_id":"target_00020","prediction":"real","confidence":0.9,"reason":"Complex inquiry into theories of consciousness; matches the formal and analytical register."}
+{"sample_id":"target_00022","prediction":"synthetic","confidence":0.7,"reason":"Basic question about geographical features; lacks the depth of real samples."}
+{"sample_id":"target_00029","prediction":"real","confidence":0.85,"reason":"Comprehensive inquiry about countries and statistics; aligns with the informative and analytical register."}
+{"sample_id":"target_00019","prediction":"real","confidence":0.8,"reason":"Inquiry about key achievements of Nelson Mandela; matches the formal and historical context."}
+{"sample_id":"target_00028","prediction":"real","confidence":0.9,"reason":"Detailed question about geopolitical status; aligns with the informative and analytical register."}
+{"sample_id":"target_00031","prediction":"real","confidence":0.8,"reason":"In-depth inquiry into cultural perceptions of success; matches the formal and analytical register."}
+{"sample_id":"target_00025","prediction":"synthetic","confidence":0.6,"reason":"Basic question about elements; lacks the depth and specificity of real samples."}
+{"sample_id":"target_00017","prediction":"synthetic","confidence":0.9,"reason":"Misspelled question about the capital of France; indicates a lack of polish typical of real samples."}

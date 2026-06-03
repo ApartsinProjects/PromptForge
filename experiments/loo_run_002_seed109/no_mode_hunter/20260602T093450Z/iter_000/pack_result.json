@@ -1,0 +1,143 @@
+{
+  "pack_accuracy": 0.625,
+  "confidence_mean": 0.9,
+  "n_comparisons": 8,
+  "shared_patterns": [
+    {
+      "pattern": "repeated structure of stating an issue followed by a request for help",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "frequent use of rhetorical questions",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "longer, more complex sentence structures",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "technical issue description followed by specific details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of concise, factual statements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "common troubleshooting scenarios",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "mention of specific software or actions taken",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing frustration or disbelief",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of conversational openers like 'hey' or 'i just can't believe'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentences with emotional language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and phrases like 'hey, so like'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressing disappointment or frustration in a personal tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "longer, more complex sentence structures with additional details",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated mention of confusion or lack of clarity",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise statements of issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for refunds or replacements",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct and straightforward language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures (e.g., 'need a refund or replacement')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of abbreviations and informal language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "direct requests for refunds or cancellations",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, blunt sentences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'my' to indicate personal issues",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of detailed explanations or context",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "consistent structure of stating a problem followed by a demand",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal greetings like 'hey' and 'dear support team'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or disappointment",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of rhetorical questions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "emotional language ('really frustrated', 'kinda annoying', 'i can’t believe what happened')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of disappointment or frustration",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "requests for assistance or refunds",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language in some samples",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of phrases like 'i would like to inquire' or 'i need help'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal language and conversational tone",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressions of frustration or confusion",
+      "n_pairs_observed": 1
+    }
+  ]
+}

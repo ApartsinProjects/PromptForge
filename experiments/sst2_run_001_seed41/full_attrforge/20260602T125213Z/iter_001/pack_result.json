@@ -1,0 +1,95 @@
+{
+  "pack_accuracy": 0.16666666666666666,
+  "confidence_mean": 0.875,
+  "n_comparisons": 6,
+  "shared_patterns": [
+    {
+      "pattern": "short, fragmented phrases",
+      "n_pairs_observed": 2
+    },
+    {
+      "pattern": "use of comparative phrases (e.g., 'more emotional force than', 'those unassuming films that sneaks up on you')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "complex sentence structures with multiple clauses",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "vocabulary that includes abstract concepts (e.g., 'emotional force', 'self-conscious material')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "a tendency to use phrases that imply depth or significance (e.g., 'stays with you long after you have left the theater')",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of short, punchy phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of adjectives to describe experiences",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "formulaic expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the visuals are",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "the film",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of 'the'",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "expressive and exaggerated language",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "informal tone with personal anecdotes",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of comparative phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "short, clipped phrases",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "similar sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "simple sentence structures",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "lack of complex vocabulary",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repetitive use of vague descriptors",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "use of informal, colloquial expressions",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "repeated use of adjectives followed by a noun",
+      "n_pairs_observed": 1
+    },
+    {
+      "pattern": "concise, punchy descriptions",
+      "n_pairs_observed": 1
+    }
+  ]
+}

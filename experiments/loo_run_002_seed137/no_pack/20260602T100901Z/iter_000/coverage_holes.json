@@ -1,0 +1,26 @@
+{
+  "holes": [
+    {
+      "text": "Hi team, quick one - does the API have a rate limit on the search endpoint?",
+      "label": "general_question",
+      "p_real": 0.6499559838645634
+    },
+    {
+      "text": "is the pro plan billed monthly or yearly?",
+      "label": "general_question",
+      "p_real": 0.6472642699994772
+    },
+    {
+      "text": "two factor codes never come through, I've been locked out for 2 days now",
+      "label": "account_issue",
+      "p_real": 0.6436186878937273
+    },
+    {
+      "text": "what's the difference between the pro and business tier exactly",
+      "label": "general_question",
+      "p_real": 0.6404075118405835
+    }
+  ],
+  "classifier_auroc": 1.0,
+  "notes": ""
+}

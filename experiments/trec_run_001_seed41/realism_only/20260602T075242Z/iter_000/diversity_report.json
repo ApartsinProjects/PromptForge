@@ -1,0 +1,25 @@
+{
+  "summary": "The batch covers all intents, difficulties, ambiguities, styles, and scenario types, but there are missing noise categories and some near-duplicate phrasings. The diversity of the samples is generally good, but improvements can be made in noise representation and avoiding redundancy.",
+  "missing_modes": [
+    "missing_details",
+    "irrelevant_details"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "typos"
+  ],
+  "near_duplicate_rate": 0.1,
+  "recommendations": [
+    "Encourage the generation of samples with missing noise categories such as 'missing_details'.",
+    "Diversify the style by including more formal and verbose samples.",
+    "Reduce redundancy by ensuring unique phrasing in similar intents."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "ambiguity": 1.0,
+    "style": 1.0,
+    "noise": 0.75,
+    "scenario_type": 1.0
+  }
+}

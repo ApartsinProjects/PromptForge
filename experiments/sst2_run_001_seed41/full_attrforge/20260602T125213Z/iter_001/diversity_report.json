@@ -1,0 +1,25 @@
+{
+  "summary": "The batch exhibits a good variety of intents, difficulties, polarities, and noise types, but the style attribute is underrepresented, particularly in the formal category. Additionally, there are several near-duplicate phrasings and shallow paraphrases present.",
+  "missing_modes": [
+    "formal"
+  ],
+  "overrepresented_modes": [
+    "informal",
+    "concise",
+    "sarcastic"
+  ],
+  "near_duplicate_rate": 0.25,
+  "recommendations": [
+    "Encourage the generation of samples with formal style to enhance diversity.",
+    "Introduce more unique phrasings to reduce near-duplicate and shallow paraphrase occurrences.",
+    "Ensure a balanced representation of all styles in future batches."
+  ],
+  "coverage": {
+    "intent": 1.0,
+    "difficulty": 1.0,
+    "polarity_intensity": 1.0,
+    "style": 0.8,
+    "noise": 1.0,
+    "scenario_type": 1.0
+  }
+}

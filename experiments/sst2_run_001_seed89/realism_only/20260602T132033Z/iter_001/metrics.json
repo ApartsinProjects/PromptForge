@@ -1,0 +1,19 @@
+{
+  "attribute_match_rate": 0.0,
+  "discriminator_accuracy": 0.5625,
+  "synthetic_detection_rate": 0.5625,
+  "near_duplicate_rate": 0.15,
+  "combination_coverage": 1.0,
+  "entropy/intent": 1.0,
+  "entropy/difficulty": 0.9850568223215079,
+  "entropy/polarity_intensity": 0.9965119062478287,
+  "entropy/style": 0.8839297342362052,
+  "entropy/noise": 0.9886085007312413,
+  "entropy/scenario_type": 0.8605934330165173,
+  "coverage/intent": 1.0,
+  "coverage/difficulty": 1.0,
+  "coverage/polarity_intensity": 1.0,
+  "coverage/style": 1.0,
+  "coverage/noise": 1.0,
+  "coverage/scenario_type": 1.0
+}
