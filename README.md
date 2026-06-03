@@ -8,8 +8,8 @@
 
 **Multi-Objective Prompt Debugging for Realistic, Diverse, and Attribute-Controlled Synthetic Data Generation**
 
-[![Paper](https://img.shields.io/badge/paper-HTML-blue.svg)](https://apartsinprojects.github.io/PromptForge/)
-[![DOCX](https://img.shields.io/badge/paper-DOCX-blue.svg)](https://apartsinprojects.github.io/PromptForge/synsmith.docx)
+[![Paper](https://img.shields.io/badge/paper-HTML-blue.svg)](https://apartsinprojects.github.io/SynSmith/)
+[![DOCX](https://img.shields.io/badge/paper-DOCX-blue.svg)](https://apartsinprojects.github.io/SynSmith/synsmith.docx)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: research preview](https://img.shields.io/badge/status-research%20preview-orange.svg)](#)
@@ -18,9 +18,9 @@
 *An open-source framework that reframes synthetic data generation as iterative,*
 *critic-guided prompt optimization.*
 
-**Paper:** [Adversarial Prompt Debugging for LLM Synthetic Data Generation](https://apartsinprojects.github.io/PromptForge/) (Apartsin & Aperstein) - HTML with KaTeX math, or [download .docx](https://apartsinprojects.github.io/PromptForge/synsmith.docx)
+**Paper:** [SynSmith: Adversarial Multi-Critic Prompt Debugging for Synthetic Data Generation](https://apartsinprojects.github.io/SynSmith/) (Apartsin & Aperstein) - HTML with KaTeX math, or [download .docx](https://apartsinprojects.github.io/SynSmith/synsmith.docx)
 
-[Paper](https://apartsinprojects.github.io/PromptForge/) · [Overview](#overview) · [Method](#method) · [Quickstart](#quickstart) · [Architecture](#architecture) · [Research questions](#research-questions) · [Citation](#citation)
+[Paper](https://apartsinprojects.github.io/SynSmith/) · [Overview](#overview) · [Method](#method) · [Quickstart](#quickstart) · [Architecture](#architecture) · [Research questions](#research-questions) · [Citation](#citation)
 
 </div>
 
@@ -49,12 +49,37 @@ prompt rather than the weights, with four simultaneous objectives:
 
 > **attribute fidelity · realism · diversity · batch-level coverage**
 
-The framework ships two example datasets, customer-support intent
-classification (5 classes, 40 real examples) and Banking77 cards-and-payments
-(10 classes, 300 real-train, 400 held-out test). The released artifacts
-include all per-seed runs, raw critic outputs, aggregation scripts, and the
-cross-condition classifier ensemble harness that reaches macro F1
-$0.947 \pm 0.056$ on customer-support at $N = 10$ seeds.
+The framework ships three example datasets across difficulty regimes:
+customer-support intent classification (5 classes, 40 real examples),
+Banking77 cards-and-payments (10 classes, 300 real-train, 400 held-out test),
+and TREC question-type classification (6 classes, 60 real-train, 89 held-out
+test). The released artifacts include all per-seed runs, raw critic outputs,
+aggregation scripts, and the cross-condition classifier ensemble harness.
+
+---
+
+## Headline results
+
+**Customer-support (N=10 seeds).** Cross-condition classifier ensembling
+reaches macro F1 $0.947 \pm 0.056$, $+0.073$ over the three-critic baseline
+solo (BCa 95% CI $[+0.009, +0.141]$, excludes zero) and $+0.233$ on
+worst-class F1 (BCa 95% CI $[+0.067, +0.500]$, excludes zero), with
+$1.65\times$ lower seed variance than any individual condition.
+
+**Cross-task synth-only headline (N=5 seeds, sentence-transformer + LR on
+full canonical held-out splits).**
+
+| Dataset    | n_test | Real-only | SynSmith synth-only | Δ vs real | σ reduction |
+| ---------- | -----: | --------: | ------------------: | --------: | ----------: |
+| SST-2      |    872 |     0.704 | **0.731 ± 0.029** ✓ |   **+0.027** | 1.7× |
+| Banking77  |    400 |     0.950 | 0.876 ± 0.012       |       -0.074 | **5.8×** |
+| TREC       |     89 |     0.607 | 0.609 ± 0.056       |       +0.002 | 0.7× |
+
+The synthetic batch is at-or-above the real-only baseline on SST-2 and TREC,
+closes most of the gap on Banking77 with 5.8× seed-variance reduction
+(class-balanced planner + regen-on-rejection eliminating per-class
+starvation). Iteration injects a measurable 2× semantic-diversity gain over
+non-iterated baselines (Vendi 19.3 vs 10.1).
 
 ---
 
@@ -111,8 +136,8 @@ ablation flag.
 ### Install
 
 ```bash
-git clone https://github.com/ApartsinProjects/PromptForge.git
-cd PromptForge
+git clone https://github.com/ApartsinProjects/SynSmith.git
+cd SynSmith
 pip install -e ".[openai]"        # or .[anthropic], or .[all]
 ```
 
@@ -395,9 +420,9 @@ If you use SynSmith in academic work, please cite:
   title  = {Adversarial Prompt Debugging for LLM Synthetic Data Generation},
   author = {Apartsin, Alexander and Aperstein, Yehudit},
   year   = {2026},
-  url    = {https://github.com/ApartsinProjects/PromptForge},
+  url    = {https://github.com/ApartsinProjects/SynSmith},
   note   = {Holon Institute of Technology and Afeka College of Engineering, Israel.
-            Paper: \url{https://apartsinprojects.github.io/PromptForge/}.}
+            Paper: \url{https://apartsinprojects.github.io/SynSmith/}.}
 }
 ```
 
